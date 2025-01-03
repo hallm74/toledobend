@@ -8,11 +8,14 @@ const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const LOCATION = 'Many,US'; // Location for weather data
 
 async function fetchLakeLevel() {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox'], // CI/CD compatibility
+    });
     const page = await browser.newPage();
 
     try {
         await page.goto(NOAA_URL, { waitUntil: 'networkidle2' });
+        console.log('Successfully navigated to NOAA URL.');
 
         const lakeLevel = await page.evaluate(() => {
             const latestValueCell = Array.from(document.querySelectorAll('td')).find(
@@ -23,6 +26,7 @@ async function fetchLakeLevel() {
                 : 'Unavailable';
         });
 
+        console.log('Lake level fetched:', lakeLevel);
         return lakeLevel;
     } catch (error) {
         console.error('Error fetching lake level:', error.message);
@@ -48,13 +52,13 @@ async function fetchWeather() {
         const formatTime = (timestamp, offset) => {
             const localTime = new Date((timestamp + offset) * 1000);
             return localTime.toLocaleTimeString('en-US', {
-                timeZone: process.env.TZ || 'UTC', // Respect the TZ variable for environment compatibility
+                timeZone: process.env.TZ || 'America/Chicago', // Default to Central Time if TZ is not set
                 hour: '2-digit',
                 minute: '2-digit',
             });
         };
 
-        return {
+        const weather = {
             temp: weatherData.main.temp,
             feels_like: weatherData.main.feels_like,
             description: weatherData.weather[0].description,
@@ -65,6 +69,9 @@ async function fetchWeather() {
             sunrise: formatTime(weatherData.sys.sunrise, weatherData.timezone),
             sunset: formatTime(weatherData.sys.sunset, weatherData.timezone),
         };
+
+        console.log('Weather data fetched:', weather);
+        return weather;
     } catch (error) {
         console.error('Error fetching weather:', error.message);
         return {
