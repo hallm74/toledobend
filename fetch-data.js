@@ -44,12 +44,11 @@ async function fetchWeather() {
 
         const weatherData = response.data;
 
-        // Use the timezone offset from the API to calculate local times
-        const timezoneOffset = weatherData.timezone * 1000;
-
-        const formatTime = (timestamp) => {
-            const localTime = new Date((timestamp + timezoneOffset) * 1000);
+        // Adjust sunrise and sunset times using the API's timezone offset
+        const formatTime = (timestamp, offset) => {
+            const localTime = new Date((timestamp + offset) * 1000);
             return localTime.toLocaleTimeString('en-US', {
+                timeZone: process.env.TZ || 'UTC', // Respect the TZ variable for environment compatibility
                 hour: '2-digit',
                 minute: '2-digit',
             });
@@ -63,8 +62,8 @@ async function fetchWeather() {
             wind_speed: weatherData.wind.speed || 'No Data',
             wind_deg: weatherData.wind.deg || 'No Data',
             gust: weatherData.wind.gust || 'No Data',
-            sunrise: formatTime(weatherData.sys.sunrise),
-            sunset: formatTime(weatherData.sys.sunset),
+            sunrise: formatTime(weatherData.sys.sunrise, weatherData.timezone),
+            sunset: formatTime(weatherData.sys.sunset, weatherData.timezone),
         };
     } catch (error) {
         console.error('Error fetching weather:', error.message);

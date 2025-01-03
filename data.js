@@ -8,7 +8,7 @@ const data = {
     "wind_speed": 5.1,
     "wind_deg": 60,
     "gust": 5.59,
-    "sunrise": "08:13 AM",
-    "sunset": "06:22 PM"
+    "sunrise": "01:13 AM",
+    "sunset": "11:22 AM"
   }
 };
