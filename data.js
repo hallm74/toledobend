@@ -1,5 +1,5 @@
 const data = {
-  "lakeLevel": "169.74 ft",
+  "lakeLevel": "Unavailable",
   "weather": {
     "temp": 53.92,
     "feels_like": 52.77,
@@ -8,7 +8,7 @@ const data = {
     "wind_speed": 4.59,
     "wind_deg": 64,
     "gust": 9.82,
-    "sunrise": "01:13 AM",
-    "sunset": "11:22 AM"
+    "sunrise": "07:13 AM",
+    "sunset": "05:22 PM"
   }
 };
