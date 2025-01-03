@@ -42,11 +42,38 @@ async function fetchWeather() {
             },
         });
 
-        // Return the entire weather data
-        return response.data;
+        const weatherData = response.data;
+
+        return {
+            temp: weatherData.main.temp,
+            feels_like: weatherData.main.feels_like,
+            description: weatherData.weather[0].description,
+            icon: `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`,
+            wind_speed: weatherData.wind.speed || 'No Data',
+            wind_deg: weatherData.wind.deg || 'No Data',
+            gust: weatherData.wind.gust || 'No Data',
+            sunrise: new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
+            }),
+            sunset: new Date(weatherData.sys.sunset * 1000).toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
+            }),
+        };
     } catch (error) {
         console.error('Error fetching weather:', error.message);
-        return { error: 'Unavailable' };
+        return {
+            temp: 'Unavailable',
+            feels_like: 'Unavailable',
+            description: 'Unavailable',
+            icon: '',
+            wind_speed: 'Unavailable',
+            wind_deg: 'Unavailable',
+            gust: 'Unavailable',
+            sunrise: 'Unavailable',
+            sunset: 'Unavailable',
+        };
     }
 }
 
@@ -57,7 +84,7 @@ async function main() {
 
     const data = {
         lakeLevel,
-        weather, // Save all weather data
+        weather,
     };
 
     // Save as a JavaScript file

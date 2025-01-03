@@ -1,49 +1,14 @@
 const data = {
-  "lakeLevel": "169.72 ft",
+  "lakeLevel": "169.69 ft",
   "weather": {
-    "coord": {
-      "lon": -93.4841,
-      "lat": 31.5688
-    },
-    "weather": [
-      {
-        "id": 800,
-        "main": "Clear",
-        "description": "clear sky",
-        "icon": "01d"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 61.12,
-      "feels_like": 59.61,
-      "temp_min": 61.12,
-      "temp_max": 61.12,
-      "pressure": 1029,
-      "humidity": 57,
-      "sea_level": 1029,
-      "grnd_level": 1018
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 6.06,
-      "deg": 50,
-      "gust": 9.1
-    },
-    "clouds": {
-      "all": 2
-    },
-    "dt": 1735923623,
-    "sys": {
-      "type": 1,
-      "id": 3311,
-      "country": "US",
-      "sunrise": 1735910031,
-      "sunset": 1735946578
-    },
-    "timezone": -21600,
-    "id": 4332518,
-    "name": "Many",
-    "cod": 200
+    "temp": 64.72,
+    "feels_like": 63.39,
+    "description": "clear sky",
+    "icon": "https://openweathermap.org/img/wn/01d@2x.png",
+    "wind_speed": 5.1,
+    "wind_deg": 60,
+    "gust": 5.59,
+    "sunrise": "07:13 AM",
+    "sunset": "05:22 PM"
   }
 };

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Toledo Bend Tool</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -34,11 +35,23 @@
       padding: 0;
     }
     .data-list li {
+      display: flex;
+      align-items: center;
       padding: 8px 0;
       border-bottom: 1px solid #eee;
     }
     .data-list li:last-child {
       border-bottom: none;
+    }
+    .data-list .icon {
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+    .weather-icon {
+      display: block;
+      margin: 10px auto;
+      width: 100px;
+      height: auto;
     }
   </style>
 </head>
@@ -52,8 +65,16 @@
 
   <div class="data-section" id="weather-section">
     <h2>Weather Data</h2>
+    <img id="weather-icon" class="weather-icon" alt="Weather Icon" />
     <ul class="data-list" id="weather-data">
-      <li>Loading...</li>
+      <li><i class="bi bi-thermometer-high icon"></i> <span id="current-temp">Loading...</span></li>
+      <li><i class="bi bi-thermometer-half icon"></i> <span id="feels-like">Loading...</span></li>
+      <li><i class="bi bi-cloud icon"></i> <span id="description">Loading...</span></li>
+      <li><i class="bi bi-wind icon"></i> <span id="wind-speed">Loading...</span></li>
+      <li><i class="bi bi-compass icon"></i> <span id="wind-deg">Loading...</span></li>
+      <li><i class="bi bi-water icon"></i> <span id="wind-gust">Loading...</span></li>
+      <li><i class="bi bi-sunrise icon"></i> <span id="sunrise">Loading...</span></li>
+      <li><i class="bi bi-sunset icon"></i> <span id="sunset">Loading...</span></li>
     </ul>
   </div>
 
@@ -72,30 +93,25 @@
 
       // Update weather data
       const weatherData = data.weather || {};
-      const weatherList = document.getElementById("weather-data");
-      weatherList.innerHTML = ""; // Clear existing content
+      document.getElementById("current-temp").textContent = `Current Temperature: ${weatherData.temp || "Unavailable"} °F`;
+      document.getElementById("feels-like").textContent = `Feels Like: ${weatherData.feels_like || "Unavailable"} °F`;
+      document.getElementById("description").textContent = `Description: ${weatherData.description || "Unavailable"}`;
+      document.getElementById("wind-speed").textContent = `Wind Speed: ${weatherData.wind_speed || "Unavailable"} mph`;
+      document.getElementById("wind-deg").textContent = `Wind Direction: ${weatherData.wind_deg || "Unavailable"}°`;
+      document.getElementById("wind-gust").textContent = `Wind Gust: ${weatherData.gust || "Unavailable"} mph`;
+      document.getElementById("sunrise").textContent = `Sunrise: ${weatherData.sunrise || "Unavailable"}`;
+      document.getElementById("sunset").textContent = `Sunset: ${weatherData.sunset || "Unavailable"}`;
 
-      // Add weather data
-      const weatherDetails = [
-        { label: "Current Temperature", value: `${weatherData.main.temp} °F` },
-        { label: "Feels Like", value: `${weatherData.main.feels_like} °F` },
-        { label: "Description", value: weatherData.weather[0].description },
-        { label: "Wind Speed", value: `${weatherData.wind.speed} mph` },
-        { label: "Wind Direction", value: `${weatherData.wind.deg}°` },
-        { label: "Wind Gust", value: weatherData.wind.gust ? `${weatherData.wind.gust} mph` : "No Data" },
-        { label: "Sunrise", value: formatTime(weatherData.sys.sunrise) },
-        { label: "Sunset", value: formatTime(weatherData.sys.sunset) },
-      ];
-
-      weatherDetails.forEach(detail => {
-        const listItem = document.createElement("li");
-        listItem.textContent = `${detail.label}: ${detail.value}`;
-        weatherList.appendChild(listItem);
-      });
+      const weatherIcon = document.getElementById("weather-icon");
+      if (weatherData.icon) {
+        weatherIcon.src = weatherData.icon;
+        weatherIcon.alt = weatherData.description || "Weather icon";
+      } else {
+        weatherIcon.alt = "No icon available";
+      }
     } else {
       document.getElementById("lake-level").textContent = "Data not available.";
-      const weatherList = document.getElementById("weather-data");
-      weatherList.innerHTML = "<li>Data not available.</li>";
+      document.getElementById("weather-data").innerHTML = "<li>Data not available.</li>";
     }
   </script>
 </body>
