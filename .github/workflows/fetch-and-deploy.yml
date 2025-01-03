@@ -1,4 +1,4 @@
-name: Fetch and Commit Data
+name: Fetch and Deploy Data
 
 on:
   schedule:
@@ -6,27 +6,34 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
-  fetch-data:
+  fetch-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
-      - name: Run fetch script
+      # Step 4: Run fetch script
+      - name: Fetch weather and lake data
         env:
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: node fetch-data.js
 
+      # Step 5: Commit and push updated data
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
