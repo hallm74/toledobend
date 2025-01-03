@@ -1,13 +1,13 @@
 const data = {
-  "lakeLevel": "169.72 ft",
+  "lakeLevel": "169.73 ft",
   "weather": {
-    "temp": 66.52,
-    "feels_like": 65.41,
+    "temp": 64.72,
+    "feels_like": 63.66,
     "description": "clear sky",
     "icon": "https://openweathermap.org/img/wn/01d@2x.png",
-    "wind_speed": 4.94,
-    "wind_deg": 59,
-    "gust": 5.26,
+    "wind_speed": 5.14,
+    "wind_deg": 53,
+    "gust": 6.33,
     "sunrise": "07:13 AM",
     "sunset": "05:22 PM"
   }
