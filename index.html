@@ -47,11 +47,11 @@
       margin-right: 10px;
       font-size: 1.2rem;
     }
-    .weather-icon {
+    .dynamic-weather-icon {
       display: block;
-      margin: 10px auto;
-      width: 100px;
-      height: auto;
+      margin: 20px auto;
+      font-size: 4rem;
+      color: #2a9df4;
     }
   </style>
 </head>
@@ -65,7 +65,7 @@
 
   <div class="data-section" id="weather-section">
     <h2>Weather Data</h2>
-    <img id="weather-icon" class="weather-icon" alt="Weather Icon" />
+    <i id="dynamic-weather-icon" class="dynamic-weather-icon bi"></i>
     <ul class="data-list" id="weather-data">
       <li><i class="bi bi-thermometer-high icon"></i> <span id="current-temp">Loading...</span></li>
       <li><i class="bi bi-thermometer-half icon"></i> <span id="feels-like">Loading...</span></li>
@@ -85,6 +85,16 @@
       return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
     }
 
+    function getWeatherIcon(description) {
+      const desc = description.toLowerCase();
+      if (desc.includes('clear')) return 'bi-sun';
+      if (desc.includes('cloud')) return 'bi-cloud';
+      if (desc.includes('rain')) return 'bi-cloud-rain';
+      if (desc.includes('snow')) return 'bi-cloud-snow';
+      if (desc.includes('thunderstorm')) return 'bi-cloud-lightning';
+      return 'bi-question-circle';
+    }
+
     // Ensure the `data` object exists and populate the HTML
     if (typeof data !== "undefined") {
       // Update lake level
@@ -102,13 +112,9 @@
       document.getElementById("sunrise").textContent = `Sunrise: ${weatherData.sunrise || "Unavailable"}`;
       document.getElementById("sunset").textContent = `Sunset: ${weatherData.sunset || "Unavailable"}`;
 
-      const weatherIcon = document.getElementById("weather-icon");
-      if (weatherData.icon) {
-        weatherIcon.src = weatherData.icon;
-        weatherIcon.alt = weatherData.description || "Weather icon";
-      } else {
-        weatherIcon.alt = "No icon available";
-      }
+      // Add dynamic weather icon
+      const dynamicWeatherIcon = document.getElementById("dynamic-weather-icon");
+      dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || ""));
     } else {
       document.getElementById("lake-level").textContent = "Data not available.";
       document.getElementById("weather-data").innerHTML = "<li>Data not available.</li>";
