@@ -1,5 +1,5 @@
 const data = {
-  "lakeLevel": "169.71 ft",
+  "lakeLevel": "169.69 ft",
   "weather": {
     "coord": {
       "lon": -93.4841,
@@ -15,25 +15,25 @@ const data = {
     ],
     "base": "stations",
     "main": {
-      "temp": 62.92,
-      "feels_like": 61.45,
-      "temp_min": 62.92,
-      "temp_max": 62.92,
-      "pressure": 1028,
+      "temp": 64.72,
+      "feels_like": 63.43,
+      "temp_min": 64.72,
+      "temp_max": 64.72,
+      "pressure": 1027,
       "humidity": 54,
-      "sea_level": 1028,
-      "grnd_level": 1017
+      "sea_level": 1027,
+      "grnd_level": 1016
     },
     "visibility": 10000,
     "wind": {
-      "speed": 6.2,
-      "deg": 51,
-      "gust": 8.05
+      "speed": 5.55,
+      "deg": 60,
+      "gust": 6.6
     },
     "clouds": {
-      "all": 1
+      "all": 0
     },
-    "dt": 1735928466,
+    "dt": 1735931543,
     "sys": {
       "type": 1,
       "id": 3311,
