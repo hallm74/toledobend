@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toledo Bend Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .data-section {
+      margin-bottom: 20px;
+    }
+    .data-section h2 {
+      margin-top: 0;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Toledo Bend Tool</h1>
+
+  <div class="data-section" id="lake-level-section">
+    <h2>Lake Level</h2>
+    <p id="lake-level">Loading...</p>
+  </div>
+
+  <div class="data-section" id="weather-section">
+    <h2>Weather Data</h2>
+    <pre id="weather-data">Loading...</pre>
+  </div>
+
+  <script src="./data.js"></script>
+  <script>
+    // Ensure the `data` object exists and populate the HTML
+    if (typeof data !== "undefined") {
+      // Update lake level
+      const lakeLevel = data.lakeLevel || "Unavailable";
+      document.getElementById("lake-level").textContent = lakeLevel;
+
+      // Update weather data
+      const weatherData = JSON.stringify(data.weather, null, 2) || "Unavailable";
+      document.getElementById("weather-data").textContent = weatherData;
+    } else {
+      document.getElementById("lake-level").textContent = "Data not available.";
+      document.getElementById("weather-data").textContent = "Data not available.";
+    }
+  </script>
+</body>
+</html>

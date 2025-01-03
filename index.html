@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toledo Bend Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+    h1 {
+      color: #2a9df4;
+      text-align: center;
+    }
+    .data-section {
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .data-section h2 {
+      margin-top: 0;
+      color: #2a9df4;
+    }
+    .data-list {
+      list-style: none;
+      padding: 0;
+    }
+    .data-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .data-list li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Toledo Bend Tool</h1>
+
+  <div class="data-section" id="lake-level-section">
+    <h2>Lake Level</h2>
+    <p id="lake-level">Loading...</p>
+  </div>
+
+  <div class="data-section" id="weather-section">
+    <h2>Weather Data</h2>
+    <ul class="data-list" id="weather-data">
+      <li>Loading...</li>
+    </ul>
+  </div>
+
+  <script src="./data.js"></script>
+  <script>
+    function formatTime(timestamp) {
+      const date = new Date(timestamp * 1000);
+      return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    }
+
+    // Ensure the `data` object exists and populate the HTML
+    if (typeof data !== "undefined") {
+      // Update lake level
+      const lakeLevel = data.lakeLevel || "Unavailable";
+      document.getElementById("lake-level").textContent = lakeLevel;
+
+      // Update weather data
+      const weatherData = data.weather || {};
+      const weatherList = document.getElementById("weather-data");
+      weatherList.innerHTML = ""; // Clear existing content
+
+      // Add weather data
+      const weatherDetails = [
+        { label: "Current Temperature", value: `${weatherData.main.temp} °F` },
+        { label: "Feels Like", value: `${weatherData.main.feels_like} °F` },
+        { label: "Description", value: weatherData.weather[0].description },
+        { label: "Wind Speed", value: `${weatherData.wind.speed} mph` },
+        { label: "Wind Direction", value: `${weatherData.wind.deg}°` },
+        { label: "Wind Gust", value: weatherData.wind.gust ? `${weatherData.wind.gust} mph` : "No Data" },
+        { label: "Sunrise", value: formatTime(weatherData.sys.sunrise) },
+        { label: "Sunset", value: formatTime(weatherData.sys.sunset) },
+      ];
+
+      weatherDetails.forEach(detail => {
+        const listItem = document.createElement("li");
+        listItem.textContent = `${detail.label}: ${detail.value}`;
+        weatherList.appendChild(listItem);
+      });
+    } else {
+      document.getElementById("lake-level").textContent = "Data not available.";
+      const weatherList = document.getElementById("weather-data");
+      weatherList.innerHTML = "<li>Data not available.</li>";
+    }
+  </script>
+</body>
+</html>
