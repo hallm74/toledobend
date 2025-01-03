@@ -44,6 +44,8 @@ async function fetchWeather() {
 
         const weatherData = response.data;
 
+        const timezoneOffset = weatherData.timezone;
+
         return {
             temp: weatherData.main.temp,
             feels_like: weatherData.main.feels_like,
@@ -52,11 +54,11 @@ async function fetchWeather() {
             wind_speed: weatherData.wind.speed || 'No Data',
             wind_deg: weatherData.wind.deg || 'No Data',
             gust: weatherData.wind.gust || 'No Data',
-            sunrise: new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString('en-US', {
+            sunrise: new Date((weatherData.sys.sunrise + timezoneOffset) * 1000).toLocaleTimeString('en-US', {
                 hour: '2-digit',
                 minute: '2-digit',
             }),
-            sunset: new Date(weatherData.sys.sunset * 1000).toLocaleTimeString('en-US', {
+            sunset: new Date((weatherData.sys.sunset + timezoneOffset) * 1000).toLocaleTimeString('en-US', {
                 hour: '2-digit',
                 minute: '2-digit',
             }),
