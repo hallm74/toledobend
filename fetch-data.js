@@ -8,21 +8,33 @@ const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const LOCATION = 'Many,US'; // Location for weather data
 
 async function fetchLakeLevel() {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox'], // Add this for better CI/CD compatibility
+    });
     const page = await browser.newPage();
 
     try {
         await page.goto(NOAA_URL, { waitUntil: 'networkidle2' });
+        console.log('Successfully navigated to NOAA URL.');
+
+        // Debugging: Print page content
+        const pageContent = await page.content();
+        console.log('Page content loaded.');
 
         const lakeLevel = await page.evaluate(() => {
-            const latestValueCell = Array.from(document.querySelectorAll('td')).find(
-                td => td.textContent.trim() === 'Latest Value'
-            );
-            return latestValueCell
-                ? latestValueCell.nextElementSibling.textContent.trim()
-                : 'Unavailable';
+            const rows = Array.from(document.querySelectorAll('tr')); // Select all rows
+            for (let row of rows) {
+                if (row.textContent.includes('Latest Value')) {
+                    const cells = row.querySelectorAll('td');
+                    if (cells.length > 1) {
+                        return cells[1].textContent.trim(); // Assume the second cell contains the lake level
+                    }
+                }
+            }
+            return 'Unavailable';
         });
 
+        console.log('Lake level fetched:', lakeLevel);
         return lakeLevel;
     } catch (error) {
         console.error('Error fetching lake level:', error.message);
