@@ -15,10 +15,10 @@ const data = {
     ],
     "base": "stations",
     "main": {
-      "temp": 61.12,
-      "feels_like": 59.47,
-      "temp_min": 61.12,
-      "temp_max": 61.12,
+      "temp": 62.92,
+      "feels_like": 61.45,
+      "temp_min": 62.92,
+      "temp_max": 62.92,
       "pressure": 1028,
       "humidity": 54,
       "sea_level": 1028,
@@ -33,7 +33,7 @@ const data = {
     "clouds": {
       "all": 1
     },
-    "dt": 1735925701,
+    "dt": 1735928466,
     "sys": {
       "type": 1,
       "id": 3311,
