@@ -1,6 +1,5 @@
 const data = {
-<<<<<<< HEAD
-  "lakeLevel": "169.62ft 1:00pm",
+  "lakeLevel": "169.63ft 1:30pm",
   "currentWeather": {
     "temp": 59.9,
     "feels_like": 58.98,
@@ -8,25 +7,12 @@ const data = {
     "wind_speed": 9.53,
     "wind_deg": 145,
     "gust": 16.91,
-    "sunrise": "01:13 AM",
-    "sunset": "11:25 AM",
-=======
-  "lakeLevel": "169.64ft 12:30pm",
-  "weather": {
-    "temp": 59.32,
-    "feels_like": 58.3,
-    "description": "overcast clouds",
-    "wind_speed": 6.35,
-    "wind_deg": 127,
-    "gust": 18.39,
     "sunrise": "07:13 AM",
-    "sunset": "05:23 PM",
->>>>>>> Toledo-Bend/main
+    "sunset": "05:25 PM",
     "dayOrNight": "day"
   },
   "fiveDayWeather": [
     {
-<<<<<<< HEAD
       "date": "Sunday",
       "high": 70.32,
       "low": 38.46,
@@ -70,51 +56,6 @@ const data = {
       "wind_speed": 12.39,
       "wind_deg": 102,
       "gust": 27.89
-=======
-      "date": "2025-01-05",
-      "high": 56.21,
-      "low": 54.66,
-      "description": "overcast clouds",
-      "wind_speed": 7.2,
-      "wind_deg": 125,
-      "gust": 25.3
-    },
-    {
-      "date": "2025-01-06",
-      "high": 48.02,
-      "low": 48.02,
-      "description": "moderate rain",
-      "wind_speed": 11.21,
-      "wind_deg": 301,
-      "gust": 30.29
-    },
-    {
-      "date": "2025-01-07",
-      "high": 37.13,
-      "low": 37.13,
-      "description": "clear sky",
-      "wind_speed": 5.91,
-      "wind_deg": 354,
-      "gust": 17.22
-    },
-    {
-      "date": "2025-01-08",
-      "high": 35.96,
-      "low": 35.96,
-      "description": "clear sky",
-      "wind_speed": 4.18,
-      "wind_deg": 18,
-      "gust": 6.8
-    },
-    {
-      "date": "2025-01-09",
-      "high": 37.92,
-      "low": 37.92,
-      "description": "overcast clouds",
-      "wind_speed": 1.63,
-      "wind_deg": 6,
-      "gust": 5.93
->>>>>>> Toledo-Bend/main
     }
   ],
   "fishingReport": {
