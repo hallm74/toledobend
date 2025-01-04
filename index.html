@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Open Graph Metadata -->
-  <meta property="og:title" content="Toledo Bend tackle box">
+  <meta property="og:title" content="Toledo Bend Tacklebox">
   <meta property="og:description" content="Get the latest lake levels, weather, and fishing information for Toledo Bend.">
   <meta property="og:image" content="images/ogimage.png">
   <meta property="og:type" content="website">
@@ -64,7 +64,7 @@
   </style>
 </head>
 <body>
-  <h1>Toledo Bend tackle box</h1>
+  <h1>Toledo Bend Tacklebox</h1>
 
   <div class="data-section" id="lake-level-section">
     <h2>Lake Level</h2>
@@ -88,16 +88,15 @@
 
   <script src="./data.js"></script>
   <script>
-    function formatTime(timestamp) {
-      const date = new Date(timestamp * 1000);
-      return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    function isNightTime(currentTime, sunrise, sunset) {
+      return currentTime < sunrise || currentTime > sunset;
     }
 
-    function getWeatherIcon(description) {
+    function getWeatherIcon(description, isNight) {
       const desc = description.toLowerCase();
-      if (desc.includes('clear')) return 'bi-sun';
-      if (desc.includes('cloud')) return 'bi-cloud';
-      if (desc.includes('rain')) return 'bi-cloud-rain';
+      if (desc.includes('clear')) return isNight ? 'bi-moon' : 'bi-sun';
+      if (desc.includes('cloud')) return isNight ? 'bi-cloud-moon' : 'bi-cloud-sun';
+      if (desc.includes('rain')) return isNight ? 'bi-cloud-moon-rain' : 'bi-cloud-rain';
       if (desc.includes('snow')) return 'bi-cloud-snow';
       if (desc.includes('thunderstorm')) return 'bi-cloud-lightning';
       return 'bi-question-circle';
@@ -120,9 +119,15 @@
       document.getElementById("sunrise").textContent = `Sunrise: ${weatherData.sunrise || "Unavailable"}`;
       document.getElementById("sunset").textContent = `Sunset: ${weatherData.sunset || "Unavailable"}`;
 
+      // Determine if it's day or night
+      const currentTime = Math.floor(Date.now() / 1000); // Current time in seconds
+      const sunrise = new Date(`1970-01-01T${weatherData.sunrise}:00Z`).getTime() / 1000;
+      const sunset = new Date(`1970-01-01T${weatherData.sunset}:00Z`).getTime() / 1000;
+      const isNight = isNightTime(currentTime, sunrise, sunset);
+
       // Add dynamic weather icon
       const dynamicWeatherIcon = document.getElementById("dynamic-weather-icon");
-      dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || ""));
+      dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || "", isNight));
     } else {
       document.getElementById("lake-level").textContent = "Data not available.";
       document.getElementById("weather-data").innerHTML = "<li>Data not available.</li>";
