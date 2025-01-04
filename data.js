@@ -1,8 +1,8 @@
 const data = {
   "lakeLevel": "Unavailable",
   "weather": {
-    "temp": 61.12,
-    "feels_like": 60.69,
+    "temp": 53.92,
+    "feels_like": 52.77,
     "description": "clear sky",
     "icon": "https://openweathermap.org/img/wn/01n@2x.png",
     "wind_speed": 4.59,
