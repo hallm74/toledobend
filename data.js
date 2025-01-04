@@ -1,5 +1,9 @@
 const data = {
+<<<<<<< HEAD
   "lakeLevel": "169.62ft 1:00pm",
+=======
+  "lakeLevel": "169.63ft 1:30pm",
+>>>>>>> Toledo-Bend/main
   "currentWeather": {
     "temp": 59.9,
     "feels_like": 58.98,
@@ -7,8 +11,13 @@ const data = {
     "wind_speed": 9.53,
     "wind_deg": 145,
     "gust": 16.91,
+<<<<<<< HEAD
     "sunrise": "01:13 AM",
     "sunset": "11:25 AM",
+=======
+    "sunrise": "07:13 AM",
+    "sunset": "05:25 PM",
+>>>>>>> Toledo-Bend/main
     "dayOrNight": "day"
   },
   "fiveDayWeather": [
