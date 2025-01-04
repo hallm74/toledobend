@@ -3,11 +3,13 @@ const axios = require('axios');
 const fs = require('fs');
 require('dotenv').config();
 
-const NOAA_URL = 'https://water.noaa.gov/gauges/bklt2';
+const SRATX_URL = 'https://www.sratx.org/basin-conditions/lake-levels/';
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
+const FISHING_REPORT_URL = 'https://tpwd.texas.gov/fishboat/fish/action/reptform2.php?water=Freshwater&lake=TOLEDO+BEND&Submit=View+Report&archive=latest&yearcat=2024';
 const LOCATION = 'Many,US'; // Location for weather data
 const LAKE_LEVEL_HISTORY_FILE = 'lakeLevelHistory.json';
-const HISTORY_LIMIT = 5; // Keep the last 5 valid lake levels
+const FISHING_REPORT_HISTORY_FILE = 'fishingReportHistory.json';
+const HISTORY_LIMIT = 5; // Keep the last 5 valid reports
 const PAGE_LOAD_TIMEOUT = 120000; // Maximum time to wait for the page to load
 
 async function fetchLakeLevel() {
@@ -17,18 +19,17 @@ async function fetchLakeLevel() {
     const page = await browser.newPage();
 
     try {
-        console.log('Navigating to NOAA URL...');
-        await page.goto(NOAA_URL, { waitUntil: 'domcontentloaded', timeout: PAGE_LOAD_TIMEOUT });
-        console.log('NOAA page loaded.');
+        console.log('Navigating to SRATX URL...');
+        await page.goto(SRATX_URL, { waitUntil: 'domcontentloaded', timeout: PAGE_LOAD_TIMEOUT });
+        console.log('SRATX page loaded.');
 
         const lakeLevel = await page.evaluate(() => {
             const rows = Array.from(document.querySelectorAll('tr'));
             for (let row of rows) {
-                if (row.textContent.includes('Latest Value')) {
-                    const cells = row.querySelectorAll('td');
-                    if (cells.length > 1) {
-                        return cells[1].textContent.trim();
-                    }
+                const link = row.querySelector('td.column-1 a');
+                if (link && link.textContent.includes('Toledo Bend')) {
+                    const lakeData = row.querySelector('td.column-3');
+                    return lakeData ? lakeData.textContent.trim() : null;
                 }
             }
             return null;
@@ -36,14 +37,14 @@ async function fetchLakeLevel() {
 
         if (lakeLevel) {
             console.log('Lake level fetched:', lakeLevel);
-            updateLakeLevelHistory(lakeLevel);
+            updateHistory(LAKE_LEVEL_HISTORY_FILE, lakeLevel);
             return lakeLevel;
         } else {
             throw new Error('Lake level not found.');
         }
     } catch (error) {
         console.error('Error fetching lake level:', error.message);
-        const fallbackLakeLevel = getFallbackLakeLevel();
+        const fallbackLakeLevel = getFallbackFromHistory(LAKE_LEVEL_HISTORY_FILE);
         console.log('Reverting to last known lake level:', fallbackLakeLevel);
         return fallbackLakeLevel;
     } finally {
@@ -51,29 +52,29 @@ async function fetchLakeLevel() {
     }
 }
 
-function getFallbackLakeLevel() {
-    if (fs.existsSync(LAKE_LEVEL_HISTORY_FILE)) {
-        const data = JSON.parse(fs.readFileSync(LAKE_LEVEL_HISTORY_FILE, 'utf-8'));
-        return data.length > 0 ? data[data.length - 1] : 'Unavailable';
-    }
-    return 'Unavailable';
-}
-
-function updateLakeLevelHistory(newLevel) {
+function updateHistory(file, newEntry) {
     let history = [];
 
-    if (fs.existsSync(LAKE_LEVEL_HISTORY_FILE)) {
-        history = JSON.parse(fs.readFileSync(LAKE_LEVEL_HISTORY_FILE, 'utf-8'));
+    if (fs.existsSync(file)) {
+        history = JSON.parse(fs.readFileSync(file, 'utf-8'));
     }
 
-    history.push(newLevel);
+    history.push(newEntry);
 
     if (history.length > HISTORY_LIMIT) {
         history.shift();
     }
 
-    fs.writeFileSync(LAKE_LEVEL_HISTORY_FILE, JSON.stringify(history, null, 2));
-    console.log('Lake level history updated:', history);
+    fs.writeFileSync(file, JSON.stringify(history, null, 2));
+    console.log(`${file} updated:`, history);
+}
+
+function getFallbackFromHistory(file) {
+    if (fs.existsSync(file)) {
+        const history = JSON.parse(fs.readFileSync(file, 'utf-8'));
+        return history.length > 0 ? history[history.length - 1] : 'Unavailable';
+    }
+    return 'Unavailable';
 }
 
 async function fetchWeather() {
@@ -109,7 +110,7 @@ async function fetchWeather() {
             gust: weatherData.wind.gust || 'No Data',
             sunrise: formatTime(weatherData.sys.sunrise, weatherData.timezone),
             sunset: formatTime(weatherData.sys.sunset, weatherData.timezone),
-            dayOrNight, // Add day or night
+            dayOrNight,
         };
     } catch (error) {
         console.error('Error fetching weather:', error.message);
@@ -117,7 +118,6 @@ async function fetchWeather() {
             temp: 'Unavailable',
             feels_like: 'Unavailable',
             description: 'Unavailable',
-            icon: '',
             wind_speed: 'Unavailable',
             wind_deg: 'Unavailable',
             gust: 'Unavailable',
@@ -128,14 +128,55 @@ async function fetchWeather() {
     }
 }
 
+async function fetchFishingReport() {
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    });
+    const page = await browser.newPage();
+
+    try {
+        console.log('Navigating to fishing report URL...');
+        await page.goto(FISHING_REPORT_URL, { waitUntil: 'domcontentloaded', timeout: PAGE_LOAD_TIMEOUT });
+        console.log('Fishing report page loaded.');
+
+        const report = await page.evaluate(() => {
+            const header = document.querySelector('h1');
+            if (!header || !header.textContent.includes('Toledo Bend Fishing Report')) {
+                return { date: 'Unavailable', report: 'Fishing report not found' };
+            }
+
+            const dateElement = document.querySelector('dl dt span.title');
+            const textElement = document.querySelector('dl dd');
+
+            return {
+                date: dateElement ? dateElement.textContent.trim() : 'Unavailable',
+                report: textElement ? textElement.textContent.trim() : 'Fishing report content not found',
+            };
+        });
+
+        console.log('Fishing report fetched:', report);
+        updateHistory(FISHING_REPORT_HISTORY_FILE, report);
+        return report;
+    } catch (error) {
+        console.error('Error fetching fishing report:', error.message);
+        const fallbackFishingReport = getFallbackFromHistory(FISHING_REPORT_HISTORY_FILE);
+        console.log('Reverting to last known fishing report:', fallbackFishingReport);
+        return fallbackFishingReport;
+    } finally {
+        await browser.close();
+    }
+}
+
 async function main() {
     console.log('Fetching data...');
     const lakeLevel = await fetchLakeLevel();
     const weather = await fetchWeather();
+    const fishingReport = await fetchFishingReport();
 
     const data = {
         lakeLevel,
         weather,
+        fishingReport,
     };
 
     const dataJsContent = `const data = ${JSON.stringify(data, null, 2)};`;
