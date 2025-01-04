@@ -1,19 +1,14 @@
 const data = {
   "lakeLevel": "169.65ft 10:30am",
   "weather": {
-    "temp": 52.12,
-    "feels_like": 50.38,
+    "temp": 53.92,
+    "feels_like": 52.36,
     "description": "overcast clouds",
     "wind_speed": 6.35,
     "wind_deg": 125,
     "gust": 19.17,
-<<<<<<< HEAD
-    "sunrise": "01:13 AM",
-    "sunset": "11:23 AM",
-=======
     "sunrise": "07:13 AM",
     "sunset": "05:23 PM",
->>>>>>> Toledo-Bend/main
     "dayOrNight": "day"
   },
   "fishingReport": {
