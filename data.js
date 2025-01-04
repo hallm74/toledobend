@@ -1,70 +1,61 @@
 const data = {
-<<<<<<< HEAD
-  "lakeLevel": "169.64ft 11:30am",
-=======
-  "lakeLevel": "169.64ft 12:00pm",
->>>>>>> Toledo-Bend/main
-  "weather": {
-    "temp": 57.52,
-    "feels_like": 56.32,
+  "lakeLevel": "169.62ft 1:00pm",
+  "currentWeather": {
+    "temp": 59.9,
+    "feels_like": 58.98,
     "description": "overcast clouds",
-    "wind_speed": 6.35,
-    "wind_deg": 130,
-    "gust": 16.33,
-<<<<<<< HEAD
+    "wind_speed": 9.53,
+    "wind_deg": 145,
+    "gust": 16.91,
     "sunrise": "01:13 AM",
-    "sunset": "11:23 AM",
-=======
-    "sunrise": "07:13 AM",
-    "sunset": "05:23 PM",
->>>>>>> Toledo-Bend/main
+    "sunset": "11:25 AM",
     "dayOrNight": "day"
   },
   "fiveDayWeather": [
     {
-      "date": "2025-01-05",
-      "high": 54.23,
-      "low": 52.57,
-      "description": "overcast clouds",
-      "wind_speed": 7.27,
-      "wind_deg": 109,
-      "gust": 22.91
+      "date": "Sunday",
+      "high": 70.32,
+      "low": 38.46,
+      "description": "heavy intensity rain",
+      "wind_speed": 17.58,
+      "wind_deg": 212,
+      "gust": 37.11
     },
     {
-      "date": "2025-01-06",
-      "high": 49.93,
-      "low": 49.93,
-      "description": "moderate rain",
-      "wind_speed": 11.18,
-      "wind_deg": 302,
-      "gust": 31.25
-    },
-    {
-      "date": "2025-01-07",
-      "high": 37,
-      "low": 37,
+      "date": "Monday",
+      "high": 44.22,
+      "low": 29.26,
       "description": "clear sky",
-      "wind_speed": 6.62,
-      "wind_deg": 344,
-      "gust": 18.3
+      "wind_speed": 15.93,
+      "wind_deg": 318,
+      "gust": 33.62
     },
     {
-      "date": "2025-01-08",
-      "high": 35.76,
-      "low": 35.76,
+      "date": "Tuesday",
+      "high": 46.4,
+      "low": 30.96,
       "description": "clear sky",
-      "wind_speed": 4.34,
-      "wind_deg": 8,
-      "gust": 8.19
+      "wind_speed": 8.7,
+      "wind_deg": 7,
+      "gust": 18.72
     },
     {
-      "date": "2025-01-09",
-      "high": 36,
-      "low": 36,
-      "description": "scattered clouds",
-      "wind_speed": 4.63,
-      "wind_deg": 358,
-      "gust": 11.63
+      "date": "Wednesday",
+      "high": 44.2,
+      "low": 31.78,
+      "description": "broken clouds",
+      "wind_speed": 9.08,
+      "wind_deg": 38,
+      "gust": 18.88
+    },
+    {
+      "date": "Thursday",
+      "high": 38.55,
+      "low": 34.84,
+      "description": "heavy intensity rain",
+      "wind_speed": 12.39,
+      "wind_deg": 102,
+      "gust": 27.89
     }
   ],
   "fishingReport": {

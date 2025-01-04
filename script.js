@@ -28,7 +28,7 @@ function toggleTheme() {
 if (typeof data !== "undefined") {
     const body = document.body;
     const themeToggle = document.getElementById('theme-toggle');
-    const dayOrNight = data.weather.dayOrNight || "day";
+    const dayOrNight = data.currentWeather.dayOrNight || "day";
 
     // Apply initial theme and icon
     body.classList.add(dayOrNight === "night" ? "dark-mode" : "light-mode");
@@ -42,25 +42,25 @@ if (typeof data !== "undefined") {
     document.getElementById("lake-level").textContent = data.lakeLevel || "Unavailable";
 
     // Populate Weather Data
-    const weatherData = data.weather || {};
+    const weatherData = data.currentWeather || {};
     const dynamicWeatherIcon = document.getElementById("dynamic-weather-icon");
     dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || "", dayOrNight));
 
-    document.getElementById("current-temp").textContent = `${weatherData.temp || "Unavailable"} °F`;
-    document.getElementById("feels-like").textContent = `${weatherData.feels_like || "Unavailable"} °F`;
-    document.getElementById("description").textContent = `${weatherData.description || "Unavailable"}`;
-    document.getElementById("wind-speed").textContent = `${weatherData.wind_speed || "Unavailable"} mph`;
+    document.getElementById("current-temp").innerHTML = `<strong>Current Temp:</strong> ${weatherData.temp || "Unavailable"} °F`;
+    document.getElementById("feels-like").innerHTML = `<strong>Feels Like:</strong> ${weatherData.feels_like || "Unavailable"} °F`;
+    document.getElementById("description").innerHTML = `<strong>Description:</strong> ${weatherData.description || "Unavailable"}`;
+    document.getElementById("wind-speed").innerHTML = `<strong>Wind Speed:</strong> ${weatherData.wind_speed || "Unavailable"} mph`;
 
     const windDeg = weatherData.wind_deg || "Unavailable";
     if (windDeg !== "Unavailable") {
-        document.getElementById("wind-deg").textContent = `${windDeg}° (${getCardinalDirection(windDeg)})`;
+        document.getElementById("wind-deg").innerHTML = `<strong>Wind Direction:</strong> ${windDeg}° (${getCardinalDirection(windDeg)})`;
     } else {
-        document.getElementById("wind-deg").textContent = "Unavailable";
+        document.getElementById("wind-deg").innerHTML = `<strong>Wind Direction:</strong> Unavailable`;
     }
 
-    document.getElementById("wind-gust").textContent = `${weatherData.gust || "Unavailable"} mph`;
-    document.getElementById("sunrise").textContent = `${weatherData.sunrise || "Unavailable"}`;
-    document.getElementById("sunset").textContent = `${weatherData.sunset || "Unavailable"}`;
+    document.getElementById("wind-gust").innerHTML = `<strong>Wind Gust:</strong> ${weatherData.gust || "Unavailable"} mph`;
+    document.getElementById("sunrise").innerHTML = `<strong>Sunrise:</strong> ${weatherData.sunrise || "Unavailable"}`;
+    document.getElementById("sunset").innerHTML = `<strong>Sunset:</strong> ${weatherData.sunset || "Unavailable"}`;
 
     // Populate Fishing Report
     const fishingReport = data.fishingReport || {};
@@ -83,11 +83,11 @@ if (typeof data !== "undefined") {
                 </div>
                 <div class="card-body text-center">
                     <i class="bi ${getWeatherIcon(day.description, "day")} fs-1"></i>
-                    <p class="mb-2">${day.description}</p>
-                    <p class="mb-1"><i class="bi bi-thermometer-high"></i> High: ${day.high} °F</p>
-                    <p class="mb-1"><i class="bi bi-thermometer-low"></i> Low: ${day.low} °F</p>
-                    <p class="mb-1"><i class="bi bi-wind"></i> Wind: ${day.wind_speed} mph (${getCardinalDirection(day.wind_deg)})</p>
-                    <p class="mb-1"><i class="bi bi-water"></i> Gust: ${day.gust || "No Data"} mph</p>
+                    <p class="mb-2"><strong>Description:</strong> ${day.description}</p>
+                    <p class="mb-1"><i class="bi bi-thermometer-high"></i> <strong>High:</strong> ${day.high} °F</p>
+                    <p class="mb-1"><i class="bi bi-thermometer-low"></i> <strong>Low:</strong> ${day.low} °F</p>
+                    <p class="mb-1"><i class="bi bi-wind"></i> <strong>Wind:</strong> ${day.wind_speed} mph (${getCardinalDirection(day.wind_deg)})</p>
+                    <p class="mb-1"><i class="bi bi-water"></i> <strong>Gust:</strong> ${day.gust || "No Data"} mph</p>
                 </div>
             </div>
         `;

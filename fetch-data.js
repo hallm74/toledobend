@@ -4,10 +4,9 @@ const fs = require('fs');
 require('dotenv').config();
 
 const SRATX_URL = 'https://www.sratx.org/basin-conditions/lake-levels/';
-const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
-const FORECAST_API_URL = 'https://api.openweathermap.org/data/2.5/forecast';
+const ONE_CALL_API_URL = 'https://api.openweathermap.org/data/3.0/onecall';
 const FISHING_REPORT_URL = 'https://tpwd.texas.gov/fishboat/fish/action/reptform2.php?water=Freshwater&lake=TOLEDO+BEND&Submit=View+Report&archive=latest&yearcat=2024';
-const LOCATION = 'Many,US';
+const LOCATION_COORDS = { lat: 31.1357, lon: -93.5918 }; // Toledo Bend coordinates
 const LAKE_LEVEL_HISTORY_FILE = 'lakeLevelHistory.json';
 const FISHING_REPORT_HISTORY_FILE = 'fishingReportHistory.json';
 const HISTORY_LIMIT = 5;
@@ -78,13 +77,15 @@ function getFallbackFromHistory(file) {
     return 'Unavailable';
 }
 
-async function fetchWeather() {
+async function fetchWeatherAndForecast() {
     try {
-        const response = await axios.get(WEATHER_API_URL, {
+        const response = await axios.get(ONE_CALL_API_URL, {
             params: {
-                q: LOCATION,
+                lat: LOCATION_COORDS.lat,
+                lon: LOCATION_COORDS.lon,
                 appid: process.env.WEATHER_API_KEY,
                 units: 'imperial',
+                exclude: 'minutely,hourly,alerts',
             },
         });
 
@@ -100,74 +101,47 @@ async function fetchWeather() {
         };
 
         const currentTime = Math.floor(Date.now() / 1000);
-        const dayOrNight = currentTime >= weatherData.sys.sunrise && currentTime < weatherData.sys.sunset ? 'day' : 'night';
+        const dayOrNight = currentTime >= weatherData.current.sunrise && currentTime < weatherData.current.sunset ? 'day' : 'night';
 
-        return {
-            temp: weatherData.main.temp,
-            feels_like: weatherData.main.feels_like,
-            description: weatherData.weather[0].description,
-            wind_speed: weatherData.wind.speed || 'No Data',
-            wind_deg: weatherData.wind.deg || 'No Data',
-            gust: weatherData.wind.gust || 'No Data',
-            sunrise: formatTime(weatherData.sys.sunrise, weatherData.timezone),
-            sunset: formatTime(weatherData.sys.sunset, weatherData.timezone),
+        const currentWeather = {
+            temp: weatherData.current.temp,
+            feels_like: weatherData.current.feels_like,
+            description: weatherData.current.weather[0].description,
+            wind_speed: weatherData.current.wind_speed || 'No Data',
+            wind_deg: weatherData.current.wind_deg || 'No Data',
+            gust: weatherData.current.wind_gust || 'No Data',
+            sunrise: formatTime(weatherData.current.sunrise, weatherData.timezone_offset),
+            sunset: formatTime(weatherData.current.sunset, weatherData.timezone_offset),
             dayOrNight,
         };
+
+        const dailyForecasts = weatherData.daily.slice(1, 6).map(day => ({
+            date: new Date(day.dt * 1000).toLocaleDateString('en-US', { weekday: 'long' }),
+            high: day.temp.max,
+            low: day.temp.min,
+            description: day.weather[0].description,
+            wind_speed: day.wind_speed || 'No Data',
+            wind_deg: day.wind_deg || 'No Data',
+            gust: day.wind_gust || 'No Data',
+        }));
+
+        return { currentWeather, dailyForecasts };
     } catch (error) {
-        console.error('Error fetching weather:', error.message);
+        console.error('Error fetching weather and forecast:', error.message);
         return {
-            temp: 'Unavailable',
-            feels_like: 'Unavailable',
-            description: 'Unavailable',
-            wind_speed: 'Unavailable',
-            wind_deg: 'Unavailable',
-            gust: 'Unavailable',
-            sunrise: 'Unavailable',
-            sunset: 'Unavailable',
-            dayOrNight: 'Unavailable',
-        };
-    }
-}
-
-async function fetchFiveDayWeather() {
-    try {
-        const response = await axios.get(FORECAST_API_URL, {
-            params: {
-                q: LOCATION,
-                appid: process.env.WEATHER_API_KEY,
-                units: 'imperial',
+            currentWeather: {
+                temp: 'Unavailable',
+                feels_like: 'Unavailable',
+                description: 'Unavailable',
+                wind_speed: 'Unavailable',
+                wind_deg: 'Unavailable',
+                gust: 'Unavailable',
+                sunrise: 'Unavailable',
+                sunset: 'Unavailable',
+                dayOrNight: 'Unavailable',
             },
-        });
-
-        const weatherData = response.data;
-        const dailyForecasts = [];
-        const seenDays = new Set();
-        const today = new Date();
-        const tomorrow = new Date(today);
-        tomorrow.setDate(today.getDate() + 1);
-        const tomorrowDate = tomorrow.toISOString().split('T')[0];
-
-        weatherData.list.forEach((entry) => {
-            const date = entry.dt_txt.split(' ')[0];
-            if (date >= tomorrowDate && !seenDays.has(date)) {
-                seenDays.add(date);
-                dailyForecasts.push({
-                    date,
-                    high: entry.main.temp_max,
-                    low: entry.main.temp_min,
-                    description: entry.weather[0].description,
-                    wind_speed: entry.wind.speed || 'No Data',
-                    wind_deg: entry.wind.deg || 'No Data',
-                    gust: entry.wind.gust || 'No Data',
-                });
-            }
-            if (dailyForecasts.length === 5) return;
-        });
-
-        return dailyForecasts;
-    } catch (error) {
-        console.error('Error fetching 5-day weather:', error.message);
-        return [];
+            dailyForecasts: [],
+        };
     }
 }
 
@@ -213,14 +187,13 @@ async function fetchFishingReport() {
 async function main() {
     console.log('Fetching data...');
     const lakeLevel = await fetchLakeLevel();
-    const weather = await fetchWeather();
-    const fiveDayWeather = await fetchFiveDayWeather();
+    const { currentWeather, dailyForecasts } = await fetchWeatherAndForecast();
     const fishingReport = await fetchFishingReport();
 
     const data = {
         lakeLevel,
-        weather,
-        fiveDayWeather,
+        currentWeather,
+        fiveDayWeather: dailyForecasts,
         fishingReport,
     };
 
