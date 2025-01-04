@@ -1,0 +1,7 @@
+# Prevent caching for data.js
+/data.js
+  Cache-Control: no-store
+
+# Prevent caching for script.js
+/script.js
+  Cache-Control: no-store
