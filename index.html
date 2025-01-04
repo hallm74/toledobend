@@ -4,86 +4,135 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Toledo Bend Tacklebox</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-  <!-- Open Graph Metadata -->
-  <meta property="og:title" content="Toledo Bend Tacklebox">
-  <meta property="og:description" content="Get the latest lake levels, weather, and fishing information for Toledo Bend.">
-  <meta property="og:image" content="images/ogimage.png">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://toledobend.netlify.app/">
 
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
+      background-color: var(--background-color);
+      color: var(--text-color);
       padding: 20px;
-      background-color: #f0f8ff;
-      color: #333;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
     h1 {
-      color: #2a9df4;
+      color: var(--text-color);
       text-align: center;
-    }
-    .data-section {
       margin-bottom: 20px;
-      padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      background-color: #ffffff;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .data-section h2 {
-      margin-top: 0;
-      color: #2a9df4;
-    }
-    .data-list {
-      list-style: none;
-      padding: 0;
-    }
-    .data-list li {
       display: flex;
+      justify-content: center;
       align-items: center;
-      padding: 8px 0;
-      border-bottom: 1px solid #eee;
+      gap: 10px;
     }
-    .data-list li:last-child {
-      border-bottom: none;
-    }
-    .data-list .icon {
-      margin-right: 10px;
-      font-size: 1.2rem;
+    .theme-button {
+      color: var(--button-icon-color);
+      background-color: var(--button-bg-color);
+      border: 1px solid var(--button-border-color);
     }
     .dynamic-weather-icon {
-      display: block;
-      margin: 20px auto;
       font-size: 4rem;
-      color: #2a9df4;
+      color: var(--icon-color);
+    }
+    .light-mode {
+      --background-color: #f0f8ff;
+      --text-color: #333;
+      --card-background: #ffffff;
+      --icon-color: #333;
+      --button-icon-color: #333;
+      --button-bg-color: #f0f8ff;
+      --button-border-color: #333;
+    }
+    .dark-mode {
+      --background-color: #333;
+      --text-color: #f0f8ff;
+      --card-background: #444;
+      --icon-color: #f0f8ff;
+      --button-icon-color: #f0f8ff;
+      --button-bg-color: #444;
+      --button-border-color: #f0f8ff;
+    }
+    .card {
+      background-color: var(--card-background);
+      color: var(--text-color);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .list-group-item {
+      background-color: transparent;
+      color: inherit;
+    }
+    .bi {
+      transition: color 0.3s ease;
     }
   </style>
 </head>
 <body>
-  <h1>Toledo Bend Tacklebox</h1>
+  <h1>
+    Toledo Bend Tacklebox
+    <button id="theme-toggle" class="btn theme-button">
+      <i class="bi"></i>
+    </button>
+  </h1>
 
-  <div class="data-section" id="lake-level-section">
-    <h2>Lake Level</h2>
-    <p id="lake-level">Loading...</p>
-  </div>
+  <div class="container">
+    <div class="row g-4">
+      <!-- Lake Level Card -->
+      <div class="col-md-6">
+        <div class="card shadow">
+          <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Lake Level</h4>
+          </div>
+          <div class="card-body">
+            <p id="lake-level" class="card-text text-center fs-4">Loading...</p>
+          </div>
+        </div>
+      </div>
 
-  <div class="data-section" id="weather-section">
-    <h2>Weather Data</h2>
-    <i id="dynamic-weather-icon" class="dynamic-weather-icon bi"></i>
-    <ul class="data-list" id="weather-data">
-      <li><i class="bi bi-thermometer-high icon"></i> <span id="current-temp">Loading...</span></li>
-      <li><i class="bi bi-thermometer-half icon"></i> <span id="feels-like">Loading...</span></li>
-      <li><i class="bi bi-cloud icon"></i> <span id="description">Loading...</span></li>
-      <li><i class="bi bi-wind icon"></i> <span id="wind-speed">Loading...</span></li>
-      <li><i class="bi bi-compass icon"></i> <span id="wind-deg">Loading...</span></li>
-      <li><i class="bi bi-water icon"></i> <span id="wind-gust">Loading...</span></li>
-      <li><i class="bi bi-sunrise icon"></i> <span id="sunrise">Loading...</span></li>
-      <li><i class="bi bi-sunset icon"></i> <span id="sunset">Loading...</span></li>
-    </ul>
+      <!-- Weather Card -->
+      <div class="col-md-6">
+        <div class="card shadow">
+          <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Weather</h4>
+          </div>
+          <div class="card-body text-center">
+            <i id="dynamic-weather-icon" class="dynamic-weather-icon bi"></i>
+            <ul class="list-group list-group-flush mt-3" id="weather-data">
+              <li class="list-group-item">
+                <i class="bi bi-thermometer-high me-2"></i>
+                <span id="current-temp">Loading...</span>
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-thermometer-half me-2"></i>
+                <span id="feels-like">Loading...</span>
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-cloud me-2"></i>
+                <span id="description">Loading...</span>
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-wind me-2"></i>
+                <span id="wind-speed">Loading...</span>
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-compass me-2"></i>
+                <span id="wind-deg">Loading...</span>
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-water me-2"></i>
+                <span id="wind-gust">Loading...</span>
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-sunrise me-2"></i>
+                <span id="sunrise">Loading...</span>
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-sunset me-2"></i>
+                <span id="sunset">Loading...</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="./data.js"></script>
@@ -98,29 +147,57 @@
       return 'bi-question-circle';
     }
 
-    // Ensure the `data` object exists and populate the HTML
+    function getCardinalDirection(deg) {
+      const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
+      const index = Math.round(deg / 45) % 8;
+      return directions[index];
+    }
+
+    function toggleTheme() {
+      const body = document.body;
+      const themeToggle = document.getElementById('theme-toggle');
+      const isDarkMode = body.classList.contains('dark-mode');
+      body.classList.toggle('dark-mode', !isDarkMode);
+      body.classList.toggle('light-mode', isDarkMode);
+      themeToggle.innerHTML = isDarkMode 
+        ? '<i class="bi bi-moon"></i>' 
+        : '<i class="bi bi-sun"></i>';
+    }
+
     if (typeof data !== "undefined") {
-      // Update lake level
-      const lakeLevel = data.lakeLevel || "Unavailable";
-      document.getElementById("lake-level").textContent = lakeLevel;
+      const body = document.body;
+      const themeToggle = document.getElementById('theme-toggle');
+      const dayOrNight = data.weather.dayOrNight || "day";
 
-      // Update weather data
+      // Apply initial theme and icon
+      body.classList.add(dayOrNight === "night" ? "dark-mode" : "light-mode");
+      themeToggle.innerHTML = dayOrNight === "night" 
+        ? '<i class="bi bi-sun"></i>' 
+        : '<i class="bi bi-moon"></i>';
+
+      themeToggle.addEventListener('click', toggleTheme);
+
+      document.getElementById("lake-level").textContent = data.lakeLevel || "Unavailable";
+
       const weatherData = data.weather || {};
-      document.getElementById("current-temp").textContent = `Current Temperature: ${weatherData.temp || "Unavailable"} °F`;
-      document.getElementById("feels-like").textContent = `Feels Like: ${weatherData.feels_like || "Unavailable"} °F`;
-      document.getElementById("description").textContent = `Description: ${weatherData.description || "Unavailable"}`;
-      document.getElementById("wind-speed").textContent = `Wind Speed: ${weatherData.wind_speed || "Unavailable"} mph`;
-      document.getElementById("wind-deg").textContent = `Wind Direction: ${weatherData.wind_deg || "Unavailable"}°`;
-      document.getElementById("wind-gust").textContent = `Wind Gust: ${weatherData.gust || "Unavailable"} mph`;
-      document.getElementById("sunrise").textContent = `Sunrise: ${weatherData.sunrise || "Unavailable"}`;
-      document.getElementById("sunset").textContent = `Sunset: ${weatherData.sunset || "Unavailable"}`;
-
-      // Add dynamic weather icon
       const dynamicWeatherIcon = document.getElementById("dynamic-weather-icon");
-      dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || "", weatherData.dayOrNight || "day"));
-    } else {
-      document.getElementById("lake-level").textContent = "Data not available.";
-      document.getElementById("weather-data").innerHTML = "<li>Data not available.</li>";
+      dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || "", dayOrNight));
+
+      document.getElementById("current-temp").textContent = `${weatherData.temp || "Unavailable"} °F`;
+      document.getElementById("feels-like").textContent = `${weatherData.feels_like || "Unavailable"} °F`;
+      document.getElementById("description").textContent = `${weatherData.description || "Unavailable"}`;
+      document.getElementById("wind-speed").textContent = `${weatherData.wind_speed || "Unavailable"} mph`;
+
+      const windDeg = weatherData.wind_deg || "Unavailable";
+      if (windDeg !== "Unavailable") {
+        document.getElementById("wind-deg").textContent = `${windDeg}° (${getCardinalDirection(windDeg)})`;
+      } else {
+        document.getElementById("wind-deg").textContent = "Unavailable";
+      }
+
+      document.getElementById("wind-gust").textContent = `${weatherData.gust || "Unavailable"} mph`;
+      document.getElementById("sunrise").textContent = `${weatherData.sunrise || "Unavailable"}`;
+      document.getElementById("sunset").textContent = `${weatherData.sunset || "Unavailable"}`;
     }
   </script>
 </body>

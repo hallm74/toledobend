@@ -104,7 +104,6 @@ async function fetchWeather() {
             temp: weatherData.main.temp,
             feels_like: weatherData.main.feels_like,
             description: weatherData.weather[0].description,
-            icon: `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`,
             wind_speed: weatherData.wind.speed || 'No Data',
             wind_deg: weatherData.wind.deg || 'No Data',
             gust: weatherData.wind.gust || 'No Data',
