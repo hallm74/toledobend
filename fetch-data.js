@@ -6,42 +6,74 @@ require('dotenv').config();
 const NOAA_URL = 'https://water.noaa.gov/gauges/bklt2';
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const LOCATION = 'Many,US'; // Location for weather data
+const LAKE_LEVEL_HISTORY_FILE = 'lakeLevelHistory.json';
+const HISTORY_LIMIT = 5; // Keep the last 5 valid lake levels
+const PAGE_LOAD_TIMEOUT = 120000; // Maximum time to wait for the page to load
 
 async function fetchLakeLevel() {
     const browser = await puppeteer.launch({
-        args: ['--no-sandbox', '--disable-setuid-sandbox'], // Add this for better CI/CD compatibility
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
     const page = await browser.newPage();
 
     try {
-        await page.goto(NOAA_URL, { waitUntil: 'networkidle2' });
-        console.log('Successfully navigated to NOAA URL.');
-
-        // Debugging: Print page content
-        const pageContent = await page.content();
-        console.log('Page content loaded.');
+        console.log('Navigating to NOAA URL...');
+        await page.goto(NOAA_URL, { waitUntil: 'domcontentloaded', timeout: PAGE_LOAD_TIMEOUT });
+        console.log('NOAA page loaded.');
 
         const lakeLevel = await page.evaluate(() => {
-            const rows = Array.from(document.querySelectorAll('tr')); // Select all rows
+            const rows = Array.from(document.querySelectorAll('tr'));
             for (let row of rows) {
                 if (row.textContent.includes('Latest Value')) {
                     const cells = row.querySelectorAll('td');
                     if (cells.length > 1) {
-                        return cells[1].textContent.trim(); // Assume the second cell contains the lake level
+                        return cells[1].textContent.trim();
                     }
                 }
             }
-            return 'Unavailable';
+            return null;
         });
 
-        console.log('Lake level fetched:', lakeLevel);
-        return lakeLevel;
+        if (lakeLevel) {
+            console.log('Lake level fetched:', lakeLevel);
+            updateLakeLevelHistory(lakeLevel);
+            return lakeLevel;
+        } else {
+            throw new Error('Lake level not found.');
+        }
     } catch (error) {
         console.error('Error fetching lake level:', error.message);
-        return 'Unavailable';
+        const fallbackLakeLevel = getFallbackLakeLevel();
+        console.log('Reverting to last known lake level:', fallbackLakeLevel);
+        return fallbackLakeLevel;
     } finally {
         await browser.close();
     }
+}
+
+function getFallbackLakeLevel() {
+    if (fs.existsSync(LAKE_LEVEL_HISTORY_FILE)) {
+        const data = JSON.parse(fs.readFileSync(LAKE_LEVEL_HISTORY_FILE, 'utf-8'));
+        return data.length > 0 ? data[data.length - 1] : 'Unavailable';
+    }
+    return 'Unavailable';
+}
+
+function updateLakeLevelHistory(newLevel) {
+    let history = [];
+
+    if (fs.existsSync(LAKE_LEVEL_HISTORY_FILE)) {
+        history = JSON.parse(fs.readFileSync(LAKE_LEVEL_HISTORY_FILE, 'utf-8'));
+    }
+
+    history.push(newLevel);
+
+    if (history.length > HISTORY_LIMIT) {
+        history.shift();
+    }
+
+    fs.writeFileSync(LAKE_LEVEL_HISTORY_FILE, JSON.stringify(history, null, 2));
+    console.log('Lake level history updated:', history);
 }
 
 async function fetchWeather() {
@@ -56,13 +88,12 @@ async function fetchWeather() {
 
         const weatherData = response.data;
 
-        // Adjust sunrise and sunset times using the API's timezone offset
         const formatTime = (timestamp, offset) => {
             const localTime = new Date((timestamp + offset) * 1000);
             return localTime.toLocaleTimeString('en-US', {
-                timeZone: process.env.TZ || 'UTC', // Respect the TZ variable for environment compatibility
                 hour: '2-digit',
                 minute: '2-digit',
+                timeZone: process.env.TZ || 'UTC',
             });
         };
 
@@ -103,7 +134,6 @@ async function main() {
         weather,
     };
 
-    // Save as a JavaScript file
     const dataJsContent = `const data = ${JSON.stringify(data, null, 2)};`;
     fs.writeFileSync('data.js', dataJsContent);
     console.log('Data file updated:', data);
