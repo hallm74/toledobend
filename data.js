@@ -1,8 +1,8 @@
 const data = {
   "lakeLevel": "169.64ft 12:30pm",
   "weather": {
-    "temp": 57.52,
-    "feels_like": 56.32,
+    "temp": 59.32,
+    "feels_like": 58.3,
     "description": "overcast clouds",
     "wind_speed": 6.35,
     "wind_deg": 127,
@@ -14,7 +14,7 @@ const data = {
   "fiveDayWeather": [
     {
       "date": "2025-01-05",
-      "high": 55.62,
+      "high": 56.21,
       "low": 54.66,
       "description": "overcast clouds",
       "wind_speed": 7.2,
