@@ -97,6 +97,9 @@ async function fetchWeather() {
             });
         };
 
+        const currentTime = Math.floor(Date.now() / 1000);
+        const dayOrNight = currentTime >= weatherData.sys.sunrise && currentTime < weatherData.sys.sunset ? 'day' : 'night';
+
         return {
             temp: weatherData.main.temp,
             feels_like: weatherData.main.feels_like,
@@ -107,6 +110,7 @@ async function fetchWeather() {
             gust: weatherData.wind.gust || 'No Data',
             sunrise: formatTime(weatherData.sys.sunrise, weatherData.timezone),
             sunset: formatTime(weatherData.sys.sunset, weatherData.timezone),
+            dayOrNight, // Add day or night
         };
     } catch (error) {
         console.error('Error fetching weather:', error.message);
@@ -120,6 +124,7 @@ async function fetchWeather() {
             gust: 'Unavailable',
             sunrise: 'Unavailable',
             sunset: 'Unavailable',
+            dayOrNight: 'Unavailable',
         };
     }
 }
