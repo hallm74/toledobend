@@ -5,12 +5,13 @@ require('dotenv').config();
 
 const SRATX_URL = 'https://www.sratx.org/basin-conditions/lake-levels/';
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
+const FORECAST_API_URL = 'https://api.openweathermap.org/data/2.5/forecast';
 const FISHING_REPORT_URL = 'https://tpwd.texas.gov/fishboat/fish/action/reptform2.php?water=Freshwater&lake=TOLEDO+BEND&Submit=View+Report&archive=latest&yearcat=2024';
-const LOCATION = 'Many,US'; // Location for weather data
+const LOCATION = 'Many,US';
 const LAKE_LEVEL_HISTORY_FILE = 'lakeLevelHistory.json';
 const FISHING_REPORT_HISTORY_FILE = 'fishingReportHistory.json';
-const HISTORY_LIMIT = 5; // Keep the last 5 valid reports
-const PAGE_LOAD_TIMEOUT = 120000; // Maximum time to wait for the page to load
+const HISTORY_LIMIT = 5;
+const PAGE_LOAD_TIMEOUT = 120000;
 
 async function fetchLakeLevel() {
     const browser = await puppeteer.launch({
@@ -128,6 +129,48 @@ async function fetchWeather() {
     }
 }
 
+async function fetchFiveDayWeather() {
+    try {
+        const response = await axios.get(FORECAST_API_URL, {
+            params: {
+                q: LOCATION,
+                appid: process.env.WEATHER_API_KEY,
+                units: 'imperial',
+            },
+        });
+
+        const weatherData = response.data;
+        const dailyForecasts = [];
+        const seenDays = new Set();
+        const today = new Date();
+        const tomorrow = new Date(today);
+        tomorrow.setDate(today.getDate() + 1);
+        const tomorrowDate = tomorrow.toISOString().split('T')[0];
+
+        weatherData.list.forEach((entry) => {
+            const date = entry.dt_txt.split(' ')[0];
+            if (date >= tomorrowDate && !seenDays.has(date)) {
+                seenDays.add(date);
+                dailyForecasts.push({
+                    date,
+                    high: entry.main.temp_max,
+                    low: entry.main.temp_min,
+                    description: entry.weather[0].description,
+                    wind_speed: entry.wind.speed || 'No Data',
+                    wind_deg: entry.wind.deg || 'No Data',
+                    gust: entry.wind.gust || 'No Data',
+                });
+            }
+            if (dailyForecasts.length === 5) return;
+        });
+
+        return dailyForecasts;
+    } catch (error) {
+        console.error('Error fetching 5-day weather:', error.message);
+        return [];
+    }
+}
+
 async function fetchFishingReport() {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -171,11 +214,13 @@ async function main() {
     console.log('Fetching data...');
     const lakeLevel = await fetchLakeLevel();
     const weather = await fetchWeather();
+    const fiveDayWeather = await fetchFiveDayWeather();
     const fishingReport = await fetchFishingReport();
 
     const data = {
         lakeLevel,
         weather,
+        fiveDayWeather,
         fishingReport,
     };
 

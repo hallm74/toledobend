@@ -66,4 +66,32 @@ if (typeof data !== "undefined") {
     const fishingReport = data.fishingReport || {};
     document.getElementById("fishing-report-date").textContent = fishingReport.date || "No date available";
     document.getElementById("fishing-report-text").textContent = fishingReport.report || "No report available.";
+
+    // Populate 5-Day Weather Forecast
+    const fiveDayForecast = data.fiveDayWeather || [];
+    const forecastContainer = document.getElementById("five-day-forecast");
+    forecastContainer.innerHTML = ""; // Clear existing content
+
+    fiveDayForecast.forEach(day => {
+        const forecastCard = document.createElement("div");
+        forecastCard.className = "col-12 col-sm-6 col-md-12";
+
+        forecastCard.innerHTML = `
+            <div class="card shadow">
+                <div class="card-header text-center bg-primary text-white">
+                    <h5 class="mb-0">${day.date}</h5>
+                </div>
+                <div class="card-body text-center">
+                    <i class="bi ${getWeatherIcon(day.description, "day")} fs-1"></i>
+                    <p class="mb-2">${day.description}</p>
+                    <p class="mb-1"><i class="bi bi-thermometer-high"></i> High: ${day.high} °F</p>
+                    <p class="mb-1"><i class="bi bi-thermometer-low"></i> Low: ${day.low} °F</p>
+                    <p class="mb-1"><i class="bi bi-wind"></i> Wind: ${day.wind_speed} mph (${getCardinalDirection(day.wind_deg)})</p>
+                    <p class="mb-1"><i class="bi bi-water"></i> Gust: ${day.gust || "No Data"} mph</p>
+                </div>
+            </div>
+        `;
+
+        forecastContainer.appendChild(forecastCard);
+    });
 }

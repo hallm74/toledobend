@@ -28,7 +28,7 @@
   <div class="container">
     <div class="row g-4">
       <!-- Left Column -->
-      <div class="col-md-6">
+      <div class="col-lg-4">
         <!-- Lake Level Card -->
         <div class="card shadow">
           <div class="card-header bg-primary text-white">
@@ -47,13 +47,13 @@
               class="btn btn-link text-white text-decoration-none"
               data-bs-toggle="collapse"
               data-bs-target="#fishingReportCollapse"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="fishingReportCollapse"
             >
-              <i class="bi bi-chevron-down"></i>
+              <i class="bi bi-chevron-up"></i>
             </button>
           </div>
-          <div id="fishingReportCollapse" class="collapse d-md-block">
+          <div id="fishingReportCollapse" class="collapse d-lg-block">
             <div class="card-body">
               <p><span id="fishing-report-date">Loading...</span></p>
               <p id="fishing-report-text">Loading...</p>
@@ -62,8 +62,8 @@
         </div>
       </div>
 
-      <!-- Right Column -->
-      <div class="col-md-6">
+      <!-- Middle Column -->
+      <div class="col-md-6 col-lg-4">
         <!-- Weather Card -->
         <div class="card shadow">
           <div class="card-header bg-primary text-white">
@@ -105,6 +105,32 @@
                 <span id="sunset">Loading...</span>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6 col-lg-4">
+        <!-- Five-Day Forecast Card -->
+        <div class="card shadow">
+          <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">5-Day Weather Forecast</h4>
+            <button
+              class="btn btn-link text-white text-decoration-none"
+              data-bs-toggle="collapse"
+              data-bs-target="#fiveDayWeatherCollapse"
+              aria-expanded="false"
+              aria-controls="fiveDayWeatherCollapse"
+            >
+              <i class="bi bi-chevron-down"></i>
+            </button>
+          </div>
+          <div id="fiveDayWeatherCollapse" class="collapse d-md-block">
+            <div class="card-body">
+              <div id="five-day-forecast" class="row g-3">
+                <!-- Forecast will be dynamically populated -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
