@@ -1,12 +1,12 @@
 const data = {
-  "lakeLevel": "169.50ft 11:30am",
+  "lakeLevel": "169.49ft 12:30pm",
   "currentWeather": {
-    "temp": 70.61,
-    "feels_like": 71.31,
-    "description": "heavy intensity rain",
-    "wind_speed": 16.62,
-    "wind_deg": 206,
-    "gust": 37.09,
+    "temp": 71.1,
+    "feels_like": 71.85,
+    "description": "few clouds",
+    "wind_speed": 15.86,
+    "wind_deg": 215,
+    "gust": 34.07,
     "sunrise": "07:13 AM",
     "sunset": "05:25 PM",
     "dayOrNight": "day"
@@ -14,48 +14,48 @@ const data = {
   "fiveDayWeather": [
     {
       "date": "Monday",
-      "high": 44.62,
-      "low": 29.35,
+      "high": 44.51,
+      "low": 28.87,
       "description": "clear sky",
-      "wind_speed": 14.83,
-      "wind_deg": 321,
-      "gust": 32.68
+      "wind_speed": 15.48,
+      "wind_deg": 320,
+      "gust": 32.55
     },
     {
       "date": "Tuesday",
-      "high": 46.26,
-      "low": 31.41,
+      "high": 46.11,
+      "low": 31.28,
       "description": "clear sky",
-      "wind_speed": 8.23,
-      "wind_deg": 36,
-      "gust": 18.39
+      "wind_speed": 8.21,
+      "wind_deg": 29,
+      "gust": 17.2
     },
     {
       "date": "Wednesday",
-      "high": 44.56,
-      "low": 32.18,
-      "description": "few clouds",
-      "wind_speed": 9.1,
-      "wind_deg": 38,
-      "gust": 18.84
+      "high": 44.76,
+      "low": 32.49,
+      "description": "scattered clouds",
+      "wind_speed": 8.9,
+      "wind_deg": 35,
+      "gust": 17.94
     },
     {
       "date": "Thursday",
-      "high": 40.37,
-      "low": 36.1,
+      "high": 40.53,
+      "low": 35.24,
       "description": "heavy intensity rain",
-      "wind_speed": 9.06,
-      "wind_deg": 62,
-      "gust": 21.7
+      "wind_speed": 9.82,
+      "wind_deg": 63,
+      "gust": 22.57
     },
     {
       "date": "Friday",
-      "high": 43.43,
-      "low": 37.99,
-      "description": "moderate rain",
-      "wind_speed": 12.77,
-      "wind_deg": 354,
-      "gust": 27.31
+      "high": 39.97,
+      "low": 37.45,
+      "description": "heavy intensity rain",
+      "wind_speed": 11.95,
+      "wind_deg": 5,
+      "gust": 26.64
     }
   ],
   "fishingReport": {
