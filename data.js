@@ -1,12 +1,12 @@
 const data = {
   "lakeLevel": "169.66ft 5:30pm",
   "currentWeather": {
-    "temp": 56.61,
-    "feels_like": 56.1,
+    "temp": 57.96,
+    "feels_like": 57.6,
     "description": "overcast clouds",
-    "wind_speed": 10.58,
-    "wind_deg": 132,
-    "gust": 29.71,
+    "wind_speed": 11.01,
+    "wind_deg": 143,
+    "gust": 30.06,
     "sunrise": "07:13 AM",
     "sunset": "05:25 PM",
     "dayOrNight": "night"
@@ -14,48 +14,48 @@ const data = {
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 70.32,
-      "low": 38.46,
+      "high": 70.59,
+      "low": 37.92,
       "description": "heavy intensity rain",
-      "wind_speed": 17.58,
-      "wind_deg": 212,
-      "gust": 37.11
+      "wind_speed": 17.6,
+      "wind_deg": 213,
+      "gust": 37.36
     },
     {
       "date": "Monday",
-      "high": 44.22,
-      "low": 29.26,
+      "high": 44.35,
+      "low": 29.25,
       "description": "clear sky",
-      "wind_speed": 15.93,
-      "wind_deg": 318,
-      "gust": 33.62
+      "wind_speed": 15.88,
+      "wind_deg": 320,
+      "gust": 33.93
     },
     {
       "date": "Tuesday",
-      "high": 46.4,
-      "low": 30.96,
+      "high": 46.58,
+      "low": 31.15,
       "description": "clear sky",
-      "wind_speed": 8.7,
-      "wind_deg": 7,
-      "gust": 18.72
+      "wind_speed": 8.66,
+      "wind_deg": 11,
+      "gust": 20.18
     },
     {
       "date": "Wednesday",
-      "high": 44.2,
-      "low": 31.78,
+      "high": 43.75,
+      "low": 31.69,
       "description": "broken clouds",
-      "wind_speed": 9.08,
-      "wind_deg": 38,
-      "gust": 18.88
+      "wind_speed": 7.54,
+      "wind_deg": 35,
+      "gust": 16.22
     },
     {
       "date": "Thursday",
-      "high": 38.55,
-      "low": 34.84,
+      "high": 38.8,
+      "low": 35.91,
       "description": "heavy intensity rain",
-      "wind_speed": 12.39,
-      "wind_deg": 102,
-      "gust": 27.89
+      "wind_speed": 11.9,
+      "wind_deg": 70,
+      "gust": 29.24
     }
   ],
   "fishingReport": {
