@@ -62,52 +62,94 @@
         </div>
       </div>
 
-      <!-- Middle Column -->
-      <div class="col-md-6 col-lg-4">
+<!-- Middle Column -->
+<div class="col-md-6 col-lg-4">
         <!-- Weather Card -->
         <div class="card shadow">
           <div class="card-header bg-primary text-white">
             <h4 class="mb-0">Weather</h4>
           </div>
           <div class="card-body text-center">
-            <i id="dynamic-weather-icon" class="dynamic-weather-icon bi"></i>
-            <ul class="list-group list-group-flush mt-3" id="weather-data">
-              <li class="list-group-item">
-                <i class="bi bi-thermometer-high me-2"></i>
-                <span id="current-temp">Loading...</span>
-              </li>
-              <li class="list-group-item">
-                <i class="bi bi-thermometer-half me-2"></i>
-                <span id="feels-like">Loading...</span>
-              </li>
-              <li class="list-group-item">
-                <i class="bi bi-cloud me-2"></i>
-                <span id="description">Loading...</span>
-              </li>
-              <li class="list-group-item">
-                <i class="bi bi-wind me-2"></i>
-                <span id="wind-speed">Loading...</span>
-              </li>
-              <li class="list-group-item">
-                <i class="bi bi-compass me-2"></i>
-                <span id="wind-deg">Loading...</span>
-              </li>
-              <li class="list-group-item">
-                <i class="bi bi-water me-2"></i>
-                <span id="wind-gust">Loading...</span>
-              </li>
-              <li class="list-group-item">
-                <i class="bi bi-sunrise me-2"></i>
-                <span id="sunrise">Loading...</span>
-              </li>
-              <li class="list-group-item">
-                <i class="bi bi-sunset me-2"></i>
-                <span id="sunset">Loading...</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+            <div class="d-flex justify-content-center align-items-center position-relative">
+              <!-- Weather Icon -->
+              <i id="dynamic-weather-icon" class="dynamic-weather-icon bi"></i>
+            </div>
+
+            <!-- Alerts Section -->
+            <div id="alerts-section" class="d-none mt-3">
+              <div class="card shadow mt-3">
+                <div class="card-header bg-danger text-white d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">Active Weather Alerts</h5>
+                  <button
+                    class="btn btn-link text-white text-decoration-none"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#alertDetailsCollapse"
+                    aria-expanded="false"
+                    aria-controls="alertDetailsCollapse"
+                  >
+                    <i class="bi bi-chevron-down"></i>
+                  </button>
+                </div>
+                <div id="alertDetailsCollapse" class="collapse">
+                  <div id="weather-alerts" class="card-body">
+                    <!-- Dynamically populated alerts -->
+                  </div>
+                </div>
+              </div>
+            </div>
+      <ul class="list-group list-group-flush mt-3 text-center" id="weather-data">
+        <li class="list-group-item">
+          <i class="bi bi-thermometer-high me-2"></i>
+          <span id="current-temp">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-thermometer-half me-2"></i>
+          <span id="feels-like">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-cloud me-2"></i>
+          <span id="description">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-wind me-2"></i>
+          <span id="wind-speed">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-compass me-2"></i>
+          <span id="wind-deg">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-water me-2"></i>
+          <span id="wind-gust">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-droplet me-2"></i>
+          <span id="humidity">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi  bi-brightness-high me-2"></i>
+          <span id="uvi">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-speedometer me-2"></i>
+          <span id="pressure">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi me-2"></i>
+          <span id="moon_phase">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-sunrise me-2"></i>
+          <span id="sunrise">Loading...</span>
+        </li>
+        <li class="list-group-item">
+          <i class="bi bi-sunset me-2"></i>
+          <span id="sunset">Loading...</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
       <!-- Right Column -->
       <div class="col-md-6 col-lg-4">

@@ -85,7 +85,7 @@ async function fetchWeatherAndForecast() {
                 lon: LOCATION_COORDS.lon,
                 appid: process.env.WEATHER_API_KEY,
                 units: 'imperial',
-                exclude: 'minutely,hourly,alerts',
+                exclude: 'minutely,hourly',
             },
         });
 
@@ -113,6 +113,10 @@ async function fetchWeatherAndForecast() {
             sunrise: formatTime(weatherData.current.sunrise, weatherData.timezone_offset),
             sunset: formatTime(weatherData.current.sunset, weatherData.timezone_offset),
             dayOrNight,
+            humidity: weatherData.current.humidity,
+            uv_index: weatherData.current.uvi,
+            pressure: weatherData.current.pressure,
+            moon_phase: weatherData.daily[0].moon_phase,
         };
 
         const dailyForecasts = weatherData.daily.slice(1, 6).map(day => ({
@@ -123,9 +127,21 @@ async function fetchWeatherAndForecast() {
             wind_speed: day.wind_speed || 'No Data',
             wind_deg: day.wind_deg || 'No Data',
             gust: day.wind_gust || 'No Data',
+            humidity: day.humidity,
+            uv_index: day.uvi,
+            pressure: day.pressure,
+            moon_phase: day.moon_phase,
         }));
 
-        return { currentWeather, dailyForecasts };
+        const alerts = weatherData.alerts?.map(alert => ({
+            event: alert.event,
+            start: formatTime(alert.start, weatherData.timezone_offset),
+            end: formatTime(alert.end, weatherData.timezone_offset),
+            description: alert.description,
+            sender: alert.sender_name,
+        })) || [];
+
+        return { currentWeather, dailyForecasts, alerts };
     } catch (error) {
         console.error('Error fetching weather and forecast:', error.message);
         return {
@@ -139,8 +155,12 @@ async function fetchWeatherAndForecast() {
                 sunrise: 'Unavailable',
                 sunset: 'Unavailable',
                 dayOrNight: 'Unavailable',
+                humidity: 'Unavailable',
+                uv_index: 'Unavailable',
+                pressure: 'Unavailable',
             },
             dailyForecasts: [],
+            alerts: [],
         };
     }
 }
@@ -187,13 +207,14 @@ async function fetchFishingReport() {
 async function main() {
     console.log('Fetching data...');
     const lakeLevel = await fetchLakeLevel();
-    const { currentWeather, dailyForecasts } = await fetchWeatherAndForecast();
+    const { currentWeather, dailyForecasts, alerts } = await fetchWeatherAndForecast();
     const fishingReport = await fetchFishingReport();
 
     const data = {
         lakeLevel,
         currentWeather,
         fiveDayWeather: dailyForecasts,
+        weatherAlerts: alerts,
         fishingReport,
     };
 

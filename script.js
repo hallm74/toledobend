@@ -14,6 +14,72 @@ function getCardinalDirection(deg) {
     return directions[index];
 }
 
+function getMoonPhaseIcon(phase) {
+    if (phase === 0 || phase === 1) return 'bi-moon'; // New Moon
+    if (phase > 0 && phase <= 0.25) return 'bi-moon-stars'; // Waxing Crescent
+    if (phase > 0.25 && phase <= 0.5) return 'bi-circle-half'; // First Quarter
+    if (phase > 0.5 && phase <= 0.75) return 'bi-circle'; // Full Moon
+    if (phase > 0.75 && phase < 1) return 'bi-moon-stars'; // Waning Crescent
+    return 'bi-question-circle'; // Unknown
+}
+
+function getMoonPhaseTerminology(phase) {
+    if (phase === 0 || phase === 1) return "New Moon";
+    if (phase > 0 && phase <= 0.25) return "Waxing Crescent";
+    if (phase > 0.25 && phase < 0.5) return "First Quarter"; // Edge case for 0.25 or transition to Waxing Gibbous
+    if (phase === 0.5) return "Full Moon";
+    if (phase > 0.5 && phase <= 0.75) return "Waning Gibbous";
+    if (phase > 0.75 && phase < 1) return "Waning Crescent";
+    return "Unknown Phase";
+}
+
+function getUVIndexDescriptor(uvIndex) {
+    if (uvIndex >= 0 && uvIndex <= 2) return "Low";
+    if (uvIndex >= 3 && uvIndex <= 5) return "Moderate";
+    if (uvIndex >= 6 && uvIndex <= 7) return "High";
+    if (uvIndex >= 8 && uvIndex <= 10) return "Very High";
+    if (uvIndex >= 11) return "Extreme";
+    return "Unknown";
+}
+
+function populateWeatherAlerts(alerts) {
+    const alertsSection = document.getElementById("alerts-section");
+    const alertContainer = document.getElementById("weather-alerts");
+
+    // Clear previous content
+    alertContainer.innerHTML = "";
+
+    if (!alerts || alerts.length === 0) {
+        // Hide the alerts section if no alerts exist
+        alertsSection?.classList.add("d-none");
+        return;
+    }
+
+    // Remove the "d-none" class to make alerts section visible
+    alertsSection?.classList.remove("d-none");
+
+    // Populate alerts
+    alerts.forEach((alert) => {
+        const alertCard = document.createElement("div");
+        alertCard.className = "card mb-3 border-danger";
+        alertCard.innerHTML = `
+            <div class="card-header bg-danger text-white">
+                <h5 class="mb-0">${alert.event}</h5>
+                <small>From: ${alert.sender}</small>
+            </div>
+            <div class="card-body">
+                <p><strong>Time:</strong> ${alert.start} - ${alert.end}</p>
+                <p>${alert.description}</p>
+            </div>
+        `;
+        alertContainer.appendChild(alertCard);
+    });
+}
+
+// Example usage
+const uvIndex = 6.5; // Replace with actual UV Index value
+console.log(`UV Index: ${uvIndex}, Descriptor: ${getUVIndexDescriptor(uvIndex)}`); // Output: UV Index: 6.5, Descriptor: High
+
 function toggleTheme() {
     const body = document.body;
     const themeToggle = document.getElementById('theme-toggle');
@@ -38,6 +104,13 @@ if (typeof data !== "undefined") {
 
     themeToggle.addEventListener('click', toggleTheme);
 
+    // Populate Weather Alerts
+    if (data.weatherAlerts && data.weatherAlerts.length > 0) {
+            populateWeatherAlerts(data.weatherAlerts);
+            } else {
+                console.log("No weather alerts found.");
+            }
+
     // Populate Lake Level
     document.getElementById("lake-level").textContent = data.lakeLevel || "Unavailable";
 
@@ -59,6 +132,19 @@ if (typeof data !== "undefined") {
     }
 
     document.getElementById("wind-gust").innerHTML = `<strong>Wind Gust:</strong> ${weatherData.gust || "Unavailable"} mph`;
+    document.getElementById("humidity").innerHTML = `<strong>Humidity:</strong> ${weatherData.humidity || "Unavailable"} %`;
+    document.getElementById("uvi").innerHTML = `<strong>UV Index:</strong> ${getUVIndexDescriptor(weatherData.uv_index)} (${weatherData.uv_index || "Unavailable"})`;
+    document.getElementById("pressure").innerHTML = `<strong>Pressure:</strong> ${weatherData.pressure || "Unavailable"} mb`;
+    
+    // Update Moon Phase with Icon and Terminology
+    const moonPhase = weatherData.moon_phase || "Unavailable";
+    if (moonPhase !== "Unavailable") {
+        const moonIcon = getMoonPhaseIcon(moonPhase);
+            document.getElementById("moon_phase").innerHTML = `<i class="bi ${moonIcon} me-2"></i><strong>Moon Phase:</strong> ${getMoonPhaseTerminology(moonPhase)} (${moonPhase})`;
+    } else {
+        document.getElementById("moon_phase").innerHTML = `<strong>Moon Phase:</strong> Unavailable`;
+    }
+
     document.getElementById("sunrise").innerHTML = `<strong>Sunrise:</strong> ${weatherData.sunrise || "Unavailable"}`;
     document.getElementById("sunset").innerHTML = `<strong>Sunset:</strong> ${weatherData.sunset || "Unavailable"}`;
 
@@ -88,6 +174,10 @@ if (typeof data !== "undefined") {
                     <p class="mb-1"><i class="bi bi-thermometer-low"></i> <strong>Low:</strong> ${day.low} °F</p>
                     <p class="mb-1"><i class="bi bi-wind"></i> <strong>Wind:</strong> ${day.wind_speed} mph (${getCardinalDirection(day.wind_deg)})</p>
                     <p class="mb-1"><i class="bi bi-water"></i> <strong>Gust:</strong> ${day.gust || "No Data"} mph</p>
+                    <p class="mb-1"><i class="bi bi-droplet-half"></i> <strong>Humidty:</strong> ${day.humidity || "No Data"} %</p>
+                    <p class="mb-1"><i class="bi bi-sun"></i> <strong>UV Index:</strong> ${getUVIndexDescriptor(day.uv_index)} ${day.uv_index || "No Data"} </p>
+                    <p class="mb-1"><i class="bi bi-speedometer"></i> <strong>Barametric Pressure:</strong> ${day.pressure || "No Data"} mb</p>
+                    <p class="mb-1"><i class="bi ${getMoonPhaseIcon(day.moon_phase)}"></i> <strong>Moon Phase:</strong> ${getMoonPhaseTerminology(day.moon_phase)} (${day.moon_phase})</p>
                 </div>
             </div>
         `;
