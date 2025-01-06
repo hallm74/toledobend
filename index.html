@@ -20,8 +20,8 @@
 <body>
   <h1>
     Toledo Bend Tacklebox
-    <button id="theme-toggle" class="theme-button">
-      <i class="bi"></i>
+    <button id="theme-toggle" class="theme-button" aria-label="Toggle dark mode">
+      <i class="bi" aria-hidden="true"></i>
     </button>
   </h1>
 
@@ -30,27 +30,29 @@
       <!-- Left Column -->
       <div class="col-lg-4">
         <!-- Lake Level Card -->
-        <div class="card shadow">
+        <div class="card shadow" role="region" aria-labelledby="lake-level-heading">
           <div class="card-header bg-primary text-white">
-            <h4 class="mb-0">Lake Level</h4>
+            <h4 class="mb-0" id="lake-level-heading">Lake Level</h4>
           </div>
           <div class="card-body">
-            <p id="lake-level" class="card-text text-center fs-4">Loading...</p>
+            <p id="lake-level" class="card-text text-center fs-4" aria-label="Current lake level">Loading...</p>
           </div>
         </div>
 
         <!-- Fishing Report Card -->
-        <div class="card shadow mt-4">
+        <div class="card shadow mt-4" role="region" aria-labelledby="fishing-report-heading">
           <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-            <h4 class="mb-0">Fishing Report</h4>
+            <h4 class="mb-0" id="fishing-report-heading">Fishing Report</h4>
             <button
               class="btn btn-link text-white text-decoration-none"
               data-bs-toggle="collapse"
               data-bs-target="#fishingReportCollapse"
               aria-expanded="true"
               aria-controls="fishingReportCollapse"
+              aria-label="Toggle fishing report visibility"
             >
-              <i class="bi bi-chevron-up"></i>
+              <i class="bi bi-chevron-up" aria-hidden="true"></i>
+              <span class="sr-only">Toggle fishing report section</span>
             </button>
           </div>
           <div id="fishingReportCollapse" class="collapse d-lg-block">
@@ -65,9 +67,9 @@
 <!-- Middle Column -->
 <div class="col-md-6 col-lg-4">
         <!-- Weather Card -->
-        <div class="card shadow">
+        <div class="card shadow" role="region" aria-labelledby="weather-heading">
           <div class="card-header bg-primary text-white">
-            <h4 class="mb-0">Weather</h4>
+            <h4 class="mb-0" id="weather-heading">Weather</h4>
           </div>
           <div class="card-body text-center">
             <div class="d-flex justify-content-center align-items-center position-relative">
@@ -76,74 +78,76 @@
             </div>
 
             <!-- Alerts Section -->
-            <div id="alerts-section" class="d-none mt-3">
+            <div id="alerts-section" class="d-none mt-3" role="region" aria-labelledby="alerts-heading">
               <div class="card shadow mt-3">
                 <div class="card-header bg-danger text-white d-flex justify-content-between align-items-center">
-                  <h5 class="mb-0">Active Weather Alerts</h5>
+                  <h5 class="mb-0" id="alerts-heading">Active Weather Alerts</h5>
                   <button
                     class="btn btn-link text-white text-decoration-none"
                     data-bs-toggle="collapse"
                     data-bs-target="#alertDetailsCollapse"
                     aria-expanded="false"
                     aria-controls="alertDetailsCollapse"
+                    aria-label="Toggle weather alerts visibility"
                   >
-                    <i class="bi bi-chevron-down"></i>
+                    <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                    <span class="sr-only">Toggle weather alerts section</span>
                   </button>
                 </div>
                 <div id="alertDetailsCollapse" class="collapse">
-                  <div id="weather-alerts" class="card-body">
+                  <div id="weather-alerts" class="card-body" role="list" aria-label="List of active weather alerts">
                     <!-- Dynamically populated alerts -->
                   </div>
                 </div>
               </div>
             </div>
-      <ul class="list-group list-group-flush mt-3 text-center" id="weather-data">
+      <ul class="list-group list-group-flush mt-3 text-center" id="weather-data" aria-label="Current weather conditions">
         <li class="list-group-item">
-          <i class="bi bi-thermometer-high me-2"></i>
+          <i class="bi bi-thermometer-high me-2" aria-hidden="true"></i>
           <span id="current-temp">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-thermometer-half me-2"></i>
+          <i class="bi bi-thermometer-half me-2" aria-hidden="true"></i>
           <span id="feels-like">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-cloud me-2"></i>
+          <i class="bi bi-cloud me-2" aria-hidden="true"></i>
           <span id="description">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-wind me-2"></i>
+          <i class="bi bi-wind me-2" aria-hidden="true"></i>
           <span id="wind-speed">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-compass me-2"></i>
+          <i class="bi bi-compass me-2" aria-hidden="true"></i>
           <span id="wind-deg">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-water me-2"></i>
+          <i class="bi bi-water me-2" aria-hidden="true"></i>
           <span id="wind-gust">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-droplet me-2"></i>
+          <i class="bi bi-droplet me-2" aria-hidden="true"></i>
           <span id="humidity">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi  bi-brightness-high me-2"></i>
+          <i class="bi bi-brightness-high me-2" aria-hidden="true"></i>
           <span id="uvi">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-speedometer me-2"></i>
+          <i class="bi bi-speedometer me-2" aria-hidden="true"></i>
           <span id="pressure">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi me-2"></i>
+          <i class="bi me-2" aria-hidden="true"></i>
           <span id="moon_phase">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-sunrise me-2"></i>
+          <i class="bi bi-sunrise me-2" aria-hidden="true"></i>
           <span id="sunrise">Loading...</span>
         </li>
         <li class="list-group-item">
-          <i class="bi bi-sunset me-2"></i>
+          <i class="bi bi-sunset me-2" aria-hidden="true"></i>
           <span id="sunset">Loading...</span>
         </li>
       </ul>
@@ -154,22 +158,24 @@
       <!-- Right Column -->
       <div class="col-md-6 col-lg-4">
         <!-- Five-Day Forecast Card -->
-        <div class="card shadow">
+        <div class="card shadow" role="region" aria-labelledby="forecast-heading">
           <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-            <h4 class="mb-0">5-Day Weather Forecast</h4>
+            <h4 class="mb-0" id="forecast-heading">5-Day Weather Forecast</h4>
             <button
               class="btn btn-link text-white text-decoration-none"
               data-bs-toggle="collapse"
               data-bs-target="#fiveDayWeatherCollapse"
               aria-expanded="false"
               aria-controls="fiveDayWeatherCollapse"
+              aria-label="Toggle forecast visibility"
             >
-              <i class="bi bi-chevron-down"></i>
+              <i class="bi bi-chevron-down" aria-hidden="true"></i>
+              <span class="sr-only">Toggle forecast section</span>
             </button>
           </div>
           <div id="fiveDayWeatherCollapse" class="collapse d-md-block">
             <div class="card-body">
-              <div id="five-day-forecast" class="row g-3">
+              <div id="five-day-forecast" class="row g-3" role="list" aria-label="Weather forecast for next five days">
                 <!-- Forecast will be dynamically populated -->
               </div>
             </div>

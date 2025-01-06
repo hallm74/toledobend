@@ -9,8 +9,9 @@ function getWeatherIcon(description, dayOrNight) {
 }
 
 function getCardinalDirection(deg) {
+    if (typeof deg !== 'number' || isNaN(deg)) return 'Unknown';
     const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
-    const index = Math.round(deg / 45) % 8;
+    const index = Math.round(((deg % 360) + 360) % 360 / 45) % 8;
     return directions[index];
 }
 
@@ -24,211 +25,368 @@ function getMoonPhaseIcon(phase) {
 }
 
 function getMoonPhaseTerminology(phase) {
+    if (typeof phase !== 'number' || isNaN(phase)) return "Unknown Phase";
+    
     if (phase === 0 || phase === 1) return "New Moon";
-    if (phase > 0 && phase <= 0.25) return "Waxing Crescent";
-    if (phase > 0.25 && phase < 0.5) return "First Quarter"; // Edge case for 0.25 or transition to Waxing Gibbous
+    if (phase > 0 && phase < 0.25) return "Waxing Crescent";
+    if (phase === 0.25) return "First Quarter";
+    if (phase > 0.25 && phase < 0.5) return "Waxing Gibbous";
     if (phase === 0.5) return "Full Moon";
-    if (phase > 0.5 && phase <= 0.75) return "Waning Gibbous";
+    if (phase > 0.5 && phase < 0.75) return "Waning Gibbous";
+    if (phase === 0.75) return "Last Quarter";
     if (phase > 0.75 && phase < 1) return "Waning Crescent";
     return "Unknown Phase";
 }
 
 function getUVIndexDescriptor(uvIndex) {
-    if (uvIndex >= 0 && uvIndex <= 2) return "Low";
-    if (uvIndex >= 3 && uvIndex <= 5) return "Moderate";
-    if (uvIndex >= 6 && uvIndex <= 7) return "High";
-    if (uvIndex >= 8 && uvIndex <= 10) return "Very High";
-    if (uvIndex >= 11) return "Extreme";
-    return "Unknown";
+    if (typeof uvIndex !== 'number' || isNaN(uvIndex)) return "Unknown";
+    
+    // UV index cannot be negative
+    if (uvIndex < 0) return "Invalid";
+    
+    if (uvIndex <= 2) return "Low";
+    if (uvIndex <= 5) return "Moderate";
+    if (uvIndex <= 7) return "High";
+    if (uvIndex <= 10) return "Very High";
+    return "Extreme";
 }
 
 function getPressureTrendIcon(currentPressure, previousPressure) {
-    //console.log("Current Pressure:", currentPressure);
-    //console.log("Previous Pressure:", previousPressure);
-    if (currentPressure > previousPressure) {
-        return "bi-arrow-up"; // Rising pressure
-    } else if (currentPressure < previousPressure) {
-        return "bi-arrow-down"; // Falling pressure
-    } else {
+    if (typeof currentPressure !== 'number' || typeof previousPressure !== 'number' || 
+        isNaN(currentPressure) || isNaN(previousPressure)) {
+        return "bi-question-circle";
+    }
+
+    const PRESSURE_THRESHOLD = 0.5; // mb threshold for significant change
+    const difference = currentPressure - previousPressure;
+
+    if (Math.abs(difference) <= PRESSURE_THRESHOLD) {
         return "bi-dash"; // Stable pressure
     }
+    return difference > 0 ? "bi-arrow-up" : "bi-arrow-down";
+}
+
+function escapeHtml(unsafe) {
+    return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
 }
 
 function populateWeatherAlerts(alerts) {
     const alertsSection = document.getElementById("alerts-section");
     const alertContainer = document.getElementById("weather-alerts");
 
-    // Clear previous content
-    alertContainer.innerHTML = "";
-
-    if (!alerts || alerts.length === 0) {
-        // Hide the alerts section if no alerts exist
-        alertsSection?.classList.add("d-none");
+    if (!alertsSection || !alertContainer) {
+        console.error("Weather alerts elements not found");
         return;
     }
 
-    // Remove the "d-none" class to make alerts section visible
-    alertsSection?.classList.remove("d-none");
+    // Clear previous content safely
+    while (alertContainer.firstChild) {
+        alertContainer.removeChild(alertContainer.firstChild);
+    }
 
-    // Populate alerts
-    alerts.forEach((alert) => {
+    if (!Array.isArray(alerts) || alerts.length === 0) {
+        alertsSection.classList.add("d-none");
+        return;
+    }
+
+    alertsSection.classList.remove("d-none");
+    alertsSection.setAttribute("aria-label", "Weather Alerts Section");
+
+    alerts.forEach((alert, index) => {
+        if (!alert || typeof alert !== 'object') return;
+
         const alertCard = document.createElement("div");
         alertCard.className = "card mb-3 border-danger";
-        alertCard.innerHTML = `
-            <div class="card-header bg-danger text-white">
-                <h5 class="mb-0">${alert.event}</h5>
-                <small>From: ${alert.sender}</small>
-            </div>
-            <div class="card-body">
-                <p><strong>Time:</strong> ${alert.start} - ${alert.end}</p>
-                <p>${alert.description}</p>
-            </div>
-        `;
+        alertCard.setAttribute("role", "alert");
+        alertCard.setAttribute("aria-labelledby", `alert-heading-${index}`);
+
+        const header = document.createElement("div");
+        header.className = "card-header bg-danger text-white";
+
+        const title = document.createElement("h5");
+        title.className = "mb-0";
+        title.id = `alert-heading-${index}`;
+        title.textContent = alert.event || "Weather Alert";
+
+        const source = document.createElement("small");
+        source.textContent = alert.sender ? `From: ${alert.sender}` : "";
+
+        const body = document.createElement("div");
+        body.className = "card-body";
+
+        const time = document.createElement("p");
+        time.innerHTML = `<strong>Time:</strong> ${escapeHtml(alert.start || "")} - ${escapeHtml(alert.end || "")}`;
+
+        const description = document.createElement("p");
+        description.textContent = alert.description || "No description available";
+
+        header.appendChild(title);
+        header.appendChild(source);
+        body.appendChild(time);
+        body.appendChild(description);
+        alertCard.appendChild(header);
+        alertCard.appendChild(body);
+
         alertContainer.appendChild(alertCard);
     });
 }
 
-// Fetch barometric pressure history
 async function getPressureHistory() {
     try {
         const response = await fetch('./barometricPressureHistory.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const history = await response.json();
-        return history;
+        if (!Array.isArray(history)) {
+            throw new Error('Invalid pressure history format');
+        }
+        return history.map(Number).filter(p => !isNaN(p));
     } catch (error) {
-        //console.error('Error fetching pressure history:', error);
+        console.error('Error fetching pressure history:', error.message);
         return [];
     }
 }
 
 async function updatePressureDisplay() {
-    const history = await getPressureHistory();
-    //console.log("Pressure History:", history);
+    const pressureElement = document.getElementById("pressure");
+    if (!pressureElement) {
+        console.error("Pressure element not found");
+        return;
+    }
 
-    if (history.length > 0) {
-        const currentPressure = history[history.length - 1]; // Last entry in the array
-        const previousPressure = history.length > 1 ? history[history.length - 2] : null; // Second-to-last entry if exists
-
-        //console.log("Current Pressure:", currentPressure);
-        //console.log("Previous Pressure:", previousPressure);
-
-        let trendIcon = "bi-question-circle"; // Default icon if no trend can be calculated
-        if (previousPressure !== null) {
-            trendIcon = getPressureTrendIcon(currentPressure, previousPressure);
+    try {
+        const history = await getPressureHistory();
+        if (history.length === 0) {
+            pressureElement.innerHTML = '<strong>Barometric Pressure:</strong> No Data Available';
+            return;
         }
 
-        const pressureElement = document.getElementById("pressure");
+        const currentPressure = history[history.length - 1];
+        const previousPressure = history.length > 1 ? history[history.length - 2] : null;
+        const trendIcon = previousPressure !== null ? 
+            getPressureTrendIcon(currentPressure, previousPressure) : 
+            "bi-question-circle";
+
         pressureElement.innerHTML = `<strong>Barometric Pressure:</strong> ${currentPressure} mb <i class="bi ${trendIcon}"></i>`;
-    } else {
-        console.warn("No pressure history available.");
+    } catch (error) {
+        console.error('Error updating pressure display:', error.message);
+        pressureElement.innerHTML = '<strong>Barometric Pressure:</strong> Error Loading Data';
     }
 }
 
-// Example usage
-const uvIndex = 6.5; // Replace with actual UV Index value
-//console.log(`UV Index: ${uvIndex}, Descriptor: ${getUVIndexDescriptor(uvIndex)}`); // Output: UV Index: 6.5, Descriptor: High
-
-function toggleTheme() {
+function initializeTheme() {
     const body = document.body;
     const themeToggle = document.getElementById('theme-toggle');
-    const isDarkMode = body.classList.contains('dark-mode');
-    body.classList.toggle('dark-mode', !isDarkMode);
-    body.classList.toggle('light-mode', isDarkMode);
-    themeToggle.innerHTML = isDarkMode 
-      ? '<i class="bi bi-moon"></i>' 
-      : '<i class="bi bi-sun"></i>';
+    
+    if (!themeToggle) {
+        console.error("Theme toggle button not found");
+        return;
+    }
+
+    // Set up ARIA attributes
+    themeToggle.setAttribute("role", "button");
+    themeToggle.setAttribute("aria-label", "Toggle dark mode");
+
+    // Get saved preference or use time of day
+    const savedTheme = localStorage.getItem('theme');
+    const currentHour = new Date().getHours();
+    const isNightTime = currentHour < 6 || currentHour >= 18; // Night time between 6 PM and 6 AM
+
+    // If user has a saved preference, use that. Otherwise, use time of day
+    const defaultTheme = savedTheme || (isNightTime ? 'dark' : 'light');
+
+    // Apply initial theme
+    body.classList.add(`${defaultTheme}-mode`);
+    updateThemeButton(defaultTheme === 'dark');
+
+    // Set up automatic theme switching if no user preference
+    if (!savedTheme) {
+        // Check time every minute
+        setInterval(() => {
+            const hour = new Date().getHours();
+            const shouldBeDark = hour < 6 || hour >= 18;
+            const isDark = body.classList.contains('dark-mode');
+
+            if (shouldBeDark !== isDark) {
+                body.classList.remove('dark-mode', 'light-mode');
+                body.classList.add(shouldBeDark ? 'dark-mode' : 'light-mode');
+                updateThemeButton(shouldBeDark);
+            }
+        }, 60000); // Check every minute
+    }
+
+    function updateThemeButton(isDark) {
+        themeToggle.innerHTML = isDark 
+            ? '<i class="bi bi-sun"></i>' 
+            : '<i class="bi bi-moon"></i>';
+        themeToggle.setAttribute("aria-label", `Toggle ${isDark ? 'light' : 'dark'} mode`);
+    }
+
+    function toggleTheme() {
+        const isDarkMode = body.classList.contains('dark-mode');
+        const newTheme = isDarkMode ? 'light' : 'dark';
+        
+        body.classList.remove('dark-mode', 'light-mode');
+        body.classList.add(`${newTheme}-mode`);
+        localStorage.setItem('theme', newTheme);
+        updateThemeButton(!isDarkMode);
+    }
+
+    themeToggle.addEventListener('click', toggleTheme);
+    themeToggle.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleTheme();
+        }
+    });
 }
 
 if (typeof data !== "undefined") {
-    const body = document.body;
-    const themeToggle = document.getElementById('theme-toggle');
-    const dayOrNight = data.currentWeather.dayOrNight || "day";
-
-    // Apply initial theme and icon
-    body.classList.add(dayOrNight === "night" ? "dark-mode" : "light-mode");
-    themeToggle.innerHTML = dayOrNight === "night" 
-      ? '<i class="bi bi-sun"></i>' 
-      : '<i class="bi bi-moon"></i>';
-
-    themeToggle.addEventListener('click', toggleTheme);
+    const weatherData = data.currentWeather || {};
+    const dayOrNight = weatherData.dayOrNight || "day";
+    
+    initializeTheme();
 
     // Populate Weather Alerts
     if (data.weatherAlerts && data.weatherAlerts.length > 0) {
-            populateWeatherAlerts(data.weatherAlerts);
-            } else {
-                console.log("No weather alerts found.");
-            }
+        populateWeatherAlerts(data.weatherAlerts);
+    } else {
+        console.log("No weather alerts found.");
+    }
 
     // Populate Lake Level
-    document.getElementById("lake-level").textContent = data.lakeLevel || "Unavailable";
+    const lakeLevelElement = document.getElementById("lake-level");
+    if (lakeLevelElement) {
+        lakeLevelElement.textContent = data.lakeLevel || "Unavailable";
+    }
 
     // Populate Weather Data
-    const weatherData = data.currentWeather || {};
     const dynamicWeatherIcon = document.getElementById("dynamic-weather-icon");
-    dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || "", dayOrNight));
+    if (dynamicWeatherIcon) {
+        dynamicWeatherIcon.classList.add(getWeatherIcon(weatherData.description || "", dayOrNight));
+        dynamicWeatherIcon.setAttribute("aria-label", weatherData.description || "Weather icon");
+    }
 
-    document.getElementById("current-temp").innerHTML = `<strong>Current Temp:</strong> ${weatherData.temp || "Unavailable"} °F`;
-    document.getElementById("feels-like").innerHTML = `<strong>Feels Like:</strong> ${weatherData.feels_like || "Unavailable"} °F`;
-    document.getElementById("description").innerHTML = `<strong>Description:</strong> ${weatherData.description || "Unavailable"}`;
-    document.getElementById("wind-speed").innerHTML = `<strong>Wind Speed:</strong> ${weatherData.wind_speed || "Unavailable"} mph`;
+    // Helper function to safely update element content
+    function updateElement(id, content) {
+        const element = document.getElementById(id);
+        if (element) {
+            element.innerHTML = content;
+        } else {
+            console.error(`Element with id '${id}' not found`);
+        }
+    }
+
+    // Update current weather data with proper ARIA attributes
+    updateElement("current-temp", `<strong>Current Temperature:</strong> ${weatherData.temp || "Unavailable"} °F`);
+    updateElement("feels-like", `<strong>Feels Like:</strong> ${weatherData.feels_like || "Unavailable"} °F`);
+    updateElement("description", `<strong>Weather Description:</strong> ${escapeHtml(weatherData.description || "Unavailable")}`);
+    updateElement("wind-speed", `<strong>Wind Speed:</strong> ${weatherData.wind_speed || "Unavailable"} mph`);
 
     const windDeg = weatherData.wind_deg || "Unavailable";
     if (windDeg !== "Unavailable") {
-        document.getElementById("wind-deg").innerHTML = `<strong>Wind Direction:</strong> ${windDeg}° (${getCardinalDirection(windDeg)})`;
+        const direction = getCardinalDirection(windDeg);
+        updateElement("wind-deg", 
+            `<strong>Wind Direction:</strong> ${windDeg}° (${direction}) <span class="sr-only">Wind direction is ${direction} at ${windDeg} degrees</span>`
+        );
     } else {
-        document.getElementById("wind-deg").innerHTML = `<strong>Wind Direction:</strong> Unavailable`;
+        updateElement("wind-deg", `<strong>Wind Direction:</strong> Unavailable`);
     }
 
-    document.getElementById("wind-gust").innerHTML = `<strong>Wind Gust:</strong> ${weatherData.gust || "Unavailable"} mph`;
-    document.getElementById("humidity").innerHTML = `<strong>Humidity:</strong> ${weatherData.humidity || "Unavailable"} %`;
-    document.getElementById("uvi").innerHTML = `<strong>UV Index:</strong> ${getUVIndexDescriptor(weatherData.uv_index)} (${weatherData.uv_index != null ? weatherData.uv_index : "Unavailable"})`;
+    updateElement("wind-gust", `<strong>Wind Gust:</strong> ${weatherData.gust || "Unavailable"} mph`);
+    updateElement("humidity", `<strong>Humidity:</strong> ${weatherData.humidity || "Unavailable"} %`);
+
+    const uvDesc = getUVIndexDescriptor(weatherData.uv_index);
+    updateElement("uvi", 
+        `<strong>UV Index:</strong> ${uvDesc} ${weatherData.uv_index != null ? `(${weatherData.uv_index})` : "(Unavailable)"} 
+        <span class="sr-only">UV Index is ${uvDesc}</span>`
+    );
+
     updatePressureDisplay(weatherData.pressure);
     
     // Update Moon Phase with Icon and Terminology
     const moonPhase = weatherData.moon_phase || "Unavailable";
     if (moonPhase !== "Unavailable") {
         const moonIcon = getMoonPhaseIcon(moonPhase);
-            document.getElementById("moon_phase").innerHTML = `<i class="bi ${moonIcon} me-2"></i><strong>Moon Phase:</strong> ${getMoonPhaseTerminology(moonPhase)} (${moonPhase})`;
+        const moonDesc = getMoonPhaseTerminology(moonPhase);
+        updateElement("moon_phase", 
+            `<i class="bi ${moonIcon} me-2" aria-hidden="true"></i>
+            <strong>Moon Phase:</strong> ${moonDesc} (${moonPhase})
+            <span class="sr-only">Moon phase is ${moonDesc}</span>`
+        );
     } else {
-        document.getElementById("moon_phase").innerHTML = `<strong>Moon Phase:</strong> Unavailable`;
+        updateElement("moon_phase", `<strong>Moon Phase:</strong> Unavailable`);
     }
 
-    document.getElementById("sunrise").innerHTML = `<strong>Sunrise:</strong> ${weatherData.sunrise || "Unavailable"}`;
-    document.getElementById("sunset").innerHTML = `<strong>Sunset:</strong> ${weatherData.sunset || "Unavailable"}`;
+    updateElement("sunrise", `<strong>Sunrise:</strong> ${weatherData.sunrise || "Unavailable"}`);
+    updateElement("sunset", `<strong>Sunset:</strong> ${weatherData.sunset || "Unavailable"}`);
 
     // Populate Fishing Report
     const fishingReport = data.fishingReport || {};
-    document.getElementById("fishing-report-date").textContent = fishingReport.date || "No date available";
-    document.getElementById("fishing-report-text").textContent = fishingReport.report || "No report available.";
+    const reportDate = document.getElementById("fishing-report-date");
+    const reportText = document.getElementById("fishing-report-text");
+
+    if (reportDate && reportText) {
+        const date = escapeHtml(fishingReport.date || "No date available");
+        const report = escapeHtml(fishingReport.report || "No report available");
+
+        reportDate.textContent = date;
+        reportText.textContent = report;
+
+        // Add ARIA attributes for better accessibility
+        reportDate.setAttribute("aria-label", `Fishing report date: ${date}`);
+        reportText.setAttribute("aria-label", "Fishing report content");
+        reportText.setAttribute("role", "article");
+    } else {
+        console.error("Fishing report elements not found");
+    }
 
     // Populate 5-Day Weather Forecast
     const fiveDayForecast = data.fiveDayWeather || [];
     const forecastContainer = document.getElementById("five-day-forecast");
     forecastContainer.innerHTML = ""; // Clear existing content
 
-    fiveDayForecast.forEach(day => {
+    fiveDayForecast.forEach((day, index) => {
+        if (!day || typeof day !== 'object') return;
+
         const forecastCard = document.createElement("div");
         forecastCard.className = "col-12 col-sm-6 col-md-12";
+        forecastCard.setAttribute("role", "region");
+        forecastCard.setAttribute("aria-label", `Weather forecast for ${day.date || 'Unknown date'}`);
 
-        forecastCard.innerHTML = `
+        const weatherIcon = getWeatherIcon(day.description || "", "day");
+        const windDirection = getCardinalDirection(day.wind_deg);
+        const uvDesc = getUVIndexDescriptor(day.uv_index);
+        const moonIcon = getMoonPhaseIcon(day.moon_phase);
+        const moonPhase = getMoonPhaseTerminology(day.moon_phase);
+
+        const cardContent = `
             <div class="card shadow">
                 <div class="card-header text-center bg-primary text-white">
-                    <h5 class="mb-0">${day.date}</h5>
+                    <h5 class="mb-0" id="forecast-date-${index}">${escapeHtml(day.date || 'Unknown date')}</h5>
                 </div>
                 <div class="card-body text-center">
-                    <i class="bi ${getWeatherIcon(day.description, "day")} fs-1"></i>
-                    <p class="mb-2"><strong>Description:</strong> ${day.description}</p>
-                    <p class="mb-1"><i class="bi bi-thermometer-high"></i> <strong>High:</strong> ${day.high} °F</p>
-                    <p class="mb-1"><i class="bi bi-thermometer-low"></i> <strong>Low:</strong> ${day.low} °F</p>
-                    <p class="mb-1"><i class="bi bi-wind"></i> <strong>Wind:</strong> ${day.wind_speed} mph (${getCardinalDirection(day.wind_deg)})</p>
-                    <p class="mb-1"><i class="bi bi-water"></i> <strong>Gust:</strong> ${day.gust || "No Data"} mph</p>
-                    <p class="mb-1"><i class="bi bi-droplet-half"></i> <strong>Humidty:</strong> ${day.humidity || "No Data"} %</p>
-                    <p class="mb-1"><i class="bi bi-sun"></i> <strong>UV Index:</strong> ${getUVIndexDescriptor(day.uv_index)} ${day.uv_index || "No Data"} </p>
-                    <p class="mb-1"><i class="bi bi-speedometer"></i> <strong>Barametric Pressure:</strong> ${day.pressure || "No Data"} mb</p>
-                    <p class="mb-1"><i class="bi ${getMoonPhaseIcon(day.moon_phase)}"></i> <strong>Moon Phase:</strong> ${getMoonPhaseTerminology(day.moon_phase)} (${day.moon_phase})</p>
+                    <i class="bi ${weatherIcon} fs-1" aria-label="${day.description || 'Weather condition'}"></i>
+                    <p class="mb-2"><strong>Description:</strong> ${escapeHtml(day.description || 'No description available')}</p>
+                    <p class="mb-1"><i class="bi bi-thermometer-high" aria-hidden="true"></i> <strong>High:</strong> ${day.high || 'No Data'} °F</p>
+                    <p class="mb-1"><i class="bi bi-thermometer-low" aria-hidden="true"></i> <strong>Low:</strong> ${day.low || 'No Data'} °F</p>
+                    <p class="mb-1"><i class="bi bi-wind" aria-hidden="true"></i> <strong>Wind:</strong> ${day.wind_speed || 'No Data'} mph (${windDirection})</p>
+                    <p class="mb-1"><i class="bi bi-water" aria-hidden="true"></i> <strong>Gust:</strong> ${day.gust || 'No Data'} mph</p>
+                    <p class="mb-1"><i class="bi bi-droplet-half" aria-hidden="true"></i> <strong>Humidity:</strong> ${day.humidity || 'No Data'} %</p>
+                    <p class="mb-1"><i class="bi bi-sun" aria-hidden="true"></i> <strong>UV Index:</strong> ${uvDesc} (${day.uv_index || 'No Data'})</p>
+                    <p class="mb-1"><i class="bi bi-speedometer" aria-hidden="true"></i> <strong>Barometric Pressure:</strong> ${day.pressure || 'No Data'} mb</p>
+                    <p class="mb-1"><i class="bi ${moonIcon}" aria-hidden="true"></i> <strong>Moon Phase:</strong> ${moonPhase} (${day.moon_phase || 'No Data'})</p>
                 </div>
             </div>
         `;
 
+        forecastCard.innerHTML = cardContent;
         forecastContainer.appendChild(forecastCard);
     });
 }
