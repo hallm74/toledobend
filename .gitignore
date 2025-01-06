@@ -1,8 +1,5 @@
 .env
 node_modules
 data.js
-lakeLevelHistory.json
 data.js
 oldcode
-fishingReportHistory.json
-barometricPressureHistory.json
