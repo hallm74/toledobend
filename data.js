@@ -7,8 +7,8 @@ const data = {
     "wind_speed": 13.31,
     "wind_deg": 315,
     "gust": 25.41,
-    "sunrise": "01:13 AM",
-    "sunset": "11:25 AM",
+    "sunrise": "07:13 AM",
+    "sunset": "05:25 PM",
     "dayOrNight": "night",
     "humidity": 74,
     "uv_index": 0,
@@ -85,8 +85,8 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Cold Weather Advisory",
-      "start": "06:00 PM",
-      "end": "04:00 AM",
+      "start": "12:00 AM",
+      "end": "10:00 AM",
       "description": "* WHAT...Very cold wind chills as low as 14 expected.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, Beauregard, and Vernon\nParishes. In Texas, Northern Jasper, Northern Newton, and Tyler\nCounties.\n\n* WHEN...From midnight tonight to 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
       "sender": "NWS Lake Charles LA"
     }
