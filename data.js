@@ -1,12 +1,12 @@
 const data = {
-  "lakeLevel": "170.04ft 2:30am",
+  "lakeLevel": "169.95ft 3:30am",
   "currentWeather": {
-    "temp": 28.83,
-    "feels_like": 17.29,
+    "temp": 28.65,
+    "feels_like": 17.17,
     "description": "clear sky",
-    "wind_speed": 15.64,
-    "wind_deg": 324,
-    "gust": 32.66,
+    "wind_speed": 15.35,
+    "wind_deg": 325,
+    "gust": 31.99,
     "sunrise": "07:13 AM",
     "sunset": "05:26 PM",
     "dayOrNight": "night",
@@ -85,9 +85,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Cold Weather Advisory",
-      "start": "12:00 AM",
+      "start": "03:21 AM",
       "end": "10:00 AM",
-      "description": "* WHAT...Very cold wind chills as low as 14 expected.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, Beauregard, and Vernon\nParishes. In Texas, Northern Jasper, Northern Newton, and Tyler\nCounties.\n\n* WHEN...Until 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "description": "* WHAT...Very cold wind chills as low as 14.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, Beauregard, and Vernon\nParishes. In Texas, Northern Jasper, Northern Newton, and Tyler\nCounties.\n\n* WHEN...Until 10 AM CST this morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
       "sender": "NWS Lake Charles LA"
     }
   ],
