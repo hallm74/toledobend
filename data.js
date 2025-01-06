@@ -87,7 +87,7 @@ const data = {
       "event": "Cold Weather Advisory",
       "start": "12:00 AM",
       "end": "10:00 AM",
-      "description": "* WHAT...Very cold wind chills as low as 14 expected.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, Beauregard, and Vernon\nParishes. In Texas, Northern Jasper, Northern Newton, and Tyler\nCounties.\n\n* WHEN...From midnight tonight to 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "description": "* WHAT...Very cold wind chills as low as 14 expected.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, Beauregard, and Vernon\nParishes. In Texas, Northern Jasper, Northern Newton, and Tyler\nCounties.\n\n* WHEN...Until 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
       "sender": "NWS Lake Charles LA"
     }
   ],
