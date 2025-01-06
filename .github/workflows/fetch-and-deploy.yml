@@ -33,11 +33,21 @@ jobs:
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: node fetch-data.js
 
+      - name: Verify generated files
+        run: |
+          if [ ! -f data.js ] || [ ! -f fishingReportHistory.json ] || [ ! -f lakeLevelHistory.json ] || [ ! -f barometricPressureHistory.json ]; then
+            echo "One or more required files are missing!";
+            exit 1;
+          fi
+
+      - name: Log generated files
+        run: ls -l
+
       # Step 5: Commit and push updated data
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add -f data.js # Force add ignored file
-          git commit -m "Update data.js" || echo "No changes to commit"
+          git add -f data.js fishingReportHistory.json lakeLevelHistory.json barometricPressureHistory.json
           git push
