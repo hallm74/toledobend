@@ -42,6 +42,18 @@ function getUVIndexDescriptor(uvIndex) {
     return "Unknown";
 }
 
+function getPressureTrendIcon(currentPressure, previousPressure) {
+    //console.log("Current Pressure:", currentPressure);
+    //console.log("Previous Pressure:", previousPressure);
+    if (currentPressure > previousPressure) {
+        return "bi-arrow-up"; // Rising pressure
+    } else if (currentPressure < previousPressure) {
+        return "bi-arrow-down"; // Falling pressure
+    } else {
+        return "bi-dash"; // Stable pressure
+    }
+}
+
 function populateWeatherAlerts(alerts) {
     const alertsSection = document.getElementById("alerts-section");
     const alertContainer = document.getElementById("weather-alerts");
@@ -76,9 +88,44 @@ function populateWeatherAlerts(alerts) {
     });
 }
 
+// Fetch barometric pressure history
+async function getPressureHistory() {
+    try {
+        const response = await fetch('./barometricPressureHistory.json');
+        const history = await response.json();
+        return history;
+    } catch (error) {
+        //console.error('Error fetching pressure history:', error);
+        return [];
+    }
+}
+
+async function updatePressureDisplay() {
+    const history = await getPressureHistory();
+    //console.log("Pressure History:", history);
+
+    if (history.length > 0) {
+        const currentPressure = history[history.length - 1]; // Last entry in the array
+        const previousPressure = history.length > 1 ? history[history.length - 2] : null; // Second-to-last entry if exists
+
+        //console.log("Current Pressure:", currentPressure);
+        //console.log("Previous Pressure:", previousPressure);
+
+        let trendIcon = "bi-question-circle"; // Default icon if no trend can be calculated
+        if (previousPressure !== null) {
+            trendIcon = getPressureTrendIcon(currentPressure, previousPressure);
+        }
+
+        const pressureElement = document.getElementById("pressure");
+        pressureElement.innerHTML = `<strong>Barometric Pressure:</strong> ${currentPressure} mb <i class="bi ${trendIcon}"></i>`;
+    } else {
+        console.warn("No pressure history available.");
+    }
+}
+
 // Example usage
 const uvIndex = 6.5; // Replace with actual UV Index value
-console.log(`UV Index: ${uvIndex}, Descriptor: ${getUVIndexDescriptor(uvIndex)}`); // Output: UV Index: 6.5, Descriptor: High
+//console.log(`UV Index: ${uvIndex}, Descriptor: ${getUVIndexDescriptor(uvIndex)}`); // Output: UV Index: 6.5, Descriptor: High
 
 function toggleTheme() {
     const body = document.body;
@@ -133,8 +180,8 @@ if (typeof data !== "undefined") {
 
     document.getElementById("wind-gust").innerHTML = `<strong>Wind Gust:</strong> ${weatherData.gust || "Unavailable"} mph`;
     document.getElementById("humidity").innerHTML = `<strong>Humidity:</strong> ${weatherData.humidity || "Unavailable"} %`;
-    document.getElementById("uvi").innerHTML = `<strong>UV Index:</strong> ${getUVIndexDescriptor(weatherData.uv_index)} (${weatherData.uv_index || "Unavailable"})`;
-    document.getElementById("pressure").innerHTML = `<strong>Pressure:</strong> ${weatherData.pressure || "Unavailable"} mb`;
+    document.getElementById("uvi").innerHTML = `<strong>UV Index:</strong> ${getUVIndexDescriptor(weatherData.uv_index)} (${weatherData.uv_index != null ? weatherData.uv_index : "Unavailable"})`;
+    updatePressureDisplay(weatherData.pressure);
     
     // Update Moon Phase with Icon and Terminology
     const moonPhase = weatherData.moon_phase || "Unavailable";

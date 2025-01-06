@@ -9,8 +9,32 @@ const FISHING_REPORT_URL = 'https://tpwd.texas.gov/fishboat/fish/action/reptform
 const LOCATION_COORDS = { lat: 31.1357, lon: -93.5918 }; // Toledo Bend coordinates
 const LAKE_LEVEL_HISTORY_FILE = 'lakeLevelHistory.json';
 const FISHING_REPORT_HISTORY_FILE = 'fishingReportHistory.json';
+const BAROMETRIC_PRESSURE_HISTORY_FILE = 'barometricPressureHistory.json';
 const HISTORY_LIMIT = 5;
+const PRESSURE_HISTORY_LIMIT = 6;
 const PAGE_LOAD_TIMEOUT = 120000;
+
+function updatePressureHistory(newPressure) {
+    if (isNaN(newPressure)) {
+        console.error('Invalid pressure value:', newPressure);
+        return;
+    }
+
+    let history = [];
+
+    if (fs.existsSync(BAROMETRIC_PRESSURE_HISTORY_FILE)) {
+        history = JSON.parse(fs.readFileSync(BAROMETRIC_PRESSURE_HISTORY_FILE, 'utf-8'));
+    }
+
+    history.push(newPressure);
+
+    if (history.length > PRESSURE_HISTORY_LIMIT) {
+        history.shift();
+    }
+
+    fs.writeFileSync(BAROMETRIC_PRESSURE_HISTORY_FILE, JSON.stringify(history, null, 2));
+    console.log(`${BAROMETRIC_PRESSURE_HISTORY_FILE} updated:`, history);
+}
 
 async function fetchLakeLevel() {
     const browser = await puppeteer.launch({
@@ -77,6 +101,45 @@ function getFallbackFromHistory(file) {
     return 'Unavailable';
 }
 
+async function fetchFishingReport() {
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    });
+    const page = await browser.newPage();
+
+    try {
+        console.log('Navigating to fishing report URL...');
+        await page.goto(FISHING_REPORT_URL, { waitUntil: 'domcontentloaded', timeout: PAGE_LOAD_TIMEOUT });
+        console.log('Fishing report page loaded.');
+
+        const report = await page.evaluate(() => {
+            const header = document.querySelector('h1');
+            if (!header || !header.textContent.includes('Toledo Bend Fishing Report')) {
+                return { date: 'Unavailable', report: 'Fishing report not found' };
+            }
+
+            const dateElement = document.querySelector('dl dt span.title');
+            const textElement = document.querySelector('dl dd');
+
+            return {
+                date: dateElement ? dateElement.textContent.trim() : 'Unavailable',
+                report: textElement ? textElement.textContent.trim() : 'Fishing report content not found',
+            };
+        });
+
+        console.log('Fishing report fetched:', report);
+        updateHistory(FISHING_REPORT_HISTORY_FILE, report);
+        return report;
+    } catch (error) {
+        console.error('Error fetching fishing report:', error.message);
+        const fallbackFishingReport = getFallbackFromHistory(FISHING_REPORT_HISTORY_FILE);
+        console.log('Reverting to last known fishing report:', fallbackFishingReport);
+        return fallbackFishingReport;
+    } finally {
+        await browser.close();
+    }
+}
+
 async function fetchWeatherAndForecast() {
     try {
         const response = await axios.get(ONE_CALL_API_URL, {
@@ -119,6 +182,11 @@ async function fetchWeatherAndForecast() {
             moon_phase: weatherData.daily[0].moon_phase,
         };
 
+        // Safely update pressure history
+        if (currentWeather.pressure && !isNaN(currentWeather.pressure)) {
+            updatePressureHistory(currentWeather.pressure);
+        }
+        
         const dailyForecasts = weatherData.daily.slice(1, 6).map(day => ({
             date: new Date(day.dt * 1000).toLocaleDateString('en-US', { weekday: 'long' }),
             high: day.temp.max,
@@ -158,49 +226,11 @@ async function fetchWeatherAndForecast() {
                 humidity: 'Unavailable',
                 uv_index: 'Unavailable',
                 pressure: 'Unavailable',
+                moon_phase: weatherData.daily[0].moon_phase,
             },
             dailyForecasts: [],
             alerts: [],
         };
-    }
-}
-
-async function fetchFishingReport() {
-    const browser = await puppeteer.launch({
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
-    const page = await browser.newPage();
-
-    try {
-        console.log('Navigating to fishing report URL...');
-        await page.goto(FISHING_REPORT_URL, { waitUntil: 'domcontentloaded', timeout: PAGE_LOAD_TIMEOUT });
-        console.log('Fishing report page loaded.');
-
-        const report = await page.evaluate(() => {
-            const header = document.querySelector('h1');
-            if (!header || !header.textContent.includes('Toledo Bend Fishing Report')) {
-                return { date: 'Unavailable', report: 'Fishing report not found' };
-            }
-
-            const dateElement = document.querySelector('dl dt span.title');
-            const textElement = document.querySelector('dl dd');
-
-            return {
-                date: dateElement ? dateElement.textContent.trim() : 'Unavailable',
-                report: textElement ? textElement.textContent.trim() : 'Fishing report content not found',
-            };
-        });
-
-        console.log('Fishing report fetched:', report);
-        updateHistory(FISHING_REPORT_HISTORY_FILE, report);
-        return report;
-    } catch (error) {
-        console.error('Error fetching fishing report:', error.message);
-        const fallbackFishingReport = getFallbackFromHistory(FISHING_REPORT_HISTORY_FILE);
-        console.log('Reverting to last known fishing report:', fallbackFishingReport);
-        return fallbackFishingReport;
-    } finally {
-        await browser.close();
     }
 }
 
