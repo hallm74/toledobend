@@ -1,4 +1,5 @@
 const data = {
+<<<<<<< HEAD
   "lakeLevel": "169.94ft 5:30pm",
   "currentWeather": {
     "temp": 49.51,
@@ -13,6 +14,22 @@ const data = {
     "humidity": 79,
     "uv_index": 0,
     "pressure": 1015,
+=======
+  "lakeLevel": "169.90ft 4:30pm",
+  "currentWeather": {
+    "temp": 51.03,
+    "feels_like": 49.78,
+    "description": "overcast clouds",
+    "wind_speed": 12.15,
+    "wind_deg": 309,
+    "gust": 27.13,
+    "sunrise": "07:13 AM",
+    "sunset": "05:25 PM",
+    "dayOrNight": "day",
+    "humidity": 84,
+    "uv_index": 0,
+    "pressure": 1013,
+>>>>>>> Toledo-Bend/main
     "moon_phase": 0.2
   },
   "fiveDayWeather": [
@@ -85,10 +102,24 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Cold Weather Advisory",
+<<<<<<< HEAD
       "start": "06:00 PM",
       "end": "04:00 AM",
       "description": "* WHAT...Very cold wind chills as low as 14 expected.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, Beauregard, and Vernon\nParishes. In Texas, Northern Jasper, Northern Newton, and Tyler\nCounties.\n\n* WHEN...From midnight tonight to 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
       "sender": "NWS Lake Charles LA"
+=======
+      "start": "12:00 AM",
+      "end": "10:00 AM",
+      "description": "* WHAT...Very cold wind chills as low as 14 expected.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, Beauregard, and Vernon\nParishes. In Texas, Northern Jasper, Northern Newton, and Tyler\nCounties.\n\n* WHEN...From midnight tonight to 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Tornado Watch",
+      "start": "03:51 PM",
+      "end": "06:00 PM",
+      "description": "TORNADO WATCH 1 REMAINS VALID UNTIL 6 PM CST THIS EVENING FOR THE\nFOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 4 PARISHES\n\nIN CENTRAL LOUISIANA\n\nRAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                NEWTON\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE, FIELDS,\nFORT JOHNSON, GIST, HOLLY SPRINGS, JAMESTOWN, JASPER, KINDER,\nKIRBYVILLE, LEESVILLE, LUMBERTON, MAGNOLIA SPRINGS, MT. UNION,\nNEWTON, OAKDALE, ORETTA, PICKERING, PINEVILLE, SILSBEE, SLAGLE,\nAND WIERGATE.",
+      "sender": "NWS Lake Charles LA"
+>>>>>>> Toledo-Bend/main
     }
   ],
   "fishingReport": {
