@@ -1,6 +1,7 @@
 const data = {
   "lakeLevel": "169.57ft 5:30pm",
   "currentWeather": {
+<<<<<<< HEAD
     "temp": 34.9,
     "feels_like": 28.2,
     "description": "clear sky",
@@ -9,10 +10,24 @@ const data = {
     "gust": 19.55,
     "sunrise": "01:13 AM",
     "sunset": "11:27 AM",
+=======
+    "temp": 36.54,
+    "feels_like": 30.65,
+    "description": "clear sky",
+    "wind_speed": 7.52,
+    "wind_deg": 26,
+    "gust": 17.76,
+    "sunrise": "07:13 AM",
+    "sunset": "05:27 PM",
+>>>>>>> Toledo-Bend/main
     "dayOrNight": "night",
-    "humidity": 67,
+    "humidity": 64,
     "uv_index": 0,
+<<<<<<< HEAD
     "pressure": 1032,
+=======
+    "pressure": 1031,
+>>>>>>> Toledo-Bend/main
     "moon_phase": 0.28
   },
   "fiveDayWeather": [
@@ -46,7 +61,11 @@ const data = {
       "date": "Friday",
       "high": 44.08,
       "low": 36.41,
+<<<<<<< HEAD
       "description": "heavy intensity rain",
+=======
+      "description": "rain and snow",
+>>>>>>> Toledo-Bend/main
       "wind_speed": 15.41,
       "wind_deg": 327,
       "gust": 27.92,
