@@ -235,16 +235,23 @@ async function calculateFishingScore(data) {
 
 async function updateFishingScore(data) {
     try {
-        const score = await calculateFishingScore(data);
+        const { score, descriptor } = await calculateFishingScore(data); // Properly destructure the result
 
-        // Determine the score label
-        const scoreLabel = score > 75 ? "Excellent" : score > 50 ? "Good" : score > 25 ? "Fair" : "Poor";
-
-        // Update the fishing score in the weather data list
-        updateElement("fishing-score", `<strong>Fishing Score:</strong> ${score} (${scoreLabel})`);
+        // Update the fishing score in the current weather data section
+        const fishingScoreElement = document.getElementById("fishing-score");
+        if (fishingScoreElement) {
+            fishingScoreElement.innerHTML = `<strong>Fishing Score:</strong> ${score} (${descriptor})`;
+        } else {
+            console.error("Fishing score element not found.");
+        }
     } catch (error) {
         console.error("Error calculating fishing score:", error.message);
-        updateElement("fishing-score", `<strong>Fishing Score:</strong> Error Calculating`);
+
+        // Handle the error by displaying a fallback message
+        const fishingScoreElement = document.getElementById("fishing-score");
+        if (fishingScoreElement) {
+            fishingScoreElement.innerHTML = `<strong>Fishing Score:</strong> Error calculating`;
+        }
     }
 }
 
