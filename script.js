@@ -180,6 +180,74 @@ async function updatePressureDisplay() {
     }
 }
 
+async function calculateFishingScore(data) {
+    let score = 50; // Start with a baseline score
+
+    // Temperature
+    if (data.temp < 50) score -= 10;
+    else if (data.temp > 75) score -= 5;
+
+    // Weather Description
+    if (data.description.includes("clear sky")) score -= 5;
+
+    // Wind
+    if (data.wind_speed > 15) score -= 10;
+    else if (data.wind_speed > 5) score += 5;
+    if (data.wind_gust > 20) score -= 5;
+
+    // Humidity
+    if (data.humidity >= 60 && data.humidity <= 80) score += 10;
+
+    // UV Index
+    if (data.uv_index <= 2) score += 5;
+
+    // Pressure
+    if (data.pressure > 1020 && data.pressure <= 1030) score -= 5;
+
+    // Moon Phase
+    if (data.moon_phase >= 0.25 && data.moon_phase <= 0.75) score += 10;
+
+    // Time of Day
+    const currentHour = new Date().getHours();
+    const sunriseHour = parseInt(data.sunrise.split(':')[0], 10);
+    const sunsetHour = parseInt(data.sunset.split(':')[0], 10);
+    if (currentHour === sunriseHour || currentHour === sunsetHour) score += 10;
+
+    // Barometric Pressure Trend
+    const history = await getPressureHistory();
+    if (history.length > 1) {
+        const currentPressure = data.pressure;
+        const previousPressure = history[history.length - 2];
+        if (currentPressure > previousPressure) {
+            // Rising pressure
+            score -= 5;
+        } else if (currentPressure < previousPressure) {
+            // Falling pressure
+            score += 10;
+        } else {
+            // Stable pressure
+            score += 2;
+        }
+    }
+
+    return score;
+}
+
+async function updateFishingScore(data) {
+    try {
+        const score = await calculateFishingScore(data);
+
+        // Determine the score label
+        const scoreLabel = score > 75 ? "Excellent" : score > 50 ? "Good" : score > 25 ? "Fair" : "Poor";
+
+        // Update the fishing score in the weather data list
+        updateElement("fishing-score", `<strong>Fishing Score:</strong> ${score} (${scoreLabel})`);
+    } catch (error) {
+        console.error("Error calculating fishing score:", error.message);
+        updateElement("fishing-score", `<strong>Fishing Score:</strong> Error Calculating`);
+    }
+}
+
 function initializeTheme() {
     const body = document.body;
     const themeToggle = document.getElementById('theme-toggle');
@@ -309,6 +377,7 @@ if (typeof data !== "undefined") {
     );
 
     updatePressureDisplay(weatherData.pressure);
+    updateFishingScore(weatherData);
     
     // Update Moon Phase with Icon and Terminology
     const moonPhase = weatherData.moon_phase || "Unavailable";
