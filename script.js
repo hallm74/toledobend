@@ -248,6 +248,67 @@ async function updateFishingScore(data) {
     }
 }
 
+function calculateFishingScore(day) {
+    let score = 50; // Start with a baseline score
+
+    // Temperature
+    if (day.high < 50) {
+        score -= 10; // Too cold
+    } else if (day.high >= 50 && day.high <= 75) {
+        score += 10; // Ideal temperature range
+    }
+
+    // Wind
+    if (day.wind_speed > 15) {
+        score -= 10; // Too windy
+    } else if (day.wind_speed >= 5 && day.wind_speed <= 10) {
+        score += 5; // Moderate wind is favorable
+    }
+    if (day.wind_gust > 20) {
+        score -= 5; // Strong gusts are unfavorable
+    }
+
+    // Humidity
+    if (day.humidity >= 60 && day.humidity <= 80) {
+        score += 10; // Favorable humidity
+    } else if (day.humidity < 30 || day.humidity > 90) {
+        score -= 10; // Unfavorable humidity
+    }
+
+    // UV Index
+    if (day.uv_index <= 2) {
+        score += 5; // Low UV is favorable
+    } else if (day.uv_index > 7) {
+        score -= 5; // High UV is less favorable
+    }
+
+    // Barometric Pressure
+    if (day.pressure >= 1010 && day.pressure <= 1025) {
+        score += 10; // Favorable pressure range
+    } else if (day.pressure < 1005 || day.pressure > 1030) {
+        score -= 10; // Unfavorable pressure range
+    }
+
+    // Moon Phase
+    if (day.moon_phase >= 0.25 && day.moon_phase <= 0.75) {
+        score += 10; // Waxing Gibbous to Full Moon phases are favorable
+    } else if (day.moon_phase === 0 || day.moon_phase === 1) {
+        score -= 10; // New Moon phases are less favorable
+    }
+
+    // Cap score at 100 and ensure it doesn't drop below 0
+    if (score > 100) score = 100;
+    if (score < 0) score = 0;
+
+    // Determine descriptor
+    let descriptor = "Poor";
+    if (score > 75) descriptor = "Excellent";
+    else if (score > 50) descriptor = "Good";
+    else if (score > 25) descriptor = "Fair";
+
+    return { score, descriptor };
+}
+
 function initializeTheme() {
     const body = document.body;
     const themeToggle = document.getElementById('theme-toggle');
@@ -434,6 +495,7 @@ if (typeof data !== "undefined") {
         const uvDesc = getUVIndexDescriptor(day.uv_index);
         const moonIcon = getMoonPhaseIcon(day.moon_phase);
         const moonPhase = getMoonPhaseTerminology(day.moon_phase);
+        const { score, descriptor } = calculateFishingScore(day);
 
         const cardContent = `
             <div class="card shadow">
@@ -451,6 +513,7 @@ if (typeof data !== "undefined") {
                     <p class="mb-1"><i class="bi bi-sun" aria-hidden="true"></i> <strong>UV Index:</strong> ${uvDesc} (${day.uv_index || 'No Data'})</p>
                     <p class="mb-1"><i class="bi bi-speedometer" aria-hidden="true"></i> <strong>Barometric Pressure:</strong> ${day.pressure || 'No Data'} mb</p>
                     <p class="mb-1"><i class="bi ${moonIcon}" aria-hidden="true"></i> <strong>Moon Phase:</strong> ${moonPhase} (${day.moon_phase || 'No Data'})</p>
+                    <p class="mb-1"><i class="bi bi-trophy" aria-hidden="true"></i> <strong>Fishing Score:</strong> ${score || 'No Data'} (${descriptor || 'No Data'})</p>
                 </div>
             </div>
         `;
