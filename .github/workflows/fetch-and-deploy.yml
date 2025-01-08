@@ -29,8 +29,6 @@ jobs:
 
       # Step 4: Run fetch script
       - name: Fetch weather and lake data
-        env:
-          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: node fetch-data.js
 
       - name: Verify generated files

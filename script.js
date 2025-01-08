@@ -153,6 +153,13 @@ async function getPressureHistory() {
     }
 }
 
+function convertMbToInHg(mb) {
+    if (typeof mb !== 'number' || isNaN(mb)) {
+        return 'Unavailable';
+    }
+    return (mb * 0.02953).toFixed(2); // Convert and round to 2 decimal places
+}
+
 async function updatePressureDisplay() {
     const pressureElement = document.getElementById("pressure");
     if (!pressureElement) {
@@ -169,11 +176,12 @@ async function updatePressureDisplay() {
 
         const currentPressure = history[history.length - 1];
         const previousPressure = history.length > 1 ? history[history.length - 2] : null;
+        const currentPressureInHg = convertMbToInHg(currentPressure); // Convert to inHg
         const trendIcon = previousPressure !== null ? 
             getPressureTrendIcon(currentPressure, previousPressure) : 
             "bi-question-circle";
 
-        pressureElement.innerHTML = `<strong>Barometric Pressure:</strong> ${currentPressure} mb <i class="bi ${trendIcon}"></i>`;
+        pressureElement.innerHTML = `<strong>Barometric Pressure:</strong> ${currentPressureInHg} inHg<i class="bi ${trendIcon}"></i>`;
     } catch (error) {
         console.error('Error updating pressure display:', error.message);
         pressureElement.innerHTML = '<strong>Barometric Pressure:</strong> Error Loading Data';
@@ -504,6 +512,9 @@ if (typeof data !== "undefined") {
         const moonPhase = getMoonPhaseTerminology(day.moon_phase);
         const { score, descriptor } = calculateFishingScore(day);
 
+        // Convert barometric pressure to inHg
+        const pressureInHg = convertMbToInHg(day.pressure);
+
         const cardContent = `
             <div class="card shadow">
                 <div class="card-header text-center bg-primary text-white">
@@ -518,7 +529,7 @@ if (typeof data !== "undefined") {
                     <p class="mb-1"><i class="bi bi-water" aria-hidden="true"></i> <strong>Gust:</strong> ${day.gust || 'No Data'} mph</p>
                     <p class="mb-1"><i class="bi bi-droplet-half" aria-hidden="true"></i> <strong>Humidity:</strong> ${day.humidity || 'No Data'} %</p>
                     <p class="mb-1"><i class="bi bi-sun" aria-hidden="true"></i> <strong>UV Index:</strong> ${uvDesc} (${day.uv_index || 'No Data'})</p>
-                    <p class="mb-1"><i class="bi bi-speedometer" aria-hidden="true"></i> <strong>Barometric Pressure:</strong> ${day.pressure || 'No Data'} mb</p>
+                    <p class="mb-1"><i class="bi bi-speedometer" aria-hidden="true"></i> <strong>Barometric Pressure:</strong> ${pressureInHg || 'No Data'} inHg</p>
                     <p class="mb-1"><i class="bi ${moonIcon}" aria-hidden="true"></i> <strong>Moon Phase:</strong> ${moonPhase} (${day.moon_phase || 'No Data'})</p>
                     <p class="mb-1"><i class="bi bi-trophy" aria-hidden="true"></i> <strong>Fishing Score:</strong> ${score || 'No Data'} (${descriptor || 'No Data'}) <i class="bi bi-info-circle text-primary" data-bs-toggle="modal" data-bs-target="#instructionModal" title="Click for Instructions"></i></p>
                 </div>
