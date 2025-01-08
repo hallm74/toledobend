@@ -520,7 +520,7 @@ if (typeof data !== "undefined") {
                     <p class="mb-1"><i class="bi bi-sun" aria-hidden="true"></i> <strong>UV Index:</strong> ${uvDesc} (${day.uv_index || 'No Data'})</p>
                     <p class="mb-1"><i class="bi bi-speedometer" aria-hidden="true"></i> <strong>Barometric Pressure:</strong> ${day.pressure || 'No Data'} mb</p>
                     <p class="mb-1"><i class="bi ${moonIcon}" aria-hidden="true"></i> <strong>Moon Phase:</strong> ${moonPhase} (${day.moon_phase || 'No Data'})</p>
-                    <p class="mb-1"><i class="bi bi-trophy" aria-hidden="true"></i> <strong>Fishing Score:</strong> ${score || 'No Data'} (${descriptor || 'No Data'})</p>
+                    <p class="mb-1"><i class="bi bi-trophy" aria-hidden="true"></i> <strong>Fishing Score:</strong> ${score || 'No Data'} (${descriptor || 'No Data'}) <i class="bi bi-info-circle text-primary" data-bs-toggle="modal" data-bs-target="#instructionModal" title="Click for Instructions"></i></p>
                 </div>
             </div>
         `;
