@@ -1,3 +1,4 @@
+console.log("script.js loaded and running");
 function getWeatherIcon(description, dayOrNight) {
     const desc = description.toLowerCase();
     if (desc.includes('clear')) return dayOrNight === 'night' ? 'bi-moon' : 'bi-sun';
@@ -231,6 +232,9 @@ async function calculateFishingScore(data) {
 
     // Time of Day
     const currentHour = new Date().getHours();
+    console.log("Current Hour:", currentHour); // Log the current hour
+    console.log("Local Time Current Hour:", new Date().getHours());
+    console.log("Adjusted Current Hour:", currentHour);
     const sunriseHour = parseInt(data.sunrise.split(':')[0], 10);
     const sunsetHour = parseInt(data.sunset.split(':')[0], 10);
     if (currentHour === sunriseHour || currentHour === sunsetHour) score += 10;
@@ -251,6 +255,30 @@ async function calculateFishingScore(data) {
             score += 2;
         }
     }
+
+    // Visibility
+    if (data.visibility) {
+        const visibilityInMiles = parseFloat(convertVisibility(data.visibility, "mi"));
+        if (visibilityInMiles >= 10) {
+            score += 5; // Favorable visibility
+        } else if (visibilityInMiles < 5) {
+            score -= 5; // Poor visibility
+        } else {
+        }
+    }
+
+    // Dew Point
+    if (data.dew_point) {
+        if (data.dew_point >= 50 && data.dew_point <= 60) {
+            score += 5; // Favorable dew point range
+        } else if (data.dew_point < 40 || data.dew_point > 70) {
+            score -= 5; // Unfavorable dew point range
+        }
+    }
+
+    // Ensure score is within valid range
+    if (score > 100) score = 100;
+    if (score < 0) score = 0;
 
     return score;
 }
@@ -323,6 +351,29 @@ function calculateFishingScore(day) {
         score += 10; // Waxing Gibbous to Full Moon phases are favorable
     } else if (day.moon_phase === 0 || day.moon_phase === 1) {
         score -= 10; // New Moon phases are less favorable
+    }
+
+    // Visibility
+    if (day.visibility) {
+        const visibilityInMiles = parseFloat(convertVisibility(day.visibility, "mi"));
+        if (visibilityInMiles >= 10) {
+            score += 5; // Favorable visibility
+        } else if (visibilityInMiles < 5) {
+            score -= 5; // Poor visibility
+        }
+    } else {
+        console.warn(`Visibility data missing for ${day.date}. Skipping visibility scoring.`);
+        // Optionally, deduct points for missing data
+        // score -= 2;
+    }
+
+    // Dew Point
+    if (day.dew_point) {
+        if (day.dew_point >= 50 && day.dew_point <= 60) {
+            score += 5; // Favorable dew point range
+        } else if (day.dew_point < 40 || day.dew_point > 70) {
+            score -= 5; // Unfavorable dew point range
+        }
     }
 
     // Cap score at 100 and ensure it doesn't drop below 0
