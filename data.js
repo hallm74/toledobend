@@ -1,4 +1,5 @@
 const data = {
+<<<<<<< HEAD
   "lakeLevel": "169.28ft 2:30pm",
   "currentWeather": {
     "temp": 36.34,
@@ -16,6 +17,23 @@ const data = {
     "moon_phase": 0.35,
     "visibility": 10000,
     "dew_point": 31.46
+=======
+  "lakeLevel": "169.26ft 1:30pm",
+  "currentWeather": {
+    "temp": 35.82,
+    "feels_like": 30.65,
+    "description": "light rain",
+    "wind_speed": 6.17,
+    "wind_deg": 82,
+    "gust": 14.12,
+    "sunrise": "07:13 AM",
+    "sunset": "05:29 PM",
+    "dayOrNight": "day",
+    "humidity": 82,
+    "uv_index": 0.68,
+    "pressure": 1021,
+    "moon_phase": 0.35
+>>>>>>> Toledo-Bend/main
   },
   "fiveDayWeather": [
     {
@@ -29,9 +47,13 @@ const data = {
       "humidity": 99,
       "uv_index": 0.72,
       "pressure": 1016,
+<<<<<<< HEAD
       "moon_phase": 0.39,
       "dew_point": 37.94,
       "visibility": 3788
+=======
+      "moon_phase": 0.39
+>>>>>>> Toledo-Bend/main
     },
     {
       "date": "Saturday",
@@ -44,9 +66,13 @@ const data = {
       "humidity": 75,
       "uv_index": 3.38,
       "pressure": 1019,
+<<<<<<< HEAD
       "moon_phase": 0.42,
       "dew_point": 34.65,
       "visibility": 9008
+=======
+      "moon_phase": 0.42
+>>>>>>> Toledo-Bend/main
     },
     {
       "date": "Sunday",
@@ -59,9 +85,13 @@ const data = {
       "humidity": 76,
       "uv_index": 3.8,
       "pressure": 1017,
+<<<<<<< HEAD
       "moon_phase": 0.46,
       "dew_point": 47.5,
       "visibility": "Unavailable"
+=======
+      "moon_phase": 0.46
+>>>>>>> Toledo-Bend/main
     },
     {
       "date": "Monday",
@@ -74,9 +104,13 @@ const data = {
       "humidity": 60,
       "uv_index": 3.87,
       "pressure": 1029,
+<<<<<<< HEAD
       "moon_phase": 0.5,
       "dew_point": 34.16,
       "visibility": "Unavailable"
+=======
+      "moon_phase": 0.5
+>>>>>>> Toledo-Bend/main
     },
     {
       "date": "Tuesday",
@@ -89,19 +123,32 @@ const data = {
       "humidity": 43,
       "uv_index": 4,
       "pressure": 1034,
+<<<<<<< HEAD
       "moon_phase": 0.53,
       "dew_point": 26.58,
       "visibility": "Unavailable"
+=======
+      "moon_phase": 0.53
+>>>>>>> Toledo-Bend/main
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
+<<<<<<< HEAD
     1020,
     1020,
     1020,
     1020,
     1019,
     1018
+=======
+    1021,
+    1021,
+    1020,
+    1020,
+    1019,
+    1017
+>>>>>>> Toledo-Bend/main
   ],
   "fishingReport": {
     "date": "Jan 8, 2025",
