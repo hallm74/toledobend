@@ -35,7 +35,7 @@ jobs:
 
       - name: Verify generated files
         run: |
-          if [ ! -f data.js ] || [ ! -f fishingReportHistory.json ] || [ ! -f lakeLevelHistory.json ] || ; then
+          if [ ! -f data.js ] || [ ! -f fishingReportHistory.json ] || [ ! -f lakeLevelHistory.json ]; then
             echo "One or more required files are missing!";
             exit 1;
           fi
