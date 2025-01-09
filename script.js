@@ -137,18 +137,10 @@ function populateWeatherAlerts(alerts) {
 }
 
 async function getPressureHistory() {
-    try {
-        const response = await fetch('./barometricPressureHistory.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const history = await response.json();
-        if (!Array.isArray(history)) {
-            throw new Error('Invalid pressure history format');
-        }
-        return history.map(Number).filter(p => !isNaN(p));
-    } catch (error) {
-        console.error('Error fetching pressure history:', error.message);
+    if (typeof data !== "undefined" && Array.isArray(data.barometricPressureHistory)) {
+        return data.barometricPressureHistory;
+    } else {
+        console.error("Barometric pressure history not found in data.js or invalid format");
         return [];
     }
 }
@@ -174,16 +166,22 @@ async function updatePressureDisplay() {
             return;
         }
 
+        // Get current and previous pressure readings
         const currentPressure = history[history.length - 1];
         const previousPressure = history.length > 1 ? history[history.length - 2] : null;
-        const currentPressureInHg = convertMbToInHg(currentPressure); // Convert to inHg
-        const trendIcon = previousPressure !== null ? 
-            getPressureTrendIcon(currentPressure, previousPressure) : 
-            "bi-question-circle";
 
-        pressureElement.innerHTML = `<strong>Barometric Pressure:</strong> ${currentPressureInHg} inHg<i class="bi ${trendIcon}"></i>`;
+        // Convert current pressure to inHg
+        const currentPressureInHg = convertMbToInHg(currentPressure);
+
+        // Determine trend icon
+        const trendIcon = previousPressure !== null
+            ? getPressureTrendIcon(currentPressure, previousPressure)
+            : "bi-question-circle";
+
+        // Update the display
+        pressureElement.innerHTML = `<strong>Barometric Pressure:</strong> ${currentPressureInHg} inHg <i class="bi ${trendIcon}"></i>`;
     } catch (error) {
-        console.error('Error updating pressure display:', error.message);
+        console.error("Error updating pressure display:", error.message);
         pressureElement.innerHTML = '<strong>Barometric Pressure:</strong> Error Loading Data';
     }
 }
