@@ -117,6 +117,15 @@ async function fetchFishingReport() {
     }
 }
 
+const formatTime = (timestamp, offset) => {
+    const localTime = new Date((timestamp + offset) * 1000);
+    return localTime.toLocaleTimeString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        timeZone: process.env.TZ || 'UTC',
+    });
+};
+
 async function fetchWeatherAndForecast() {
     try {
         const response = await axios.get(ONE_CALL_API_URL, {
@@ -146,8 +155,8 @@ async function fetchWeatherAndForecast() {
             wind_speed: weatherData.current.wind_speed || 'No Data',
             wind_deg: weatherData.current.wind_deg || 'No Data',
             gust: weatherData.current.wind_gust || 'No Data',
-            sunrise: new Date(weatherData.current.sunrise * 1000).toLocaleTimeString(),
-            sunset: new Date(weatherData.current.sunset * 1000).toLocaleTimeString(),
+            sunrise: formatTime(weatherData.current.sunrise, weatherData.timezone_offset), // Use formatTime
+            sunset: formatTime(weatherData.current.sunset, weatherData.timezone_offset),   // Use formatTime
             dayOrNight: weatherData.current.sunrise < Date.now() / 1000 && weatherData.current.sunset > Date.now() / 1000 ? 'day' : 'night',
             humidity: weatherData.current.humidity,
             uv_index: weatherData.current.uvi,
