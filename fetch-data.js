@@ -162,21 +162,43 @@ async function fetchWeatherAndForecast() {
             uv_index: weatherData.current.uvi,
             pressure: weatherData.current.pressure,
             moon_phase: weatherData.daily[0]?.moon_phase || 'Unavailable',
+            visibility: weatherData.current.visibility || 'Unavailable',
+            dew_point: weatherData.current.dew_point || 'Unavailable',
         };
 
-        const dailyForecasts = weatherData.daily.slice(1, 6).map(day => ({
-            date: new Date(day.dt * 1000).toLocaleDateString('en-US', { weekday: 'long' }),
-            high: day.temp.max,
-            low: day.temp.min,
-            description: day.weather[0]?.description || 'No Data',
-            wind_speed: day.wind_speed || 'No Data',
-            wind_deg: day.wind_deg || 'No Data',
-            gust: day.wind_gust || 'No Data',
-            humidity: day.humidity,
-            uv_index: day.uvi,
-            pressure: day.pressure,
-            moon_phase: day.moon_phase,
-        }));
+        const dailyForecasts = weatherData.daily.slice(1, 6).map((day, index) => {
+            // Extract the hourly visibility for the current day
+            const startHour = index * 24; // Calculate the start index for the current day
+            const endHour = startHour + 24; // Calculate the end index for the current day
+            const hourlyDataForDay = weatherData.hourly.slice(startHour, endHour);
+        
+            // Calculate the average visibility for the day
+            const visibilityValues = hourlyDataForDay
+                .filter(hour => hour.visibility != null) // Ensure visibility is not null or undefined
+                .map(hour => hour.visibility);
+                const averageVisibility = visibilityValues.length > 0
+                ? Math.round(visibilityValues.reduce((sum, val) => sum + val, 0) / visibilityValues.length)
+                : 'Unavailable';
+
+                console.log(`Visibility values for day ${index + 1}:`, visibilityValues);
+                console.log(`Average visibility for day ${index + 1}:`, averageVisibility);
+        
+            return {
+                date: new Date(day.dt * 1000).toLocaleDateString('en-US', { weekday: 'long' }),
+                high: day.temp.max,
+                low: day.temp.min,
+                description: day.weather[0]?.description || 'No Data',
+                wind_speed: day.wind_speed || 'No Data',
+                wind_deg: day.wind_deg || 'No Data',
+                gust: day.wind_gust || 'No Data',
+                humidity: day.humidity,
+                uv_index: day.uvi,
+                pressure: day.pressure,
+                moon_phase: day.moon_phase,
+                dew_point: day.dew_point || 'No Data',
+                visibility: averageVisibility || 'Unavailable', // Use calculated visibility or fallback
+            };
+        });
 
         const alerts = weatherData.alerts?.map(alert => ({
             event: alert.event,
