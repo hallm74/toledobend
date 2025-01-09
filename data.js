@@ -7,8 +7,8 @@ const data = {
     "wind_speed": 4.5,
     "wind_deg": 19,
     "gust": 8.08,
-    "sunrise": "01:13 AM",
-    "sunset": "11:28 AM",
+    "sunrise": "07:13 AM",
+    "sunset": "05:28 PM",
     "dayOrNight": "night",
     "humidity": 62,
     "uv_index": 0,
@@ -88,7 +88,7 @@ const data = {
     1029,
     1029,
     1029,
-    1029,
+    1028,
     1028
   ],
   "fishingReport": {
