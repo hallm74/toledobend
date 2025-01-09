@@ -148,50 +148,41 @@ async function fetchWeatherAndForecast() {
                 lon: LOCATION_COORDS.lon,
                 appid: process.env.WEATHER_API_KEY,
                 units: 'imperial',
-                exclude: 'minutely,hourly',
+                exclude: 'minutely',
             },
         });
 
         const weatherData = response.data;
 
-        const formatTime = (timestamp, offset) => {
-            const localTime = new Date((timestamp + offset) * 1000);
-            return localTime.toLocaleTimeString('en-US', {
-                hour: '2-digit',
-                minute: '2-digit',
-                timeZone: process.env.TZ || 'UTC',
-            });
-        };
+        if (!weatherData || !weatherData.current || !weatherData.daily || !weatherData.hourly) {
+            throw new Error('Incomplete weather data received from API');
+        }
 
-        const currentTime = Math.floor(Date.now() / 1000);
-        const dayOrNight = currentTime >= weatherData.current.sunrise && currentTime < weatherData.current.sunset ? 'day' : 'night';
+        const barometricPressureHistory = weatherData.hourly
+            .slice(0, PRESSURE_HISTORY_LIMIT) // Get the last 6 hourly pressures
+            .map(hour => hour.pressure);
 
         const currentWeather = {
             temp: weatherData.current.temp,
             feels_like: weatherData.current.feels_like,
-            description: weatherData.current.weather[0].description,
+            description: weatherData.current.weather[0]?.description || 'Unavailable',
             wind_speed: weatherData.current.wind_speed || 'No Data',
             wind_deg: weatherData.current.wind_deg || 'No Data',
             gust: weatherData.current.wind_gust || 'No Data',
-            sunrise: formatTime(weatherData.current.sunrise, weatherData.timezone_offset),
-            sunset: formatTime(weatherData.current.sunset, weatherData.timezone_offset),
-            dayOrNight,
+            sunrise: new Date(weatherData.current.sunrise * 1000).toLocaleTimeString(),
+            sunset: new Date(weatherData.current.sunset * 1000).toLocaleTimeString(),
+            dayOrNight: weatherData.current.sunrise < Date.now() / 1000 && weatherData.current.sunset > Date.now() / 1000 ? 'day' : 'night',
             humidity: weatherData.current.humidity,
             uv_index: weatherData.current.uvi,
             pressure: weatherData.current.pressure,
-            moon_phase: weatherData.daily[0].moon_phase,
+            moon_phase: weatherData.daily[0]?.moon_phase || 'Unavailable',
         };
 
-        // Safely update pressure history
-        if (currentWeather.pressure && !isNaN(currentWeather.pressure)) {
-            updatePressureHistory(currentWeather.pressure);
-        }
-        
         const dailyForecasts = weatherData.daily.slice(1, 6).map(day => ({
             date: new Date(day.dt * 1000).toLocaleDateString('en-US', { weekday: 'long' }),
             high: day.temp.max,
             low: day.temp.min,
-            description: day.weather[0].description,
+            description: day.weather[0]?.description || 'No Data',
             wind_speed: day.wind_speed || 'No Data',
             wind_deg: day.wind_deg || 'No Data',
             gust: day.wind_gust || 'No Data',
@@ -203,33 +194,20 @@ async function fetchWeatherAndForecast() {
 
         const alerts = weatherData.alerts?.map(alert => ({
             event: alert.event,
-            start: formatTime(alert.start, weatherData.timezone_offset),
-            end: formatTime(alert.end, weatherData.timezone_offset),
+            start: new Date(alert.start * 1000).toLocaleTimeString(),
+            end: new Date(alert.end * 1000).toLocaleTimeString(),
             description: alert.description,
             sender: alert.sender_name,
         })) || [];
 
-        return { currentWeather, dailyForecasts, alerts };
+        return { currentWeather, dailyForecasts, alerts, barometricPressureHistory };
     } catch (error) {
         console.error('Error fetching weather and forecast:', error.message);
         return {
-            currentWeather: {
-                temp: 'Unavailable',
-                feels_like: 'Unavailable',
-                description: 'Unavailable',
-                wind_speed: 'Unavailable',
-                wind_deg: 'Unavailable',
-                gust: 'Unavailable',
-                sunrise: 'Unavailable',
-                sunset: 'Unavailable',
-                dayOrNight: 'Unavailable',
-                humidity: 'Unavailable',
-                uv_index: 'Unavailable',
-                pressure: 'Unavailable',
-                moon_phase: weatherData.daily[0].moon_phase,
-            },
+            currentWeather: {},
             dailyForecasts: [],
             alerts: [],
+            barometricPressureHistory: [],
         };
     }
 }
@@ -237,7 +215,7 @@ async function fetchWeatherAndForecast() {
 async function main() {
     console.log('Fetching data...');
     const lakeLevel = await fetchLakeLevel();
-    const { currentWeather, dailyForecasts, alerts } = await fetchWeatherAndForecast();
+    const { currentWeather, dailyForecasts, alerts, barometricPressureHistory } = await fetchWeatherAndForecast();
     const fishingReport = await fetchFishingReport();
 
     const data = {
@@ -245,6 +223,7 @@ async function main() {
         currentWeather,
         fiveDayWeather: dailyForecasts,
         weatherAlerts: alerts,
+        barometricPressureHistory, // Include the pressure history here
         fishingReport,
     };
 
