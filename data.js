@@ -3,7 +3,7 @@ const data = {
   "currentWeather": {
     "temp": 36.34,
     "feels_like": 30.36,
-    "description": "light rain",
+    "description": "overcast clouds",
     "wind_speed": 7.58,
     "wind_deg": 57,
     "gust": 16.26,
