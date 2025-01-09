@@ -1,27 +1,21 @@
 const data = {
-  "lakeLevel": "169.29ft 5:00pm",
+  "lakeLevel": "169.30ft 5:30pm",
   "currentWeather": {
-    "temp": 36.09,
-    "feels_like": 29.32,
-    "description": "moderate rain",
-    "wind_speed": 8.93,
-    "wind_deg": 50,
-    "gust": 18.75,
-<<<<<<< HEAD
-    "sunrise": "01:13 AM",
-    "sunset": "11:29 AM",
-    "dayOrNight": "day",
-=======
+    "temp": 34.61,
+    "feels_like": 26.38,
+    "description": "snow",
+    "wind_speed": 11.25,
+    "wind_deg": 47,
+    "gust": 22.57,
     "sunrise": "07:13 AM",
     "sunset": "05:29 PM",
     "dayOrNight": "night",
->>>>>>> Toledo-Bend/main
-    "humidity": 83,
+    "humidity": 91,
     "uv_index": 0,
     "pressure": 1019,
     "moon_phase": 0.35,
-    "visibility": 5015,
-    "dew_point": 31.5
+    "visibility": 4828,
+    "dew_point": 32.25
   },
   "fiveDayWeather": [
     {
@@ -104,10 +98,10 @@ const data = {
   "barometricPressureHistory": [
     1019,
     1019,
+    1019,
+    1019,
     1018,
-    1018,
-    1017,
-    1015
+    1016
   ],
   "fishingReport": {
     "date": "Jan 8, 2025",
