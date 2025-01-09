@@ -199,66 +199,74 @@
   </div>
 
   <!-- Modal -->
-<div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="instructionModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="instructionModalLabel">Fishing Score Calculation</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <h2>How We Calculate the Fishing Score</h2>
-        <p>The fishing score is our way of giving you a quick idea of how good the fishing conditions are. It’s based on several important factors that affect fish behavior:</p>
-        <ol>
-          <li>
+  <div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="instructionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="instructionModalLabel">Fishing Score Calculation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>How We Calculate the Fishing Score</h2>
+          <p>The fishing score is our way of giving you a quick idea of how good the fishing conditions are. It’s based on several important factors that affect fish behavior:</p>
+          <ol>
+            <li>
               <i class="bi bi-thermometer-half me-2" aria-hidden="true"></i>
               <strong>Temperature:</strong> Fish are cold-blooded, so the water temperature plays a big role in how active they are. Moderate temperatures are usually best, while very cold or very hot temperatures can make fish less active.
-          </li>
-          <li>
+            </li>
+            <li>
               <i class="bi bi-cloud-sun me-2" aria-hidden="true"></i>
               <strong>Weather Conditions:</strong> Clear skies, light rain, or overcast clouds each affect how fish behave. For example, light rain can make fish more active, while clear skies might make them retreat to deeper waters.
-          </li>
-          <li>
+            </li>
+            <li>
               <i class="bi bi-wind me-2" aria-hidden="true"></i>
               <strong>Wind Speed and Direction:</strong> A moderate breeze helps mix the water, making fish more active. Too much wind, though, can make fishing difficult and push fish to less accessible areas.
-          </li>
-          <li>
+            </li>
+            <li>
               <i class="bi bi-droplet me-2" aria-hidden="true"></i>
               <strong>Humidity:</strong> Certain humidity levels are better for fishing. Fish are often more active when the humidity is between 60% and 80%.
-          </li>
-          <li>
+            </li>
+            <li>
               <i class="bi bi-brightness-high me-2" aria-hidden="true"></i>
               <strong>UV Index:</strong> Fish tend to avoid very bright, sunny conditions because it makes them more visible to predators. A lower UV index means they’re more likely to be out and about.
-          </li>
-          <li>
+            </li>
+            <li>
               <i class="bi bi-speedometer me-2" aria-hidden="true"></i>
               <strong>Barometric Pressure:</strong> This is a big one. When the barometric pressure is steady or falling, fish are more likely to feed. A rising pressure, however, can make them less active. We even track changes in barometric pressure over time to give you a more accurate prediction.
-          </li>
-          <li>
+            </li>
+            <li>
               <i class="bi bi-moon-stars me-2" aria-hidden="true"></i>
               <strong>Moon Phase:</strong> The moon influences tides and fish feeding cycles. Phases like waxing gibbous or full moon are generally better for fishing because they encourage more activity.
-          </li>
-          <li>
+            </li>
+            <li>
               <i class="bi bi-clock me-2" aria-hidden="true"></i>
               <strong>Time of Day:</strong> Fish are often most active during sunrise and sunset, so those times score higher.
-          </li>
-      </ol>
-    
-    <h3>Why Barometric Pressure Changes Matter</h3>
-    <p>Fish have swim bladders that help them adjust to changes in water pressure. When the barometric pressure drops (like before a storm), fish tend to feed more because they feel less pressure in the water. Conversely, when the pressure rises, fish may become less active as they try to adjust.</p>
-    <p>By looking at the pressure history and whether it’s rising, falling, or stable, we can fine-tune the fishing score to reflect these subtle changes.</p>
-    
-    <h3>The Final Score</h3>
-    <p>We combine all these factors into a single number between 0 and 100. A higher score means the conditions are excellent for fishing, while a lower score suggests it might be a tough day. Along with the score, we provide a simple descriptor like “Excellent,” “Good,” “Fair,” or “Poor” to help you quickly understand the forecast.</p>
-    
-    <p>This way, you can plan your fishing trips with confidence!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </li>
+            <li>
+              <i class="bi bi-droplet-half me-2" aria-hidden="true"></i>
+              <strong>Dew Point:</strong> Dew point is a measure of moisture in the air. Dew points between 50°F and 60°F are considered favorable for fishing. Higher dew points can indicate overly humid conditions, while lower dew points might suggest dryness that can make fish less active.
+            </li>
+            <li>
+              <i class="bi bi-eye me-2" aria-hidden="true"></i>
+              <strong>Visibility:</strong> Visibility is an indicator of water clarity. Higher visibility (around 10 miles or more) often leads to better fishing conditions, as fish are more likely to move around. Poor visibility, caused by factors like heavy rain or sediment, can reduce fish activity.
+            </li>
+          </ol>
+          
+          <h3>Why Barometric Pressure Changes Matter</h3>
+          <p>Fish have swim bladders that help them adjust to changes in water pressure. When the barometric pressure drops (like before a storm), fish tend to feed more because they feel less pressure in the water. Conversely, when the pressure rises, fish may become less active as they try to adjust.</p>
+          <p>By looking at the pressure history and whether it’s rising, falling, or stable, we can fine-tune the fishing score to reflect these subtle changes.</p>
+          
+          <h3>The Final Score</h3>
+          <p>We combine all these factors into a single number between 0 and 100. A higher score means the conditions are excellent for fishing, while a lower score suggests it might be a tough day. Along with the score, we provide a simple descriptor like “Excellent,” “Good,” “Fair,” or “Poor” to help you quickly understand the forecast.</p>
+          
+          <p>This way, you can plan your fishing trips with confidence!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./data.js?t=${Date.now()}"></script>
