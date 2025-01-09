@@ -7,9 +7,15 @@ const data = {
     "wind_speed": 8.93,
     "wind_deg": 50,
     "gust": 18.75,
+<<<<<<< HEAD
     "sunrise": "01:13 AM",
     "sunset": "11:29 AM",
     "dayOrNight": "day",
+=======
+    "sunrise": "07:13 AM",
+    "sunset": "05:29 PM",
+    "dayOrNight": "night",
+>>>>>>> Toledo-Bend/main
     "humidity": 83,
     "uv_index": 0,
     "pressure": 1019,
