@@ -8,7 +8,6 @@ const ONE_CALL_API_URL = 'https://api.openweathermap.org/data/3.0/onecall';
 const FISHING_REPORT_URL = 'https://tpwd.texas.gov/fishboat/fish/action/reptform2.php?water=Freshwater&lake=TOLEDO+BEND&Submit=View+Report&archive=latest&yearcat=2024';
 const LOCATION_COORDS = { lat: 31.1357, lon: -93.5918 }; // Toledo Bend coordinates
 const LAKE_LEVEL_HISTORY_FILE = 'lakeLevelHistory.json';
-const FISHING_REPORT_HISTORY_FILE = 'fishingReportHistory.json';
 const HISTORY_LIMIT = 5;
 const PRESSURE_HISTORY_LIMIT = 6;
 const PAGE_LOAD_TIMEOUT = 120000;
@@ -105,13 +104,10 @@ async function fetchFishingReport() {
         });
 
         console.log('Fishing report fetched:', report);
-        updateHistory(FISHING_REPORT_HISTORY_FILE, report);
         return report;
     } catch (error) {
         console.error('Error fetching fishing report:', error.message);
-        const fallbackFishingReport = getFallbackFromHistory(FISHING_REPORT_HISTORY_FILE);
-        console.log('Reverting to last known fishing report:', fallbackFishingReport);
-        return fallbackFishingReport;
+        return { date: 'Unavailable', report: 'Error fetching fishing report' };
     } finally {
         await browser.close();
     }

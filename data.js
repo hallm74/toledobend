@@ -3,7 +3,7 @@ const data = {
   "currentWeather": {
     "temp": 36.09,
     "feels_like": 29.32,
-    "description": "light rain",
+    "description": "moderate rain",
     "wind_speed": 8.93,
     "wind_deg": 50,
     "gust": 18.75,
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.39,
       "dew_point": 37.94,
-      "visibility": 2933
+      "visibility": 2597
     },
     {
       "date": "Saturday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.42,
       "dew_point": 34.65,
-      "visibility": 9720
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -98,10 +98,10 @@ const data = {
   "barometricPressureHistory": [
     1019,
     1019,
-    1019,
     1018,
     1018,
-    1017
+    1017,
+    1015
   ],
   "fishingReport": {
     "date": "Jan 8, 2025",
