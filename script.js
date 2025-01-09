@@ -152,6 +152,22 @@ function convertMbToInHg(mb) {
     return (mb * 0.02953).toFixed(2); // Convert and round to 2 decimal places
 }
 
+function convertVisibility(visibilityInMeters, format = "mi") {
+    if (typeof visibilityInMeters !== 'number' || isNaN(visibilityInMeters)) {
+        return "Unavailable";
+    }
+
+    if (format === "km") {
+        const visibilityInKilometers = (visibilityInMeters / 1000).toFixed(2);
+        return `${visibilityInKilometers} km`;
+    } else if (format === "mi") {
+        const visibilityInMiles = (visibilityInMeters / 1609.34).toFixed(2);
+        return `${visibilityInMiles} mi`;
+    } else {
+        return "Invalid format";
+    }
+}
+
 async function updatePressureDisplay() {
     const pressureElement = document.getElementById("pressure");
     if (!pressureElement) {
@@ -449,7 +465,8 @@ if (typeof data !== "undefined") {
         `<strong>UV Index:</strong> ${uvDesc} ${weatherData.uv_index != null ? `(${weatherData.uv_index})` : "(Unavailable)"} 
         <span class="sr-only">UV Index is ${uvDesc}</span>`
     );
-
+    updateElement("visibility", '<strong>Visibility:</strong> ' + (weatherData.visibility ? convertVisibility(weatherData.visibility, "mi") : "Unavailable"));
+    updateElement("dew-point", `<strong>Dew Point:</strong> ${weatherData.dew_point || "Unavailable"} °F`);
     updatePressureDisplay(weatherData.pressure);
     updateFishingScore(weatherData);
     
