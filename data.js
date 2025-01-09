@@ -9,7 +9,7 @@ const data = {
     "gust": 18.75,
     "sunrise": "07:13 AM",
     "sunset": "05:29 PM",
-    "dayOrNight": "day",
+    "dayOrNight": "night",
     "humidity": 83,
     "uv_index": 0,
     "pressure": 1019,
