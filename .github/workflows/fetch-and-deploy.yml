@@ -35,7 +35,7 @@ jobs:
 
       - name: Verify generated files
         run: |
-          if [ ! -f data.js ] || [ ! -f fishingReportHistory.json ] || [ ! -f lakeLevelHistory.json ]; then
+          if [ ! -f data.js ] || [ ! -f lakeLevelHistory.json ]; then
             echo "One or more required files are missing!";
             exit 1;
           fi
@@ -48,6 +48,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add -f data.js fishingReportHistory.json lakeLevelHistory.json
+          git add -f data.js lakeLevelHistory.json
           git commit -m "Update data.js" || echo "No changes to commit"
           git push
