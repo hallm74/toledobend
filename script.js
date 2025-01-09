@@ -530,6 +530,11 @@ if (typeof data !== "undefined") {
         // Convert barometric pressure to inHg
         const pressureInHg = convertMbToInHg(day.pressure);
 
+        // Convert visibility to miles if available
+        const visibility = day.visibility
+            ? convertVisibility(day.visibility, "mi")
+            : null;
+
         const cardContent = `
             <div class="card shadow">
                 <div class="card-header text-center bg-primary text-white">
@@ -546,6 +551,8 @@ if (typeof data !== "undefined") {
                     <p class="mb-1"><i class="bi bi-sun" aria-hidden="true"></i> <strong>UV Index:</strong> ${uvDesc} (${day.uv_index || 'No Data'})</p>
                     <p class="mb-1"><i class="bi bi-speedometer" aria-hidden="true"></i> <strong>Barometric Pressure:</strong> ${pressureInHg || 'No Data'} inHg</p>
                     <p class="mb-1"><i class="bi ${moonIcon}" aria-hidden="true"></i> <strong>Moon Phase:</strong> ${moonPhase} (${day.moon_phase || 'No Data'})</p>
+                    ${visibility && visibility !== "Unavailable" ? `<p class="mb-1"><i class="bi bi-eye" aria-hidden="true"></i> <strong>Visibility:</strong> ${visibility}</p>` : ""}
+                    <p class="mb-1"><i class="bi bi-droplet" aria-hidden="true"></i> <strong>Dew Point:</strong> ${day.dew_point || "No Data"} °F</p>
                     <p class="mb-1"><i class="bi bi-trophy" aria-hidden="true"></i> <strong>Fishing Score:</strong> ${score || 'No Data'} (${descriptor || 'No Data'}) <i class="bi bi-info-circle text-primary" data-bs-toggle="modal" data-bs-target="#instructionModal" title="Click for Instructions"></i></p>
                 </div>
             </div>
