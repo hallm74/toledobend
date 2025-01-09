@@ -4,19 +4,11 @@ const data = {
     "temp": 36.63,
     "feels_like": 30.43,
     "description": "overcast clouds",
-<<<<<<< HEAD
     "wind_speed": 8.08,
     "wind_deg": 63,
     "gust": 18.07,
-    "sunrise": "01:13 AM",
-    "sunset": "11:29 AM",
-=======
-    "wind_speed": 7.58,
-    "wind_deg": 57,
-    "gust": 16.26,
     "sunrise": "07:13 AM",
     "sunset": "05:29 PM",
->>>>>>> Toledo-Bend/main
     "dayOrNight": "day",
     "humidity": 82,
     "uv_index": 0.05,
