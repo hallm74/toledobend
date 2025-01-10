@@ -7,13 +7,8 @@ const data = {
     "wind_speed": 10.67,
     "wind_deg": 312,
     "gust": 19.51,
-<<<<<<< HEAD
     "sunrise": "01:13 AM",
     "sunset": "11:29 AM",
-=======
-    "sunrise": "07:13 AM",
-    "sunset": "05:29 PM",
->>>>>>> Toledo-Bend/main
     "dayOrNight": "day",
     "humidity": 96,
     "uv_index": 0.39,
@@ -103,10 +98,10 @@ const data = {
   "barometricPressureHistory": [
     1015,
     1015,
-    1015,
     1016,
     1016,
-    1018
+    1018,
+    1019
   ],
   "fishingReport": {
     "date": "Jan 8, 2025",
