@@ -99,6 +99,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: var(--text-color);
+  padding: 1.5rem; /* Ensure consistent padding */
 }
 
 .modal-footer {
