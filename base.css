@@ -127,3 +127,44 @@ body {
   color: var(--text-color);
   opacity: 0.8;
 }
+
+/* Align buttons visually */
+.icon-buttons {
+  display: flex;
+  gap: 0.5rem; /* Adjust gap between buttons */
+}
+
+/* Match button styles */
+.theme-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem; /* Adjust size */
+  height: 2.5rem; /* Adjust size */
+  border: 2px solid var(--bs-primary); /* Use Bootstrap primary color */
+  border-radius: 50%; /* Circular shape */
+  background-color: transparent;
+  color: var(--bs-primary); /* Default color */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.theme-button:hover {
+  background-color: var(--bs-primary);
+  color: white; /* White on hover */
+}
+
+.theme-button:active {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+/* Dark mode adjustments */
+body.dark-mode .theme-button {
+  border-color: var(--bs-light); /* Light border for dark mode */
+  color: var(--bs-light);
+}
+
+body.dark-mode .theme-button:hover {
+  background-color: var(--bs-light);
+  color: var(--bs-dark); /* Dark text on hover in dark mode */
+}
