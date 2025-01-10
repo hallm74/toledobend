@@ -279,7 +279,7 @@
       </div>
     </div>
   </div>
-  <!-- Contact Form Modal -->
+ <!-- Contact Form Modal -->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -287,10 +287,17 @@
         <h5 class="modal-title" id="contactModalLabel">Drop Us a Line</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <form method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" id="contact-form">
+      <form 
+        method="POST" 
+        action="/" 
+        data-netlify="true" 
+        netlify-honeypot="bot-field" 
+        id="contact-form"
+      >
         <!-- Hidden field for bot detection -->
         <input type="hidden" name="form-name" value="contact" />
-        
+        <input type="hidden" name="redirect" value="/" />
+
         <!-- Name Field -->
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
@@ -303,7 +310,7 @@
             required
           />
         </div>
-        
+
         <!-- Email Field -->
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
@@ -316,7 +323,7 @@
             required
           />
         </div>
-        
+
         <!-- Comment Field -->
         <div class="mb-3">
           <label for="comment" class="form-label">Comment</label>
@@ -329,53 +336,9 @@
             required
           ></textarea>
         </div>
-        
+
         <button type="submit" class="btn btn-primary">Send</button>
       </form>
-    </div>
-  </div>
-</div>
-<script>
-  const form = document.getElementById('contact-form');
-
-  form.addEventListener('submit', async (event) => {
-    event.preventDefault(); // Prevent default form submission
-    const formData = new FormData(form);
-
-    try {
-      // Submit the form data using Fetch API
-      await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData).toString(),
-      });
-
-      // Show the thank-you modal
-      const thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
-      thankYouModal.show();
-
-      // Reset the form
-      form.reset();
-    } catch (error) {
-      console.error('Form submission error:', error);
-      alert('There was an error sending your message. Please try again later.');
-    }
-  });
-</script>
-<!-- Thank You Modal -->
-<div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="thankYouModalLabel">Thank You!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Your message has been sent successfully. We’ll get back to you soon!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-      </div>
     </div>
   </div>
 </div>
