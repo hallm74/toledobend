@@ -294,9 +294,11 @@
         netlify-honeypot="bot-field" 
         id="contact-form"
       >
-        <!-- Hidden field for bot detection -->
+        <!-- Hidden field for Netlify -->
         <input type="hidden" name="form-name" value="contact" />
-        <input type="hidden" name="redirect" value="index.html" />
+        <div style="display:none;">
+          <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+        </div>
 
         <!-- Name Field -->
         <div class="mb-3">
