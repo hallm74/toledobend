@@ -5,3 +5,7 @@
 # Prevent caching for script.js
 /script.js
   Cache-Control: no-store
+
+# Prevent caching for base.css
+/base.css
+  Cache-Control: no-store
