@@ -1,38 +1,23 @@
 const data = {
-  "lakeLevel": "169.67ft 5:45pm",
+  "lakeLevel": "169.73ft 12:00am",
   "currentWeather": {
-    "temp": 34.11,
-    "feels_like": 27.25,
+    "temp": 34.18,
+    "feels_like": 27.61,
     "description": "overcast clouds",
-    "wind_speed": 8.28,
-    "wind_deg": 318,
-    "gust": 17.76,
+    "wind_speed": 7.83,
+    "wind_deg": 319,
+    "gust": 18.54,
     "sunrise": "07:13 AM",
-    "sunset": "05:29 PM",
+    "sunset": "05:30 PM",
     "dayOrNight": "night",
-    "humidity": 91,
+    "humidity": 90,
     "uv_index": 0,
-    "pressure": 1021,
-    "moon_phase": 0.39,
+    "pressure": 1020,
+    "moon_phase": 0.42,
     "visibility": 10000,
-    "dew_point": 31.78
+    "dew_point": 31.6
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 45,
-      "low": 26.53,
-      "description": "broken clouds",
-      "wind_speed": 7.83,
-      "wind_deg": 319,
-      "gust": 18.54,
-      "humidity": 75,
-      "uv_index": 3.58,
-      "pressure": 1020,
-      "moon_phase": 0.42,
-      "dew_point": 34.12,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 57.02,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1027,
       "moon_phase": 0.5,
       "dew_point": 38.21,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.56,
       "dew_point": 30.54,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 54.25,
+      "low": 37.62,
+      "description": "broken clouds",
+      "wind_speed": 3.04,
+      "wind_deg": 192,
+      "gust": 4.34,
+      "humidity": 52,
+      "uv_index": 4,
+      "pressure": 1031,
+      "moon_phase": 0.59,
+      "dew_point": 35.26,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1021,
-    1021,
-    1021,
     1020,
     1020,
-    1020
+    1020,
+    1020,
+    1020,
+    1019
   ],
   "fishingReport": {
     "date": "Jan 8, 2025",
