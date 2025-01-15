@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.55ft 2:15pm",
+  "lakeLevel": "169.54ft 3:30pm",
   "currentWeather": {
-    "temp": 53.46,
-    "feels_like": 51.08,
-    "description": "overcast clouds",
-    "wind_speed": 6.26,
-    "wind_deg": 57,
-    "gust": 10.09,
+    "temp": 54.97,
+    "feels_like": 52.52,
+    "description": "broken clouds",
+    "wind_speed": 3.71,
+    "wind_deg": 36,
+    "gust": 5.46,
     "sunrise": "07:13 AM",
     "sunset": "05:34 PM",
     "dayOrNight": "day",
-    "humidity": 55,
-    "uv_index": 0.93,
-    "pressure": 1027,
+    "humidity": 50,
+    "uv_index": 0.51,
+    "pressure": 1028,
     "moon_phase": 0.56,
     "visibility": 10000,
-    "dew_point": 37.71
+    "dew_point": 36.7
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1027,
-    1027,
-    1027,
+    1028,
+    1028,
     1028,
     1029,
+    1030,
     1030
   ],
   "fishingReport": {
-    "date": "Jan 8, 2025",
-    "report": "FAIR. Water normal stain; 58 degrees; 2.49 feet below pool. After the recent rains most of all the creeks are muddy and with water still coming in. The shallow bite is going to be hard with the dirty water, but chartreuse or orange colored spinnerbaits and chatterbaits always work great in the mud. The deep fish are going to be slow due to the rising water, but casting crankbaits, dropshots and spoons should land catches.  Mid range fish are going to be best in 12-20 feet on Texas rigs, Carolina rigs and big crankbaits. There is a new moon coming this week which should get the female bass thinking about getting ready to make a move up. A cool down in the forecast with temperatures in the high 50s. No reports on crappie. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jan 15, 2025",
+    "report": "FAIR. Water normal stain; 51 degrees; 2.49 feet below pool. Another cold front is in the forecast at the end of the weekend. Bass fishing is slow. Most creeks are still running mud, but the main lake is still clear. Few bass can be caught on main lake points with Carolina rigs and big crankbaits in 12-18 feet. Most of the deeper fish are now off bottom and have started to swim around. No crappie report. Report by Stephen Johnston, Johnston Fishing."
   }
 };
