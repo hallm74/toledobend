@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.19ft 1:30am",
+  "lakeLevel": "169.19ft 2:30am",
   "currentWeather": {
-    "temp": 61.83,
-    "feels_like": 62.02,
-    "description": "overcast clouds",
-    "wind_speed": 12.19,
-    "wind_deg": 222,
-    "gust": 34.78,
+    "temp": 60.69,
+    "feels_like": 60.84,
+    "description": "broken clouds",
+    "wind_speed": 10.94,
+    "wind_deg": 228,
+    "gust": 33.58,
     "sunrise": "07:12 AM",
     "sunset": "05:36 PM",
     "dayOrNight": "night",
-    "humidity": 92,
+    "humidity": 93,
     "uv_index": 0,
     "pressure": 1008,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 59.49
+    "dew_point": 58.66
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,36 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Cold Weather Advisory",
+      "start": "9:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 20 expected. For the Cold Weather Advisory Central and Southern\nLouisiana, Southeast Texas, very cold wind chills as low as 14\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 3 AM to 9 AM CST\nSunday. For the second Cold Weather Advisory, from 9 PM Sunday to\nnoon CST Monday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.\n\n* ADDITIONAL DETAILS...Sunday morning minimum wind chill\ntemperatures ranging from 18 to 25 degrees. Monday morning minimum\nwind chill temperatures ranging from 12 to 17 degrees.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Cold Weather Advisory",
+      "start": "3:00:00 AM",
+      "end": "6:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 20 expected. For the Cold Weather Advisory Central and Southern\nLouisiana, Southeast Texas, very cold wind chills as low as 14\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 3 AM to 9 AM CST\nSunday. For the second Cold Weather Advisory, from 9 PM Sunday to\nnoon CST Monday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.\n\n* ADDITIONAL DETAILS...Sunday morning minimum wind chill\ntemperatures ranging from 18 to 25 degrees. Monday morning minimum\nwind chill temperatures ranging from 12 to 17 degrees.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Winter Storm Watch",
+      "start": "6:00:00 AM",
+      "end": "6:00:00 AM",
+      "description": "* WHAT...Heavy mixed precipitation possible. Total snow\naccumulations between 5 and 7 inches north of I-10, and 3 to 5\ninches from I-10 to the coast. Ice accumulations possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From late Monday night through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Travel could be very difficult. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1008,
     1008,
     1008,
     1008,
-    1008,
-    1009
+    1009,
+    1010
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
