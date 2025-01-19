@@ -127,10 +127,10 @@ const data = {
   "barometricPressureHistory": [
     1017,
     1017,
-    1017,
     1018,
     1018,
-    1019
+    1019,
+    1021
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
