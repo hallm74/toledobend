@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.25ft 3:30pm",
+  "lakeLevel": "169.26ft 4:30pm",
   "currentWeather": {
-    "temp": 40.77,
-    "feels_like": 33.58,
+    "temp": 38.46,
+    "feels_like": 31.21,
     "description": "clear sky",
-    "wind_speed": 12.64,
-    "wind_deg": 354,
-    "gust": 18.72,
+    "wind_speed": 11.25,
+    "wind_deg": 360,
+    "gust": 17.76,
     "sunrise": "07:12 AM",
     "sunset": "05:37 PM",
     "dayOrNight": "day",
-    "humidity": 30,
-    "uv_index": 0.54,
+    "humidity": 33,
+    "uv_index": 0,
     "pressure": 1029,
     "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 13.96
+    "dew_point": 14.07
   },
   "fiveDayWeather": [
     {
@@ -53,8 +53,8 @@ const data = {
       "high": 43.47,
       "low": 24.3,
       "description": "clear sky",
-      "wind_speed": 7.47,
-      "wind_deg": 166,
+      "wind_speed": 7.72,
+      "wind_deg": 190,
       "gust": 14.74,
       "humidity": 35,
       "uv_index": 3.32,
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Winter Storm Watch",
-      "start": "12:00:00 AM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 4 and 6 inches along the U.S. 190 and I-10\ncorridors of Louisiana and Southeast Texas, and 3 to 4 inches\nfurther north and south. Ice accumulations around one tenth of an\ninch possible along and south of the I-10 corridor. Winds could\ngust as high as 35 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Monday evening through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "6:00:00 PM",
@@ -134,10 +127,10 @@ const data = {
   "barometricPressureHistory": [
     1029,
     1029,
-    1029,
     1030,
     1031,
-    1032
+    1031,
+    1033
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
