@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.43ft 7:30am",
+  "lakeLevel": "169.40ft 8:30am",
   "currentWeather": {
-    "temp": 31.17,
-    "feels_like": 20.93,
+    "temp": 32.67,
+    "feels_like": 22.71,
     "description": "clear sky",
-    "wind_speed": 13.94,
-    "wind_deg": 344,
-    "gust": 27.67,
+    "wind_speed": 14.27,
+    "wind_deg": 345,
+    "gust": 25.08,
     "sunrise": "07:12 AM",
     "sunset": "05:37 PM",
     "dayOrNight": "day",
-    "humidity": 65,
-    "uv_index": 0.26,
-    "pressure": 1028,
+    "humidity": 58,
+    "uv_index": 0.95,
+    "pressure": 1030,
     "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 21.97
+    "dew_point": 20.95
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1036,
       "moon_phase": 0.75,
       "dew_point": 9.3,
-      "visibility": 8440
+      "visibility": 8118
     },
     {
       "date": "Wednesday",
@@ -96,40 +96,33 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Cold Weather Advisory",
-      "start": "9:00:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nfrom 18 to 25 expected. For the second Cold Weather Advisory, very\ncold wind chills from 10 to 15 expected. For the third Cold\nWeather Advisory, very cold wind chills from 5 to 15 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 9 AM CST this\nmorning. For the second Cold Weather Advisory, from 9 PM this\nevening to noon CST Monday. For the third Cold Weather Advisory,\nfrom 6 PM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
+      "event": "Winter Storm Watch",
+      "start": "12:00:00 AM",
+      "end": "6:00:00 AM",
+      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 4 and 6 inches along the U.S. 190 and I-10\ncorridors of Louisiana and Southeast Texas, and 3 to 4 inches\nfurther north and south. Ice accumulations around one tenth of an\ninch possible along and south of the I-10 corridor. Winds could\ngust as high as 35 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Monday evening through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Cold Weather Advisory",
       "start": "3:00:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nfrom 18 to 25 expected. For the second Cold Weather Advisory, very\ncold wind chills from 10 to 15 expected. For the third Cold\nWeather Advisory, very cold wind chills from 5 to 15 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 9 AM CST this\nmorning. For the second Cold Weather Advisory, from 9 PM this\nevening to noon CST Monday. For the third Cold Weather Advisory,\nfrom 6 PM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
+      "description": "* WHAT...For the Cold Weather Advisory Central and Southern\nLouisiana, Southeast Texas, very cold wind chills as low as 15\nexpected. For the Cold Weather Advisory, very cold wind chills as\nlow as 5 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 9 PM this evening\nto noon CST Monday. For the second Cold Weather Advisory, from 6\nPM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nfrom 18 to 25 expected. For the second Cold Weather Advisory, very\ncold wind chills from 10 to 15 expected. For the third Cold\nWeather Advisory, very cold wind chills from 5 to 15 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 9 AM CST this\nmorning. For the second Cold Weather Advisory, from 9 PM this\nevening to noon CST Monday. For the third Cold Weather Advisory,\nfrom 6 PM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Winter Storm Watch",
-      "start": "12:00:00 AM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 4 and 6 inches along the U.S. 190 and I-10\ncorridors of Louisiana and Southeast Texas, and 3 to 4 inches\nfurther north and south. Ice accumulations around one tenth of an\ninch possible along and south of the I-10 corridor. Winds could\ngust as high as 35 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Monday evening through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "description": "* WHAT...For the Cold Weather Advisory Central and Southern\nLouisiana, Southeast Texas, very cold wind chills as low as 15\nexpected. For the Cold Weather Advisory, very cold wind chills as\nlow as 5 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 9 PM this evening\nto noon CST Monday. For the second Cold Weather Advisory, from 6\nPM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1028,
-    1028,
+    1030,
+    1030,
+    1030,
+    1030,
     1029,
-    1030,
-    1030,
     1029
   ],
   "fishingReport": {
