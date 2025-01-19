@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.38ft 1:30am",
+  "lakeLevel": "169.47ft 2:30am",
   "currentWeather": {
-    "temp": 41.09,
-    "feels_like": 33.69,
+    "temp": 38.23,
+    "feels_like": 29.86,
     "description": "scattered clouds",
-    "wind_speed": 13.51,
-    "wind_deg": 342,
-    "gust": 22.91,
+    "wind_speed": 14.12,
+    "wind_deg": 340,
+    "gust": 23.62,
     "sunrise": "07:12 AM",
     "sunset": "05:37 PM",
     "dayOrNight": "night",
-    "humidity": 64,
+    "humidity": 65,
     "uv_index": 0,
-    "pressure": 1021,
+    "pressure": 1022,
     "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 30.11
+    "dew_point": 28.04
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1038,
       "moon_phase": 0.75,
       "dew_point": 11.16,
-      "visibility": 9242
+      "visibility": 9004
     },
     {
       "date": "Wednesday",
@@ -96,41 +96,41 @@ const data = {
   ],
   "weatherAlerts": [
     {
+      "event": "Winter Storm Watch",
+      "start": "12:00:00 AM",
+      "end": "6:00:00 AM",
+      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 2 and 4 inches and ice accumulations around\na light glaze possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Monday evening through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
       "event": "Cold Weather Advisory",
       "start": "9:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nas low as 19 expected. For the Cold Weather Advisory Central and\nSouthern Louisiana, Southeast Texas, very cold wind chills as low\nas 14 expected. For the second Cold Weather Advisory, very cold\nwind chills as low as 15 expected. The Cold Weather Advisory\nstarting Monday night will be expanded to cover more time in\nsubsequent issuances.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 3 AM to 9 AM CST\nSunday. For the second Cold Weather Advisory, from 9 PM Sunday to\nnoon CST Monday. For the third Cold Weather Advisory, from 6 PM\nMonday to midnight CST Tuesday Night. The Cold Weather Advisory\nstarting Monday night will be expanded to cover more time in\nsubsequent issuances.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
+      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nfrom 18 to 25 expected. For the second Cold Weather Advisory, very\ncold wind chills from 10 to 15 expected. For the third Cold\nWeather Advisory, very cold wind chills from 5 to 15 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 9 AM CST this\nmorning. For the second Cold Weather Advisory, from 9 PM this\nevening to noon CST Monday. For the third Cold Weather Advisory,\nfrom 6 PM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Cold Weather Advisory",
       "start": "3:00:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nas low as 19 expected. For the Cold Weather Advisory Central and\nSouthern Louisiana, Southeast Texas, very cold wind chills as low\nas 14 expected. For the second Cold Weather Advisory, very cold\nwind chills as low as 15 expected. The Cold Weather Advisory\nstarting Monday night will be expanded to cover more time in\nsubsequent issuances.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 3 AM to 9 AM CST\nSunday. For the second Cold Weather Advisory, from 9 PM Sunday to\nnoon CST Monday. For the third Cold Weather Advisory, from 6 PM\nMonday to midnight CST Tuesday Night. The Cold Weather Advisory\nstarting Monday night will be expanded to cover more time in\nsubsequent issuances.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
+      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nfrom 18 to 25 expected. For the second Cold Weather Advisory, very\ncold wind chills from 10 to 15 expected. For the third Cold\nWeather Advisory, very cold wind chills from 5 to 15 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 9 AM CST this\nmorning. For the second Cold Weather Advisory, from 9 PM this\nevening to noon CST Monday. For the third Cold Weather Advisory,\nfrom 6 PM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nas low as 19 expected. For the Cold Weather Advisory Central and\nSouthern Louisiana, Southeast Texas, very cold wind chills as low\nas 14 expected. For the second Cold Weather Advisory, very cold\nwind chills as low as 15 expected. The Cold Weather Advisory\nstarting Monday night will be expanded to cover more time in\nsubsequent issuances.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 3 AM to 9 AM CST\nSunday. For the second Cold Weather Advisory, from 9 PM Sunday to\nnoon CST Monday. For the third Cold Weather Advisory, from 6 PM\nMonday to midnight CST Tuesday Night. The Cold Weather Advisory\nstarting Monday night will be expanded to cover more time in\nsubsequent issuances.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Winter Storm Watch",
-      "start": "12:00:00 AM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 2 and 4 inches and ice accumulations around\na light glaze possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Monday evening through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "end": "6:00:00 PM",
+      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nfrom 18 to 25 expected. For the second Cold Weather Advisory, very\ncold wind chills from 10 to 15 expected. For the third Cold\nWeather Advisory, very cold wind chills from 5 to 15 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 9 AM CST this\nmorning. For the second Cold Weather Advisory, from 9 PM this\nevening to noon CST Monday. For the third Cold Weather Advisory,\nfrom 6 PM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1021,
-    1021,
+    1022,
     1022,
     1023,
-    1025,
-    1028
+    1024,
+    1027,
+    1029
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
