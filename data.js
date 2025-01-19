@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.53ft 4:30am",
+  "lakeLevel": "169.50ft 6:00am",
   "currentWeather": {
-    "temp": 33.26,
-    "feels_like": 23.36,
+    "temp": 31.6,
+    "feels_like": 21.16,
     "description": "few clouds",
-    "wind_speed": 14.56,
-    "wind_deg": 342,
-    "gust": 26.26,
+    "wind_speed": 14.79,
+    "wind_deg": 341,
+    "gust": 27.11,
     "sunrise": "07:12 AM",
     "sunset": "05:37 PM",
     "dayOrNight": "night",
-    "humidity": 68,
+    "humidity": 72,
     "uv_index": 0,
-    "pressure": 1024,
+    "pressure": 1026,
     "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 24.78
+    "dew_point": 24.55
   },
   "fiveDayWeather": [
     {
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Winter Storm Watch",
-      "start": "12:00:00 AM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 2 and 4 inches and ice accumulations around\na light glaze possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Monday evening through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Cold Weather Advisory",
       "start": "9:00:00 AM",
       "end": "3:00:00 PM",
@@ -122,14 +115,21 @@ const data = {
       "end": "6:00:00 PM",
       "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nfrom 18 to 25 expected. For the second Cold Weather Advisory, very\ncold wind chills from 10 to 15 expected. For the third Cold\nWeather Advisory, very cold wind chills from 5 to 15 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 9 AM CST this\nmorning. For the second Cold Weather Advisory, from 9 PM this\nevening to noon CST Monday. For the third Cold Weather Advisory,\nfrom 6 PM Monday to noon CST Wednesday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Winter Storm Watch",
+      "start": "12:00:00 AM",
+      "end": "6:00:00 AM",
+      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 4 and 6 inches along the U.S. 190 and I-10\ncorridors of Louisiana and Southeast Texas, and 3 to 4 inches\nfurther north and south. Ice accumulations around one tenth of an\ninch possible along and south of the I-10 corridor. Winds could\ngust as high as 35 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Monday evening through Tuesday evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1024,
-    1024,
+    1026,
     1026,
     1027,
-    1029,
+    1028,
+    1030,
     1031
   ],
   "fishingReport": {
