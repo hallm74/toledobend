@@ -1,38 +1,23 @@
 const data = {
-  "lakeLevel": "169.23ft 5:30pm",
+  "lakeLevel": "169.13ft 12:00am",
   "currentWeather": {
-    "temp": 30.81,
-    "feels_like": 22.5,
+    "temp": 30.11,
+    "feels_like": 21.72,
     "description": "clear sky",
-    "wind_speed": 9.55,
-    "wind_deg": 18,
-    "gust": 20.09,
-    "sunrise": "07:12 AM",
-    "sunset": "05:37 PM",
+    "wind_speed": 9.4,
+    "wind_deg": 25,
+    "gust": 19.69,
+    "sunrise": "07:11 AM",
+    "sunset": "05:38 PM",
     "dayOrNight": "night",
-    "humidity": 42,
+    "humidity": 44,
     "uv_index": 0,
     "pressure": 1033,
-    "moon_phase": 0.69,
+    "moon_phase": 0.72,
     "visibility": 10000,
-    "dew_point": 12.65
+    "dew_point": 12.94
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 40.86,
-      "low": 26.13,
-      "description": "light snow",
-      "wind_speed": 9.89,
-      "wind_deg": 62,
-      "gust": 19.82,
-      "humidity": 22,
-      "uv_index": 3.62,
-      "pressure": 1035,
-      "moon_phase": 0.72,
-      "dew_point": 2.05,
-      "visibility": 9970
-    },
     {
       "date": "Tuesday",
       "high": 38.73,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1039,
       "moon_phase": 0.75,
       "dew_point": 9,
-      "visibility": 8182
+      "visibility": 9682
     },
     {
       "date": "Wednesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1032,
       "moon_phase": 0.78,
       "dew_point": 12.6,
-      "visibility": "Unavailable"
+      "visibility": 8470
     },
     {
       "date": "Thursday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1029,
       "moon_phase": 0.84,
       "dew_point": 25.02,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 55.8,
+      "low": 36.25,
+      "description": "light rain",
+      "wind_speed": 12.97,
+      "wind_deg": 156,
+      "gust": 36.33,
+      "humidity": 71,
+      "uv_index": 4,
+      "pressure": 1026,
+      "moon_phase": 0.87,
+      "dew_point": 44.33,
       "visibility": "Unavailable"
     }
   ],
@@ -128,7 +128,7 @@ const data = {
     1033,
     1033,
     1033,
-    1033,
+    1034,
     1034,
     1034
   ],
