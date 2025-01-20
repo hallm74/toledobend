@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.13ft 2:00am",
+  "lakeLevel": "169.11ft 2:30am",
   "currentWeather": {
-    "temp": 28.83,
-    "feels_like": 20.53,
+    "temp": 28.36,
+    "feels_like": 19.99,
     "description": "clear sky",
-    "wind_speed": 8.72,
-    "wind_deg": 35,
-    "gust": 19.48,
+    "wind_speed": 8.66,
+    "wind_deg": 37,
+    "gust": 19.04,
     "sunrise": "07:11 AM",
     "sunset": "05:38 PM",
     "dayOrNight": "night",
-    "humidity": 46,
+    "humidity": 45,
     "uv_index": 0,
     "pressure": 1033,
     "moon_phase": 0.72,
     "visibility": 10000,
-    "dew_point": 12.63
+    "dew_point": 11.77
   },
   "fiveDayWeather": [
     {
@@ -96,31 +96,31 @@ const data = {
   ],
   "weatherAlerts": [
     {
+      "event": "Winter Storm Warning",
+      "start": "6:00:00 AM",
+      "end": "6:00:00 AM",
+      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 4 and 6 inches and ice accumulations up to\n0.02 inches possible south of the I-10 corridor to the coast.\nWinds gusting as high as 35 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From midnight tonight to midnight CST Tuesday Night.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
       "event": "Cold Weather Advisory",
-      "start": "12:00:00 AM",
+      "start": "8:25:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory starting this evening,\nvery cold wind chills from 13 to 20 expected. For the second Cold\nWeather Advisory tomorrow evening, very cold wind chills from 10\nto 15 expected. For the Extreme Cold Watch, dangerously cold wind\nchills as low as 5 possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 6 PM this evening\nto noon CST Monday. For the second Cold Weather Advisory, from 6\nPM Monday to 6 PM CST Tuesday. For the Extreme Cold Watch, from\nTuesday evening through Wednesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes. Wind chill values\ncan lead to hypothermia with prolonged exposure. Very cold\ntemperatures can lead to hypothermia with prolonged exposure.",
+      "description": "* WHAT...For the Cold Weather Advisory this morning, very cold wind\nchills from 12 to 16. For the Cold Weather Advisory tonight\nthrough Tuesday, very cold wind chills as low as 10 to 15. For the\nExtreme Cold Watch Tuesday night into Wednesday, dangerously cold\nwind chills from 2 to 6 degrees.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until noon CST today.\nFor the second Cold Weather Advisory, from 6 PM this evening to 6\nPM CST Tuesday. For the Extreme Cold Watch, from Tuesday evening\nthrough Wednesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes. Wind chill values\ncan lead to hypothermia with prolonged exposure. Very cold\ntemperatures can lead to hypothermia with prolonged exposure.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...For the first Cold Weather Advisory starting this evening,\nvery cold wind chills from 13 to 20 expected. For the second Cold\nWeather Advisory tomorrow evening, very cold wind chills from 10\nto 15 expected. For the Extreme Cold Watch, dangerously cold wind\nchills as low as 5 possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 6 PM this evening\nto noon CST Monday. For the second Cold Weather Advisory, from 6\nPM Monday to 6 PM CST Tuesday. For the Extreme Cold Watch, from\nTuesday evening through Wednesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes. Wind chill values\ncan lead to hypothermia with prolonged exposure. Very cold\ntemperatures can lead to hypothermia with prolonged exposure.",
+      "description": "* WHAT...For the Cold Weather Advisory this morning, very cold wind\nchills from 12 to 16. For the Cold Weather Advisory tonight\nthrough Tuesday, very cold wind chills as low as 10 to 15. For the\nExtreme Cold Watch Tuesday night into Wednesday, dangerously cold\nwind chills from 2 to 6 degrees.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until noon CST today.\nFor the second Cold Weather Advisory, from 6 PM this evening to 6\nPM CST Tuesday. For the Extreme Cold Watch, from Tuesday evening\nthrough Wednesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes. Wind chill values\ncan lead to hypothermia with prolonged exposure. Very cold\ntemperatures can lead to hypothermia with prolonged exposure.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Extreme Cold Watch",
       "start": "12:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory starting this evening,\nvery cold wind chills from 13 to 20 expected. For the second Cold\nWeather Advisory tomorrow evening, very cold wind chills from 10\nto 15 expected. For the Extreme Cold Watch, dangerously cold wind\nchills as low as 5 possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, from 6 PM this evening\nto noon CST Monday. For the second Cold Weather Advisory, from 6\nPM Monday to 6 PM CST Tuesday. For the Extreme Cold Watch, from\nTuesday evening through Wednesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes. Wind chill values\ncan lead to hypothermia with prolonged exposure. Very cold\ntemperatures can lead to hypothermia with prolonged exposure.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Winter Storm Warning",
-      "start": "6:00:00 AM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...Heavy mixed precipitation possible. Total snow and sleet\naccumulations between 4 and 6 inches and ice accumulations up to\n0.02 inches possible south of the I-10 corridor to the coast.\nWinds gusting as high as 35 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From midnight Monday Night to midnight CST Tuesday Night.\n\n* IMPACTS...Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "description": "* WHAT...For the Cold Weather Advisory this morning, very cold wind\nchills from 12 to 16. For the Cold Weather Advisory tonight\nthrough Tuesday, very cold wind chills as low as 10 to 15. For the\nExtreme Cold Watch Tuesday night into Wednesday, dangerously cold\nwind chills from 2 to 6 degrees.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until noon CST today.\nFor the second Cold Weather Advisory, from 6 PM this evening to 6\nPM CST Tuesday. For the Extreme Cold Watch, from Tuesday evening\nthrough Wednesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes. Wind chill values\ncan lead to hypothermia with prolonged exposure. Very cold\ntemperatures can lead to hypothermia with prolonged exposure.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -128,9 +128,9 @@ const data = {
     1033,
     1033,
     1033,
-    1033,
     1034,
-    1034
+    1034,
+    1035
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
