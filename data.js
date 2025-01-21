@@ -1,38 +1,23 @@
 const data = {
-  "lakeLevel": "168.95ft 5:45pm",
+  "lakeLevel": "168.94ft 12:00am",
   "currentWeather": {
-    "temp": 30.2,
-    "feels_like": 21.7,
+    "temp": 29.61,
+    "feels_like": 22.05,
     "description": "snow",
-    "wind_speed": 9.62,
-    "wind_deg": 45,
-    "gust": 16.89,
+    "wind_speed": 7.83,
+    "wind_deg": 33,
+    "gust": 14.18,
     "sunrise": "07:11 AM",
-    "sunset": "05:38 PM",
+    "sunset": "05:39 PM",
     "dayOrNight": "night",
-    "humidity": 40,
+    "humidity": 43,
     "uv_index": 0,
-    "pressure": 1036,
-    "moon_phase": 0.72,
-    "visibility": 2738,
-    "dew_point": 11.1
+    "pressure": 1037,
+    "moon_phase": 0.75,
+    "visibility": 2847,
+    "dew_point": 12
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 36.72,
-      "low": 21.38,
-      "description": "snow",
-      "wind_speed": 11.59,
-      "wind_deg": 20,
-      "gust": 23.04,
-      "humidity": 46,
-      "uv_index": 3.2,
-      "pressure": 1038,
-      "moon_phase": 0.75,
-      "dew_point": 14.11,
-      "visibility": 7481
-    },
     {
       "date": "Wednesday",
       "high": 42.24,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1032,
       "moon_phase": 0.78,
       "dew_point": 15.33,
-      "visibility": 10000
+      "visibility": 7784
     },
     {
       "date": "Thursday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1032,
       "moon_phase": 0.81,
       "dew_point": 29.57,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,15 +77,52 @@ const data = {
       "moon_phase": 0.87,
       "dew_point": 39.56,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 63.88,
+      "low": 53.55,
+      "description": "light rain",
+      "wind_speed": 12.77,
+      "wind_deg": 151,
+      "gust": 38.18,
+      "humidity": 95,
+      "uv_index": 4,
+      "pressure": 1019,
+      "moon_phase": 0.9,
+      "dew_point": 61.77,
+      "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Winter Storm Warning",
+      "start": "6:00:00 AM",
+      "end": "3:00:00 AM",
+      "description": "* WHAT...Heavy mixed precipitation expected. Total snow\naccumulations up to 2 inches across the Lakes region of southeast\nTexas into central Louisiana, with 4 and 8 inches across much of\nsouthwest and south central Louisiana and southeast Texas. Ice\naccumulations up to one tenth of an inch.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From midnight tonight to 9 PM CST Tuesday.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Travel could be very difficult. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Cold Weather Advisory",
+      "start": "3:11:00 AM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 12. For the Extreme Cold Warning, dangerously cold wind chills\nbetween 5 and 15 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 6 PM CST Tuesday. For\nthe Extreme Cold Warning, from 6 PM Tuesday to 9 AM CST Wednesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Extreme Cold Warning",
+      "start": "12:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 12. For the Extreme Cold Warning, dangerously cold wind chills\nbetween 5 and 15 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 6 PM CST Tuesday. For\nthe Extreme Cold Warning, from 6 PM Tuesday to 9 AM CST Wednesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
+    1037,
+    1037,
+    1037,
     1036,
-    1036,
-    1036,
-    1036,
-    1036,
+    1037,
     1037
   ],
   "fishingReport": {
