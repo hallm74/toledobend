@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.96ft 3:30am",
+  "lakeLevel": "169.00ft 4:30am",
   "currentWeather": {
-    "temp": 27.95,
-    "feels_like": 20.28,
-    "description": "light snow",
-    "wind_speed": 7.45,
-    "wind_deg": 34,
-    "gust": 15.79,
+    "temp": 27.39,
+    "feels_like": 18.84,
+    "description": "snow",
+    "wind_speed": 8.59,
+    "wind_deg": 17,
+    "gust": 18.28,
     "sunrise": "07:11 AM",
     "sunset": "05:39 PM",
     "dayOrNight": "night",
-    "humidity": 54,
+    "humidity": 55,
     "uv_index": 0,
     "pressure": 1037,
     "moon_phase": 0.75,
-    "visibility": 3760,
-    "dew_point": 15.06
+    "visibility": 1634,
+    "dew_point": 14.9
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1032,
       "moon_phase": 0.78,
       "dew_point": 16.25,
-      "visibility": 9055
+      "visibility": 9315
     },
     {
       "date": "Thursday",
@@ -111,19 +111,19 @@ const data = {
     },
     {
       "event": "Winter Storm Warning",
-      "start": "8:05:00 AM",
+      "start": "9:51:00 AM",
       "end": "3:00:00 AM",
-      "description": "* WHAT...Heavy snow. Additional snow accumulations between 1 and 6\ninches.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 9 PM CST this evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Travel could be very difficult. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "description": "* WHAT...Heavy snow. Additional snow accumulations up to 6 inches.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 9 PM CST this evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
     1037,
     1037,
+    1037,
     1036,
-    1036,
-    1036,
-    1039
+    1039,
+    1040
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
