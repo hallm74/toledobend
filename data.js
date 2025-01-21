@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.00ft 4:30am",
+  "lakeLevel": "168.92ft 6:00am",
   "currentWeather": {
-    "temp": 27.39,
-    "feels_like": 18.84,
+    "temp": 26.56,
+    "feels_like": 16.41,
     "description": "snow",
-    "wind_speed": 8.59,
-    "wind_deg": 17,
-    "gust": 18.28,
+    "wind_speed": 11.07,
+    "wind_deg": 22,
+    "gust": 23.04,
     "sunrise": "07:11 AM",
     "sunset": "05:39 PM",
     "dayOrNight": "night",
-    "humidity": 55,
+    "humidity": 58,
     "uv_index": 0,
-    "pressure": 1037,
+    "pressure": 1036,
     "moon_phase": 0.75,
-    "visibility": 1634,
-    "dew_point": 14.9
+    "visibility": 10000,
+    "dew_point": 15.21
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1032,
       "moon_phase": 0.78,
       "dew_point": 16.25,
-      "visibility": 9315
+      "visibility": 9664
     },
     {
       "date": "Thursday",
@@ -111,19 +111,19 @@ const data = {
     },
     {
       "event": "Winter Storm Warning",
-      "start": "9:51:00 AM",
-      "end": "3:00:00 AM",
-      "description": "* WHAT...Heavy snow. Additional snow accumulations up to 6 inches.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 9 PM CST this evening.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning and evening commutes.",
+      "start": "10:15:00 AM",
+      "end": "9:00:00 PM",
+      "description": "...BLIZZARD CONDITIONS ONGOING ACROSS PARTS OF SOUTHEAST TEXAS AND\nSOUTHWEST LOUISIANA...\n\n.A coastal low moving across the northern Gulf of Mexico is\nproducing periods of visibility reducing heavy snow and wind gusts\nin excess of 35 MPH in bands moving onshore. These bands will\ncontinue to move in and out of the warned area through the morning\ncreating hazardous conditions to anyone exposed outdoors for\nextended periods of time.\n\n* WHAT...Heavy snow. Additional snow accumulations up to 5 inches.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 3 PM CST this afternoon.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. The strong winds and weight of\nsnow on tree limbs may down power lines and could cause sporadic\npower outages. Plan on slippery road conditions. The hazardous\nconditions could impact the Tuesday morning commute.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1037,
-    1037,
-    1037,
     1036,
-    1039,
-    1040
+    1036,
+    1036,
+    1037,
+    1038,
+    1038
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
