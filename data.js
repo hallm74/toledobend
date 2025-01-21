@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.82ft 2:30pm",
+  "lakeLevel": "168.87ft 3:30pm",
   "currentWeather": {
-    "temp": 35.73,
-    "feels_like": 27.82,
-    "description": "overcast clouds",
-    "wind_speed": 11.14,
-    "wind_deg": 359,
-    "gust": 16.53,
+    "temp": 35.51,
+    "feels_like": 27.86,
+    "description": "broken clouds",
+    "wind_speed": 10.47,
+    "wind_deg": 357,
+    "gust": 16.06,
     "sunrise": "07:11 AM",
     "sunset": "05:39 PM",
     "dayOrNight": "day",
     "humidity": 49,
-    "uv_index": 1.43,
-    "pressure": 1036,
+    "uv_index": 0.53,
+    "pressure": 1035,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 19.98
+    "dew_point": 19.8
   },
   "fiveDayWeather": [
     {
@@ -97,26 +97,26 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Cold Weather Advisory",
-      "start": "8:03:00 AM",
+      "start": "9:15:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11. For the Extreme Cold Warning, dangerously cold wind chills\nas low as 11 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 6 PM CST this evening.\nFor the Extreme Cold Warning, from 6 PM this evening to 9 AM CST\nWednesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills\nbetween 15 and 25. For the Extreme Cold Warning, dangerously cold\nwind chills between 5 and 15 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 6 PM CST this evening.\nFor the Extreme Cold Warning, until 9 AM CST Wednesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Extreme Cold Warning",
       "start": "12:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11. For the Extreme Cold Warning, dangerously cold wind chills\nas low as 11 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 6 PM CST this evening.\nFor the Extreme Cold Warning, from 6 PM this evening to 9 AM CST\nWednesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills\nbetween 15 and 25. For the Extreme Cold Warning, dangerously cold\nwind chills between 5 and 15 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 6 PM CST this evening.\nFor the Extreme Cold Warning, until 9 AM CST Wednesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1036,
+    1035,
+    1035,
     1036,
     1036,
     1037,
-    1037,
-    1037
+    1038
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
