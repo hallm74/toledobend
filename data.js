@@ -31,7 +31,7 @@ const data = {
       "pressure": 1038,
       "moon_phase": 0.75,
       "dew_point": 14.11,
-      "visibility": 6483
+      "visibility": 6766
     },
     {
       "date": "Wednesday",
@@ -120,8 +120,8 @@ const data = {
   "barometricPressureHistory": [
     1034,
     1034,
-    1034,
     1035,
+    1036,
     1036,
     1036
   ],
