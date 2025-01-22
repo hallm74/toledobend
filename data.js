@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.50ft 12:30pm",
+  "lakeLevel": "168.50ft 1:30pm",
   "currentWeather": {
-    "temp": 38.12,
-    "feels_like": 32.16,
+    "temp": 39.7,
+    "feels_like": 33.98,
     "description": "clear sky",
-    "wind_speed": 8.25,
-    "wind_deg": 186,
-    "gust": 11.5,
+    "wind_speed": 8.48,
+    "wind_deg": 191,
+    "gust": 11.74,
     "sunrise": "07:11 AM",
     "sunset": "05:40 PM",
     "dayOrNight": "day",
-    "humidity": 44,
-    "uv_index": 3.43,
-    "pressure": 1029,
+    "humidity": 45,
+    "uv_index": 2.6,
+    "pressure": 1028,
     "moon_phase": 0.78,
     "visibility": 10000,
-    "dew_point": 19.71
+    "dew_point": 21.47
   },
   "fiveDayWeather": [
     {
@@ -50,7 +50,7 @@ const data = {
     },
     {
       "date": "Saturday",
-      "high": 53.47,
+      "high": 54.99,
       "low": 32.09,
       "description": "scattered clouds",
       "wind_speed": 10.94,
@@ -99,17 +99,17 @@ const data = {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...For the Extreme Cold Warning, dangerously cold wind chills\nas low as 10 above. For the Cold Weather Advisory, very cold wind\nchills as low as 20 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Extreme Cold Warning, until 9 AM CST this morning.\nFor the Cold Weather Advisory, from 6 PM this evening to 9 AM CST\nThursday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...Very cold temperatures between 12 and 20 degrees expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 6 PM this evening to 9 AM CST Thursday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Very cold temperatures can lead\nto hypothermia with prolonged exposure.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1029,
-    1029,
+    1028,
     1028,
     1028,
     1027,
-    1027
+    1027,
+    1028
   ],
   "fishingReport": {
     "date": "Jan 15, 2025",
