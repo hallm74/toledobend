@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.50ft 3:30pm",
+  "lakeLevel": "168.50ft 4:30pm",
   "currentWeather": {
-    "temp": 40.3,
-    "feels_like": 34.56,
+    "temp": 38.16,
+    "feels_like": 32.5,
     "description": "clear sky",
-    "wind_speed": 8.81,
-    "wind_deg": 198,
-    "gust": 13,
+    "wind_speed": 7.72,
+    "wind_deg": 194,
+    "gust": 13.44,
     "sunrise": "07:11 AM",
     "sunset": "05:40 PM",
     "dayOrNight": "day",
-    "humidity": 52,
-    "uv_index": 0.58,
+    "humidity": 61,
+    "uv_index": 0,
     "pressure": 1027,
     "moon_phase": 0.78,
     "visibility": 10000,
-    "dew_point": 25
+    "dew_point": 26.62
   },
   "fiveDayWeather": [
     {
@@ -112,7 +112,7 @@ const data = {
     1029
   ],
   "fishingReport": {
-    "date": "Jan 15, 2025",
-    "report": "FAIR. Water normal stain; 51 degrees; 2.49 feet below pool. Another cold front is in the forecast at the end of the weekend. Bass fishing is slow. Most creeks are still running mud, but the main lake is still clear. Few bass can be caught on main lake points with Carolina rigs and big crankbaits in 12-18 feet. Most of the deeper fish are now off bottom and have started to swim around. No crappie report. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jan 22, 2025",
+    "report": "SLOW. Water normal stain; 46 degrees; 3.08 feet below pool. The recent cold front has kept anglers off the water. Bass fishing is slow. Most creeks are still running mud, but the main lake is still clear. Few bass can be caught on main lake points with Carolina rigs and big crankbaits in 12-18 feet. Most of the deeper fish are now off bottom and have started to swim around. No crappie report. Report by Stephen Johnston, Johnston Fishing."
   }
 };
