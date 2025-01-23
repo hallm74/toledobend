@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.56ft 7:30am",
+  "lakeLevel": "168.55ft 8:30am",
   "currentWeather": {
-    "temp": 33.4,
-    "feels_like": 30.42,
-    "description": "overcast clouds",
-    "wind_speed": 3.38,
-    "wind_deg": 323,
-    "gust": 7.16,
+    "temp": 37.92,
+    "feels_like": 35.11,
+    "description": "broken clouds",
+    "wind_speed": 3.8,
+    "wind_deg": 335,
+    "gust": 6.73,
     "sunrise": "07:10 AM",
     "sunset": "05:41 PM",
     "dayOrNight": "day",
-    "humidity": 75,
-    "uv_index": 0.25,
+    "humidity": 62,
+    "uv_index": 0.93,
     "pressure": 1032,
     "moon_phase": 0.81,
     "visibility": 10000,
-    "dew_point": 27
+    "dew_point": 26.76
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Cold Weather Advisory",
-      "start": "12:00:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...Very cold temperatures between 12 and 20 degrees expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 6 PM this evening to 9 AM CST Thursday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Very cold temperatures can lead\nto hypothermia with prolonged exposure.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1032,
     1032,
     1032,
     1032,
-    1032,
-    1030
+    1030,
+    1029
   ],
   "fishingReport": {
     "date": "Jan 22, 2025",
