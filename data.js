@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "168.59ft 5:30pm",
   "currentWeather": {
-    "temp": 36.43,
-    "feels_like": 31.68,
+    "temp": 35.31,
+    "feels_like": 29.91,
     "description": "clear sky",
-    "wind_speed": 5.77,
-    "wind_deg": 301,
-    "gust": 8.57,
+    "wind_speed": 6.38,
+    "wind_deg": 312,
+    "gust": 16.35,
     "sunrise": "07:10 AM",
-    "sunset": "05:41 PM",
+    "sunset": "05:42 PM",
     "dayOrNight": "night",
-    "humidity": 69,
+    "humidity": 74,
     "uv_index": 0,
     "pressure": 1032,
-    "moon_phase": 0.81,
+    "moon_phase": 0.84,
     "visibility": 10000,
-    "dew_point": 27.81
+    "dew_point": 28.35
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 50.45,
-      "low": 30.58,
-      "description": "clear sky",
-      "wind_speed": 7.85,
-      "wind_deg": 179,
-      "gust": 22.48,
-      "humidity": 38,
-      "uv_index": 3.72,
-      "pressure": 1032,
-      "moon_phase": 0.84,
-      "dew_point": 23.76,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 55.4,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.9,
       "dew_point": 58.28,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.97,
       "dew_point": 57.18,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 64.63,
+      "low": 59.68,
+      "description": "moderate rain",
+      "wind_speed": 6.06,
+      "wind_deg": 143,
+      "gust": 19.8,
+      "humidity": 99,
+      "uv_index": 4,
+      "pressure": 1016,
+      "moon_phase": 0,
+      "dew_point": 62.15,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -104,7 +104,7 @@ const data = {
     1032
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Fishing report not found"
+    "date": "Jan 22, 2025",
+    "report": "SLOW. Water normal stain; 46 degrees; 3.08 feet below pool. The recent cold front has kept anglers off the water. Bass fishing is slow. Most creeks are still running mud, but the main lake is still clear. Few bass can be caught on main lake points with Carolina rigs and big crankbaits in 12-18 feet. Most of the deeper fish are now off bottom and have started to swim around. No crappie report. Report by Stephen Johnston, Johnston Fishing."
   }
 };
