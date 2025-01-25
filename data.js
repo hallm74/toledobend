@@ -46,7 +46,7 @@ const data = {
       "pressure": 1025,
       "moon_phase": 0.9,
       "dew_point": 55.04,
-      "visibility": 6516
+      "visibility": 6099
     },
     {
       "date": "Monday",
