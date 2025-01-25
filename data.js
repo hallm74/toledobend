@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.51ft 11:30am",
+  "lakeLevel": "168.52ft 12:30pm",
   "currentWeather": {
-    "temp": 55.81,
-    "feels_like": 53.49,
-    "description": "scattered clouds",
-    "wind_speed": 9.35,
-    "wind_deg": 161,
-    "gust": 13.8,
+    "temp": 57.83,
+    "feels_like": 55.76,
+    "description": "clear sky",
+    "wind_speed": 8.81,
+    "wind_deg": 167,
+    "gust": 12.59,
     "sunrise": "07:10 AM",
     "sunset": "05:43 PM",
     "dayOrNight": "day",
-    "humidity": 51,
-    "uv_index": 3.87,
-    "pressure": 1027,
+    "humidity": 52,
+    "uv_index": 1.17,
+    "pressure": 1026,
     "moon_phase": 0.87,
     "visibility": 10000,
-    "dew_point": 37.98
+    "dew_point": 40.33
   },
   "fiveDayWeather": [
     {
@@ -27,11 +27,11 @@ const data = {
       "wind_deg": 149,
       "gust": 29.75,
       "humidity": 99,
-      "uv_index": 0.34,
+      "uv_index": 0.93,
       "pressure": 1024,
       "moon_phase": 0.9,
       "dew_point": 55.81,
-      "visibility": 10000
+      "visibility": 9851
     },
     {
       "date": "Monday",
@@ -42,11 +42,11 @@ const data = {
       "wind_deg": 360,
       "gust": 16.67,
       "humidity": 82,
-      "uv_index": 2.93,
+      "uv_index": 3.27,
       "pressure": 1025,
       "moon_phase": 0.94,
       "dew_point": 50.86,
-      "visibility": 3871
+      "visibility": 4072
     },
     {
       "date": "Tuesday",
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 199,
       "gust": 3.85,
       "humidity": 79,
-      "uv_index": 1.35,
+      "uv_index": 1.64,
       "pressure": 1021,
       "moon_phase": 0.97,
       "dew_point": 53.31,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 176,
       "gust": 13.8,
       "humidity": 82,
-      "uv_index": 2,
+      "uv_index": 2.13,
       "pressure": 1019,
       "moon_phase": 0,
       "dew_point": 62.02,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 65,
       "gust": 33.26,
       "humidity": 97,
-      "uv_index": 2,
+      "uv_index": 3,
       "pressure": 1020,
       "moon_phase": 0.04,
       "dew_point": 57.06,
@@ -96,10 +96,10 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1027,
-    1027,
     1026,
     1026,
+    1026,
+    1025,
     1025,
     1025
   ],
