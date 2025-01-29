@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.93ft 3:30pm",
+  "lakeLevel": "168.95ft 4:30pm",
   "currentWeather": {
-    "temp": 67.59,
-    "feels_like": 67.86,
+    "temp": 66.18,
+    "feels_like": 66.49,
     "description": "overcast clouds",
-    "wind_speed": 6.08,
-    "wind_deg": 147,
-    "gust": 13.65,
+    "wind_speed": 4.97,
+    "wind_deg": 129,
+    "gust": 10.04,
     "sunrise": "07:08 AM",
     "sunset": "05:46 PM",
     "dayOrNight": "day",
-    "humidity": 81,
-    "uv_index": 0.53,
+    "humidity": 85,
+    "uv_index": 0.05,
     "pressure": 1016,
     "moon_phase": "Unavailable",
     "visibility": 10000,
-    "dew_point": 61.56
+    "dew_point": 61.54
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1016,
     1016,
     1016,
-    1017,
     1016,
+    1017,
     1017
   ],
   "fishingReport": {
-    "date": "Jan 22, 2025",
-    "report": "SLOW. Water normal stain; 46 degrees; 3.08 feet below pool. The recent cold front has kept anglers off the water. Bass fishing is slow. Most creeks are still running mud, but the main lake is still clear. Few bass can be caught on main lake points with Carolina rigs and big crankbaits in 12-18 feet. Most of the deeper fish are now off bottom and have started to swim around. No crappie report. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jan 29, 2025",
+    "report": "SLOW. Water normal stain; 48 degrees; 3.14 feet below pool. Rain is forecasted to end just as the weekend begins. Due to the influx of freshwater the creeks are flowing and the crappie bite is slow. Bass bite has been slow, with a few fish coming on spinnerbaits and chatter baits in 4-7 feet of water, Texas and Carolina rigs on main lake points in 12-18 feet, and big crankbaits in 18-25 feet. The deeper bass are moving with shad from day to day. Report by Stephen Johnston, Johnston Fishing."
   }
 };
