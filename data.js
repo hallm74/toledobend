@@ -101,7 +101,7 @@ const data = {
     1020,
     1020,
     1020,
-    1020
+    1019
   ],
   "fishingReport": {
     "date": "Jan 29, 2025",
