@@ -1,12 +1,12 @@
 const data = {
-  "lakeLevel": "169.22ft 2:30am",
+  "lakeLevel": "169.23ft 3:30am",
   "currentWeather": {
-    "temp": 63.07,
-    "feels_like": 63.73,
+    "temp": 62.82,
+    "feels_like": 63.45,
     "description": "scattered clouds",
-    "wind_speed": 3.83,
-    "wind_deg": 183,
-    "gust": 13.85,
+    "wind_speed": 3.58,
+    "wind_deg": 178,
+    "gust": 6.87,
     "sunrise": "07:04 AM",
     "sunset": "05:52 PM",
     "dayOrNight": "night",
@@ -15,7 +15,7 @@ const data = {
     "pressure": 1019,
     "moon_phase": 0.23,
     "visibility": 10000,
-    "dew_point": 62.78
+    "dew_point": 62.53
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.25,
       "dew_point": 64.33,
-      "visibility": 10000
+      "visibility": 9825
     },
     {
       "date": "Thursday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.3,
       "dew_point": 62.96,
-      "visibility": 9624
+      "visibility": 9807
     },
     {
       "date": "Friday",
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Dense Fog Advisory",
-      "start": "6:00:00 AM",
+      "start": "9:05:00 AM",
       "end": "4:00:00 PM",
-      "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of south central, southwest, and west central\nLouisiana and southeast Texas.\n\n* WHEN...From midnight tonight to 10 AM CST Tuesday.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+      "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of south central, southwest, and west central\nLouisiana and southeast Texas.\n\n* WHEN...Until 10 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -109,7 +109,7 @@ const data = {
     1019,
     1020,
     1021,
-    1021
+    1022
   ],
   "fishingReport": {
     "date": "Jan 29, 2025",
