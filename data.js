@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.27ft 2:30pm",
+  "lakeLevel": "169.28ft 3:30pm",
   "currentWeather": {
-    "temp": 73.13,
-    "feels_like": 73.67,
+    "temp": 74.39,
+    "feels_like": 74.91,
     "description": "overcast clouds",
-    "wind_speed": 6.2,
-    "wind_deg": 186,
-    "gust": 15.48,
+    "wind_speed": 7,
+    "wind_deg": 185,
+    "gust": 14.74,
     "sunrise": "07:03 AM",
     "sunset": "05:53 PM",
     "dayOrNight": "day",
-    "humidity": 75,
-    "uv_index": 1.12,
-    "pressure": 1016,
+    "humidity": 72,
+    "uv_index": 0.52,
+    "pressure": 1015,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 64.74
+    "dew_point": 64.78
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
+    1015,
+    1015,
     1015,
     1016,
-    1016
+    1016,
+    1017
   ],
   "fishingReport": {
-    "date": "Jan 29, 2025",
-    "report": "SLOW. Water normal stain; 48 degrees; 3.14 feet below pool. Rain is forecasted to end just as the weekend begins. Due to the influx of freshwater the creeks are flowing and the crappie bite is slow. Bass bite has been slow, with a few fish coming on spinnerbaits and chatter baits in 4-7 feet of water, Texas and Carolina rigs on main lake points in 12-18 feet, and big crankbaits in 18-25 feet. The deeper bass are moving with shad from day to day. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Feb 5, 2025",
+    "report": "SLOW. Water stained; 53 degrees; 2.77 feet below pool. The main lake is stained, but is a good color for fishing and the bite improves daily. Bass are good on spinnerbaits and chatterbaits from 2-4 feet around flooded bushes, lipless baits are good over the top of grass or hay grass in 4-7 feet, Texas and Carolina rigged lizards are good on main lake points from 12-18 feet. No crappie report, but expect this bite to begin any day. Report by Stephen Johnston, Johnston Fishing."
   }
 };
