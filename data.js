@@ -1,18 +1,18 @@
 const data = {
-  "lakeLevel": "169.26ft 1:30pm",
+  "lakeLevel": "169.26ft 2:30pm",
   "currentWeather": {
     "temp": 78.62,
     "feels_like": 78.67,
     "description": "clear sky",
-    "wind_speed": 9.15,
-    "wind_deg": 201,
-    "gust": 13.47,
+    "wind_speed": 9.06,
+    "wind_deg": 199,
+    "gust": 13.04,
     "sunrise": "07:02 AM",
     "sunset": "05:54 PM",
     "dayOrNight": "day",
     "humidity": 53,
-    "uv_index": 3.84,
-    "pressure": 1016,
+    "uv_index": 2.25,
+    "pressure": 1015,
     "moon_phase": 0.3,
     "visibility": 10000,
     "dew_point": 60.08
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 182,
       "gust": 26.04,
       "humidity": 64,
-      "uv_index": 5.41,
+      "uv_index": 5.37,
       "pressure": 1019,
       "moon_phase": 0.34,
       "dew_point": 62.82,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 198,
       "gust": 25.21,
       "humidity": 72,
-      "uv_index": 4.02,
+      "uv_index": 5.64,
       "pressure": 1017,
       "moon_phase": 0.37,
       "dew_point": 65.32,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 199,
       "gust": 20.65,
       "humidity": 71,
-      "uv_index": 5.15,
+      "uv_index": 4.08,
       "pressure": 1020,
       "moon_phase": 0.41,
       "dew_point": 61.9,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 43,
       "gust": 19.37,
       "humidity": 70,
-      "uv_index": 6,
+      "uv_index": 3,
       "pressure": 1023,
       "moon_phase": 0.44,
       "dew_point": 52.86,
@@ -87,21 +87,29 @@ const data = {
       "wind_deg": 264,
       "gust": 29.59,
       "humidity": 92,
-      "uv_index": 6,
+      "uv_index": 3,
       "pressure": 1010,
       "moon_phase": 0.47,
       "dew_point": 66.24,
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Dense Fog Advisory",
+      "start": "9:00:00 AM",
+      "end": "4:00:00 PM",
+      "description": "* WHAT...Visibility one quarter to one half mile in dense fog.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, and Vernon Parishes. In\nTexas, Northern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...From 3 AM to 10 AM CST Friday.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
+    1015,
+    1015,
     1015,
     1016,
-    1016
+    1016,
+    1017
   ],
   "fishingReport": {
     "date": "Feb 5, 2025",
