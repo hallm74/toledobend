@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "169.28ft 5:30pm",
   "currentWeather": {
-    "temp": 65.73,
-    "feels_like": 66.61,
-    "description": "few clouds",
-    "wind_speed": 7.63,
-    "wind_deg": 190,
-    "gust": 22.17,
-    "sunrise": "07:03 AM",
-    "sunset": "05:53 PM",
+    "temp": 66.33,
+    "feels_like": 67.08,
+    "description": "scattered clouds",
+    "wind_speed": 8.14,
+    "wind_deg": 197,
+    "gust": 20.09,
+    "sunrise": "07:02 AM",
+    "sunset": "05:54 PM",
     "dayOrNight": "night",
-    "humidity": 98,
+    "humidity": 94,
     "uv_index": 0,
-    "pressure": 1017,
-    "moon_phase": 0.25,
+    "pressure": 1016,
+    "moon_phase": 0.3,
     "visibility": 10000,
-    "dew_point": 65.16
+    "dew_point": 64.54
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 78.62,
-      "low": 64.18,
-      "description": "few clouds",
-      "wind_speed": 9.13,
-      "wind_deg": 201,
-      "gust": 20.58,
-      "humidity": 59,
-      "uv_index": 5.3,
-      "pressure": 1018,
-      "moon_phase": 0.3,
-      "dew_point": 61.38,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 78.66,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.37,
       "dew_point": 65.35,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,13 +77,28 @@ const data = {
       "moon_phase": 0.44,
       "dew_point": 53.87,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 58.32,
+      "low": 52.05,
+      "description": "moderate rain",
+      "wind_speed": 7.92,
+      "wind_deg": 29,
+      "gust": 16.84,
+      "humidity": 96,
+      "uv_index": 6,
+      "pressure": 1014,
+      "moon_phase": 0.47,
+      "dew_point": 52.99,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1017,
-    1017,
-    1017,
+    1016,
+    1016,
+    1016,
     1016,
     1016,
     1016
