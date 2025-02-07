@@ -9,7 +9,7 @@ const data = {
     "gust": 8.84,
     "sunrise": "07:02 AM",
     "sunset": "05:54 PM",
-    "dayOrNight": "night",
+    "dayOrNight": "day",
     "humidity": 89,
     "uv_index": 0,
     "pressure": 1020,
@@ -66,7 +66,7 @@ const data = {
     {
       "date": "Tuesday",
       "high": 67.69,
-      "low": 49.17,
+      "low": 49.23,
       "description": "heavy intensity rain",
       "wind_speed": 10.38,
       "wind_deg": 9,
@@ -80,17 +80,17 @@ const data = {
     },
     {
       "date": "Wednesday",
-      "high": 58.78,
-      "low": 44.35,
+      "high": 51.64,
+      "low": 44.69,
       "description": "moderate rain",
-      "wind_speed": 9.6,
-      "wind_deg": 38,
-      "gust": 25.9,
-      "humidity": 80,
+      "wind_speed": 10.51,
+      "wind_deg": 96,
+      "gust": 22.91,
+      "humidity": 94,
       "uv_index": 3,
       "pressure": 1013,
       "moon_phase": 0.5,
-      "dew_point": 50.29,
+      "dew_point": 46.62,
       "visibility": "Unavailable"
     }
   ],
@@ -107,9 +107,9 @@ const data = {
     1020,
     1020,
     1020,
-    1020,
     1021,
-    1020
+    1020,
+    1019
   ],
   "fishingReport": {
     "date": "Feb 5, 2025",
