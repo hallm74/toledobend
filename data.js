@@ -46,7 +46,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.47,
       "dew_point": 63.05,
-      "visibility": 8659
+      "visibility": 8610
     },
     {
       "date": "Wednesday",
@@ -99,9 +99,9 @@ const data = {
     1023,
     1023,
     1023,
-    1023,
     1024,
-    1024
+    1024,
+    1025
   ],
   "fishingReport": {
     "date": "Feb 5, 2025",
