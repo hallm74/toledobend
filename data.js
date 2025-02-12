@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "170.13ft 2:45pm",
   "currentWeather": {
-    "temp": 56.61,
-    "feels_like": 56.43,
+    "temp": 55.33,
+    "feels_like": 54.99,
     "description": "overcast clouds",
-    "wind_speed": 10.13,
-    "wind_deg": 318,
-    "gust": 21.16,
+    "wind_speed": 8.23,
+    "wind_deg": 324,
+    "gust": 17.87,
     "sunrise": "06:58 AM",
     "sunset": "05:59 PM",
     "dayOrNight": "day",
-    "humidity": 95,
-    "uv_index": 0.32,
-    "pressure": 1006,
+    "humidity": 94,
+    "uv_index": 0.79,
+    "pressure": 1007,
     "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 55.18
+    "dew_point": 53.64
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Flood Watch",
-      "start": "8:23:00 AM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Rapides and Vernon and\nsoutheast Texas, including the following areas, Hardin, Northern\nJasper, Northern Newton, Southern Jasper, Southern Newton and\nTyler.\n\n* WHEN...Through this afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Additional rainfall of 2 to 3 inches with locally heavier\namounts will be possible within the watch area.\n- http://www.weather.gov/safety/flood",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1006,
-    1006,
+    1007,
     1007,
     1008,
-    1011,
-    1014
+    1010,
+    1013,
+    1015
   ],
   "fishingReport": {
     "date": "Feb 5, 2025",
