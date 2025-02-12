@@ -3,7 +3,7 @@ const data = {
   "currentWeather": {
     "temp": 57.02,
     "feels_like": 57.02,
-    "description": "light rain",
+    "description": "overcast clouds",
     "wind_speed": 4.38,
     "wind_deg": 71,
     "gust": 9.71,
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1007,
       "moon_phase": 0.5,
       "dew_point": 64.98,
-      "visibility": 6766
+      "visibility": 6921
     },
     {
       "date": "Thursday",
@@ -107,9 +107,9 @@ const data = {
     1012,
     1012,
     1012,
-    1012,
     1011,
-    1010
+    1010,
+    1008
   ],
   "fishingReport": {
     "date": "Feb 5, 2025",
