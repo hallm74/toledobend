@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.51ft 2:00am",
+  "lakeLevel": "169.53ft 2:30am",
   "currentWeather": {
-    "temp": 55.17,
-    "feels_like": 54.99,
+    "temp": 56.08,
+    "feels_like": 55.99,
     "description": "overcast clouds",
-    "wind_speed": 6.4,
-    "wind_deg": 86,
-    "gust": 17.83,
+    "wind_speed": 6.91,
+    "wind_deg": 108,
+    "gust": 19.55,
     "sunrise": "06:58 AM",
     "sunset": "05:59 PM",
     "dayOrNight": "night",
     "humidity": 98,
     "uv_index": 0,
-    "pressure": 1008,
+    "pressure": 1007,
     "moon_phase": 0.5,
-    "visibility": 372,
-    "dew_point": 54.61
+    "visibility": 529,
+    "dew_point": 55.53
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1028,
       "moon_phase": 0.54,
       "dew_point": 32.67,
-      "visibility": 5986
+      "visibility": 6467
     },
     {
       "date": "Friday",
@@ -97,15 +97,15 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Flood Watch",
-      "start": "8:40:00 PM",
+      "start": "8:23:00 AM",
       "end": "12:00:00 AM",
-      "description": "Showers and thunderstorms associated with a slowing frontal\nboundary will continue to saturate soils across the region this\nafternoon. A surface low moving up the Texas gulf coast will produce\nadditional widespread showers and thunderstorms through much of the\nday Wednesday with the heaviest activity in the vicinity of the\nstalled frontal boundary which will be pushed through the area by\nthe advancing low. Rainfall totals of up to 6 inches will be\npossible that could result in nuisance street flooding and threaten\nhomes that are particularly susceptible to flooding.\n\n* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Rapides and Vernon and\nsoutheast Texas, including the following areas, Hardin, Northern\nJasper, Northern Newton, Southern Jasper, Southern Newton and\nTyler.\n\n* WHEN...Through Wednesday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- http://www.weather.gov/safety/flood",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Rapides and Vernon and\nsoutheast Texas, including the following areas, Hardin, Northern\nJasper, Northern Newton, Southern Jasper, Southern Newton and\nTyler.\n\n* WHEN...Through this afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Additional rainfall of 2 to 3 inches with locally heavier\namounts will be possible within the watch area.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1008,
-    1008,
+    1007,
+    1007,
     1007,
     1007,
     1007,
