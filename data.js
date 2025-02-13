@@ -1,38 +1,23 @@
 const data = {
-  "lakeLevel": "170.11ft 5:30pm",
+  "lakeLevel": "170.27ft 12:00am",
   "currentWeather": {
-    "temp": 45.97,
-    "feels_like": 40.44,
+    "temp": 44.22,
+    "feels_like": 38.32,
     "description": "overcast clouds",
-    "wind_speed": 11.72,
-    "wind_deg": 344,
-    "gust": 20.18,
-    "sunrise": "06:58 AM",
-    "sunset": "05:59 PM",
+    "wind_speed": 11.52,
+    "wind_deg": 348,
+    "gust": 20.58,
+    "sunrise": "06:57 AM",
+    "sunset": "06:00 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 85,
     "uv_index": 0,
-    "pressure": 1017,
-    "moon_phase": 0.5,
+    "pressure": 1018,
+    "moon_phase": 0.54,
     "visibility": 10000,
-    "dew_point": 41.41
+    "dew_point": 40.01
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 51.64,
-      "low": 36.79,
-      "description": "clear sky",
-      "wind_speed": 12.39,
-      "wind_deg": 13,
-      "gust": 24.27,
-      "humidity": 52,
-      "uv_index": 5.38,
-      "pressure": 1029,
-      "moon_phase": 0.54,
-      "dew_point": 30.47,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 55.08,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1011,
       "moon_phase": 0.6,
       "dew_point": 66.09,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.66,
       "dew_point": 29.52,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 57.9,
+      "low": 44.56,
+      "description": "moderate rain",
+      "wind_speed": 9.98,
+      "wind_deg": 148,
+      "gust": 27.85,
+      "humidity": 91,
+      "uv_index": 6,
+      "pressure": 1016,
+      "moon_phase": 0.69,
+      "dew_point": 52.83,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1017,
-    1017,
-    1017,
+    1018,
+    1018,
     1018,
     1019,
-    1020
+    1020,
+    1022
   ],
   "fishingReport": {
     "date": "Feb 12, 2025",
