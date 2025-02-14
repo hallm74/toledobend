@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.47ft 12:30am",
+  "lakeLevel": "170.49ft 2:00am",
   "currentWeather": {
-    "temp": 38.62,
-    "feels_like": 32.54,
+    "temp": 38.26,
+    "feels_like": 32.5,
     "description": "clear sky",
-    "wind_speed": 8.72,
-    "wind_deg": 51,
-    "gust": 21.63,
+    "wind_speed": 7.94,
+    "wind_deg": 53,
+    "gust": 20.49,
     "sunrise": "06:56 AM",
     "sunset": "06:00 PM",
     "dayOrNight": "night",
-    "humidity": 78,
+    "humidity": 79,
     "uv_index": 0,
     "pressure": 1031,
     "moon_phase": 0.57,
     "visibility": 10000,
-    "dew_point": 32.38
+    "dew_point": 32.34
   },
   "fiveDayWeather": [
     {
@@ -55,7 +55,7 @@ const data = {
       "description": "clear sky",
       "wind_speed": 7.78,
       "wind_deg": 88,
-      "gust": 16.98,
+      "gust": 17.27,
       "humidity": 42,
       "uv_index": 5.66,
       "pressure": 1024,
@@ -104,7 +104,7 @@ const data = {
     1030
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 12, 2025",
+    "report": "SLOW. Water stained; 57 degrees; 2.51 feet below pool. Big rains in the forecast leading into the weekend so the creeks will be running again. Before the rain bass were good shallow with fish up to 6-7 pounds caught on spinnerbaits, chatterbaits and squarebill crankbaits. Good numbers of big fish are in 8-14 feet of water, waiting for the next full moon and water temperature to increase. These fish are biting crankbaits in 8-12 feet of water with divers and Carolina rigged lizards. Deep fish are still good, but will be moving up in the next week or so. Big crankbaits, Texas rigs and dropshots are best in 18-25 feet of water. Crappie bite was good in the creeks with live bait in 5-10 feet of water, but expect the rain to slow the bite down. Report by Stephen Johnston, Johnston Fishing."
   }
 };
