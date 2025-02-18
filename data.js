@@ -1,5 +1,5 @@
 const data = {
-  "lakeLevel": "170.99ft 6:00am",
+  "lakeLevel": "171.05ft 7:00am",
   "currentWeather": {
     "temp": 45.84,
     "feels_like": 41.7,
@@ -9,7 +9,7 @@ const data = {
     "gust": 18.19,
     "sunrise": "06:52 AM",
     "sunset": "06:04 PM",
-    "dayOrNight": "night",
+    "dayOrNight": "day",
     "humidity": 78,
     "uv_index": 0,
     "pressure": 1020,
@@ -99,9 +99,9 @@ const data = {
     1020,
     1020,
     1020,
-    1020,
     1021,
-    1020
+    1020,
+    1019
   ],
   "fishingReport": {
     "date": "Feb 12, 2025",
