@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.42ft 3:30pm",
+  "lakeLevel": "171.46ft 4:30pm",
   "currentWeather": {
-    "temp": 37.81,
-    "feels_like": 29.48,
+    "temp": 36.18,
+    "feels_like": 27.39,
     "description": "overcast clouds",
-    "wind_speed": 13.69,
-    "wind_deg": 4,
-    "gust": 18.25,
+    "wind_speed": 13.67,
+    "wind_deg": 5,
+    "gust": 18.61,
     "sunrise": "06:51 AM",
     "sunset": "06:05 PM",
     "dayOrNight": "day",
-    "humidity": 70,
-    "uv_index": 0.53,
+    "humidity": 72,
+    "uv_index": 0.14,
     "pressure": 1028,
     "moon_phase": 0.72,
     "visibility": 10000,
-    "dew_point": 29.28
+    "dew_point": 28.49
   },
   "fiveDayWeather": [
     {
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1028,
     1028,
-    1028,
+    1029,
     1029,
     1030,
     1030
   ],
   "fishingReport": {
-    "date": "Feb 12, 2025",
-    "report": "SLOW. Water stained; 57 degrees; 2.51 feet below pool. Big rains in the forecast leading into the weekend so the creeks will be running again. Before the rain bass were good shallow with fish up to 6-7 pounds caught on spinnerbaits, chatterbaits and squarebill crankbaits. Good numbers of big fish are in 8-14 feet of water, waiting for the next full moon and water temperature to increase. These fish are biting crankbaits in 8-12 feet of water with divers and Carolina rigged lizards. Deep fish are still good, but will be moving up in the next week or so. Big crankbaits, Texas rigs and dropshots are best in 18-25 feet of water. Crappie bite was good in the creeks with live bait in 5-10 feet of water, but expect the rain to slow the bite down. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Feb 19, 2025",
+    "report": "SLOW. Water stained; 53 degrees; 0.61 feet below pool. Fishing is slow due to cold weather. The water is in the mid 50s and should decline more this weekend. The bite should improve next week towards the middle of the week. Before the cold front big fish up to 11 pounds were being caught. The shallow bite has been best in 1-5 feet on senkos and wacky worms. Other fish coming on Texas rig and Carolina rig lizards on 6-10 feet. Few fish coming out of the back of creeks on rattle traps and square bill crankbaits. Look for clear to stained water away from the mud. Crappie are good when the weather warms, then back to tough on the colder days. Work jigs and live bait around the flooded timber. The water temperature needs to return to the high 50s and low 60s for the bite kick-off. Report by Stephen Johnston, Johnston Fishing."
   }
 };
