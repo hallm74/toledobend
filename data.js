@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.46ft 4:30pm",
+  "lakeLevel": "171.44ft 5:30pm",
   "currentWeather": {
-    "temp": 36.18,
-    "feels_like": 27.39,
+    "temp": 33.58,
+    "feels_like": 24.75,
     "description": "overcast clouds",
-    "wind_speed": 13.67,
-    "wind_deg": 5,
-    "gust": 18.61,
+    "wind_speed": 12.08,
+    "wind_deg": 12,
+    "gust": 18.57,
     "sunrise": "06:51 AM",
     "sunset": "06:05 PM",
-    "dayOrNight": "day",
-    "humidity": 72,
-    "uv_index": 0.14,
-    "pressure": 1028,
+    "dayOrNight": "night",
+    "humidity": 75,
+    "uv_index": 0,
+    "pressure": 1030,
     "moon_phase": 0.72,
     "visibility": 10000,
-    "dew_point": 28.49
+    "dew_point": 27.16
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Cold Weather Advisory",
+      "start": "3:00:00 AM",
+      "end": "4:00:00 PM",
+      "description": "* WHAT...Very cold wind chills as low as 9 above expected.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...Until 10 AM CST Thursday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure. Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1028,
-    1028,
-    1029,
-    1029,
     1030,
-    1030
+    1030,
+    1030,
+    1030,
+    1030,
+    1031
   ],
   "fishingReport": {
     "date": "Feb 19, 2025",
