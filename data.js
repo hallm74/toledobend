@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.45ft 8:30am",
+  "lakeLevel": "171.37ft 10:00am",
   "currentWeather": {
-    "temp": 27.88,
-    "feels_like": 17.67,
+    "temp": 30.85,
+    "feels_like": 21.78,
     "description": "clear sky",
-    "wind_speed": 11.83,
-    "wind_deg": 18,
-    "gust": 17.29,
+    "wind_speed": 11.03,
+    "wind_deg": 17,
+    "gust": 14.99,
     "sunrise": "06:50 AM",
     "sunset": "06:05 PM",
     "dayOrNight": "day",
-    "humidity": 55,
-    "uv_index": 1.68,
+    "humidity": 47,
+    "uv_index": 3.27,
     "pressure": 1035,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 15.37
+    "dew_point": 14.95
   },
   "fiveDayWeather": [
     {
@@ -97,16 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Cold Weather Advisory",
-      "start": "7:58:00 AM",
-      "end": "4:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nas low as 8 above. For the second Cold Weather Advisory, very cold\nwind chills as low as 13 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 10 AM CST this\nmorning. For the second Cold Weather Advisory, from 8 PM this\nevening to 9 AM CST Friday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure. Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Cold Weather Advisory",
       "start": "2:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...For the first Cold Weather Advisory, very cold wind chills\nas low as 8 above. For the second Cold Weather Advisory, very cold\nwind chills as low as 13 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Cold Weather Advisory, until 10 AM CST this\nmorning. For the second Cold Weather Advisory, from 8 PM this\nevening to 9 AM CST Friday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure. Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "description": "* WHAT...Very cold wind chills as low as 13 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 8 PM this evening to 9 AM CST Friday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -114,9 +107,9 @@ const data = {
     1035,
     1035,
     1035,
-    1035,
+    1034,
     1033,
-    1032
+    1031
   ],
   "fishingReport": {
     "date": "Feb 19, 2025",
