@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "171.36ft 5:30pm",
   "currentWeather": {
-    "temp": 31.78,
-    "feels_like": 24.13,
+    "temp": 30.56,
+    "feels_like": 22.39,
     "description": "clear sky",
-    "wind_speed": 8.77,
-    "wind_deg": 56,
-    "gust": 18.68,
+    "wind_speed": 9.17,
+    "wind_deg": 66,
+    "gust": 17.9,
     "sunrise": "06:50 AM",
     "sunset": "06:05 PM",
     "dayOrNight": "night",
-    "humidity": 43,
+    "humidity": 46,
     "uv_index": 0,
-    "pressure": 1034,
+    "pressure": 1035,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 14.02
+    "dew_point": 14.25
   },
   "fiveDayWeather": [
     {
@@ -97,17 +97,17 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Cold Weather Advisory",
-      "start": "2:00:00 AM",
+      "start": "3:06:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...Very cold wind chills as low as 13 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 8 PM this evening to 9 AM CST Friday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "description": "* WHAT...Very cold wind chills ranging from 12 to 18.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 9 AM CST Friday.\n\n* IMPACTS...Wind chill values can lead to hypothermia with prolonged\nexposure. Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1034,
-    1034,
-    1034,
     1035,
+    1035,
+    1035,
+    1034,
     1034,
     1034
   ],
