@@ -3,7 +3,7 @@ const data = {
   "currentWeather": {
     "temp": 40.42,
     "feels_like": 38.62,
-    "description": "light rain",
+    "description": "heavy intensity rain",
     "wind_speed": 3.2,
     "wind_deg": 98,
     "gust": 8.86,
@@ -99,9 +99,9 @@ const data = {
     1028,
     1028,
     1028,
-    1028,
     1027,
-    1026
+    1026,
+    1024
   ],
   "fishingReport": {
     "date": "Feb 19, 2025",
