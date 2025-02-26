@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.55ft 3:30pm",
+  "lakeLevel": "171.56ft 4:30pm",
   "currentWeather": {
-    "temp": 72.19,
-    "feels_like": 71.74,
+    "temp": 69.69,
+    "feels_like": 69.31,
     "description": "clear sky",
-    "wind_speed": 8.21,
-    "wind_deg": 183,
-    "gust": 12.68,
+    "wind_speed": 7.7,
+    "wind_deg": 177,
+    "gust": 15.03,
     "sunrise": "06:44 AM",
     "sunset": "06:10 PM",
     "dayOrNight": "day",
-    "humidity": 56,
-    "uv_index": 1.25,
+    "humidity": 63,
+    "uv_index": 0.32,
     "pressure": 1012,
     "moon_phase": 0.95,
     "visibility": 10000,
-    "dew_point": 55.65
+    "dew_point": 56.55
   },
   "fiveDayWeather": [
     {
@@ -53,8 +53,8 @@ const data = {
       "high": 72.79,
       "low": 54.63,
       "description": "clear sky",
-      "wind_speed": 5.99,
-      "wind_deg": 69,
+      "wind_speed": 6.64,
+      "wind_deg": 31,
       "gust": 18.84,
       "humidity": 53,
       "uv_index": 5.51,
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1012,
     1012,
-    1012,
     1013,
     1014,
+    1015,
     1016
   ],
   "fishingReport": {
-    "date": "Feb 19, 2025",
-    "report": "SLOW. Water stained; 53 degrees; 0.61 feet below pool. Fishing is slow due to cold weather. The water is in the mid 50s and should decline more this weekend. The bite should improve next week towards the middle of the week. Before the cold front big fish up to 11 pounds were being caught. The shallow bite has been best in 1-5 feet on senkos and wacky worms. Other fish coming on Texas rig and Carolina rig lizards on 6-10 feet. Few fish coming out of the back of creeks on rattle traps and square bill crankbaits. Look for clear to stained water away from the mud. Crappie are good when the weather warms, then back to tough on the colder days. Work jigs and live bait around the flooded timber. The water temperature needs to return to the high 50s and low 60s for the bite kick-off. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Feb 26, 2025",
+    "report": "SLOW. Water stained; 50 degrees; 0.41 feet below pool. Water level is on the rise after the recent rains with water temperatures in the upper 40s to low 50s. Most creeks are running muddy water, so it should take a week to clear. A few bass can be caught with spinnerbaits and chatterbaits around the flooded bushes and grass. Deeper bass, 8-12 feet of water, are hitting Carolina rigs and football jigs. With the rising water level expect these deep fish to move shallow. Crappie will be slow until the water clears back up. When the water clears live minnows and jigs will boat fish. Report by Stephen Johnston, Johnston Fishing."
   }
 };
