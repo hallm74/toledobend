@@ -1,38 +1,23 @@
 const data = {
-  "lakeLevel": "171.67ft 5:30pm",
+  "lakeLevel": "171.64ft 12:00am",
   "currentWeather": {
-    "temp": 53.71,
-    "feels_like": 52.07,
-    "description": "overcast clouds",
-    "wind_speed": 3.69,
-    "wind_deg": 16,
-    "gust": 3.91,
-    "sunrise": "06:43 AM",
+    "temp": 52.39,
+    "feels_like": 50.72,
+    "description": "broken clouds",
+    "wind_speed": 4.09,
+    "wind_deg": 28,
+    "gust": 4.47,
+    "sunrise": "06:42 AM",
     "sunset": "06:11 PM",
     "dayOrNight": "night",
-    "humidity": 70,
+    "humidity": 72,
     "uv_index": 0,
     "pressure": 1022,
-    "moon_phase": "Unavailable",
+    "moon_phase": 0.03,
     "visibility": 10000,
-    "dew_point": 44.17
+    "dew_point": 43.65
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 69.93,
-      "low": 48.58,
-      "description": "few clouds",
-      "wind_speed": 5.44,
-      "wind_deg": 208,
-      "gust": 16.02,
-      "humidity": 41,
-      "uv_index": 6.18,
-      "pressure": 1020,
-      "moon_phase": 0.03,
-      "dew_point": 42.93,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 72.72,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.1,
       "dew_point": 45.9,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.18,
       "dew_point": 65.61,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 60.73,
+      "low": 51.19,
+      "description": "clear sky",
+      "wind_speed": 17.81,
+      "wind_deg": 309,
+      "gust": 35.7,
+      "humidity": 51,
+      "uv_index": 6,
+      "pressure": 1015,
+      "moon_phase": 0.22,
+      "dew_point": 42.19,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,9 +99,9 @@ const data = {
     1022,
     1022,
     1022,
-    1022,
     1021,
-    1021
+    1021,
+    1022
   ],
   "fishingReport": {
     "date": "Feb 26, 2025",
