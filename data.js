@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.58ft 2:30pm",
+  "lakeLevel": "171.58ft 3:30pm",
   "currentWeather": {
-    "temp": 73.99,
-    "feels_like": 72.93,
+    "temp": 73.11,
+    "feels_like": 72.1,
     "description": "clear sky",
-    "wind_speed": 4.32,
-    "wind_deg": 18,
-    "gust": 5.68,
+    "wind_speed": 6.29,
+    "wind_deg": 30,
+    "gust": 6.98,
     "sunrise": "06:40 AM",
     "sunset": "06:12 PM",
     "dayOrNight": "day",
-    "humidity": 39,
-    "uv_index": 2.56,
+    "humidity": 42,
+    "uv_index": 1.15,
     "pressure": 1016,
     "moon_phase": 0.07,
     "visibility": 10000,
-    "dew_point": 47.5
+    "dew_point": 48.69
   },
   "fiveDayWeather": [
     {
@@ -100,11 +100,11 @@ const data = {
     1016,
     1016,
     1017,
-    1017,
-    1018
+    1018,
+    1019
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 26, 2025",
+    "report": "SLOW. Water stained; 50 degrees; 0.41 feet below pool. Water level is on the rise after the recent rains with water temperatures in the upper 40s to low 50s. Most creeks are running muddy water, so it should take a week to clear. A few bass can be caught with spinnerbaits and chatterbaits around the flooded bushes and grass. Deeper bass, 8-12 feet of water, are hitting Carolina rigs and football jigs. With the rising water level expect these deep fish to move shallow. Crappie will be slow until the water clears back up. When the water clears live minnows and jigs will boat fish. Report by Stephen Johnston, Johnston Fishing."
   }
 };
