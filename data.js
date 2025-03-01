@@ -1,38 +1,23 @@
 const data = {
-  "lakeLevel": "171.60ft 5:30pm",
+  "lakeLevel": "171.61ft 12:00am",
   "currentWeather": {
-    "temp": 55.69,
-    "feels_like": 54.72,
+    "temp": 55.09,
+    "feels_like": 54.1,
     "description": "clear sky",
-    "wind_speed": 4.43,
-    "wind_deg": 229,
-    "gust": 7.54,
-    "sunrise": "06:42 AM",
-    "sunset": "06:11 PM",
+    "wind_speed": 3.91,
+    "wind_deg": 260,
+    "gust": 5.08,
+    "sunrise": "06:40 AM",
+    "sunset": "06:12 PM",
     "dayOrNight": "night",
-    "humidity": 80,
+    "humidity": 81,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.03,
+    "moon_phase": 0.07,
     "visibility": 10000,
-    "dew_point": 49.62
+    "dew_point": 49.37
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 73.15,
-      "low": 53.01,
-      "description": "clear sky",
-      "wind_speed": 7.56,
-      "wind_deg": 90,
-      "gust": 23.58,
-      "humidity": 43,
-      "uv_index": 5.68,
-      "pressure": 1018,
-      "moon_phase": 0.07,
-      "dew_point": 46.8,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 66.96,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0.14,
       "dew_point": 60.94,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.22,
       "dew_point": 40.87,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 68.94,
+      "low": 48.36,
+      "description": "broken clouds",
+      "wind_speed": 7.65,
+      "wind_deg": 118,
+      "gust": 22.93,
+      "humidity": 30,
+      "uv_index": 5,
+      "pressure": 1018,
+      "moon_phase": 0.25,
+      "dew_point": 33.46,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -100,8 +100,8 @@ const data = {
     1017,
     1017,
     1016,
-    1016,
-    1015
+    1015,
+    1016
   ],
   "fishingReport": {
     "date": "Feb 26, 2025",
