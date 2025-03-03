@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.40ft 1:30pm",
+  "lakeLevel": "171.41ft 2:30pm",
   "currentWeather": {
-    "temp": 60.44,
-    "feels_like": 59.61,
+    "temp": 63.66,
+    "feels_like": 63.21,
     "description": "overcast clouds",
-    "wind_speed": 10.13,
-    "wind_deg": 135,
-    "gust": 22.86,
+    "wind_speed": 11.05,
+    "wind_deg": 138,
+    "gust": 25.12,
     "sunrise": "06:38 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "day",
-    "humidity": 73,
-    "uv_index": 0.95,
-    "pressure": 1015,
+    "humidity": 74,
+    "uv_index": 1.25,
+    "pressure": 1014,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 51.76
+    "dew_point": 55.24
   },
   "fiveDayWeather": [
     {
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Wind Advisory",
-      "start": "12:00:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...Southwest winds 15 to 20 mph with gusts up to 35 mph\nexpected.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...From 6 AM to 6 PM CST Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "High Wind Warning",
       "start": "12:00:00 PM",
       "end": "12:00:00 AM",
@@ -111,12 +104,12 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1015,
-    1015,
+    1014,
     1014,
     1014,
     1013,
-    1012
+    1012,
+    1013
   ],
   "fishingReport": {
     "date": "Feb 26, 2025",
