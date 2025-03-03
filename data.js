@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.42ft 1:00am",
+  "lakeLevel": "171.41ft 1:30am",
   "currentWeather": {
-    "temp": 52.79,
-    "feels_like": 51.3,
-    "description": "scattered clouds",
-    "wind_speed": 10.56,
-    "wind_deg": 148,
-    "gust": 30.6,
+    "temp": 54.84,
+    "feels_like": 53.22,
+    "description": "broken clouds",
+    "wind_speed": 11.3,
+    "wind_deg": 146,
+    "gust": 31.56,
     "sunrise": "06:38 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "night",
-    "humidity": 75,
+    "humidity": 68,
     "uv_index": 0,
-    "pressure": 1017,
+    "pressure": 1016,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 45.1
+    "dew_point": 44.49
   },
   "fiveDayWeather": [
     {
@@ -99,16 +99,16 @@ const data = {
       "event": "Wind Advisory",
       "start": "12:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...Southwest winds 15 to 25 mph with gusts up to 35 mph\nexpected.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...From 6 AM to 6 PM CST Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...Southwest winds 15 to 20 mph with gusts up to 35 mph\nexpected.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...From 6 AM to 6 PM CST Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1017,
-    1017,
-    1017,
+    1016,
+    1016,
     1016,
     1017,
+    1018,
     1018
   ],
   "fishingReport": {
