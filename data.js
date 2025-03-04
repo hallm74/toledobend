@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.11ft 8:30am",
+  "lakeLevel": "170.98ft 10:00am",
   "currentWeather": {
-    "temp": 67.89,
-    "feels_like": 68.7,
-    "description": "light rain",
-    "wind_speed": 21.18,
-    "wind_deg": 178,
-    "gust": 47.74,
+    "temp": 68.49,
+    "feels_like": 69.31,
+    "description": "moderate rain",
+    "wind_speed": 22.64,
+    "wind_deg": 182,
+    "gust": 50.8,
     "sunrise": "06:37 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "day",
-    "humidity": 92,
-    "uv_index": 0.29,
-    "pressure": 1001,
+    "humidity": 91,
+    "uv_index": 0.46,
+    "pressure": 1000,
     "moon_phase": 0.18,
-    "visibility": 8321,
-    "dew_point": 65.48
+    "visibility": 9649,
+    "dew_point": 65.75
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.22,
       "dew_point": 32.38,
-      "visibility": 9716
+      "visibility": 9786
     },
     {
       "date": "Thursday",
@@ -103,18 +103,25 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
+      "event": "Severe Thunderstorm Warning",
+      "start": "3:59:00 PM",
+      "end": "4:45:00 PM",
+      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nTyler County in southeastern Texas...\nNorthwestern Newton County in southeastern Texas...\nNorthern Hardin County in southeastern Texas...\nJasper County in southeastern Texas...\n\n* Until 1045 AM CST.\n\n* At 958 AM CST, severe thunderstorms were located along a line\nextending from near Ebenezer to near Wildwood, moving northeast at\n70 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nBleakwood, Ivanhoe, Rockland, Mayflower, Kirbyville, Spurger,\nWarren, Town Bluff, Colmesneil, Harrisburg, Browndell, Village\nMills, Stringtown, Caney Head, Toledo Bend Dam, Sam Rayburn Dam,\nEbenezer, Farrsville, Woodville, and Fred.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
       "event": "Tornado Watch",
-      "start": "2:15:00 PM",
+      "start": "4:05:00 PM",
       "end": "9:00:00 PM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 20 IN\nEFFECT UNTIL 3 PM CST THIS AFTERNOON FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 5 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE, FIELDS,\nFORT JOHNSON, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KINDER, KIRBYVILLE, LEESVILLE,\nMAGNOLIA SPRINGS, MAMOU, MT. UNION, NEWTON, OAKDALE, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SLAGLE, SPURGER, ST. LANDRY,\nTOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE, AND WOODVILLE.",
+      "description": "TORNADO WATCH 20 REMAINS VALID UNTIL 3 PM CST THIS AFTERNOON FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 5 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE, FIELDS,\nFORT JOHNSON, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KINDER, KIRBYVILLE, LEESVILLE,\nMAGNOLIA SPRINGS, MAMOU, MT. UNION, NEWTON, OAKDALE, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SLAGLE, SPURGER, ST. LANDRY,\nTOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE, AND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1001,
-    1001,
-    1001,
-    1001,
+    1000,
+    1000,
+    1000,
+    1000,
     1000,
     1000
   ],
