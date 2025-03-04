@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.95ft 10:30am",
+  "lakeLevel": "171.34ft 12:00pm",
   "currentWeather": {
-    "temp": 68.94,
-    "feels_like": 69.76,
-    "description": "moderate rain",
-    "wind_speed": 22.15,
-    "wind_deg": 196,
-    "gust": 48.7,
+    "temp": 67.46,
+    "feels_like": 68.04,
+    "description": "overcast clouds",
+    "wind_speed": 18.25,
+    "wind_deg": 219,
+    "gust": 33.69,
     "sunrise": "06:37 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "day",
-    "humidity": 90,
-    "uv_index": 0.28,
+    "humidity": 88,
+    "uv_index": 0.15,
     "pressure": 1001,
     "moon_phase": 0.18,
-    "visibility": 5213,
-    "dew_point": 65.88
+    "visibility": 10000,
+    "dew_point": 63.79
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.22,
       "dew_point": 32.38,
-      "visibility": 9801
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -104,16 +104,9 @@ const data = {
     },
     {
       "event": "Tornado Watch",
-      "start": "4:05:00 PM",
+      "start": "5:24:00 PM",
       "end": "9:00:00 PM",
-      "description": "TORNADO WATCH 20 REMAINS VALID UNTIL 3 PM CST THIS AFTERNOON FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 5 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE, FIELDS,\nFORT JOHNSON, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KINDER, KIRBYVILLE, LEESVILLE,\nMAGNOLIA SPRINGS, MAMOU, MT. UNION, NEWTON, OAKDALE, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SLAGLE, SPURGER, ST. LANDRY,\nTOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Severe Thunderstorm Warning",
-      "start": "4:43:00 PM",
-      "end": "5:30:00 PM",
-      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Beauregard Parish in southwestern Louisiana...\nVernon Parish in west central Louisiana...\nNorthern Newton County in southeastern Texas...\nNortheastern Jasper County in southeastern Texas...\n\n* Until 1130 AM CST.\n\n* At 1042 AM CST, severe thunderstorms were located along a line\nextending from near Toledo Bend Dam to near Kirbyville, moving\nnortheast at 80 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nLeesville, Hutton, De Ridder, Mayflower, New Llano, Kurthwood,\nPickering, Slagle, Junction, Stringtown, Simpson, Toledo Bend Dam,\nHornbeck, Anacoco, Lacamp, Farrsville, Burr Ferry, Rosepine,\nWiergate, and Fort Johnson.",
+      "description": "TORNADO WATCH 20 REMAINS VALID UNTIL 3 PM CST THIS AFTERNOON FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 10 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nACADIA                ALLEN                 BEAUREGARD\nCALCASIEU             CAMERON               JEFFERSON DAVIS\nVERMILION\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                JEFFERSON             NEWTON\nORANGE\n\nTHIS INCLUDES THE CITIES OF ABBEVILLE, ALEXANDRIA, BEAUMONT,\nBEAVER, BLEAKWOOD, BRANCH, BRIDGE CITY, BUNA, BUNDICK LAKE,\nBURKEVILLE, CALL, CHURCH POINT, CROWLEY, DE RIDDER, FARRSVILLE,\nFIELDS, FORKED ISLAND, FORT JOHNSON, GIST, HACKBERRY, HATHAWAY,\nHOLLY SPRINGS, INTRACOASTAL CITY, JAMESTOWN, JASPER, JENNINGS,\nJOHNSON BAYOU, KAPLAN, KINDER, KIRBYVILLE, LAKE ARTHUR,\nLAKE CHARLES, LEESVILLE, MAGNOLIA SPRINGS, MAMOU, MEAUX,\nMT. UNION, NEWTON, OAKDALE, ORANGE, ORETTA, PICKERING, PINEVILLE,\nRAYNE, REDDELL, RICHARD, ROANOKE, SABINE PASS,\nSEA RIM STATE PARK, SLAGLE, ST. LANDRY, SULPHUR, TOPSY, VIDOR,\nVILLE PLATTE, WELSH, AND WIERGATE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -122,7 +115,7 @@ const data = {
     1001,
     1001,
     1000,
-    1000,
+    1001,
     1001
   ],
   "fishingReport": {
