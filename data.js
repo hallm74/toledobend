@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.49ft 2:30pm",
+  "lakeLevel": "171.43ft 3:30pm",
   "currentWeather": {
-    "temp": 65.89,
-    "feels_like": 64.58,
+    "temp": 66.54,
+    "feels_like": 64.92,
     "description": "broken clouds",
-    "wind_speed": 13.65,
-    "wind_deg": 248,
-    "gust": 34.38,
+    "wind_speed": 14.52,
+    "wind_deg": 240,
+    "gust": 39.95,
     "sunrise": "06:37 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "day",
-    "humidity": 51,
-    "uv_index": 2.73,
+    "humidity": 43,
+    "uv_index": 0.92,
     "pressure": 1000,
     "moon_phase": 0.18,
     "visibility": 10000,
-    "dew_point": 47.28
+    "dew_point": 43.38
   },
   "fiveDayWeather": [
     {
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "High Wind Warning",
-      "start": "9:00:00 AM",
+      "start": "8:56:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...Southwest winds 20 to 30 mph with gusts greater than 40 mph\nexpected, and gusts up to 50 mph possible.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...Until 6 PM CST this evening.\n\n* IMPACTS...Damaging winds will blow down trees and power lines.\nWidespread power outages are expected. Travel will be difficult,\nespecially for high profile vehicles.",
+      "description": "* WHAT...Southwest winds 15 to 20 mph with gusts up to 35 mph.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...Until 6 PM CST this evening.\n\n* IMPACTS...Damaging winds will blow down trees and power lines.\nWidespread power outages are expected. Travel will be difficult,\nespecially for high profile vehicles.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -107,9 +107,9 @@ const data = {
     1000,
     1000,
     1000,
-    1000,
     1001,
-    1002
+    1002,
+    1004
   ],
   "fishingReport": {
     "date": "Feb 26, 2025",
