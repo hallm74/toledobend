@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.24ft 2:00am",
+  "lakeLevel": "171.21ft 2:30am",
   "currentWeather": {
-    "temp": 60.98,
-    "feels_like": 60.96,
+    "temp": 61.21,
+    "feels_like": 61.27,
     "description": "overcast clouds",
-    "wind_speed": 14.65,
-    "wind_deg": 141,
-    "gust": 36.91,
+    "wind_speed": 13.22,
+    "wind_deg": 146,
+    "gust": 35.88,
     "sunrise": "06:37 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "night",
-    "humidity": 89,
+    "humidity": 90,
     "uv_index": 0,
-    "pressure": 1008,
+    "pressure": 1007,
     "moon_phase": 0.18,
     "visibility": 10000,
-    "dew_point": 57.72
+    "dew_point": 58.26
   },
   "fiveDayWeather": [
     {
@@ -97,18 +97,18 @@ const data = {
   "weatherAlerts": [
     {
       "event": "High Wind Warning",
-      "start": "12:00:00 PM",
+      "start": "9:00:00 AM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...Southwest winds 15 to 25 mph with gusts up to 40 mph\nexpected.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...From 6 AM to 6 PM CST Tuesday.\n\n* IMPACTS...Damaging winds will blow down trees and power lines.\nWidespread power outages are expected. Travel will be difficult,\nespecially for high profile vehicles.",
+      "description": "* WHAT...Southwest winds 20 to 30 mph with gusts greater than 40 mph\nexpected, and gusts up to 50 mph possible.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...Until 6 PM CST this evening.\n\n* IMPACTS...Damaging winds will blow down trees and power lines.\nWidespread power outages are expected. Travel will be difficult,\nespecially for high profile vehicles.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1008,
-    1008,
-    1008,
+    1007,
+    1007,
     1007,
     1006,
+    1004,
     1003
   ],
   "fishingReport": {
