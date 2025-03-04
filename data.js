@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.26ft 7:30am",
+  "lakeLevel": "171.11ft 8:30am",
   "currentWeather": {
-    "temp": 66.76,
-    "feels_like": 67.55,
-    "description": "overcast clouds",
-    "wind_speed": 17.43,
-    "wind_deg": 170,
-    "gust": 42.28,
+    "temp": 67.89,
+    "feels_like": 68.7,
+    "description": "light rain",
+    "wind_speed": 21.18,
+    "wind_deg": 178,
+    "gust": 47.74,
     "sunrise": "06:37 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "day",
-    "humidity": 94,
-    "uv_index": 0.09,
-    "pressure": 1003,
+    "humidity": 92,
+    "uv_index": 0.29,
+    "pressure": 1001,
     "moon_phase": 0.18,
-    "visibility": 10000,
-    "dew_point": 64.98
+    "visibility": 8321,
+    "dew_point": 65.48
   },
   "fiveDayWeather": [
     {
@@ -101,14 +101,21 @@ const data = {
       "end": "12:00:00 AM",
       "description": "* WHAT...Southwest winds 20 to 30 mph with gusts greater than 40 mph\nexpected, and gusts up to 50 mph possible.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...Until 6 PM CST this evening.\n\n* IMPACTS...Damaging winds will blow down trees and power lines.\nWidespread power outages are expected. Travel will be difficult,\nespecially for high profile vehicles.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Tornado Watch",
+      "start": "2:15:00 PM",
+      "end": "9:00:00 PM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 20 IN\nEFFECT UNTIL 3 PM CST THIS AFTERNOON FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 5 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE, FIELDS,\nFORT JOHNSON, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KINDER, KIRBYVILLE, LEESVILLE,\nMAGNOLIA SPRINGS, MAMOU, MT. UNION, NEWTON, OAKDALE, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SLAGLE, SPURGER, ST. LANDRY,\nTOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE, AND WOODVILLE.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1003,
-    1003,
-    1002,
-    1002,
     1001,
+    1001,
+    1001,
+    1001,
+    1000,
     1000
   ],
   "fishingReport": {
