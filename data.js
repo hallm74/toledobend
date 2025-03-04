@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.98ft 10:00am",
+  "lakeLevel": "170.95ft 10:30am",
   "currentWeather": {
-    "temp": 68.49,
-    "feels_like": 69.31,
+    "temp": 68.94,
+    "feels_like": 69.76,
     "description": "moderate rain",
-    "wind_speed": 22.64,
-    "wind_deg": 182,
-    "gust": 50.8,
+    "wind_speed": 22.15,
+    "wind_deg": 196,
+    "gust": 48.7,
     "sunrise": "06:37 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "day",
-    "humidity": 91,
-    "uv_index": 0.46,
-    "pressure": 1000,
+    "humidity": 90,
+    "uv_index": 0.28,
+    "pressure": 1001,
     "moon_phase": 0.18,
-    "visibility": 9649,
-    "dew_point": 65.75
+    "visibility": 5213,
+    "dew_point": 65.88
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.22,
       "dew_point": 32.38,
-      "visibility": 9786
+      "visibility": 9801
     },
     {
       "date": "Thursday",
@@ -53,8 +53,8 @@ const data = {
       "high": 78.57,
       "low": 48.31,
       "description": "overcast clouds",
-      "wind_speed": 11.52,
-      "wind_deg": 224,
+      "wind_speed": 12.71,
+      "wind_deg": 212,
       "gust": 32.77,
       "humidity": 55,
       "uv_index": 6.22,
@@ -103,27 +103,27 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Severe Thunderstorm Warning",
-      "start": "3:59:00 PM",
-      "end": "4:45:00 PM",
-      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nTyler County in southeastern Texas...\nNorthwestern Newton County in southeastern Texas...\nNorthern Hardin County in southeastern Texas...\nJasper County in southeastern Texas...\n\n* Until 1045 AM CST.\n\n* At 958 AM CST, severe thunderstorms were located along a line\nextending from near Ebenezer to near Wildwood, moving northeast at\n70 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nBleakwood, Ivanhoe, Rockland, Mayflower, Kirbyville, Spurger,\nWarren, Town Bluff, Colmesneil, Harrisburg, Browndell, Village\nMills, Stringtown, Caney Head, Toledo Bend Dam, Sam Rayburn Dam,\nEbenezer, Farrsville, Woodville, and Fred.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Tornado Watch",
       "start": "4:05:00 PM",
       "end": "9:00:00 PM",
       "description": "TORNADO WATCH 20 REMAINS VALID UNTIL 3 PM CST THIS AFTERNOON FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 5 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE, FIELDS,\nFORT JOHNSON, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KINDER, KIRBYVILLE, LEESVILLE,\nMAGNOLIA SPRINGS, MAMOU, MT. UNION, NEWTON, OAKDALE, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SLAGLE, SPURGER, ST. LANDRY,\nTOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE, AND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Severe Thunderstorm Warning",
+      "start": "4:43:00 PM",
+      "end": "5:30:00 PM",
+      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Beauregard Parish in southwestern Louisiana...\nVernon Parish in west central Louisiana...\nNorthern Newton County in southeastern Texas...\nNortheastern Jasper County in southeastern Texas...\n\n* Until 1130 AM CST.\n\n* At 1042 AM CST, severe thunderstorms were located along a line\nextending from near Toledo Bend Dam to near Kirbyville, moving\nnortheast at 80 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nLeesville, Hutton, De Ridder, Mayflower, New Llano, Kurthwood,\nPickering, Slagle, Junction, Stringtown, Simpson, Toledo Bend Dam,\nHornbeck, Anacoco, Lacamp, Farrsville, Burr Ferry, Rosepine,\nWiergate, and Fort Johnson.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
+    1001,
+    1001,
+    1001,
     1000,
     1000,
-    1000,
-    1000,
-    1000,
-    1000
+    1001
   ],
   "fishingReport": {
     "date": "Feb 26, 2025",
