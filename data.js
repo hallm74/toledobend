@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "171.35ft 5:30pm",
   "currentWeather": {
-    "temp": 63.16,
-    "feels_like": 61.05,
+    "temp": 59.85,
+    "feels_like": 58.03,
     "description": "clear sky",
-    "wind_speed": 16.73,
-    "wind_deg": 232,
-    "gust": 38.45,
+    "wind_speed": 18.41,
+    "wind_deg": 265,
+    "gust": 35.9,
     "sunrise": "06:37 AM",
     "sunset": "06:14 PM",
     "dayOrNight": "night",
-    "humidity": 40,
+    "humidity": 53,
     "uv_index": 0,
-    "pressure": 1001,
+    "pressure": 1004,
     "moon_phase": 0.18,
     "visibility": 10000,
-    "dew_point": 38.48
+    "dew_point": 42.69
   },
   "fiveDayWeather": [
     {
@@ -94,13 +94,21 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "2:40:00 AM",
+      "end": "12:00:00 PM",
+      "description": "A secondary cold front, accompanied by gusty west and northwest\nwinds, is entering southeast Texas this evening and will continue\npushing eastward across southwest and central Louisiana through\nthe late evening and early overnight hours. Occasional gusts to 30\nmph can be expected behind this passing boundary.\n\nMeanwhile, satellite imagery and surface observations indicate an\narea of blowing dust also moving eastward into the region...and\nvisibilities down to 4 or 5 miles can be expected. However, the\ncombination of the dust and the wind could somewhat impact travel\ntonight, while also worsening air quality.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1001,
-    1001,
-    1002,
-    1003,
+    1004,
+    1004,
+    1004,
     1005,
+    1006,
     1007
   ],
   "fishingReport": {
