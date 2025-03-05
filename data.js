@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.60ft 3:30pm",
+  "lakeLevel": "171.62ft 4:30pm",
   "currentWeather": {
-    "temp": 57.97,
-    "feels_like": 55.2,
+    "temp": 56.01,
+    "feels_like": 53.24,
     "description": "clear sky",
-    "wind_speed": 14.58,
+    "wind_speed": 13.11,
     "wind_deg": 310,
-    "gust": 29.66,
+    "gust": 30.24,
     "sunrise": "06:36 AM",
     "sunset": "06:15 PM",
     "dayOrNight": "day",
-    "humidity": 37,
-    "uv_index": 1.44,
-    "pressure": 1016,
+    "humidity": 41,
+    "uv_index": 0.4,
+    "pressure": 1017,
     "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 31.89
+    "dew_point": 32.67
   },
   "fiveDayWeather": [
     {
@@ -50,7 +50,7 @@ const data = {
     },
     {
       "date": "Saturday",
-      "high": 76.26,
+      "high": 77.34,
       "low": 59.34,
       "description": "moderate rain",
       "wind_speed": 15.82,
@@ -104,15 +104,15 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
+    1017,
+    1017,
     1017,
     1018,
+    1019,
     1020
   ],
   "fishingReport": {
-    "date": "Feb 26, 2025",
-    "report": "SLOW. Water stained; 50 degrees; 0.41 feet below pool. Water level is on the rise after the recent rains with water temperatures in the upper 40s to low 50s. Most creeks are running muddy water, so it should take a week to clear. A few bass can be caught with spinnerbaits and chatterbaits around the flooded bushes and grass. Deeper bass, 8-12 feet of water, are hitting Carolina rigs and football jigs. With the rising water level expect these deep fish to move shallow. Crappie will be slow until the water clears back up. When the water clears live minnows and jigs will boat fish. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Mar 5, 2025",
+    "report": "SLOW. Water stained; 58 degrees; 0.79 feet below pool. Water temperatures are staying in mid to high 50s. Bass are fair in 1-5 feet of water with wacky worms, senkos and Texas rigged lizards. On windy days spinnerbaits and chatterbaits are best. Some bass can be caught on main and secondary points with shallow crankbaits and Carolina rigs. Deeper fish have been hard to find this past week due to high winds, but there are still some in 15-20 feet. Crappie improved to good until this last blast of cold air slowed the bite. Expect the bite to pick back up at the end of next week. Best depths will be in 4-8 feet in backs of creeks with clear water with roadrunners and tube jigs. Report by Stephen Johnston, Johnston Fishing."
   }
 };
