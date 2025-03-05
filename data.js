@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.54ft 12:30am",
+  "lakeLevel": "171.53ft 2:00am",
   "currentWeather": {
-    "temp": 53.53,
-    "feels_like": 51.31,
+    "temp": 52.38,
+    "feels_like": 50.13,
     "description": "clear sky",
-    "wind_speed": 15.77,
-    "wind_deg": 288,
-    "gust": 43.08,
+    "wind_speed": 15.5,
+    "wind_deg": 289,
+    "gust": 39.5,
     "sunrise": "06:36 AM",
     "sunset": "06:15 PM",
     "dayOrNight": "night",
-    "humidity": 58,
+    "humidity": 60,
     "uv_index": 0,
-    "pressure": 1008,
+    "pressure": 1009,
     "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 39.13
+    "dew_point": 38.91
   },
   "fiveDayWeather": [
     {
@@ -101,15 +101,22 @@ const data = {
       "end": "12:00:00 PM",
       "description": "A secondary cold front, accompanied by gusty west and northwest\nwinds, is entering southeast Texas this evening and will continue\npushing eastward across southwest and central Louisiana through\nthe late evening and early overnight hours. Occasional gusts to 30\nmph can be expected behind this passing boundary.\n\nMeanwhile, satellite imagery and surface observations indicate an\narea of blowing dust also moving eastward into the region...and\nvisibilities down to 4 or 5 miles can be expected. However, the\ncombination of the dust and the wind could somewhat impact travel\ntonight, while also worsening air quality.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Wind Advisory",
+      "start": "8:02:00 AM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...Northwest winds 10 to 20 mph with frequent gusts up to 30\nmph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 6 PM CST this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1008,
-    1008,
+    1009,
     1009,
     1009,
     1011,
-    1013
+    1012,
+    1014
   ],
   "fishingReport": {
     "date": "Feb 26, 2025",
