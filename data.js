@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.38ft 5:30pm",
   "currentWeather": {
-    "temp": 49.1,
-    "feels_like": 46.29,
+    "temp": 47.84,
+    "feels_like": 44.64,
     "description": "overcast clouds",
-    "wind_speed": 6.62,
-    "wind_deg": 180,
-    "gust": 21.54,
-    "sunrise": "06:35 AM",
+    "wind_speed": 6.91,
+    "wind_deg": 175,
+    "gust": 22.39,
+    "sunrise": "06:33 AM",
     "sunset": "06:16 PM",
     "dayOrNight": "night",
-    "humidity": 71,
+    "humidity": 74,
     "uv_index": 0,
-    "pressure": 1017,
-    "moon_phase": 0.25,
+    "pressure": 1016,
+    "moon_phase": 0.29,
     "visibility": 10000,
-    "dew_point": 40.12
+    "dew_point": 39.97
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 76.73,
-      "low": 48.2,
-      "description": "overcast clouds",
-      "wind_speed": 12.55,
-      "wind_deg": 204,
-      "gust": 29.12,
-      "humidity": 57,
-      "uv_index": 7.23,
-      "pressure": 1012,
-      "moon_phase": 0.29,
-      "dew_point": 57.4,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 75.6,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1009,
       "moon_phase": 0.32,
       "dew_point": 66.76,
-      "visibility": 9868
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.35,
       "dew_point": 40.6,
-      "visibility": "Unavailable"
+      "visibility": 9868
     },
     {
       "date": "Monday",
@@ -92,15 +77,30 @@ const data = {
       "moon_phase": 0.42,
       "dew_point": 43.47,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 72.18,
+      "low": 55.13,
+      "description": "light rain",
+      "wind_speed": 14.03,
+      "wind_deg": 189,
+      "gust": 31.38,
+      "humidity": 64,
+      "uv_index": 8,
+      "pressure": 1011,
+      "moon_phase": 0.45,
+      "dew_point": 59.38,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1017,
-    1017,
+    1016,
     1016,
     1015,
     1015,
+    1014,
     1014
   ],
   "fishingReport": {
