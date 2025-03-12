@@ -31,7 +31,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.45,
       "dew_point": 56.62,
-      "visibility": 10000
+      "visibility": 9908
     },
     {
       "date": "Thursday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1010,
       "moon_phase": 0.48,
       "dew_point": 53.38,
-      "visibility": 9908
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -99,7 +99,7 @@ const data = {
     1015,
     1015,
     1015,
-    1015,
+    1014,
     1014,
     1014
   ],
