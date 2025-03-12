@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.17ft 3:30pm",
+  "lakeLevel": "171.14ft 4:30pm",
   "currentWeather": {
-    "temp": 78.06,
-    "feels_like": 77.86,
+    "temp": 77.14,
+    "feels_like": 77.09,
     "description": "clear sky",
-    "wind_speed": 12.46,
-    "wind_deg": 193,
-    "gust": 18.72,
+    "wind_speed": 11.79,
+    "wind_deg": 187,
+    "gust": 19.73,
     "sunrise": "07:27 AM",
     "sunset": "07:20 PM",
     "dayOrNight": "day",
-    "humidity": 49,
-    "uv_index": 3.53,
-    "pressure": 1009,
+    "humidity": 54,
+    "uv_index": 1.58,
+    "pressure": 1008,
     "moon_phase": 0.45,
     "visibility": 10000,
-    "dew_point": 57.36
+    "dew_point": 59.23
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1009,
-    1009,
-    1009,
-    1009,
     1008,
-    1010
+    1008,
+    1008,
+    1008,
+    1010,
+    1012
   ],
   "fishingReport": {
-    "date": "Mar 5, 2025",
-    "report": "SLOW. Water stained; 58 degrees; 0.79 feet below pool. Water temperatures are staying in mid to high 50s. Bass are fair in 1-5 feet of water with wacky worms, senkos and Texas rigged lizards. On windy days spinnerbaits and chatterbaits are best. Some bass can be caught on main and secondary points with shallow crankbaits and Carolina rigs. Deeper fish have been hard to find this past week due to high winds, but there are still some in 15-20 feet. Crappie improved to good until this last blast of cold air slowed the bite. Expect the bite to pick back up at the end of next week. Best depths will be in 4-8 feet in backs of creeks with clear water with roadrunners and tube jigs. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Mar 12, 2025",
+    "report": "SLOW. Water stained; 60 degrees; 0.70 feet below pool. There are more anglers on the water as water temperatures are now 60 degrees. Lots of bass on the bank spawning or in prespawn. The bite will especially be good with the full moon. The shallow bite has been best with wacky worms, senkos, Texas rig lizards and if wind is blowing. They will still eat spinnerbait or chatterbait. Deeper fish can be found on main lake points in 8-12 feet with a Carolina rig and football jig. Crappie are picking back up in the backs of the creeks with roadrunners and tube jigs. Bends in the creeks have been the best place to hold the bigger crappie in 6-8 feet near shallow flats. As water warms the action will continue to improve. Report by Stephen Johnston, Johnston Fishing."
   }
 };
