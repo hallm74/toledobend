@@ -1,27 +1,27 @@
 const data = {
   "lakeLevel": "171.15ft 6:30pm",
   "currentWeather": {
-    "temp": 67.46,
-    "feels_like": 67.53,
-    "description": "scattered clouds",
-    "wind_speed": 10.8,
-    "wind_deg": 177,
-    "gust": 23.87,
+    "temp": 63.25,
+    "feels_like": 63.73,
+    "description": "moderate rain",
+    "wind_speed": 12.82,
+    "wind_deg": 272,
+    "gust": 25.39,
     "sunrise": "07:27 AM",
     "sunset": "07:20 PM",
     "dayOrNight": "night",
-    "humidity": 77,
+    "humidity": 95,
     "uv_index": 0,
-    "pressure": 1010,
+    "pressure": 1013,
     "moon_phase": 0.45,
-    "visibility": 10000,
-    "dew_point": 60.01
+    "visibility": 1519,
+    "dew_point": 61.79
   },
   "fiveDayWeather": [
     {
       "date": "Thursday",
       "high": 81.36,
-      "low": 62.67,
+      "low": 62.74,
       "description": "light rain",
       "wind_speed": 11.41,
       "wind_deg": 204,
@@ -65,7 +65,7 @@ const data = {
     },
     {
       "date": "Sunday",
-      "high": 69.69,
+      "high": 69.6,
       "low": 49.26,
       "description": "clear sky",
       "wind_speed": 13.4,
@@ -80,28 +80,36 @@ const data = {
     },
     {
       "date": "Monday",
-      "high": 74.08,
-      "low": 49.73,
+      "high": 74.43,
+      "low": 49.95,
       "description": "clear sky",
-      "wind_speed": 13.13,
-      "wind_deg": 190,
-      "gust": 29.55,
+      "wind_speed": 12.8,
+      "wind_deg": 188,
+      "gust": 29.21,
       "humidity": 36,
       "uv_index": 7,
       "pressure": 1025,
       "moon_phase": 0.6,
-      "dew_point": 43.61,
+      "dew_point": 44.65,
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "2:49:00 AM",
+      "end": "3:30:00 AM",
+      "description": "At 949 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Harrisburg to near Warren. Movement was\neast at 40 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nIvanhoe, Mayflower, Kirbyville, Spurger, Warren, Town Bluff,\nKurthwood, Harrisburg, Browndell, Stringtown, Toledo Bend Dam,\nHornbeck, Anacoco, Farrsville, Magnolia Springs, Burr Ferry, Mt.\nUnion, Wiergate, Newton, and Jasper.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1010,
-    1010,
+    1012,
+    1013,
+    1013,
+    1012,
     1011,
-    1011,
-    1011,
-    1010
+    1011
   ],
   "fishingReport": {
     "date": "Mar 12, 2025",
