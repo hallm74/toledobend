@@ -3,7 +3,7 @@ const data = {
   "currentWeather": {
     "temp": 63.25,
     "feels_like": 63.73,
-    "description": "moderate rain",
+    "description": "light rain",
     "wind_speed": 12.82,
     "wind_deg": 272,
     "gust": 25.39,
@@ -104,12 +104,12 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1012,
     1013,
     1013,
     1012,
     1011,
-    1011
+    1011,
+    1010
   ],
   "fishingReport": {
     "date": "Mar 12, 2025",
