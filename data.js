@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.10ft 4:30am",
+  "lakeLevel": "171.10ft 5:30am",
   "currentWeather": {
-    "temp": 67.66,
-    "feels_like": 68.68,
-    "description": "overcast clouds",
-    "wind_speed": 6.42,
-    "wind_deg": 195,
-    "gust": 22.21,
+    "temp": 67.06,
+    "feels_like": 68.07,
+    "description": "moderate rain",
+    "wind_speed": 5.91,
+    "wind_deg": 175,
+    "gust": 19.53,
     "sunrise": "07:24 AM",
     "sunset": "07:22 PM",
     "dayOrNight": "night",
-    "humidity": 97,
+    "humidity": 98,
     "uv_index": 0,
-    "pressure": 999,
+    "pressure": 998,
     "moon_phase": 0.54,
     "visibility": 10000,
-    "dew_point": 66.78
+    "dew_point": 66.49
   },
   "fiveDayWeather": [
     {
@@ -97,19 +97,19 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Severe Thunderstorm Watch",
-      "start": "7:57:00 AM",
+      "start": "10:59:00 AM",
       "end": "3:00:00 PM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n43 IN EFFECT UNTIL 10 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF BLEAKWOOD, BUNA, BURKEVILLE, CALL,\nFARRSVILLE, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KIRBYVILLE, MAGNOLIA SPRINGS, MT. UNION,\nNEWTON, SPURGER, TOWN BLUFF, WARREN, WIERGATE, AND WOODVILLE.",
+      "description": "SEVERE THUNDERSTORM WATCH 43 REMAINS VALID UNTIL 10 AM CDT THIS\nMORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF BLEAKWOOD, BUNA, BURKEVILLE, CALL,\nFARRSVILLE, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KIRBYVILLE, MAGNOLIA SPRINGS, MT. UNION,\nNEWTON, SPURGER, TOWN BLUFF, WARREN, WIERGATE, AND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    999,
-    999,
+    998,
     998,
     998,
     997,
-    998
+    998,
+    999
   ],
   "fishingReport": {
     "date": "Mar 12, 2025",
