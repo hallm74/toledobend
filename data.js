@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.07ft 8:30am",
+  "lakeLevel": "171.21ft 9:30am",
   "currentWeather": {
-    "temp": 68.81,
-    "feels_like": 69.91,
-    "description": "heavy intensity rain",
-    "wind_speed": 9.44,
-    "wind_deg": 188,
-    "gust": 22.1,
+    "temp": 68.56,
+    "feels_like": 69.53,
+    "description": "moderate rain",
+    "wind_speed": 12.26,
+    "wind_deg": 235,
+    "gust": 20.13,
     "sunrise": "07:24 AM",
     "sunset": "07:22 PM",
     "dayOrNight": "day",
-    "humidity": 96,
-    "uv_index": 0.5,
-    "pressure": 997,
+    "humidity": 94,
+    "uv_index": 0.69,
+    "pressure": 998,
     "moon_phase": 0.54,
-    "visibility": 10000,
-    "dew_point": 67.62
+    "visibility": 5886,
+    "dew_point": 66.76
   },
   "fiveDayWeather": [
     {
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Severe Thunderstorm Watch",
-      "start": "10:59:00 AM",
-      "end": "3:00:00 PM",
-      "description": "SEVERE THUNDERSTORM WATCH 43 REMAINS VALID UNTIL 10 AM CDT THIS\nMORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF BLEAKWOOD, BUNA, BURKEVILLE, CALL,\nFARRSVILLE, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KIRBYVILLE, MAGNOLIA SPRINGS, MT. UNION,\nNEWTON, SPURGER, TOWN BLUFF, WARREN, WIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
+    998,
+    998,
+    998,
+    998,
     997,
-    997,
-    998,
-    998,
-    998,
     997
   ],
   "fishingReport": {
