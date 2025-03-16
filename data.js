@@ -1,38 +1,23 @@
 const data = {
-  "lakeLevel": "171.19ft 6:30pm",
+  "lakeLevel": "171.12ft 1:00am",
   "currentWeather": {
-    "temp": 55.89,
-    "feels_like": 54,
+    "temp": 54.16,
+    "feels_like": 52.43,
     "description": "clear sky",
-    "wind_speed": 6.93,
-    "wind_deg": 308,
-    "gust": 21.32,
-    "sunrise": "07:24 AM",
-    "sunset": "07:22 PM",
+    "wind_speed": 8.99,
+    "wind_deg": 312,
+    "gust": 24.2,
+    "sunrise": "07:22 AM",
+    "sunset": "07:23 PM",
     "dayOrNight": "night",
-    "humidity": 60,
+    "humidity": 67,
     "uv_index": 0,
-    "pressure": 1005,
-    "moon_phase": 0.54,
+    "pressure": 1007,
+    "moon_phase": 0.57,
     "visibility": 10000,
-    "dew_point": 42.22
+    "dew_point": 43.47
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 65.34,
-      "low": 49.14,
-      "description": "clear sky",
-      "wind_speed": 13.51,
-      "wind_deg": 321,
-      "gust": 30.65,
-      "humidity": 25,
-      "uv_index": 5.81,
-      "pressure": 1019,
-      "moon_phase": 0.57,
-      "dew_point": 26.62,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 73.72,
@@ -61,16 +46,16 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.63,
       "dew_point": 53.26,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
       "high": 68.63,
       "low": 56.86,
       "description": "broken clouds",
-      "wind_speed": 14.56,
-      "wind_deg": 193,
-      "gust": 31.79,
+      "wind_speed": 15.41,
+      "wind_deg": 189,
+      "gust": 33.46,
       "humidity": 34,
       "uv_index": 7.94,
       "pressure": 1019,
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.69,
       "dew_point": 20.84,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 65.28,
+      "low": 43.95,
+      "description": "light rain",
+      "wind_speed": 15.75,
+      "wind_deg": 174,
+      "gust": 35.99,
+      "humidity": 54,
+      "uv_index": 8,
+      "pressure": 1018,
+      "moon_phase": 0.73,
+      "dew_point": 48.16,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1005,
-    1005,
-    1006,
+    1007,
     1007,
     1008,
-    1010
+    1009,
+    1010,
+    1012
   ],
   "fishingReport": {
     "date": "Mar 12, 2025",
