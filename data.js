@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.74ft 1:30am",
+  "lakeLevel": "170.82ft 3:00am",
   "currentWeather": {
-    "temp": 56.19,
-    "feels_like": 55.6,
+    "temp": 55.78,
+    "feels_like": 55.24,
     "description": "overcast clouds",
-    "wind_speed": 7.83,
-    "wind_deg": 182,
-    "gust": 27.89,
+    "wind_speed": 8.14,
+    "wind_deg": 184,
+    "gust": 28.77,
     "sunrise": "07:20 AM",
     "sunset": "07:24 PM",
     "dayOrNight": "night",
-    "humidity": 87,
+    "humidity": 89,
     "uv_index": 0,
-    "pressure": 1022,
+    "pressure": 1021,
     "moon_phase": 0.63,
     "visibility": 10000,
-    "dew_point": 52.38
+    "dew_point": 52.59
   },
   "fiveDayWeather": [
     {
@@ -94,12 +94,20 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Wind Advisory",
+      "start": "4:00:00 PM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...South winds 15 to 25 mph with gusts up to 35 mph expected.\n\n* WHERE...Portions of southwest Louisiana and southeast Texas.\n\n* WHEN...From 11 AM this morning to 7 PM CDT this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1022,
-    1022,
     1021,
     1021,
+    1021,
+    1020,
     1020,
     1020
   ],
