@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.70ft 9:30am",
+  "lakeLevel": "170.64ft 11:00am",
   "currentWeather": {
-    "temp": 68.97,
-    "feels_like": 69.19,
-    "description": "broken clouds",
-    "wind_speed": 10.47,
-    "wind_deg": 224,
-    "gust": 23.58,
+    "temp": 68.4,
+    "feels_like": 68.65,
+    "description": "overcast clouds",
+    "wind_speed": 10.51,
+    "wind_deg": 239,
+    "gust": 19.13,
     "sunrise": "07:19 AM",
     "sunset": "07:25 PM",
     "dayOrNight": "day",
-    "humidity": 77,
-    "uv_index": 1.28,
+    "humidity": 79,
+    "uv_index": 4.86,
     "pressure": 1013,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 61.47
+    "dew_point": 61.63
   },
   "fiveDayWeather": [
     {
@@ -104,7 +104,7 @@ const data = {
     1011
   ],
   "fishingReport": {
-    "date": "Mar 12, 2025",
-    "report": "SLOW. Water stained; 60 degrees; 0.70 feet below pool. There are more anglers on the water as water temperatures are now 60 degrees. Lots of bass on the bank spawning or in prespawn. The bite will especially be good with the full moon. The shallow bite has been best with wacky worms, senkos, Texas rig lizards and if wind is blowing. They will still eat spinnerbait or chatterbait. Deeper fish can be found on main lake points in 8-12 feet with a Carolina rig and football jig. Crappie are picking back up in the backs of the creeks with roadrunners and tube jigs. Bends in the creeks have been the best place to hold the bigger crappie in 6-8 feet near shallow flats. As water warms the action will continue to improve. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
