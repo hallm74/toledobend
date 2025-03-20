@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "170.83ft 6:30pm",
   "currentWeather": {
-    "temp": 56.08,
-    "feels_like": 53.42,
+    "temp": 54.12,
+    "feels_like": 51.21,
     "description": "clear sky",
-    "wind_speed": 14.92,
-    "wind_deg": 310,
-    "gust": 30.53,
-    "sunrise": "07:19 AM",
+    "wind_speed": 14.67,
+    "wind_deg": 306,
+    "gust": 30.74,
+    "sunrise": "07:17 AM",
     "sunset": "07:25 PM",
     "dayOrNight": "night",
-    "humidity": 43,
+    "humidity": 42,
     "uv_index": 0,
-    "pressure": 1020,
-    "moon_phase": 0.66,
+    "pressure": 1021,
+    "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 33.93
+    "dew_point": 31.62
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 62.62,
-      "low": 45.72,
-      "description": "clear sky",
-      "wind_speed": 14.97,
-      "wind_deg": 308,
-      "gust": 30.74,
-      "humidity": 25,
-      "uv_index": 7.29,
-      "pressure": 1026,
-      "moon_phase": 0.69,
-      "dew_point": 23.74,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 70.74,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1018,
       "moon_phase": 0.75,
       "dew_point": 55.02,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.82,
       "dew_point": 41.86,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 78.51,
+      "low": 53.08,
+      "description": "clear sky",
+      "wind_speed": 5.7,
+      "wind_deg": 61,
+      "gust": 15.01,
+      "humidity": 42,
+      "uv_index": 7,
+      "pressure": 1021,
+      "moon_phase": 0.86,
+      "dew_point": 50.38,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -104,15 +104,15 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1020,
-    1020,
-    1020,
     1021,
+    1021,
+    1021,
+    1022,
     1022,
     1022
   ],
   "fishingReport": {
-    "date": "Mar 12, 2025",
-    "report": "SLOW. Water stained; 60 degrees; 0.70 feet below pool. There are more anglers on the water as water temperatures are now 60 degrees. Lots of bass on the bank spawning or in prespawn. The bite will especially be good with the full moon. The shallow bite has been best with wacky worms, senkos, Texas rig lizards and if wind is blowing. They will still eat spinnerbait or chatterbait. Deeper fish can be found on main lake points in 8-12 feet with a Carolina rig and football jig. Crappie are picking back up in the backs of the creeks with roadrunners and tube jigs. Bends in the creeks have been the best place to hold the bigger crappie in 6-8 feet near shallow flats. As water warms the action will continue to improve. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Mar 19, 2025",
+    "report": "SLOW. Water stained; 60 degrees; 1.24 feet below pool. Bass are good with many fish in 1-6 feet of water biting senkos, wacky worms and Texas rigged lizards."
   }
 };
