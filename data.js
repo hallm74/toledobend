@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.31ft 12:30am",
+  "lakeLevel": "170.34ft 1:30am",
   "currentWeather": {
-    "temp": 63.12,
-    "feels_like": 63.23,
-    "description": "clear sky",
-    "wind_speed": 6.17,
+    "temp": 62.76,
+    "feels_like": 62.92,
+    "description": "scattered clouds",
+    "wind_speed": 7.27,
     "wind_deg": 172,
-    "gust": 26.93,
+    "gust": 28.23,
     "sunrise": "07:14 AM",
     "sunset": "07:27 PM",
     "dayOrNight": "night",
-    "humidity": 87,
+    "humidity": 89,
     "uv_index": 0,
     "pressure": 1016,
     "moon_phase": 0.79,
     "visibility": 10000,
-    "dew_point": 59.2
+    "dew_point": 59.47
   },
   "fiveDayWeather": [
     {
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1016,
     1016,
-    1016,
     1015,
-    1015,
-    1015
+    1014,
+    1014,
+    1014
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Mar 19, 2025",
+    "report": "SLOW. Water stained; 60 degrees; 1.24 feet below pool. Bass are good with many fish in 1-6 feet of water biting senkos, wacky worms and Texas rigged lizards."
   }
 };
