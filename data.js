@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "170.31ft 6:30pm",
   "currentWeather": {
-    "temp": 62.33,
-    "feels_like": 62.11,
+    "temp": 61.43,
+    "feels_like": 61.32,
     "description": "clear sky",
-    "wind_speed": 4.14,
-    "wind_deg": 103,
-    "gust": 5.14,
-    "sunrise": "07:12 AM",
+    "wind_speed": 3.58,
+    "wind_deg": 130,
+    "gust": 4.81,
+    "sunrise": "07:11 AM",
     "sunset": "07:28 PM",
     "dayOrNight": "night",
-    "humidity": 82,
+    "humidity": 86,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.82,
+    "moon_phase": 0.86,
     "visibility": 10000,
-    "dew_point": 56.77
+    "dew_point": 57.2
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 82.9,
-      "low": 61.2,
-      "description": "clear sky",
-      "wind_speed": 5.14,
-      "wind_deg": 187,
-      "gust": 14.74,
-      "humidity": 48,
-      "uv_index": 7.3,
-      "pressure": 1019,
-      "moon_phase": 0.86,
-      "dew_point": 59.45,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 80.13,
@@ -55,13 +40,13 @@ const data = {
       "description": "light rain",
       "wind_speed": 12.33,
       "wind_deg": 124,
-      "gust": 31.34,
+      "gust": 31.38,
       "humidity": 65,
       "uv_index": 5.97,
       "pressure": 1021,
       "moon_phase": 0.93,
       "dew_point": 58.89,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,12 +77,27 @@ const data = {
       "moon_phase": 0,
       "dew_point": 69.21,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 85.44,
+      "low": 69.21,
+      "description": "overcast clouds",
+      "wind_speed": 13.35,
+      "wind_deg": 196,
+      "gust": 25.28,
+      "humidity": 74,
+      "uv_index": 6,
+      "pressure": 1012,
+      "moon_phase": 0.05,
+      "dew_point": 68.04,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
     1017,
-    1017,
+    1018,
     1018,
     1018,
     1018,
