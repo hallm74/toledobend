@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.16ft 3:30pm",
+  "lakeLevel": "170.16ft 4:30pm",
   "currentWeather": {
-    "temp": 79.68,
-    "feels_like": 79.68,
+    "temp": 79.41,
+    "feels_like": 79.41,
     "description": "overcast clouds",
-    "wind_speed": 3.62,
-    "wind_deg": 107,
-    "gust": 5.88,
+    "wind_speed": 4.81,
+    "wind_deg": 85,
+    "gust": 7.76,
     "sunrise": "07:10 AM",
     "sunset": "07:29 PM",
     "dayOrNight": "day",
-    "humidity": 49,
-    "uv_index": 1.57,
-    "pressure": 1021,
+    "humidity": 48,
+    "uv_index": 1.23,
+    "pressure": 1020,
     "moon_phase": 0.89,
     "visibility": 10000,
-    "dew_point": 58.86
+    "dew_point": 58.03
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.97,
       "dew_point": 62.01,
-      "visibility": 9384
+      "visibility": 9093
     },
     {
       "date": "Saturday",
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1021,
     1020,
     1020,
     1020,
     1020,
-    1020
+    1020,
+    1021
   ],
   "fishingReport": {
-    "date": "Mar 19, 2025",
-    "report": "SLOW. Water stained; 60 degrees; 1.24 feet below pool. Bass are good with many fish in 1-6 feet of water biting senkos, wacky worms and Texas rigged lizards."
+    "date": "Mar 26, 2025",
+    "report": "SLOW. Water stained; 63 degrees; 1.78 feet below pool. Bass are good with many fish in 1-8 feet of water on lizards, brush hogs, Texas rigs, Carolina rigs, senkos and wacky worms. Bass are good with frogs in the flooded bushes. Crappie bite is improving daily in 3-6 feet on jigs. Report by Stephen Johnston, Johnston Fishing."
   }
 };
