@@ -1,31 +1,31 @@
 const data = {
-  "lakeLevel": "170.06ft 11:30am",
+  "lakeLevel": "170.03ft 1:00pm",
   "currentWeather": {
-    "temp": 70.09,
-    "feels_like": 70.38,
-    "description": "overcast clouds",
-    "wind_speed": 8.81,
-    "wind_deg": 180,
-    "gust": 13.49,
+    "temp": 71.74,
+    "feels_like": 72.1,
+    "description": "light rain",
+    "wind_speed": 6.33,
+    "wind_deg": 177,
+    "gust": 14.74,
     "sunrise": "07:08 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "day",
-    "humidity": 76,
-    "uv_index": 5.05,
-    "pressure": 1023,
+    "humidity": 74,
+    "uv_index": 4.15,
+    "pressure": 1022,
     "moon_phase": 0.93,
     "visibility": 10000,
-    "dew_point": 62.19
+    "dew_point": 63.01
   },
   "fiveDayWeather": [
     {
       "date": "Friday",
       "high": 67.26,
-      "low": 60.91,
+      "low": 61.18,
       "description": "moderate rain",
-      "wind_speed": 12.46,
-      "wind_deg": 167,
-      "gust": 30.51,
+      "wind_speed": 10.78,
+      "wind_deg": 187,
+      "gust": 31.59,
       "humidity": 95,
       "uv_index": 2.45,
       "pressure": 1017,
@@ -94,13 +94,21 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Flood Watch",
+      "start": "12:00:00 PM",
+      "end": "6:00:00 PM",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...From Friday morning through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana\n- http://www.weather.gov/safety/flood",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1023,
-    1023,
+    1022,
     1022,
     1021,
     1021,
+    1020,
     1020
   ],
   "fishingReport": {
