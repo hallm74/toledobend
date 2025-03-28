@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.94ft 11:00am",
+  "lakeLevel": "169.96ft 11:30am",
   "currentWeather": {
-    "temp": 69.13,
-    "feels_like": 69.78,
+    "temp": 70.14,
+    "feels_like": 70.66,
     "description": "overcast clouds",
-    "wind_speed": 5.14,
-    "wind_deg": 107,
-    "gust": 13.53,
+    "wind_speed": 5.93,
+    "wind_deg": 101,
+    "gust": 23.11,
     "sunrise": "07:07 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "day",
-    "humidity": 86,
-    "uv_index": 0.55,
+    "humidity": 81,
+    "uv_index": 0.85,
     "pressure": 1017,
     "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 64.78
+    "dew_point": 64.04
   },
   "fiveDayWeather": [
     {
@@ -101,6 +101,13 @@ const data = {
       "end": "6:00:00 PM",
       "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana and southeast Texas.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Tornado Warning",
+      "start": "5:03:00 PM",
+      "end": "5:30:00 PM",
+      "description": "TORLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Tornado Warning for...\nNortheastern Newton County in southeastern Texas...\n\n* Until 1230 PM CDT.\n\n* At 1202 PM CDT, a severe thunderstorm capable of producing a\ntornado was located over Burkeville, moving north at 30 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nMayflower around 1210 PM CDT.\n\nOther locations impacted by this tornadic thunderstorm include\nWiergate.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
@@ -108,8 +115,8 @@ const data = {
     1017,
     1017,
     1016,
-    1016,
-    1015
+    1015,
+    1014
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
