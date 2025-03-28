@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.06ft 4:30pm",
+  "lakeLevel": "170.09ft 5:30pm",
   "currentWeather": {
-    "temp": 69.64,
-    "feels_like": 70.2,
+    "temp": 68.7,
+    "feels_like": 69.26,
     "description": "overcast clouds",
-    "wind_speed": 6.49,
-    "wind_deg": 132,
-    "gust": 15.32,
+    "wind_speed": 7,
+    "wind_deg": 107,
+    "gust": 18.72,
     "sunrise": "07:07 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "day",
-    "humidity": 83,
-    "uv_index": 0.39,
+    "humidity": 85,
+    "uv_index": 0.34,
     "pressure": 1013,
     "moon_phase": 0.97,
-    "visibility": 2939,
-    "dew_point": 64.26
+    "visibility": 432,
+    "dew_point": 64
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0,
       "dew_point": 66.6,
-      "visibility": 8234
+      "visibility": 8555
     },
     {
       "date": "Sunday",
@@ -96,17 +96,17 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Tornado Watch",
-      "start": "5:25:00 PM",
-      "end": "12:00:00 AM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 66 IN\nEFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 4 PARISHES\n\nIN SOUTHWEST LOUISIANA\n\nBEAUREGARD            CALCASIEU             CAMERON\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE,\nFIELDS, FORT JOHNSON, FRED, GIST, HACKBERRY, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JOHNSON BAYOU,\nKIRBYVILLE, LAKE CHARLES, LEESVILLE, LUMBERTON, MAGNOLIA SPRINGS,\nMT. UNION, NEWTON, ORANGE, ORETTA, PICKERING, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER, SULPHUR,\nTOWN BLUFF, VIDOR, WARREN, WIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Flood Watch",
       "start": "7:11:00 PM",
       "end": "6:00:00 PM",
       "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana and southeast Texas.\n- http://www.weather.gov/safety/flood",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Tornado Watch",
+      "start": "11:00:00 PM",
+      "end": "2:00:00 AM",
+      "description": "TORNADO WATCH 66, PREVIOUSLY IN EFFECT UNTIL 7 PM CDT THIS\nEVENING, IS NOW IN EFFECT UNTIL 9 PM CDT THIS EVENING FOR THE\nFOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 4 PARISHES\n\nIN SOUTHWEST LOUISIANA\n\nBEAUREGARD            CALCASIEU             CAMERON\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE,\nFIELDS, FORT JOHNSON, FRED, GIST, HACKBERRY, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JOHNSON BAYOU,\nKIRBYVILLE, LAKE CHARLES, LEESVILLE, LUMBERTON, MAGNOLIA SPRINGS,\nMT. UNION, NEWTON, ORANGE, ORETTA, PICKERING, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER, SULPHUR,\nTOWN BLUFF, VIDOR, WARREN, WIERGATE, AND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -114,7 +114,7 @@ const data = {
     1013,
     1013,
     1013,
-    1012,
+    1013,
     1013,
     1013
   ],
