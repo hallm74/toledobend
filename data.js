@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "170.04ft 6:30pm",
   "currentWeather": {
-    "temp": 67.23,
-    "feels_like": 67.46,
+    "temp": 67.01,
+    "feels_like": 67.12,
     "description": "overcast clouds",
-    "wind_speed": 9.37,
-    "wind_deg": 129,
-    "gust": 30.36,
-    "sunrise": "07:08 AM",
+    "wind_speed": 9.06,
+    "wind_deg": 142,
+    "gust": 32.41,
+    "sunrise": "07:07 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "night",
-    "humidity": 81,
+    "humidity": 79,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.93,
+    "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 61.2
+    "dew_point": 60.3
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 67.5,
-      "low": 59.05,
-      "description": "light rain",
-      "wind_speed": 11.61,
-      "wind_deg": 155,
-      "gust": 33.24,
-      "humidity": 74,
-      "uv_index": 6.23,
-      "pressure": 1017,
-      "moon_phase": 0.97,
-      "dew_point": 60.04,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 79.92,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0,
       "dew_point": 65.95,
-      "visibility": 9535
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1010,
       "moon_phase": 0.05,
       "dew_point": 68.86,
-      "visibility": "Unavailable"
+      "visibility": 9535
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.13,
       "dew_point": 55.56,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 85.03,
+      "low": 68.27,
+      "description": "light rain",
+      "wind_speed": 8.88,
+      "wind_deg": 222,
+      "gust": 23.91,
+      "humidity": 53,
+      "uv_index": 8,
+      "pressure": 1012,
+      "moon_phase": 0.16,
+      "dew_point": 65.97,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -99,17 +99,17 @@ const data = {
       "event": "Flood Watch",
       "start": "12:00:00 PM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...From Friday morning through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana\n- http://www.weather.gov/safety/flood",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...From 7 AM CDT Friday through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana and southeast Texas.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
     1018,
-    1018,
     1017,
     1017,
     1016,
-    1017
+    1017,
+    1018
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
