@@ -1,37 +1,37 @@
 const data = {
-  "lakeLevel": "169.96ft 11:30am",
+  "lakeLevel": "169.96ft 1:00pm",
   "currentWeather": {
-    "temp": 70.14,
-    "feels_like": 70.66,
+    "temp": 71.26,
+    "feels_like": 71.8,
     "description": "overcast clouds",
-    "wind_speed": 5.93,
-    "wind_deg": 101,
-    "gust": 23.11,
+    "wind_speed": 10.07,
+    "wind_deg": 133,
+    "gust": 26.78,
     "sunrise": "07:07 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "day",
-    "humidity": 81,
-    "uv_index": 0.85,
-    "pressure": 1017,
+    "humidity": 79,
+    "uv_index": 1.54,
+    "pressure": 1016,
     "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 64.04
+    "dew_point": 64.42
   },
   "fiveDayWeather": [
     {
       "date": "Saturday",
       "high": 77.85,
-      "low": 64.11,
+      "low": 61.97,
       "description": "moderate rain",
-      "wind_speed": 11.72,
-      "wind_deg": 171,
-      "gust": 29.35,
+      "wind_speed": 13.24,
+      "wind_deg": 158,
+      "gust": 30.8,
       "humidity": 73,
       "uv_index": 5.04,
       "pressure": 1011,
       "moon_phase": 0,
       "dew_point": 66.45,
-      "visibility": 7749
+      "visibility": 7931
     },
     {
       "date": "Sunday",
@@ -103,20 +103,20 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Tornado Warning",
-      "start": "5:03:00 PM",
-      "end": "5:30:00 PM",
-      "description": "TORLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Tornado Warning for...\nNortheastern Newton County in southeastern Texas...\n\n* Until 1230 PM CDT.\n\n* At 1202 PM CDT, a severe thunderstorm capable of producing a\ntornado was located over Burkeville, moving north at 30 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nMayflower around 1210 PM CDT.\n\nOther locations impacted by this tornadic thunderstorm include\nWiergate.",
+      "event": "Tornado Watch",
+      "start": "5:25:00 PM",
+      "end": "12:00:00 AM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 66 IN\nEFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 4 PARISHES\n\nIN SOUTHWEST LOUISIANA\n\nBEAUREGARD            CALCASIEU             CAMERON\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE,\nFIELDS, FORT JOHNSON, FRED, GIST, HACKBERRY, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JOHNSON BAYOU,\nKIRBYVILLE, LAKE CHARLES, LEESVILLE, LUMBERTON, MAGNOLIA SPRINGS,\nMT. UNION, NEWTON, ORANGE, ORETTA, PICKERING, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER, SULPHUR,\nTOWN BLUFF, VIDOR, WARREN, WIERGATE, AND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1017,
-    1017,
-    1017,
+    1016,
+    1016,
     1016,
     1015,
-    1014
+    1014,
+    1013
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
