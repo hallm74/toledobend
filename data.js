@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.97ft 3:30am",
+  "lakeLevel": "169.95ft 4:30am",
   "currentWeather": {
-    "temp": 65.7,
-    "feels_like": 65.86,
+    "temp": 65.28,
+    "feels_like": 65.55,
     "description": "overcast clouds",
-    "wind_speed": 6.58,
-    "wind_deg": 157,
-    "gust": 29.57,
+    "wind_speed": 6.2,
+    "wind_deg": 148,
+    "gust": 25.37,
     "sunrise": "07:07 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 86,
     "uv_index": 0,
     "pressure": 1017,
     "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 60.4
+    "dew_point": 61
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1009,
       "moon_phase": 0.05,
       "dew_point": 66.92,
-      "visibility": 10000
+      "visibility": 9747
     },
     {
       "date": "Monday",
@@ -99,7 +99,7 @@ const data = {
       "event": "Flood Watch",
       "start": "12:00:00 PM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...From 7 AM CDT Friday through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana and southeast Texas.\n- http://www.weather.gov/safety/flood",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana and southeast Texas.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -107,7 +107,7 @@ const data = {
     1017,
     1017,
     1017,
-    1017,
+    1018,
     1018,
     1018
   ],
