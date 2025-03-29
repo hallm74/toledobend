@@ -1,27 +1,27 @@
 const data = {
   "lakeLevel": "170.15ft 6:30pm",
   "currentWeather": {
-    "temp": 67.01,
-    "feels_like": 67.32,
+    "temp": 65.98,
+    "feels_like": 66.65,
     "description": "heavy intensity rain",
-    "wind_speed": 13.27,
-    "wind_deg": 154,
-    "gust": 27.02,
+    "wind_speed": 12.68,
+    "wind_deg": 142,
+    "gust": 29.59,
     "sunrise": "07:07 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 93,
     "uv_index": 0,
     "pressure": 1013,
     "moon_phase": 0.97,
-    "visibility": 10000,
-    "dew_point": 61.68
+    "visibility": 3989,
+    "dew_point": 63.9
   },
   "fiveDayWeather": [
     {
       "date": "Saturday",
       "high": 80.1,
-      "low": 66.11,
+      "low": 65.91,
       "description": "moderate rain",
       "wind_speed": 12.53,
       "wind_deg": 156,
@@ -101,13 +101,6 @@ const data = {
       "end": "6:00:00 PM",
       "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana and southeast Texas.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Tornado Watch",
-      "start": "11:00:00 PM",
-      "end": "2:00:00 AM",
-      "description": "TORNADO WATCH 66, PREVIOUSLY IN EFFECT UNTIL 7 PM CDT THIS\nEVENING, IS NOW IN EFFECT UNTIL 9 PM CDT THIS EVENING FOR THE\nFOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 4 PARISHES\n\nIN SOUTHWEST LOUISIANA\n\nBEAUREGARD            CALCASIEU             CAMERON\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE,\nFIELDS, FORT JOHNSON, FRED, GIST, HACKBERRY, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JOHNSON BAYOU,\nKIRBYVILLE, LAKE CHARLES, LEESVILLE, LUMBERTON, MAGNOLIA SPRINGS,\nMT. UNION, NEWTON, ORANGE, ORETTA, PICKERING, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER, SULPHUR,\nTOWN BLUFF, VIDOR, WARREN, WIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
@@ -116,7 +109,7 @@ const data = {
     1013,
     1013,
     1013,
-    1013
+    1012
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
