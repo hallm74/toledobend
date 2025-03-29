@@ -1,31 +1,31 @@
 const data = {
-  "lakeLevel": "170.40ft 11:30am",
+  "lakeLevel": "170.44ft 1:00pm",
   "currentWeather": {
-    "temp": 74.89,
-    "feels_like": 76.23,
+    "temp": 77.67,
+    "feels_like": 79.09,
     "description": "broken clouds",
-    "wind_speed": 9.66,
-    "wind_deg": 179,
-    "gust": 15.64,
+    "wind_speed": 8.97,
+    "wind_deg": 183,
+    "gust": 14.92,
     "sunrise": "07:06 AM",
     "sunset": "07:31 PM",
     "dayOrNight": "day",
-    "humidity": 88,
-    "uv_index": 2.81,
-    "pressure": 1013,
+    "humidity": 84,
+    "uv_index": 3.33,
+    "pressure": 1012,
     "moon_phase": "Unavailable",
     "visibility": 10000,
-    "dew_point": 71.1
+    "dew_point": 72.45
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
       "high": 82.47,
-      "low": 64.24,
+      "low": 66.61,
       "description": "light rain",
       "wind_speed": 11.88,
       "wind_deg": 201,
-      "gust": 25.41,
+      "gust": 24.47,
       "humidity": 74,
       "uv_index": 5.34,
       "pressure": 1010,
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Flood Watch",
-      "start": "7:29:00 AM",
-      "end": "6:00:00 PM",
-      "description": "The Flood Watch has been cancelled and is no longer in effect.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1013,
-    1013,
+    1012,
     1012,
     1011,
     1011,
+    1010,
     1009
   ],
   "fishingReport": {
