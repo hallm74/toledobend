@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.23ft 1:30am",
+  "lakeLevel": "170.27ft 2:30am",
   "currentWeather": {
-    "temp": 66.09,
-    "feels_like": 66.87,
-    "description": "light rain",
-    "wind_speed": 10.65,
-    "wind_deg": 167,
-    "gust": 27.31,
+    "temp": 66.29,
+    "feels_like": 67.05,
+    "description": "overcast clouds",
+    "wind_speed": 10.2,
+    "wind_deg": 170,
+    "gust": 26.49,
     "sunrise": "07:06 AM",
     "sunset": "07:31 PM",
     "dayOrNight": "night",
-    "humidity": 95,
+    "humidity": 94,
     "uv_index": 0,
-    "pressure": 1013,
+    "pressure": 1012,
     "moon_phase": "Unavailable",
     "visibility": 10000,
-    "dew_point": 64.62
+    "dew_point": 64.51
   },
   "fiveDayWeather": [
     {
@@ -97,19 +97,19 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Flood Watch",
-      "start": "7:11:00 PM",
+      "start": "7:29:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Saturday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nStorm drains and ditches may become clogged with debris.\n\n* ADDITIONAL DETAILS...\n- Widespread 1 to 3 inches of rainfall is expected. Localized\namounts up to 5 inches will be possible especially for\nsouthwest Louisiana and southeast Texas.\n- http://www.weather.gov/safety/flood",
+      "description": "The Flood Watch has been cancelled and is no longer in effect.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1013,
-    1013,
-    1013,
     1012,
     1012,
-    1012
+    1012,
+    1012,
+    1012,
+    1013
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
