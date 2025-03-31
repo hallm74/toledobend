@@ -1,12 +1,12 @@
 const data = {
-  "lakeLevel": "170.94ft 4:00am",
+  "lakeLevel": "170.96ft 4:30am",
   "currentWeather": {
-    "temp": 67.93,
-    "feels_like": 68.88,
-    "description": "moderate rain",
-    "wind_speed": 7.43,
-    "wind_deg": 315,
-    "gust": 16.37,
+    "temp": 66.88,
+    "feels_like": 67.73,
+    "description": "overcast clouds",
+    "wind_speed": 7.78,
+    "wind_deg": 336,
+    "gust": 16.84,
     "sunrise": "07:03 AM",
     "sunset": "07:32 PM",
     "dayOrNight": "night",
@@ -14,8 +14,8 @@ const data = {
     "uv_index": 0,
     "pressure": 1008,
     "moon_phase": 0.09,
-    "visibility": 2471,
-    "dew_point": 66.45
+    "visibility": 6578,
+    "dew_point": 65.41
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1011,
       "moon_phase": 0.13,
       "dew_point": 63.1,
-      "visibility": 9544
+      "visibility": 9857
     },
     {
       "date": "Wednesday",
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Severe Thunderstorm Watch",
-      "start": "6:37:00 AM",
+      "start": "9:17:00 AM",
       "end": "1:00:00 PM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n83 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BUNKIE, BURKEVILLE, CALL, COTTONPORT, DE RIDDER,\nEFFIE, EUNICE, FARRSVILLE, FIELDS, FORT JOHNSON, FRED, GIST,\nHILLISTER, HOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KINDER,\nKIRBYVILLE, LAWTELL, LEESVILLE, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, OPELOUSAS, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, TOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE,\nAND WOODVILLE.",
+      "description": "SEVERE THUNDERSTORM WATCH 83 REMAINS VALID UNTIL 8 AM CDT THIS\nMORNING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BUNKIE, BURKEVILLE, CALL, COTTONPORT, DE RIDDER,\nEFFIE, EUNICE, FARRSVILLE, FIELDS, FORT JOHNSON, FRED, GIST,\nHILLISTER, HOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KINDER,\nKIRBYVILLE, LAWTELL, LEESVILLE, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, OPELOUSAS, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, TOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE,\nAND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -109,7 +109,7 @@ const data = {
     1008,
     1009,
     1010,
-    1012
+    1013
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
