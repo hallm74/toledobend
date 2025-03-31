@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.82ft 5:45am",
+  "lakeLevel": "170.76ft 7:00am",
   "currentWeather": {
-    "temp": 66.04,
-    "feels_like": 66.81,
-    "description": "overcast clouds",
-    "wind_speed": 6.04,
-    "wind_deg": 3,
-    "gust": 12.62,
+    "temp": 64.08,
+    "feels_like": 64.65,
+    "description": "scattered clouds",
+    "wind_speed": 5.64,
+    "wind_deg": 349,
+    "gust": 11.77,
     "sunrise": "07:03 AM",
     "sunset": "07:32 PM",
-    "dayOrNight": "night",
+    "dayOrNight": "day",
     "humidity": 95,
-    "uv_index": 0,
-    "pressure": 1008,
+    "uv_index": 0.1,
+    "pressure": 1010,
     "moon_phase": 0.09,
     "visibility": 10000,
-    "dew_point": 64.56
+    "dew_point": 62.62
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Severe Thunderstorm Watch",
-      "start": "9:17:00 AM",
-      "end": "1:00:00 PM",
-      "description": "SEVERE THUNDERSTORM WATCH 83 REMAINS VALID UNTIL 8 AM CDT THIS\nMORNING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BUNKIE, BURKEVILLE, CALL, COTTONPORT, DE RIDDER,\nEFFIE, EUNICE, FARRSVILLE, FIELDS, FORT JOHNSON, FRED, GIST,\nHILLISTER, HOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KINDER,\nKIRBYVILLE, LAWTELL, LEESVILLE, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, OPELOUSAS, ORETTA,\nPICKERING, PINEVILLE, REDDELL, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, TOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE,\nAND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1008,
-    1008,
-    1009,
     1010,
+    1010,
+    1010,
+    1011,
     1012,
-    1013
+    1012
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
