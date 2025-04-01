@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.82ft 1:30pm",
+  "lakeLevel": "170.79ft 3:00pm",
   "currentWeather": {
-    "temp": 74.95,
-    "feels_like": 75.96,
+    "temp": 75.79,
+    "feels_like": 77.11,
     "description": "overcast clouds",
-    "wind_speed": 9.95,
-    "wind_deg": 169,
-    "gust": 18.54,
+    "wind_speed": 7.7,
+    "wind_deg": 174,
+    "gust": 19.3,
     "sunrise": "07:02 AM",
     "sunset": "07:33 PM",
     "dayOrNight": "day",
-    "humidity": 81,
-    "uv_index": 4.87,
-    "pressure": 1010,
+    "humidity": 86,
+    "uv_index": 2.87,
+    "pressure": 1009,
     "moon_phase": 0.13,
     "visibility": 10000,
-    "dew_point": 68.72
+    "dew_point": 71.31
   },
   "fiveDayWeather": [
     {
@@ -50,7 +50,7 @@ const data = {
     },
     {
       "date": "Friday",
-      "high": 86.14,
+      "high": 87.17,
       "low": 72.12,
       "description": "light rain",
       "wind_speed": 16.91,
@@ -97,18 +97,18 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "2:00:00 PM",
+      "start": "12:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...South winds 20 to 25 mph with gusts up to 40 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 9 AM to 7 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...South winds 15 to 25 mph with gusts up to 40 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 7 AM to 7 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1010,
-    1010,
+    1009,
     1009,
     1008,
     1008,
+    1007,
     1007
   ],
   "fishingReport": {
