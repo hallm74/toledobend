@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "170.80ft 6:30pm",
   "currentWeather": {
-    "temp": 73.67,
-    "feels_like": 74.88,
-    "description": "few clouds",
-    "wind_speed": 12.77,
-    "wind_deg": 170,
-    "gust": 32.91,
-    "sunrise": "07:02 AM",
+    "temp": 73.92,
+    "feels_like": 75.11,
+    "description": "scattered clouds",
+    "wind_speed": 15.57,
+    "wind_deg": 175,
+    "gust": 32.55,
+    "sunrise": "07:01 AM",
     "sunset": "07:33 PM",
     "dayOrNight": "night",
-    "humidity": 88,
+    "humidity": 87,
     "uv_index": 0,
-    "pressure": 1007,
-    "moon_phase": 0.13,
+    "pressure": 1006,
+    "moon_phase": 0.16,
     "visibility": 10000,
-    "dew_point": 69.89
+    "dew_point": 69.8
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 84.54,
-      "low": 72.18,
-      "description": "light rain",
-      "wind_speed": 16.37,
-      "wind_deg": 173,
-      "gust": 38.16,
-      "humidity": 66,
-      "uv_index": 7.89,
-      "pressure": 1007,
-      "moon_phase": 0.16,
-      "dew_point": 70.14,
-      "visibility": 10000
-    },
     {
       "date": "Thursday",
       "high": 86.45,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0.25,
       "dew_point": 68.5,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.3,
       "dew_point": 42.85,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 66.69,
+      "low": 44.58,
+      "description": "clear sky",
+      "wind_speed": 8.7,
+      "wind_deg": 329,
+      "gust": 12.15,
+      "humidity": 34,
+      "uv_index": 2,
+      "pressure": 1019,
+      "moon_phase": 0.34,
+      "dew_point": 34.23,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -104,10 +104,10 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1007,
-    1007,
-    1007,
     1006,
+    1006,
+    1006,
+    1005,
     1005,
     1005
   ],
