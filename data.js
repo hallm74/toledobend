@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.70ft 1:30am",
+  "lakeLevel": "170.73ft 3:00am",
   "currentWeather": {
     "temp": 74.1,
-    "feels_like": 75.2,
+    "feels_like": 75.16,
     "description": "overcast clouds",
-    "wind_speed": 14.99,
-    "wind_deg": 175,
-    "gust": 29.15,
+    "wind_speed": 15.95,
+    "wind_deg": 173,
+    "gust": 33.13,
     "sunrise": "07:01 AM",
     "sunset": "07:33 PM",
     "dayOrNight": "night",
-    "humidity": 85,
+    "humidity": 84,
     "uv_index": 0,
     "pressure": 1006,
     "moon_phase": 0.16,
     "visibility": 10000,
-    "dew_point": 69.3
+    "dew_point": 68.95
   },
   "fiveDayWeather": [
     {
@@ -99,7 +99,14 @@ const data = {
       "event": "Wind Advisory",
       "start": "12:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...South winds 15 to 25 mph with gusts up to 40 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 7 AM to 7 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...For the first Wind Advisory, south winds 20 to 30 mph with\ngusts up to 40 mph expected. For the second Wind Advisory, south\nwinds 20 to 30 mph with gusts up to 35 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Wind Advisory, from 7 AM this morning to 7 PM\nCDT this evening. For the second Wind Advisory, from 7 AM to 7 PM\nCDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Wind Advisory",
+      "start": "12:00:00 PM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...For the first Wind Advisory, south winds 20 to 30 mph with\ngusts up to 40 mph expected. For the second Wind Advisory, south\nwinds 20 to 30 mph with gusts up to 35 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Wind Advisory, from 7 AM this morning to 7 PM\nCDT this evening. For the second Wind Advisory, from 7 AM to 7 PM\nCDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -109,7 +116,7 @@ const data = {
     1006,
     1005,
     1005,
-    1005
+    1006
   ],
   "fishingReport": {
     "date": "Mar 26, 2025",
