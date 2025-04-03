@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "170.61ft 6:30pm",
   "currentWeather": {
-    "temp": 76.24,
-    "feels_like": 77.56,
+    "temp": 75.99,
+    "feels_like": 77.23,
     "description": "overcast clouds",
-    "wind_speed": 13.94,
-    "wind_deg": 178,
-    "gust": 29.28,
+    "wind_speed": 12.64,
+    "wind_deg": 177,
+    "gust": 29.46,
     "sunrise": "07:01 AM",
     "sunset": "07:33 PM",
     "dayOrNight": "night",
-    "humidity": 85,
+    "humidity": 84,
     "uv_index": 0,
-    "pressure": 1008,
+    "pressure": 1009,
     "moon_phase": 0.16,
     "visibility": 10000,
-    "dew_point": 71.4
+    "dew_point": 70.81
   },
   "fiveDayWeather": [
     {
@@ -97,26 +97,19 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "6:47:00 PM",
-      "end": "3:00:00 AM",
-      "description": "* WHAT...For the first Wind Advisory, south winds 15 to 25 mph with\ngusts up to 45 mph. For the second Wind Advisory, south winds 15\nto 25 mph with gusts up to 35 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Wind Advisory, until 10 PM CDT this evening.\nFor the second Wind Advisory, from 7 AM to 7 PM CDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Wind Advisory",
       "start": "12:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...For the first Wind Advisory, south winds 15 to 25 mph with\ngusts up to 45 mph. For the second Wind Advisory, south winds 15\nto 25 mph with gusts up to 35 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Wind Advisory, until 10 PM CDT this evening.\nFor the second Wind Advisory, from 7 AM to 7 PM CDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...South winds 15 to 25 mph with gusts up to 35 mph expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 7 AM to 7 PM CDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1008,
-    1008,
-    1008,
-    1008,
     1009,
-    1009
+    1009,
+    1009,
+    1009,
+    1009,
+    1008
   ],
   "fishingReport": {
     "date": "Apr 2, 2025",
