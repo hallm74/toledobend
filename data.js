@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "170.61ft 6:30pm",
   "currentWeather": {
-    "temp": 76.87,
-    "feels_like": 78.17,
+    "temp": 76.24,
+    "feels_like": 77.56,
     "description": "overcast clouds",
-    "wind_speed": 14.52,
-    "wind_deg": 179,
-    "gust": 32.23,
+    "wind_speed": 13.94,
+    "wind_deg": 178,
+    "gust": 29.28,
     "sunrise": "07:01 AM",
     "sunset": "07:33 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 85,
     "uv_index": 0,
-    "pressure": 1006,
+    "pressure": 1008,
     "moon_phase": 0.16,
     "visibility": 10000,
-    "dew_point": 71.31
+    "dew_point": 71.4
   },
   "fiveDayWeather": [
     {
@@ -111,15 +111,15 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1006,
-    1006,
-    1007,
     1008,
     1008,
+    1008,
+    1008,
+    1009,
     1009
   ],
   "fishingReport": {
-    "date": "Mar 26, 2025",
-    "report": "SLOW. Water stained; 63 degrees; 1.78 feet below pool. Bass are good with many fish in 1-8 feet of water on lizards, brush hogs, Texas rigs, Carolina rigs, senkos and wacky worms. Bass are good with frogs in the flooded bushes. Crappie bite is improving daily in 3-6 feet on jigs. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Apr 2, 2025",
+    "report": "SLOW. Water stained; 62 degrees; 1.18 feet below pool. Water temperature is holding right around 60-64 degrees and the lake is on the rise. Bass are good in 1-6 feet of water with frogs, wacky worms, senkos, and Texas rig lizards. Post spawned fish are starting to show up in 8-12 feet on shallow running crankbait in shad color, or Carolina rigs. If the lake continues to rise, the bass will to the flooded bushes. Crappie fishing has slowed while the creeks are muddy, but as the water clears road runners and tube jigs with 1/16 ounce heads.will be productive. Report by Stephen Johnston, Johnston Fishing."
   }
 };
