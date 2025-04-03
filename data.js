@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.76ft 1:45pm",
+  "lakeLevel": "170.76ft 2:30pm",
   "currentWeather": {
-    "temp": 83.28,
-    "feels_like": 87.35,
+    "temp": 83.68,
+    "feels_like": 88.05,
     "description": "clear sky",
-    "wind_speed": 17.67,
-    "wind_deg": 175,
-    "gust": 34.05,
+    "wind_speed": 17.11,
+    "wind_deg": 174,
+    "gust": 31.12,
     "sunrise": "07:00 AM",
     "sunset": "07:34 PM",
     "dayOrNight": "day",
     "humidity": 64,
-    "uv_index": 8.15,
+    "uv_index": 5.68,
     "pressure": 1009,
     "moon_phase": 0.2,
     "visibility": 10000,
-    "dew_point": 69.84
+    "dew_point": 70.21
   },
   "fiveDayWeather": [
     {
@@ -97,16 +97,16 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "12:00:00 PM",
+      "start": "7:17:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...For the first Wind Advisory, south winds 15 to 20 mph with\ngusts up to 35 mph expected. For the second Wind Advisory, south\nwinds 15 to 20 mph with gusts up to 35 mph expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...For the first Wind Advisory, from 7 AM this morning to 7 PM\nCDT this evening. For the second Wind Advisory, from noon to 7 PM\nCDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...For the first Wind Advisory, south winds 15 to 20 mph with\ngusts up to 35 mph. For the second Wind Advisory, south winds 15\nto 20 mph with gusts up to 35 mph expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...For the first Wind Advisory, until 7 PM CDT this evening.\nFor the second Wind Advisory, from noon to 7 PM CDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Wind Advisory",
       "start": "5:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...For the first Wind Advisory, south winds 15 to 20 mph with\ngusts up to 35 mph expected. For the second Wind Advisory, south\nwinds 15 to 20 mph with gusts up to 35 mph expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...For the first Wind Advisory, from 7 AM this morning to 7 PM\nCDT this evening. For the second Wind Advisory, from noon to 7 PM\nCDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...For the first Wind Advisory, south winds 15 to 20 mph with\ngusts up to 35 mph. For the second Wind Advisory, south winds 15\nto 20 mph with gusts up to 35 mph expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...For the first Wind Advisory, until 7 PM CDT this evening.\nFor the second Wind Advisory, from noon to 7 PM CDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -115,8 +115,8 @@ const data = {
     1009,
     1009,
     1008,
-    1008,
-    1009
+    1009,
+    1010
   ],
   "fishingReport": {
     "date": "Apr 2, 2025",
