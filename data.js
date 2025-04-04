@@ -1,8 +1,8 @@
 const data = {
-  "lakeLevel": "170.88ft 7:00am",
+  "lakeLevel": "170.86ft 8:00am",
   "currentWeather": {
-    "temp": 75.22,
-    "feels_like": 76.53,
+    "temp": 75.25,
+    "feels_like": 76.57,
     "description": "overcast clouds",
     "wind_speed": 11.36,
     "wind_deg": 152,
@@ -15,7 +15,7 @@ const data = {
     "pressure": 1013,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 71.08
+    "dew_point": 71.11
   },
   "fiveDayWeather": [
     {
@@ -109,10 +109,10 @@ const data = {
     1013,
     1013,
     1013,
-    1013
+    1012
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Apr 2, 2025",
+    "report": "SLOW. Water stained; 62 degrees; 1.18 feet below pool. Water temperature is holding right around 60-64 degrees and the lake is on the rise. Bass are good in 1-6 feet of water with frogs, wacky worms, senkos, and Texas rig lizards. Post spawned fish are starting to show up in 8-12 feet on shallow running crankbait in shad color, or Carolina rigs. If the lake continues to rise, the bass will to the flooded bushes. Crappie fishing has slowed while the creeks are muddy, but as the water clears road runners and tube jigs with 1/16 ounce heads.will be productive. Report by Stephen Johnston, Johnston Fishing."
   }
 };
