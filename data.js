@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.66ft 1:30pm",
+  "lakeLevel": "170.65ft 2:30pm",
   "currentWeather": {
-    "temp": 83.73,
-    "feels_like": 88.72,
+    "temp": 83.59,
+    "feels_like": 87.89,
     "description": "clear sky",
-    "wind_speed": 16.31,
-    "wind_deg": 170,
-    "gust": 29.33,
+    "wind_speed": 16.78,
+    "wind_deg": 168,
+    "gust": 28.88,
     "sunrise": "06:58 AM",
     "sunset": "07:35 PM",
     "dayOrNight": "day",
-    "humidity": 66,
-    "uv_index": 8.62,
+    "humidity": 64,
+    "uv_index": 7.11,
     "pressure": 1012,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 71.17
+    "dew_point": 70.12
   },
   "fiveDayWeather": [
     {
@@ -97,18 +97,18 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "5:00:00 PM",
+      "start": "7:22:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...South winds 15 to 20 mph with gusts up to 35 mph expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...From noon today to 7 PM CDT this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...South winds 20 to 25 mph with gusts up to 35 mph.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...Until 7 PM CDT this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
     1012,
     1012,
-    1012,
     1011,
-    1010,
+    1011,
+    1011,
     1011
   ],
   "fishingReport": {
