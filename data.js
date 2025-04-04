@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "170.66ft 6:30pm",
   "currentWeather": {
-    "temp": 76.86,
-    "feels_like": 78.1,
-    "description": "scattered clouds",
-    "wind_speed": 11.88,
-    "wind_deg": 167,
-    "gust": 26.22,
+    "temp": 75.97,
+    "feels_like": 77.27,
+    "description": "broken clouds",
+    "wind_speed": 9.53,
+    "wind_deg": 166,
+    "gust": 22.68,
     "sunrise": "07:00 AM",
     "sunset": "07:34 PM",
     "dayOrNight": "night",
-    "humidity": 82,
+    "humidity": 85,
     "uv_index": 0,
-    "pressure": 1010,
+    "pressure": 1012,
     "moon_phase": 0.2,
     "visibility": 10000,
-    "dew_point": 70.93
+    "dew_point": 71.13
   },
   "fiveDayWeather": [
     {
@@ -99,15 +99,15 @@ const data = {
       "event": "Wind Advisory",
       "start": "5:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...For the first Wind Advisory, south winds 15 to 20 mph with\ngusts up to 35 mph. For the second Wind Advisory, south winds 15\nto 20 mph with gusts up to 35 mph expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...For the first Wind Advisory, until 7 PM CDT this evening.\nFor the second Wind Advisory, from noon to 7 PM CDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...South winds 15 to 20 mph with gusts up to 35 mph expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...From noon to 7 PM CDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1010,
-    1010,
-    1011,
-    1011,
+    1012,
+    1012,
+    1012,
+    1012,
     1012,
     1012
   ],
