@@ -1,26 +1,26 @@
 const data = {
   "lakeLevel": "170.99ft 6:30pm",
   "currentWeather": {
-    "temp": 66.56,
-    "feels_like": 67.42,
-    "description": "moderate rain",
-    "wind_speed": 8.84,
-    "wind_deg": 301,
-    "gust": 15.01,
+    "temp": 64.27,
+    "feels_like": 64.92,
+    "description": "overcast clouds",
+    "wind_speed": 7.31,
+    "wind_deg": 299,
+    "gust": 15.61,
     "sunrise": "06:57 AM",
     "sunset": "07:35 PM",
     "dayOrNight": "night",
     "humidity": 96,
     "uv_index": 0,
-    "pressure": 1009,
+    "pressure": 1010,
     "moon_phase": 0.27,
-    "visibility": 553,
-    "dew_point": 65.39
+    "visibility": 813,
+    "dew_point": 63.1
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 66.06,
+      "high": 64.47,
       "low": 49.15,
       "description": "light rain",
       "wind_speed": 13.24,
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.3,
       "dew_point": 48.79,
-      "visibility": 8895
+      "visibility": 8941
     },
     {
       "date": "Monday",
@@ -97,19 +97,19 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Tornado Watch",
-      "start": "5:39:00 PM",
-      "end": "2:00:00 AM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 123 IN\nEFFECT UNTIL 9 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 2 PARISHES\n\nIN SOUTHWEST LOUISIANA\n\nBEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE,\nFIELDS, FORT JOHNSON, FRED, GIST, HILLISTER, HOLLY SPRINGS,\nIVANHOE, JAMESTOWN, JASPER, KIRBYVILLE, LEESVILLE, LUMBERTON,\nMAGNOLIA SPRINGS, MT. UNION, NEWTON, ORANGE, ORETTA, PICKERING,\nSABINE PASS, SEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER,\nTOWN BLUFF, VIDOR, WARREN, WIERGATE, AND WOODVILLE.",
+      "start": "2:14:00 AM",
+      "end": "5:00:00 AM",
+      "description": "TORNADO WATCH 127 REMAINS VALID UNTIL MIDNIGHT CDT TONIGHT FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN CENTRAL LOUISIANA\n\nRAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nBEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 2 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE, FIELDS,\nFORT JOHNSON, GIST, HOLLY SPRINGS, JAMESTOWN, JASPER, KIRBYVILLE,\nLEESVILLE, MAGNOLIA SPRINGS, MT. UNION, NEWTON, ORETTA,\nPICKERING, PINEVILLE, SLAGLE, AND WIERGATE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1009,
-    1009,
-    1009,
-    1009,
     1010,
-    1011
+    1010,
+    1010,
+    1010,
+    1011,
+    1012
   ],
   "fishingReport": {
     "date": "Apr 2, 2025",
