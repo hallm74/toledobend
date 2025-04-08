@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.15ft 6:30pm",
   "currentWeather": {
-    "temp": 48.2,
-    "feels_like": 45.97,
+    "temp": 46.89,
+    "feels_like": 44.51,
     "description": "clear sky",
-    "wind_speed": 5.21,
-    "wind_deg": 340,
-    "gust": 8.41,
-    "sunrise": "06:55 AM",
+    "wind_speed": 5.08,
+    "wind_deg": 334,
+    "gust": 8.32,
+    "sunrise": "06:54 AM",
     "sunset": "07:37 PM",
     "dayOrNight": "night",
-    "humidity": 88,
+    "humidity": 90,
     "uv_index": 0,
     "pressure": 1019,
-    "moon_phase": 0.34,
+    "moon_phase": 0.37,
     "visibility": 10000,
-    "dew_point": 44.82
+    "dew_point": 44.11
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 68.31,
-      "low": 45.77,
-      "description": "clear sky",
-      "wind_speed": 5.08,
-      "wind_deg": 334,
-      "gust": 8.32,
-      "humidity": 35,
-      "uv_index": 8.21,
-      "pressure": 1022,
-      "moon_phase": 0.37,
-      "dew_point": 38.55,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 76.62,
@@ -52,7 +37,7 @@ const data = {
       "date": "Thursday",
       "high": 82.13,
       "low": 54.32,
-      "description": "clear sky",
+      "description": "light rain",
       "wind_speed": 8.08,
       "wind_deg": 186,
       "gust": 25.86,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.43,
       "dew_point": 55.02,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.5,
       "dew_point": 47.08,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 80.73,
+      "low": 53.55,
+      "description": "clear sky",
+      "wind_speed": 12.68,
+      "wind_deg": 186,
+      "gust": 27.67,
+      "humidity": 46,
+      "uv_index": 9,
+      "pressure": 1018,
+      "moon_phase": 0.52,
+      "dew_point": 56.37,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,7 +99,7 @@ const data = {
     1019,
     1019,
     1019,
-    1020,
+    1019,
     1020,
     1020
   ],
