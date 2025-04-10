@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.22ft 7:30am",
+  "lakeLevel": "171.21ft 8:30am",
   "currentWeather": {
-    "temp": 54.95,
-    "feels_like": 54.61,
+    "temp": 62.78,
+    "feels_like": 62.76,
     "description": "clear sky",
-    "wind_speed": 4.25,
-    "wind_deg": 206,
-    "gust": 10.47,
+    "wind_speed": 5.39,
+    "wind_deg": 227,
+    "gust": 9.98,
     "sunrise": "06:51 AM",
     "sunset": "07:39 PM",
     "dayOrNight": "day",
-    "humidity": 95,
-    "uv_index": 0.41,
+    "humidity": 85,
+    "uv_index": 1.5,
     "pressure": 1022,
     "moon_phase": 0.43,
     "visibility": 10000,
-    "dew_point": 53.55
+    "dew_point": 58.21
   },
   "fiveDayWeather": [
     {
@@ -100,11 +100,11 @@ const data = {
     1022,
     1022,
     1022,
-    1022,
+    1021,
     1021
   ],
   "fishingReport": {
-    "date": "Apr 2, 2025",
-    "report": "SLOW. Water stained; 62 degrees; 1.18 feet below pool. Water temperature is holding right around 60-64 degrees and the lake is on the rise. Bass are good in 1-6 feet of water with frogs, wacky worms, senkos, and Texas rig lizards. Post spawned fish are starting to show up in 8-12 feet on shallow running crankbait in shad color, or Carolina rigs. If the lake continues to rise, the bass will to the flooded bushes. Crappie fishing has slowed while the creeks are muddy, but as the water clears road runners and tube jigs with 1/16 ounce heads.will be productive. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Apr 9, 2025",
+    "report": "SLOW. Water stained; 62 degrees; 0.85 feet below pool. Water temperature is holding right around 60-64 degrees and the lake is on the rise. Bass are good in 1-6 feet of water with frogs, wacky worms, senkos, and Texas rig lizards. Post spawned fish are starting to show up in 8-12 feet on shallow running crankbait in shad color, or Carolina rigs. If the lake continues to rise, the bass will go to the flooded bushes. Crappie fishing has slowed while the creeks are muddy, but as the water clears road runners and tube jigs with 1/16 ounce heads.will be productive. Report by Stephen Johnston, Johnston Fishing."
   }
 };
