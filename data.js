@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.16ft 6:30pm",
   "currentWeather": {
-    "temp": 60.73,
-    "feels_like": 59.85,
+    "temp": 59.11,
+    "feels_like": 58.42,
     "description": "clear sky",
-    "wind_speed": 8.28,
-    "wind_deg": 194,
-    "gust": 24.27,
-    "sunrise": "06:52 AM",
-    "sunset": "07:38 PM",
+    "wind_speed": 7.16,
+    "wind_deg": 195,
+    "gust": 22.93,
+    "sunrise": "06:51 AM",
+    "sunset": "07:39 PM",
     "dayOrNight": "night",
-    "humidity": 71,
+    "humidity": 79,
     "uv_index": 0,
-    "pressure": 1020,
-    "moon_phase": 0.4,
+    "pressure": 1021,
+    "moon_phase": 0.43,
     "visibility": 10000,
-    "dew_point": 51.28
+    "dew_point": 52.61
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 81.36,
-      "low": 49.12,
-      "description": "clear sky",
-      "wind_speed": 7.34,
-      "wind_deg": 188,
-      "gust": 22.93,
-      "humidity": 44,
-      "uv_index": 8.86,
-      "pressure": 1021,
-      "moon_phase": 0.43,
-      "dew_point": 53.91,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 74.88,
@@ -55,13 +40,13 @@ const data = {
       "description": "clear sky",
       "wind_speed": 6.24,
       "wind_deg": 161,
-      "gust": 15.57,
+      "gust": 15.82,
       "humidity": 40,
       "uv_index": 9.23,
       "pressure": 1021,
       "moon_phase": 0.5,
       "dew_point": 45.66,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,19 +77,34 @@ const data = {
       "moon_phase": 0.55,
       "dew_point": 58.06,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 78.04,
+      "low": 57.94,
+      "description": "light rain",
+      "wind_speed": 10.65,
+      "wind_deg": 356,
+      "gust": 20.54,
+      "humidity": 30,
+      "uv_index": 10,
+      "pressure": 1021,
+      "moon_phase": 0.58,
+      "dew_point": 41.56,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
-    1020,
+    1021,
+    1021,
+    1021,
     1020,
     1020,
     1020
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Apr 2, 2025",
+    "report": "SLOW. Water stained; 62 degrees; 1.18 feet below pool. Water temperature is holding right around 60-64 degrees and the lake is on the rise. Bass are good in 1-6 feet of water with frogs, wacky worms, senkos, and Texas rig lizards. Post spawned fish are starting to show up in 8-12 feet on shallow running crankbait in shad color, or Carolina rigs. If the lake continues to rise, the bass will to the flooded bushes. Crappie fishing has slowed while the creeks are muddy, but as the water clears road runners and tube jigs with 1/16 ounce heads.will be productive. Report by Stephen Johnston, Johnston Fishing."
   }
 };
