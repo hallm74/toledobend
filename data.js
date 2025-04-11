@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.24ft 6:30pm",
   "currentWeather": {
-    "temp": 65.25,
-    "feels_like": 65.46,
+    "temp": 64.04,
+    "feels_like": 64.15,
     "description": "clear sky",
-    "wind_speed": 4.12,
-    "wind_deg": 294,
-    "gust": 4.92,
-    "sunrise": "06:51 AM",
+    "wind_speed": 4.47,
+    "wind_deg": 249,
+    "gust": 7.67,
+    "sunrise": "06:50 AM",
     "sunset": "07:39 PM",
     "dayOrNight": "night",
     "humidity": 85,
     "uv_index": 0,
     "pressure": 1021,
-    "moon_phase": 0.43,
+    "moon_phase": 0.46,
     "visibility": 10000,
-    "dew_point": 60.62
+    "dew_point": 59.45
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 76.84,
-      "low": 55.15,
-      "description": "light rain",
-      "wind_speed": 11.34,
-      "wind_deg": 336,
-      "gust": 17.56,
-      "humidity": 31,
-      "uv_index": 8.59,
-      "pressure": 1023,
-      "moon_phase": 0.46,
-      "dew_point": 42.94,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 73.36,
@@ -55,13 +40,13 @@ const data = {
       "description": "clear sky",
       "wind_speed": 12.53,
       "wind_deg": 183,
-      "gust": 29.91,
+      "gust": 30.31,
       "humidity": 37,
       "uv_index": 9.61,
       "pressure": 1017,
       "moon_phase": 0.52,
       "dew_point": 51.98,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.58,
       "dew_point": 40.91,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 79.14,
+      "low": 53.64,
+      "description": "scattered clouds",
+      "wind_speed": 10.71,
+      "wind_deg": 179,
+      "gust": 27,
+      "humidity": 38,
+      "uv_index": 10,
+      "pressure": 1020,
+      "moon_phase": 0.61,
+      "dew_point": 49.55,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -101,7 +101,7 @@ const data = {
     1021,
     1021,
     1021,
-    1021
+    1022
   ],
   "fishingReport": {
     "date": "Apr 9, 2025",
