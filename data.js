@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.13ft 6:45pm",
   "currentWeather": {
-    "temp": 67.93,
-    "feels_like": 68.5,
+    "temp": 66.65,
+    "feels_like": 67.24,
     "description": "broken clouds",
-    "wind_speed": 6.44,
-    "wind_deg": 208,
-    "gust": 21.16,
-    "sunrise": "06:47 AM",
-    "sunset": "07:41 PM",
+    "wind_speed": 5.79,
+    "wind_deg": 198,
+    "gust": 17.43,
+    "sunrise": "06:45 AM",
+    "sunset": "07:42 PM",
     "dayOrNight": "night",
-    "humidity": 87,
+    "humidity": 90,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.55,
+    "moon_phase": 0.58,
     "visibility": 10000,
-    "dew_point": 63.91
+    "dew_point": 63.63
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 73.89,
-      "low": 58.98,
-      "description": "light rain",
-      "wind_speed": 12.97,
-      "wind_deg": 38,
-      "gust": 23.98,
-      "humidity": 39,
-      "uv_index": 9.17,
-      "pressure": 1024,
-      "moon_phase": 0.58,
-      "dew_point": 40.73,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 78.94,
@@ -55,13 +40,13 @@ const data = {
       "description": "overcast clouds",
       "wind_speed": 13.8,
       "wind_deg": 187,
-      "gust": 27.89,
+      "gust": 28.57,
       "humidity": 44,
       "uv_index": 9.68,
       "pressure": 1016,
       "moon_phase": 0.64,
       "dew_point": 58.78,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.71,
       "dew_point": 64,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 85.78,
+      "low": 69.57,
+      "description": "moderate rain",
+      "wind_speed": 14.38,
+      "wind_deg": 184,
+      "gust": 25.97,
+      "humidity": 47,
+      "uv_index": 10,
+      "pressure": 1011,
+      "moon_phase": 0.75,
+      "dew_point": 63.12,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -100,7 +100,7 @@ const data = {
     1018,
     1018,
     1019,
-    1019,
+    1020,
     1020
   ],
   "fishingReport": {
