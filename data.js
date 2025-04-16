@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.20ft 2:30pm",
+  "lakeLevel": "171.19ft 3:30pm",
   "currentWeather": {
-    "temp": 79.84,
-    "feels_like": 79.84,
+    "temp": 80.29,
+    "feels_like": 79.74,
     "description": "clear sky",
-    "wind_speed": 6.42,
-    "wind_deg": 156,
-    "gust": 9.51,
+    "wind_speed": 7.11,
+    "wind_deg": 161,
+    "gust": 10,
     "sunrise": "06:44 AM",
     "sunset": "07:42 PM",
     "dayOrNight": "day",
-    "humidity": 34,
-    "uv_index": 7.78,
-    "pressure": 1018,
+    "humidity": 35,
+    "uv_index": 5.24,
+    "pressure": 1017,
     "moon_phase": 0.61,
     "visibility": 10000,
-    "dew_point": 49.01
+    "dew_point": 50.18
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
+    1017,
     1017,
     1017,
     1016,
-    1016
+    1016,
+    1017
   ],
   "fishingReport": {
-    "date": "Apr 9, 2025",
-    "report": "SLOW. Water stained; 62 degrees; 0.85 feet below pool. Water temperature is holding right around 60-64 degrees and the lake is on the rise. Bass are good in 1-6 feet of water with frogs, wacky worms, senkos, and Texas rig lizards. Post spawned fish are starting to show up in 8-12 feet on shallow running crankbait in shad color, or Carolina rigs. If the lake continues to rise, the bass will go to the flooded bushes. Crappie fishing has slowed while the creeks are muddy, but as the water clears road runners and tube jigs with 1/16 ounce heads.will be productive. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Apr 16, 2025",
+    "report": "SLOW. Water stained; 62 degrees; 0.78 feet below pool. More rain in the weekend forecast, be sure to watch weather reports. Bass are good with reported catches up to 9 pounds. While the water remains high the bass are staying shallow in 1-7 feet of water. There is a good bite on wacky worms, swimbaits and chatterbaits. Many fish are still spawning after the full moon and many are post spawn. Crappie are still hit-and-miss with a few showing up on shallow brush piles and some in the creeks. Live bait and road runners are best. Report by Stephen Johnston, Johnston Fishing."
   }
 };
