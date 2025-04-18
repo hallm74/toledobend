@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.21ft 3:45pm",
+  "lakeLevel": "171.18ft 4:45pm",
   "currentWeather": {
-    "temp": 84.56,
-    "feels_like": 86.83,
+    "temp": 83.39,
+    "feels_like": 85.84,
     "description": "broken clouds",
-    "wind_speed": 15.28,
-    "wind_deg": 179,
-    "gust": 24,
+    "wind_speed": 13.44,
+    "wind_deg": 177,
+    "gust": 23.58,
     "sunrise": "06:42 AM",
     "sunset": "07:44 PM",
     "dayOrNight": "day",
-    "humidity": 54,
-    "uv_index": 5.29,
+    "humidity": 57,
+    "uv_index": 2.54,
     "pressure": 1015,
     "moon_phase": 0.67,
     "visibility": 10000,
-    "dew_point": 66.09
+    "dew_point": 66.56
   },
   "fiveDayWeather": [
     {
@@ -100,11 +100,11 @@ const data = {
     1015,
     1015,
     1015,
-    1015,
-    1016
+    1016,
+    1017
   ],
   "fishingReport": {
-    "date": "Apr 16, 2025",
-    "report": "SLOW. Water stained; 62 degrees; 0.78 feet below pool. More rain in the weekend forecast, be sure to watch weather reports. Bass are good with reported catches up to 9 pounds. While the water remains high the bass are staying shallow in 1-7 feet of water. There is a good bite on wacky worms, swimbaits and chatterbaits. Many fish are still spawning after the full moon and many are post spawn. Crappie are still hit-and-miss with a few showing up on shallow brush piles and some in the creeks. Live bait and road runners are best. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
