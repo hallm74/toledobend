@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.36ft 6:45pm",
   "currentWeather": {
-    "temp": 71.94,
-    "feels_like": 73.02,
+    "temp": 71.33,
+    "feels_like": 72.39,
     "description": "clear sky",
-    "wind_speed": 6.98,
-    "wind_deg": 181,
-    "gust": 24.56,
-    "sunrise": "06:40 AM",
-    "sunset": "07:45 PM",
+    "wind_speed": 5.61,
+    "wind_deg": 184,
+    "gust": 21.25,
+    "sunrise": "06:39 AM",
+    "sunset": "07:46 PM",
     "dayOrNight": "night",
-    "humidity": 89,
+    "humidity": 90,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.75,
+    "moon_phase": 0.77,
     "visibility": 10000,
-    "dew_point": 68.52
+    "dew_point": 68.25
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 75.47,
-      "low": 67.03,
-      "description": "moderate rain",
-      "wind_speed": 5.61,
-      "wind_deg": 184,
-      "gust": 21.25,
-      "humidity": 102,
-      "uv_index": 7.72,
-      "pressure": 1018,
-      "moon_phase": 0.77,
-      "dew_point": 67.66,
-      "visibility": 9459
-    },
     {
       "date": "Tuesday",
       "high": 83.91,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.81,
       "dew_point": 64.29,
-      "visibility": 10000
+      "visibility": 9459
     },
     {
       "date": "Wednesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.84,
       "dew_point": 66.15,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.92,
       "dew_point": 65.07,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 86.27,
+      "low": 66.2,
+      "description": "overcast clouds",
+      "wind_speed": 5.35,
+      "wind_deg": 192,
+      "gust": 14.32,
+      "humidity": 57,
+      "uv_index": 9,
+      "pressure": 1019,
+      "moon_phase": 0.96,
+      "dew_point": 63.86,
       "visibility": "Unavailable"
     }
   ],
