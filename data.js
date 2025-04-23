@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.75ft 4:45am",
+  "lakeLevel": "171.76ft 5:45am",
   "currentWeather": {
-    "temp": 67.86,
-    "feels_like": 68.76,
+    "temp": 67.78,
+    "feels_like": 68.72,
     "description": "broken clouds",
-    "wind_speed": 4.12,
-    "wind_deg": 162,
-    "gust": 9.35,
+    "wind_speed": 5.53,
+    "wind_deg": 163,
+    "gust": 16.67,
     "sunrise": "06:37 AM",
     "sunset": "07:47 PM",
     "dayOrNight": "night",
-    "humidity": 94,
+    "humidity": 95,
     "uv_index": 0,
     "pressure": 1015,
     "moon_phase": 0.84,
     "visibility": 10000,
-    "dew_point": 66.07
+    "dew_point": 66.31
   },
   "fiveDayWeather": [
     {
@@ -46,12 +46,12 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.92,
       "dew_point": 63.57,
-      "visibility": 9887
+      "visibility": 9700
     },
     {
       "date": "Saturday",
       "high": 87.64,
-      "low": 64.35,
+      "low": 63.95,
       "description": "overcast clouds",
       "wind_speed": 7.74,
       "wind_deg": 189,
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1015,
     1015,
-    1015,
+    1016,
     1016,
     1017,
     1017
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Apr 16, 2025",
+    "report": "SLOW. Water stained; 62 degrees; 0.78 feet below pool. More rain in the weekend forecast, be sure to watch weather reports. Bass are good with reported catches up to 9 pounds. While the water remains high the bass are staying shallow in 1-7 feet of water. There is a good bite on wacky worms, swimbaits and chatterbaits. Many fish are still spawning after the full moon and many are post spawn. Crappie are still hit-and-miss with a few showing up on shallow brush piles and some in the creeks. Live bait and road runners are best. Report by Stephen Johnston, Johnston Fishing."
   }
 };
