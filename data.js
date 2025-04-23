@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.73ft 2:45pm",
+  "lakeLevel": "171.72ft 3:45pm",
   "currentWeather": {
-    "temp": 74.62,
-    "feels_like": 75.83,
-    "description": "moderate rain",
-    "wind_speed": 6.04,
-    "wind_deg": 166,
-    "gust": 12.03,
+    "temp": 74.75,
+    "feels_like": 76.01,
+    "description": "overcast clouds",
+    "wind_speed": 4.76,
+    "wind_deg": 161,
+    "gust": 10.92,
     "sunrise": "06:37 AM",
     "sunset": "07:47 PM",
     "dayOrNight": "day",
-    "humidity": 86,
-    "uv_index": 1.02,
+    "humidity": 87,
+    "uv_index": 0.63,
     "pressure": 1016,
     "moon_phase": 0.84,
     "visibility": 10000,
-    "dew_point": 70.16
+    "dew_point": 70.63
   },
   "fiveDayWeather": [
     {
@@ -104,7 +104,7 @@ const data = {
     1015
   ],
   "fishingReport": {
-    "date": "Apr 16, 2025",
-    "report": "SLOW. Water stained; 62 degrees; 0.78 feet below pool. More rain in the weekend forecast, be sure to watch weather reports. Bass are good with reported catches up to 9 pounds. While the water remains high the bass are staying shallow in 1-7 feet of water. There is a good bite on wacky worms, swimbaits and chatterbaits. Many fish are still spawning after the full moon and many are post spawn. Crappie are still hit-and-miss with a few showing up on shallow brush piles and some in the creeks. Live bait and road runners are best. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Apr 23, 2025",
+    "report": "SLOW. Water stained; 62 degrees; 0.36 feet below pool. There are still numbers of bass on the bank in 1-5 feet biting wacky worms and senko. A few bass are starting to move out to 6-12 feet hitting Carolina rigs, Texas rigs and mid running crankbaits. The shad spawn should start any day, as hot as it has gotten the last couple days. When this starts, target points with spinnerbaits, swimjigs and topwaters. Most days this pattern lasts for about an hour in the morning. Crappie action is finally picking up in 5-9 feet of water, shallow timber, brush piles and shallow docks with jigs. Few reports came in this week at night on lighted docks. Report by Stephen Johnston, Johnston Fishing."
   }
 };
