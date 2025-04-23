@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.60ft 6:45pm",
+  "lakeLevel": "171.63ft 12:45am",
   "currentWeather": {
-    "temp": 70.09,
-    "feels_like": 71.02,
-    "description": "clear sky",
-    "wind_speed": 4.81,
-    "wind_deg": 174,
-    "gust": 13.8,
+    "temp": 69.73,
+    "feels_like": 70.77,
+    "description": "few clouds",
+    "wind_speed": 4.32,
+    "wind_deg": 169,
+    "gust": 13.62,
     "sunrise": "06:37 AM",
     "sunset": "07:47 PM",
     "dayOrNight": "night",
-    "humidity": 90,
+    "humidity": 93,
     "uv_index": 0,
     "pressure": 1016,
     "moon_phase": 0.84,
     "visibility": 10000,
-    "dew_point": 67.03
+    "dew_point": 67.62
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "5:57:00 AM",
+      "end": "6:30:00 AM",
+      "description": "At 1257 AM CDT, Doppler radar was tracking a strong thunderstorm 7\nmiles north of Mayflower, or 11 miles west of Toledo Bend Dam, moving\neast at 15 mph.\n\nHAZARD...Wind gusts up to 50 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nToledo Bend Dam.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1016,
     1016,
     1016,
     1015,
     1015,
-    1015
+    1016
   ],
   "fishingReport": {
     "date": "Apr 16, 2025",
