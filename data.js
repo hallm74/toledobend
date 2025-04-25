@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.81ft 3:45pm",
+  "lakeLevel": "171.81ft 4:45pm",
   "currentWeather": {
-    "temp": 84.58,
-    "feels_like": 88.81,
+    "temp": 84.18,
+    "feels_like": 88.68,
     "description": "scattered clouds",
-    "wind_speed": 3.94,
-    "wind_deg": 155,
-    "gust": 5.37,
+    "wind_speed": 4.23,
+    "wind_deg": 141,
+    "gust": 5.59,
     "sunrise": "06:35 AM",
     "sunset": "07:49 PM",
     "dayOrNight": "day",
-    "humidity": 61,
-    "uv_index": 5.03,
+    "humidity": 63,
+    "uv_index": 2.31,
     "pressure": 1016,
     "moon_phase": 0.92,
     "visibility": 10000,
-    "dew_point": 69.66
+    "dew_point": 70.21
   },
   "fiveDayWeather": [
     {
@@ -101,10 +101,10 @@ const data = {
     1016,
     1016,
     1016,
-    1016
+    1017
   ],
   "fishingReport": {
-    "date": "Apr 23, 2025",
-    "report": "SLOW. Water stained; 62 degrees; 0.36 feet below pool. There are still numbers of bass on the bank in 1-5 feet biting wacky worms and senko. A few bass are starting to move out to 6-12 feet hitting Carolina rigs, Texas rigs and mid running crankbaits. The shad spawn should start any day, as hot as it has gotten the last couple days. When this starts, target points with spinnerbaits, swimjigs and topwaters. Most days this pattern lasts for about an hour in the morning. Crappie action is finally picking up in 5-9 feet of water, shallow timber, brush piles and shallow docks with jigs. Few reports came in this week at night on lighted docks. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
