@@ -1,37 +1,37 @@
 const data = {
-  "lakeLevel": "171.77ft 5:45pm",
+  "lakeLevel": "171.78ft 6:45pm",
   "currentWeather": {
-    "temp": 77.63,
-    "feels_like": 78.24,
+    "temp": 74.57,
+    "feels_like": 75.25,
     "description": "broken clouds",
-    "wind_speed": 9.37,
-    "wind_deg": 186,
-    "gust": 19.04,
+    "wind_speed": 7.78,
+    "wind_deg": 184,
+    "gust": 20.87,
     "sunrise": "06:36 AM",
     "sunset": "07:48 PM",
     "dayOrNight": "day",
-    "humidity": 67,
-    "uv_index": 0.4,
+    "humidity": 75,
+    "uv_index": 0.03,
     "pressure": 1014,
     "moon_phase": 0.88,
     "visibility": 10000,
-    "dew_point": 65.8
+    "dew_point": 66.13
   },
   "fiveDayWeather": [
     {
       "date": "Friday",
       "high": 85.71,
-      "low": 67.82,
-      "description": "light rain",
-      "wind_speed": 5.91,
-      "wind_deg": 183,
-      "gust": 13.04,
-      "humidity": 74,
+      "low": 68.2,
+      "description": "moderate rain",
+      "wind_speed": 6.11,
+      "wind_deg": 156,
+      "gust": 17.92,
+      "humidity": 75,
       "uv_index": 9.44,
       "pressure": 1018,
       "moon_phase": 0.92,
-      "dew_point": 70.14,
-      "visibility": 9619
+      "dew_point": 69.98,
+      "visibility": 9823
     },
     {
       "date": "Saturday",
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1014,
     1014,
-    1014,
     1015,
     1016,
+    1015,
     1015
   ],
   "fishingReport": {
-    "date": "Apr 23, 2025",
-    "report": "SLOW. Water stained; 62 degrees; 0.36 feet below pool. There are still numbers of bass on the bank in 1-5 feet biting wacky worms and senko. A few bass are starting to move out to 6-12 feet hitting Carolina rigs, Texas rigs and mid running crankbaits. The shad spawn should start any day, as hot as it has gotten the last couple days. When this starts, target points with spinnerbaits, swimjigs and topwaters. Most days this pattern lasts for about an hour in the morning. Crappie action is finally picking up in 5-9 feet of water, shallow timber, brush piles and shallow docks with jigs. Few reports came in this week at night on lighted docks. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
