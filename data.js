@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.08ft 4:45pm",
+  "lakeLevel": "171.04ft 5:45pm",
   "currentWeather": {
-    "temp": 79.99,
-    "feels_like": 79.99,
+    "temp": 78.75,
+    "feels_like": 78.75,
     "description": "scattered clouds",
-    "wind_speed": 13.53,
-    "wind_deg": 176,
-    "gust": 26.19,
+    "wind_speed": 14.63,
+    "wind_deg": 185,
+    "gust": 27.29,
     "sunrise": "06:30 AM",
     "sunset": "07:52 PM",
     "dayOrNight": "day",
-    "humidity": 65,
-    "uv_index": 2.9,
+    "humidity": 69,
+    "uv_index": 1.08,
     "pressure": 1011,
     "moon_phase": 0.11,
     "visibility": 10000,
-    "dew_point": 67.17
+    "dew_point": 67.71
   },
   "fiveDayWeather": [
     {
@@ -50,7 +50,7 @@ const data = {
     },
     {
       "date": "Saturday",
-      "high": 74.79,
+      "high": 75.47,
       "low": 63.19,
       "description": "moderate rain",
       "wind_speed": 7.02,
@@ -99,12 +99,12 @@ const data = {
     1011,
     1011,
     1011,
-    1010,
     1012,
-    1012
+    1012,
+    1013
   ],
   "fishingReport": {
-    "date": "Apr 23, 2025",
-    "report": "SLOW. Water stained; 62 degrees; 0.36 feet below pool. There are still numbers of bass on the bank in 1-5 feet biting wacky worms and senko. A few bass are starting to move out to 6-12 feet hitting Carolina rigs, Texas rigs and mid running crankbaits. The shad spawn should start any day, as hot as it has gotten the last couple days. When this starts, target points with spinnerbaits, swimjigs and topwaters. Most days this pattern lasts for about an hour in the morning. Crappie action is finally picking up in 5-9 feet of water, shallow timber, brush piles and shallow docks with jigs. Few reports came in this week at night on lighted docks. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Apr 30, 2025",
+    "report": "SLOW. Water stained; 73 degrees; 0.56 feet below pool. Bass topwater action has finally started on yellow magics, spooks and buzz baits. The frog bite is good in flooded bushes, hay grass. Expect many fish to stay shallow in the flooded cover. There are some bass starting to make the way back off the bank in 10-14 feet of water hitting crankbaits and Texas rigged worms. More fish will push deep as the water temperature rises. Crappie are still fair in the creeks. Target main lake points and shallow bushes piles with 1/16 ounce big head jigs with tube or curly tail. There is some white bass action from the bridge north. Cast big crankbaits and spoons on the main lake ridge ends in 12-18 feet of water. Report by Stephen Johnston, Johnston Fishing."
   }
 };
