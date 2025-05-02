@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.21ft 11:45am",
+  "lakeLevel": "171.24ft 12:45pm",
   "currentWeather": {
-    "temp": 80.17,
-    "feels_like": 83.35,
-    "description": "overcast clouds",
-    "wind_speed": 8.21,
-    "wind_deg": 188,
-    "gust": 13.29,
+    "temp": 79.99,
+    "feels_like": 79.99,
+    "description": "light rain",
+    "wind_speed": 9.28,
+    "wind_deg": 203,
+    "gust": 14.99,
     "sunrise": "06:28 AM",
     "sunset": "07:53 PM",
     "dayOrNight": "day",
-    "humidity": 71,
-    "uv_index": 7.16,
+    "humidity": 73,
+    "uv_index": 8.59,
     "pressure": 1013,
     "moon_phase": 0.19,
     "visibility": 10000,
-    "dew_point": 69.91
+    "dew_point": 70.56
   },
   "fiveDayWeather": [
     {
@@ -25,13 +25,13 @@ const data = {
       "description": "light rain",
       "wind_speed": 8.88,
       "wind_deg": 336,
-      "gust": 16.71,
+      "gust": 17.69,
       "humidity": 38,
       "uv_index": 9.31,
       "pressure": 1014,
       "moon_phase": 0.22,
       "dew_point": 49.68,
-      "visibility": 9343
+      "visibility": 8435
     },
     {
       "date": "Sunday",
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Severe Thunderstorm Watch",
+      "start": "5:10:00 PM",
+      "end": "12:00:00 AM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n211 IN EFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 6 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                NEWTON\nTYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BUNKIE, BURKEVILLE, CALL, COTTONPORT, DE RIDDER,\nEFFIE, FARRSVILLE, FIELDS, FORT JOHNSON, FRED, GIST, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KINDER, KIRBYVILLE,\nLEESVILLE, LUMBERTON, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, ORETTA, PICKERING,\nPINEVILLE, REDDELL, SILSBEE, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, TOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE,\nAND WOODVILLE.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1013,
     1013,
-    1013,
+    1012,
     1011,
     1010,
-    1009
+    1008
   ],
   "fishingReport": {
     "date": "Apr 30, 2025",
