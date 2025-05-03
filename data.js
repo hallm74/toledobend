@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.56ft 7:45am",
+  "lakeLevel": "171.62ft 8:45am",
   "currentWeather": {
-    "temp": 62.98,
-    "feels_like": 63.45,
-    "description": "overcast clouds",
-    "wind_speed": 8.23,
-    "wind_deg": 350,
-    "gust": 17.43,
+    "temp": 64.83,
+    "feels_like": 65.25,
+    "description": "broken clouds",
+    "wind_speed": 8.5,
+    "wind_deg": 352,
+    "gust": 15.93,
     "sunrise": "06:27 AM",
     "sunset": "07:54 PM",
     "dayOrNight": "day",
-    "humidity": 95,
-    "uv_index": 0.55,
+    "humidity": 90,
+    "uv_index": 1.88,
     "pressure": 1014,
     "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 61.52
+    "dew_point": 61.83
   },
   "fiveDayWeather": [
     {
@@ -101,10 +101,10 @@ const data = {
     1014,
     1015,
     1015,
-    1015
+    1014
   ],
   "fishingReport": {
-    "date": "Apr 30, 2025",
-    "report": "SLOW. Water stained; 73 degrees; 0.56 feet below pool. Bass topwater action has finally started on yellow magics, spooks and buzz baits. The frog bite is good in flooded bushes, hay grass. Expect many fish to stay shallow in the flooded cover. There are some bass starting to make the way back off the bank in 10-14 feet of water hitting crankbaits and Texas rigged worms. More fish will push deep as the water temperature rises. Crappie are still fair in the creeks. Target main lake points and shallow bushes piles with 1/16 ounce big head jigs with tube or curly tail. There is some white bass action from the bridge north. Cast big crankbaits and spoons on the main lake ridge ends in 12-18 feet of water. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
