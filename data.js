@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.39ft 5:30pm",
+  "lakeLevel": "171.55ft 6:45pm",
   "currentWeather": {
-    "temp": 71.6,
-    "feels_like": 72.73,
-    "description": "light rain",
-    "wind_speed": 9.95,
-    "wind_deg": 215,
-    "gust": 19.91,
+    "temp": 70.21,
+    "feels_like": 71.2,
+    "description": "moderate rain",
+    "wind_speed": 9.84,
+    "wind_deg": 216,
+    "gust": 18.75,
     "sunrise": "06:28 AM",
     "sunset": "07:53 PM",
     "dayOrNight": "day",
     "humidity": 91,
-    "uv_index": 0.55,
-    "pressure": 1011,
+    "uv_index": 0.22,
+    "pressure": 1012,
     "moon_phase": 0.19,
-    "visibility": 1054,
-    "dew_point": 68.83
+    "visibility": 3671,
+    "dew_point": 67.46
   },
   "fiveDayWeather": [
     {
@@ -23,15 +23,15 @@ const data = {
       "high": 77.99,
       "low": 61.11,
       "description": "light rain",
-      "wind_speed": 10.16,
-      "wind_deg": 356,
-      "gust": 20.78,
-      "humidity": 38,
+      "wind_speed": 9.1,
+      "wind_deg": 347,
+      "gust": 16.98,
+      "humidity": 37,
       "uv_index": 9.6,
       "pressure": 1015,
       "moon_phase": 0.22,
-      "dew_point": 48.99,
-      "visibility": 8561
+      "dew_point": 47.97,
+      "visibility": 9320
     },
     {
       "date": "Sunday",
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Severe Thunderstorm Watch",
-      "start": "5:10:00 PM",
-      "end": "12:00:00 AM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n211 IN EFFECT UNTIL 7 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 6 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                NEWTON\nTYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BUNKIE, BURKEVILLE, CALL, COTTONPORT, DE RIDDER,\nEFFIE, FARRSVILLE, FIELDS, FORT JOHNSON, FRED, GIST, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KINDER, KIRBYVILLE,\nLEESVILLE, LUMBERTON, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, ORETTA, PICKERING,\nPINEVILLE, REDDELL, SILSBEE, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, TOWN BLUFF, VILLE PLATTE, WARREN, WIERGATE,\nAND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1011,
-    1011,
-    1011,
-    1011,
     1012,
-    1012
+    1012,
+    1012,
+    1012,
+    1013,
+    1013
   ],
   "fishingReport": {
     "date": "Apr 30, 2025",
