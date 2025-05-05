@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.65ft 1:45am",
+  "lakeLevel": "171.67ft 2:45am",
   "currentWeather": {
-    "temp": 57,
-    "feels_like": 56.59,
+    "temp": 56.57,
+    "feels_like": 56.01,
     "description": "clear sky",
-    "wind_speed": 4.83,
-    "wind_deg": 69,
-    "gust": 6.29,
+    "wind_speed": 4.09,
+    "wind_deg": 86,
+    "gust": 4.94,
     "sunrise": "06:25 AM",
     "sunset": "07:56 PM",
     "dayOrNight": "night",
-    "humidity": 89,
+    "humidity": 87,
     "uv_index": 0,
-    "pressure": 1014,
+    "pressure": 1013,
     "moon_phase": 0.29,
     "visibility": 10000,
-    "dew_point": 53.8
+    "dew_point": 52.75
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.35,
       "dew_point": 66.76,
-      "visibility": 9264
+      "visibility": 9244
     },
     {
       "date": "Thursday",
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Flood Watch",
+      "start": "6:00:00 PM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...Flash flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...From Tuesday afternoon through Thursday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- 4 to 8 inches of rainfall is expected with some areas\npossibly seeing up to 10 to 12 inches. River responses could\nbe significant in the Neches, Sabine, Lower Calcasieu and\nMermentau basins.\n- http://www.weather.gov/safety/flood",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1014,
-    1014,
-    1014,
+    1013,
+    1013,
     1013,
     1014,
-    1015
+    1015,
+    1016
   ],
   "fishingReport": {
     "date": "Apr 30, 2025",
