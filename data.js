@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.68ft 10:45am",
+  "lakeLevel": "171.67ft 11:45am",
   "currentWeather": {
-    "temp": 73.94,
-    "feels_like": 73.38,
-    "description": "few clouds",
-    "wind_speed": 5.77,
-    "wind_deg": 106,
-    "gust": 7.14,
+    "temp": 75.78,
+    "feels_like": 75.22,
+    "description": "clear sky",
+    "wind_speed": 5.3,
+    "wind_deg": 99,
+    "gust": 6.35,
     "sunrise": "06:25 AM",
     "sunset": "07:56 PM",
     "dayOrNight": "day",
-    "humidity": 50,
-    "uv_index": 6.28,
+    "humidity": 46,
+    "uv_index": 8.1,
     "pressure": 1015,
     "moon_phase": 0.29,
     "visibility": 10000,
-    "dew_point": 54.14
+    "dew_point": 53.55
   },
   "fiveDayWeather": [
     {
@@ -52,7 +52,7 @@ const data = {
       "date": "Thursday",
       "high": 76.1,
       "low": 63.9,
-      "description": "light rain",
+      "description": "moderate rain",
       "wind_speed": 7.78,
       "wind_deg": 118,
       "gust": 13.78,
@@ -106,13 +106,13 @@ const data = {
   "barometricPressureHistory": [
     1015,
     1015,
-    1015,
+    1014,
     1014,
     1013,
     1012
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Apr 30, 2025",
+    "report": "SLOW. Water stained; 73 degrees; 0.56 feet below pool. Bass topwater action has finally started on yellow magics, spooks and buzz baits. The frog bite is good in flooded bushes, hay grass. Expect many fish to stay shallow in the flooded cover. There are some bass starting to make the way back off the bank in 10-14 feet of water hitting crankbaits and Texas rigged worms. More fish will push deep as the water temperature rises. Crappie are still fair in the creeks. Target main lake points and shallow bushes piles with 1/16 ounce big head jigs with tube or curly tail. There is some white bass action from the bridge north. Cast big crankbaits and spoons on the main lake ridge ends in 12-18 feet of water. Report by Stephen Johnston, Johnston Fishing."
   }
 };
