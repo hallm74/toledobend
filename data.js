@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.74ft 6:45pm",
   "currentWeather": {
-    "temp": 63.95,
-    "feels_like": 63.9,
+    "temp": 63.79,
+    "feels_like": 63.81,
     "description": "overcast clouds",
-    "wind_speed": 5.14,
-    "wind_deg": 135,
-    "gust": 20.13,
+    "wind_speed": 4.43,
+    "wind_deg": 121,
+    "gust": 14.81,
     "sunrise": "06:25 AM",
     "sunset": "07:56 PM",
     "dayOrNight": "night",
-    "humidity": 82,
+    "humidity": 84,
     "uv_index": 0,
     "pressure": 1013,
-    "moon_phase": 0.29,
+    "moon_phase": 0.32,
     "visibility": 10000,
-    "dew_point": 58.35
+    "dew_point": 58.87
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 73.53,
-      "low": 63.27,
-      "description": "moderate rain",
-      "wind_speed": 12.41,
-      "wind_deg": 130,
-      "gust": 30.74,
-      "humidity": 95,
-      "uv_index": 4.64,
-      "pressure": 1012,
-      "moon_phase": 0.32,
-      "dew_point": 69.48,
-      "visibility": 8707
-    },
     {
       "date": "Wednesday",
       "high": 77.36,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.35,
       "dew_point": 65.08,
-      "visibility": 9329
+      "visibility": 8707
     },
     {
       "date": "Thursday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.38,
       "dew_point": 65.35,
-      "visibility": "Unavailable"
+      "visibility": 9329
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.44,
       "dew_point": 48.06,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 80.37,
+      "low": 59.52,
+      "description": "clear sky",
+      "wind_speed": 7.85,
+      "wind_deg": 14,
+      "gust": 24.87,
+      "humidity": 46,
+      "uv_index": 1,
+      "pressure": 1020,
+      "moon_phase": 0.47,
+      "dew_point": 55.42,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -112,7 +112,7 @@ const data = {
     1012
   ],
   "fishingReport": {
-    "date": "Apr 30, 2025",
-    "report": "SLOW. Water stained; 73 degrees; 0.56 feet below pool. Bass topwater action has finally started on yellow magics, spooks and buzz baits. The frog bite is good in flooded bushes, hay grass. Expect many fish to stay shallow in the flooded cover. There are some bass starting to make the way back off the bank in 10-14 feet of water hitting crankbaits and Texas rigged worms. More fish will push deep as the water temperature rises. Crappie are still fair in the creeks. Target main lake points and shallow bushes piles with 1/16 ounce big head jigs with tube or curly tail. There is some white bass action from the bridge north. Cast big crankbaits and spoons on the main lake ridge ends in 12-18 feet of water. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
