@@ -1,37 +1,37 @@
 const data = {
-  "lakeLevel": "171.89ft 5:45pm",
+  "lakeLevel": "172.25ft 6:45pm",
   "currentWeather": {
-    "temp": 73.02,
-    "feels_like": 74.35,
-    "description": "heavy intensity rain",
-    "wind_speed": 13.71,
-    "wind_deg": 173,
-    "gust": 30.65,
+    "temp": 72.23,
+    "feels_like": 73.53,
+    "description": "moderate rain",
+    "wind_speed": 14.38,
+    "wind_deg": 179,
+    "gust": 30.69,
     "sunrise": "06:25 AM",
     "sunset": "07:56 PM",
     "dayOrNight": "day",
-    "humidity": 92,
-    "uv_index": 0.91,
-    "pressure": 1007,
+    "humidity": 93,
+    "uv_index": 0.26,
+    "pressure": 1008,
     "moon_phase": 0.32,
     "visibility": 10000,
-    "dew_point": 70.56
+    "dew_point": 70.09
   },
   "fiveDayWeather": [
     {
       "date": "Wednesday",
       "high": 84.13,
-      "low": 66.47,
-      "description": "moderate rain",
-      "wind_speed": 11.9,
-      "wind_deg": 152,
-      "gust": 26.15,
-      "humidity": 57,
+      "low": 67.12,
+      "description": "heavy intensity rain",
+      "wind_speed": 8.7,
+      "wind_deg": 106,
+      "gust": 18.43,
+      "humidity": 59,
       "uv_index": 8.98,
       "pressure": 1013,
       "moon_phase": 0.35,
-      "dew_point": 65.61,
-      "visibility": 9471
+      "dew_point": 66.69,
+      "visibility": 9187
     },
     {
       "date": "Thursday",
@@ -108,14 +108,21 @@ const data = {
       "end": "2:00:00 AM",
       "description": "TORNADO WATCH 234 REMAINS VALID UNTIL 9 PM CDT THIS EVENING FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 11 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTH CENTRAL LOUISIANA\n\nLAFAYETTE\n\nIN SOUTHWEST LOUISIANA\n\nACADIA                ALLEN                 BEAUREGARD\nCALCASIEU             JEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRANCH, BRIDGE CITY, BUNA, BUNDICK LAKE, BUNKIE,\nBURKEVILLE, CALL, CHURCH POINT, COTTONPORT, CROWLEY, DE RIDDER,\nEFFIE, EUNICE, FARRSVILLE, FIELDS, FORT JOHNSON, FRED, GIST,\nHATHAWAY, HILLISTER, HOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER,\nJENNINGS, KINDER, KIRBYVILLE, LAFAYETTE, LAKE ARTHUR,\nLAKE CHARLES, LAWTELL, LEESVILLE, LUMBERTON, MAGNOLIA SPRINGS,\nMAMOU, MANSURA, MARKSVILLE, MT. UNION, NEWTON, OAKDALE,\nOPELOUSAS, ORANGE, ORETTA, PICKERING, PINEVILLE, RAYNE, REDDELL,\nRICHARD, ROANOKE, SABINE PASS, SEA RIM STATE PARK, SILSBEE,\nSIMMESPORT, SLAGLE, SPURGER, ST. LANDRY, SULPHUR, TOPSY,\nTOWN BLUFF, VIDOR, VILLE PLATTE, WARREN, WELSH, WIERGATE,\nAND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Flash Flood Warning",
+      "start": "11:46:00 PM",
+      "end": "3:00:00 AM",
+      "description": "FFWLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Flash Flood Warning for...\nNorthwestern Beauregard Parish in southwestern Louisiana...\nWestern Vernon Parish in west central Louisiana...\nNortheastern Jasper County in southeastern Texas...\nNorthern Newton County in southeastern Texas...\n\n* Until 1000 PM CDT.\n\n* At 646 PM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 1 and 3 inches of rain\nhave fallen. Additional rainfall amounts of 2 to 4 inches are\npossible in the warned area. Flash flooding is ongoing or expected\nto begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nDe Ridder, Leesville, Newton, Rosepine, Merryville, Anacoco,\nBurkeville, Toledo Bend Dam, Bon Weir, Fort Johnson, New Llano,\nHornbeck, Burr Ferry, Stringtown, Junction, Mayflower, Jamestown,\nRoganville, Evans and Wiergate.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1007,
-    1007,
-    1007,
+    1008,
+    1008,
     1008,
     1009,
+    1010,
     1010
   ],
   "fishingReport": {
