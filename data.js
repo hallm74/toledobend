@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "172.25ft 3:45pm",
+  "lakeLevel": "172.28ft 4:45pm",
   "currentWeather": {
-    "temp": 80.51,
-    "feels_like": 82.31,
+    "temp": 80.42,
+    "feels_like": 82.2,
     "description": "clear sky",
-    "wind_speed": 0.56,
-    "wind_deg": 207,
-    "gust": 3.83,
+    "wind_speed": 1.14,
+    "wind_deg": 81,
+    "gust": 3.09,
     "sunrise": "06:24 AM",
     "sunset": "07:57 PM",
     "dayOrNight": "day",
     "humidity": 59,
-    "uv_index": 5.18,
+    "uv_index": 2.86,
     "pressure": 1013,
     "moon_phase": 0.35,
     "visibility": 10000,
-    "dew_point": 64.87
+    "dew_point": 64.78
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1013,
     1013,
     1013,
-    1013,
     1014,
-    1014
+    1014,
+    1015
   ],
   "fishingReport": {
-    "date": "Apr 30, 2025",
-    "report": "SLOW. Water stained; 73 degrees; 0.56 feet below pool. Bass topwater action has finally started on yellow magics, spooks and buzz baits. The frog bite is good in flooded bushes, hay grass. Expect many fish to stay shallow in the flooded cover. There are some bass starting to make the way back off the bank in 10-14 feet of water hitting crankbaits and Texas rigged worms. More fish will push deep as the water temperature rises. Crappie are still fair in the creeks. Target main lake points and shallow bushes piles with 1/16 ounce big head jigs with tube or curly tail. There is some white bass action from the bridge north. Cast big crankbaits and spoons on the main lake ridge ends in 12-18 feet of water. Report by Stephen Johnston, Johnston Fishing."
+    "date": "May 7, 2025",
+    "report": "SLOW. Water stained; 72 degrees; 0.56 feet below pool. Fishing has been fair due to recent storms with more storms in the forecast. Typically the water level falls this time of year, but it is on the rise. Shallow bass fishing is fair with topwaters, frogs and swim jigs. Still very little shad spawn action going on because the water temperature is too cool. Mid range bass are fair 8-12 feet of water with Carolina rigs, Texas rigs and mid range crankbaits. The deeper bite has slowed due to the rising water level. Crappie do not like the flow and rising water so the bite is hit-or-miss. Dam is running both generators 24/7. No flood gates are open at this time. Report by Stephen Johnston, Johnston Fishing."
   }
 };
