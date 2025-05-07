@@ -1,12 +1,12 @@
 const data = {
-  "lakeLevel": "172.16ft 2:45am",
+  "lakeLevel": "172.14ft 3:45am",
   "currentWeather": {
     "temp": 67.23,
     "feels_like": 68.11,
     "description": "overcast clouds",
-    "wind_speed": 5.84,
-    "wind_deg": 349,
-    "gust": 9.15,
+    "wind_speed": 5.88,
+    "wind_deg": 326,
+    "gust": 9.71,
     "sunrise": "06:24 AM",
     "sunset": "07:57 PM",
     "dayOrNight": "night",
@@ -14,7 +14,7 @@ const data = {
     "uv_index": 0,
     "pressure": 1010,
     "moon_phase": 0.35,
-    "visibility": 122,
+    "visibility": 5321,
     "dew_point": 65.75
   },
   "fiveDayWeather": [
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.38,
       "dew_point": 61.12,
-      "visibility": 8931
+      "visibility": 9380
     },
     {
       "date": "Friday",
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Flood Watch",
-      "start": "7:56:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Thursday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nExtensive street flooding and flooding of creeks and rivers are\npossible.\n\n* ADDITIONAL DETAILS...\n- 4 to 8 inches of rainfall is expected with some areas\npossibly seeing up to 10 to 12 inches. River responses could\nbe significant in the Lower Neches, Sabine, Lower Calcasieu,\nMermentau, and Vermilion basins.\n- http://www.weather.gov/safety/flood",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1010,
     1010,
     1010,
-    1010,
     1011,
+    1012,
     1012
   ],
   "fishingReport": {
