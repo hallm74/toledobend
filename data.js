@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "172.41ft 9:45am",
+  "lakeLevel": "172.40ft 10:45am",
   "currentWeather": {
-    "temp": 75.09,
-    "feels_like": 75.92,
+    "temp": 78.31,
+    "feels_like": 79,
     "description": "clear sky",
-    "wind_speed": 2.21,
-    "wind_deg": 19,
-    "gust": 3.51,
+    "wind_speed": 1.23,
+    "wind_deg": 5,
+    "gust": 3.2,
     "sunrise": "06:23 AM",
     "sunset": "07:58 PM",
     "dayOrNight": "day",
-    "humidity": 77,
-    "uv_index": 4.2,
-    "pressure": 1018,
+    "humidity": 67,
+    "uv_index": 6.87,
+    "pressure": 1017,
     "moon_phase": 0.38,
     "visibility": 10000,
-    "dew_point": 67.39
+    "dew_point": 66.45
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
+    1017,
+    1017,
     1017,
     1016,
-    1014
+    1015,
+    1013
   ],
   "fishingReport": {
-    "date": "May 7, 2025",
-    "report": "SLOW. Water stained; 72 degrees; 0.56 feet below pool. Fishing has been fair due to recent storms with more storms in the forecast. Typically the water level falls this time of year, but it is on the rise. Shallow bass fishing is fair with topwaters, frogs and swim jigs. Still very little shad spawn action going on because the water temperature is too cool. Mid range bass are fair 8-12 feet of water with Carolina rigs, Texas rigs and mid range crankbaits. The deeper bite has slowed due to the rising water level. Crappie do not like the flow and rising water so the bite is hit-or-miss. Dam is running both generators 24/7. No flood gates are open at this time. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
