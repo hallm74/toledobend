@@ -1,26 +1,26 @@
 const data = {
   "lakeLevel": "172.75ft 6:45pm",
   "currentWeather": {
-    "temp": 64.71,
-    "feels_like": 64.11,
+    "temp": 63.36,
+    "feels_like": 62.82,
     "description": "overcast clouds",
-    "wind_speed": 5.35,
-    "wind_deg": 11,
-    "gust": 16.82,
+    "wind_speed": 8.9,
+    "wind_deg": 353,
+    "gust": 21.92,
     "sunrise": "06:22 AM",
     "sunset": "07:59 PM",
     "dayOrNight": "night",
-    "humidity": 69,
+    "humidity": 73,
     "uv_index": 0,
     "pressure": 1017,
     "moon_phase": 0.44,
     "visibility": 10000,
-    "dew_point": 54.32
+    "dew_point": 54.55
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 63.91,
+      "high": 63.21,
       "low": 57.96,
       "description": "light rain",
       "wind_speed": 11.05,
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.47,
       "dew_point": 56.75,
-      "visibility": 9760
+      "visibility": 9591
     },
     {
       "date": "Monday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0.5,
       "dew_point": 58.23,
-      "visibility": 8956
+      "visibility": 9125
     },
     {
       "date": "Tuesday",
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1017,
     1017,
-    1017,
+    1016,
     1016,
     1015,
     1014
   ],
   "fishingReport": {
-    "date": "May 7, 2025",
-    "report": "SLOW. Water stained; 72 degrees; 0.56 feet below pool. Fishing has been fair due to recent storms with more storms in the forecast. Typically the water level falls this time of year, but it is on the rise. Shallow bass fishing is fair with topwaters, frogs and swim jigs. Still very little shad spawn action going on because the water temperature is too cool. Mid range bass are fair 8-12 feet of water with Carolina rigs, Texas rigs and mid range crankbaits. The deeper bite has slowed due to the rising water level. Crappie do not like the flow and rising water so the bite is hit-or-miss. Dam is running both generators 24/7. No flood gates are open at this time. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
