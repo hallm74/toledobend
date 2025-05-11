@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "172.75ft 6:45pm",
   "currentWeather": {
-    "temp": 63.36,
-    "feels_like": 62.82,
+    "temp": 62.02,
+    "feels_like": 61.5,
     "description": "overcast clouds",
-    "wind_speed": 8.9,
-    "wind_deg": 353,
-    "gust": 21.92,
-    "sunrise": "06:22 AM",
-    "sunset": "07:59 PM",
+    "wind_speed": 11.05,
+    "wind_deg": 352,
+    "gust": 21.52,
+    "sunrise": "06:21 AM",
+    "sunset": "08:00 PM",
     "dayOrNight": "night",
-    "humidity": 73,
+    "humidity": 76,
     "uv_index": 0,
-    "pressure": 1017,
-    "moon_phase": 0.44,
+    "pressure": 1016,
+    "moon_phase": 0.47,
     "visibility": 10000,
-    "dew_point": 54.55
+    "dew_point": 54.37
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 63.21,
-      "low": 57.96,
-      "description": "light rain",
-      "wind_speed": 11.05,
-      "wind_deg": 352,
-      "gust": 24.74,
-      "humidity": 97,
-      "uv_index": 0.66,
-      "pressure": 1014,
-      "moon_phase": 0.47,
-      "dew_point": 56.75,
-      "visibility": 9591
-    },
     {
       "date": "Monday",
       "high": 73.56,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0.5,
       "dew_point": 58.23,
-      "visibility": 9125
+      "visibility": 9398
     },
     {
       "date": "Tuesday",
@@ -55,13 +40,13 @@ const data = {
       "description": "clear sky",
       "wind_speed": 12.1,
       "wind_deg": 183,
-      "gust": 31.23,
+      "gust": 32.28,
       "humidity": 47,
       "uv_index": 9.82,
       "pressure": 1010,
       "moon_phase": 0.53,
       "dew_point": 62.31,
-      "visibility": "Unavailable"
+      "visibility": 9318
     },
     {
       "date": "Wednesday",
@@ -92,19 +77,34 @@ const data = {
       "moon_phase": 0.59,
       "dew_point": 62.42,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 92.86,
+      "low": 70.92,
+      "description": "broken clouds",
+      "wind_speed": 11.34,
+      "wind_deg": 187,
+      "gust": 23.24,
+      "humidity": 39,
+      "uv_index": 1,
+      "pressure": 1012,
+      "moon_phase": 0.62,
+      "dew_point": 63.46,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1017,
-    1017,
+    1016,
     1016,
     1016,
     1015,
+    1014,
     1014
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "May 7, 2025",
+    "report": "SLOW. Water stained; 72 degrees; 0.56 feet below pool. Fishing has been fair due to recent storms with more storms in the forecast. Typically the water level falls this time of year, but it is on the rise. Shallow bass fishing is fair with topwaters, frogs and swim jigs. Still very little shad spawn action going on because the water temperature is too cool. Mid range bass are fair 8-12 feet of water with Carolina rigs, Texas rigs and mid range crankbaits. The deeper bite has slowed due to the rising water level. Crappie do not like the flow and rising water so the bite is hit-or-miss. Dam is running both generators 24/7. No flood gates are open at this time. Report by Stephen Johnston, Johnston Fishing."
   }
 };
