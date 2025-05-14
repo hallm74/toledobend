@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "172.12ft 6:45pm",
   "currentWeather": {
-    "temp": 75.06,
-    "feels_like": 76.21,
+    "temp": 74.35,
+    "feels_like": 75.52,
     "description": "scattered clouds",
-    "wind_speed": 12.39,
-    "wind_deg": 184,
-    "gust": 36.06,
+    "wind_speed": 11.79,
+    "wind_deg": 187,
+    "gust": 36.86,
     "sunrise": "06:19 AM",
-    "sunset": "08:01 PM",
+    "sunset": "08:02 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 86,
     "uv_index": 0,
     "pressure": 1007,
-    "moon_phase": 0.53,
+    "moon_phase": 0.56,
     "visibility": 10000,
     "dew_point": 69.89
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 90.25,
-      "low": 71.69,
-      "description": "broken clouds",
-      "wind_speed": 14.45,
-      "wind_deg": 207,
-      "gust": 38.81,
-      "humidity": 43,
-      "uv_index": 9.88,
-      "pressure": 1007,
-      "moon_phase": 0.56,
-      "dew_point": 63.43,
-      "visibility": 10000
-    },
     {
       "date": "Thursday",
       "high": 91.74,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1011,
       "moon_phase": 0.59,
       "dew_point": 65.48,
-      "visibility": 9771
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1011,
       "moon_phase": 0.62,
       "dew_point": 66.85,
-      "visibility": "Unavailable"
+      "visibility": 9771
     },
     {
       "date": "Saturday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.69,
       "dew_point": 67.46,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 89.46,
+      "low": 70,
+      "description": "overcast clouds",
+      "wind_speed": 12.26,
+      "wind_deg": 170,
+      "gust": 25.46,
+      "humidity": 45,
+      "uv_index": 1,
+      "pressure": 1011,
+      "moon_phase": 0.72,
+      "dew_point": 64.29,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,7 +99,7 @@ const data = {
     1007,
     1007,
     1007,
-    1007,
+    1006,
     1006,
     1006
   ],
