@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "172.05ft 3:30pm",
+  "lakeLevel": "172.07ft 4:45pm",
   "currentWeather": {
-    "temp": 89.31,
-    "feels_like": 95.56,
+    "temp": 87.98,
+    "feels_like": 94.21,
     "description": "overcast clouds",
-    "wind_speed": 13.98,
-    "wind_deg": 200,
-    "gust": 21.97,
+    "wind_speed": 12.75,
+    "wind_deg": 195,
+    "gust": 22.84,
     "sunrise": "06:19 AM",
     "sunset": "08:02 PM",
     "dayOrNight": "day",
-    "humidity": 55,
-    "uv_index": 5.31,
+    "humidity": 58,
+    "uv_index": 2.99,
     "pressure": 1006,
     "moon_phase": 0.56,
     "visibility": 10000,
-    "dew_point": 71.02
+    "dew_point": 71.35
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1006,
     1006,
     1006,
-    1006,
     1007,
-    1007
+    1007,
+    1008
   ],
   "fishingReport": {
-    "date": "May 7, 2025",
-    "report": "SLOW. Water stained; 72 degrees; 0.56 feet below pool. Fishing has been fair due to recent storms with more storms in the forecast. Typically the water level falls this time of year, but it is on the rise. Shallow bass fishing is fair with topwaters, frogs and swim jigs. Still very little shad spawn action going on because the water temperature is too cool. Mid range bass are fair 8-12 feet of water with Carolina rigs, Texas rigs and mid range crankbaits. The deeper bite has slowed due to the rising water level. Crappie do not like the flow and rising water so the bite is hit-or-miss. Dam is running both generators 24/7. No flood gates are open at this time. Report by Stephen Johnston, Johnston Fishing."
+    "date": "May 14, 2025",
+    "report": "SLOW. Water stained; 72 degrees; 0.30 feet above pool. Lake level has been on rise all week, with eleven flood gates open 1 foot each at this time. Best bass bite has been frogs, swimjigs and topwaters around the flooded grass and bushes in 1-4 feet of water. Texas rig and Carolina rig fish coming out of 12-18 feet on main lake humps and ridges. The crankbait bite should pick up any day. Some good reports night fishing with the full moon, anglers are catching fish on spinnerbaits and buzz baits all on the banks. Crappie are hit-or-miss due to the high water. Crappie in the creek and grass are fair. The best bite has been in shallow brush piles with live bait. Report by Stephen Johnston, Johnston Fishing."
   }
 };
