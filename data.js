@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "172.14ft 5:45am",
+  "lakeLevel": "172.12ft 6:45am",
   "currentWeather": {
-    "temp": 72.16,
-    "feels_like": 73.2,
-    "description": "few clouds",
-    "wind_speed": 11.34,
-    "wind_deg": 193,
-    "gust": 37.76,
+    "temp": 72.63,
+    "feels_like": 73.67,
+    "description": "scattered clouds",
+    "wind_speed": 11.52,
+    "wind_deg": 196,
+    "gust": 37.13,
     "sunrise": "06:19 AM",
     "sunset": "08:02 PM",
-    "dayOrNight": "night",
-    "humidity": 88,
-    "uv_index": 0,
-    "pressure": 1006,
+    "dayOrNight": "day",
+    "humidity": 87,
+    "uv_index": 0.14,
+    "pressure": 1007,
     "moon_phase": 0.56,
     "visibility": 10000,
-    "dew_point": 68.41
+    "dew_point": 68.54
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1010,
       "moon_phase": 0.59,
       "dew_point": 66.27,
-      "visibility": 10000
+      "visibility": 9703
     },
     {
       "date": "Friday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1010,
       "moon_phase": 0.62,
       "dew_point": 66.78,
-      "visibility": 9703
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1006,
-    1006,
-    1006,
     1007,
+    1007,
+    1007,
+    1008,
     1008,
     1008
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "May 7, 2025",
+    "report": "SLOW. Water stained; 72 degrees; 0.56 feet below pool. Fishing has been fair due to recent storms with more storms in the forecast. Typically the water level falls this time of year, but it is on the rise. Shallow bass fishing is fair with topwaters, frogs and swim jigs. Still very little shad spawn action going on because the water temperature is too cool. Mid range bass are fair 8-12 feet of water with Carolina rigs, Texas rigs and mid range crankbaits. The deeper bite has slowed due to the rising water level. Crappie do not like the flow and rising water so the bite is hit-or-miss. Dam is running both generators 24/7. No flood gates are open at this time. Report by Stephen Johnston, Johnston Fishing."
   }
 };
