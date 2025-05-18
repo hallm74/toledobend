@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.96ft 12:45am",
+  "lakeLevel": "171.92ft 1:45am",
   "currentWeather": {
-    "temp": 77.11,
-    "feels_like": 78.75,
+    "temp": 76.48,
+    "feels_like": 78.19,
     "description": "overcast clouds",
-    "wind_speed": 1.61,
-    "wind_deg": 96,
-    "gust": 0.67,
+    "wind_speed": 8.68,
+    "wind_deg": 173,
+    "gust": 22.08,
     "sunrise": "06:16 AM",
     "sunset": "08:04 PM",
     "dayOrNight": "night",
-    "humidity": 90,
+    "humidity": 93,
     "uv_index": 0,
     "pressure": 1013,
     "moon_phase": 0.69,
-    "visibility": 10000,
-    "dew_point": 73.94
+    "visibility": 5576,
+    "dew_point": 74.3
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1009,
       "moon_phase": 0.72,
       "dew_point": 67.03,
-      "visibility": 9869
+      "visibility": 9816
     },
     {
       "date": "Tuesday",
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1013,
     1013,
-    1013,
+    1012,
     1012,
     1011,
     1011
   ],
   "fishingReport": {
-    "date": "May 14, 2025",
-    "report": "SLOW. Water stained; 72 degrees; 0.30 feet above pool. Lake level has been on rise all week, with eleven flood gates open 1 foot each at this time. Best bass bite has been frogs, swimjigs and topwaters around the flooded grass and bushes in 1-4 feet of water. Texas rig and Carolina rig fish coming out of 12-18 feet on main lake humps and ridges. The crankbait bite should pick up any day. Some good reports night fishing with the full moon, anglers are catching fish on spinnerbaits and buzz baits all on the banks. Crappie are hit-or-miss due to the high water. Crappie in the creek and grass are fair. The best bite has been in shallow brush piles with live bait. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
