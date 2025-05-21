@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.85ft 6:45pm",
   "currentWeather": {
-    "temp": 74.03,
-    "feels_like": 75.13,
+    "temp": 72.9,
+    "feels_like": 73.89,
     "description": "overcast clouds",
-    "wind_speed": 7.38,
-    "wind_deg": 344,
-    "gust": 21.14,
+    "wind_speed": 6.62,
+    "wind_deg": 349,
+    "gust": 19.42,
     "sunrise": "06:15 AM",
     "sunset": "08:06 PM",
     "dayOrNight": "night",
     "humidity": 85,
     "uv_index": 0,
     "pressure": 1013,
-    "moon_phase": 0.75,
+    "moon_phase": 0.79,
     "visibility": 10000,
-    "dew_point": 69.24
+    "dew_point": 68.13
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 88.16,
-      "low": 64.51,
-      "description": "scattered clouds",
-      "wind_speed": 6.62,
-      "wind_deg": 349,
-      "gust": 19.42,
-      "humidity": 29,
-      "uv_index": 10.44,
-      "pressure": 1015,
-      "moon_phase": 0.79,
-      "dew_point": 49.95,
-      "visibility": 10000
-    },
     {
       "date": "Thursday",
       "high": 91.08,
@@ -53,15 +38,15 @@ const data = {
       "high": 92.16,
       "low": 71.28,
       "description": "light rain",
-      "wind_speed": 6.93,
-      "wind_deg": 162,
-      "gust": 20.47,
+      "wind_speed": 7.02,
+      "wind_deg": 179,
+      "gust": 22.55,
       "humidity": 46,
       "uv_index": 10.29,
       "pressure": 1016,
       "moon_phase": 0.87,
       "dew_point": 66.06,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.94,
       "dew_point": 67.71,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 78.91,
+      "low": 71.2,
+      "description": "moderate rain",
+      "wind_speed": 11.74,
+      "wind_deg": 260,
+      "gust": 28.57,
+      "humidity": 83,
+      "uv_index": 1,
+      "pressure": 1017,
+      "moon_phase": 0,
+      "dew_point": 67.1,
       "visibility": "Unavailable"
     }
   ],
