@@ -1,36 +1,36 @@
 const data = {
-  "lakeLevel": "171.83ft 5:45pm",
+  "lakeLevel": "171.85ft 6:45pm",
   "currentWeather": {
-    "temp": 86.2,
-    "feels_like": 94.24,
+    "temp": 83.66,
+    "feels_like": 90.68,
     "description": "scattered clouds",
-    "wind_speed": 3.31,
-    "wind_deg": 237,
-    "gust": 11.7,
+    "wind_speed": 6.04,
+    "wind_deg": 293,
+    "gust": 13.04,
     "sunrise": "06:15 AM",
     "sunset": "08:06 PM",
     "dayOrNight": "day",
-    "humidity": 67,
-    "uv_index": 0.81,
+    "humidity": 73,
+    "uv_index": 0.37,
     "pressure": 1008,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 73.96
+    "dew_point": 74.08
   },
   "fiveDayWeather": [
     {
       "date": "Wednesday",
       "high": 88.92,
-      "low": 62.78,
-      "description": "few clouds",
-      "wind_speed": 8.19,
-      "wind_deg": 346,
-      "gust": 22.06,
+      "low": 64.51,
+      "description": "scattered clouds",
+      "wind_speed": 6.62,
+      "wind_deg": 349,
+      "gust": 19.42,
       "humidity": 29,
       "uv_index": 10.44,
       "pressure": 1015,
       "moon_phase": 0.79,
-      "dew_point": 49.87,
+      "dew_point": 49.95,
       "visibility": 10000
     },
     {
@@ -94,13 +94,21 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "12:12:00 AM",
+      "end": "1:00:00 AM",
+      "description": "At 711 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 6 miles west of Toledo Bend Dam to near\nFarrsville to near Jasper to near Warren. Movement was east at 20\nmph.\n\nHAZARD...Wind gusts up to 40 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nJasper, Newton, Kirbyville, Toledo Bend Dam, Fred, Warren, Town\nBluff, Burkeville, Farrsville, Magnolia Springs, Mayflower, Mt.\nUnion, Spurger, Jamestown, Roganville, Stringtown, Ivanhoe,\nBleakwood, Wiergate, and Hillister.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1008,
     1008,
     1009,
     1010,
-    1011,
+    1012,
     1013
   ],
   "fishingReport": {
