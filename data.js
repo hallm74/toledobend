@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.77ft 3:45pm",
+  "lakeLevel": "171.77ft 4:45pm",
   "currentWeather": {
     "temp": 86.18,
-    "feels_like": 85.05,
+    "feels_like": 85.24,
     "description": "scattered clouds",
-    "wind_speed": 4.81,
-    "wind_deg": 133,
-    "gust": 4.97,
+    "wind_speed": 4.56,
+    "wind_deg": 138,
+    "gust": 4.41,
     "sunrise": "06:15 AM",
     "sunset": "08:06 PM",
     "dayOrNight": "day",
-    "humidity": 37,
-    "uv_index": 5.77,
-    "pressure": 1015,
+    "humidity": 38,
+    "uv_index": 3.23,
+    "pressure": 1014,
     "moon_phase": 0.79,
     "visibility": 10000,
-    "dew_point": 56.88
+    "dew_point": 57.61
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
+    1014,
+    1014,
     1014,
     1013,
-    1014
+    1014,
+    1015
   ],
   "fishingReport": {
-    "date": "May 14, 2025",
-    "report": "SLOW. Water stained; 72 degrees; 0.30 feet above pool. Lake level has been on rise all week, with eleven flood gates open 1 foot each at this time. Best bass bite has been frogs, swimjigs and topwaters around the flooded grass and bushes in 1-4 feet of water. Texas rig and Carolina rig fish coming out of 12-18 feet on main lake humps and ridges. The crankbait bite should pick up any day. Some good reports night fishing with the full moon, anglers are catching fish on spinnerbaits and buzz baits all on the banks. Crappie are hit-or-miss due to the high water. Crappie in the creek and grass are fair. The best bite has been in shallow brush piles with live bait. Report by Stephen Johnston, Johnston Fishing."
+    "date": "May 21, 2025",
+    "report": "SLOW. Water stained; 78 degrees; 0.13 feet above pool. Shallow bass bite is good with frogs, topwaters and swimbaits around the flooded bushes and hay grass. Bass are showing up in 12-18 feet on Texas and Carolina rigged big worms, with a few coming on crankbaits. This has been slow fishing at best. Crappie are fair in 10-16 feet of water on standing timber or brush. High winds kept angels off the main lake ridges. Most of all the crappie are out of creeks and off the grass.  Report by Stephen Johnston, Johnston Fishing. As we enjoy a weekend of fishing we salute and honor our Nation’s heroes this Memorial Day. Anticipate increased recreational boater traffic this weekend."
   }
 };
