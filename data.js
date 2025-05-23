@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.64ft 2:45pm",
+  "lakeLevel": "171.65ft 3:45pm",
   "currentWeather": {
-    "temp": 90.55,
-    "feels_like": 97.65,
+    "temp": 90.82,
+    "feels_like": 97.18,
     "description": "clear sky",
-    "wind_speed": 2.77,
-    "wind_deg": 98,
-    "gust": 5.7,
+    "wind_speed": 3.24,
+    "wind_deg": 80,
+    "gust": 5.84,
     "sunrise": "06:14 AM",
     "sunset": "08:08 PM",
     "dayOrNight": "day",
-    "humidity": 54,
-    "uv_index": 8.02,
-    "pressure": 1015,
+    "humidity": 52,
+    "uv_index": 5.65,
+    "pressure": 1014,
     "moon_phase": 0.87,
     "visibility": 10000,
-    "dew_point": 71.64
+    "dew_point": 70.77
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "8:37:00 PM",
+      "end": "2:45:00 AM",
+      "description": "At 3:26 PM CDT...The National Weather Service has received a\nreport of a funnel cloud in the vicinity of Parks, LA.\n\nA very moist and unstable tropical airmass is in place across\nthe area. Meanwhile...the vertical wind profile over the area\nis light and variable. These conditions are favorable for the\ndevelopment of tropical funnel clouds...especially where rain\ncooled boundaries...known as outflow boundaries...and the\nseabreeze collide.\n\nThese tropical funnel clouds are usually short-lived and do not\nreach the ground. If the funnel cloud becomes more severe and\nreaches the ground...minor damage may occur...and a tornado\nwarning will likely be issued.\n\nStay tuned for later statements and updates on this weather\nsituation.\n\n30",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1015,
-    1015,
+    1014,
     1014,
     1014,
     1013,
-    1013
+    1013,
+    1014
   ],
   "fishingReport": {
     "date": "May 21, 2025",
