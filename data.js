@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.42ft 8:45am",
+  "lakeLevel": "171.42ft 9:45am",
   "currentWeather": {
-    "temp": 81.16,
-    "feels_like": 88.05,
-    "description": "scattered clouds",
-    "wind_speed": 8.48,
-    "wind_deg": 186,
-    "gust": 15.77,
+    "temp": 83.64,
+    "feels_like": 92.3,
+    "description": "broken clouds",
+    "wind_speed": 9.04,
+    "wind_deg": 180,
+    "gust": 15.46,
     "sunrise": "06:13 AM",
     "sunset": "08:09 PM",
     "dayOrNight": "day",
-    "humidity": 86,
-    "uv_index": 2.3,
+    "humidity": 78,
+    "uv_index": 4.58,
     "pressure": 1017,
     "moon_phase": 0.94,
     "visibility": 10000,
-    "dew_point": 76.57
+    "dew_point": 76.05
   },
   "fiveDayWeather": [
     {
@@ -104,7 +104,7 @@ const data = {
     1015
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "May 21, 2025",
+    "report": "SLOW. Water stained; 78 degrees; 0.13 feet above pool. Shallow bass bite is good with frogs, topwaters and swimbaits around the flooded bushes and hay grass. Bass are showing up in 12-18 feet on Texas and Carolina rigged big worms, with a few coming on crankbaits. This has been slow fishing at best. Crappie are fair in 10-16 feet of water on standing timber or brush. High winds kept angels off the main lake ridges. Most of all the crappie are out of creeks and off the grass.  Report by Stephen Johnston, Johnston Fishing. As we enjoy a weekend of fishing we salute and honor our Nation’s heroes this Memorial Day. Anticipate increased recreational boater traffic this weekend."
   }
 };
