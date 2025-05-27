@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.51ft 2:45am",
+  "lakeLevel": "171.55ft 3:45am",
   "currentWeather": {
-    "temp": 69.44,
-    "feels_like": 70.45,
-    "description": "very heavy rain",
-    "wind_speed": 6.67,
-    "wind_deg": 20,
-    "gust": 12.41,
+    "temp": 68.68,
+    "feels_like": 69.67,
+    "description": "heavy intensity rain",
+    "wind_speed": 6.49,
+    "wind_deg": 51,
+    "gust": 14.05,
     "sunrise": "06:12 AM",
     "sunset": "08:10 PM",
     "dayOrNight": "night",
-    "humidity": 93,
+    "humidity": 94,
     "uv_index": 0,
     "pressure": 1014,
     "moon_phase": 0.02,
-    "visibility": 5490,
-    "dew_point": 67.33
+    "visibility": 6281,
+    "dew_point": 66.88
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.06,
       "dew_point": 74.62,
-      "visibility": 9160
+      "visibility": 9348
     },
     {
       "date": "Thursday",
@@ -94,28 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Special Weather Statement",
-      "start": "7:23:00 AM",
-      "end": "8:30:00 AM",
-      "description": "At 223 AM CDT, Doppler radar was tracking a strong thunderstorm over\nBurkeville, moving east at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nAnacoco, Toledo Bend Dam, Burkeville, Hornbeck, Farrsville, Burr\nFerry, Mayflower, Evans, and Wiergate.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Severe Thunderstorm Warning",
-      "start": "7:37:00 AM",
-      "end": "8:30:00 AM",
-      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nWestern Vernon Parish in west central Louisiana...\nNortheastern Newton County in southeastern Texas...\n\n* Until 330 AM CDT.\n\n* At 237 AM CDT, a severe thunderstorm was located near Burr Ferry,\nor near Burkeville, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nAnacoco, Toledo Bend Dam, Burkeville, Hornbeck, Burr Ferry, and\nEvans.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1014,
     1014,
     1014,
     1015,
-    1015,
+    1016,
     1016
   ],
   "fishingReport": {
