@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.29ft 12:45am",
+  "lakeLevel": "171.37ft 1:45am",
   "currentWeather": {
-    "temp": 72.41,
-    "feels_like": 73.67,
-    "description": "broken clouds",
-    "wind_speed": 3.6,
-    "wind_deg": 123,
-    "gust": 4.61,
+    "temp": 70.72,
+    "feels_like": 71.85,
+    "description": "overcast clouds",
+    "wind_speed": 2.95,
+    "wind_deg": 137,
+    "gust": 6.69,
     "sunrise": "06:12 AM",
     "sunset": "08:10 PM",
     "dayOrNight": "night",
-    "humidity": 92,
+    "humidity": 93,
     "uv_index": 0,
     "pressure": 1014,
     "moon_phase": 0.02,
     "visibility": 10000,
-    "dew_point": 69.96
+    "dew_point": 68.59
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "6:29:00 AM",
+      "end": "7:15:00 AM",
+      "description": "At 129 AM CDT, Doppler radar was tracking a strong thunderstorm near\nJasper, moving east at 50 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nJasper, Newton, Toledo Bend Dam, Ebenezer, Burkeville, Browndell,\nFarrsville, Burr Ferry, Mayflower, Jamestown, Harrisburg, Stringtown,\nSam Rayburn Dam, and Wiergate.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1014,
     1014,
     1014,
-    1013,
     1014,
-    1013
+    1013,
+    1014
   ],
   "fishingReport": {
     "date": "May 21, 2025",
