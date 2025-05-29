@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.28ft 7:45am",
+  "lakeLevel": "171.30ft 8:45am",
   "currentWeather": {
-    "temp": 70.43,
-    "feels_like": 71.64,
-    "description": "scattered clouds",
-    "wind_speed": 2.59,
-    "wind_deg": 50,
-    "gust": 3.02,
+    "temp": 72.66,
+    "feels_like": 73.96,
+    "description": "broken clouds",
+    "wind_speed": 3.09,
+    "wind_deg": 68,
+    "gust": 2.89,
     "sunrise": "06:12 AM",
     "sunset": "08:11 PM",
     "dayOrNight": "day",
-    "humidity": 95,
-    "uv_index": 0.06,
-    "pressure": 1017,
+    "humidity": 92,
+    "uv_index": 1.94,
+    "pressure": 1018,
     "moon_phase": 0.1,
     "visibility": 10000,
-    "dew_point": 68.94
+    "dew_point": 70.2
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1017,
-    1017,
-    1017,
+    1018,
+    1018,
+    1018,
     1017,
     1017,
     1016
   ],
   "fishingReport": {
-    "date": "May 21, 2025",
-    "report": "SLOW. Water stained; 78 degrees; 0.13 feet above pool. Shallow bass bite is good with frogs, topwaters and swimbaits around the flooded bushes and hay grass. Bass are showing up in 12-18 feet on Texas and Carolina rigged big worms, with a few coming on crankbaits. This has been slow fishing at best. Crappie are fair in 10-16 feet of water on standing timber or brush. High winds kept angels off the main lake ridges. Most of all the crappie are out of creeks and off the grass.  Report by Stephen Johnston, Johnston Fishing. As we enjoy a weekend of fishing we salute and honor our Nation’s heroes this Memorial Day. Anticipate increased recreational boater traffic this weekend."
+    "date": "May 28, 2025",
+    "report": "SLOW. Water stained; 81 degrees; 0.61 feet below pool. Bass are good with the best bite in shallow water with topwaters, swim jigs and frogs. The midrange bite been good with crankbaits and Texas rigs in 12-18 feet. The storms and high winds have limited fishable areas on the main lake, but the weather forecast should improve this next week. Crappie fishing is fair in shallow brush piles and standing timber all with live bait is the best. Some lighted docks reported good catches this past week at night. The bream are starting to bed in 2-3 feet of water in flooded grass and bushes, but with higher water, lots of them are hard to get to. Best baits for bream are crickets. Report by Stephen Johnston, Johnston Fishing."
   }
 };
