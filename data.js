@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.44ft 6:45pm",
   "currentWeather": {
-    "temp": 71.4,
-    "feels_like": 72.23,
-    "description": "broken clouds",
-    "wind_speed": 3.24,
-    "wind_deg": 34,
-    "gust": 3.11,
+    "temp": 70.27,
+    "feels_like": 71.19,
+    "description": "scattered clouds",
+    "wind_speed": 1.07,
+    "wind_deg": 66,
+    "gust": 2.01,
     "sunrise": "06:11 AM",
     "sunset": "08:13 PM",
     "dayOrNight": "night",
-    "humidity": 85,
+    "humidity": 89,
     "uv_index": 0,
     "pressure": 1014,
-    "moon_phase": 0.17,
+    "moon_phase": 0.2,
     "visibility": 10000,
-    "dew_point": 66.65
+    "dew_point": 66.87
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 87.17,
-      "low": 65.89,
-      "description": "light rain",
-      "wind_speed": 5.55,
-      "wind_deg": 42,
-      "gust": 7.9,
-      "humidity": 37,
-      "uv_index": 10.14,
-      "pressure": 1013,
-      "moon_phase": 0.2,
-      "dew_point": 54.77,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 89.49,
@@ -55,13 +40,13 @@ const data = {
       "description": "scattered clouds",
       "wind_speed": 9.82,
       "wind_deg": 156,
-      "gust": 22.44,
+      "gust": 22.46,
       "humidity": 46,
       "uv_index": 10.67,
       "pressure": 1014,
       "moon_phase": 0.27,
       "dew_point": 66.33,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,13 +77,28 @@ const data = {
       "moon_phase": 0.33,
       "dew_point": 68.41,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 92.86,
+      "low": 71.8,
+      "description": "broken clouds",
+      "wind_speed": 7.38,
+      "wind_deg": 182,
+      "gust": 20.8,
+      "humidity": 46,
+      "uv_index": 1,
+      "pressure": 1016,
+      "moon_phase": 0.36,
+      "dew_point": 67.14,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
     1014,
     1014,
-    1014,
+    1013,
     1013,
     1012,
     1012
