@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.51ft 2:45pm",
+  "lakeLevel": "171.51ft 3:45pm",
   "currentWeather": {
-    "temp": 87.04,
-    "feels_like": 92.75,
+    "temp": 85.91,
+    "feels_like": 90.93,
     "description": "broken clouds",
-    "wind_speed": 1.61,
-    "wind_deg": 141,
-    "gust": 4.34,
+    "wind_speed": 0.31,
+    "wind_deg": 146,
+    "gust": 4.83,
     "sunrise": "06:10 AM",
     "sunset": "08:15 PM",
     "dayOrNight": "day",
-    "humidity": 59,
-    "uv_index": 6.94,
+    "humidity": 60,
+    "uv_index": 4,
     "pressure": 1013,
     "moon_phase": 0.3,
     "visibility": 10000,
-    "dew_point": 70.99
+    "dew_point": 70.41
   },
   "fiveDayWeather": [
     {
@@ -100,11 +100,11 @@ const data = {
     1013,
     1013,
     1012,
-    1012,
+    1013,
     1013
   ],
   "fishingReport": {
-    "date": "May 28, 2025",
-    "report": "SLOW. Water stained; 81 degrees; 0.61 feet below pool. Bass are good with the best bite in shallow water with topwaters, swim jigs and frogs. The midrange bite been good with crankbaits and Texas rigs in 12-18 feet. The storms and high winds have limited fishable areas on the main lake, but the weather forecast should improve this next week. Crappie fishing is fair in shallow brush piles and standing timber all with live bait is the best. Some lighted docks reported good catches this past week at night. The bream are starting to bed in 2-3 feet of water in flooded grass and bushes, but with higher water, lots of them are hard to get to. Best baits for bream are crickets. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jun 4, 2025",
+    "report": "GOOD. Water stained; 81 degrees; 0.61 feet below pool. It is finally summer time, everything around Toledo is getting right, most storms are gone and the sun is cooking. Bass are good. Shallow fish are still strong on frogs, topwaters, swim jigs and wacky-worms from 2-7 feet of water. The deeper bite is coming on strong in 14-18 feet of water with big crankbaits and Carolina rigs. A few great reports of 7 pound bass being caught at night with spinnerbaits, and buzzbaits along the edge of the flooded grass. Crappie are good on brush piles, standing timber, and main lake docks with jigs or live bait. The water temperature is starting to reach the mid to low 80s, pushing crappie out of the creeks. Report by Stephen Johnston, Johnston Fishing."
   }
 };
