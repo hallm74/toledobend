@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.75ft 5:45am",
+  "lakeLevel": "171.65ft 6:45am",
   "currentWeather": {
-    "temp": 72.72,
-    "feels_like": 73.87,
+    "temp": 71.78,
+    "feels_like": 72.93,
     "description": "overcast clouds",
-    "wind_speed": 5.66,
-    "wind_deg": 307,
-    "gust": 12.5,
+    "wind_speed": 3.04,
+    "wind_deg": 3,
+    "gust": 7.34,
     "sunrise": "06:10 AM",
     "sunset": "08:17 PM",
-    "dayOrNight": "night",
-    "humidity": 89,
-    "uv_index": 0,
-    "pressure": 1012,
+    "dayOrNight": "day",
+    "humidity": 91,
+    "uv_index": 0.2,
+    "pressure": 1013,
     "moon_phase": 0.45,
     "visibility": 10000,
-    "dew_point": 69.28
+    "dew_point": 69.01
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.48,
       "dew_point": 75.2,
-      "visibility": 9933
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Severe Thunderstorm Watch",
-      "start": "6:48:00 AM",
-      "end": "12:00:00 PM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n400 IN EFFECT UNTIL 7 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 13 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTH CENTRAL LOUISIANA\n\nLAFAYETTE\n\nIN SOUTHWEST LOUISIANA\n\nACADIA                ALLEN                 BEAUREGARD\nCALCASIEU             CAMERON               JEFFERSON DAVIS\nVERMILION\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ABBEVILLE, ALEXANDRIA, BEAUMONT,\nBEAVER, BLEAKWOOD, BRANCH, BRIDGE CITY, BUNA, BUNDICK LAKE,\nBUNKIE, BURKEVILLE, CALL, CHURCH POINT, COTTONPORT, CROWLEY,\nDE RIDDER, EFFIE, EUNICE, FARRSVILLE, FIELDS, FORKED ISLAND,\nFORT JOHNSON, FRED, GIST, HACKBERRY, HATHAWAY, HILLISTER,\nHOLLY SPRINGS, INTRACOASTAL CITY, IVANHOE, JAMESTOWN, JASPER,\nJENNINGS, JOHNSON BAYOU, KAPLAN, KINDER, KIRBYVILLE, LAFAYETTE,\nLAKE ARTHUR, LAKE CHARLES, LAWTELL, LEESVILLE, LUMBERTON,\nMAGNOLIA SPRINGS, MAMOU, MANSURA, MARKSVILLE, MEAUX, MT. UNION,\nNEWTON, OAKDALE, OPELOUSAS, ORANGE, ORETTA, PICKERING, PINEVILLE,\nRAYNE, REDDELL, RICHARD, ROANOKE, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, SULPHUR, TOPSY, TOWN BLUFF, VIDOR, VILLE PLATTE,\nWARREN, WELSH, WIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1012,
-    1012,
-    1012,
     1013,
     1013,
-    1013
+    1013,
+    1013,
+    1013,
+    1012
   ],
   "fishingReport": {
     "date": "Jun 4, 2025",
