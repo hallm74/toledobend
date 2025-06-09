@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.54ft 2:45am",
+  "lakeLevel": "171.68ft 3:45am",
   "currentWeather": {
-    "temp": 75.36,
-    "feels_like": 76.87,
-    "description": "moderate rain",
-    "wind_speed": 5.93,
-    "wind_deg": 215,
-    "gust": 23.67,
+    "temp": 74.73,
+    "feels_like": 76.08,
+    "description": "overcast clouds",
+    "wind_speed": 6.78,
+    "wind_deg": 247,
+    "gust": 24.34,
     "sunrise": "06:10 AM",
     "sunset": "08:17 PM",
     "dayOrNight": "night",
-    "humidity": 91,
+    "humidity": 89,
     "uv_index": 0,
-    "pressure": 1013,
+    "pressure": 1014,
     "moon_phase": 0.45,
     "visibility": 10000,
-    "dew_point": 72.55
+    "dew_point": 71.28
   },
   "fiveDayWeather": [
     {
@@ -101,22 +101,15 @@ const data = {
       "end": "12:00:00 PM",
       "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n400 IN EFFECT UNTIL 7 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 13 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTH CENTRAL LOUISIANA\n\nLAFAYETTE\n\nIN SOUTHWEST LOUISIANA\n\nACADIA                ALLEN                 BEAUREGARD\nCALCASIEU             CAMERON               JEFFERSON DAVIS\nVERMILION\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ABBEVILLE, ALEXANDRIA, BEAUMONT,\nBEAVER, BLEAKWOOD, BRANCH, BRIDGE CITY, BUNA, BUNDICK LAKE,\nBUNKIE, BURKEVILLE, CALL, CHURCH POINT, COTTONPORT, CROWLEY,\nDE RIDDER, EFFIE, EUNICE, FARRSVILLE, FIELDS, FORKED ISLAND,\nFORT JOHNSON, FRED, GIST, HACKBERRY, HATHAWAY, HILLISTER,\nHOLLY SPRINGS, INTRACOASTAL CITY, IVANHOE, JAMESTOWN, JASPER,\nJENNINGS, JOHNSON BAYOU, KAPLAN, KINDER, KIRBYVILLE, LAFAYETTE,\nLAKE ARTHUR, LAKE CHARLES, LAWTELL, LEESVILLE, LUMBERTON,\nMAGNOLIA SPRINGS, MAMOU, MANSURA, MARKSVILLE, MEAUX, MT. UNION,\nNEWTON, OAKDALE, OPELOUSAS, ORANGE, ORETTA, PICKERING, PINEVILLE,\nRAYNE, REDDELL, RICHARD, ROANOKE, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, SULPHUR, TOPSY, TOWN BLUFF, VIDOR, VILLE PLATTE,\nWARREN, WELSH, WIERGATE, AND WOODVILLE.",
       "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Special Weather Statement",
-      "start": "7:53:00 AM",
-      "end": "8:45:00 AM",
-      "description": "At 253 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 15 miles northeast of Campti to Toledo Bend\nDam. Movement was southeast at 40 mph.\n\nHAZARD...Wind gusts of 45 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nAlexandria, De Ridder, Leesville, Rosepine, Boyce, Anacoco,\nAlexandria International Airport, Slagle, Toledo Bend Dam, Hineston,\nLena, Fort Johnson, Pitkin, Ball, New Llano, Colfax, Hornbeck, Tioga,\nTimber Trails, and Hutton.",
-      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1013,
+    1014,
+    1014,
     1013,
     1013,
     1012,
-    1012,
-    1012
+    1013
   ],
   "fishingReport": {
     "date": "Jun 4, 2025",
