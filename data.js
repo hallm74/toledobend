@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.51ft 8:45am",
+  "lakeLevel": "171.52ft 9:45am",
   "currentWeather": {
-    "temp": 81.34,
-    "feels_like": 88.54,
+    "temp": 83.37,
+    "feels_like": 92.28,
     "description": "clear sky",
-    "wind_speed": 2.82,
-    "wind_deg": 38,
-    "gust": 2.71,
+    "wind_speed": 2.28,
+    "wind_deg": 29,
+    "gust": 2.66,
     "sunrise": "06:10 AM",
     "sunset": "08:17 PM",
     "dayOrNight": "day",
-    "humidity": 86,
-    "uv_index": 2.21,
-    "pressure": 1015,
+    "humidity": 80,
+    "uv_index": 4.16,
+    "pressure": 1016,
     "moon_phase": 0.48,
     "visibility": 10000,
-    "dew_point": 76.75
+    "dew_point": 76.55
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "2:48:00 PM",
+      "end": "3:15:00 PM",
+      "description": "At 947 AM CDT, Doppler radar was tracking a strong thunderstorm near\nMayflower, or 13 miles northwest of Burkeville, moving east at 20\nmph.\n\nHAZARD...Pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to vegetation and outdoor objects is possible.\n\nLocations impacted include...\nToledo Bend Dam, Mayflower, and Burr Ferry.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
     1016,
     1016,
-    1015
+    1016,
+    1016,
+    1015,
+    1014
   ],
   "fishingReport": {
     "date": "Jun 4, 2025",
