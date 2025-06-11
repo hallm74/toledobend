@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.53ft 1:45pm",
+  "lakeLevel": "171.51ft 2:45pm",
   "currentWeather": {
-    "temp": 78.8,
-    "feels_like": 78.8,
-    "description": "overcast clouds",
-    "wind_speed": 3.8,
-    "wind_deg": 196,
-    "gust": 8.3,
+    "temp": 77.61,
+    "feels_like": 78.78,
+    "description": "very heavy rain",
+    "wind_speed": 5.37,
+    "wind_deg": 227,
+    "gust": 9.24,
     "sunrise": "06:10 AM",
     "sunset": "08:18 PM",
     "dayOrNight": "day",
-    "humidity": 74,
-    "uv_index": 8.57,
+    "humidity": 79,
+    "uv_index": 3.84,
     "pressure": 1016,
     "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 69.82
+    "dew_point": 70.57
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 185,
       "gust": 23.33,
       "humidity": 87,
-      "uv_index": 10.13,
+      "uv_index": 3.99,
       "pressure": 1015,
       "moon_phase": 0.54,
       "dew_point": 75.74,
@@ -42,22 +42,22 @@ const data = {
       "wind_deg": 186,
       "gust": 26.69,
       "humidity": 63,
-      "uv_index": 11.08,
+      "uv_index": 10.2,
       "pressure": 1014,
       "moon_phase": 0.58,
       "dew_point": 73.45,
-      "visibility": 9809
+      "visibility": 9797
     },
     {
       "date": "Saturday",
-      "high": 89.71,
+      "high": 91.69,
       "low": 72.88,
       "description": "light rain",
       "wind_speed": 6.89,
       "wind_deg": 199,
       "gust": 23.02,
       "humidity": 59,
-      "uv_index": 10.78,
+      "uv_index": 9.42,
       "pressure": 1016,
       "moon_phase": 0.61,
       "dew_point": 72.16,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 261,
       "gust": 30.22,
       "humidity": 68,
-      "uv_index": 0.13,
+      "uv_index": 6.64,
       "pressure": 1017,
       "moon_phase": 0.64,
       "dew_point": 72.3,
@@ -87,20 +87,28 @@ const data = {
       "wind_deg": 291,
       "gust": 18.66,
       "humidity": 71,
-      "uv_index": 1,
+      "uv_index": 0.1,
       "pressure": 1016,
       "moon_phase": 0.68,
       "dew_point": 72.73,
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "7:40:00 PM",
+      "end": "8:15:00 PM",
+      "description": "At 240 PM CDT, Doppler radar was tracking a strong thunderstorm near\nBurkeville, moving northeast at 45 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLeesville, Newton, Merryville, Anacoco, Toledo Bend Dam, Burkeville,\nNew Llano, Hornbeck, Browndell, Farrsville, Burr Ferry, Mayflower,\nKurthwood, Harrisburg, Junction, Stringtown, Wiergate, and Evans.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1016,
     1016,
     1016,
     1015,
-    1014,
+    1015,
     1015
   ],
   "fishingReport": {
