@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.51ft 2:45pm",
+  "lakeLevel": "171.56ft 3:45pm",
   "currentWeather": {
-    "temp": 77.61,
-    "feels_like": 78.78,
-    "description": "very heavy rain",
-    "wind_speed": 5.37,
-    "wind_deg": 227,
-    "gust": 9.24,
+    "temp": 77.83,
+    "feels_like": 79.36,
+    "description": "moderate rain",
+    "wind_speed": 1.92,
+    "wind_deg": 122,
+    "gust": 1.9,
     "sunrise": "06:10 AM",
     "sunset": "08:18 PM",
     "dayOrNight": "day",
-    "humidity": 79,
-    "uv_index": 3.84,
-    "pressure": 1016,
+    "humidity": 86,
+    "uv_index": 0.84,
+    "pressure": 1015,
     "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 70.57
+    "dew_point": 73.31
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.58,
       "dew_point": 73.45,
-      "visibility": 9797
+      "visibility": 9545
     },
     {
       "date": "Saturday",
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Special Weather Statement",
-      "start": "7:40:00 PM",
-      "end": "8:15:00 PM",
-      "description": "At 240 PM CDT, Doppler radar was tracking a strong thunderstorm near\nBurkeville, moving northeast at 45 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLeesville, Newton, Merryville, Anacoco, Toledo Bend Dam, Burkeville,\nNew Llano, Hornbeck, Browndell, Farrsville, Burr Ferry, Mayflower,\nKurthwood, Harrisburg, Junction, Stringtown, Wiergate, and Evans.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
     1015,
     1015,
-    1015
+    1015,
+    1015,
+    1015,
+    1016
   ],
   "fishingReport": {
     "date": "Jun 4, 2025",
