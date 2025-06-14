@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.70ft 5:45pm",
+  "lakeLevel": "171.76ft 6:45pm",
   "currentWeather": {
-    "temp": 80.65,
-    "feels_like": 87.1,
+    "temp": 78.94,
+    "feels_like": 78.94,
     "description": "overcast clouds",
-    "wind_speed": 9.64,
-    "wind_deg": 176,
-    "gust": 16.42,
+    "wind_speed": 8.46,
+    "wind_deg": 186,
+    "gust": 17.47,
     "sunrise": "06:10 AM",
     "sunset": "08:19 PM",
     "dayOrNight": "day",
     "humidity": 88,
-    "uv_index": 0.89,
+    "uv_index": 0.41,
     "pressure": 1014,
     "moon_phase": 0.58,
     "visibility": 10000,
-    "dew_point": 76.77
+    "dew_point": 75.09
   },
   "fiveDayWeather": [
     {
@@ -104,7 +104,7 @@ const data = {
     1014
   ],
   "fishingReport": {
-    "date": "Jun 11, 2025",
-    "report": "GOOD. Water stained; 81 degrees; 0.61 feet below pool. It is finally summer time, everything around Toledo is getting right, most storms are gone and the sun is cooking. Bass are good. Shallow fish are still strong on frogs, topwaters, swim jigs and wacky-worms from 2-7 feet of water. The deeper bite is coming on strong in 14-18 feet of water with big crankbaits and Carolina rigs. A few great reports of 7 pound bass being caught at night with spinnerbaits, and buzzbaits along the edge of the flooded grass. Crappie are good on brush piles, standing timber, and main lake docks with jigs or live bait. The water temperature is starting to reach the mid to low 80s, pushing crappie out of the creeks. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Fishing report not found"
   }
 };
