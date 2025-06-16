@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.67ft 6:45pm",
   "currentWeather": {
-    "temp": 72.95,
-    "feels_like": 74.37,
+    "temp": 72.7,
+    "feels_like": 74.08,
     "description": "overcast clouds",
-    "wind_speed": 7.2,
-    "wind_deg": 195,
-    "gust": 21.99,
+    "wind_speed": 7.02,
+    "wind_deg": 200,
+    "gust": 22.93,
     "sunrise": "06:10 AM",
-    "sunset": "08:19 PM",
+    "sunset": "08:20 PM",
     "dayOrNight": "night",
     "humidity": 94,
     "uv_index": 0,
     "pressure": 1016,
-    "moon_phase": 0.64,
+    "moon_phase": 0.68,
     "visibility": 10000,
-    "dew_point": 71.11
+    "dew_point": 70.86
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 91,
-      "low": 73.11,
-      "description": "moderate rain",
-      "wind_speed": 9.17,
-      "wind_deg": 183,
-      "gust": 25.43,
-      "humidity": 54,
-      "uv_index": 10.6,
-      "pressure": 1015,
-      "moon_phase": 0.68,
-      "dew_point": 70.2,
-      "visibility": 10000
-    },
     {
       "date": "Tuesday",
       "high": 93.38,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.75,
       "dew_point": 68.77,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -70,7 +55,7 @@ const data = {
       "description": "clear sky",
       "wind_speed": 6.53,
       "wind_deg": 204,
-      "gust": 20.87,
+      "gust": 21.14,
       "humidity": 48,
       "uv_index": 10.36,
       "pressure": 1019,
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.82,
       "dew_point": 69.93,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 94.75,
+      "low": 73.15,
+      "description": "light rain",
+      "wind_speed": 6.87,
+      "wind_deg": 163,
+      "gust": 18.48,
+      "humidity": 50,
+      "uv_index": 1,
+      "pressure": 1018,
+      "moon_phase": 0.86,
+      "dew_point": 69.73,
       "visibility": "Unavailable"
     }
   ],
