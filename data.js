@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.67ft 3:45pm",
+  "lakeLevel": "171.68ft 4:45pm",
   "currentWeather": {
-    "temp": 89.67,
-    "feels_like": 100.6,
-    "description": "broken clouds",
-    "wind_speed": 10.27,
-    "wind_deg": 195,
-    "gust": 14.5,
+    "temp": 89.73,
+    "feels_like": 100.15,
+    "description": "scattered clouds",
+    "wind_speed": 10,
+    "wind_deg": 191,
+    "gust": 14.03,
     "sunrise": "06:10 AM",
     "sunset": "08:20 PM",
     "dayOrNight": "day",
-    "humidity": 63,
-    "uv_index": 6.06,
-    "pressure": 1015,
+    "humidity": 62,
+    "uv_index": 3.5,
+    "pressure": 1014,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 75.4
+    "dew_point": 74.97
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
+    1014,
+    1014,
+    1014,
     1015,
     1015,
     1016
   ],
   "fishingReport": {
-    "date": "Jun 11, 2025",
-    "report": "GOOD. Water stained; 81 degrees; 0.61 feet below pool. It is finally summer time, everything around Toledo is getting right, most storms are gone and the sun is cooking. Bass are good. Shallow fish are still strong on frogs, topwaters, swim jigs and wacky-worms from 2-7 feet of water. The deeper bite is coming on strong in 14-18 feet of water with big crankbaits and Carolina rigs. A few great reports of 7 pound bass being caught at night with spinnerbaits, and buzzbaits along the edge of the flooded grass. Crappie are good on brush piles, standing timber, and main lake docks with jigs or live bait. The water temperature is starting to reach the mid to low 80s, pushing crappie out of the creeks. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jun 18, 2025",
+    "report": "GOOD. Water stained; 86 degrees; 0.61 feet below pool. Bass fishing is still good. The shallow bite has been productive with topwater lures. A few anglers have also been flipping jigs and beavers into the flooded bushes and hay grass. Most of these shallow fish are coming from 1-4 feet of water. The deeper bite has also been good, out to about 27 feet. Texas rigs and Carolina rigs have been most effective, with a few fish also coming on big crankbaits and football jigs. Crappie fish has been a little off lately due to the big storms over the past week. The rising water and strong winds have made it tough, as crappie do not typically like those conditions. However, things should start to improve in the next couple of days. Brush piles and main lake docks have been the most consistent spots, with both jigs and live bait working. Please watch out for deer as it is the middle of fawn season, and they are actively crossing roads. If you see a deer, please slow down because it is a dangerous time of year for those small fawns. Report by Stephen Johnston, Johnston Fishing."
   }
 };
