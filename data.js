@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "171.57ft 6:45pm",
   "currentWeather": {
-    "temp": 75.67,
-    "feels_like": 77.31,
+    "temp": 75.02,
+    "feels_like": 76.59,
     "description": "scattered clouds",
-    "wind_speed": 3.22,
-    "wind_deg": 174,
-    "gust": 4.47,
+    "wind_speed": 3.15,
+    "wind_deg": 176,
+    "gust": 3.83,
     "sunrise": "06:12 AM",
-    "sunset": "08:21 PM",
+    "sunset": "08:22 PM",
     "dayOrNight": "night",
     "humidity": 93,
     "uv_index": 0,
     "pressure": 1019,
-    "moon_phase": "Unavailable",
+    "moon_phase": 0.05,
     "visibility": 10000,
-    "dew_point": 73.51
+    "dew_point": 72.86
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 93.88,
-      "low": 72.5,
-      "description": "scattered clouds",
-      "wind_speed": 8.84,
-      "wind_deg": 139,
-      "gust": 21.45,
-      "humidity": 44,
-      "uv_index": 10.74,
-      "pressure": 1017,
-      "moon_phase": 0.05,
-      "dew_point": 66.49,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 94.59,
@@ -61,16 +46,16 @@ const data = {
       "pressure": 1018,
       "moon_phase": 0.12,
       "dew_point": 66.27,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
       "high": 93.22,
       "low": 73.4,
       "description": "light rain",
-      "wind_speed": 5.82,
-      "wind_deg": 240,
-      "gust": 20.83,
+      "wind_speed": 6.33,
+      "wind_deg": 208,
+      "gust": 21.21,
       "humidity": 42,
       "uv_index": 10.93,
       "pressure": 1017,
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.18,
       "dew_point": 67.73,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 93.07,
+      "low": 75.02,
+      "description": "light rain",
+      "wind_speed": 5.77,
+      "wind_deg": 230,
+      "gust": 18.32,
+      "humidity": 44,
+      "uv_index": 1,
+      "pressure": 1016,
+      "moon_phase": 0.22,
+      "dew_point": 67.77,
       "visibility": "Unavailable"
     }
   ],
