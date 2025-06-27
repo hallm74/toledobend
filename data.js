@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.50ft 4:45pm",
+  "lakeLevel": "171.49ft 5:45pm",
   "currentWeather": {
-    "temp": 88.34,
-    "feels_like": 94.06,
-    "description": "overcast clouds",
-    "wind_speed": 7.63,
-    "wind_deg": 116,
-    "gust": 11.77,
+    "temp": 87.58,
+    "feels_like": 93.42,
+    "description": "broken clouds",
+    "wind_speed": 8.46,
+    "wind_deg": 126,
+    "gust": 14.72,
     "sunrise": "06:12 AM",
     "sunset": "08:22 PM",
     "dayOrNight": "day",
-    "humidity": 56,
-    "uv_index": 2.97,
+    "humidity": 58,
+    "uv_index": 1.43,
     "pressure": 1016,
     "moon_phase": 0.08,
     "visibility": 10000,
-    "dew_point": 70.65
+    "dew_point": 70.99
   },
   "fiveDayWeather": [
     {
@@ -52,9 +52,9 @@ const data = {
       "date": "Monday",
       "high": 92.1,
       "low": 73.09,
-      "description": "light rain",
-      "wind_speed": 6.51,
-      "wind_deg": 198,
+      "description": "few clouds",
+      "wind_speed": 8.52,
+      "wind_deg": 216,
       "gust": 22.55,
       "humidity": 46,
       "uv_index": 11.16,
@@ -100,11 +100,11 @@ const data = {
     1016,
     1016,
     1016,
-    1016,
+    1017,
     1017
   ],
   "fishingReport": {
-    "date": "Jun 25, 2025",
-    "report": "GOOD. Water stained; 85 degrees; 0.38 feet below pool. Rain continues to fall with more on the way, keeping the lake just a few inches below full pool. The bass bite is holding steady, with a solid shallow water bite early in the morning and again during midday. Topwater lures are producing at daylight, while midday action has been best in thick vegetation using popping frogs and flipping beaver-style baits in heavy pads and bushes. Deeper fish are being caught on Texas rigs and big crankbaits along main lake ridges in 12-24 feet of water. Crappie fishing has slowed with the heat and high water, with the best reports coming from anglers fishing at night under lighted docks or using floating flood lights–live bait is outperforming jigs. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
