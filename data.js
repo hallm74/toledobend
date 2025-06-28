@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.48ft 7:45am",
+  "lakeLevel": "171.48ft 8:45am",
   "currentWeather": {
-    "temp": 77.56,
-    "feels_like": 79.34,
+    "temp": 81.99,
+    "feels_like": 89.53,
     "description": "scattered clouds",
-    "wind_speed": 2.62,
-    "wind_deg": 182,
-    "gust": 4.61,
+    "wind_speed": 2.93,
+    "wind_deg": 188,
+    "gust": 5.1,
     "sunrise": "06:13 AM",
     "sunset": "08:22 PM",
     "dayOrNight": "day",
-    "humidity": 92,
-    "uv_index": 0.94,
+    "humidity": 83,
+    "uv_index": 2.5,
     "pressure": 1019,
     "moon_phase": 0.12,
     "visibility": 10000,
-    "dew_point": 75.06
+    "dew_point": 76.32
   },
   "fiveDayWeather": [
     {
@@ -53,8 +53,8 @@ const data = {
       "high": 94.64,
       "low": 73.58,
       "description": "light rain",
-      "wind_speed": 5.55,
-      "wind_deg": 232,
+      "wind_speed": 6.2,
+      "wind_deg": 281,
       "gust": 17.56,
       "humidity": 41,
       "uv_index": 11.01,
@@ -99,12 +99,12 @@ const data = {
     1019,
     1019,
     1019,
-    1019,
     1018,
-    1018
+    1018,
+    1017
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Jun 25, 2025",
+    "report": "GOOD. Water stained; 85 degrees; 0.38 feet below pool. Rain continues to fall with more on the way, keeping the lake just a few inches below full pool. The bass bite is holding steady, with a solid shallow water bite early in the morning and again during midday. Topwater lures are producing at daylight, while midday action has been best in thick vegetation using popping frogs and flipping beaver-style baits in heavy pads and bushes. Deeper fish are being caught on Texas rigs and big crankbaits along main lake ridges in 12-24 feet of water. Crappie fishing has slowed with the heat and high water, with the best reports coming from anglers fishing at night under lighted docks or using floating flood lights–live bait is outperforming jigs. Report by Stephen Johnston, Johnston Fishing."
   }
 };
