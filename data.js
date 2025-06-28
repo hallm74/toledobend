@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.47ft 1:45pm",
+  "lakeLevel": "171.47ft 2:45pm",
   "currentWeather": {
-    "temp": 90,
-    "feels_like": 98.56,
-    "description": "scattered clouds",
-    "wind_speed": 2.1,
-    "wind_deg": 153,
-    "gust": 6.87,
+    "temp": 90.3,
+    "feels_like": 98.71,
+    "description": "broken clouds",
+    "wind_speed": 2.51,
+    "wind_deg": 140,
+    "gust": 5.86,
     "sunrise": "06:13 AM",
     "sunset": "08:22 PM",
     "dayOrNight": "day",
-    "humidity": 58,
-    "uv_index": 10.35,
-    "pressure": 1018,
+    "humidity": 57,
+    "uv_index": 7.14,
+    "pressure": 1017,
     "moon_phase": 0.12,
     "visibility": 10000,
-    "dew_point": 73.24
+    "dew_point": 73
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 195,
       "gust": 19.08,
       "humidity": 70,
-      "uv_index": 10.06,
+      "uv_index": 9.92,
       "pressure": 1017,
       "moon_phase": 0.15,
       "dew_point": 74.46,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 196,
       "gust": 22.82,
       "humidity": 45,
-      "uv_index": 11.16,
+      "uv_index": 10.94,
       "pressure": 1017,
       "moon_phase": 0.18,
       "dew_point": 67.28,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 265,
       "gust": 18.5,
       "humidity": 43,
-      "uv_index": 11.01,
+      "uv_index": 11.12,
       "pressure": 1017,
       "moon_phase": 0.22,
       "dew_point": 66.11,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 243,
       "gust": 20.36,
       "humidity": 45,
-      "uv_index": 0.18,
+      "uv_index": 11.26,
       "pressure": 1017,
       "moon_phase": 0.25,
       "dew_point": 68.41,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 241,
       "gust": 20.56,
       "humidity": 42,
-      "uv_index": 1,
+      "uv_index": 0.19,
       "pressure": 1016,
       "moon_phase": 0.28,
       "dew_point": 67.42,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
+    1017,
+    1017,
     1017,
     1016,
     1016,
     1016
   ],
   "fishingReport": {
-    "date": "Jun 25, 2025",
-    "report": "GOOD. Water stained; 85 degrees; 0.38 feet below pool. Rain continues to fall with more on the way, keeping the lake just a few inches below full pool. The bass bite is holding steady, with a solid shallow water bite early in the morning and again during midday. Topwater lures are producing at daylight, while midday action has been best in thick vegetation using popping frogs and flipping beaver-style baits in heavy pads and bushes. Deeper fish are being caught on Texas rigs and big crankbaits along main lake ridges in 12-24 feet of water. Crappie fishing has slowed with the heat and high water, with the best reports coming from anglers fishing at night under lighted docks or using floating flood lights–live bait is outperforming jigs. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
