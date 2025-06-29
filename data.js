@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.40ft 8:45am",
+  "lakeLevel": "171.38ft 9:45am",
   "currentWeather": {
-    "temp": 82.27,
-    "feels_like": 90.86,
+    "temp": 84.9,
+    "feels_like": 95.67,
     "description": "few clouds",
-    "wind_speed": 4.12,
-    "wind_deg": 172,
-    "gust": 7.4,
+    "wind_speed": 5.26,
+    "wind_deg": 176,
+    "gust": 8.81,
     "sunrise": "06:13 AM",
     "sunset": "08:22 PM",
     "dayOrNight": "day",
-    "humidity": 85,
-    "uv_index": 2.5,
+    "humidity": 78,
+    "uv_index": 4.82,
     "pressure": 1018,
     "moon_phase": 0.15,
     "visibility": 10000,
-    "dew_point": 77.31
+    "dew_point": 77.27
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1018,
     1018,
     1018,
-    1018,
+    1017,
     1017,
     1017
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Jun 25, 2025",
+    "report": "GOOD. Water stained; 85 degrees; 0.38 feet below pool. Rain continues to fall with more on the way, keeping the lake just a few inches below full pool. The bass bite is holding steady, with a solid shallow water bite early in the morning and again during midday. Topwater lures are producing at daylight, while midday action has been best in thick vegetation using popping frogs and flipping beaver-style baits in heavy pads and bushes. Deeper fish are being caught on Texas rigs and big crankbaits along main lake ridges in 12-24 feet of water. Crappie fishing has slowed with the heat and high water, with the best reports coming from anglers fishing at night under lighted docks or using floating flood lights–live bait is outperforming jigs. Report by Stephen Johnston, Johnston Fishing."
   }
 };
