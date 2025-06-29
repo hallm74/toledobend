@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.43ft 1:45am",
+  "lakeLevel": "171.41ft 2:45am",
   "currentWeather": {
-    "temp": 76.71,
-    "feels_like": 78.49,
+    "temp": 75.97,
+    "feels_like": 77.68,
     "description": "scattered clouds",
-    "wind_speed": 4.68,
-    "wind_deg": 178,
-    "gust": 12.26,
+    "wind_speed": 4.54,
+    "wind_deg": 176,
+    "gust": 12.21,
     "sunrise": "06:13 AM",
     "sunset": "08:22 PM",
     "dayOrNight": "night",
     "humidity": 94,
     "uv_index": 0,
-    "pressure": 1018,
+    "pressure": 1017,
     "moon_phase": 0.15,
     "visibility": 10000,
-    "dew_point": 74.86
+    "dew_point": 74.12
   },
   "fiveDayWeather": [
     {
@@ -55,7 +55,7 @@ const data = {
       "description": "broken clouds",
       "wind_speed": 5.32,
       "wind_deg": 301,
-      "gust": 12.06,
+      "gust": 14,
       "humidity": 47,
       "uv_index": 11.26,
       "pressure": 1017,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
     1017,
     1017,
-    1017
+    1017,
+    1017,
+    1017,
+    1018
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Jun 25, 2025",
+    "report": "GOOD. Water stained; 85 degrees; 0.38 feet below pool. Rain continues to fall with more on the way, keeping the lake just a few inches below full pool. The bass bite is holding steady, with a solid shallow water bite early in the morning and again during midday. Topwater lures are producing at daylight, while midday action has been best in thick vegetation using popping frogs and flipping beaver-style baits in heavy pads and bushes. Deeper fish are being caught on Texas rigs and big crankbaits along main lake ridges in 12-24 feet of water. Crappie fishing has slowed with the heat and high water, with the best reports coming from anglers fishing at night under lighted docks or using floating flood lights–live bait is outperforming jigs. Report by Stephen Johnston, Johnston Fishing."
   }
 };
