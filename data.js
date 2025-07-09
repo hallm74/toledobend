@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.22ft 3:45pm",
+  "lakeLevel": "171.17ft 4:45pm",
   "currentWeather": {
-    "temp": 82.69,
-    "feels_like": 89.08,
+    "temp": 81.9,
+    "feels_like": 87.82,
     "description": "light rain",
-    "wind_speed": 5.44,
-    "wind_deg": 310,
-    "gust": 6.87,
+    "wind_speed": 2.3,
+    "wind_deg": 273,
+    "gust": 7.31,
     "sunrise": "06:17 AM",
     "sunset": "08:21 PM",
     "dayOrNight": "day",
-    "humidity": 75,
-    "uv_index": 2.3,
+    "humidity": 77,
+    "uv_index": 2.26,
     "pressure": 1018,
     "moon_phase": 0.46,
     "visibility": 10000,
-    "dew_point": 73.96
+    "dew_point": 73.98
   },
   "fiveDayWeather": [
     {
@@ -101,10 +101,10 @@ const data = {
     1018,
     1017,
     1017,
-    1017
+    1018
   ],
   "fishingReport": {
-    "date": "Jul 2, 2025",
-    "report": "GOOD. Water stained; 85 degrees; 0.66 feet below pool. Rain continues to fall with more on the way, keeping the lake just a few inches below full pool. The bass bite is holding steady, with a solid shallow water bite early in the morning and again during midday. Topwater lures are producing at daylight, while midday action has been best in thick vegetation using popping frogs and flipping beaver-style baits in heavy pads and bushes. Deeper fish are being caught on Texas rigs and big crankbaits along main lake ridges in 12-24 feet of water. Crappie fishing has slowed with the heat and high water, with the best reports coming from anglers fishing at night under lighted docks or using floating flood lights–live bait is outperforming jigs. Report by Stephen Johnston, Johnston Fishing. Anticipate increased boater traffic this weekend as we celebrate our Nation’s Independence Day."
+    "date": "Jul 9, 2025",
+    "report": "GOOD. Water stained; 90 degrees; 0.75 feet below pool. It is just the dead of summer time fishing here on Toledo Bend. Bass fishing is tough with a few bites at daylight on topwater and swim jigs. The best bite is coming at night on buzzbaits and spinnerbaits along the edge of bank grass, then Texas rig worms and football jigs on main lake points in 12-18 feet. The bite should improve with the coming full moon. Crappie are hit-and-miss on main lake docks and brush piles. Report by Stephen Johnston, Johnston Fishing."
   }
 };
