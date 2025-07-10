@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "171.19ft 1:45pm",
+  "lakeLevel": "171.19ft 2:45pm",
   "currentWeather": {
-    "temp": 85.17,
-    "feels_like": 91.6,
+    "temp": 85.96,
+    "feels_like": 93.31,
     "description": "overcast clouds",
-    "wind_speed": 3.31,
-    "wind_deg": 244,
-    "gust": 8.25,
+    "wind_speed": 2.95,
+    "wind_deg": 227,
+    "gust": 8.43,
     "sunrise": "06:18 AM",
     "sunset": "08:20 PM",
     "dayOrNight": "day",
     "humidity": 66,
-    "uv_index": 2.47,
-    "pressure": 1018,
+    "uv_index": 1.95,
+    "pressure": 1017,
     "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 72.54
+    "dew_point": 73.27
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
+    1017,
+    1017,
     1017,
     1016,
-    1016
+    1016,
+    1015
   ],
   "fishingReport": {
-    "date": "Jul 9, 2025",
-    "report": "GOOD. Water stained; 90 degrees; 0.75 feet below pool. It is just the dead of summer time fishing here on Toledo Bend. Bass fishing is tough with a few bites at daylight on topwater and swim jigs. The best bite is coming at night on buzzbaits and spinnerbaits along the edge of bank grass, then Texas rig worms and football jigs on main lake points in 12-18 feet. The bite should improve with the coming full moon. Crappie are hit-and-miss on main lake docks and brush piles. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
