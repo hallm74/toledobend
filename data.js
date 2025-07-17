@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.89ft 7:45am",
+  "lakeLevel": "170.88ft 8:45am",
   "currentWeather": {
-    "temp": 76.78,
-    "feels_like": 78.44,
+    "temp": 80.2,
+    "feels_like": 85.57,
     "description": "overcast clouds",
-    "wind_speed": 3.62,
-    "wind_deg": 309,
-    "gust": 6.38,
+    "wind_speed": 3.89,
+    "wind_deg": 319,
+    "gust": 6.26,
     "sunrise": "06:22 AM",
     "sunset": "08:18 PM",
     "dayOrNight": "day",
-    "humidity": 91,
-    "uv_index": 0.69,
+    "humidity": 86,
+    "uv_index": 1.98,
     "pressure": 1016,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 73.96
+    "dew_point": 75.63
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1016,
     1016,
     1016,
+    1017,
     1016,
-    1016,
-    1016
+    1015
   ],
   "fishingReport": {
-    "date": "Jul 9, 2025",
-    "report": "GOOD. Water stained; 90 degrees; 0.75 feet below pool. It is just the dead of summer time fishing here on Toledo Bend. Bass fishing is tough with a few bites at daylight on topwater and swim jigs. The best bite is coming at night on buzzbaits and spinnerbaits along the edge of bank grass, then Texas rig worms and football jigs on main lake points in 12-18 feet. The bite should improve with the coming full moon. Crappie are hit-and-miss on main lake docks and brush piles. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jul 17, 2025",
+    "report": "GOOD. Water stained; 90 degrees; 1.08 feet below pool. The dog days of summer are here, with water temps in the low 90s and overall fish action slow. Night fishing for bass has been the most productive, especially around last week’s full moon - good numbers of quality fish were caught on Texas and Carolina-rigged 10-12 inch worms and lizards, with a few also hitting spinnerbaits and buzzbaits near lighted docks close to deep water. Daytime bite remains tough, but some success is coming late in the afternoon using Texas rigs and big crankbaits in 10-18 feet of water. A few bass are being picked up shallow on frogs in heavy lily pads, though bites are limited. Crappie are extremely slow, with many guides canceling trips over the next couple of weeks. Keep a close eye on the weather heading into the weekend - while tropical storms may not make landfall, strong north to northeast winds are expected either way, so stay weather aware. Report by Stephen Johnston, Johnston Fishing."
   }
 };
