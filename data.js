@@ -1,5 +1,5 @@
 const data = {
-  "lakeLevel": "171.11ft 11:45am",
+  "lakeLevel": "171.12ft 12:45pm",
   "currentWeather": {},
   "fiveDayWeather": [],
   "weatherAlerts": [],
