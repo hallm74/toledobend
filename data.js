@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.94ft 11:45am",
+  "lakeLevel": "170.91ft 12:45pm",
   "currentWeather": {
-    "temp": 90.45,
-    "feels_like": 101.35,
+    "temp": 92.14,
+    "feels_like": 103.05,
     "description": "clear sky",
-    "wind_speed": 1.32,
-    "wind_deg": 253,
-    "gust": 2.77,
+    "wind_speed": 0.36,
+    "wind_deg": 223,
+    "gust": 3.09,
     "sunrise": "06:25 AM",
     "sunset": "08:15 PM",
     "dayOrNight": "day",
-    "humidity": 61,
-    "uv_index": 10.17,
-    "pressure": 1019,
+    "humidity": 57,
+    "uv_index": 11.42,
+    "pressure": 1018,
     "moon_phase": 0.96,
     "visibility": 10000,
-    "dew_point": 75.16
+    "dew_point": 74.71
   },
   "fiveDayWeather": [
     {
@@ -97,19 +97,19 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Heat Advisory",
-      "start": "3:00:00 PM",
+      "start": "5:10:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...Heat index values ranging from 107 to 111 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 10 AM this morning to 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "description": "* WHAT...Heat index values up to 109.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1019,
-    1019,
+    1018,
     1018,
     1017,
     1016,
-    1015
+    1016,
+    1014
   ],
   "fishingReport": {
     "date": "Jul 17, 2025",
