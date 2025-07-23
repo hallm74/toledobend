@@ -1,17 +1,17 @@
 const data = {
-  "lakeLevel": "170.97ft 5:45pm",
+  "lakeLevel": "170.98ft 6:45pm",
   "currentWeather": {
-    "temp": 94.24,
-    "feels_like": 105.51,
+    "temp": 92.46,
+    "feels_like": 103.19,
     "description": "clear sky",
-    "wind_speed": 2.51,
-    "wind_deg": 158,
-    "gust": 4.7,
+    "wind_speed": 2.8,
+    "wind_deg": 199,
+    "gust": 5.97,
     "sunrise": "06:25 AM",
     "sunset": "08:16 PM",
     "dayOrNight": "day",
-    "humidity": 53,
-    "uv_index": 1.54,
+    "humidity": 56,
+    "uv_index": 0.42,
     "pressure": 1015,
     "moon_phase": 0.92,
     "visibility": 10000,
@@ -21,16 +21,16 @@ const data = {
     {
       "date": "Wednesday",
       "high": 97.39,
-      "low": 75.67,
+      "low": 74.46,
       "description": "clear sky",
-      "wind_speed": 5.91,
-      "wind_deg": 202,
-      "gust": 19.19,
+      "wind_speed": 5.64,
+      "wind_deg": 210,
+      "gust": 19.33,
       "humidity": 40,
       "uv_index": 11.42,
-      "pressure": 1017,
+      "pressure": 1018,
       "moon_phase": 0.96,
-      "dew_point": 67.51,
+      "dew_point": 66.88,
       "visibility": 10000
     },
     {
@@ -94,15 +94,7 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Heat Advisory",
-      "start": "5:25:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...For the first Heat Advisory, heat index values up to 109.\nFor the second Heat Advisory, heat index values up to 111 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Heat Advisory, until 7 PM CDT this evening.\nFor the second Heat Advisory, from 10 AM to 7 PM CDT Wednesday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1015,
     1015,
