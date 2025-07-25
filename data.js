@@ -10,12 +10,12 @@ const data = {
     "sunrise": "06:26 AM",
     "sunset": "08:15 PM",
     "dayOrNight": "night",
-    "humidity": 85,
+    "humidity": 87,
     "uv_index": 0,
     "pressure": 1015,
     "moon_phase": "Unavailable",
     "visibility": 10000,
-    "dew_point": 74.98
+    "dew_point": 75.69
   },
   "fiveDayWeather": [
     {
