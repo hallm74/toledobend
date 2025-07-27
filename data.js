@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "170.60ft 1:45pm",
   "currentWeather": {
-    "temp": 90.68,
-    "feels_like": 96.89,
-    "description": "scattered clouds",
-    "wind_speed": 2.73,
-    "wind_deg": 133,
-    "gust": 7.18,
+    "temp": 91.31,
+    "feels_like": 101.64,
+    "description": "broken clouds",
+    "wind_speed": 2.98,
+    "wind_deg": 142,
+    "gust": 6.78,
     "sunrise": "06:28 AM",
     "sunset": "08:13 PM",
     "dayOrNight": "day",
-    "humidity": 52,
-    "uv_index": 10.85,
+    "humidity": 58,
+    "uv_index": 7.99,
     "pressure": 1020,
     "moon_phase": 0.1,
     "visibility": 10000,
-    "dew_point": 70.63
+    "dew_point": 74.46
   },
   "fiveDayWeather": [
     {
@@ -65,32 +65,32 @@ const data = {
     },
     {
       "date": "Thursday",
-      "high": 89.64,
-      "low": 75.78,
-      "description": "light rain",
-      "wind_speed": 8.08,
-      "wind_deg": 267,
-      "gust": 18.34,
-      "humidity": 51,
+      "high": 92.77,
+      "low": 76.12,
+      "description": "overcast clouds",
+      "wind_speed": 5.75,
+      "wind_deg": 225,
+      "gust": 9.6,
+      "humidity": 46,
       "uv_index": 0.11,
-      "pressure": 1017,
+      "pressure": 1016,
       "moon_phase": 0.23,
-      "dew_point": 68.77,
+      "dew_point": 67.62,
       "visibility": "Unavailable"
     },
     {
       "date": "Friday",
-      "high": 93.04,
-      "low": 73.6,
+      "high": 94.15,
+      "low": 75.15,
       "description": "light rain",
-      "wind_speed": 4.68,
-      "wind_deg": 4,
-      "gust": 8.81,
-      "humidity": 44,
+      "wind_speed": 5.01,
+      "wind_deg": 209,
+      "gust": 16.13,
+      "humidity": 46,
       "uv_index": 1,
-      "pressure": 1019,
+      "pressure": 1018,
       "moon_phase": 0.25,
-      "dew_point": 68.05,
+      "dew_point": 70.03,
       "visibility": "Unavailable"
     }
   ],
@@ -98,10 +98,10 @@ const data = {
   "barometricPressureHistory": [
     1020,
     1020,
+    1020,
     1019,
     1019,
-    1018,
-    1019
+    1020
   ],
   "fishingReport": {
     "date": "Jul 23, 2025",
