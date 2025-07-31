@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.25ft 7:45am",
+  "lakeLevel": "170.25ft 8:45am",
   "currentWeather": {
-    "temp": 76.73,
-    "feels_like": 78.33,
+    "temp": 79.25,
+    "feels_like": 79.25,
     "description": "overcast clouds",
-    "wind_speed": 5.08,
+    "wind_speed": 4.74,
     "wind_deg": 264,
-    "gust": 11.12,
+    "gust": 7.99,
     "sunrise": "06:30 AM",
     "sunset": "08:10 PM",
     "dayOrNight": "day",
-    "humidity": 90,
-    "uv_index": 0.63,
-    "pressure": 1017,
+    "humidity": 87,
+    "uv_index": 1.84,
+    "pressure": 1018,
     "moon_phase": 0.23,
     "visibility": 10000,
-    "dew_point": 73.58
+    "dew_point": 75.04
   },
   "fiveDayWeather": [
     {
@@ -51,7 +51,7 @@ const data = {
     {
       "date": "Sunday",
       "high": 93.99,
-      "low": 75.65,
+      "low": 75.25,
       "description": "scattered clouds",
       "wind_speed": 4.81,
       "wind_deg": 43,
@@ -104,15 +104,15 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1017,
-    1017,
-    1017,
+    1018,
+    1018,
+    1018,
     1017,
     1017,
     1016
   ],
   "fishingReport": {
-    "date": "Jul 23, 2025",
-    "report": "GOOD. Water stained; 90 degrees; 0.98 feet below pool. Fishing has been tough lately with last week’s heavy rain and more in the forecast this weekend. While it is typical summer conditions, the bite has been harder than usual. A few fish are being caught at daylight on Texas and Carolina rigs with big worms in the 15-18 feet along main lake ridges. On mornings with a little wind, a big crankbait like a DD500 can also get some action. A few schooling fish are starting to show up, mostly small to keeper size, and can be caught when they break surface using topwaters or shallow-running shad-colored crankbaits. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jul 30, 2025",
+    "report": "FAIR. Water stained; low 90s degrees; 1.3 feet below pool. Bass fishing is fair. Very little action for the hour of sunlight on topwaters. Some good bass can be caught in 10-14 feet on Texas rig worms and shallow running crankbaits. Some deeper fish coming on football jigs and big crankbaits with a few fish this week in the 8-pound range. Just not many bites out deep, but when you get a few, they're good ones. Few school fish showing up in the mid lake area. These calm, no wind days help get the shad up to the surface with spoons, small topwater and shallow running crankbaits being best. Crappie fishing is just tough. Report by Stephen Johnston, Johnston Fishing."
   }
 };
