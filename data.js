@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.31ft 1:45pm",
+  "lakeLevel": "170.27ft 2:45pm",
   "currentWeather": {
-    "temp": 90.45,
-    "feels_like": 103.05,
+    "temp": 91.65,
+    "feels_like": 104.25,
     "description": "overcast clouds",
-    "wind_speed": 4.76,
-    "wind_deg": 359,
-    "gust": 5.28,
+    "wind_speed": 5.14,
+    "wind_deg": 11,
+    "gust": 4.65,
     "sunrise": "06:30 AM",
     "sunset": "08:10 PM",
     "dayOrNight": "day",
-    "humidity": 65,
-    "uv_index": 10.47,
-    "pressure": 1017,
+    "humidity": 63,
+    "uv_index": 6.79,
+    "pressure": 1016,
     "moon_phase": 0.23,
     "visibility": 10000,
-    "dew_point": 77.07
+    "dew_point": 77.25
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 354,
       "gust": 12.73,
       "humidity": 58,
-      "uv_index": 10.84,
+      "uv_index": 7.18,
       "pressure": 1020,
       "moon_phase": 0.25,
       "dew_point": 69.73,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 42,
       "gust": 10.47,
       "humidity": 49,
-      "uv_index": 10.9,
+      "uv_index": 10.8,
       "pressure": 1019,
       "moon_phase": 0.29,
       "dew_point": 69.01,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 61,
       "gust": 19.15,
       "humidity": 40,
-      "uv_index": 10.33,
+      "uv_index": 10.31,
       "pressure": 1014,
       "moon_phase": 0.32,
       "dew_point": 64.45,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 181,
       "gust": 18.92,
       "humidity": 40,
-      "uv_index": 0.11,
+      "uv_index": 8.66,
       "pressure": 1013,
       "moon_phase": 0.35,
       "dew_point": 67.42,
@@ -87,29 +87,21 @@ const data = {
       "wind_deg": 116,
       "gust": 23.8,
       "humidity": 43,
-      "uv_index": 1,
+      "uv_index": 0.1,
       "pressure": 1017,
       "moon_phase": 0.38,
       "dew_point": 67.26,
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Heat Advisory",
-      "start": "3:00:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...Heat index values ranging from 108 to 111 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 10 AM this morning to 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1017,
-    1017,
-    1017,
+    1016,
+    1016,
     1016,
     1015,
-    1015
+    1015,
+    1016
   ],
   "fishingReport": {
     "date": "Jul 30, 2025",
