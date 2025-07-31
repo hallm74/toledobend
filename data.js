@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "170.34ft 6:45pm",
   "currentWeather": {
-    "temp": 79.09,
-    "feels_like": 79.09,
-    "description": "overcast clouds",
-    "wind_speed": 1.88,
-    "wind_deg": 143,
-    "gust": 0.47,
+    "temp": 78.87,
+    "feels_like": 78.87,
+    "description": "broken clouds",
+    "wind_speed": 3.38,
+    "wind_deg": 188,
+    "gust": 3.22,
     "sunrise": "06:30 AM",
-    "sunset": "08:11 PM",
+    "sunset": "08:10 PM",
     "dayOrNight": "night",
-    "humidity": 89,
+    "humidity": 88,
     "uv_index": 0,
-    "pressure": 1016,
-    "moon_phase": 0.2,
+    "pressure": 1015,
+    "moon_phase": 0.23,
     "visibility": 10000,
-    "dew_point": 75.56
+    "dew_point": 75.02
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 96.69,
-      "low": 73.36,
-      "description": "moderate rain",
-      "wind_speed": 13,
-      "wind_deg": 51,
-      "gust": 19.06,
-      "humidity": 45,
-      "uv_index": 10.79,
-      "pressure": 1016,
-      "moon_phase": 0.23,
-      "dew_point": 70.18,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 94.82,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.29,
       "dew_point": 71.8,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.35,
       "dew_point": 64.38,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 93.67,
+      "low": 75.06,
+      "description": "light rain",
+      "wind_speed": 6.69,
+      "wind_deg": 140,
+      "gust": 18.59,
+      "humidity": 47,
+      "uv_index": 1,
+      "pressure": 1018,
+      "moon_phase": 0.38,
+      "dew_point": 70.56,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -104,9 +104,9 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
+    1015,
+    1015,
+    1015,
     1015,
     1015,
     1015
