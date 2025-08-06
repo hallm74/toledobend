@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "170.05ft 3:45pm",
+  "lakeLevel": "170.06ft 4:45pm",
   "currentWeather": {
-    "temp": 93.27,
-    "feels_like": 101.26,
+    "temp": 92.08,
+    "feels_like": 99.28,
     "description": "clear sky",
-    "wind_speed": 3.42,
-    "wind_deg": 352,
-    "gust": 3.96,
+    "wind_speed": 5.12,
+    "wind_deg": 332,
+    "gust": 4.18,
     "sunrise": "06:34 AM",
     "sunset": "08:05 PM",
     "dayOrNight": "day",
-    "humidity": 50,
-    "uv_index": 5.44,
-    "pressure": 1020,
+    "humidity": 51,
+    "uv_index": 2.88,
+    "pressure": 1019,
     "moon_phase": 0.41,
     "visibility": 10000,
-    "dew_point": 71.85
+    "dew_point": 71.35
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
+    1019,
+    1019,
     1019,
     1019,
     1019,
     1019
   ],
   "fishingReport": {
-    "date": "Jul 30, 2025",
-    "report": "FAIR. Water stained; low 90s degrees; 1.3 feet below pool. Bass fishing is fair. Very little action for the hour of sunlight on topwaters. Some good bass can be caught in 10-14 feet on Texas rig worms and shallow running crankbaits. Some deeper fish coming on football jigs and big crankbaits with a few fish this week in the 8-pound range. Just not many bites out deep, but when you get a few, they're good ones. Few school fish showing up in the mid lake area. These calm, no wind days help get the shad up to the surface with spoons, small topwater and shallow running crankbaits being best. Crappie fishing is just tough. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Aug 6, 2025",
+    "report": "FAIR. 89 degrees; 1.85 feet below pool. Bass fishing is fair. Very little action for the hour of sunlight on topwaters. Some good bass can be caught in 10-14 feet on Texas rig worms and shallow running crankbaits. Some deeper fish coming on football jigs and big crankbaits with a few fish this week in the 8-pound range. Just not many bites out deep, but when you get a few, they're good ones. Few school fish showing up in the mid lake area. These calm, no wind days help get the shad up to the surface with spoons, small topwater and shallow running crankbaits being best. Crappie fishing is just tough. Report by Stephen Johnston, Johnston Fishing."
   }
 };
