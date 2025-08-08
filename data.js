@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "169.98ft 6:45pm",
   "currentWeather": {
-    "temp": 79.77,
-    "feels_like": 79.77,
+    "temp": 78.85,
+    "feels_like": 78.85,
     "description": "clear sky",
-    "wind_speed": 4.85,
-    "wind_deg": 201,
-    "gust": 12.48,
+    "wind_speed": 4.27,
+    "wind_deg": 200,
+    "gust": 10.49,
     "sunrise": "06:35 AM",
     "sunset": "08:04 PM",
     "dayOrNight": "night",
-    "humidity": 85,
+    "humidity": 88,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.44,
+    "moon_phase": 0.48,
     "visibility": 10000,
-    "dew_point": 74.86
+    "dew_point": 75
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 95.88,
-      "low": 74.41,
-      "description": "moderate rain",
-      "wind_speed": 6.71,
-      "wind_deg": 166,
-      "gust": 16.78,
-      "humidity": 42,
-      "uv_index": 9.53,
-      "pressure": 1015,
-      "moon_phase": 0.48,
-      "dew_point": 68.43,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 95.27,
@@ -61,15 +46,15 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.55,
       "dew_point": 68.56,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
       "high": 92.86,
       "low": 75.06,
       "description": "light rain",
-      "wind_speed": 5.55,
-      "wind_deg": 133,
+      "wind_speed": 5.64,
+      "wind_deg": 173,
       "gust": 17.02,
       "humidity": 48,
       "uv_index": 10.82,
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.62,
       "dew_point": 73.56,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 92.26,
+      "low": 72.64,
+      "description": "scattered clouds",
+      "wind_speed": 7.43,
+      "wind_deg": 153,
+      "gust": 17.76,
+      "humidity": 54,
+      "uv_index": 11,
+      "pressure": 1015,
+      "moon_phase": 0.66,
+      "dew_point": 71.17,
       "visibility": "Unavailable"
     }
   ],
