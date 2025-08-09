@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "169.93ft 6:45pm",
   "currentWeather": {
-    "temp": 80.01,
-    "feels_like": 84.94,
+    "temp": 79,
+    "feels_like": 79,
     "description": "clear sky",
-    "wind_speed": 5.03,
-    "wind_deg": 177,
-    "gust": 15.3,
-    "sunrise": "06:35 AM",
-    "sunset": "08:04 PM",
+    "wind_speed": 4.97,
+    "wind_deg": 169,
+    "gust": 15.5,
+    "sunrise": "06:36 AM",
+    "sunset": "08:03 PM",
     "dayOrNight": "night",
-    "humidity": 85,
+    "humidity": 88,
     "uv_index": 0,
-    "pressure": 1014,
-    "moon_phase": 0.48,
+    "pressure": 1015,
+    "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 75.09
+    "dew_point": 75.15
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 94.75,
-      "low": 73.42,
-      "description": "light rain",
-      "wind_speed": 5.46,
-      "wind_deg": 149,
-      "gust": 16.58,
-      "humidity": 40,
-      "uv_index": 9.94,
-      "pressure": 1014,
-      "moon_phase": 0.5,
-      "dew_point": 66.06,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 92.68,
@@ -55,13 +40,13 @@ const data = {
       "description": "moderate rain",
       "wind_speed": 5.06,
       "wind_deg": 184,
-      "gust": 11.63,
+      "gust": 15.61,
       "humidity": 49,
       "uv_index": 10.56,
       "pressure": 1015,
       "moon_phase": 0.58,
       "dew_point": 70.59,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,13 +77,28 @@ const data = {
       "moon_phase": 0.66,
       "dew_point": 69.04,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 95.05,
+      "low": 75.81,
+      "description": "clear sky",
+      "wind_speed": 9.93,
+      "wind_deg": 187,
+      "gust": 23.89,
+      "humidity": 43,
+      "uv_index": 12,
+      "pressure": 1015,
+      "moon_phase": 0.69,
+      "dew_point": 69.08,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1014,
-    1014,
-    1014,
+    1015,
+    1015,
+    1015,
     1014,
     1014,
     1014
