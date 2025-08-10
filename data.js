@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "169.92ft 6:45pm",
   "currentWeather": {
-    "temp": 79.25,
-    "feels_like": 79.25,
+    "temp": 78.31,
+    "feels_like": 79.79,
     "description": "scattered clouds",
-    "wind_speed": 3.87,
-    "wind_deg": 149,
-    "gust": 6.73,
-    "sunrise": "06:36 AM",
-    "sunset": "08:03 PM",
+    "wind_speed": 3.69,
+    "wind_deg": 163,
+    "gust": 4.79,
+    "sunrise": "06:37 AM",
+    "sunset": "08:02 PM",
     "dayOrNight": "night",
-    "humidity": 80,
+    "humidity": 84,
     "uv_index": 0,
     "pressure": 1015,
-    "moon_phase": 0.5,
+    "moon_phase": 0.55,
     "visibility": 10000,
-    "dew_point": 72.54
+    "dew_point": 73.08
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 93.7,
-      "low": 73.02,
-      "description": "light rain",
-      "wind_speed": 4.92,
-      "wind_deg": 164,
-      "gust": 12.62,
-      "humidity": 42,
-      "uv_index": 10.47,
-      "pressure": 1016,
-      "moon_phase": 0.55,
-      "dew_point": 66.4,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 91.54,
@@ -53,15 +38,15 @@ const data = {
       "high": 92.19,
       "low": 74.98,
       "description": "light rain",
-      "wind_speed": 6.11,
-      "wind_deg": 160,
+      "wind_speed": 7.27,
+      "wind_deg": 143,
       "gust": 16.96,
       "humidity": 49,
       "uv_index": 10.37,
       "pressure": 1015,
       "moon_phase": 0.62,
       "dew_point": 70.47,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.69,
       "dew_point": 69.42,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 98.91,
+      "low": 75.49,
+      "description": "few clouds",
+      "wind_speed": 9.19,
+      "wind_deg": 174,
+      "gust": 22.01,
+      "humidity": 42,
+      "uv_index": 12,
+      "pressure": 1018,
+      "moon_phase": 0.73,
+      "dew_point": 68.85,
       "visibility": "Unavailable"
     }
   ],
