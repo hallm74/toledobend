@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.78ft 3:45pm",
+  "lakeLevel": "169.80ft 4:45pm",
   "currentWeather": {
-    "temp": 91.18,
-    "feels_like": 103.23,
+    "temp": 90.91,
+    "feels_like": 103.51,
     "description": "broken clouds",
-    "wind_speed": 2.01,
-    "wind_deg": 259,
-    "gust": 2.8,
+    "wind_speed": 3.31,
+    "wind_deg": 281,
+    "gust": 1.72,
     "sunrise": "06:39 AM",
     "sunset": "07:59 PM",
     "dayOrNight": "day",
-    "humidity": 61,
-    "uv_index": 2.03,
+    "humidity": 65,
+    "uv_index": 0.81,
     "pressure": 1012,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 75.85
+    "dew_point": 77.5
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1012,
     1012,
     1012,
-    1011,
     1012,
-    1012
+    1012,
+    1013
   ],
   "fishingReport": {
-    "date": "Aug 6, 2025",
-    "report": "FAIR. 89 degrees; 1.85 feet below pool. Bass fishing is fair. Very little action for the hour of sunlight on topwaters. Some good bass can be caught in 10-14 feet on Texas rig worms and shallow running crankbaits. Some deeper fish coming on football jigs and big crankbaits with a few fish this week in the 8-pound range. Just not many bites out deep, but when you get a few, they're good ones. Few school fish showing up in the mid lake area. These calm, no wind days help get the shad up to the surface with spoons, small topwater and shallow running crankbaits being best. Crappie fishing is just tough. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Aug 13, 2025",
+    "report": "FAIR. 94 degrees; 2.23 feet below pool. Hot summer conditions have made fishing tough, with the early morning topwater bite showing slight improvement-producing a few fish in the 4 pound range on Yellow Magic, Pop-R, and Spooks-but lasting only 30-45 minutes. With no morning cloud cover, the bite shuts down quickly once the sun clears the trees. Main lake ridge fishing has been fair, improving in the afternoon, with Texas rigs and big crankbaits working best in 15-20 feet of water during the last hour of daylight until dark. Crappie fishing remains very slow, with no solid reports this week. Report by Stephen Johnston, Johnston Fishing."
   }
 };
