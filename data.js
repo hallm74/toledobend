@@ -1,28 +1,28 @@
 const data = {
   "lakeLevel": "169.65ft 6:45pm",
   "currentWeather": {
-    "temp": 81.01,
-    "feels_like": 86.47,
-    "description": "heavy intensity rain",
-    "wind_speed": 3.96,
-    "wind_deg": 243,
-    "gust": 4.21,
+    "temp": 79.2,
+    "feels_like": 79.2,
+    "description": "overcast clouds",
+    "wind_speed": 2.46,
+    "wind_deg": 253,
+    "gust": 11.41,
     "sunrise": "06:39 AM",
     "sunset": "07:58 PM",
     "dayOrNight": "night",
-    "humidity": 80,
+    "humidity": 86,
     "uv_index": 0,
-    "pressure": 1015,
+    "pressure": 1016,
     "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 74.26
+    "dew_point": 74.64
   },
   "fiveDayWeather": [
     {
       "date": "Friday",
       "high": 96.49,
       "low": 75.81,
-      "description": "clear sky",
+      "description": "light rain",
       "wind_speed": 8.25,
       "wind_deg": 196,
       "gust": 21.88,
@@ -94,20 +94,12 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Special Weather Statement",
-      "start": "12:59:00 AM",
-      "end": "1:45:00 AM",
-      "description": "At 759 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Burr Ferry to near Farrsville. These\nstorms were nearly stationary.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nJasper, Toledo Bend Dam, Burkeville, Browndell, Jamestown,\nFarrsville, Harrisburg, Burr Ferry, Mayflower, Stringtown, Evans, and\nWiergate.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
-    1015,
+    1016,
+    1016,
+    1016,
+    1016,
     1016,
     1016
   ],
