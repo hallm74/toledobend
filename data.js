@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "169.65ft 6:45pm",
   "currentWeather": {
-    "temp": 87.84,
-    "feels_like": 98.71,
+    "temp": 81.01,
+    "feels_like": 86.47,
     "description": "heavy intensity rain",
-    "wind_speed": 5.23,
-    "wind_deg": 159,
-    "gust": 11.97,
+    "wind_speed": 3.96,
+    "wind_deg": 243,
+    "gust": 4.21,
     "sunrise": "06:39 AM",
     "sunset": "07:58 PM",
-    "dayOrNight": "day",
-    "humidity": 68,
-    "uv_index": 0.17,
-    "pressure": 1014,
+    "dayOrNight": "night",
+    "humidity": 80,
+    "uv_index": 0,
+    "pressure": 1015,
     "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 75.96
+    "dew_point": 74.26
   },
   "fiveDayWeather": [
     {
@@ -53,9 +53,9 @@ const data = {
       "high": 96.55,
       "low": 74.79,
       "description": "light rain",
-      "wind_speed": 6.06,
-      "wind_deg": 50,
-      "gust": 13.11,
+      "wind_speed": 7.99,
+      "wind_deg": 179,
+      "gust": 17.47,
       "humidity": 47,
       "uv_index": 10.59,
       "pressure": 1015,
@@ -94,11 +94,19 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "12:59:00 AM",
+      "end": "1:45:00 AM",
+      "description": "At 759 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Burr Ferry to near Farrsville. These\nstorms were nearly stationary.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nJasper, Toledo Bend Dam, Burkeville, Browndell, Jamestown,\nFarrsville, Harrisburg, Burr Ferry, Mayflower, Stringtown, Evans, and\nWiergate.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1014,
-    1014,
-    1014,
+    1015,
+    1015,
+    1015,
     1015,
     1016,
     1016
