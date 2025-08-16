@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "169.59ft 6:45pm",
   "currentWeather": {
-    "temp": 78.66,
-    "feels_like": 80.49,
+    "temp": 78.03,
+    "feels_like": 79.9,
     "description": "clear sky",
-    "wind_speed": 4.47,
-    "wind_deg": 175,
-    "gust": 14.58,
-    "sunrise": "06:40 AM",
-    "sunset": "07:57 PM",
+    "wind_speed": 4.21,
+    "wind_deg": 179,
+    "gust": 13.82,
+    "sunrise": "06:41 AM",
+    "sunset": "07:56 PM",
     "dayOrNight": "night",
-    "humidity": 91,
+    "humidity": 93,
     "uv_index": 0,
-    "pressure": 1018,
-    "moon_phase": 0.73,
+    "pressure": 1019,
+    "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 75.81
+    "dew_point": 75.83
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 94.68,
-      "low": 73.36,
-      "description": "light rain",
-      "wind_speed": 5.75,
-      "wind_deg": 165,
-      "gust": 13.82,
-      "humidity": 49,
-      "uv_index": 10.89,
-      "pressure": 1018,
-      "moon_phase": 0.75,
-      "dew_point": 71.15,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 93.72,
@@ -61,12 +46,12 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.84,
       "dew_point": 67.77,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
       "high": 95.31,
-      "low": 73.71,
+      "low": 73.6,
       "description": "light rain",
       "wind_speed": 6.04,
       "wind_deg": 191,
@@ -92,13 +77,28 @@ const data = {
       "moon_phase": 0.91,
       "dew_point": 68.11,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 94.19,
+      "low": 73.13,
+      "description": "heavy intensity rain",
+      "wind_speed": 5.1,
+      "wind_deg": 268,
+      "gust": 9.01,
+      "humidity": 46,
+      "uv_index": 11,
+      "pressure": 1012,
+      "moon_phase": 0.95,
+      "dew_point": 70.54,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
+    1019,
+    1019,
+    1019,
     1018,
     1018,
     1018
