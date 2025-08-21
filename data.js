@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.52ft 3:45am",
+  "lakeLevel": "169.51ft 4:45am",
   "currentWeather": {
-    "temp": 74.26,
-    "feels_like": 75.76,
+    "temp": 74.28,
+    "feels_like": 75.74,
     "description": "clear sky",
-    "wind_speed": 1.34,
-    "wind_deg": 30,
-    "gust": 1.48,
+    "wind_speed": 2.1,
+    "wind_deg": 21,
+    "gust": 2.57,
     "sunrise": "06:44 AM",
     "sunset": "07:51 PM",
     "dayOrNight": "night",
-    "humidity": 93,
+    "humidity": 92,
     "uv_index": 0,
     "pressure": 1012,
     "moon_phase": 0.95,
     "visibility": 10000,
-    "dew_point": 72.1
+    "dew_point": 71.8
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1012,
     1012,
     1012,
-    1012,
+    1013,
     1013,
     1013
   ],
   "fishingReport": {
-    "date": "Aug 20, 2025",
-    "report": "FAIR. 90 degrees; 2.45 feet below pool. Water temperatures are holding around 90 degrees, but recent afternoon storms have helped improve the late bite. Early morning and midday action has been slow, with the best window from about 4 p.m. until dark. Texas rigs and crankbaits fished in 14-22 feet on main lake points and ridges have been most productive. No night fishing reports have come in. Crappie remain slow, but with cooler temperatures expected this weekend and into next week, both bass and crappie action should improve. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
