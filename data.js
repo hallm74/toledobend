@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.17ft 1:45pm",
+  "lakeLevel": "169.16ft 2:45pm",
   "currentWeather": {
-    "temp": 80.62,
-    "feels_like": 87.37,
-    "description": "moderate rain",
-    "wind_speed": 5.23,
-    "wind_deg": 178,
-    "gust": 8.48,
+    "temp": 81.45,
+    "feels_like": 89.55,
+    "description": "light rain",
+    "wind_speed": 6.15,
+    "wind_deg": 161,
+    "gust": 11.1,
     "sunrise": "06:49 AM",
     "sunset": "07:41 PM",
     "dayOrNight": "day",
-    "humidity": 90,
-    "uv_index": 0.78,
-    "pressure": 1016,
+    "humidity": 89,
+    "uv_index": 5.1,
+    "pressure": 1015,
     "moon_phase": 0.2,
-    "visibility": 4509,
-    "dew_point": 77.41
+    "visibility": 10000,
+    "dew_point": 77.88
   },
   "fiveDayWeather": [
     {
@@ -27,11 +27,11 @@ const data = {
       "wind_deg": 42,
       "gust": 6.8,
       "humidity": 70,
-      "uv_index": 9.6,
+      "uv_index": 9.42,
       "pressure": 1014,
       "moon_phase": 0.23,
       "dew_point": 74.14,
-      "visibility": 9771
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 103,
       "gust": 8.32,
       "humidity": 56,
-      "uv_index": 1.53,
+      "uv_index": 7.5,
       "pressure": 1016,
       "moon_phase": 0.25,
       "dew_point": 69.01,
@@ -50,14 +50,14 @@ const data = {
     },
     {
       "date": "Monday",
-      "high": 85.75,
+      "high": 85.96,
       "low": 72.46,
       "description": "light rain",
-      "wind_speed": 7.38,
-      "wind_deg": 171,
+      "wind_speed": 8.03,
+      "wind_deg": 167,
       "gust": 12.66,
       "humidity": 59,
-      "uv_index": 9.12,
+      "uv_index": 7.72,
       "pressure": 1017,
       "moon_phase": 0.29,
       "dew_point": 68.49,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 320,
       "gust": 9.4,
       "humidity": 51,
-      "uv_index": 10,
+      "uv_index": 9.49,
       "pressure": 1013,
       "moon_phase": 0.33,
       "dew_point": 67.3,
@@ -96,12 +96,12 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
+    1015,
     1015,
     1015,
     1014,
-    1013
+    1013,
+    1014
   ],
   "fishingReport": {
     "date": "Aug 27, 2025",
