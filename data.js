@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "169.11ft 3:45pm",
+  "lakeLevel": "169.13ft 4:45pm",
   "currentWeather": {
-    "temp": 89.2,
-    "feels_like": 98.89,
-    "description": "broken clouds",
-    "wind_speed": 6.4,
-    "wind_deg": 135,
-    "gust": 8.43,
+    "temp": 88.5,
+    "feels_like": 97.23,
+    "description": "light rain",
+    "wind_speed": 0.67,
+    "wind_deg": 287,
+    "gust": 5.95,
     "sunrise": "06:51 AM",
     "sunset": "07:35 PM",
     "dayOrNight": "day",
     "humidity": 62,
-    "uv_index": 2.31,
-    "pressure": 1011,
+    "uv_index": 1.3,
+    "pressure": 1010,
     "moon_phase": 0.36,
     "visibility": 10000,
-    "dew_point": 74.48
+    "dew_point": 73.81
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1011,
-    1011,
-    1011,
     1010,
     1010,
+    1010,
+    1010,
+    1011,
     1011
   ],
   "fishingReport": {
-    "date": "Aug 27, 2025",
-    "report": "FAIR. 90 degrees; 2.71 feet below pool. No real change in the fishing this week, but big rain and cooler temperatures are in the forecast starting this weekend, which should help improve conditions a lot. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Sep 3, 2025",
+    "report": "FAIR. 90 degrees; 2.75 feet below pool. Bass fishing has improved with water temperatures now in the mid-80s. The topwater bite is picking up at daylight, lasting about 30-45 minutes unless you catch a cloudy morning, with Pop-R’s Spooks, and buzzbaits working best in 1-5 feet around creek bends, standing timber, and shallow grass. Mid-range action remains steady on Texas rigs and crankbaits in 12-18 feet. With cooler weather in the forecast next week and highs dropping into the low 80s, expect water temperatures to fall and bass activity to ramp up, setting the stage for a strong fall bite. Report by Stephen Johnston, Johnston Fishing."
   }
 };
