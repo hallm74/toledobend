@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.48ft 2:45pm",
+  "lakeLevel": "168.46ft 3:45pm",
   "currentWeather": {
-    "temp": 90.43,
-    "feels_like": 94.95,
+    "temp": 91.06,
+    "feels_like": 94.75,
     "description": "clear sky",
-    "wind_speed": 1.34,
-    "wind_deg": 90,
-    "gust": 5.75,
+    "wind_speed": 1.21,
+    "wind_deg": 38,
+    "gust": 6.2,
     "sunrise": "06:55 AM",
     "sunset": "07:26 PM",
     "dayOrNight": "day",
-    "humidity": 49,
-    "uv_index": 6.84,
+    "humidity": 46,
+    "uv_index": 4.48,
     "pressure": 1017,
     "moon_phase": 0.61,
     "visibility": 10000,
-    "dew_point": 68.67
+    "dew_point": 67.41
   },
   "fiveDayWeather": [
     {
@@ -101,10 +101,10 @@ const data = {
     1017,
     1016,
     1016,
-    1016
+    1017
   ],
   "fishingReport": {
-    "date": "Sep 3, 2025",
-    "report": "FAIR. 90 degrees; 2.75 feet below pool. Bass fishing has improved with water temperatures now in the mid-80s. The topwater bite is picking up at daylight, lasting about 30-45 minutes unless you catch a cloudy morning, with Pop-R’s Spooks, and buzzbaits working best in 1-5 feet around creek bends, standing timber, and shallow grass. Mid-range action remains steady on Texas rigs and crankbaits in 12-18 feet. With cooler weather in the forecast next week and highs dropping into the low 80s, expect water temperatures to fall and bass activity to ramp up, setting the stage for a strong fall bite. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Sep 10, 2025",
+    "report": "FAIR. 90 degrees; 3.44 feet below pool. Water temperatures are finally starting to fall, beginning around 80 degrees in the mornings and climbing to 84-86 degrees during the day, and bass fishing is picking up nicely from shallow to deep water. The shallow water bite, 3-7 feet, has been good around grass and flooded timber on topwater and buzzbaits, while the mid-range, 10-18 feet, has produced on shallow-running crankbaits and Texas rigs. Out deeper in 18-24 feet, big crankbaits, Texas rigs, and Carolina rigs with big worms have been the go-to. No crappie reports have come in this week. Report by Stephen Johnston, Johnston Fishing."
   }
 };
