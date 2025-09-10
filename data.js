@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.49ft 1:45pm",
+  "lakeLevel": "168.48ft 2:45pm",
   "currentWeather": {
-    "temp": 89.56,
-    "feels_like": 93.79,
+    "temp": 90.43,
+    "feels_like": 94.95,
     "description": "clear sky",
-    "wind_speed": 2.21,
-    "wind_deg": 108,
-    "gust": 5.82,
+    "wind_speed": 1.34,
+    "wind_deg": 90,
+    "gust": 5.75,
     "sunrise": "06:55 AM",
     "sunset": "07:26 PM",
     "dayOrNight": "day",
-    "humidity": 50,
-    "uv_index": 8.54,
-    "pressure": 1018,
+    "humidity": 49,
+    "uv_index": 6.84,
+    "pressure": 1017,
     "moon_phase": 0.61,
     "visibility": 10000,
-    "dew_point": 68.47
+    "dew_point": 68.67
   },
   "fiveDayWeather": [
     {
@@ -50,7 +50,7 @@ const data = {
     },
     {
       "date": "Saturday",
-      "high": 93.99,
+      "high": 94.01,
       "low": 73.4,
       "description": "few clouds",
       "wind_speed": 6.06,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
     1017,
     1017,
+    1017,
+    1016,
     1016,
     1016
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Sep 3, 2025",
+    "report": "FAIR. 90 degrees; 2.75 feet below pool. Bass fishing has improved with water temperatures now in the mid-80s. The topwater bite is picking up at daylight, lasting about 30-45 minutes unless you catch a cloudy morning, with Pop-R’s Spooks, and buzzbaits working best in 1-5 feet around creek bends, standing timber, and shallow grass. Mid-range action remains steady on Texas rigs and crankbaits in 12-18 feet. With cooler weather in the forecast next week and highs dropping into the low 80s, expect water temperatures to fall and bass activity to ramp up, setting the stage for a strong fall bite. Report by Stephen Johnston, Johnston Fishing."
   }
 };
