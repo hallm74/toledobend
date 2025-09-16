@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "168.13ft 6:45pm",
   "currentWeather": {
-    "temp": 74.16,
-    "feels_like": 75.22,
+    "temp": 73,
+    "feels_like": 74.05,
     "description": "scattered clouds",
-    "wind_speed": 4.74,
-    "wind_deg": 222,
-    "gust": 5.66,
-    "sunrise": "06:58 AM",
-    "sunset": "07:20 PM",
+    "wind_speed": 4.41,
+    "wind_deg": 234,
+    "gust": 4.9,
+    "sunrise": "06:59 AM",
+    "sunset": "07:19 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 86,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.79,
+    "moon_phase": 0.83,
     "visibility": 10000,
-    "dew_point": 69.01
+    "dew_point": 68.58
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 91.81,
-      "low": 67.8,
-      "description": "light rain",
-      "wind_speed": 7.72,
-      "wind_deg": 288,
-      "gust": 12.95,
-      "humidity": 42,
-      "uv_index": 7.9,
-      "pressure": 1018,
-      "moon_phase": 0.83,
-      "dew_point": 63.93,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 90.99,
@@ -55,13 +40,13 @@ const data = {
       "description": "light rain",
       "wind_speed": 7.09,
       "wind_deg": 94,
-      "gust": 15.52,
+      "gust": 15.55,
       "humidity": 45,
       "uv_index": 8.12,
       "pressure": 1016,
       "moon_phase": 0.9,
       "dew_point": 64.53,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.96,
       "dew_point": 61.25,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 91.22,
+      "low": 70.54,
+      "description": "light rain",
+      "wind_speed": 12.15,
+      "wind_deg": 171,
+      "gust": 24.56,
+      "humidity": 39,
+      "uv_index": 9,
+      "pressure": 1012,
+      "moon_phase": 0,
+      "dew_point": 62.67,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -101,7 +101,7 @@ const data = {
     1018,
     1017,
     1017,
-    1017
+    1018
   ],
   "fishingReport": {
     "date": "Sep 10, 2025",
