@@ -1,21 +1,21 @@
 const data = {
-  "lakeLevel": "168.14ft 3:45pm",
+  "lakeLevel": "168.11ft 4:45pm",
   "currentWeather": {
-    "temp": 91.13,
-    "feels_like": 94.87,
+    "temp": 90.03,
+    "feels_like": 94.66,
     "description": "scattered clouds",
     "wind_speed": 0.83,
-    "wind_deg": 340,
-    "gust": 4.99,
+    "wind_deg": 6,
+    "gust": 3.33,
     "sunrise": "06:59 AM",
     "sunset": "07:17 PM",
     "dayOrNight": "day",
-    "humidity": 46,
-    "uv_index": 2.98,
+    "humidity": 50,
+    "uv_index": 1.32,
     "pressure": 1014,
     "moon_phase": 0.86,
     "visibility": 10000,
-    "dew_point": 67.46
+    "dew_point": 68.9
   },
   "fiveDayWeather": [
     {
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1014,
     1014,
+    1014,
     1013,
-    1013,
-    1013,
-    1014
+    1014,
+    1015
   ],
   "fishingReport": {
-    "date": "Sep 10, 2025",
-    "report": "FAIR. 90 degrees; 3.44 feet below pool. Water temperatures are finally starting to fall, beginning around 80 degrees in the mornings and climbing to 84-86 degrees during the day, and bass fishing is picking up nicely from shallow to deep water. The shallow water bite, 3-7 feet, has been good around grass and flooded timber on topwater and buzzbaits, while the mid-range, 10-18 feet, has produced on shallow-running crankbaits and Texas rigs. Out deeper in 18-24 feet, big crankbaits, Texas rigs, and Carolina rigs with big worms have been the go-to. No crappie reports have come in this week. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Sep 17, 2025",
+    "report": "FAIR. 90 degrees; 3.89 feet below pool. Water temperatures are back up in the mid to high 80s, and fishing has been tough on the south end of the lake as it continues turning over, with brown bubbles showing up-something that should settle in the next 5-6 days. For now, it’s best to stay north of the bridge. Main lake ridges in 12-18 feet are producing a few bites on Texas rigs and big crankbaits, while creek bends in 3-8 feet are giving up some small fish and keepers on square bills and lipless baits, though not many over 2 pounds. Crappie remain slow on brush piles and natural timber in 16-22 feet, with most caught on live bait rather than jigs. The fall transition keeps getting delayed by the heat, but signs point to a real shift coming next week once the turnover passes. Despite the tough bite, a few big fish have been landed recently, including several in the 9-pound range. Report by Stephen Johnston, Johnston Fishing."
   }
 };
