@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.92ft 6:45pm",
   "currentWeather": {
-    "temp": 80.49,
-    "feels_like": 85.78,
-    "description": "overcast clouds",
-    "wind_speed": 8.05,
-    "wind_deg": 172,
-    "gust": 21.81,
+    "temp": 79.68,
+    "feels_like": 79.68,
+    "description": "broken clouds",
+    "wind_speed": 8.68,
+    "wind_deg": 181,
+    "gust": 23.2,
     "sunrise": "07:03 AM",
     "sunset": "07:09 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 85,
     "uv_index": 0,
-    "pressure": 1013,
+    "pressure": 1014,
     "moon_phase": 0.06,
     "visibility": 10000,
-    "dew_point": 74.86
+    "dew_point": 74.77
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1013,
-    1013,
-    1013,
-    1013,
+    1014,
+    1014,
+    1014,
+    1014,
     1014,
     1014
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Fishing report not found"
+    "date": "Sep 17, 2025",
+    "report": "FAIR. 90 degrees; 3.89 feet below pool. Water temperatures are back up in the mid to high 80s, and fishing has been tough on the south end of the lake as it continues turning over, with brown bubbles showing up-something that should settle in the next 5-6 days. For now, it’s best to stay north of the bridge. Main lake ridges in 12-18 feet are producing a few bites on Texas rigs and big crankbaits, while creek bends in 3-8 feet are giving up some small fish and keepers on square bills and lipless baits, though not many over 2 pounds. Crappie remain slow on brush piles and natural timber in 16-22 feet, with most caught on live bait rather than jigs. The fall transition keeps getting delayed by the heat, but signs point to a real shift coming next week once the turnover passes. Despite the tough bite, a few big fish have been landed recently, including several in the 9-pound range. Report by Stephen Johnston, Johnston Fishing."
   }
 };
