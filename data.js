@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 89.4,
-    "feels_like": 89.82,
-    "description": "scattered clouds",
-    "wind_speed": 2.26,
-    "wind_deg": 290,
-    "gust": 6.11,
+    "temp": 89.47,
+    "feels_like": 89.62,
+    "description": "few clouds",
+    "wind_speed": 1.77,
+    "wind_deg": 281,
+    "gust": 6.17,
     "sunrise": "07:08 AM",
     "sunset": "06:59 PM",
     "dayOrNight": "day",
-    "humidity": 40,
-    "uv_index": 5.78,
-    "pressure": 1015,
+    "humidity": 39,
+    "uv_index": 3.61,
+    "pressure": 1014,
     "moon_phase": 0.3,
     "visibility": 10000,
-    "dew_point": 61.92
+    "dew_point": 61.27
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
     1014,
     1014,
+    1014,
+    1014,
+    1015,
     1015
   ],
   "fishingReport": {
-    "date": "Sep 24, 2025",
-    "report": "FAIR. 90 degrees; 4.00 feet below pool. Water temperatures are back up in the mid to high 80s, and fishing has been tough on the south end of the lake as it continues turning over, with brown bubbles showing up-something that should settle in the next 5-6 days. For now, it’s best to stay north of the bridge. Main lake ridges in 12-18 feet are producing a few bites on Texas rigs and big crankbaits, while creek bends in 3-8 feet are giving up some small fish and keepers on square bills and lipless baits, though not many over 2 pounds. Crappie remain slow on brush piles and natural timber in 16-22 feet, with most caught on live bait rather than jigs. The fall transition keeps getting delayed by the heat, but signs point to a real shift coming next week once the turnover passes. Despite the tough bite, a few big fish have been landed recently, including several in the 9-pound range. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Oct 1, 2025",
+    "report": "FAIR. 90 degrees; 4.01 feet below pool. Water temperatures remain in the mid-80s, and fishing has been just fair as we wait for that fall cool-down to arrive. Topwater action is decent during the first few hours of daylight in 2-6 feet around grass and timber, but anglers are having to move out to main lake points and ridges in 12-18 feet later in the day with Texas rigs and crankbaits. A few fish are being caught deeper in 20-26 feet on Carolina rigs and spoons, though most have been small. A strong cool front should really help kick things into gear. Report by Stephen Johnston, Johnston Fishing."
   }
 };
