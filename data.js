@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.06,
-    "feels_like": 74.25,
-    "description": "scattered clouds",
-    "wind_speed": 1.77,
-    "wind_deg": 55,
-    "gust": 1.39,
-    "sunrise": "07:08 AM",
-    "sunset": "06:58 PM",
+    "temp": 72.09,
+    "feels_like": 73.27,
+    "description": "broken clouds",
+    "wind_speed": 3,
+    "wind_deg": 78,
+    "gust": 1.92,
+    "sunrise": "07:09 AM",
+    "sunset": "06:57 PM",
     "dayOrNight": "night",
-    "humidity": 89,
+    "humidity": 91,
     "uv_index": 0,
     "pressure": 1020,
-    "moon_phase": 0.34,
+    "moon_phase": 0.37,
     "visibility": 10000,
-    "dew_point": 69.62
+    "dew_point": 69.31
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 87.37,
-      "low": 63.25,
-      "description": "clear sky",
-      "wind_speed": 8.68,
-      "wind_deg": 59,
-      "gust": 19.6,
-      "humidity": 43,
-      "uv_index": 7.59,
-      "pressure": 1019,
-      "moon_phase": 0.37,
-      "dew_point": 61.41,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 88.75,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.44,
       "dew_point": 62.65,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -70,7 +55,7 @@ const data = {
       "description": "scattered clouds",
       "wind_speed": 5.37,
       "wind_deg": 74,
-      "gust": 10.13,
+      "gust": 13.71,
       "humidity": 55,
       "uv_index": 4.95,
       "pressure": 1015,
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.52,
       "dew_point": 65.88,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 87.21,
+      "low": 70.72,
+      "description": "broken clouds",
+      "wind_speed": 6.82,
+      "wind_deg": 16,
+      "gust": 17.76,
+      "humidity": 48,
+      "uv_index": 5,
+      "pressure": 1017,
+      "moon_phase": 0.56,
+      "dew_point": 65.1,
       "visibility": "Unavailable"
     }
   ],
