@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.76,
-    "feels_like": 69.78,
+    "temp": 68.41,
+    "feels_like": 68.58,
     "description": "clear sky",
-    "wind_speed": 5.77,
-    "wind_deg": 70,
-    "gust": 16.67,
+    "wind_speed": 5.57,
+    "wind_deg": 72,
+    "gust": 14.63,
     "sunrise": "07:09 AM",
-    "sunset": "06:57 PM",
+    "sunset": "06:55 PM",
     "dayOrNight": "night",
-    "humidity": 71,
+    "humidity": 77,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.37,
+    "moon_phase": 0.41,
     "visibility": 10000,
-    "dew_point": 59.95
+    "dew_point": 60.93
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 88.5,
-      "low": 63.86,
-      "description": "clear sky",
-      "wind_speed": 8.68,
-      "wind_deg": 133,
-      "gust": 23.29,
-      "humidity": 42,
-      "uv_index": 7.62,
-      "pressure": 1015,
-      "moon_phase": 0.41,
-      "dew_point": 60.3,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 82.04,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.5,
       "dew_point": 71.01,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -70,7 +55,7 @@ const data = {
       "description": "clear sky",
       "wind_speed": 4.18,
       "wind_deg": 56,
-      "gust": 7.78,
+      "gust": 9.44,
       "humidity": 41,
       "uv_index": 7.56,
       "pressure": 1017,
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.56,
       "dew_point": 65.61,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 87.55,
+      "low": 70.41,
+      "description": "light rain",
+      "wind_speed": 7.11,
+      "wind_deg": 31,
+      "gust": 22.32,
+      "humidity": 50,
+      "uv_index": 8,
+      "pressure": 1018,
+      "moon_phase": 0.6,
+      "dew_point": 66.81,
       "visibility": "Unavailable"
     }
   ],
