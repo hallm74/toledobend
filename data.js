@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 88.75,
-    "feels_like": 93.15,
+    "temp": 89.2,
+    "feels_like": 94.87,
     "description": "overcast clouds",
-    "wind_speed": 7.74,
-    "wind_deg": 39,
-    "gust": 11.77,
+    "wind_speed": 9.37,
+    "wind_deg": 34,
+    "gust": 12.71,
     "sunrise": "07:12 AM",
     "sunset": "06:50 PM",
     "dayOrNight": "day",
-    "humidity": 52,
-    "uv_index": 4.74,
-    "pressure": 1018,
+    "humidity": 54,
+    "uv_index": 2.92,
+    "pressure": 1017,
     "moon_phase": 0.56,
     "visibility": 10000,
-    "dew_point": 68.86
+    "dew_point": 70.38
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
+    1017,
+    1017,
+    1017,
     1017,
     1018,
-    1018
+    1019
   ],
   "fishingReport": {
-    "date": "Oct 1, 2025",
-    "report": "FAIR. 90 degrees; 4.01 feet below pool. Water temperatures remain in the mid-80s, and fishing has been just fair as we wait for that fall cool-down to arrive. Topwater action is decent during the first few hours of daylight in 2-6 feet around grass and timber, but anglers are having to move out to main lake points and ridges in 12-18 feet later in the day with Texas rigs and crankbaits. A few fish are being caught deeper in 20-26 feet on Carolina rigs and spoons, though most have been small. A strong cool front should really help kick things into gear. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Oct 8, 2025",
+    "report": "FAIR. 90 degrees; 4.08 feet below pool. No major changes to report - fishing remains slow, and the water temperature is holding steady at 84 degrees. Report by Stephen Johnston, Johnston Fishing."
   }
 };
