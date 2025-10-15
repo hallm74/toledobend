@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 87.31,
-    "feels_like": 85.35,
+    "temp": 86.59,
+    "feels_like": 84.78,
     "description": "clear sky",
-    "wind_speed": 4.97,
-    "wind_deg": 78,
-    "gust": 8.39,
+    "wind_speed": 5.48,
+    "wind_deg": 84,
+    "gust": 8.46,
     "sunrise": "07:17 AM",
     "sunset": "06:42 PM",
     "dayOrNight": "day",
-    "humidity": 32,
-    "uv_index": 3.04,
+    "humidity": 33,
+    "uv_index": 1.29,
     "pressure": 1014,
     "moon_phase": 0.82,
     "visibility": 10000,
-    "dew_point": 53.87
+    "dew_point": 54.09
   },
   "fiveDayWeather": [
     {
@@ -101,10 +101,10 @@ const data = {
     1014,
     1014,
     1014,
-    1014
+    1015
   ],
   "fishingReport": {
-    "date": "Oct 8, 2025",
-    "report": "FAIR. 90 degrees; 4.08 feet below pool. No major changes to report - fishing remains slow, and the water temperature is holding steady at 84 degrees. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Oct 15, 2025",
+    "report": "FAIR. 90 degrees; 4.24 feet below pool. Water temperatures remain in the mid 80s, but a cool front is expected to move in over the weekend. Fishing has been tough so far, but once that cooler air arrives, the bite should improve quickly. Conditions right now feel more like September fishing than mid-October. Report by Stephen Johnston, Johnston Fishing."
   }
 };
