@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.81,
-    "feels_like": 75.22,
+    "temp": 73.08,
+    "feels_like": 74.41,
     "description": "clear sky",
-    "wind_speed": 8.14,
-    "wind_deg": 195,
-    "gust": 25.39,
+    "wind_speed": 7.34,
+    "wind_deg": 227,
+    "gust": 25.79,
     "sunrise": "07:19 AM",
-    "sunset": "06:39 PM",
+    "sunset": "06:38 PM",
     "dayOrNight": "night",
     "humidity": 92,
     "uv_index": 0,
-    "pressure": 1011,
-    "moon_phase": 0.91,
+    "pressure": 1012,
+    "moon_phase": 0.94,
     "visibility": 10000,
-    "dew_point": 71.35
+    "dew_point": 70.61
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 81.32,
-      "low": 60.75,
-      "description": "light rain",
-      "wind_speed": 12.82,
-      "wind_deg": 13,
-      "gust": 26.98,
-      "humidity": 33,
-      "uv_index": 5.75,
-      "pressure": 1019,
-      "moon_phase": 0.94,
-      "dew_point": 45.97,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 85.55,
@@ -51,7 +36,7 @@ const data = {
     {
       "date": "Tuesday",
       "high": 85.55,
-      "low": 69.39,
+      "low": 67.73,
       "description": "light rain",
       "wind_speed": 10.47,
       "wind_deg": 360,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0,
       "dew_point": 67.75,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.07,
       "dew_point": 56.01,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 86.83,
+      "low": 66.09,
+      "description": "broken clouds",
+      "wind_speed": 12.35,
+      "wind_deg": 170,
+      "gust": 29.08,
+      "humidity": 42,
+      "uv_index": 7,
+      "pressure": 1014,
+      "moon_phase": 0.1,
+      "dew_point": 61.25,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
+    1012,
+    1012,
+    1012,
     1011,
     1011,
-    1011,
-    1011,
-    1011,
-    1011
+    1012
   ],
   "fishingReport": {
     "date": "Oct 15, 2025",
