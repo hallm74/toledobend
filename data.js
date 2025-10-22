@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.92,
-    "feels_like": 79.92,
+    "temp": 79.48,
+    "feels_like": 79.48,
     "description": "clear sky",
-    "wind_speed": 4.03,
-    "wind_deg": 67,
-    "gust": 5.23,
+    "wind_speed": 4.16,
+    "wind_deg": 76,
+    "gust": 5.41,
     "sunrise": "07:22 AM",
     "sunset": "06:35 PM",
     "dayOrNight": "day",
-    "humidity": 24,
-    "uv_index": 2.66,
+    "humidity": 25,
+    "uv_index": 1.12,
     "pressure": 1019,
     "moon_phase": 0.04,
     "visibility": 10000,
-    "dew_point": 39.94
+    "dew_point": 40.62
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1019,
     1019,
     1019,
-    1018,
+    1019,
     1019,
     1019
   ],
   "fishingReport": {
-    "date": "Oct 15, 2025",
-    "report": "FAIR. 90 degrees; 4.24 feet below pool. Water temperatures remain in the mid 80s, but a cool front is expected to move in over the weekend. Fishing has been tough so far, but once that cooler air arrives, the bite should improve quickly. Conditions right now feel more like September fishing than mid-October. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Oct 22, 2025",
+    "report": "FAIR. 90 degrees; 4.25 feet below pool. Cooler weather has finally arrived with morning air temperatures at 53 degrees, and it’ll take a few days for the water to cool down. More rain is expected over the next couple of days, which could affect conditions. The shallow bite is picking up with chatterbaits, swim jigs, and swimbaits working well in 1-5 feet of water. Try a Texas rig, wacky work, or weightless fluke along grass edges and creek bends around stumps. Out deeper, big crankbaits and Carolina rigs are producing on main lake points and ridges in 18-22 feet - look for shad, as bass are starting to follow the bait. Crappie fishing should improve some but will depend on how much rain falls this week, as the bite remains a bit slow for now. Report by Stephen Johnston, Johnston Fishing."
   }
 };
