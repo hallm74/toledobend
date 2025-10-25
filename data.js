@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.42,
-    "feels_like": 69.58,
+    "temp": 69.1,
+    "feels_like": 69.37,
     "description": "overcast clouds",
-    "wind_speed": 7.65,
-    "wind_deg": 133,
-    "gust": 25.21,
-    "sunrise": "07:23 AM",
-    "sunset": "06:33 PM",
+    "wind_speed": 7.09,
+    "wind_deg": 135,
+    "gust": 27.13,
+    "sunrise": "07:24 AM",
+    "sunset": "06:32 PM",
     "dayOrNight": "night",
-    "humidity": 75,
+    "humidity": 78,
     "uv_index": 0,
     "pressure": 1016,
-    "moon_phase": 0.1,
+    "moon_phase": 0.13,
     "visibility": 10000,
-    "dew_point": 61.16
+    "dew_point": 61.95
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 76.64,
-      "low": 62.2,
-      "description": "very heavy rain",
-      "wind_speed": 13.62,
-      "wind_deg": 166,
-      "gust": 31.27,
-      "humidity": 98,
-      "uv_index": 2.1,
-      "pressure": 1014,
-      "moon_phase": 0.13,
-      "dew_point": 67.5,
-      "visibility": 9724
-    },
     {
       "date": "Sunday",
       "high": 81.21,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.16,
       "dew_point": 65.68,
-      "visibility": 8973
+      "visibility": 9724
     },
     {
       "date": "Monday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.19,
       "dew_point": 59.63,
-      "visibility": "Unavailable"
+      "visibility": 8973
     },
     {
       "date": "Tuesday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.25,
       "dew_point": 47.08,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 63.84,
+      "low": 53.83,
+      "description": "light rain",
+      "wind_speed": 10.54,
+      "wind_deg": 344,
+      "gust": 21.72,
+      "humidity": 69,
+      "uv_index": 5,
+      "pressure": 1020,
+      "moon_phase": 0.28,
+      "dew_point": 52.3,
       "visibility": "Unavailable"
     }
   ],
