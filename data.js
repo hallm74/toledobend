@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 65.5,
-    "feels_like": 65.7,
+    "temp": 66.04,
+    "feels_like": 66.43,
     "description": "moderate rain",
-    "wind_speed": 9.35,
-    "wind_deg": 135,
-    "gust": 28.81,
+    "wind_speed": 9.71,
+    "wind_deg": 130,
+    "gust": 28.77,
     "sunrise": "07:24 AM",
     "sunset": "06:32 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 87,
     "uv_index": 0,
     "pressure": 1014,
     "moon_phase": 0.13,
     "visibility": 10000,
-    "dew_point": 60.55
+    "dew_point": 62.06
   },
   "fiveDayWeather": [
     {
@@ -23,15 +23,15 @@ const data = {
       "high": 78.49,
       "low": 63.48,
       "description": "very heavy rain",
-      "wind_speed": 10.92,
-      "wind_deg": 321,
-      "gust": 20.29,
+      "wind_speed": 9.24,
+      "wind_deg": 112,
+      "gust": 17.6,
       "humidity": 84,
       "uv_index": 2.53,
       "pressure": 1013,
       "moon_phase": 0.16,
       "dew_point": 66.54,
-      "visibility": 8754
+      "visibility": 7577
     },
     {
       "date": "Monday",
@@ -94,36 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Severe Thunderstorm Watch",
-      "start": "6:37:00 AM",
-      "end": "12:00:00 PM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n631 IN EFFECT UNTIL 7 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN SOUTHWEST LOUISIANA\n\nBEAUREGARD            CALCASIEU             CAMERON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER, FARRSVILLE,\nFIELDS, FRED, GIST, HACKBERRY, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, JOHNSON BAYOU, KIRBYVILLE, LAKE CHARLES,\nLUMBERTON, MAGNOLIA SPRINGS, MT. UNION, NEWTON, ORANGE, ORETTA,\nSABINE PASS, SEA RIM STATE PARK, SILSBEE, SPURGER, SULPHUR,\nTOWN BLUFF, VIDOR, WARREN, WIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Severe Thunderstorm Warning",
-      "start": "10:38:00 AM",
-      "end": "11:45:00 AM",
-      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nWestern Beauregard Parish in southwestern Louisiana...\nNorthwestern Calcasieu Parish in southwestern Louisiana...\nSoutheastern Tyler County in southeastern Texas...\nNewton County in southeastern Texas...\nNortheastern Hardin County in southeastern Texas...\nJasper County in southeastern Texas...\n\n* Until 645 AM CDT.\n\n* At 537 AM CDT, severe thunderstorms were located along a line\nextending from near Town Bluff to near Buna to near Pine Forest,\nmoving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nJasper, Silsbee, Newton, Kirbyville, Merryville, Singer,\nDeweyville, Evadale, Town Bluff, De Quincy, Call, Starks, Fred,\nFields, Bon Weir, Buna, Burkeville, Weiss Bluff, Gist, and Trout\nCreek.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Severe Thunderstorm Warning",
-      "start": "10:53:00 AM",
-      "end": "11:45:00 AM",
-      "description": "At 553 AM CDT, severe thunderstorms were located along a line\nextending from near Jasper to near Wrights Settlement to Gist, moving\neast at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nJasper, Newton, Kirbyville, Merryville, Singer, Deweyville, Evadale,\nDe Quincy, Call, Starks, Fields, Bon Weir, Buna, Burkeville, Weiss\nBluff, Gist, Trout Creek, Lunita, Bivens, and Hartburg.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1014,
     1014,
     1014,
+    1014,
     1015,
-    1015,
-    1014
+    1015
   ],
   "fishingReport": {
     "date": "Oct 22, 2025",
