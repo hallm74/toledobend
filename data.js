@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.43,
-    "feels_like": 79.43,
-    "description": "clear sky",
-    "wind_speed": 9.1,
-    "wind_deg": 201,
-    "gust": 14.85,
+    "temp": 78.26,
+    "feels_like": 78.8,
+    "description": "light rain",
+    "wind_speed": 8.79,
+    "wind_deg": 225,
+    "gust": 18.25,
     "sunrise": "07:26 AM",
     "sunset": "06:29 PM",
     "dayOrNight": "day",
-    "humidity": 62,
-    "uv_index": 3.28,
-    "pressure": 1011,
+    "humidity": 64,
+    "uv_index": 0.77,
+    "pressure": 1010,
     "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 65.28
+    "dew_point": 65.08
   },
   "fiveDayWeather": [
     {
@@ -101,15 +101,22 @@ const data = {
       "end": "11:00:00 PM",
       "description": "* WHAT...Northwest winds 15 to 25 mph with gusts up to 40 mph\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 9 AM to 6 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Tornado Watch",
+      "start": "8:56:00 PM",
+      "end": "3:00:00 AM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 634 IN\nEFFECT UNTIL 10 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD            CALCASIEU\nJEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRIDGE CITY, BUNA, BUNDICK LAKE, BURKEVILLE, CALL,\nDE RIDDER, FARRSVILLE, FIELDS, FORT POLK, FRED, GIST, HATHAWAY,\nHILLISTER, HOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JENNINGS,\nKINDER, KIRBYVILLE, LAKE ARTHUR, LAKE CHARLES, LEESVILLE,\nLUMBERTON, MAGNOLIA SPRINGS, MAMOU, MT. UNION, NEWTON, OAKDALE,\nORANGE, ORETTA, PICKERING, PINEVILLE, REDDELL, ROANOKE,\nSABINE PASS, SEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER,\nST. LANDRY, SULPHUR, TOPSY, TOWN BLUFF, VIDOR, VILLE PLATTE,\nWARREN, WELSH, WIERGATE, AND WOODVILLE.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1011,
-    1011,
-    1011,
+    1010,
+    1010,
     1010,
     1011,
-    1014
+    1013,
+    1015
   ],
   "fishingReport": {
     "date": "Oct 22, 2025",
