@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 72.07,
-    "feels_like": 72.68,
+    "temp": 75.51,
+    "feels_like": 76.14,
     "description": "clear sky",
-    "wind_speed": 7.7,
-    "wind_deg": 167,
-    "gust": 13.09,
+    "wind_speed": 8.79,
+    "wind_deg": 183,
+    "gust": 13.58,
     "sunrise": "07:26 AM",
     "sunset": "06:29 PM",
     "dayOrNight": "day",
-    "humidity": 79,
-    "uv_index": 3.06,
-    "pressure": 1014,
+    "humidity": 72,
+    "uv_index": 4.51,
+    "pressure": 1013,
     "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 65.19
+    "dew_point": 65.86
   },
   "fiveDayWeather": [
     {
@@ -56,11 +56,11 @@ const data = {
       "wind_speed": 4.99,
       "wind_deg": 161,
       "gust": 6.78,
-      "humidity": 44,
+      "humidity": 47,
       "uv_index": 4.95,
-      "pressure": 1019,
+      "pressure": 1020,
       "moon_phase": 0.32,
-      "dew_point": 45.21,
+      "dew_point": 45.25,
       "visibility": "Unavailable"
     },
     {
@@ -94,12 +94,20 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Wind Advisory",
+      "start": "2:00:00 PM",
+      "end": "11:00:00 PM",
+      "description": "* WHAT...Northwest winds 15 to 25 mph with gusts up to 40 mph\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 9 AM to 6 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1014,
-    1014,
+    1013,
     1013,
     1012,
+    1011,
     1011,
     1010
   ],
