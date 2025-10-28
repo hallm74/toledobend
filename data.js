@@ -4,9 +4,9 @@ const data = {
     "temp": 61.86,
     "feels_like": 62.22,
     "description": "clear sky",
-    "wind_speed": 5.5,
-    "wind_deg": 129,
-    "gust": 14.12,
+    "wind_speed": 6.13,
+    "wind_deg": 135,
+    "gust": 15.12,
     "sunrise": "07:26 AM",
     "sunset": "06:29 PM",
     "dayOrNight": "night",
@@ -101,7 +101,7 @@ const data = {
     1013,
     1014,
     1014,
-    1014
+    1013
   ],
   "fishingReport": {
     "date": "Oct 22, 2025",
