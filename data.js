@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 59.43,
-    "feels_like": 57.09,
+    "temp": 61.21,
+    "feels_like": 58.87,
     "description": "clear sky",
-    "wind_speed": 18.3,
+    "wind_speed": 18.79,
     "wind_deg": 312,
-    "gust": 37.24,
+    "gust": 35.57,
     "sunrise": "07:27 AM",
     "sunset": "06:28 PM",
     "dayOrNight": "day",
-    "humidity": 43,
-    "uv_index": 2.88,
-    "pressure": 1018,
+    "humidity": 39,
+    "uv_index": 4.19,
+    "pressure": 1017,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 36.95
+    "dew_point": 36.09
   },
   "fiveDayWeather": [
     {
@@ -56,11 +56,11 @@ const data = {
       "wind_speed": 7.56,
       "wind_deg": 42,
       "gust": 20.24,
-      "humidity": 54,
+      "humidity": 56,
       "uv_index": 3.74,
       "pressure": 1019,
       "moon_phase": 0.35,
-      "dew_point": 53.06,
+      "dew_point": 52.41,
       "visibility": "Unavailable"
     },
     {
@@ -97,17 +97,17 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "9:00:00 AM",
+      "start": "4:40:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...Northwest winds 20 to 25 mph with gusts up to 40 mph\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 4 AM to 7 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "description": "* WHAT...Northwest winds 15 to 25 mph with gusts up to 40 mph.\n\n* WHERE...Central, south central, and southwest, Louisiana and\nsoutheast Texas.\n\n* WHEN...Until 7 PM CDT this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
     1017,
+    1017,
+    1017,
+    1016,
     1016,
     1016
   ],
