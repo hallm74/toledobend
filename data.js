@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 63.07,
-    "feels_like": 62.65,
+    "temp": 61.12,
+    "feels_like": 60.46,
     "description": "broken clouds",
-    "wind_speed": 17.13,
-    "wind_deg": 324,
-    "gust": 31.36,
-    "sunrise": "07:26 AM",
-    "sunset": "06:29 PM",
+    "wind_speed": 16.15,
+    "wind_deg": 325,
+    "gust": 31.88,
+    "sunrise": "07:27 AM",
+    "sunset": "06:28 PM",
     "dayOrNight": "night",
-    "humidity": 76,
+    "humidity": 75,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.22,
+    "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 55.38
+    "dew_point": 53.15
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 62.73,
-      "low": 51.21,
-      "description": "clear sky",
-      "wind_speed": 19.33,
-      "wind_deg": 309,
-      "gust": 37.67,
-      "humidity": 37,
-      "uv_index": 4.81,
-      "pressure": 1018,
-      "moon_phase": 0.25,
-      "dew_point": 34.12,
-      "visibility": 10000
-    },
     {
       "date": "Thursday",
       "high": 66.67,
@@ -53,15 +38,15 @@ const data = {
       "high": 69.42,
       "low": 49.55,
       "description": "clear sky",
-      "wind_speed": 5.28,
-      "wind_deg": 149,
-      "gust": 7.27,
+      "wind_speed": 5.61,
+      "wind_deg": 162,
+      "gust": 9.17,
       "humidity": 48,
       "uv_index": 4.93,
       "pressure": 1020,
       "moon_phase": 0.32,
       "dew_point": 45.55,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -92,14 +77,29 @@ const data = {
       "moon_phase": 0.39,
       "dew_point": 50.47,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 65.88,
+      "low": 51.75,
+      "description": "light rain",
+      "wind_speed": 11.79,
+      "wind_deg": 334,
+      "gust": 21.92,
+      "humidity": 61,
+      "uv_index": 4,
+      "pressure": 1020,
+      "moon_phase": 0.43,
+      "dew_point": 47.52,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "2:00:00 PM",
-      "end": "11:00:00 PM",
-      "description": "* WHAT...Northwest winds 15 to 25 mph with gusts up to 40 mph\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 9 AM to 6 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "start": "9:00:00 AM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...Northwest winds 20 to 25 mph with gusts up to 40 mph\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 4 AM to 7 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -108,7 +108,7 @@ const data = {
     1017,
     1017,
     1018,
-    1018,
+    1017,
     1017
   ],
   "fishingReport": {
