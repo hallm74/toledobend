@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 63.81,
-    "feels_like": 61.77,
-    "description": "clear sky",
-    "wind_speed": 17.98,
-    "wind_deg": 316,
-    "gust": 30.65,
+    "temp": 63.01,
+    "feels_like": 61,
+    "description": "few clouds",
+    "wind_speed": 17.05,
+    "wind_deg": 320,
+    "gust": 29.95,
     "sunrise": "07:27 AM",
     "sunset": "06:28 PM",
     "dayOrNight": "day",
-    "humidity": 40,
-    "uv_index": 2.09,
-    "pressure": 1015,
+    "humidity": 42,
+    "uv_index": 0.61,
+    "pressure": 1016,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 39.06
+    "dew_point": 39.6
   },
   "fiveDayWeather": [
     {
@@ -104,15 +104,15 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1015,
-    1015,
+    1016,
     1016,
     1017,
     1017,
+    1018,
     1019
   ],
   "fishingReport": {
-    "date": "Oct 22, 2025",
-    "report": "FAIR. 90 degrees; 4.25 feet below pool. Cooler weather has finally arrived with morning air temperatures at 53 degrees, and it’ll take a few days for the water to cool down. More rain is expected over the next couple of days, which could affect conditions. The shallow bite is picking up with chatterbaits, swim jigs, and swimbaits working well in 1-5 feet of water. Try a Texas rig, wacky work, or weightless fluke along grass edges and creek bends around stumps. Out deeper, big crankbaits and Carolina rigs are producing on main lake points and ridges in 18-22 feet - look for shad, as bass are starting to follow the bait. Crappie fishing should improve some but will depend on how much rain falls this week, as the bite remains a bit slow for now. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Oct 29, 2025",
+    "report": "FAIR. 90 degrees; 3.89 feet below pool. We’re finally getting a taste of fall on Toledo Bend, with water temperatures dropping into the mid-70s at press time. A cold front on the way should push temperatures down into the low 70s and upper 60s. The lake is fishing well overall, and bass can be caught from shallow to deep water. Early mornings have been productive with topwater baits, frogs, and buzzbaits, while later in the day, anglers are finding success with Carolina rigs and Texas rigs using bit worms in 12-18 feet of water. On windy days, the crankbait bite is picking up and should continue to improve as temperatures cool. A few smaller fish are being caught deeper in 20-25 feet, but most of the quality bites are coming shallower. No new crappie reports this week, though a few anglers mentioned the bite has been slow. Report by Stephen Johnston, Johnston Fishing."
   }
 };
