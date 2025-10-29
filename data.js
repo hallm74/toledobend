@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.11,
-    "feels_like": 73.83,
-    "description": "moderate rain",
-    "wind_speed": 10.8,
-    "wind_deg": 263,
-    "gust": 25.46,
+    "temp": 70.36,
+    "feels_like": 71.1,
+    "description": "scattered clouds",
+    "wind_speed": 12.82,
+    "wind_deg": 297,
+    "gust": 24.99,
     "sunrise": "07:26 AM",
     "sunset": "06:29 PM",
-    "dayOrNight": "day",
-    "humidity": 79,
-    "uv_index": 0.1,
-    "pressure": 1010,
+    "dayOrNight": "night",
+    "humidity": 85,
+    "uv_index": 0,
+    "pressure": 1011,
     "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 66.22
+    "dew_point": 65.64
   },
   "fiveDayWeather": [
     {
@@ -104,18 +104,18 @@ const data = {
     },
     {
       "event": "Tornado Watch",
-      "start": "8:56:00 PM",
+      "start": "11:29:00 PM",
       "end": "3:00:00 AM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 634 IN\nEFFECT UNTIL 10 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD            CALCASIEU\nJEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRIDGE CITY, BUNA, BUNDICK LAKE, BURKEVILLE, CALL,\nDE RIDDER, FARRSVILLE, FIELDS, FORT POLK, FRED, GIST, HATHAWAY,\nHILLISTER, HOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JENNINGS,\nKINDER, KIRBYVILLE, LAKE ARTHUR, LAKE CHARLES, LEESVILLE,\nLUMBERTON, MAGNOLIA SPRINGS, MAMOU, MT. UNION, NEWTON, OAKDALE,\nORANGE, ORETTA, PICKERING, PINEVILLE, REDDELL, ROANOKE,\nSABINE PASS, SEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER,\nST. LANDRY, SULPHUR, TOPSY, TOWN BLUFF, VIDOR, VILLE PLATTE,\nWARREN, WELSH, WIERGATE, AND WOODVILLE.",
+      "description": "TORNADO WATCH 634 REMAINS VALID UNTIL 10 PM CDT THIS EVENING FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD            CALCASIEU\nJEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJEFFERSON             NEWTON                ORANGE\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRIDGE CITY, BUNDICK LAKE, BURKEVILLE, CALL,\nDE RIDDER, FARRSVILLE, FIELDS, FORT POLK, HATHAWAY, JAMESTOWN,\nJENNINGS, KINDER, LAKE ARTHUR, LAKE CHARLES, LEESVILLE, MAMOU,\nNEWTON, OAKDALE, ORANGE, ORETTA, PICKERING, PINEVILLE, REDDELL,\nROANOKE, SABINE PASS, SEA RIM STATE PARK, SLAGLE, ST. LANDRY,\nSULPHUR, TOPSY, VIDOR, VILLE PLATTE, WELSH, AND WIERGATE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1010,
-    1010,
+    1011,
     1011,
     1012,
-    1015,
+    1014,
+    1016,
     1017
   ],
   "fishingReport": {
