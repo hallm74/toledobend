@@ -1,26 +1,26 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 67.35,
-    "feels_like": 67.93,
+    "temp": 65.1,
+    "feels_like": 65.21,
     "description": "broken clouds",
-    "wind_speed": 15.5,
-    "wind_deg": 323,
-    "gust": 28.1,
+    "wind_speed": 16.08,
+    "wind_deg": 324,
+    "gust": 27.94,
     "sunrise": "07:26 AM",
     "sunset": "06:29 PM",
     "dayOrNight": "night",
-    "humidity": 88,
+    "humidity": 83,
     "uv_index": 0,
-    "pressure": 1014,
+    "pressure": 1016,
     "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 63.68
+    "dew_point": 59.81
   },
   "fiveDayWeather": [
     {
       "date": "Wednesday",
-      "high": 62.91,
+      "high": 63.19,
       "low": 51.21,
       "description": "clear sky",
       "wind_speed": 19.33,
@@ -101,22 +101,15 @@ const data = {
       "end": "11:00:00 PM",
       "description": "* WHAT...Northwest winds 15 to 25 mph with gusts up to 40 mph\nexpected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 9 AM to 6 PM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Tornado Watch",
-      "start": "11:29:00 PM",
-      "end": "3:00:00 AM",
-      "description": "TORNADO WATCH 634 REMAINS VALID UNTIL 10 PM CDT THIS EVENING FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nEVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD            CALCASIEU\nJEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJEFFERSON             NEWTON                ORANGE\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRIDGE CITY, BUNDICK LAKE, BURKEVILLE, CALL,\nDE RIDDER, FARRSVILLE, FIELDS, FORT POLK, HATHAWAY, JAMESTOWN,\nJENNINGS, KINDER, LAKE ARTHUR, LAKE CHARLES, LEESVILLE, MAMOU,\nNEWTON, OAKDALE, ORANGE, ORETTA, PICKERING, PINEVILLE, REDDELL,\nROANOKE, SABINE PASS, SEA RIM STATE PARK, SLAGLE, ST. LANDRY,\nSULPHUR, TOPSY, VIDOR, VILLE PLATTE, WELSH, AND WIERGATE.",
-      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1014,
-    1014,
-    1014,
-    1015,
     1016,
-    1017
+    1016,
+    1016,
+    1016,
+    1017,
+    1018
   ],
   "fishingReport": {
     "date": "Oct 22, 2025",
