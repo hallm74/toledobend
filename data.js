@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 61.54,
-    "feels_like": 59.56,
+    "temp": 59.07,
+    "feels_like": 56.98,
     "description": "scattered clouds",
-    "wind_speed": 16.31,
+    "wind_speed": 15.12,
     "wind_deg": 320,
-    "gust": 29.51,
+    "gust": 28.88,
     "sunrise": "07:27 AM",
     "sunset": "06:28 PM",
-    "dayOrNight": "day",
-    "humidity": 46,
-    "uv_index": 0.12,
-    "pressure": 1016,
+    "dayOrNight": "night",
+    "humidity": 49,
+    "uv_index": 0,
+    "pressure": 1017,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 40.59
+    "dew_point": 39.96
   },
   "fiveDayWeather": [
     {
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Wind Advisory",
-      "start": "4:40:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...Northwest winds 15 to 25 mph with gusts up to 40 mph.\n\n* WHERE...Central, south central, and southwest, Louisiana and\nsoutheast Texas.\n\n* WHEN...Until 7 PM CDT this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
+    1017,
+    1017,
     1017,
     1018,
-    1018,
+    1019,
     1019
   ],
   "fishingReport": {
