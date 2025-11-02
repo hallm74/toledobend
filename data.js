@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 51.78,
-    "feels_like": 51.03,
+    "temp": 50.79,
+    "feels_like": 49.89,
     "description": "few clouds",
-    "wind_speed": 5.91,
-    "wind_deg": 22,
-    "gust": 11.56,
-    "sunrise": "07:29 AM",
-    "sunset": "06:25 PM",
+    "wind_speed": 5.41,
+    "wind_deg": 23,
+    "gust": 8.95,
+    "sunrise": "07:30 AM",
+    "sunset": "06:24 PM",
     "dayOrNight": "night",
-    "humidity": 93,
+    "humidity": 92,
     "uv_index": 0,
-    "pressure": 1021,
-    "moon_phase": 0.35,
+    "pressure": 1022,
+    "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 49.82
+    "dew_point": 48.56
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 66.47,
-      "low": 42.6,
-      "description": "clear sky",
-      "wind_speed": 8.03,
-      "wind_deg": 13,
-      "gust": 18.97,
-      "humidity": 45,
-      "uv_index": 4.46,
-      "pressure": 1025,
-      "moon_phase": 0.39,
-      "dew_point": 41.49,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 67.51,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1026,
       "moon_phase": 0.47,
       "dew_point": 38.25,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,13 +77,28 @@ const data = {
       "moon_phase": 0.55,
       "dew_point": 55.96,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 84.24,
+      "low": 61.65,
+      "description": "light rain",
+      "wind_speed": 6.69,
+      "wind_deg": 179,
+      "gust": 22.84,
+      "humidity": 63,
+      "uv_index": 6,
+      "pressure": 1011,
+      "moon_phase": 0.59,
+      "dew_point": 66.38,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1021,
-    1021,
-    1021,
+    1022,
+    1022,
+    1022,
     1022,
     1022,
     1022
