@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 66,
-    "feels_like": 66.72,
+    "temp": 68.76,
+    "feels_like": 69.51,
     "description": "overcast clouds",
-    "wind_speed": 8.1,
+    "wind_speed": 8.77,
     "wind_deg": 211,
-    "gust": 16.96,
+    "gust": 16.35,
     "sunrise": "06:34 AM",
     "sunset": "05:21 PM",
     "dayOrNight": "day",
-    "humidity": 94,
-    "uv_index": 0.17,
+    "humidity": 89,
+    "uv_index": 1.05,
     "pressure": 1012,
     "moon_phase": 0.59,
     "visibility": 10000,
-    "dew_point": 64.22
+    "dew_point": 65.39
   },
   "fiveDayWeather": [
     {
@@ -101,10 +101,10 @@ const data = {
     1012,
     1011,
     1010,
-    1009
+    1008
   ],
   "fishingReport": {
-    "date": "Oct 29, 2025",
-    "report": "FAIR. 90 degrees; 3.89 feet below pool. We’re finally getting a taste of fall on Toledo Bend, with water temperatures dropping into the mid-70s at press time. A cold front on the way should push temperatures down into the low 70s and upper 60s. The lake is fishing well overall, and bass can be caught from shallow to deep water. Early mornings have been productive with topwater baits, frogs, and buzzbaits, while later in the day, anglers are finding success with Carolina rigs and Texas rigs using bit worms in 12-18 feet of water. On windy days, the crankbait bite is picking up and should continue to improve as temperatures cool. A few smaller fish are being caught deeper in 20-25 feet, but most of the quality bites are coming shallower. No new crappie reports this week, though a few anglers mentioned the bite has been slow. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Nov 5, 2025",
+    "report": "FAIR. 90 degrees; 4.40 feet below pool. We’re finally getting a taste of fall on Toledo Bend, with water temperatures dropping into the mid-70s at press time. A cold front on the way should push temperatures down into the low 70s and upper 60s. The lake is fishing well overall, and bass can be caught from shallow to deep water. Early mornings have been productive with topwater baits, frogs, and buzzbaits, while later in the day, anglers are finding success with Carolina rigs and Texas rigs using bit worms in 12-18 feet of water. On windy days, the crankbait bite is picking up and should continue to improve as temperatures cool. A few smaller fish are being caught deeper in 20-25 feet, but most of the quality bites are coming shallower. No new crappie reports this week, though a few anglers mentioned the bite has been slow. Report by Stephen Johnston, Johnston Fishing."
   }
 };
