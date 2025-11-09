@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 64.13,
-    "feels_like": 62.13,
+    "temp": 65.53,
+    "feels_like": 63.48,
     "description": "scattered clouds",
-    "wind_speed": 14.2,
-    "wind_deg": 352,
-    "gust": 21.3,
+    "wind_speed": 14.43,
+    "wind_deg": 349,
+    "gust": 20.83,
     "sunrise": "06:36 AM",
     "sunset": "05:19 PM",
     "dayOrNight": "day",
-    "humidity": 40,
-    "uv_index": 3.43,
+    "humidity": 36,
+    "uv_index": 4.14,
     "pressure": 1023,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 39.34
+    "dew_point": 37.9
   },
   "fiveDayWeather": [
     {
@@ -101,6 +101,20 @@ const data = {
       "end": "1:00:00 AM",
       "description": "...Fire weather warning in effect for Sunday...\n\nElevated fire weather conditions will persist from today through\nWednesday. Today and Monday will be the biggest concerns for fire\nweather as the dry cold front passes through the region and very\ndry air will follow. Dew points will drop into the 30s while\nminimum RH values will be around 25 to 35%. In addition, winds\nwill be from the north around 15 to 25 MPH with gusts up to 35\nMPH. While today will be the main concern for fire weather, hence\nwarning issuance, elevated fire weather will be a concern through\nWednesday.\n\nThe National Weather Service in Lake Charles has issued a Red\nFlag Warning for elevated Fire Weather conditions across\nsoutheast Texas, southwest Louisiana, central Louisiana, and south\ncentral Louisiana which is in effect from 9 AM this morning to 7\nPM CST this evening. This product replaces the previous Fire\nWeather Watch.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From 9 AM this morning to 7 PM CST this evening.\n\n* WINDS...North 15 to 25 mph with gusts up to 35 mph.\n\n* RELATIVE HUMIDITY...As low as 30 percent.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Freeze Watch",
+      "start": "3:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Freeze Warning, sub-freezing temperatures as low as\n29 expected. For the Freeze Watch, sub-freezing temperatures as\nlow as 27 possible.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...For the Freeze Warning, from 9 PM this evening to 9 AM CST\nMonday. For the Freeze Watch, from Monday evening through Tuesday\nmorning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Freeze Warning",
+      "start": "3:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Freeze Warning, sub-freezing temperatures as low as\n29 expected. For the Freeze Watch, sub-freezing temperatures as\nlow as 27 possible.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...For the Freeze Warning, from 9 PM this evening to 9 AM CST\nMonday. For the Freeze Watch, from Monday evening through Tuesday\nmorning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
@@ -108,8 +122,8 @@ const data = {
     1023,
     1023,
     1023,
-    1023,
-    1024
+    1024,
+    1025
   ],
   "fishingReport": {
     "date": "Nov 5, 2025",
