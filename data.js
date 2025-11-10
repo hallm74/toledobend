@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 51.04,
-    "feels_like": 48.34,
+    "temp": 49.53,
+    "feels_like": 44.44,
     "description": "clear sky",
-    "wind_speed": 13.82,
+    "wind_speed": 13.44,
     "wind_deg": 359,
-    "gust": 24.14,
+    "gust": 23.8,
     "sunrise": "06:36 AM",
     "sunset": "05:19 PM",
     "dayOrNight": "night",
-    "humidity": 53,
+    "humidity": 54,
     "uv_index": 0,
     "pressure": 1029,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 34.54
+    "dew_point": 33.6
   },
   "fiveDayWeather": [
     {
@@ -96,24 +96,31 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Freeze Watch",
-      "start": "3:00:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...For the Freeze Warning, sub-freezing temperatures as low as\n29 expected. For the Freeze Watch, sub-freezing temperatures as\nlow as 27 possible.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...For the Freeze Warning, from 9 PM this evening to 9 AM CST\nMonday. For the Freeze Watch, from Monday evening through Tuesday\nmorning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Freeze Warning",
-      "start": "3:00:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...For the Freeze Warning, sub-freezing temperatures as low as\n29 expected. For the Freeze Watch, sub-freezing temperatures as\nlow as 27 possible.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...For the Freeze Warning, from 9 PM this evening to 9 AM CST\nMonday. For the Freeze Watch, from Monday evening through Tuesday\nmorning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Fire Weather Watch",
       "start": "3:00:00 PM",
       "end": "1:00:00 AM",
       "description": "...Fire weather warning in effect for Sunday...\n\nElevated fire weather conditions will persist from today through\nWednesday. Today and Monday will be the biggest concerns for fire\nweather as the dry cold front passes through the region and very\ndry air will follow. Dew points will drop into the 30s while\nminimum RH values will be around 20 to 35%. In addition, winds\nwill be from the north around 15 to 25 MPH with gusts up to\n35 MPH. While today will be the main concern for fire weather,\nhence warning issuance, elevated fire weather will be a concern\nthrough Wednesday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...For the Red Flag Warning, until 7 PM CST this\nevening. For the Fire Weather Watch, from Monday morning\nthrough Monday evening.\n\n* WINDS...North 10 to 20 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 24 percent.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Freeze Watch",
+      "start": "3:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Freeze Warning, sub-freezing temperatures as low as\n25. For the Freeze Watch, sub-freezing temperatures as low as 29\npossible.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...For the Freeze Warning, until 9 AM CST Monday. For the\nFreeze Watch, from Monday evening through Tuesday morning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Freeze Warning",
+      "start": "3:40:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Freeze Warning, sub-freezing temperatures as low as\n25. For the Freeze Watch, sub-freezing temperatures as low as 29\npossible.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...For the Freeze Warning, until 9 AM CST Monday. For the\nFreeze Watch, from Monday evening through Tuesday morning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Red Flag Warning",
+      "start": "3:00:00 PM",
+      "end": "1:00:00 AM",
+      "description": "...Fire weather warning in effect for Monday...\n\nElevated fire weather conditions will persist through Tuesday.\nVery dry air will settle over the region Monday with minimum\nrelative humidity around 20 to 35%. In addition, winds will be\nfrom the north around 10 to 20 MPH with gusts up to 25 MPH.\n\nThe National Weather Service in Lake Charles has issued a Red\nFlag Warning for low humidity and gusty winds, which is in effect\nfrom 9 AM to 7 PM CST Monday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From 9 AM to 7 PM CST Monday.\n\n* WINDS...North 10 to 20 mph with gusts up to 25 mph.\n\n* RELATIVE HUMIDITY...As low as 20 percent.\n\n* TEMPERATURES...Up to 58.\n\n* LIGHTNING...None.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -123,7 +130,7 @@ const data = {
     1029,
     1030,
     1031,
-    1031
+    1032
   ],
   "fishingReport": {
     "date": "Nov 5, 2025",
