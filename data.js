@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 49.62,
-    "feels_like": 45.48,
+    "temp": 52.25,
+    "feels_like": 48.69,
     "description": "clear sky",
-    "wind_speed": 10.25,
+    "wind_speed": 10.31,
     "wind_deg": 347,
-    "gust": 15.95,
+    "gust": 15.97,
     "sunrise": "06:37 AM",
     "sunset": "05:19 PM",
     "dayOrNight": "day",
-    "humidity": 35,
-    "uv_index": 3.33,
-    "pressure": 1034,
+    "humidity": 32,
+    "uv_index": 3.92,
+    "pressure": 1033,
     "moon_phase": 0.7,
     "visibility": 10000,
-    "dew_point": 24.13
+    "dew_point": 24.3
   },
   "fiveDayWeather": [
     {
@@ -103,19 +103,26 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
+      "event": "Freeze Warning",
+      "start": "3:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...Sub-freezing temperatures as low as 29 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 9 PM this evening to 9 AM CST Tuesday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
       "event": "Red Flag Warning",
-      "start": "3:00:00 PM",
+      "start": "5:41:00 PM",
       "end": "1:00:00 AM",
-      "description": "...Fire weather warning in effect for Monday...\n\nElevated fire weather conditions will persist through Tuesday.\nVery dry air will settle over the region Monday with minimum\nrelative humidity around 20 to 35%. In addition, winds will be\nfrom the north around 10 to 20 MPH with gusts up to 25 MPH.\n\nThe National Weather Service in Lake Charles has issued a Red\nFlag Warning for low humidity and gusty winds, which is in effect\nfrom 9 AM to 7 PM CST Monday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From 9 AM to 7 PM CST Monday.\n\n* WINDS...North 10 to 20 mph with gusts up to 25 mph.\n\n* RELATIVE HUMIDITY...As low as 20 percent.\n\n* TEMPERATURES...Up to 58.\n\n* LIGHTNING...None.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...Fire weather warning in effect for Monday...\n\nElevated fire weather conditions will persist through Tuesday.\nVery dry air will settle over the region Monday with minimum\nrelative humidity around 20 to 35%. In addition, winds will be\nfrom the north around 10 to 20 MPH with gusts up to 25 MPH.\n\nThe National Weather Service in Lake Charles has issued a Red\nFlag Warning for low humidity and gusty winds, which is in effect\nuntil 7 PM CST Monday for all of southeast Texas, southwest\nand central Louisiana.\n\n\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...Until 7 PM CST this evening.\n\n* WINDS...North 5 to 15 mph with gusts up to 25 mph.\n\n* RELATIVE HUMIDITY...As low as 20 percent.\n\n* TEMPERATURES...Up to 58.\n\n* LIGHTNING...None.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1034,
-    1034,
+    1033,
     1033,
     1032,
     1032,
+    1031,
     1031
   ],
   "fishingReport": {
