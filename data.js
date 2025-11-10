@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 38.62,
-    "feels_like": 32.38,
+    "temp": 43.3,
+    "feels_like": 37.63,
     "description": "clear sky",
-    "wind_speed": 9.04,
-    "wind_deg": 347,
-    "gust": 18.34,
+    "wind_speed": 10.25,
+    "wind_deg": 352,
+    "gust": 17.67,
     "sunrise": "06:37 AM",
     "sunset": "05:19 PM",
     "dayOrNight": "day",
-    "humidity": 66,
-    "uv_index": 0.32,
+    "humidity": 50,
+    "uv_index": 1.08,
     "pressure": 1034,
     "moon_phase": 0.7,
     "visibility": 10000,
-    "dew_point": 28.71
+    "dew_point": 26.64
   },
   "fiveDayWeather": [
     {
@@ -103,13 +103,6 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Freeze Warning",
-      "start": "3:40:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...For the Freeze Warning, sub-freezing temperatures as low as\n25. For the Freeze Watch, sub-freezing temperatures as low as 29\npossible.\n\n* WHERE...In Louisiana, Rapides and Vernon Parishes. In Texas,\nNorthern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...For the Freeze Warning, until 9 AM CST Monday. For the\nFreeze Watch, from Monday evening through Tuesday morning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Red Flag Warning",
       "start": "3:00:00 PM",
       "end": "1:00:00 AM",
@@ -121,9 +114,9 @@ const data = {
     1034,
     1034,
     1034,
-    1034,
     1033,
-    1032
+    1032,
+    1031
   ],
   "fishingReport": {
     "date": "Nov 5, 2025",
