@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 48.06,
-    "feels_like": 44.47,
+    "temp": 54.41,
+    "feels_like": 51.62,
     "description": "clear sky",
-    "wind_speed": 7.81,
-    "wind_deg": 174,
-    "gust": 13.33,
+    "wind_speed": 9.08,
+    "wind_deg": 182,
+    "gust": 14.58,
     "sunrise": "06:38 AM",
     "sunset": "05:18 PM",
     "dayOrNight": "day",
-    "humidity": 58,
-    "uv_index": 1.13,
+    "humidity": 44,
+    "uv_index": 2.34,
     "pressure": 1030,
     "moon_phase": 0.73,
     "visibility": 10000,
-    "dew_point": 34
+    "dew_point": 32.97
   },
   "fiveDayWeather": [
     {
@@ -98,10 +98,10 @@ const data = {
   "barometricPressureHistory": [
     1030,
     1030,
-    1030,
     1029,
-    1027,
-    1025
+    1028,
+    1026,
+    1024
   ],
   "fishingReport": {
     "date": "Nov 5, 2025",
