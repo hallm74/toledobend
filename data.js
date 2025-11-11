@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 36.34,
-    "feels_like": 36.34,
+    "temp": 35.71,
+    "feels_like": 35.71,
     "description": "clear sky",
-    "wind_speed": 2.21,
-    "wind_deg": 129,
-    "gust": 2.53,
-    "sunrise": "06:37 AM",
-    "sunset": "05:19 PM",
+    "wind_speed": 2.59,
+    "wind_deg": 155,
+    "gust": 3.02,
+    "sunrise": "06:38 AM",
+    "sunset": "05:18 PM",
     "dayOrNight": "night",
-    "humidity": 73,
+    "humidity": 75,
     "uv_index": 0,
-    "pressure": 1032,
-    "moon_phase": 0.7,
+    "pressure": 1031,
+    "moon_phase": 0.73,
     "visibility": 10000,
-    "dew_point": 28.94
+    "dew_point": 28.98
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 66.79,
-      "low": 36.16,
-      "description": "clear sky",
-      "wind_speed": 11.97,
-      "wind_deg": 182,
-      "gust": 31.03,
-      "humidity": 26,
-      "uv_index": 4.14,
-      "pressure": 1029,
-      "moon_phase": 0.73,
-      "dew_point": 22.66,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 77.77,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1022,
       "moon_phase": 0.8,
       "dew_point": 57.76,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.86,
       "dew_point": 55.92,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 74.64,
+      "low": 61.93,
+      "description": "broken clouds",
+      "wind_speed": 9.78,
+      "wind_deg": 162,
+      "gust": 25.68,
+      "humidity": 67,
+      "uv_index": 5,
+      "pressure": 1012,
+      "moon_phase": 0.89,
+      "dew_point": 62.87,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -104,11 +104,11 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1032,
-    1032,
-    1032,
     1031,
     1031,
+    1031,
+    1031,
+    1030,
     1030
   ],
   "fishingReport": {
