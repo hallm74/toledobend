@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 75.67,
-    "feels_like": 75.61,
-    "description": "few clouds",
-    "wind_speed": 8.14,
-    "wind_deg": 180,
-    "gust": 10.76,
+    "temp": 72.86,
+    "feels_like": 72.86,
+    "description": "scattered clouds",
+    "wind_speed": 10.83,
+    "wind_deg": 179,
+    "gust": 21.23,
     "sunrise": "06:39 AM",
     "sunset": "05:18 PM",
     "dayOrNight": "day",
-    "humidity": 57,
-    "uv_index": 0.66,
+    "humidity": 64,
+    "uv_index": 0.12,
     "pressure": 1021,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 59.38
+    "dew_point": 59.99
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1021,
     1021,
     1021,
-    1021,
+    1022,
     1022,
     1022
   ],
   "fishingReport": {
-    "date": "Nov 5, 2025",
-    "report": "FAIR. 90 degrees; 4.40 feet below pool. We’re finally getting a taste of fall on Toledo Bend, with water temperatures dropping into the mid-70s at press time. A cold front on the way should push temperatures down into the low 70s and upper 60s. The lake is fishing well overall, and bass can be caught from shallow to deep water. Early mornings have been productive with topwater baits, frogs, and buzzbaits, while later in the day, anglers are finding success with Carolina rigs and Texas rigs using bit worms in 12-18 feet of water. On windy days, the crankbait bite is picking up and should continue to improve as temperatures cool. A few smaller fish are being caught deeper in 20-25 feet, but most of the quality bites are coming shallower. No new crappie reports this week, though a few anglers mentioned the bite has been slow. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Nov 12, 2025",
+    "report": "FAIR. 71 degrees; 4.56 feet below pool. Water temperatures have finally cooled into the mid-60s, putting bass on the feed. Despite some strong winds this week, and more wind and storms expected this weekend, fishing has been solid overall. The shallow bite is good on chatterbaits, weightless flukes, senkos, and spooks. Mid-range fish are also active in 8-15 feet of water on Texas rigs and mid-depth crankbaits especially around creek beds and main lake points. The deeper bite has not fully turned on yet, though a few smaller fish are being caught on Carolina rigs, spoons, and drop shots. Report by Stephen Johnston, Johnston Fishing."
   }
 };
