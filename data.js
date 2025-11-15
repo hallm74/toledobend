@@ -1,8 +1,8 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 65.64,
-    "feels_like": 65.77,
+    "temp": 66.06,
+    "feels_like": 66.4,
     "description": "clear sky",
     "wind_speed": 8.77,
     "wind_deg": 190,
@@ -10,12 +10,12 @@ const data = {
     "sunrise": "06:40 AM",
     "sunset": "05:16 PM",
     "dayOrNight": "night",
-    "humidity": 82,
+    "humidity": 86,
     "uv_index": 0,
-    "pressure": 1018,
+    "pressure": 1019,
     "moon_phase": 0.83,
     "visibility": 10000,
-    "dew_point": 60.01
+    "dew_point": 61.75
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
+    1019,
+    1019,
+    1019,
     1018,
     1018,
     1018
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Fishing report not found"
+    "date": "Nov 12, 2025",
+    "report": "FAIR. 71 degrees; 4.56 feet below pool. Water temperatures have finally cooled into the mid-60s, putting bass on the feed. Despite some strong winds this week, and more wind and storms expected this weekend, fishing has been solid overall. The shallow bite is good on chatterbaits, weightless flukes, senkos, and spooks. Mid-range fish are also active in 8-15 feet of water on Texas rigs and mid-depth crankbaits especially around creek beds and main lake points. The deeper bite has not fully turned on yet, though a few smaller fish are being caught on Carolina rigs, spoons, and drop shots. Report by Stephen Johnston, Johnston Fishing."
   }
 };
