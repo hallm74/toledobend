@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 81.05,
-    "feels_like": 84.54,
-    "description": "broken clouds",
-    "wind_speed": 3.98,
-    "wind_deg": 203,
-    "gust": 7.23,
+    "temp": 81.86,
+    "feels_like": 85.15,
+    "description": "overcast clouds",
+    "wind_speed": 5.66,
+    "wind_deg": 211,
+    "gust": 7.9,
     "sunrise": "06:45 AM",
     "sunset": "05:14 PM",
     "dayOrNight": "day",
-    "humidity": 69,
-    "uv_index": 2.82,
-    "pressure": 1020,
+    "humidity": 65,
+    "uv_index": 0.95,
+    "pressure": 1019,
     "moon_phase": 0.98,
     "visibility": 10000,
-    "dew_point": 69.93
+    "dew_point": 68.94
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 168,
       "gust": 24.16,
       "humidity": 55,
-      "uv_index": 2.96,
+      "uv_index": 4.19,
       "pressure": 1015,
       "moon_phase": 0,
       "dew_point": 63.09,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 205,
       "gust": 19.86,
       "humidity": 57,
-      "uv_index": 3.91,
+      "uv_index": 4.59,
       "pressure": 1014,
       "moon_phase": 0.04,
       "dew_point": 65.12,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 203,
       "gust": 16.33,
       "humidity": 68,
-      "uv_index": 4.56,
+      "uv_index": 4.65,
       "pressure": 1017,
       "moon_phase": 0.07,
       "dew_point": 67.59,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 156,
       "gust": 20.83,
       "humidity": 67,
-      "uv_index": 5,
+      "uv_index": 4.42,
       "pressure": 1017,
       "moon_phase": 0.11,
       "dew_point": 66.36,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
+    1019,
     1019,
     1019,
     1018,
-    1018
+    1018,
+    1019
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Nov 12, 2025",
+    "report": "FAIR. 71 degrees; 4.56 feet below pool. Water temperatures have finally cooled into the mid-60s, putting bass on the feed. Despite some strong winds this week, and more wind and storms expected this weekend, fishing has been solid overall. The shallow bite is good on chatterbaits, weightless flukes, senkos, and spooks. Mid-range fish are also active in 8-15 feet of water on Texas rigs and mid-depth crankbaits especially around creek beds and main lake points. The deeper bite has not fully turned on yet, though a few smaller fish are being caught on Carolina rigs, spoons, and drop shots. Report by Stephen Johnston, Johnston Fishing."
   }
 };
