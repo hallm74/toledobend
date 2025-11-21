@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.57,
-    "feels_like": 79.57,
-    "description": "scattered clouds",
-    "wind_speed": 6.2,
-    "wind_deg": 236,
-    "gust": 11.48,
+    "temp": 76.87,
+    "feels_like": 77.97,
+    "description": "moderate rain",
+    "wind_speed": 5.59,
+    "wind_deg": 213,
+    "gust": 13,
     "sunrise": "06:47 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 71,
-    "uv_index": 0.36,
+    "humidity": 79,
+    "uv_index": 0,
     "pressure": 1013,
     "moon_phase": 0.04,
     "visibility": 10000,
-    "dew_point": 69.35
+    "dew_point": 69.87
   },
   "fiveDayWeather": [
     {
@@ -94,7 +94,15 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "10:28:00 PM",
+      "end": "11:15:00 PM",
+      "description": "At 428 PM CST, Doppler radar was tracking strong thunderstorms along\na line extending from 6 miles west of Toledo Bend Dam to Farrsville\nto near Town Bluff. Movement was south at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nJasper, Newton, Kirbyville, Merryville, Toledo Bend Dam, Call, Bon\nWeir, Burkeville, Trout Creek, Farrsville, Magnolia Springs, Burr\nFerry, Mayflower, Mt. Union, Jamestown, Roganville, Harrisburg,\nJunction, Stringtown, and Bleakwood.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1013,
     1013,
