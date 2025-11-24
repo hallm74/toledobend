@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.44,
-    "feels_like": 69.75,
+    "temp": 71.22,
+    "feels_like": 71.76,
     "description": "scattered clouds",
-    "wind_speed": 8.7,
-    "wind_deg": 161,
-    "gust": 16.6,
+    "wind_speed": 9.95,
+    "wind_deg": 173,
+    "gust": 18.37,
     "sunrise": "06:49 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 78,
-    "uv_index": 2.77,
-    "pressure": 1016,
+    "humidity": 79,
+    "uv_index": 1.36,
+    "pressure": 1015,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 62.29
+    "dew_point": 64.38
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Tornado Watch",
+      "start": "5:53:00 PM",
+      "end": "1:00:00 AM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 638 IN\nEFFECT UNTIL 7 PM CST THIS EVENING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                NEWTON\nTYLER\n\nTHIS INCLUDES THE CITIES OF BLEAKWOOD, BUNA, BURKEVILLE, CALL,\nFARRSVILLE, FRED, GIST, HILLISTER, HOLLY SPRINGS, IVANHOE,\nJAMESTOWN, JASPER, KIRBYVILLE, LUMBERTON, MAGNOLIA SPRINGS,\nMT. UNION, NEWTON, SILSBEE, SPURGER, TOWN BLUFF, WARREN,\nWIERGATE, AND WOODVILLE.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1016,
-    1016,
+    1015,
     1015,
     1014,
     1013,
-    1012
+    1013,
+    1011
   ],
   "fishingReport": {
     "date": "Nov 19, 2025",
