@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.44,
-    "feels_like": 72.18,
-    "description": "scattered clouds",
-    "wind_speed": 9.6,
-    "wind_deg": 179,
-    "gust": 16.2,
+    "temp": 71.67,
+    "feels_like": 72.72,
+    "description": "moderate rain",
+    "wind_speed": 7.54,
+    "wind_deg": 187,
+    "gust": 15.28,
     "sunrise": "06:49 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 83,
-    "uv_index": 1.73,
-    "pressure": 1014,
+    "humidity": 89,
+    "uv_index": 1.23,
+    "pressure": 1013,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 66
+    "dew_point": 68.25
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 225,
       "gust": 30.65,
       "humidity": 42,
-      "uv_index": 4.24,
+      "uv_index": 4.21,
       "pressure": 1015,
       "moon_phase": 0.17,
       "dew_point": 50.29,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 3,
       "gust": 24.52,
       "humidity": 31,
-      "uv_index": 3.88,
+      "uv_index": 3.91,
       "pressure": 1025,
       "moon_phase": 0.2,
       "dew_point": 33.31,
@@ -50,7 +50,7 @@ const data = {
     },
     {
       "date": "Thursday",
-      "high": 60.93,
+      "high": 61.11,
       "low": 44.38,
       "description": "clear sky",
       "wind_speed": 9.17,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 88,
       "gust": 21.9,
       "humidity": 29,
-      "uv_index": 4,
+      "uv_index": 3.38,
       "pressure": 1030,
       "moon_phase": 0.25,
       "dew_point": 24.24,
@@ -104,9 +104,9 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1014,
-    1014,
     1013,
+    1013,
+    1012,
     1012,
     1011,
     1011
