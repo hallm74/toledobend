@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.91,
-    "feels_like": 70.5,
+    "temp": 71.98,
+    "feels_like": 72.21,
     "description": "clear sky",
-    "wind_speed": 5.79,
-    "wind_deg": 303,
-    "gust": 9.1,
+    "wind_speed": 5.64,
+    "wind_deg": 294,
+    "gust": 9.24,
     "sunrise": "06:50 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "day",
-    "humidity": 83,
-    "uv_index": 3.53,
-    "pressure": 1016,
+    "humidity": 71,
+    "uv_index": 4.21,
+    "pressure": 1015,
     "moon_phase": 0.17,
     "visibility": 10000,
-    "dew_point": 64.51
+    "dew_point": 62.06
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
     1015,
     1015,
-    1015
+    1015,
+    1015,
+    1015,
+    1016
   ],
   "fishingReport": {
-    "date": "Nov 19, 2025",
-    "report": "FAIR. 71 degrees; 4.55 feet below pool. There’s really no change from last week, but rain is expected over the next several days, and some fresh water should help the lake conditions a lot. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
