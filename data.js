@@ -1,12 +1,12 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 66,
-    "feels_like": 66.78,
+    "temp": 65.68,
+    "feels_like": 66.42,
     "description": "broken clouds",
-    "wind_speed": 7.74,
-    "wind_deg": 229,
-    "gust": 21.12,
+    "wind_speed": 5.01,
+    "wind_deg": 233,
+    "gust": 15.3,
     "sunrise": "06:50 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "night",
@@ -15,7 +15,7 @@ const data = {
     "pressure": 1012,
     "moon_phase": 0.17,
     "visibility": 10000,
-    "dew_point": 64.53
+    "dew_point": 64.2
   },
   "fiveDayWeather": [
     {
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Tornado Watch",
-      "start": "6:35:00 AM",
-      "end": "9:00:00 AM",
-      "description": "TORNADO WATCH 639, PREVIOUSLY IN EFFECT UNTIL 2 AM CST EARLY THIS\nMORNING, IS NOW IN EFFECT UNTIL 3 AM CST EARLY THIS MORNING FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 4 PARISHES\n\nIN CENTRAL LOUISIANA\n\nRAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BLEAKWOOD,\nBRIDGE CITY, BUNA, BUNDICK LAKE, BURKEVILLE, CALL, DE RIDDER,\nFARRSVILLE, FIELDS, FORT POLK, FRED, GIST, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KINDER, KIRBYVILLE,\nLEESVILLE, LUMBERTON, MAGNOLIA SPRINGS, MT. UNION, NEWTON,\nOAKDALE, ORANGE, ORETTA, PICKERING, PINEVILLE, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SLAGLE, SPURGER, TOWN BLUFF, VIDOR,\nWARREN, WIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1012,
     1012,
     1012,
-    1012,
     1013,
+    1014,
     1014
   ],
   "fishingReport": {
