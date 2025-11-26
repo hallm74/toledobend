@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 63.91,
-    "feels_like": 61.56,
+    "temp": 60.8,
+    "feels_like": 58.46,
     "description": "clear sky",
-    "wind_speed": 9.19,
-    "wind_deg": 21,
-    "gust": 13.38,
+    "wind_speed": 8.16,
+    "wind_deg": 24,
+    "gust": 16.93,
     "sunrise": "06:51 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "day",
-    "humidity": 33,
-    "uv_index": 0.56,
-    "pressure": 1025,
+    "humidity": 40,
+    "uv_index": 0,
+    "pressure": 1026,
     "moon_phase": 0.2,
     "visibility": 10000,
-    "dew_point": 34.29
+    "dew_point": 36.36
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1025,
-    1025,
-    1025,
     1026,
+    1026,
+    1026,
+    1027,
     1027,
     1027
   ],
   "fishingReport": {
-    "date": "Nov 19, 2025",
-    "report": "FAIR. 71 degrees; 4.55 feet below pool. There’s really no change from last week, but rain is expected over the next several days, and some fresh water should help the lake conditions a lot. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Nov 26, 2025",
+    "report": "FAIR. 71 degrees; 4.24 feet below pool. Toledo Bend water temperatures have climbed back into the low to mid 70s, warming conditions over the past week and slowing the overall bite. Anglers are still catching good numbers of bass, but fewer quality fish have been reported. The shallow bite in 1-6 feet has produced some action on swim jigs, traps, and squarebills around creek bends, while the mid-range zone in 8-15 feet has been the most consistent, with shad on the surface early and some schooling activity; topwaters and crankbaits have worked, but deeper-diving crankbaits and Texas rigs performed best. The deep bite has slowed with the warmer water, but cooler weather with the highs in the 50s and rain in the forecast should improve the deeper pattern rebound next week. Report by Stephen Johnston, Johnston Fishing."
   }
 };
