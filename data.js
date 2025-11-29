@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 50.54,
-    "feels_like": 47.97,
+    "temp": 50.74,
+    "feels_like": 48.09,
     "description": "overcast clouds",
-    "wind_speed": 9.84,
-    "wind_deg": 145,
-    "gust": 26.6,
+    "wind_speed": 10.09,
+    "wind_deg": 148,
+    "gust": 27.94,
     "sunrise": "06:53 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "night",
-    "humidity": 57,
+    "humidity": 55,
     "uv_index": 0,
-    "pressure": 1025,
-    "moon_phase": 0.25,
+    "pressure": 1024,
+    "moon_phase": 0.3,
     "visibility": 10000,
-    "dew_point": 35.89
+    "dew_point": 35.19
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 70.23,
-      "low": 43.88,
-      "description": "light rain",
-      "wind_speed": 13.15,
-      "wind_deg": 176,
-      "gust": 31.27,
-      "humidity": 61,
-      "uv_index": 3.16,
-      "pressure": 1020,
-      "moon_phase": 0.3,
-      "dew_point": 50.02,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 60.96,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1025,
       "moon_phase": 0.34,
       "dew_point": 43.97,
-      "visibility": 8921
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1018,
       "moon_phase": 0.37,
       "dew_point": 47.39,
-      "visibility": "Unavailable"
+      "visibility": 8921
     },
     {
       "date": "Tuesday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.45,
       "dew_point": 37.17,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 54.88,
+      "low": 51.93,
+      "description": "moderate rain",
+      "wind_speed": 10.22,
+      "wind_deg": 89,
+      "gust": 27.49,
+      "humidity": 92,
+      "uv_index": 4,
+      "pressure": 1020,
+      "moon_phase": 0.5,
+      "dew_point": 52.7,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1025,
-    1025,
-    1025,
     1024,
     1024,
-    1023
+    1024,
+    1023,
+    1023,
+    1022
   ],
   "fishingReport": {
     "date": "Nov 26, 2025",
