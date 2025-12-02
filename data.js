@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 41.36,
-    "feels_like": 35.28,
-    "description": "light rain",
-    "wind_speed": 10.11,
+    "temp": 40.96,
+    "feels_like": 35.26,
+    "description": "overcast clouds",
+    "wind_speed": 9.06,
     "wind_deg": 340,
-    "gust": 18.5,
+    "gust": 18.66,
     "sunrise": "06:55 AM",
     "sunset": "05:11 PM",
     "dayOrNight": "night",
-    "humidity": 95,
+    "humidity": 94,
     "uv_index": 0,
     "pressure": 1018,
     "moon_phase": 0.37,
     "visibility": 10000,
-    "dew_point": 40.05
+    "dew_point": 39.38
   },
   "fiveDayWeather": [
     {
@@ -51,7 +51,7 @@ const data = {
     {
       "date": "Thursday",
       "high": 57.04,
-      "low": 49.42,
+      "low": 48.74,
       "description": "moderate rain",
       "wind_speed": 9.66,
       "wind_deg": 45,
@@ -104,7 +104,7 @@ const data = {
     1019
   ],
   "fishingReport": {
-    "date": "Nov 26, 2025",
-    "report": "FAIR. 71 degrees; 4.24 feet below pool. Toledo Bend water temperatures have climbed back into the low to mid 70s, warming conditions over the past week and slowing the overall bite. Anglers are still catching good numbers of bass, but fewer quality fish have been reported. The shallow bite in 1-6 feet has produced some action on swim jigs, traps, and squarebills around creek bends, while the mid-range zone in 8-15 feet has been the most consistent, with shad on the surface early and some schooling activity; topwaters and crankbaits have worked, but deeper-diving crankbaits and Texas rigs performed best. The deep bite has slowed with the warmer water, but cooler weather with the highs in the 50s and rain in the forecast should improve the deeper pattern rebound next week. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
