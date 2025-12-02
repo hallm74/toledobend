@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 46.33,
-    "feels_like": 42.12,
-    "description": "few clouds",
-    "wind_speed": 8.41,
-    "wind_deg": 354,
-    "gust": 12.5,
+    "temp": 47.88,
+    "feels_like": 44.37,
+    "description": "broken clouds",
+    "wind_speed": 7.58,
+    "wind_deg": 356,
+    "gust": 10.96,
     "sunrise": "06:56 AM",
     "sunset": "05:11 PM",
     "dayOrNight": "day",
-    "humidity": 70,
-    "uv_index": 3.24,
-    "pressure": 1020,
+    "humidity": 67,
+    "uv_index": 2.53,
+    "pressure": 1019,
     "moon_phase": 0.41,
     "visibility": 10000,
-    "dew_point": 37.09
+    "dew_point": 37.47
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 170,
       "gust": 16.73,
       "humidity": 39,
-      "uv_index": 3.35,
+      "uv_index": 3.64,
       "pressure": 1019,
       "moon_phase": 0.45,
       "dew_point": 32.5,
@@ -42,11 +42,11 @@ const data = {
       "wind_deg": 70,
       "gust": 24.65,
       "humidity": 97,
-      "uv_index": 0.75,
+      "uv_index": 0.43,
       "pressure": 1019,
       "moon_phase": 0.5,
       "dew_point": 49.42,
-      "visibility": 7998
+      "visibility": 7911
     },
     {
       "date": "Friday",
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 359,
       "gust": 14.14,
       "humidity": 89,
-      "uv_index": 1.61,
+      "uv_index": 1.68,
       "pressure": 1018,
       "moon_phase": 0.53,
       "dew_point": 47.23,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 172,
       "gust": 15.59,
       "humidity": 76,
-      "uv_index": 2,
+      "uv_index": 2.83,
       "pressure": 1013,
       "moon_phase": 0.57,
       "dew_point": 49.48,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 313,
       "gust": 22.73,
       "humidity": 69,
-      "uv_index": 2,
+      "uv_index": 3,
       "pressure": 1014,
       "moon_phase": 0.61,
       "dew_point": 49.82,
@@ -96,12 +96,12 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
-    1020,
     1019,
     1019,
-    1019
+    1019,
+    1019,
+    1019,
+    1020
   ],
   "fishingReport": {
     "date": "Nov 26, 2025",
