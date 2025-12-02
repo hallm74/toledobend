@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 40.96,
-    "feels_like": 35.26,
+    "temp": 40.21,
+    "feels_like": 34.21,
     "description": "overcast clouds",
-    "wind_speed": 9.06,
-    "wind_deg": 340,
-    "gust": 18.66,
-    "sunrise": "06:55 AM",
+    "wind_speed": 9.31,
+    "wind_deg": 339,
+    "gust": 18.72,
+    "sunrise": "06:56 AM",
     "sunset": "05:11 PM",
     "dayOrNight": "night",
     "humidity": 94,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.37,
+    "moon_phase": 0.41,
     "visibility": 10000,
-    "dew_point": 39.38
+    "dew_point": 38.62
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 52.16,
-      "low": 33.84,
-      "description": "scattered clouds",
-      "wind_speed": 11.27,
-      "wind_deg": 340,
-      "gust": 25.46,
-      "humidity": 49,
-      "uv_index": 3.44,
-      "pressure": 1021,
-      "moon_phase": 0.41,
-      "dew_point": 29.66,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 63.07,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.5,
       "dew_point": 51.13,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.57,
       "dew_point": 51.87,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 62.8,
+      "low": 49.35,
+      "description": "clear sky",
+      "wind_speed": 12.03,
+      "wind_deg": 331,
+      "gust": 31.97,
+      "humidity": 39,
+      "uv_index": 2,
+      "pressure": 1018,
+      "moon_phase": 0.61,
+      "dew_point": 37.45,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -104,7 +104,7 @@ const data = {
     1019
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Nov 26, 2025",
+    "report": "FAIR. 71 degrees; 4.24 feet below pool. Toledo Bend water temperatures have climbed back into the low to mid 70s, warming conditions over the past week and slowing the overall bite. Anglers are still catching good numbers of bass, but fewer quality fish have been reported. The shallow bite in 1-6 feet has produced some action on swim jigs, traps, and squarebills around creek bends, while the mid-range zone in 8-15 feet has been the most consistent, with shad on the surface early and some schooling activity; topwaters and crankbaits have worked, but deeper-diving crankbaits and Texas rigs performed best. The deep bite has slowed with the warmer water, but cooler weather with the highs in the 50s and rain in the forecast should improve the deeper pattern rebound next week. Report by Stephen Johnston, Johnston Fishing."
   }
 };
