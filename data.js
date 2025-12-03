@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 49.15,
-    "feels_like": 47.03,
+    "temp": 50.52,
+    "feels_like": 48.52,
     "description": "overcast clouds",
-    "wind_speed": 5.32,
-    "wind_deg": 155,
-    "gust": 8.41,
+    "wind_speed": 5.88,
+    "wind_deg": 151,
+    "gust": 8.16,
     "sunrise": "06:57 AM",
     "sunset": "05:11 PM",
     "dayOrNight": "day",
-    "humidity": 72,
-    "uv_index": 3.11,
-    "pressure": 1019,
+    "humidity": 69,
+    "uv_index": 1.14,
+    "pressure": 1018,
     "moon_phase": 0.45,
     "visibility": 10000,
-    "dew_point": 40.53
+    "dew_point": 40.75
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 16,
       "gust": 21.63,
       "humidity": 97,
-      "uv_index": 0.43,
+      "uv_index": 0.33,
       "pressure": 1019,
       "moon_phase": 0.5,
       "dew_point": 47.71,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 19,
       "gust": 16.6,
       "humidity": 94,
-      "uv_index": 1.68,
+      "uv_index": 0.98,
       "pressure": 1018,
       "moon_phase": 0.53,
       "dew_point": 43.18,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 207,
       "gust": 10.83,
       "humidity": 82,
-      "uv_index": 2.83,
+      "uv_index": 2.29,
       "pressure": 1012,
       "moon_phase": 0.57,
       "dew_point": 55.35,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 9,
       "gust": 17.43,
       "humidity": 82,
-      "uv_index": 3,
+      "uv_index": 1.97,
       "pressure": 1015,
       "moon_phase": 0.61,
       "dew_point": 55.89,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 12,
       "gust": 25.21,
       "humidity": 55,
-      "uv_index": 3,
+      "uv_index": 2,
       "pressure": 1027,
       "moon_phase": 0.64,
       "dew_point": 37.29,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1019,
-    1019,
-    1019,
-    1019,
     1018,
+    1018,
+    1018,
+    1018,
+    1019,
     1019
   ],
   "fishingReport": {
-    "date": "Nov 26, 2025",
-    "report": "FAIR. 71 degrees; 4.24 feet below pool. Toledo Bend water temperatures have climbed back into the low to mid 70s, warming conditions over the past week and slowing the overall bite. Anglers are still catching good numbers of bass, but fewer quality fish have been reported. The shallow bite in 1-6 feet has produced some action on swim jigs, traps, and squarebills around creek bends, while the mid-range zone in 8-15 feet has been the most consistent, with shad on the surface early and some schooling activity; topwaters and crankbaits have worked, but deeper-diving crankbaits and Texas rigs performed best. The deep bite has slowed with the warmer water, but cooler weather with the highs in the 50s and rain in the forecast should improve the deeper pattern rebound next week. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Dec 3, 2025",
+    "report": "FAIR. 71 degrees; 4.33 feet below pool. Water temperatures have dropped back into the low 60s and upper 50s, and although the lake didn’t receive as much rain as expected, bass fishing remains strong. The shallow bite in 2-5 feet is productive on swim jigs, traps, and wacky worms, while mid-range fish in 8-15 feet are best targeted with Texas rigs and crankbaits. For deeper bass in 22-28 feet, Carolina rigs, drop shots, and spoons are producing the most consistent action. Report by Stephen Johnston, Johnston Fishing."
   }
 };
