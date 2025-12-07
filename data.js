@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 53.38,
-    "feels_like": 52.79,
+    "temp": 53.6,
+    "feels_like": 53.08,
     "description": "clear sky",
-    "wind_speed": 5.84,
-    "wind_deg": 173,
-    "gust": 14.03,
-    "sunrise": "06:59 AM",
-    "sunset": "05:11 PM",
+    "wind_speed": 5.26,
+    "wind_deg": 181,
+    "gust": 12.97,
+    "sunrise": "07:00 AM",
+    "sunset": "05:12 PM",
     "dayOrNight": "night",
-    "humidity": 93,
+    "humidity": 94,
     "uv_index": 0,
     "pressure": 1013,
-    "moon_phase": 0.57,
+    "moon_phase": 0.61,
     "visibility": 10000,
-    "dew_point": 51.42
+    "dew_point": 51.93
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 72.43,
-      "low": 51.85,
-      "description": "overcast clouds",
-      "wind_speed": 14.29,
-      "wind_deg": 354,
-      "gust": 29.59,
-      "humidity": 73,
-      "uv_index": 1.64,
-      "pressure": 1012,
-      "moon_phase": 0.61,
-      "dew_point": 61.54,
-      "visibility": 8759
-    },
     {
       "date": "Monday",
       "high": 57.25,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.64,
       "dew_point": 40.44,
-      "visibility": 10000
+      "visibility": 8759
     },
     {
       "date": "Tuesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1022,
       "moon_phase": 0.68,
       "dew_point": 36.57,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.75,
       "dew_point": 63.3,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 63.86,
+      "low": 45.37,
+      "description": "light rain",
+      "wind_speed": 13.49,
+      "wind_deg": 22,
+      "gust": 25.37,
+      "humidity": 68,
+      "uv_index": 4,
+      "pressure": 1021,
+      "moon_phase": 0.78,
+      "dew_point": 39.67,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -107,9 +107,9 @@ const data = {
     1013,
     1013,
     1013,
-    1013,
     1012,
-    1011
+    1011,
+    1012
   ],
   "fishingReport": {
     "date": "Dec 3, 2025",
