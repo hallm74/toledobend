@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 51.82,
-    "feels_like": 51.17,
-    "description": "overcast clouds",
-    "wind_speed": 1.7,
-    "wind_deg": 173,
-    "gust": 2.86,
+    "temp": 56.52,
+    "feels_like": 56.19,
+    "description": "broken clouds",
+    "wind_speed": 3.2,
+    "wind_deg": 214,
+    "gust": 6.91,
     "sunrise": "07:03 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "day",
-    "humidity": 95,
-    "uv_index": 0.22,
-    "pressure": 1016,
+    "humidity": 92,
+    "uv_index": 0.86,
+    "pressure": 1017,
     "moon_phase": 0.78,
     "visibility": 10000,
-    "dew_point": 50.43
+    "dew_point": 54.23
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Dense Fog Advisory",
-      "start": "1:03:00 PM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...Visibility below one quarter of a mile in dense fog.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern\nOrange, Tyler, and Upper Jefferson Counties.\n\n* WHEN...Until 9 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
     1017,
     1017,
-    1016
+    1017,
+    1017,
+    1016,
+    1015
   ],
   "fishingReport": {
     "date": "Dec 10, 2025",
