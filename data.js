@@ -1,26 +1,26 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 63.93,
-    "feels_like": 64.4,
-    "description": "broken clouds",
-    "wind_speed": 3.11,
-    "wind_deg": 194,
-    "gust": 2.98,
+    "temp": 62.87,
+    "feels_like": 63.32,
+    "description": "scattered clouds",
+    "wind_speed": 2.46,
+    "wind_deg": 215,
+    "gust": 2.21,
     "sunrise": "07:04 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "night",
-    "humidity": 93,
+    "humidity": 95,
     "uv_index": 0,
     "pressure": 1018,
     "moon_phase": 0.81,
     "visibility": 10000,
-    "dew_point": 61.86
+    "dew_point": 61.41
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 59.56,
+      "high": 60.31,
       "low": 34.43,
       "description": "light rain",
       "wind_speed": 15.37,
@@ -99,7 +99,14 @@ const data = {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "4:00:00 PM",
-      "description": "* WHAT...Very cold wind chills as low as 16 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 6 PM Sunday to 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 20 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper\nand Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Freeze Watch",
+      "start": "2:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 20 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper\nand Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
