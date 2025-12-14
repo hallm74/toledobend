@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 42.13,
-    "feels_like": 34.41,
-    "description": "broken clouds",
-    "wind_speed": 15.57,
-    "wind_deg": 29,
-    "gust": 24.02,
+    "temp": 44.17,
+    "feels_like": 37.15,
+    "description": "scattered clouds",
+    "wind_speed": 15.1,
+    "wind_deg": 30,
+    "gust": 22.32,
     "sunrise": "07:05 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 72,
-    "uv_index": 2.86,
+    "humidity": 63,
+    "uv_index": 3.38,
     "pressure": 1032,
     "moon_phase": 0.84,
     "visibility": 10000,
-    "dew_point": 33.78
+    "dew_point": 32.4
   },
   "fiveDayWeather": [
     {
@@ -96,17 +96,24 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Cold Weather Advisory",
-      "start": "12:00:00 AM",
-      "end": "4:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Freeze Watch",
       "start": "2:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to 10\nAM CST Monday. For the Freeze Watch, from 8 PM CST this evening\nthrough Monday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Cold Weather Advisory",
+      "start": "12:00:00 AM",
+      "end": "4:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to 10\nAM CST Monday. For the Freeze Warning, from 8 PM this evening to 9\nAM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Freeze Warning",
+      "start": "2:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to 10\nAM CST Monday. For the Freeze Warning, from 8 PM this evening to 9\nAM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -114,8 +121,8 @@ const data = {
     1032,
     1032,
     1032,
-    1032,
     1031,
+    1032,
     1032
   ],
   "fishingReport": {
