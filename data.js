@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 60.58,
-    "feels_like": 60.8,
-    "description": "moderate rain",
-    "wind_speed": 6.26,
-    "wind_deg": 352,
-    "gust": 13.44,
-    "sunrise": "07:04 AM",
+    "temp": 58.6,
+    "feels_like": 58.53,
+    "description": "broken clouds",
+    "wind_speed": 10.02,
+    "wind_deg": 21,
+    "gust": 20.6,
+    "sunrise": "07:05 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "night",
-    "humidity": 95,
+    "humidity": 93,
     "uv_index": 0,
-    "pressure": 1019,
-    "moon_phase": 0.81,
+    "pressure": 1020,
+    "moon_phase": 0.84,
     "visibility": 10000,
-    "dew_point": 59.14
+    "dew_point": 56.59
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 60.35,
-      "low": 34.43,
-      "description": "heavy intensity rain",
-      "wind_speed": 15.37,
-      "wind_deg": 30,
-      "gust": 28.66,
-      "humidity": 44,
-      "uv_index": 3.38,
-      "pressure": 1032,
-      "moon_phase": 0.84,
-      "dew_point": 25.93,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 52.11,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1022,
       "moon_phase": 0.9,
       "dew_point": 41.67,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.96,
       "dew_point": 64.44,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 63.45,
+      "low": 53.4,
+      "description": "overcast clouds",
+      "wind_speed": 8.7,
+      "wind_deg": 63,
+      "gust": 24.16,
+      "humidity": 58,
+      "uv_index": 2,
+      "pressure": 1022,
+      "moon_phase": 0,
+      "dew_point": 44.49,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -99,24 +99,24 @@ const data = {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "4:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 20 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper\nand Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Freeze Watch",
       "start": "2:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 20 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper\nand Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Sunday to 10 AM\nCST Monday. For the Freeze Watch, from Sunday evening through\nMonday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1019,
-    1019,
+    1020,
     1020,
     1021,
     1022,
-    1024
+    1023,
+    1025
   ],
   "fishingReport": {
     "date": "Dec 10, 2025",
