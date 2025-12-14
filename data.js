@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 45.41,
-    "feels_like": 38.93,
+    "temp": 46.49,
+    "feels_like": 40.53,
     "description": "clear sky",
-    "wind_speed": 14.43,
-    "wind_deg": 28,
-    "gust": 20.24,
+    "wind_speed": 13.58,
+    "wind_deg": 29,
+    "gust": 19.04,
     "sunrise": "07:05 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 55,
-    "uv_index": 3.2,
-    "pressure": 1032,
+    "humidity": 50,
+    "uv_index": 2.43,
+    "pressure": 1031,
     "moon_phase": 0.84,
     "visibility": 10000,
-    "dew_point": 30.42
+    "dew_point": 29.25
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 45,
       "gust": 21.21,
       "humidity": 22,
-      "uv_index": 3.39,
+      "uv_index": 3.53,
       "pressure": 1031,
       "moon_phase": 0.87,
       "dew_point": 10.49,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 145,
       "gust": 19.55,
       "humidity": 51,
-      "uv_index": 2.91,
+      "uv_index": 2.55,
       "pressure": 1022,
       "moon_phase": 0.9,
       "dew_point": 35.04,
@@ -50,14 +50,14 @@ const data = {
     },
     {
       "date": "Wednesday",
-      "high": 66.25,
+      "high": 67.05,
       "low": 51.96,
       "description": "light rain",
-      "wind_speed": 7.61,
-      "wind_deg": 163,
+      "wind_speed": 7.85,
+      "wind_deg": 165,
       "gust": 23.69,
       "humidity": 86,
-      "uv_index": 1.47,
+      "uv_index": 1.56,
       "pressure": 1017,
       "moon_phase": 0.93,
       "dew_point": 59.27,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 195,
       "gust": 31.18,
       "humidity": 86,
-      "uv_index": 2,
+      "uv_index": 1.8,
       "pressure": 1012,
       "moon_phase": 0.96,
       "dew_point": 66,
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Freeze Watch",
-      "start": "2:00:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 expected. For the Freeze Watch, hard freeze with\ntemperatures as low as 22 to 25 degrees possible for several hours.\n\n* WHERE...In Louisiana, Allen, Beauregard, and Vernon Parishes. In\nTexas, Northern Jasper and Northern Newton Counties.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to 10\nAM CST Monday. For the Freeze Watch, from 8 PM CST this evening\nthrough Monday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "4:00:00 PM",
@@ -118,12 +111,12 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
+    1031,
+    1031,
+    1031,
     1032,
-    1032,
-    1032,
-    1032,
-    1032,
-    1033
+    1033,
+    1034
   ],
   "fishingReport": {
     "date": "Dec 10, 2025",
