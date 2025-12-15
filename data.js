@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 31.48,
-    "feels_like": 25.47,
+    "temp": 35.26,
+    "feels_like": 30.4,
     "description": "clear sky",
-    "wind_speed": 6.17,
-    "wind_deg": 52,
-    "gust": 8.79,
+    "wind_speed": 5.61,
+    "wind_deg": 57,
+    "gust": 7.67,
     "sunrise": "07:05 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 59,
-    "uv_index": 0.88,
+    "humidity": 52,
+    "uv_index": 1.94,
     "pressure": 1034,
     "moon_phase": 0.87,
     "visibility": 10000,
-    "dew_point": 20.23
+    "dew_point": 20.82
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Cold Weather Advisory",
-      "start": "5:53:00 AM",
-      "end": "4:00:00 PM",
-      "description": "* WHAT...For the Freeze Warning, hard freeze with temperatures as\nlow 21 to 23 expected. For the Cold Weather Advisory, very cold\nwind chills as low as 15 expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper\nand Northern Newton Counties.\n\n* WHEN...For the Freeze Warning, until 9 AM CST Monday. For the Cold\nWeather Advisory, until 10 AM CST Monday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1034,
     1034,
-    1034,
+    1033,
     1032,
-    1031,
-    1029
+    1030,
+    1028
   ],
   "fishingReport": {
     "date": "Dec 10, 2025",
