@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 61.61,
-    "feels_like": 61.84,
+    "temp": 61.99,
+    "feels_like": 62.31,
     "description": "overcast clouds",
-    "wind_speed": 6.35,
-    "wind_deg": 136,
-    "gust": 14.14,
+    "wind_speed": 4.83,
+    "wind_deg": 143,
+    "gust": 13.22,
     "sunrise": "07:06 AM",
     "sunset": "05:14 PM",
     "dayOrNight": "day",
-    "humidity": 93,
-    "uv_index": 1.2,
+    "humidity": 94,
+    "uv_index": 0.42,
     "pressure": 1015,
     "moon_phase": 0.93,
     "visibility": 10000,
-    "dew_point": 59.58
+    "dew_point": 60.24
   },
   "fiveDayWeather": [
     {
@@ -104,7 +104,7 @@ const data = {
     1015
   ],
   "fishingReport": {
-    "date": "Dec 10, 2025",
-    "report": "FAIR. 59 degrees; 4.14 feet below pool. There’s been little change from last week’s conditions, aside from a coder start this morning. Forecasts show temperatures warming back up throughout the week, so fishing activity is expected to remain steady with no major shifts anticipated. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Dec 17, 2025",
+    "report": "FAIR. 59 degrees; 4.10 feet below pool. Water temperatures are falling with recent air temperatures dropping into the 20s, after surface temperatures were in the 56-60 degree range yesterday. Strong winds over the past couple of days have limited time on the water, but as conditions stabilize the deeper bite should continue to improve this week. Look for fish in 18-25 feet using spoons, tail spinners, and larger crankbaits. A few fish have been showing in main-lake timber following bait, though heavy winds have scattered the shad and it may take a few days for them to regroup–spoons and A-rigs remain good options.  There is still a shallow bite available in 4-8 feet, but anglers will need to slow down with Texas rigs, swim jigs, and traps. No crappie reports at this time. Report by Stephen Johnston, Johnston Fishing."
   }
 };
