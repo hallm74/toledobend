@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 59.63,
-    "feels_like": 59.85,
+    "temp": 59.7,
+    "feels_like": 59.88,
     "description": "broken clouds",
-    "wind_speed": 5.1,
-    "wind_deg": 158,
-    "gust": 14.83,
-    "sunrise": "07:06 AM",
+    "wind_speed": 4.79,
+    "wind_deg": 163,
+    "gust": 17.29,
+    "sunrise": "07:07 AM",
     "sunset": "05:14 PM",
     "dayOrNight": "night",
-    "humidity": 97,
+    "humidity": 96,
     "uv_index": 0,
-    "pressure": 1014,
-    "moon_phase": 0.93,
+    "pressure": 1013,
+    "moon_phase": 0.96,
     "visibility": 10000,
-    "dew_point": 58.78
+    "dew_point": 58.57
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 70.97,
-      "low": 53.51,
-      "description": "light rain",
-      "wind_speed": 12.12,
-      "wind_deg": 344,
-      "gust": 28.9,
-      "humidity": 90,
-      "uv_index": 3.45,
-      "pressure": 1010,
-      "moon_phase": 0.96,
-      "dew_point": 63.34,
-      "visibility": 8777
-    },
     {
       "date": "Friday",
       "high": 61.45,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0,
       "dew_point": 28.22,
-      "visibility": 10000
+      "visibility": 8777
     },
     {
       "date": "Saturday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.02,
       "dew_point": 60.64,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.08,
       "dew_point": 63.27,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 74.61,
+      "low": 59.29,
+      "description": "few clouds",
+      "wind_speed": 7.4,
+      "wind_deg": 173,
+      "gust": 24,
+      "humidity": 65,
+      "uv_index": 2,
+      "pressure": 1024,
+      "moon_phase": 0.11,
+      "dew_point": 60.1,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -104,12 +104,12 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1014,
-    1014,
-    1014,
     1013,
     1013,
-    1012
+    1013,
+    1013,
+    1012,
+    1011
   ],
   "fishingReport": {
     "date": "Dec 17, 2025",
