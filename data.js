@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 55.33,
-    "feels_like": 53.01,
+    "temp": 53.02,
+    "feels_like": 50.38,
     "description": "clear sky",
-    "wind_speed": 9.1,
-    "wind_deg": 336,
-    "gust": 25.1,
+    "wind_speed": 7.99,
+    "wind_deg": 340,
+    "gust": 25.01,
     "sunrise": "07:07 AM",
-    "sunset": "05:14 PM",
+    "sunset": "05:15 PM",
     "dayOrNight": "night",
-    "humidity": 52,
+    "humidity": 50,
     "uv_index": 0,
-    "pressure": 1018,
-    "moon_phase": 0.96,
+    "pressure": 1019,
+    "moon_phase": "Unavailable",
     "visibility": 10000,
-    "dew_point": 38.03
+    "dew_point": 34.9
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 59.81,
-      "low": 44.33,
-      "description": "clear sky",
-      "wind_speed": 8.34,
-      "wind_deg": 7,
-      "gust": 25.01,
-      "humidity": 33,
-      "uv_index": 3.43,
-      "pressure": 1023,
-      "moon_phase": 0,
-      "dew_point": 28.11,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 73.13,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.05,
       "dew_point": 65.03,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.11,
       "dew_point": 61.11,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 74.12,
+      "low": 59.29,
+      "description": "scattered clouds",
+      "wind_speed": 6.49,
+      "wind_deg": 172,
+      "gust": 19.28,
+      "humidity": 65,
+      "uv_index": 3,
+      "pressure": 1024,
+      "moon_phase": 0.15,
+      "dew_point": 60.39,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
+    1019,
+    1019,
     1019,
     1020,
-    1021
+    1021,
+    1022
   ],
   "fishingReport": {
     "date": "Dec 17, 2025",
