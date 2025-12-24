@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 64.35,
-    "feels_like": 64.8,
+    "temp": 66.9,
+    "feels_like": 67.71,
     "description": "few clouds",
-    "wind_speed": 4.7,
+    "wind_speed": 4.99,
     "wind_deg": 159,
-    "gust": 8.97,
+    "gust": 9.06,
     "sunrise": "07:10 AM",
     "sunset": "05:17 PM",
     "dayOrNight": "day",
-    "humidity": 92,
-    "uv_index": 0.97,
-    "pressure": 1026,
+    "humidity": 94,
+    "uv_index": 2.17,
+    "pressure": 1027,
     "moon_phase": 0.15,
     "visibility": 10000,
-    "dew_point": 61.97
+    "dew_point": 65.12
   },
   "fiveDayWeather": [
     {
@@ -50,69 +50,69 @@ const data = {
     },
     {
       "date": "Saturday",
-      "high": 73.51,
-      "low": 64.65,
+      "high": 77.72,
+      "low": 64.67,
       "description": "overcast clouds",
-      "wind_speed": 8.66,
-      "wind_deg": 211,
-      "gust": 21.94,
-      "humidity": 78,
+      "wind_speed": 8.03,
+      "wind_deg": 215,
+      "gust": 21.47,
+      "humidity": 69,
       "uv_index": 2.22,
-      "pressure": 1015,
+      "pressure": 1016,
       "moon_phase": 0.25,
-      "dew_point": 64.76,
+      "dew_point": 64.33,
       "visibility": "Unavailable"
     },
     {
       "date": "Sunday",
-      "high": 76.64,
-      "low": 63.95,
+      "high": 75.15,
+      "low": 64,
       "description": "overcast clouds",
-      "wind_speed": 8.72,
-      "wind_deg": 215,
-      "gust": 21.79,
-      "humidity": 71,
+      "wind_speed": 8.01,
+      "wind_deg": 203,
+      "gust": 23.06,
+      "humidity": 68,
       "uv_index": 3,
       "pressure": 1018,
       "moon_phase": 0.28,
-      "dew_point": 61.79,
+      "dew_point": 62.38,
       "visibility": "Unavailable"
     },
     {
       "date": "Monday",
-      "high": 54.86,
-      "low": 45.55,
+      "high": 61,
+      "low": 46.33,
       "description": "light rain",
-      "wind_speed": 14.2,
-      "wind_deg": 25,
-      "gust": 28.54,
-      "humidity": 40,
+      "wind_speed": 15.46,
+      "wind_deg": 9,
+      "gust": 26.69,
+      "humidity": 35,
       "uv_index": 3,
-      "pressure": 1031,
+      "pressure": 1030,
       "moon_phase": 0.32,
-      "dew_point": 22.69,
+      "dew_point": 19.99,
       "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
     {
       "event": "Dense Fog Advisory",
-      "start": "9:37:00 AM",
+      "start": "3:00:00 AM",
       "end": "4:00:00 PM",
-      "description": "* WHAT...Areas of widespread fog have built in overnight limiting\nvisibilities down to one quarter mile or less in dense fog.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 10 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+      "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 9 PM this evening to 10 AM CST Thursday.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1026,
-    1026,
+    1027,
+    1027,
+    1027,
     1026,
     1025,
-    1024,
     1024
   ],
   "fishingReport": {
-    "date": "Dec 17, 2025",
-    "report": "FAIR. 59 degrees; 4.10 feet below pool. Water temperatures are falling with recent air temperatures dropping into the 20s, after surface temperatures were in the 56-60 degree range yesterday. Strong winds over the past couple of days have limited time on the water, but as conditions stabilize the deeper bite should continue to improve this week. Look for fish in 18-25 feet using spoons, tail spinners, and larger crankbaits. A few fish have been showing in main-lake timber following bait, though heavy winds have scattered the shad and it may take a few days for them to regroup–spoons and A-rigs remain good options.  There is still a shallow bite available in 4-8 feet, but anglers will need to slow down with Texas rigs, swim jigs, and traps. No crappie reports at this time. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Dec 24, 2025",
+    "report": "FAIR. 56 degrees; 4.10 feet below pool. Unseasonably warm conditions at Toledo Bend have pushed water temperatures back into the upper 60s and low 70s, and bass fishing has been very good, with fish being caught from 2-25 feet of water on a wide variety of presentations. Shallow fish are responding well to squarebills, lipless crankbaits, and swim jigs, while deeper bass are being taken on crankbaits, Carolina rigs, and spoons. The main challenge has been heavy fog caused by warm air over cooler water, which has lingered for hours and, at times, all day, so with increased boat traffic on the lake, anglers are urged to use extra caution when running. Report by Stephen Johnston, Johnston Fishing."
   }
 };
