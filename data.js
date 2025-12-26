@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 68.9,
-    "feels_like": 69.85,
+    "temp": 70.63,
+    "feels_like": 71.62,
     "description": "overcast clouds",
-    "wind_speed": 8.34,
-    "wind_deg": 226,
-    "gust": 19.01,
+    "wind_speed": 7.81,
+    "wind_deg": 221,
+    "gust": 19.1,
     "sunrise": "07:11 AM",
     "sunset": "05:18 PM",
     "dayOrNight": "day",
-    "humidity": 93,
-    "uv_index": 0.91,
+    "humidity": 90,
+    "uv_index": 2.02,
     "pressure": 1019,
     "moon_phase": 0.21,
     "visibility": 10000,
-    "dew_point": 66.79
+    "dew_point": 67.55
   },
   "fiveDayWeather": [
     {
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Dense Fog Advisory",
-      "start": "11:41:00 AM",
-      "end": "4:00:00 PM",
-      "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 10 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1019,
     1019,
     1019,
     1018,
     1017,
+    1016,
     1015
   ],
   "fishingReport": {
