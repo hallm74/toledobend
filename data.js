@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 61.66,
-    "feels_like": 61.34,
-    "description": "moderate rain",
-    "wind_speed": 15.7,
-    "wind_deg": 349,
-    "gust": 29.48,
-    "sunrise": "07:11 AM",
+    "temp": 59.09,
+    "feels_like": 58.17,
+    "description": "broken clouds",
+    "wind_speed": 15.66,
+    "wind_deg": 352,
+    "gust": 32.03,
+    "sunrise": "07:12 AM",
     "sunset": "05:20 PM",
     "dayOrNight": "night",
-    "humidity": 81,
+    "humidity": 74,
     "uv_index": 0,
-    "pressure": 1019,
-    "moon_phase": 0.28,
+    "pressure": 1020,
+    "moon_phase": 0.32,
     "visibility": 10000,
-    "dew_point": 55.78
+    "dew_point": 50.83
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 61.36,
-      "low": 40.96,
-      "description": "overcast clouds",
-      "wind_speed": 17,
-      "wind_deg": 359,
-      "gust": 36.06,
-      "humidity": 24,
-      "uv_index": 3.85,
-      "pressure": 1029,
-      "moon_phase": 0.32,
-      "dew_point": 13.57,
-      "visibility": 10000
-    },
     {
       "date": "Tuesday",
       "high": 51.6,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.4,
       "dew_point": 21.94,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.47,
       "dew_point": 62.55,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 68.36,
+      "low": 53.01,
+      "description": "clear sky",
+      "wind_speed": 8.03,
+      "wind_deg": 8,
+      "gust": 17.72,
+      "humidity": 62,
+      "uv_index": 4,
+      "pressure": 1014,
+      "moon_phase": 0.5,
+      "dew_point": 51.57,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1019,
-    1019,
+    1020,
     1020,
     1022,
+    1024,
     1025,
-    1026
+    1027
   ],
   "fishingReport": {
     "date": "Dec 24, 2025",
