@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 62.1,
-    "feels_like": 62.28,
+    "temp": 65.12,
+    "feels_like": 65.46,
     "description": "overcast clouds",
-    "wind_speed": 11.54,
-    "wind_deg": 210,
-    "gust": 30.33,
+    "wind_speed": 12.41,
+    "wind_deg": 211,
+    "gust": 30.89,
     "sunrise": "07:13 AM",
     "sunset": "05:23 PM",
     "dayOrNight": "day",
-    "humidity": 91,
-    "uv_index": 0.23,
+    "humidity": 88,
+    "uv_index": 0.88,
     "pressure": 1009,
     "moon_phase": 0.47,
     "visibility": 10000,
-    "dew_point": 59.43
+    "dew_point": 61.48
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1009,
     1009,
     1009,
-    1009,
     1008,
-    1007
+    1007,
+    1006
   ],
   "fishingReport": {
-    "date": "Dec 24, 2025",
-    "report": "FAIR. 56 degrees; 4.10 feet below pool. Unseasonably warm conditions at Toledo Bend have pushed water temperatures back into the upper 60s and low 70s, and bass fishing has been very good, with fish being caught from 2-25 feet of water on a wide variety of presentations. Shallow fish are responding well to squarebills, lipless crankbaits, and swim jigs, while deeper bass are being taken on crankbaits, Carolina rigs, and spoons. The main challenge has been heavy fog caused by warm air over cooler water, which has lingered for hours and, at times, all day, so with increased boat traffic on the lake, anglers are urged to use extra caution when running. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Dec 31, 2025",
+    "report": "FAIR. 56 degrees; 3.96 feet below pool. Spring-like conditions held most of the week, but a weather shift overnight is expected to bring a big change. Water temperatures are currently 59-63 degrees but will likely fall. The shallow bite has been on fire, with fish hitting wacky-rig worms, swimbaits, chatterbaits, and just about anything you like to throw. As temperatures drop, expect the bite to slow, with the best action likely coming in 12 feet of water to the bank; plan to slow down presentations in the mornings and speed them up in the afternoons. The deeper bite faded last week, but cooling conditions should help it rebound, with spoons and dropshots working in 22-28 feet. Report by Stephen Johnston, Johnston Fishing."
   }
 };
