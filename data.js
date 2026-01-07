@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 75.13,
-    "feels_like": 75.69,
-    "description": "scattered clouds",
-    "wind_speed": 6.31,
-    "wind_deg": 182,
-    "gust": 9.62,
+    "temp": 74.1,
+    "feels_like": 74.59,
+    "description": "broken clouds",
+    "wind_speed": 7.52,
+    "wind_deg": 180,
+    "gust": 12.01,
     "sunrise": "07:13 AM",
     "sunset": "05:27 PM",
     "dayOrNight": "day",
-    "humidity": 71,
-    "uv_index": 1.43,
+    "humidity": 72,
+    "uv_index": 0.46,
     "pressure": 1013,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 65.08
+    "dew_point": 64.51
   },
   "fiveDayWeather": [
     {
@@ -101,10 +101,10 @@ const data = {
     1013,
     1013,
     1013,
-    1013
+    1014
   ],
   "fishingReport": {
-    "date": "Dec 31, 2025",
-    "report": "FAIR. 56 degrees; 3.96 feet below pool. Spring-like conditions held most of the week, but a weather shift overnight is expected to bring a big change. Water temperatures are currently 59-63 degrees but will likely fall. The shallow bite has been on fire, with fish hitting wacky-rig worms, swimbaits, chatterbaits, and just about anything you like to throw. As temperatures drop, expect the bite to slow, with the best action likely coming in 12 feet of water to the bank; plan to slow down presentations in the mornings and speed them up in the afternoons. The deeper bite faded last week, but cooling conditions should help it rebound, with spoons and dropshots working in 22-28 feet. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jan 7, 2026",
+    "report": "FAIR. 56 degrees; 4.12 feet below pool. Fishing has been up and down this week, with warm conditions at press time but rain and cooler temperatures expected over the weekend. Largemouth bass have been good on warmer days in 3-8 feet of water using lipless crankbaits, jerkbaits, and chatterbaits, while cooler days require slowing down with wacky worms and light Texas rigs. The deeper bite has been hit or miss, as fish are moving off the bottom to chase shad in 20-28 feet of water, with swimbaits, tail spinners, and spoons producing best. Crappie fishing has been fair, with some good reports coming from the backs of creeks in 4-7 feet of water on Road Runners around flooded timber, though upcoming rain is expected to stain the water and may take a few days to clear. Report by Stephen Johnston, Johnston Fishing."
   }
 };
