@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.55,
-    "feels_like": 70.57,
+    "temp": 69.39,
+    "feels_like": 70.48,
     "description": "overcast clouds",
-    "wind_speed": 7.27,
-    "wind_deg": 183,
-    "gust": 24.4,
+    "wind_speed": 6.04,
+    "wind_deg": 178,
+    "gust": 21.97,
     "sunrise": "07:13 AM",
     "sunset": "05:28 PM",
     "dayOrNight": "night",
-    "humidity": 93,
+    "humidity": 95,
     "uv_index": 0,
     "pressure": 1012,
-    "moon_phase": 0.69,
+    "moon_phase": 0.72,
     "visibility": 10000,
-    "dew_point": 67.44
+    "dew_point": 67.89
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 72.12,
-      "low": 65.41,
-      "description": "moderate rain",
-      "wind_speed": 6.73,
-      "wind_deg": 186,
-      "gust": 23.89,
-      "humidity": 98,
-      "uv_index": 2.03,
-      "pressure": 1014,
-      "moon_phase": 0.72,
-      "dew_point": 66.25,
-      "visibility": 9656
-    },
     {
       "date": "Saturday",
       "high": 63.93,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0.75,
       "dew_point": 46.67,
-      "visibility": 9082
+      "visibility": 9342
     },
     {
       "date": "Sunday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1032,
       "moon_phase": 0.78,
       "dew_point": 25.99,
-      "visibility": "Unavailable"
+      "visibility": 9205
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.84,
       "dew_point": 33.73,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 64.13,
+      "low": 47.39,
+      "description": "scattered clouds",
+      "wind_speed": 12.37,
+      "wind_deg": 340,
+      "gust": 22.88,
+      "humidity": 55,
+      "uv_index": 4,
+      "pressure": 1015,
+      "moon_phase": 0.87,
+      "dew_point": 47.84,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -101,7 +101,7 @@ const data = {
     1012,
     1012,
     1012,
-    1012
+    1013
   ],
   "fishingReport": {
     "date": "Jan 7, 2026",
