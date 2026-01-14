@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 62.71,
-    "feels_like": 60.8,
+    "temp": 60.33,
+    "feels_like": 58.28,
     "description": "scattered clouds",
-    "wind_speed": 13.15,
+    "wind_speed": 11.95,
     "wind_deg": 340,
     "gust": 21.21,
     "sunrise": "07:13 AM",
     "sunset": "05:33 PM",
     "dayOrNight": "day",
-    "humidity": 45,
-    "uv_index": 0.43,
+    "humidity": 47,
+    "uv_index": 0,
     "pressure": 1015,
     "moon_phase": 0.87,
     "visibility": 10000,
-    "dew_point": 41.09
+    "dew_point": 40.05
   },
   "fiveDayWeather": [
     {
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1015,
     1015,
-    1015,
+    1016,
     1017,
-    1018,
-    1020
+    1019,
+    1021
   ],
   "fishingReport": {
-    "date": "Jan 7, 2026",
-    "report": "FAIR. 56 degrees; 4.12 feet below pool. Fishing has been up and down this week, with warm conditions at press time but rain and cooler temperatures expected over the weekend. Largemouth bass have been good on warmer days in 3-8 feet of water using lipless crankbaits, jerkbaits, and chatterbaits, while cooler days require slowing down with wacky worms and light Texas rigs. The deeper bite has been hit or miss, as fish are moving off the bottom to chase shad in 20-28 feet of water, with swimbaits, tail spinners, and spoons producing best. Crappie fishing has been fair, with some good reports coming from the backs of creeks in 4-7 feet of water on Road Runners around flooded timber, though upcoming rain is expected to stain the water and may take a few days to clear. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jan 14, 2026",
+    "report": "FAIR. 56 degrees; 4.03 feet below pool. Recent rains have dropped water temperatures back into the high 50s to low 60s, and while bass fishing has been on fire, the bite is expected to slow as cooler, wetter weather moves in with rain forecasted five out of the next seven days and highs in the 50s, bringing conditions back to normal for this time of year. The shallow bite in 3-8 feet of water will become tougher, with fish holding tight to cover, so slowing down with Texas-rigged brush hogs, lizards, and wacky worms will be key. Mid-depth fish should improve, with crankbaits and Carolina rigs producing in 12-18 feet, and once the colder weather fully sets in next week, deeper fish in 20-28 feet should turn on again, with spoons, drop shots, and tail spinners. Report by Stephen Johnston, Johnston Fishing."
   }
 };
