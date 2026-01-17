@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 53.22,
-    "feels_like": 50.68,
+    "temp": 51.98,
+    "feels_like": 49.19,
     "description": "overcast clouds",
-    "wind_speed": 8.57,
-    "wind_deg": 358,
-    "gust": 22.32,
-    "sunrise": "07:13 AM",
-    "sunset": "05:34 PM",
+    "wind_speed": 11.05,
+    "wind_deg": 348,
+    "gust": 25.5,
+    "sunrise": "07:12 AM",
+    "sunset": "05:35 PM",
     "dayOrNight": "night",
-    "humidity": 52,
+    "humidity": 49,
     "uv_index": 0,
     "pressure": 1019,
-    "moon_phase": 0.93,
+    "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 36.07
+    "dew_point": 33.44
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 53.04,
-      "low": 37.51,
-      "description": "overcast clouds",
-      "wind_speed": 12.84,
-      "wind_deg": 345,
-      "gust": 26.89,
-      "humidity": 26,
-      "uv_index": 2.92,
-      "pressure": 1026,
-      "moon_phase": 0.97,
-      "dew_point": 16.61,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 53.98,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1029,
       "moon_phase": 0.03,
       "dew_point": 26.26,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.1,
       "dew_point": 48.36,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 66.33,
+      "low": 51.87,
+      "description": "moderate rain",
+      "wind_speed": 12.39,
+      "wind_deg": 12,
+      "gust": 31.03,
+      "humidity": 92,
+      "uv_index": 3,
+      "pressure": 1014,
+      "moon_phase": 0.13,
+      "dew_point": 60.26,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
     1019,
     1019,
-    1019,
+    1020,
     1020,
     1021,
-    1021
+    1022
   ],
   "fishingReport": {
     "date": "Jan 14, 2026",
