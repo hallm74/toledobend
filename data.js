@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 61.3,
-    "feels_like": 61.59,
-    "description": "light rain",
-    "wind_speed": 2.51,
-    "wind_deg": 173,
-    "gust": 6.46,
+    "temp": 61.23,
+    "feels_like": 61.57,
+    "description": "overcast clouds",
+    "wind_speed": 3.65,
+    "wind_deg": 154,
+    "gust": 9.19,
     "sunrise": "07:11 AM",
     "sunset": "05:39 PM",
     "dayOrNight": "day",
-    "humidity": 95,
-    "uv_index": 0.05,
+    "humidity": 96,
+    "uv_index": 0,
     "pressure": 1019,
     "moon_phase": 0.1,
-    "visibility": 3727,
-    "dew_point": 59.86
+    "visibility": 8605,
+    "dew_point": 60.08
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1022,
       "moon_phase": 0.13,
       "dew_point": 57.33,
-      "visibility": 7952
+      "visibility": 8300
     },
     {
       "date": "Friday",
@@ -119,7 +119,7 @@ const data = {
     1021
   ],
   "fishingReport": {
-    "date": "Jan 14, 2026",
-    "report": "FAIR. 56 degrees; 4.03 feet below pool. Recent rains have dropped water temperatures back into the high 50s to low 60s, and while bass fishing has been on fire, the bite is expected to slow as cooler, wetter weather moves in with rain forecasted five out of the next seven days and highs in the 50s, bringing conditions back to normal for this time of year. The shallow bite in 3-8 feet of water will become tougher, with fish holding tight to cover, so slowing down with Texas-rigged brush hogs, lizards, and wacky worms will be key. Mid-depth fish should improve, with crankbaits and Carolina rigs producing in 12-18 feet, and once the colder weather fully sets in next week, deeper fish in 20-28 feet should turn on again, with spoons, drop shots, and tail spinners. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jan 21, 2026",
+    "report": "FAIR. 56 degrees; 4.13 feet below pool. This weekend is shaping up to be unsafe at the lake, with all tournaments canceled for Saturday and Sunday due to extreme weather conditions, including forecasting calling up to �½ to 1 inch of ice around the lake area. Ramps are expected to begin freezing Friday night, and anyone attempting to launch Saturday risks not being able to get their truck or boat back up the ramp, with limited emergency response available if trouble occurs, so everyone is strongly encouraged to stay off the water and avoid putting first responders at risk. Conditions should improve by Tuesday, with a return to more normal activity expected next week. Fishing has been tough this week as water temperatures have dropped back into the low 50s and are expected to fall into the 40s, making the shallow bite very difficult, while a deeper pattern should improve next week in 22-28 feet of water using spoons, drop shots, and swimbaits. Please be safe and use good judgement this weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
