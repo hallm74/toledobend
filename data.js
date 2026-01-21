@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 53.92,
-    "feels_like": 53.01,
+    "temp": 54.45,
+    "feels_like": 53.73,
     "description": "light rain",
-    "wind_speed": 6.85,
-    "wind_deg": 144,
-    "gust": 26.17,
+    "wind_speed": 7.4,
+    "wind_deg": 137,
+    "gust": 26.51,
     "sunrise": "07:11 AM",
     "sunset": "05:39 PM",
     "dayOrNight": "day",
-    "humidity": 85,
-    "uv_index": 0,
+    "humidity": 88,
+    "uv_index": 0.02,
     "pressure": 1023,
     "moon_phase": 0.1,
     "visibility": 10000,
-    "dew_point": 49.53
+    "dew_point": 50.97
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1022,
       "moon_phase": 0.13,
       "dew_point": 59.05,
-      "visibility": 8034
+      "visibility": 7852
     },
     {
       "date": "Friday",
@@ -46,15 +46,15 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.16,
       "dew_point": 60.04,
-      "visibility": 8120
+      "visibility": 8311
     },
     {
       "date": "Saturday",
       "high": 34.2,
       "low": 23.36,
       "description": "snow",
-      "wind_speed": 14.23,
-      "wind_deg": 23,
+      "wind_speed": 14.32,
+      "wind_deg": 20,
       "gust": 26.53,
       "humidity": 93,
       "uv_index": 0.44,
@@ -100,11 +100,11 @@ const data = {
     1023,
     1023,
     1024,
-    1024,
-    1023
+    1023,
+    1022
   ],
   "fishingReport": {
-    "date": "Jan 14, 2026",
-    "report": "FAIR. 56 degrees; 4.03 feet below pool. Recent rains have dropped water temperatures back into the high 50s to low 60s, and while bass fishing has been on fire, the bite is expected to slow as cooler, wetter weather moves in with rain forecasted five out of the next seven days and highs in the 50s, bringing conditions back to normal for this time of year. The shallow bite in 3-8 feet of water will become tougher, with fish holding tight to cover, so slowing down with Texas-rigged brush hogs, lizards, and wacky worms will be key. Mid-depth fish should improve, with crankbaits and Carolina rigs producing in 12-18 feet, and once the colder weather fully sets in next week, deeper fish in 20-28 feet should turn on again, with spoons, drop shots, and tail spinners. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
