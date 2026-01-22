@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 56.62,
-    "feels_like": 56.5,
+    "temp": 56.03,
+    "feels_like": 55.89,
     "description": "overcast clouds",
-    "wind_speed": 5.55,
-    "wind_deg": 31,
-    "gust": 7.99,
+    "wind_speed": 7.36,
+    "wind_deg": 29,
+    "gust": 12.28,
     "sunrise": "07:11 AM",
     "sunset": "05:40 PM",
     "dayOrNight": "night",
-    "humidity": 96,
+    "humidity": 97,
     "uv_index": 0,
-    "pressure": 1021,
+    "pressure": 1020,
     "moon_phase": 0.13,
-    "visibility": 1252,
-    "dew_point": 55.49
+    "visibility": 783,
+    "dew_point": 55.18
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0.16,
       "dew_point": 48.47,
-      "visibility": 8521
+      "visibility": 8886
     },
     {
       "date": "Saturday",
@@ -106,15 +106,22 @@ const data = {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...Very cold wind chills as low as 16 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 6 PM Saturday to noon CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "description": "* WHAT...For the Dense Fog Advisory, visibility one quarter mile or\nless in dense fog. For the Cold Weather Advisory, very cold wind\nchills as low as 15 expected.\n\n* WHERE...Portions of southwest and west central Louisiana and\nsoutheast Texas.\n\n* WHEN...For the Dense Fog Advisory, until 9 AM CST this morning.\nFor the Cold Weather Advisory, from 6 PM Saturday to noon CST\nSunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Low visibility could make\ndriving conditions hazardous.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Dense Fog Advisory",
+      "start": "8:02:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Dense Fog Advisory, visibility one quarter mile or\nless in dense fog. For the Cold Weather Advisory, very cold wind\nchills as low as 15 expected.\n\n* WHERE...Portions of southwest and west central Louisiana and\nsoutheast Texas.\n\n* WHEN...For the Dense Fog Advisory, until 9 AM CST this morning.\nFor the Cold Weather Advisory, from 6 PM Saturday to noon CST\nSunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Low visibility could make\ndriving conditions hazardous.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1021,
-    1021,
-    1021,
     1020,
+    1020,
+    1020,
+    1021,
     1021,
     1021
   ],
