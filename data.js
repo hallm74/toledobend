@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 57.83,
-    "feels_like": 57.87,
-    "description": "light rain",
-    "wind_speed": 0.67,
-    "wind_deg": 203,
+    "temp": 57.58,
+    "feels_like": 57.54,
+    "description": "overcast clouds",
+    "wind_speed": 1.1,
+    "wind_deg": 161,
     "gust": "No Data",
     "sunrise": "07:11 AM",
-    "sunset": "05:39 PM",
+    "sunset": "05:40 PM",
     "dayOrNight": "night",
-    "humidity": 97,
+    "humidity": 96,
     "uv_index": 0,
     "pressure": 1021,
-    "moon_phase": 0.1,
-    "visibility": "Unavailable",
-    "dew_point": 56.98
+    "moon_phase": 0.13,
+    "visibility": 216,
+    "dew_point": 56.44
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 58.32,
-      "low": 52.61,
-      "description": "light rain",
-      "wind_speed": 8.12,
-      "wind_deg": 57,
-      "gust": 17.29,
-      "humidity": 91,
-      "uv_index": 0.88,
-      "pressure": 1022,
-      "moon_phase": 0.13,
-      "dew_point": 54.64,
-      "visibility": 9135
-    },
     {
       "date": "Friday",
       "high": 54.37,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0.16,
       "dew_point": 48.99,
-      "visibility": 10000
+      "visibility": 9183
     },
     {
       "date": "Saturday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1022,
       "moon_phase": 0.2,
       "dew_point": 31.93,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.27,
       "dew_point": 29.32,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 43.61,
+      "low": 19.98,
+      "description": "scattered clouds",
+      "wind_speed": 5.23,
+      "wind_deg": 99,
+      "gust": 11.1,
+      "humidity": 86,
+      "uv_index": 1,
+      "pressure": 1030,
+      "moon_phase": 0.31,
+      "dew_point": 35.24,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -106,7 +106,7 @@ const data = {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...Very cold wind chills as low as 12 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 6 PM Saturday to noon CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will be possible if\nunprotected skin is exposed to these temperatures.",
+      "description": "* WHAT...Very cold wind chills as low as 16 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 6 PM Saturday to noon CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -115,7 +115,7 @@ const data = {
     1021,
     1021,
     1021,
-    1021,
+    1020,
     1020
   ],
   "fishingReport": {
