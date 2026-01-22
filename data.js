@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 53.94,
-    "feels_like": 53.55,
+    "temp": 54.19,
+    "feels_like": 53.83,
     "description": "overcast clouds",
-    "wind_speed": 6.38,
-    "wind_deg": 55,
-    "gust": 12.3,
+    "wind_speed": 5.84,
+    "wind_deg": 65,
+    "gust": 10.6,
     "sunrise": "07:11 AM",
     "sunset": "05:40 PM",
     "dayOrNight": "day",
     "humidity": 96,
-    "uv_index": 0.07,
-    "pressure": 1021,
+    "uv_index": 0.16,
+    "pressure": 1022,
     "moon_phase": 0.13,
     "visibility": 10000,
-    "dew_point": 52.83
+    "dew_point": 53.08
   },
   "fiveDayWeather": [
     {
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Winter Storm Watch",
-      "start": "6:00:00 PM",
-      "end": "12:00:00 AM",
-      "description": "...FREEZING RAIN & ICE ACCUMULATIONS POSSIBLE BEGINNING SATURDAY...\n\n.Showers will continue into the weekend with a colder airmass moving\ninto the region behind a strong cold front. Freezing rain will be\npossible with ice accumulations on power lines and roads. Elevated\nroadways and bridges will be faster to freeze.\n\n* WHAT...Significant icing possible. Total ice accumulations between\none tenth and four tenths of an inch possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Saturday afternoon through Sunday afternoon.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Cold Weather Advisory",
       "start": "12:00:00 AM",
       "end": "6:00:00 PM",
@@ -110,19 +103,19 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Dense Fog Advisory",
-      "start": "8:02:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...For the Dense Fog Advisory, visibility one quarter mile or\nless in dense fog. For the Cold Weather Advisory, very cold wind\nchills as low as 15 expected.\n\n* WHERE...Portions of southwest and west central Louisiana and\nsoutheast Texas.\n\n* WHEN...For the Dense Fog Advisory, until 9 AM CST this morning.\nFor the Cold Weather Advisory, from 6 PM Saturday to noon CST\nSunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Low visibility could make\ndriving conditions hazardous.",
+      "event": "Winter Storm Watch",
+      "start": "6:00:00 PM",
+      "end": "12:00:00 AM",
+      "description": "...FREEZING RAIN & ICE ACCUMULATIONS POSSIBLE BEGINNING\nSATURDAY...\n\n.Showers will continue into the weekend with a colder airmass\nmoving into the region behind a strong cold front. Freezing rain\nwill be possible with ice accumulations on power lines and roads.\nElevated roadways and bridges will be faster to freeze.\n\n* WHAT...Heavy mixed precipitation possible. Total ice\naccumulations between one tenth and four tenths of an inch\npossible.\n\n* WHERE...Portions of central, south central, southwest and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Saturday afternoon through Sunday afternoon.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1021,
-    1021,
-    1021,
     1022,
     1022,
+    1022,
+    1022,
+    1021,
     1020
   ],
   "fishingReport": {
