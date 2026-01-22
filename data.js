@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 57.38,
-    "feels_like": 57.15,
+    "temp": 58.1,
+    "feels_like": 57.88,
     "description": "overcast clouds",
-    "wind_speed": 4.07,
-    "wind_deg": 36,
-    "gust": 3.98,
+    "wind_speed": 3.09,
+    "wind_deg": 58,
+    "gust": 2.8,
     "sunrise": "07:11 AM",
     "sunset": "05:40 PM",
     "dayOrNight": "day",
-    "humidity": 92,
-    "uv_index": 0.7,
-    "pressure": 1021,
+    "humidity": 91,
+    "uv_index": 2.26,
+    "pressure": 1020,
     "moon_phase": 0.13,
     "visibility": 10000,
-    "dew_point": 55.08
+    "dew_point": 55.49
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 59,
       "gust": 25.1,
       "humidity": 75,
-      "uv_index": 0.79,
+      "uv_index": 1.41,
       "pressure": 1023,
       "moon_phase": 0.16,
       "dew_point": 48,
@@ -42,11 +42,11 @@ const data = {
       "wind_deg": 2,
       "gust": 23.47,
       "humidity": 92,
-      "uv_index": 0.47,
+      "uv_index": 0.69,
       "pressure": 1021,
       "moon_phase": 0.2,
       "dew_point": 34.39,
-      "visibility": 9651
+      "visibility": 9326
     },
     {
       "date": "Sunday",
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 325,
       "gust": 25.21,
       "humidity": 94,
-      "uv_index": 0.51,
+      "uv_index": 1.98,
       "pressure": 1021,
       "moon_phase": 0.25,
       "dew_point": 25.5,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 330,
       "gust": 24.72,
       "humidity": 81,
-      "uv_index": 1,
+      "uv_index": 4.73,
       "pressure": 1036,
       "moon_phase": 0.27,
       "dew_point": 23.74,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 148,
       "gust": 9.64,
       "humidity": 72,
-      "uv_index": 1,
+      "uv_index": 5,
       "pressure": 1035,
       "moon_phase": 0.31,
       "dew_point": 28.47,
@@ -111,10 +111,10 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1021,
-    1021,
     1020,
     1020,
+    1020,
+    1019,
     1019,
     1019
   ],
