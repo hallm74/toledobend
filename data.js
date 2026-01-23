@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 56.14,
-    "feels_like": 55.69,
+    "temp": 56.19,
+    "feels_like": 55.65,
     "description": "overcast clouds",
-    "wind_speed": 9.31,
-    "wind_deg": 58,
-    "gust": 13.62,
+    "wind_speed": 9.95,
+    "wind_deg": 57,
+    "gust": 14.7,
     "sunrise": "07:10 AM",
     "sunset": "05:41 PM",
     "dayOrNight": "day",
-    "humidity": 90,
-    "uv_index": 1.41,
-    "pressure": 1021,
+    "humidity": 88,
+    "uv_index": 1.11,
+    "pressure": 1020,
     "moon_phase": 0.16,
     "visibility": 10000,
-    "dew_point": 53.24
+    "dew_point": 52.68
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.2,
       "dew_point": 34.47,
-      "visibility": 9361
+      "visibility": 9346
     },
     {
       "date": "Sunday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.25,
       "dew_point": 26.67,
-      "visibility": 5425
+      "visibility": 5439
     },
     {
       "date": "Monday",
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Winter Storm Watch",
-      "start": "6:00:00 PM",
-      "end": "12:00:00 AM",
-      "description": "...FREEZING RAIN & ICE ACCUMULATIONS POSSIBLE BEGINNING\nSATURDAY...\n\n.Showers will continue into the weekend with a colder airmass\nmoving into the region behind a strong cold front. Freezing rain\nwill be possible with ice accumulations on power lines and roads.\nElevated roadways and bridges will be faster to freeze.\n\n* WHAT...Heavy mixed precipitation possible. Total ice\naccumulations between one tenth and four tenths of an inch\npossible.\n\n* WHERE...Portions of central, south central, southwest and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From Saturday afternoon through Sunday afternoon.\n\n* IMPACTS... Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Ice Storm Warning",
       "start": "12:00:00 AM",
       "end": "12:00:00 AM",
@@ -125,9 +118,9 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1021,
-    1021,
-    1021,
+    1020,
+    1020,
+    1020,
     1021,
     1021,
     1022
