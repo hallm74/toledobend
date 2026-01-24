@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 37.09,
-    "feels_like": 30.7,
-    "description": "overcast clouds",
-    "wind_speed": 8.63,
-    "wind_deg": 11,
-    "gust": 14.7,
+    "temp": 37.17,
+    "feels_like": 30.25,
+    "description": "moderate rain",
+    "wind_speed": 9.73,
+    "wind_deg": 16,
+    "gust": 19.53,
     "sunrise": "07:10 AM",
     "sunset": "05:42 PM",
     "dayOrNight": "day",
-    "humidity": 92,
-    "uv_index": 0.59,
-    "pressure": 1020,
+    "humidity": 94,
+    "uv_index": 0.66,
+    "pressure": 1021,
     "moon_phase": 0.2,
-    "visibility": 8811,
-    "dew_point": 34.99
+    "visibility": 10000,
+    "dew_point": 35.6
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.25,
       "dew_point": 30.07,
-      "visibility": 5284
+      "visibility": 5101
     },
     {
       "date": "Monday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1037,
       "moon_phase": 0.27,
       "dew_point": 23.54,
-      "visibility": 6238
+      "visibility": 6471
     },
     {
       "date": "Tuesday",
@@ -103,8 +103,8 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Cold Weather Advisory",
-      "start": "12:00:00 AM",
+      "event": "Extreme Cold Watch",
+      "start": "6:00:00 PM",
       "end": "6:00:00 PM",
       "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15 expected. For the Extreme Cold Warning, dangerously cold\nwind chills as low as 4 above expected. For the Extreme Cold\nWatch, dangerously cold temperatures as low as 9 possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Saturday to noon\nCST Sunday. For the Extreme Cold Warning, from 6 PM Sunday to noon\nCST Monday. For the Extreme Cold Watch, from Monday afternoon\nthrough Tuesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
@@ -112,25 +112,25 @@ const data = {
     {
       "event": "Extreme Cold Warning",
       "start": "12:00:00 AM",
-      "end": "6:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15 expected. For the Extreme Cold Warning, dangerously cold\nwind chills as low as 4 above expected. For the Extreme Cold\nWatch, dangerously cold temperatures as low as 9 possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Saturday to noon\nCST Sunday. For the Extreme Cold Warning, from 6 PM Sunday to noon\nCST Monday. For the Extreme Cold Watch, from Monday afternoon\nthrough Tuesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "end": "5:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 degrees expected. For the Extreme Cold Warning, dangerously\ncold wind chills as low as 5 degrees expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to\nnoon CST Sunday. For the Extreme Cold Warning, from 6 PM Sunday to\n11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Extreme Cold Watch",
-      "start": "6:00:00 PM",
+      "event": "Cold Weather Advisory",
+      "start": "12:00:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15 expected. For the Extreme Cold Warning, dangerously cold\nwind chills as low as 4 above expected. For the Extreme Cold\nWatch, dangerously cold temperatures as low as 9 possible.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM Saturday to noon\nCST Sunday. For the Extreme Cold Warning, from 6 PM Sunday to noon\nCST Monday. For the Extreme Cold Watch, from Monday afternoon\nthrough Tuesday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 degrees expected. For the Extreme Cold Warning, dangerously\ncold wind chills as low as 5 degrees expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to\nnoon CST Sunday. For the Extreme Cold Warning, from 6 PM Sunday to\n11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
+    1021,
+    1021,
+    1021,
     1020,
-    1020,
-    1020,
-    1020,
-    1020,
-    1019
+    1019,
+    1018
   ],
   "fishingReport": {
     "date": "Jan 21, 2026",
