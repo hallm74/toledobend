@@ -1,26 +1,26 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 33.44,
-    "feels_like": 25.83,
-    "description": "light snow",
-    "wind_speed": 9.37,
-    "wind_deg": 5,
-    "gust": 14.43,
+    "temp": 33.13,
+    "feels_like": 25.48,
+    "description": "snow",
+    "wind_speed": 9.33,
+    "wind_deg": 359,
+    "gust": 13.76,
     "sunrise": "07:10 AM",
     "sunset": "05:42 PM",
     "dayOrNight": "night",
-    "humidity": 96,
+    "humidity": 95,
     "uv_index": 0,
     "pressure": 1014,
     "moon_phase": 0.2,
-    "visibility": 198,
-    "dew_point": 32.43
+    "visibility": "Unavailable",
+    "dew_point": 31.87
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 34.41,
+      "high": 33.89,
       "low": 23.41,
       "description": "rain and snow",
       "wind_speed": 12.55,
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.25,
       "dew_point": 29.01,
-      "visibility": 7020
+      "visibility": 7446
     },
     {
       "date": "Monday",
@@ -99,21 +99,21 @@ const data = {
       "event": "Extreme Cold Warning",
       "start": "12:00:00 AM",
       "end": "5:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 degrees expected. For the Extreme Cold Warning, dangerously\ncold wind chills as low as 5 degrees expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to\nnoon CST Sunday. For the Extreme Cold Warning, from 6 PM Sunday to\n11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills\nbetween 14 and 20. For the Extreme Cold Warning, dangerously cold\nwind chills between 5 and 10 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until noon CST Sunday. For\nthe Extreme Cold Warning, from 6 PM Sunday to 11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Cold Weather Advisory",
-      "start": "12:00:00 AM",
+      "start": "4:30:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 16 degrees expected. For the Extreme Cold Warning, dangerously\ncold wind chills as low as 5 degrees expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 6 PM this evening to\nnoon CST Sunday. For the Extreme Cold Warning, from 6 PM Sunday to\n11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills\nbetween 14 and 20. For the Extreme Cold Warning, dangerously cold\nwind chills between 5 and 10 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until noon CST Sunday. For\nthe Extreme Cold Warning, from 6 PM Sunday to 11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Ice Storm Warning",
-      "start": "12:00:00 AM",
+      "start": "4:34:00 AM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...Significant icing expected. Ice accumulations between one\ntenth and one half of an inch.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...Until 6 PM CST Sunday.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. Significant ice accumulation on\npower lines and tree limbs may cause widespread and long-lasting\npower outages. Power outages and tree damage are likely due to the\nice. Travel could be nearly impossible.",
+      "description": "* WHAT...Significant icing. Additional ice accumulations between two\ntenths and one half of an inch.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...Until 6 PM CST Sunday.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. Significant ice accumulation on\npower lines and tree limbs may cause widespread and long-lasting\npower outages. Power outages and tree damage are likely due to the\nice. Travel could be nearly impossible.",
       "sender": "NWS Lake Charles LA"
     }
   ],
