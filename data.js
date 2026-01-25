@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 29.28,
-    "feels_like": 19.81,
+    "temp": 28.67,
+    "feels_like": 18.81,
     "description": "overcast clouds",
-    "wind_speed": 11.07,
-    "wind_deg": 323,
-    "gust": 16.15,
+    "wind_speed": 11.54,
+    "wind_deg": 320,
+    "gust": 17.25,
     "sunrise": "07:10 AM",
     "sunset": "05:42 PM",
     "dayOrNight": "day",
-    "humidity": 91,
-    "uv_index": 2.57,
+    "humidity": 93,
+    "uv_index": 1.84,
     "pressure": 1019,
     "moon_phase": 0.25,
-    "visibility": 5295,
-    "dew_point": 27.25
+    "visibility": 5335,
+    "dew_point": 27.1
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1038,
       "moon_phase": 0.27,
       "dew_point": 22.6,
-      "visibility": 7549
+      "visibility": 7745
     },
     {
       "date": "Tuesday",
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Ice Storm Warning",
-      "start": "4:34:00 AM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...Significant icing. Additional ice accumulations between two\ntenths and one half of an inch.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...Until 6 PM CST Sunday.\n\n* IMPACTS...Roads, and especially bridges and overpasses, will\nlikely become slick and hazardous. Significant ice accumulation on\npower lines and tree limbs may cause widespread and long-lasting\npower outages. Power outages and tree damage are likely due to the\nice. Travel could be nearly impossible.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Extreme Cold Warning",
       "start": "12:00:00 AM",
       "end": "5:00:00 PM",
@@ -115,8 +108,8 @@ const data = {
     1019,
     1019,
     1020,
-    1021,
-    1023
+    1022,
+    1025
   ],
   "fishingReport": {
     "date": "Jan 21, 2026",
