@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 28.49,
-    "feels_like": 18.81,
+    "temp": 28.71,
+    "feels_like": 18.7,
     "description": "overcast clouds",
-    "wind_speed": 11.1,
-    "wind_deg": 321,
-    "gust": 17.76,
+    "wind_speed": 11.88,
+    "wind_deg": 319,
+    "gust": 17.96,
     "sunrise": "07:10 AM",
     "sunset": "05:42 PM",
     "dayOrNight": "day",
     "humidity": 92,
-    "uv_index": 3.3,
+    "uv_index": 3.36,
     "pressure": 1019,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 26.71
+    "dew_point": 26.91
   },
   "fiveDayWeather": [
     {
@@ -103,13 +103,6 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Cold Weather Advisory",
-      "start": "4:30:00 AM",
-      "end": "6:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills\nbetween 14 and 20. For the Extreme Cold Warning, dangerously cold\nwind chills between 5 and 10 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until noon CST Sunday. For\nthe Extreme Cold Warning, from 6 PM Sunday to 11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Ice Storm Warning",
       "start": "4:34:00 AM",
       "end": "12:00:00 AM",
@@ -122,8 +115,8 @@ const data = {
     1019,
     1019,
     1020,
-    1020,
-    1021
+    1021,
+    1022
   ],
   "fishingReport": {
     "date": "Jan 21, 2026",
