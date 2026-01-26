@@ -1,8 +1,8 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 23.31,
-    "feels_like": 12.47,
+    "temp": 23.74,
+    "feels_like": 13.01,
     "description": "overcast clouds",
     "wind_speed": 10.83,
     "wind_deg": 348,
@@ -10,12 +10,12 @@ const data = {
     "sunrise": "07:10 AM",
     "sunset": "05:42 PM",
     "dayOrNight": "night",
-    "humidity": 93,
+    "humidity": 91,
     "uv_index": 0,
     "pressure": 1027,
     "moon_phase": 0.25,
     "visibility": 4042,
-    "dew_point": 21.78
+    "dew_point": 21.76
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1038,
       "moon_phase": 0.27,
       "dew_point": 22.66,
-      "visibility": 8220
+      "visibility": 8523
     },
     {
       "date": "Tuesday",
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Extreme Cold Warning",
-      "start": "12:00:00 AM",
+      "start": "3:54:00 AM",
       "end": "5:00:00 PM",
-      "description": "* WHAT...Dangerously cold wind chills as low as 8 above expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 6 PM this evening to 11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...Dangerously cold wind chills as low between 5 and 10 above\ninto Monday morning, then wind chills 10 to 15 on Tuesday morning.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -107,8 +107,8 @@ const data = {
     1027,
     1027,
     1027,
-    1027,
     1028,
+    1029,
     1029
   ],
   "fishingReport": {
