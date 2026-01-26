@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 25.93,
-    "feels_like": 15.53,
+    "temp": 27.79,
+    "feels_like": 18.32,
     "description": "broken clouds",
-    "wind_speed": 11.25,
+    "wind_speed": 10.33,
     "wind_deg": 7,
-    "gust": 16.24,
+    "gust": 14.38,
     "sunrise": "07:09 AM",
     "sunset": "05:43 PM",
     "dayOrNight": "day",
-    "humidity": 80,
-    "uv_index": 2.59,
+    "humidity": 75,
+    "uv_index": 3.9,
     "pressure": 1037,
     "moon_phase": 0.27,
     "visibility": 10000,
-    "dew_point": 21.22
+    "dew_point": 21.69
   },
   "fiveDayWeather": [
     {
@@ -53,9 +53,9 @@ const data = {
       "high": 59.13,
       "low": 36.3,
       "description": "overcast clouds",
-      "wind_speed": 5.97,
-      "wind_deg": 194,
-      "gust": 10.09,
+      "wind_speed": 6.58,
+      "wind_deg": 180,
+      "gust": 12.19,
       "humidity": 53,
       "uv_index": 3.68,
       "pressure": 1022,
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Extreme Cold Warning",
-      "start": "3:54:00 AM",
-      "end": "5:00:00 PM",
-      "description": "* WHAT...Dangerously cold wind chills as low between 5 and 10 above\ninto Monday morning, then wind chills 10 to 15 on Tuesday morning.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 11 AM CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "start": "4:09:00 PM",
+      "end": "6:00:00 PM",
+      "description": "* WHAT...Dangerously cold wind chills as low as 15.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until noon CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     }
   ],
