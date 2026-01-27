@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 35.17,
-    "feels_like": 31.24,
+    "temp": 38.89,
+    "feels_like": 35.56,
     "description": "clear sky",
-    "wind_speed": 4.5,
-    "wind_deg": 222,
-    "gust": 7.05,
+    "wind_speed": 4.52,
+    "wind_deg": 226,
+    "gust": 7.2,
     "sunrise": "07:09 AM",
     "sunset": "05:44 PM",
     "dayOrNight": "day",
-    "humidity": 60,
-    "uv_index": 3.44,
-    "pressure": 1036,
+    "humidity": 56,
+    "uv_index": 4,
+    "pressure": 1034,
     "moon_phase": 0.31,
     "visibility": 10000,
-    "dew_point": 23.76
+    "dew_point": 25.41
   },
   "fiveDayWeather": [
     {
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Extreme Cold Warning",
-      "start": "3:51:00 AM",
-      "end": "6:00:00 PM",
-      "description": "* WHAT...Dangerously cold temperatures and wind chills between 18\nand 25 degrees.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until noon CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1036,
-    1036,
+    1034,
     1034,
     1033,
-    1031,
+    1032,
+    1032,
     1030
   ],
   "fishingReport": {
