@@ -1,8 +1,8 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 26.01,
-    "feels_like": 20.8,
+    "temp": 25.43,
+    "feels_like": 20.14,
     "description": "clear sky",
     "wind_speed": 4.29,
     "wind_deg": 6,
@@ -10,12 +10,12 @@ const data = {
     "sunrise": "07:09 AM",
     "sunset": "05:43 PM",
     "dayOrNight": "night",
-    "humidity": 76,
+    "humidity": 87,
     "uv_index": 0,
     "pressure": 1037,
     "moon_phase": 0.27,
     "visibility": 10000,
-    "dew_point": 20.23
+    "dew_point": 22.48
   },
   "fiveDayWeather": [
     {
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Extreme Cold Warning",
-      "start": "4:09:00 PM",
+      "start": "3:51:00 AM",
       "end": "6:00:00 PM",
-      "description": "* WHAT...Dangerously cold wind chills as low as 15.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until noon CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
+      "description": "* WHAT...Dangerously cold temperatures and wind chills between 18\nand 25 degrees.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until noon CST Tuesday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. An extended period of freezing\ntemperatures could cause ruptured water pipes.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -107,7 +107,7 @@ const data = {
     1037,
     1037,
     1037,
-    1037,
+    1036,
     1036,
     1036
   ],
