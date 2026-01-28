@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 53.17,
-    "feels_like": 50.34,
+    "temp": 53.4,
+    "feels_like": 50.5,
     "description": "clear sky",
-    "wind_speed": 2.55,
-    "wind_deg": 355,
-    "gust": 4.25,
+    "wind_speed": 1.95,
+    "wind_deg": 25,
+    "gust": 2.95,
     "sunrise": "07:08 AM",
     "sunset": "05:45 PM",
     "dayOrNight": "day",
-    "humidity": 46,
-    "uv_index": 1.94,
+    "humidity": 44,
+    "uv_index": 0.75,
     "pressure": 1028,
     "moon_phase": 0.34,
     "visibility": 10000,
-    "dew_point": 32.95
+    "dew_point": 32.07
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1028,
     1028,
     1028,
-    1028,
     1027,
+    1028,
     1028
   ],
   "fishingReport": {
-    "date": "Jan 21, 2026",
-    "report": "FAIR. 56 degrees; 4.13 feet below pool. This weekend is shaping up to be unsafe at the lake, with all tournaments canceled for Saturday and Sunday due to extreme weather conditions, including forecasting calling up to �½ to 1 inch of ice around the lake area. Ramps are expected to begin freezing Friday night, and anyone attempting to launch Saturday risks not being able to get their truck or boat back up the ramp, with limited emergency response available if trouble occurs, so everyone is strongly encouraged to stay off the water and avoid putting first responders at risk. Conditions should improve by Tuesday, with a return to more normal activity expected next week. Fishing has been tough this week as water temperatures have dropped back into the low 50s and are expected to fall into the 40s, making the shallow bite very difficult, while a deeper pattern should improve next week in 22-28 feet of water using spoons, drop shots, and swimbaits. Please be safe and use good judgement this weekend. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Jan 28, 2026",
+    "report": "FAIR. 47 degrees; 4.17 feet below pool. This weekend is shaping up to be unsafe at the lake, with all tournaments canceled for Saturday and Sunday due to extreme weather conditions, including forecasting calling up to �½ to 1 inch of ice around the lake area. Ramps are expected to begin freezing Friday night, and anyone attempting to launch Saturday risks not being able to get their truck or boat back up the ramp, with limited emergency response available if trouble occurs, so everyone is strongly encouraged to stay off the water and avoid putting first responders at risk. Conditions should improve by Tuesday, with a return to more normal activity expected next week. Fishing has been tough this week as water temperatures have dropped back into the low 50s and are expected to fall into the 40s, making the shallow bite very difficult, while a deeper pattern should improve next week in 22-28 feet of water using spoons, drop shots, and swimbaits. Please be safe and use good judgement this weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
