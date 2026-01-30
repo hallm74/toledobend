@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 51.89,
-    "feels_like": 48.99,
+    "temp": 52.23,
+    "feels_like": 49.26,
     "description": "overcast clouds",
-    "wind_speed": 11.41,
-    "wind_deg": 349,
-    "gust": 16.96,
+    "wind_speed": 11.9,
+    "wind_deg": 346,
+    "gust": 17.85,
     "sunrise": "07:07 AM",
     "sunset": "05:47 PM",
     "dayOrNight": "day",
-    "humidity": 47,
-    "uv_index": 2.6,
+    "humidity": 45,
+    "uv_index": 1.54,
     "pressure": 1023,
     "moon_phase": 0.42,
     "visibility": 10000,
-    "dew_point": 32.32
+    "dew_point": 31.6
   },
   "fiveDayWeather": [
     {
@@ -96,10 +96,17 @@ const data = {
   ],
   "weatherAlerts": [
     {
+      "event": "Freeze Watch",
+      "start": "1:00:00 AM",
+      "end": "2:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11 expected. For the Freeze Watch, a hard freeze with\ntemperatures as low as 18 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 2 AM Saturday to 10 AM\nCST Sunday. For the Freeze Watch, from Saturday evening through\nSunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
       "event": "Cold Weather Advisory",
       "start": "8:00:00 AM",
       "end": "4:00:00 PM",
-      "description": "* WHAT...Very cold wind chills as low as 11 expected.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...From 2 AM Saturday to 10 AM CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11 expected. For the Freeze Watch, a hard freeze with\ntemperatures as low as 18 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, from 2 AM Saturday to 10 AM\nCST Sunday. For the Freeze Watch, from Saturday evening through\nSunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
