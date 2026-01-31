@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 34.11,
-    "feels_like": 24.69,
+    "temp": 33.19,
+    "feels_like": 23.56,
     "description": "scattered clouds",
-    "wind_speed": 13.89,
-    "wind_deg": 354,
-    "gust": 23.76,
+    "wind_speed": 13.8,
+    "wind_deg": 353,
+    "gust": 23.26,
     "sunrise": "07:07 AM",
     "sunset": "05:48 PM",
     "dayOrNight": "night",
-    "humidity": 72,
+    "humidity": 69,
     "uv_index": 0,
-    "pressure": 1029,
+    "pressure": 1030,
     "moon_phase": 0.46,
     "visibility": 10000,
-    "dew_point": 26.73
+    "dew_point": 25.03
   },
   "fiveDayWeather": [
     {
@@ -97,25 +97,25 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Cold Weather Advisory",
-      "start": "8:00:00 AM",
+      "start": "9:06:00 AM",
       "end": "4:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11 expected. For the Freeze Watch, sub-freezing temperatures as\nlow as 21 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Watch, from this evening through Sunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11. For the Freeze Watch, sub-freezing temperatures as low as\n21 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Watch, from this evening through Sunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Freeze Watch",
-      "start": "1:00:00 AM",
-      "end": "2:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11 expected. For the Freeze Watch, sub-freezing temperatures as\nlow as 21 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Watch, from this evening through Sunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "start": "12:00:00 AM",
+      "end": "4:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 11. For the Freeze Watch, sub-freezing temperatures as low as\n21 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Watch, from this evening through Sunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1029,
-    1029,
+    1030,
     1030,
     1031,
-    1033,
+    1032,
+    1035,
     1036
   ],
   "fishingReport": {
