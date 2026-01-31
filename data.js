@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 31.71,
-    "feels_like": 22.06,
+    "temp": 33.6,
+    "feels_like": 24.62,
     "description": "clear sky",
-    "wind_speed": 12.84,
-    "wind_deg": 6,
-    "gust": 18.63,
+    "wind_speed": 12.44,
+    "wind_deg": 7,
+    "gust": 18.05,
     "sunrise": "07:07 AM",
     "sunset": "05:48 PM",
     "dayOrNight": "day",
-    "humidity": 47,
-    "uv_index": 2.26,
+    "humidity": 42,
+    "uv_index": 3.35,
     "pressure": 1036,
     "moon_phase": 0.46,
     "visibility": 10000,
-    "dew_point": 15.76
+    "dew_point": 15.06
   },
   "fiveDayWeather": [
     {
@@ -53,8 +53,8 @@ const data = {
       "high": 63.37,
       "low": 53.35,
       "description": "moderate rain",
-      "wind_speed": 10.38,
-      "wind_deg": 203,
+      "wind_speed": 10.49,
+      "wind_deg": 197,
       "gust": 30.91,
       "humidity": 78,
       "uv_index": 4.04,
@@ -96,17 +96,24 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Cold Weather Advisory",
-      "start": "11:21:00 AM",
+      "event": "Freeze Watch",
+      "start": "12:00:00 AM",
       "end": "4:00:00 PM",
       "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 10 above. For the Freeze Watch, sub-freezing temperatures as\nlow as 21 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Watch, from this evening through Sunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Freeze Watch",
+      "event": "Freeze Warning",
       "start": "12:00:00 AM",
       "end": "4:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 10 above. For the Freeze Watch, sub-freezing temperatures as\nlow as 21 possible.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Watch, from this evening through Sunday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15. For the Freeze Warning, hard freeze with temperatures as\nlow as 19 expected.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Warning, from 6 PM this evening to 10 AM CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Cold Weather Advisory",
+      "start": "4:05:00 PM",
+      "end": "4:00:00 PM",
+      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 15. For the Freeze Warning, hard freeze with temperatures as\nlow as 19 expected.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...For the Cold Weather Advisory, until 10 AM CST Sunday. For\nthe Freeze Warning, from 6 PM this evening to 10 AM CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures. Frost and freeze conditions\ncould kill crops, other sensitive vegetation and possibly damage\nunprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -116,7 +123,7 @@ const data = {
     1036,
     1035,
     1034,
-    1034
+    1033
   ],
   "fishingReport": {
     "date": "Jan 28, 2026",
