@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 30.94,
-    "feels_like": 30.94,
-    "description": "scattered clouds",
-    "wind_speed": 2.66,
-    "wind_deg": 144,
-    "gust": 2.64,
+    "temp": 35.64,
+    "feels_like": 35.64,
+    "description": "few clouds",
+    "wind_speed": 2.44,
+    "wind_deg": 186,
+    "gust": 2.91,
     "sunrise": "07:06 AM",
     "sunset": "05:49 PM",
     "dayOrNight": "day",
-    "humidity": 52,
-    "uv_index": 1.04,
-    "pressure": 1034,
+    "humidity": 38,
+    "uv_index": 2.09,
+    "pressure": 1035,
     "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 17.11
+    "dew_point": 14.68
   },
   "fiveDayWeather": [
     {
@@ -94,29 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Freeze Warning",
-      "start": "5:47:00 AM",
-      "end": "4:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as\nlow as 15. For the Freeze Warning, hard freeze with air\ntemperatures as low as 19 expected.\n\n* WHERE...Portions of central, southwest, and west central\nLouisiana and southeast Texas.\n\n* WHEN...Until 10 AM CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected\nskin is exposed to these temperatures. Frost and freeze\nconditions could kill crops, other sensitive vegetation and\npossibly damage unprotected outdoor plumbing.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Cold Weather Advisory",
-      "start": "5:47:00 AM",
-      "end": "4:00:00 PM",
-      "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as\nlow as 15. For the Freeze Warning, hard freeze with air\ntemperatures as low as 19 expected.\n\n* WHERE...Portions of central, southwest, and west central\nLouisiana and southeast Texas.\n\n* WHEN...Until 10 AM CST Sunday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected\nskin is exposed to these temperatures. Frost and freeze\nconditions could kill crops, other sensitive vegetation and\npossibly damage unprotected outdoor plumbing.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1034,
-    1034,
+    1035,
+    1035,
     1034,
     1033,
-    1032,
-    1030
+    1031,
+    1029
   ],
   "fishingReport": {
     "date": "Jan 28, 2026",
