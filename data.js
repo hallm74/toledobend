@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 54.19,
-    "feels_like": 53.35,
+    "temp": 54.25,
+    "feels_like": 53.42,
     "description": "overcast clouds",
-    "wind_speed": 9.35,
-    "wind_deg": 179,
-    "gust": 28.68,
+    "wind_speed": 9.64,
+    "wind_deg": 175,
+    "gust": 29.28,
     "sunrise": "07:05 AM",
-    "sunset": "05:50 PM",
+    "sunset": "05:51 PM",
     "dayOrNight": "night",
     "humidity": 86,
     "uv_index": 0,
     "pressure": 1024,
-    "moon_phase": 0.53,
+    "moon_phase": 0.56,
     "visibility": 10000,
-    "dew_point": 50.11
+    "dew_point": 50.16
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 64.72,
-      "low": 49.87,
-      "description": "moderate rain",
-      "wind_speed": 12.33,
-      "wind_deg": 202,
-      "gust": 31.14,
-      "humidity": 78,
-      "uv_index": 2.12,
-      "pressure": 1022,
-      "moon_phase": 0.56,
-      "dew_point": 54.19,
-      "visibility": 9890
-    },
     {
       "date": "Wednesday",
       "high": 59.11,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1026,
       "moon_phase": 0.6,
       "dew_point": 38.86,
-      "visibility": 10000
+      "visibility": 9877
     },
     {
       "date": "Thursday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1030,
       "moon_phase": 0.63,
       "dew_point": 32.16,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.7,
       "dew_point": 42.44,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 71.92,
+      "low": 51.39,
+      "description": "scattered clouds",
+      "wind_speed": 6.11,
+      "wind_deg": 162,
+      "gust": 18.9,
+      "humidity": 51,
+      "uv_index": 5,
+      "pressure": 1023,
+      "moon_phase": 0.73,
+      "dew_point": 50.13,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -100,7 +100,7 @@ const data = {
     1024,
     1024,
     1023,
-    1023,
+    1022,
     1022
   ],
   "fishingReport": {
