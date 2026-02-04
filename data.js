@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 58.91,
-    "feels_like": 56.62,
+    "temp": 57.11,
+    "feels_like": 54.73,
     "description": "broken clouds",
-    "wind_speed": 10.89,
-    "wind_deg": 351,
-    "gust": 17.05,
+    "wind_speed": 9.42,
+    "wind_deg": 353,
+    "gust": 16.53,
     "sunrise": "07:04 AM",
     "sunset": "05:52 PM",
     "dayOrNight": "day",
-    "humidity": 45,
-    "uv_index": 0.67,
+    "humidity": 47,
+    "uv_index": 0.14,
     "pressure": 1025,
     "moon_phase": 0.6,
     "visibility": 10000,
-    "dew_point": 37.63
+    "dew_point": 37.09
   },
   "fiveDayWeather": [
     {
@@ -104,7 +104,7 @@ const data = {
     1028
   ],
   "fishingReport": {
-    "date": "Jan 28, 2026",
-    "report": "FAIR. 47 degrees; 4.17 feet below pool. This weekend is shaping up to be unsafe at the lake, with all tournaments canceled for Saturday and Sunday due to extreme weather conditions, including forecasting calling up to �½ to 1 inch of ice around the lake area. Ramps are expected to begin freezing Friday night, and anyone attempting to launch Saturday risks not being able to get their truck or boat back up the ramp, with limited emergency response available if trouble occurs, so everyone is strongly encouraged to stay off the water and avoid putting first responders at risk. Conditions should improve by Tuesday, with a return to more normal activity expected next week. Fishing has been tough this week as water temperatures have dropped back into the low 50s and are expected to fall into the 40s, making the shallow bite very difficult, while a deeper pattern should improve next week in 22-28 feet of water using spoons, drop shots, and swimbaits. Please be safe and use good judgement this weekend. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Feb 4, 2026",
+    "report": "FAIR. 50 degrees; 4.25 feet below pool. Water temperatures are in the mid to low 50s, and bass fishing has been slow due to the colder water. A few warmer days ahead could help raise temperatures slightly, which should improve activity. For now, anglers need to slow down their presentations whether fishing deep or shallow. Once water temperatures climb back into the high 50s to low 60s, the bite is expected to pick back up. No crappie report at this time. Report by Stephen Johnston, Johnston Fishing."
   }
 };
