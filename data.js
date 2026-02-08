@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.64,
-    "feels_like": 70.95,
+    "temp": 73.47,
+    "feels_like": 72.77,
     "description": "clear sky",
-    "wind_speed": 7.4,
-    "wind_deg": 207,
-    "gust": 12.12,
+    "wind_speed": 6.98,
+    "wind_deg": 210,
+    "gust": 11.45,
     "sunrise": "07:01 AM",
     "sunset": "05:55 PM",
     "dayOrNight": "day",
-    "humidity": 52,
-    "uv_index": 4.34,
-    "pressure": 1023,
+    "humidity": 48,
+    "uv_index": 3.37,
+    "pressure": 1022,
     "moon_phase": 0.73,
     "visibility": 10000,
-    "dew_point": 53.1
+    "dew_point": 52.61
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 183,
       "gust": 25.41,
       "humidity": 58,
-      "uv_index": 4.58,
+      "uv_index": 4.84,
       "pressure": 1022,
       "moon_phase": 0.75,
       "dew_point": 57.65,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 186,
       "gust": 25.48,
       "humidity": 56,
-      "uv_index": 4.06,
+      "uv_index": 5.12,
       "pressure": 1021,
       "moon_phase": 0.79,
       "dew_point": 56.21,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 217,
       "gust": 16.55,
       "humidity": 63,
-      "uv_index": 2.02,
+      "uv_index": 5.16,
       "pressure": 1021,
       "moon_phase": 0.82,
       "dew_point": 58.78,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 185,
       "gust": 19.8,
       "humidity": 59,
-      "uv_index": 3,
+      "uv_index": 3.35,
       "pressure": 1019,
       "moon_phase": 0.85,
       "dew_point": 58.46,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 177,
       "gust": 23,
       "humidity": 58,
-      "uv_index": 3,
+      "uv_index": 4,
       "pressure": 1014,
       "moon_phase": 0.88,
       "dew_point": 60.28,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1023,
-    1023,
+    1022,
     1022,
     1022,
     1021,
-    1021
+    1021,
+    1022
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 4, 2026",
+    "report": "FAIR. 50 degrees; 4.25 feet below pool. Water temperatures are in the mid to low 50s, and bass fishing has been slow due to the colder water. A few warmer days ahead could help raise temperatures slightly, which should improve activity. For now, anglers need to slow down their presentations whether fishing deep or shallow. Once water temperatures climb back into the high 50s to low 60s, the bite is expected to pick back up. No crappie report at this time. Report by Stephen Johnston, Johnston Fishing."
   }
 };
