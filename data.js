@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 57.04,
-    "feels_like": 56.86,
+    "temp": 56.77,
+    "feels_like": 56.61,
     "description": "overcast clouds",
-    "wind_speed": 6.11,
+    "wind_speed": 5.61,
     "wind_deg": 192,
-    "gust": 23.47,
+    "gust": 21.94,
     "sunrise": "07:00 AM",
     "sunset": "05:56 PM",
     "dayOrNight": "night",
-    "humidity": 94,
+    "humidity": 95,
     "uv_index": 0,
-    "pressure": 1022,
+    "pressure": 1021,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 55.33
+    "dew_point": 55.35
   },
   "fiveDayWeather": [
     {
@@ -53,8 +53,8 @@ const data = {
       "high": 72.01,
       "low": 56.23,
       "description": "light rain",
-      "wind_speed": 4.36,
-      "wind_deg": 179,
+      "wind_speed": 4.65,
+      "wind_deg": 86,
       "gust": 14.65,
       "humidity": 62,
       "uv_index": 3.35,
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Dense Fog Advisory",
+      "start": "8:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of central, southwest, and west central Louisiana\nand southeast Texas.\n\n* WHEN...Until 9 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1022,
-    1022,
-    1022,
     1021,
     1021,
-    1021
+    1021,
+    1021,
+    1021,
+    1022
   ],
   "fishingReport": {
     "date": "Feb 4, 2026",
