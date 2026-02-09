@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 55.96,
-    "feels_like": 55.62,
+    "temp": 57.31,
+    "feels_like": 57.11,
     "description": "broken clouds",
     "wind_speed": 5.66,
     "wind_deg": 196,
     "gust": 21.43,
-    "sunrise": "07:01 AM",
-    "sunset": "05:55 PM",
+    "sunrise": "07:00 AM",
+    "sunset": "05:56 PM",
     "dayOrNight": "night",
     "humidity": 93,
     "uv_index": 0,
     "pressure": 1022,
-    "moon_phase": 0.73,
+    "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 53.96
+    "dew_point": 55.31
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 76.35,
-      "low": 49.95,
-      "description": "broken clouds",
-      "wind_speed": 9.08,
-      "wind_deg": 182,
-      "gust": 24.83,
-      "humidity": 59,
-      "uv_index": 4.84,
-      "pressure": 1022,
-      "moon_phase": 0.75,
-      "dew_point": 57.97,
-      "visibility": 10000
-    },
     {
       "date": "Tuesday",
       "high": 75.79,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.79,
       "dew_point": 54.97,
-      "visibility": 9974
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1022,
       "moon_phase": 0.82,
       "dew_point": 57.07,
-      "visibility": "Unavailable"
+      "visibility": 9974
     },
     {
       "date": "Thursday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.88,
       "dew_point": 59.52,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 68.34,
+      "low": 58.3,
+      "description": "heavy intensity rain",
+      "wind_speed": 9.95,
+      "wind_deg": 21,
+      "gust": 22.91,
+      "humidity": 82,
+      "uv_index": 4,
+      "pressure": 1013,
+      "moon_phase": 0.91,
+      "dew_point": 62.47,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,7 +99,7 @@ const data = {
     1022,
     1022,
     1022,
-    1022,
+    1021,
     1021,
     1021
   ],
