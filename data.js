@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.6,
-    "feels_like": 73.44,
+    "temp": 72.09,
+    "feels_like": 71.87,
     "description": "broken clouds",
-    "wind_speed": 1.99,
-    "wind_deg": 315,
-    "gust": 5.66,
+    "wind_speed": 1.66,
+    "wind_deg": 13,
+    "gust": 2.68,
     "sunrise": "06:59 AM",
     "sunset": "05:58 PM",
     "dayOrNight": "day",
-    "humidity": 59,
-    "uv_index": 0.97,
+    "humidity": 61,
+    "uv_index": 0.22,
     "pressure": 1019,
     "moon_phase": 0.82,
     "visibility": 10000,
-    "dew_point": 58.41
+    "dew_point": 57.9
   },
   "fiveDayWeather": [
     {
@@ -104,7 +104,7 @@ const data = {
     1021
   ],
   "fishingReport": {
-    "date": "Feb 4, 2026",
-    "report": "FAIR. 50 degrees; 4.25 feet below pool. Water temperatures are in the mid to low 50s, and bass fishing has been slow due to the colder water. A few warmer days ahead could help raise temperatures slightly, which should improve activity. For now, anglers need to slow down their presentations whether fishing deep or shallow. Once water temperatures climb back into the high 50s to low 60s, the bite is expected to pick back up. No crappie report at this time. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Feb 11, 2026",
+    "report": "FAIR. 53 degrees; 4.33 feet below pool. Toledo Bend is fishing well, with water temperatures in the mid to upper 50s and bass being caught in a wide range of depths from 2 to 25 feet, giving anglers success with a variety of techniques across the lake. Crappie are beginning to bite well in the backs of creeks, showing up in 2-8 feet of water on live bait and jigs. However, heavy  rain is forecast this weekend, which could muddy up the creeks and slow the bite; it may take several days to a week for conditions to stabilize afterward. Report by Stephen Johnston, Johnston Fishing."
   }
 };
