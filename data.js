@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 55.71,
-    "feels_like": 55.49,
+    "temp": 55.92,
+    "feels_like": 55.69,
     "description": "scattered clouds",
-    "wind_speed": 1.1,
-    "wind_deg": 185,
-    "gust": 1.45,
+    "wind_speed": 1.25,
+    "wind_deg": 204,
+    "gust": 1.54,
     "sunrise": "06:57 AM",
     "sunset": "05:59 PM",
     "dayOrNight": "night",
-    "humidity": 96,
+    "humidity": 95,
     "uv_index": 0,
     "pressure": 1019,
     "moon_phase": 0.88,
     "visibility": 10000,
-    "dew_point": 54.59
+    "dew_point": 54.52
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Dense Fog Advisory",
+      "start": "11:58:00 AM",
+      "end": "4:00:00 PM",
+      "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...In Louisiana, Avoyelles, Rapides, and Vernon Parishes. In\nTexas, Northern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...Until 10 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1019,
     1019,
     1019,
     1020,
     1021,
-    1021
+    1020
   ],
   "fishingReport": {
     "date": "Feb 11, 2026",
