@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.71,
-    "feels_like": 70.2,
+    "temp": 69.04,
+    "feels_like": 69.49,
     "description": "light rain",
-    "wind_speed": 11.97,
-    "wind_deg": 169,
-    "gust": 24.61,
+    "wind_speed": 14.03,
+    "wind_deg": 171,
+    "gust": 27.4,
     "sunrise": "06:56 AM",
     "sunset": "06:00 PM",
     "dayOrNight": "day",
-    "humidity": 81,
-    "uv_index": 1.5,
-    "pressure": 1010,
+    "humidity": 82,
+    "uv_index": 0.71,
+    "pressure": 1008,
     "moon_phase": 0.91,
     "visibility": 10000,
-    "dew_point": 63.63
+    "dew_point": 63.32
   },
   "fiveDayWeather": [
     {
@@ -94,13 +94,21 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Tornado Watch",
+      "start": "9:49:00 PM",
+      "end": "3:00:00 AM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 5 IN EFFECT\nUNTIL 9 PM CST THIS EVENING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BURKEVILLE, CALL, FARRSVILLE, FRED, GIST, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KIRBYVILLE, LUMBERTON,\nMAGNOLIA SPRINGS, MT. UNION, NEWTON, ORANGE, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SPURGER, TOWN BLUFF, VIDOR, WARREN,\nWIERGATE, AND WOODVILLE.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1010,
-    1010,
-    1009,
-    1009,
     1008,
+    1008,
+    1008,
+    1007,
+    1006,
     1006
   ],
   "fishingReport": {
