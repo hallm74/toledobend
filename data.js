@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 64.35,
-    "feels_like": 64.53,
-    "description": "very heavy rain",
-    "wind_speed": 15.48,
-    "wind_deg": 181,
-    "gust": 36.15,
+    "temp": 61.95,
+    "feels_like": 62.22,
+    "description": "moderate rain",
+    "wind_speed": 14.7,
+    "wind_deg": 184,
+    "gust": 37.38,
     "sunrise": "06:56 AM",
     "sunset": "06:00 PM",
     "dayOrNight": "night",
-    "humidity": 86,
+    "humidity": 93,
     "uv_index": 0,
     "pressure": 1007,
     "moon_phase": 0.91,
-    "visibility": 9467,
-    "dew_point": 60.08
+    "visibility": 5750,
+    "dew_point": 59.9
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.94,
       "dew_point": 57.31,
-      "visibility": 9440
+      "visibility": 9462
     },
     {
       "date": "Monday",
@@ -94,29 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Tornado Watch",
-      "start": "12:54:00 AM",
-      "end": "3:00:00 AM",
-      "description": "TORNADO WATCH 5 REMAINS VALID UNTIL 9 PM CST THIS EVENING FOR THE\nFOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF BEAUMONT, BLEAKWOOD, BRIDGE CITY,\nBUNA, BURKEVILLE, CALL, FARRSVILLE, FRED, GIST, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, KIRBYVILLE, LUMBERTON,\nMAGNOLIA SPRINGS, MT. UNION, NEWTON, ORANGE, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SPURGER, TOWN BLUFF, VIDOR, WARREN,\nWIERGATE, AND WOODVILLE.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Severe Thunderstorm Warning",
-      "start": "1:13:00 AM",
-      "end": "2:00:00 AM",
-      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Vernon Parish in west central Louisiana...\nNortheastern Newton County in southeastern Texas...\n\n* Until 800 PM CST.\n\n* At 713 PM CST, a severe thunderstorm was located over Toledo Bend\nDam, moving east at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nLeesville, Anacoco, Toledo Bend Dam, New Llano, and Hornbeck.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1007,
     1007,
     1007,
+    1006,
     1007,
-    1007,
-    1006
+    1008
   ],
   "fishingReport": {
     "date": "Feb 11, 2026",
