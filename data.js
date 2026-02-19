@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.63,
-    "feels_like": 79.63,
-    "description": "few clouds",
-    "wind_speed": 10.54,
-    "wind_deg": 217,
-    "gust": 16.96,
+    "temp": 79.25,
+    "feels_like": 79.25,
+    "description": "scattered clouds",
+    "wind_speed": 8.3,
+    "wind_deg": 237,
+    "gust": 14.88,
     "sunrise": "06:51 AM",
     "sunset": "06:04 PM",
     "dayOrNight": "day",
     "humidity": 60,
-    "uv_index": 1.53,
+    "uv_index": 0.45,
     "pressure": 1005,
     "moon_phase": 0.08,
     "visibility": 10000,
-    "dew_point": 64.53
+    "dew_point": 64.17
   },
   "fiveDayWeather": [
     {
@@ -99,12 +99,12 @@ const data = {
     1005,
     1005,
     1005,
-    1005,
     1006,
+    1007,
     1007
   ],
   "fishingReport": {
-    "date": "Feb 18, 2026",
-    "report": "FAIR. 56 degrees; 4.08 feet below pool. Fishing is good overall, with fish being caught from 2-30 feet on a variety of techniques: wacky worms and Senkos are producing shallow, Texas-rigs and Carolina rigs are effective in mid-depths, and tail spinners and drop shots are working well out deep. Crappie action is also good in the backs of creeks; although some areas were muddied by last weekend’s rain, most are clearing quickly, and both live bait and jigs are producing in 4-10 feet. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Fishing report not found"
   }
 };
