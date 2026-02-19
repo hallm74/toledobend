@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.03,
-    "feels_like": 69.82,
+    "temp": 70.75,
+    "feels_like": 71.53,
     "description": "overcast clouds",
-    "wind_speed": 11.61,
-    "wind_deg": 215,
-    "gust": 25.72,
+    "wind_speed": 11.01,
+    "wind_deg": 224,
+    "gust": 22.06,
     "sunrise": "06:51 AM",
     "sunset": "06:04 PM",
     "dayOrNight": "day",
-    "humidity": 89,
-    "uv_index": 0.33,
-    "pressure": 1007,
+    "humidity": 85,
+    "uv_index": 0.92,
+    "pressure": 1008,
     "moon_phase": 0.08,
     "visibility": 10000,
-    "dew_point": 65.64
+    "dew_point": 66.02
   },
   "fiveDayWeather": [
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
+    1008,
+    1008,
+    1008,
+    1008,
     1007,
-    1007,
-    1008,
-    1008,
-    1008,
-    1007
+    1006
   ],
   "fishingReport": {
-    "date": "Feb 11, 2026",
-    "report": "FAIR. 53 degrees; 4.33 feet below pool. Toledo Bend is fishing well, with water temperatures in the mid to upper 50s and bass being caught in a wide range of depths from 2 to 25 feet, giving anglers success with a variety of techniques across the lake. Crappie are beginning to bite well in the backs of creeks, showing up in 2-8 feet of water on live bait and jigs. However, heavy  rain is forecast this weekend, which could muddy up the creeks and slow the bite; it may take several days to a week for conditions to stabilize afterward. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Feb 18, 2026",
+    "report": "FAIR. 56 degrees; 4.08 feet below pool. Fishing is good overall, with fish being caught from 2-30 feet on a variety of techniques: wacky worms and Senkos are producing shallow, Texas-rigs and Carolina rigs are effective in mid-depths, and tail spinners and drop shots are working well out deep. Crappie action is also good in the backs of creeks; although some areas were muddied by last weekend’s rain, most are clearing quickly, and both live bait and jigs are producing in 4-10 feet. Report by Stephen Johnston, Johnston Fishing."
   }
 };
