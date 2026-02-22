@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 54.91,
-    "feels_like": 52.74,
+    "temp": 53.08,
+    "feels_like": 50.76,
     "description": "few clouds",
-    "wind_speed": 15.12,
-    "wind_deg": 4,
-    "gust": 26.57,
-    "sunrise": "06:49 AM",
-    "sunset": "06:06 PM",
+    "wind_speed": 13.82,
+    "wind_deg": 9,
+    "gust": 24.36,
+    "sunrise": "06:48 AM",
+    "sunset": "06:07 PM",
     "dayOrNight": "night",
-    "humidity": 56,
+    "humidity": 57,
     "uv_index": 0,
-    "pressure": 1026,
-    "moon_phase": 0.15,
+    "pressure": 1027,
+    "moon_phase": 0.19,
     "visibility": 10000,
-    "dew_point": 39.54
+    "dew_point": 38.26
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 56.73,
-      "low": 43.79,
-      "description": "clear sky",
-      "wind_speed": 14.45,
-      "wind_deg": 6,
-      "gust": 31.32,
-      "humidity": 30,
-      "uv_index": 5.47,
-      "pressure": 1035,
-      "moon_phase": 0.19,
-      "dew_point": 23.4,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 55.9,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0.25,
       "dew_point": 31.24,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.33,
       "dew_point": 63.05,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 72.21,
+      "low": 51.82,
+      "description": "clear sky",
+      "wind_speed": 7.07,
+      "wind_deg": 28,
+      "gust": 19.01,
+      "humidity": 38,
+      "uv_index": 6,
+      "pressure": 1019,
+      "moon_phase": 0.37,
+      "dew_point": 41.95,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1026,
-    1026,
+    1027,
     1027,
     1028,
     1029,
-    1030
+    1029,
+    1031
   ],
   "fishingReport": {
     "date": "Unavailable",
