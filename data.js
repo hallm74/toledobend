@@ -1,26 +1,26 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 59.34,
-    "feels_like": 57.56,
-    "description": "scattered clouds",
-    "wind_speed": 15.66,
-    "wind_deg": 348,
-    "gust": 27.74,
+    "temp": 56.28,
+    "feels_like": 54.39,
+    "description": "few clouds",
+    "wind_speed": 15.12,
+    "wind_deg": 4,
+    "gust": 26.57,
     "sunrise": "06:49 AM",
     "sunset": "06:06 PM",
     "dayOrNight": "night",
-    "humidity": 55,
+    "humidity": 59,
     "uv_index": 0,
-    "pressure": 1023,
+    "pressure": 1026,
     "moon_phase": 0.15,
     "visibility": 10000,
-    "dew_point": 43.2
+    "dew_point": 42.15
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 57.16,
+      "high": 56.73,
       "low": 43.79,
       "description": "clear sky",
       "wind_speed": 14.45,
@@ -55,7 +55,7 @@ const data = {
       "description": "few clouds",
       "wind_speed": 13.04,
       "wind_deg": 198,
-      "gust": 33.02,
+      "gust": 34.56,
       "humidity": 34,
       "uv_index": 5.26,
       "pressure": 1023,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1023,
-    1023,
-    1024,
-    1025,
+    1026,
+    1026,
+    1026,
+    1027,
     1028,
-    1030
+    1029
   ],
   "fishingReport": {
-    "date": "Feb 18, 2026",
-    "report": "FAIR. 56 degrees; 4.08 feet below pool. Fishing is good overall, with fish being caught from 2-30 feet on a variety of techniques: wacky worms and Senkos are producing shallow, Texas-rigs and Carolina rigs are effective in mid-depths, and tail spinners and drop shots are working well out deep. Crappie action is also good in the backs of creeks; although some areas were muddied by last weekend’s rain, most are clearing quickly, and both live bait and jigs are producing in 4-10 feet. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Fishing report not found"
   }
 };
