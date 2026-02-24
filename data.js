@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 37.78,
-    "feels_like": 34.77,
+    "temp": 36.82,
+    "feels_like": 33.13,
     "description": "clear sky",
-    "wind_speed": 3.98,
-    "wind_deg": 80,
-    "gust": 5.21,
-    "sunrise": "06:47 AM",
-    "sunset": "06:07 PM",
+    "wind_speed": 4.54,
+    "wind_deg": 106,
+    "gust": 6.22,
+    "sunrise": "06:46 AM",
+    "sunset": "06:08 PM",
     "dayOrNight": "night",
     "humidity": 74,
     "uv_index": 0,
-    "pressure": 1029,
-    "moon_phase": 0.22,
+    "pressure": 1028,
+    "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 30.45
+    "dew_point": 29.64
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 66.78,
-      "low": 34.27,
-      "description": "clear sky",
-      "wind_speed": 13.53,
-      "wind_deg": 193,
-      "gust": 33.04,
-      "humidity": 37,
-      "uv_index": 5.25,
-      "pressure": 1023,
-      "moon_phase": 0.25,
-      "dew_point": 34.34,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 74.64,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1011,
       "moon_phase": 0.33,
       "dew_point": 62.76,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.4,
       "dew_point": 48.7,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 78.55,
+      "low": 54.93,
+      "description": "broken clouds",
+      "wind_speed": 6.62,
+      "wind_deg": 155,
+      "gust": 20.27,
+      "humidity": 41,
+      "uv_index": 6,
+      "pressure": 1021,
+      "moon_phase": 0.44,
+      "dew_point": 49.93,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1029,
-    1029,
-    1029,
-    1029,
     1028,
-    1028
+    1028,
+    1028,
+    1028,
+    1028,
+    1027
   ],
   "fishingReport": {
     "date": "Feb 18, 2026",
