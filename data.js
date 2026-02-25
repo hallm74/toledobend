@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 74.66,
-    "feels_like": 74.7,
+    "temp": 75.07,
+    "feels_like": 75.15,
     "description": "overcast clouds",
-    "wind_speed": 15.21,
+    "wind_speed": 16.35,
     "wind_deg": 190,
-    "gust": 25.48,
+    "gust": 28.34,
     "sunrise": "06:45 AM",
     "sunset": "06:09 PM",
     "dayOrNight": "day",
     "humidity": 61,
-    "uv_index": 4.37,
-    "pressure": 1008,
+    "uv_index": 2.45,
+    "pressure": 1007,
     "moon_phase": 0.29,
     "visibility": 10000,
-    "dew_point": 60.33
+    "dew_point": 60.73
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 193,
       "gust": 27.65,
       "humidity": 78,
-      "uv_index": 1.96,
+      "uv_index": 2.81,
       "pressure": 1010,
       "moon_phase": 0.33,
       "dew_point": 63,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 33,
       "gust": 13.35,
       "humidity": 68,
-      "uv_index": 5.19,
+      "uv_index": 3.24,
       "pressure": 1016,
       "moon_phase": 0.37,
       "dew_point": 60.87,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 161,
       "gust": 16.31,
       "humidity": 51,
-      "uv_index": 5.83,
+      "uv_index": 5.74,
       "pressure": 1016,
       "moon_phase": 0.4,
       "dew_point": 56.64,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 167,
       "gust": 21.21,
       "humidity": 50,
-      "uv_index": 6,
+      "uv_index": 6.08,
       "pressure": 1016,
       "moon_phase": 0.44,
       "dew_point": 57.06,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 25,
       "gust": 19.04,
       "humidity": 74,
-      "uv_index": 6,
+      "uv_index": 7,
       "pressure": 1020,
       "moon_phase": 0.47,
       "dew_point": 62.42,
@@ -104,11 +104,11 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1008,
-    1008,
-    1008,
+    1007,
+    1007,
     1007,
     1006,
+    1007,
     1008
   ],
   "fishingReport": {
