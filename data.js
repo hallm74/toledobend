@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 74.7,
-    "feels_like": 74.73,
+    "temp": 73.63,
+    "feels_like": 73.65,
     "description": "overcast clouds",
-    "wind_speed": 14.47,
-    "wind_deg": 191,
-    "gust": 27.51,
+    "wind_speed": 14,
+    "wind_deg": 188,
+    "gust": 26.82,
     "sunrise": "06:45 AM",
     "sunset": "06:09 PM",
     "dayOrNight": "day",
-    "humidity": 61,
-    "uv_index": 1.21,
+    "humidity": 63,
+    "uv_index": 0.3,
     "pressure": 1006,
     "moon_phase": 0.29,
     "visibility": 10000,
-    "dew_point": 60.37
+    "dew_point": 60.28
   },
   "fiveDayWeather": [
     {
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "6:21:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...South winds 15 to 20 mph with gusts up to 35 mph.\n\n* WHERE...Portions of central, south central, southwest and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 6 PM CST this evening.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult.",
+      "start": "10:44:00 PM",
+      "end": "6:00:00 AM",
+      "description": "* WHAT...South winds 10 to 20 mph with gusts up to 30 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until midnight CST tonight.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -112,7 +112,7 @@ const data = {
     1008
   ],
   "fishingReport": {
-    "date": "Feb 18, 2026",
-    "report": "FAIR. 56 degrees; 4.08 feet below pool. Fishing is good overall, with fish being caught from 2-30 feet on a variety of techniques: wacky worms and Senkos are producing shallow, Texas-rigs and Carolina rigs are effective in mid-depths, and tail spinners and drop shots are working well out deep. Crappie action is also good in the backs of creeks; although some areas were muddied by last weekend’s rain, most are clearing quickly, and both live bait and jigs are producing in 4-10 feet. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
