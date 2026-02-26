@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 66.72,
-    "feels_like": 66.96,
+    "temp": 66.7,
+    "feels_like": 66.97,
     "description": "broken clouds",
-    "wind_speed": 13.49,
-    "wind_deg": 196,
-    "gust": 29.08,
-    "sunrise": "06:45 AM",
-    "sunset": "06:09 PM",
+    "wind_speed": 13.76,
+    "wind_deg": 198,
+    "gust": 26.28,
+    "sunrise": "06:44 AM",
+    "sunset": "06:10 PM",
     "dayOrNight": "night",
-    "humidity": 82,
+    "humidity": 83,
     "uv_index": 0,
-    "pressure": 1008,
-    "moon_phase": 0.29,
+    "pressure": 1007,
+    "moon_phase": 0.33,
     "visibility": 10000,
-    "dew_point": 61.05
+    "dew_point": 61.38
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 71.31,
-      "low": 63.79,
-      "description": "light rain",
-      "wind_speed": 13.76,
-      "wind_deg": 198,
-      "gust": 26.28,
-      "humidity": 74,
-      "uv_index": 2.81,
-      "pressure": 1010,
-      "moon_phase": 0.33,
-      "dew_point": 62.2,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 77.99,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.4,
       "dew_point": 58.42,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,21 +77,28 @@ const data = {
       "moon_phase": 0.47,
       "dew_point": 64.2,
       "visibility": "Unavailable"
-    }
-  ],
-  "weatherAlerts": [
+    },
     {
-      "event": "Wind Advisory",
-      "start": "10:44:00 PM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...South winds 10 to 20 mph with gusts up to 30 mph.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until midnight CST tonight.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
-      "sender": "NWS Lake Charles LA"
+      "date": "Tuesday",
+      "high": 70.36,
+      "low": 51.01,
+      "description": "overcast clouds",
+      "wind_speed": 6.64,
+      "wind_deg": 47,
+      "gust": 12.93,
+      "humidity": 70,
+      "uv_index": 7,
+      "pressure": 1022,
+      "moon_phase": 0.5,
+      "dew_point": 55.09,
+      "visibility": "Unavailable"
     }
   ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1008,
-    1008,
-    1008,
+    1007,
+    1007,
+    1007,
     1007,
     1007,
     1007
