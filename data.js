@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 58.17,
-    "feels_like": 58.1,
+    "temp": 62.94,
+    "feels_like": 63.21,
     "description": "overcast clouds",
-    "wind_speed": 4.65,
-    "wind_deg": 153,
-    "gust": 9.53,
+    "wind_speed": 4.56,
+    "wind_deg": 154,
+    "gust": 8.7,
     "sunrise": "06:41 AM",
     "sunset": "06:12 PM",
     "dayOrNight": "day",
-    "humidity": 94,
-    "uv_index": 0.57,
-    "pressure": 1020,
+    "humidity": 91,
+    "uv_index": 1.55,
+    "pressure": 1021,
     "moon_phase": 0.44,
     "visibility": 10000,
-    "dew_point": 56.46
+    "dew_point": 60.28
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Dense Fog Advisory",
-      "start": "8:05:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...In Louisiana, Beauregard and Northern Calcasieu Parishes.\nIn Texas, Hardin, Northern Jasper, Northern Newton, Southern\nJasper, Southern Newton, and Tyler Counties.\n\n* WHEN...Until 9 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
-    1020,
+    1021,
+    1021,
     1021,
     1020,
-    1019
+    1019,
+    1018
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
