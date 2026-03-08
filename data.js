@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 64.83,
-    "feels_like": 65.48,
+    "temp": 64.62,
+    "feels_like": 65.25,
     "description": "overcast clouds",
-    "wind_speed": 4.7,
-    "wind_deg": 20,
-    "gust": 11.27,
-    "sunrise": "06:34 AM",
-    "sunset": "06:16 PM",
+    "wind_speed": 3.76,
+    "wind_deg": 15,
+    "gust": 11.65,
+    "sunrise": "06:33 AM",
+    "sunset": "06:17 PM",
     "dayOrNight": "night",
     "humidity": 95,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.64,
-    "visibility": 10000,
-    "dew_point": 63.37
+    "moon_phase": 0.67,
+    "visibility": 7116,
+    "dew_point": 63.16
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 75.15,
-      "low": 65.14,
-      "description": "light rain",
-      "wind_speed": 7.25,
-      "wind_deg": 344,
-      "gust": 12.97,
-      "humidity": 88,
-      "uv_index": 3.43,
-      "pressure": 1018,
-      "moon_phase": 0.67,
-      "dew_point": 63.91,
-      "visibility": 9697
-    },
     {
       "date": "Monday",
       "high": 81.52,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.7,
       "dew_point": 67.69,
-      "visibility": 10000
+      "visibility": 8394
     },
     {
       "date": "Tuesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.73,
       "dew_point": 64.6,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1028,
       "moon_phase": 0.79,
       "dew_point": 30.76,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 74.93,
+      "low": 46.2,
+      "description": "clear sky",
+      "wind_speed": 11.16,
+      "wind_deg": 194,
+      "gust": 25.75,
+      "humidity": 39,
+      "uv_index": 4,
+      "pressure": 1019,
+      "moon_phase": 0.82,
+      "dew_point": 44.35,
       "visibility": "Unavailable"
     }
   ],
