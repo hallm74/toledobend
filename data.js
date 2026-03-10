@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.19,
-    "feels_like": 72.43,
+    "temp": 71.65,
+    "feels_like": 72.9,
     "description": "overcast clouds",
     "wind_speed": 8.75,
     "wind_deg": 181,
     "gust": 26.8,
-    "sunrise": "07:31 AM",
+    "sunrise": "07:30 AM",
     "sunset": "07:18 PM",
     "dayOrNight": "night",
-    "humidity": 94,
+    "humidity": 93,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.7,
+    "moon_phase": 0.73,
     "visibility": 10000,
-    "dew_point": 69.37
+    "dew_point": 69.53
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 81.5,
-      "low": 69.12,
-      "description": "overcast clouds",
-      "wind_speed": 11.99,
-      "wind_deg": 171,
-      "gust": 29.39,
-      "humidity": 69,
-      "uv_index": 5.1,
-      "pressure": 1017,
-      "moon_phase": 0.73,
-      "dew_point": 67.82,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 83.05,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.75,
       "dew_point": 64.35,
-      "visibility": 9517
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1026,
       "moon_phase": 0.79,
       "dew_point": 35.28,
-      "visibility": "Unavailable"
+      "visibility": 9505
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.85,
       "dew_point": 57.06,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 79.75,
+      "low": 59.31,
+      "description": "light rain",
+      "wind_speed": 17.58,
+      "wind_deg": 355,
+      "gust": 30.6,
+      "humidity": 52,
+      "uv_index": 8,
+      "pressure": 1009,
+      "moon_phase": 0.88,
+      "dew_point": 58.42,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -100,7 +100,7 @@ const data = {
     1017,
     1017,
     1017,
-    1017,
+    1016,
     1016
   ],
   "fishingReport": {
