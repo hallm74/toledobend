@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 72.9,
-    "feels_like": 73.98,
+    "temp": 72.88,
+    "feels_like": 73.99,
     "description": "overcast clouds",
     "wind_speed": 12.62,
     "wind_deg": 171,
     "gust": 30.15,
-    "sunrise": "07:30 AM",
-    "sunset": "07:18 PM",
+    "sunrise": "07:29 AM",
+    "sunset": "07:19 PM",
     "dayOrNight": "night",
-    "humidity": 87,
+    "humidity": 88,
     "uv_index": 0,
     "pressure": 1013,
-    "moon_phase": 0.73,
+    "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 68.79
+    "dew_point": 69.12
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 82.22,
-      "low": 58.48,
-      "description": "heavy intensity rain",
-      "wind_speed": 17.27,
-      "wind_deg": 350,
-      "gust": 31.18,
-      "humidity": 64,
-      "uv_index": 6.13,
-      "pressure": 1013,
-      "moon_phase": 0.75,
-      "dew_point": 65.35,
-      "visibility": 9535
-    },
     {
       "date": "Thursday",
       "high": 64.24,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1027,
       "moon_phase": 0.79,
       "dew_point": 33.71,
-      "visibility": 10000
+      "visibility": 9535
     },
     {
       "date": "Friday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.82,
       "dew_point": 43.02,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.88,
       "dew_point": 60.28,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 62.17,
+      "low": 48.4,
+      "description": "light rain",
+      "wind_speed": 15.99,
+      "wind_deg": 13,
+      "gust": 32.35,
+      "humidity": 34,
+      "uv_index": 8,
+      "pressure": 1023,
+      "moon_phase": 0.92,
+      "dew_point": 29.5,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,7 +99,7 @@ const data = {
     1013,
     1013,
     1013,
-    1013,
+    1012,
     1012,
     1012
   ],
