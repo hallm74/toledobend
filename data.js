@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.53,
-    "feels_like": 74.39,
+    "temp": 74.93,
+    "feels_like": 75.7,
     "description": "overcast clouds",
-    "wind_speed": 11.77,
-    "wind_deg": 187,
-    "gust": 20.94,
+    "wind_speed": 12.46,
+    "wind_deg": 185,
+    "gust": 20.71,
     "sunrise": "07:29 AM",
     "sunset": "07:19 PM",
     "dayOrNight": "day",
-    "humidity": 81,
-    "uv_index": 3.63,
+    "humidity": 76,
+    "uv_index": 5.52,
     "pressure": 1014,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 67.33
+    "dew_point": 66.85
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Tornado Watch",
+      "start": "4:25:00 PM",
+      "end": "11:00:00 PM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 44 IN\nEFFECT UNTIL 6 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 9 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD            CALCASIEU\nCAMERON               JEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRIDGE CITY, BUNA, BUNDICK LAKE, BUNKIE, BURKEVILLE,\nCALL, COTTONPORT, DE RIDDER, EFFIE, FARRSVILLE, FIELDS,\nFORT POLK, FRED, GIST, HACKBERRY, HATHAWAY, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JENNINGS,\nJOHNSON BAYOU, KINDER, KIRBYVILLE, LAKE ARTHUR, LAKE CHARLES,\nLEESVILLE, LUMBERTON, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, ORANGE, ORETTA,\nPICKERING, PINEVILLE, REDDELL, ROANOKE, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, SULPHUR, TOPSY, TOWN BLUFF, VIDOR, VILLE PLATTE,\nWARREN, WELSH, WIERGATE, AND WOODVILLE.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1014,
     1014,
     1014,
     1013,
     1012,
-    1010
+    1012,
+    1012
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
