@@ -4,9 +4,9 @@ const data = {
     "temp": 72.88,
     "feels_like": 73.99,
     "description": "overcast clouds",
-    "wind_speed": 12.62,
-    "wind_deg": 171,
-    "gust": 30.15,
+    "wind_speed": 12.39,
+    "wind_deg": 176,
+    "gust": 27.47,
     "sunrise": "07:29 AM",
     "sunset": "07:19 PM",
     "dayOrNight": "night",
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1027,
       "moon_phase": 0.79,
       "dew_point": 33.71,
-      "visibility": 9535
+      "visibility": 9637
     },
     {
       "date": "Friday",
