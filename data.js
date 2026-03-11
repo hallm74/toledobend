@@ -1,37 +1,37 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.26,
-    "feels_like": 71.94,
+    "temp": 71.42,
+    "feels_like": 72.3,
     "description": "moderate rain",
-    "wind_speed": 13.87,
-    "wind_deg": 196,
-    "gust": 26.96,
+    "wind_speed": 14.03,
+    "wind_deg": 232,
+    "gust": 27.56,
     "sunrise": "07:29 AM",
     "sunset": "07:19 PM",
     "dayOrNight": "day",
-    "humidity": 82,
-    "uv_index": 0.74,
+    "humidity": 86,
+    "uv_index": 0.11,
     "pressure": 1011,
     "moon_phase": 0.75,
-    "visibility": 10000,
-    "dew_point": 65.48
+    "visibility": 4521,
+    "dew_point": 67.01
   },
   "fiveDayWeather": [
     {
       "date": "Thursday",
       "high": 62.44,
       "low": 46.63,
-      "description": "clear sky",
-      "wind_speed": 18.54,
-      "wind_deg": 355,
-      "gust": 33.08,
+      "description": "light rain",
+      "wind_speed": 17.29,
+      "wind_deg": 347,
+      "gust": 31.12,
       "humidity": 38,
       "uv_index": 7.37,
       "pressure": 1028,
       "moon_phase": 0.79,
       "dew_point": 32.7,
-      "visibility": 9667
+      "visibility": 9085
     },
     {
       "date": "Friday",
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Tornado Watch",
-      "start": "4:25:00 PM",
+      "start": "9:33:00 PM",
       "end": "11:00:00 PM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 44 IN\nEFFECT UNTIL 6 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 9 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD            CALCASIEU\nCAMERON               JEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                JEFFERSON\nNEWTON                ORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRIDGE CITY, BUNA, BUNDICK LAKE, BUNKIE, BURKEVILLE,\nCALL, COTTONPORT, DE RIDDER, EFFIE, FARRSVILLE, FIELDS,\nFORT POLK, FRED, GIST, HACKBERRY, HATHAWAY, HILLISTER,\nHOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JENNINGS,\nJOHNSON BAYOU, KINDER, KIRBYVILLE, LAKE ARTHUR, LAKE CHARLES,\nLEESVILLE, LUMBERTON, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, ORANGE, ORETTA,\nPICKERING, PINEVILLE, REDDELL, ROANOKE, SABINE PASS,\nSEA RIM STATE PARK, SILSBEE, SIMMESPORT, SLAGLE, SPURGER,\nST. LANDRY, SULPHUR, TOPSY, TOWN BLUFF, VIDOR, VILLE PLATTE,\nWARREN, WELSH, WIERGATE, AND WOODVILLE.",
+      "description": "TORNADO WATCH 44 REMAINS VALID UNTIL 6 PM CDT THIS EVENING FOR\nTHE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 9 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD            CALCASIEU\nCAMERON               JEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJEFFERSON             NEWTON                ORANGE\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAUMONT, BEAVER,\nBLEAKWOOD, BRIDGE CITY, BUNDICK LAKE, BUNKIE, BURKEVILLE, CALL,\nCOTTONPORT, DE RIDDER, EFFIE, FARRSVILLE, FIELDS, FORT POLK,\nHACKBERRY, HATHAWAY, JAMESTOWN, JENNINGS, JOHNSON BAYOU, KINDER,\nLAKE ARTHUR, LAKE CHARLES, LEESVILLE, MAMOU, MANSURA, MARKSVILLE,\nNEWTON, OAKDALE, ORANGE, ORETTA, PICKERING, PINEVILLE, REDDELL,\nROANOKE, SABINE PASS, SEA RIM STATE PARK, SIMMESPORT, SLAGLE,\nST. LANDRY, SULPHUR, TOPSY, VIDOR, VILLE PLATTE, WELSH,\nAND WIERGATE.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -107,9 +107,9 @@ const data = {
     1011,
     1011,
     1012,
-    1012,
-    1014,
-    1016
+    1013,
+    1015,
+    1018
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
