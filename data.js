@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 68.31,
-    "feels_like": 68.04,
-    "description": "few clouds",
-    "wind_speed": 7.47,
-    "wind_deg": 172,
-    "gust": 11.88,
+    "temp": 71.4,
+    "feels_like": 71.15,
+    "description": "clear sky",
+    "wind_speed": 7.63,
+    "wind_deg": 169,
+    "gust": 11.18,
     "sunrise": "07:25 AM",
     "sunset": "07:21 PM",
     "dayOrNight": "day",
-    "humidity": 68,
-    "uv_index": 4.58,
+    "humidity": 62,
+    "uv_index": 6.49,
     "pressure": 1017,
     "moon_phase": 0.85,
     "visibility": 10000,
-    "dew_point": 57.34
+    "dew_point": 57.72
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Wind Advisory",
+      "start": "3:00:00 PM",
+      "end": "11:00:00 PM",
+      "description": "* WHAT...Southwest winds 15 to 20 mph with gusts to 30 mph on\nSunday, then Northwest winds 15 to 25 mph with gusts up to 35 mph\non Monday.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 10 AM Sunday to 6 PM CDT Monday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1017,
     1017,
     1017,
     1016,
     1015,
-    1013
+    1014,
+    1012
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
