@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 72.72,
-    "feels_like": 73.26,
+    "temp": 75.34,
+    "feels_like": 75.63,
     "description": "overcast clouds",
-    "wind_speed": 14.14,
-    "wind_deg": 196,
-    "gust": 27.18,
+    "wind_speed": 15.73,
+    "wind_deg": 198,
+    "gust": 27.36,
     "sunrise": "07:24 AM",
     "sunset": "07:22 PM",
     "dayOrNight": "day",
-    "humidity": 76,
-    "uv_index": 2.3,
-    "pressure": 1007,
+    "humidity": 65,
+    "uv_index": 4.92,
+    "pressure": 1006,
     "moon_phase": 0.88,
     "visibility": 10000,
-    "dew_point": 64.72
+    "dew_point": 62.78
   },
   "fiveDayWeather": [
     {
@@ -115,13 +115,20 @@ const data = {
       "end": "1:00:00 AM",
       "description": "...FIRE WEATHER WATCH AREA WIDE...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\nThe National Weather Service in Lake Charles has issued a Fire\nWeather Watch for strong winds and low humidity, which is in\neffect from Monday morning through Monday evening.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From Monday morning through Monday evening.\n\n* WINDS...North 10 to 20 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 21 percent.\n\n* TEMPERATURES...Up to 55.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Red Flag Warning",
+      "start": "4:00:00 PM",
+      "end": "12:00:00 AM",
+      "description": "...RED FLAG WARNING AREA WIDE...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\nThe National Weather Service in Lake Charles has issued a Red\nFlag Warning for strong and gusty north winds, and very low\nrelative humidity which is in effect from 11 AM to 7 PM CDT\nMonday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From 11 AM to 7 PM CDT Monday.\n\n* WINDS...Northwest 10 to 20 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 21 percent.\n\n* TEMPERATURES...Up to 56.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1007,
-    1007,
+    1006,
     1006,
     1005,
+    1004,
     1004,
     1002
   ],
