@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 46.08,
-    "feels_like": 39.42,
+    "temp": 48.18,
+    "feels_like": 42.31,
     "description": "overcast clouds",
-    "wind_speed": 15.75,
-    "wind_deg": 334,
-    "gust": 24.92,
+    "wind_speed": 15.03,
+    "wind_deg": 330,
+    "gust": 24.9,
     "sunrise": "07:23 AM",
     "sunset": "07:22 PM",
     "dayOrNight": "day",
-    "humidity": 35,
-    "uv_index": 3.55,
+    "humidity": 31,
+    "uv_index": 4.7,
     "pressure": 1024,
     "moon_phase": 0.92,
     "visibility": 10000,
-    "dew_point": 21.33
+    "dew_point": 20.44
   },
   "fiveDayWeather": [
     {
@@ -97,23 +97,23 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Wind Advisory",
-      "start": "3:41:00 AM",
-      "end": "11:00:00 PM",
-      "description": "* WHAT...For the Wind Advisory, northwest winds 15 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures as low as 31 expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Newton\nCounty.\n\n* WHEN...For the Wind Advisory, until 6 PM CDT Monday. For the\nFreeze Warning, from 8 PM Monday to 10 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
+      "start": "4:40:00 PM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...For the Wind Advisory, northwest winds 15 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures with lows between 28 and 32 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Wind Advisory, until 7 PM CDT this evening. For the\nFreeze Warning, from 11 PM this evening to 9 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Freeze Warning",
-      "start": "1:00:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...For the Wind Advisory, northwest winds 15 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures as low as 31 expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Newton\nCounty.\n\n* WHEN...For the Wind Advisory, until 6 PM CDT Monday. For the\nFreeze Warning, from 8 PM Monday to 10 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
+      "start": "4:00:00 AM",
+      "end": "2:00:00 PM",
+      "description": "* WHAT...For the Wind Advisory, northwest winds 15 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures with lows between 28 and 32 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Wind Advisory, until 7 PM CDT this evening. For the\nFreeze Warning, from 11 PM this evening to 9 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Red Flag Warning",
-      "start": "4:00:00 PM",
+      "start": "4:46:00 PM",
       "end": "12:00:00 AM",
-      "description": "...RED FLAG WARNING AREA WIDE...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From 11 AM to 7 PM CDT Monday.\n\n* WINDS...Northwest 15 to 20 mph with gusts up to 35 mph.\n\n* RELATIVE HUMIDITY...As low as 19 percent.\n\n* TEMPERATURES...Up to 54.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...RED FLAG WARNING AREA WIDE...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...Until 7 PM CDT this evening.\n\n* WINDS...Northwest 15 to 20 mph with gusts up to 35 mph.\n\n* RELATIVE HUMIDITY...As low as 20 percent.\n\n* TEMPERATURES...Up to 55.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -121,8 +121,8 @@ const data = {
     1024,
     1024,
     1024,
-    1024,
     1023,
+    1022,
     1022
   ],
   "fishingReport": {
