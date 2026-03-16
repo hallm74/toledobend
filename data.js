@@ -1,36 +1,36 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 77.27,
-    "feels_like": 77.85,
-    "description": "overcast clouds",
-    "wind_speed": 14.45,
-    "wind_deg": 214,
-    "gust": 26.44,
+    "temp": 69.33,
+    "feels_like": 69.53,
+    "description": "heavy intensity rain",
+    "wind_speed": 19.93,
+    "wind_deg": 330,
+    "gust": 30.98,
     "sunrise": "07:24 AM",
     "sunset": "07:22 PM",
-    "dayOrNight": "day",
-    "humidity": 67,
-    "uv_index": 0.05,
-    "pressure": 1003,
+    "dayOrNight": "night",
+    "humidity": 76,
+    "uv_index": 0,
+    "pressure": 1007,
     "moon_phase": 0.88,
     "visibility": 10000,
-    "dew_point": 65.46
+    "dew_point": 61.45
   },
   "fiveDayWeather": [
     {
       "date": "Monday",
-      "high": 51.6,
-      "low": 39.04,
+      "high": 55.54,
+      "low": 37.83,
       "description": "overcast clouds",
-      "wind_speed": 18.57,
-      "wind_deg": 337,
-      "gust": 36.62,
-      "humidity": 27,
+      "wind_speed": 18.9,
+      "wind_deg": 338,
+      "gust": 36.13,
+      "humidity": 26,
       "uv_index": 5.33,
       "pressure": 1024,
       "moon_phase": 0.92,
-      "dew_point": 15.24,
+      "dew_point": 14.2,
       "visibility": 10000
     },
     {
@@ -110,19 +110,40 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
+      "event": "Tornado Watch",
+      "start": "11:38:00 PM",
+      "end": "5:00:00 AM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 57 IN\nEFFECT UNTIL MIDNIGHT CDT TONIGHT FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 10 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTHWEST LOUISIANA\n\nACADIA                ALLEN                 BEAUREGARD\nCALCASIEU             JEFFERSON DAVIS\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 5 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nHARDIN                JASPER                NEWTON\nORANGE                TYLER\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD,\nBRANCH, BRIDGE CITY, BUNA, BUNDICK LAKE, BUNKIE, BURKEVILLE,\nCALL, CHURCH POINT, COTTONPORT, CROWLEY, DE RIDDER, EFFIE,\nEUNICE, FARRSVILLE, FIELDS, FORT POLK, FRED, GIST, HATHAWAY,\nHILLISTER, HOLLY SPRINGS, IVANHOE, JAMESTOWN, JASPER, JENNINGS,\nKINDER, KIRBYVILLE, LAKE ARTHUR, LAKE CHARLES, LAWTELL,\nLEESVILLE, LUMBERTON, MAGNOLIA SPRINGS, MAMOU, MANSURA,\nMARKSVILLE, MT. UNION, NEWTON, OAKDALE, OPELOUSAS, ORANGE,\nORETTA, PICKERING, PINEVILLE, RAYNE, REDDELL, RICHARD, ROANOKE,\nSILSBEE, SIMMESPORT, SLAGLE, SPURGER, ST. LANDRY, SULPHUR, TOPSY,\nTOWN BLUFF, VIDOR, VILLE PLATTE, WARREN, WELSH, WIERGATE,\nAND WOODVILLE.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
       "event": "Wind Advisory",
-      "start": "6:27:00 PM",
+      "start": "11:47:00 PM",
       "end": "11:00:00 PM",
-      "description": "* WHAT...For the Wind Advisory, Sunday afternoon and evening\nsouthwest wind 15 to 20 mph with gusts up to 25 mph expected,\nMonday northwest winds 10 to 20 mph with gusts up to 35 mph\nexpected. For the Freeze Watch, sub-freezing temperatures as low\nas 31 possible Monday night into Tuesday morning.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Newton\nCounty.\n\n* WHEN...For the Wind Advisory, until 6 PM CDT Monday. For the\nFreeze Watch, from Monday evening through Tuesday morning.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
+      "description": "* WHAT...For the Wind Advisory, northwest winds 10 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures as low as 31 expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Newton\nCounty.\n\n* WHEN...For the Wind Advisory, until 6 PM CDT Monday. For the\nFreeze Warning, from 8 PM Monday to 10 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Freeze Warning",
+      "start": "1:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...For the Wind Advisory, northwest winds 10 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures as low as 31 expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Newton\nCounty.\n\n* WHEN...For the Wind Advisory, until 6 PM CDT Monday. For the\nFreeze Warning, from 8 PM Monday to 10 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Severe Thunderstorm Warning",
+      "start": "12:23:00 AM",
+      "end": "1:15:00 AM",
+      "description": "SVRLCH\n\nThe National Weather Service in Lake Charles has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Newton County in southeastern Texas...\nNortheastern Jasper County in southeastern Texas...\n\n* Until 815 PM CDT.\n\n* At 723 PM CDT, a severe thunderstorm was located over Pineland, or\n16 miles northeast of Ebenezer, moving southeast at 40 mph.\n\nHAZARD...Golf ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nToledo Bend Dam, Burkeville, Browndell, Mayflower, Stringtown, and\nWiergate.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1003,
-    1003,
-    1005,
+    1006,
     1007,
-    1010,
+    1008,
+    1009,
+    1011,
     1013
   ],
   "fishingReport": {
