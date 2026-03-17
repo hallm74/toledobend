@@ -1,8 +1,8 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 34.72,
-    "feels_like": 30.67,
+    "temp": 37.9,
+    "feels_like": 34.38,
     "description": "broken clouds",
     "wind_speed": 4.56,
     "wind_deg": 55,
@@ -10,12 +10,12 @@ const data = {
     "sunrise": "07:21 AM",
     "sunset": "07:23 PM",
     "dayOrNight": "day",
-    "humidity": 47,
+    "humidity": 48,
     "uv_index": 0.8,
     "pressure": 1029,
     "moon_phase": 0.95,
     "visibility": 10000,
-    "dew_point": 18.28
+    "dew_point": 21.34
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Freeze Warning",
-      "start": "4:00:00 AM",
-      "end": "2:00:00 PM",
-      "description": "* WHAT...Sub-freezing temperatures as low as 29 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 11 PM this evening to 9 AM CDT Tuesday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1029,
     1029,
     1029,
-    1029,
     1030,
-    1029
+    1029,
+    1028
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
