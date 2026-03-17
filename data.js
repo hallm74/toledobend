@@ -1,36 +1,36 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 47.34,
-    "feels_like": 41.86,
+    "temp": 45.66,
+    "feels_like": 39.96,
     "description": "overcast clouds",
-    "wind_speed": 12.68,
-    "wind_deg": 327,
-    "gust": 21.83,
+    "wind_speed": 12.06,
+    "wind_deg": 330,
+    "gust": 21.25,
     "sunrise": "07:23 AM",
     "sunset": "07:22 PM",
-    "dayOrNight": "day",
-    "humidity": 27,
-    "uv_index": 0.31,
-    "pressure": 1022,
+    "dayOrNight": "night",
+    "humidity": 29,
+    "uv_index": 0,
+    "pressure": 1023,
     "moon_phase": 0.92,
     "visibility": 10000,
-    "dew_point": 16.93
+    "dew_point": 17.11
   },
   "fiveDayWeather": [
     {
       "date": "Tuesday",
       "high": 55.78,
-      "low": 31.1,
+      "low": 31.46,
       "description": "clear sky",
       "wind_speed": 8.99,
-      "wind_deg": 350,
-      "gust": 20.74,
+      "wind_deg": 347,
+      "gust": 20.71,
       "humidity": 21,
       "uv_index": 5.89,
-      "pressure": 1028,
+      "pressure": 1029,
       "moon_phase": 0.95,
-      "dew_point": 14.18,
+      "dew_point": 13.14,
       "visibility": 10000
     },
     {
@@ -96,33 +96,19 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Wind Advisory",
-      "start": "4:40:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...For the Wind Advisory, northwest winds 15 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures with lows between 28 and 32 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Wind Advisory, until 7 PM CDT this evening. For the\nFreeze Warning, from 11 PM this evening to 9 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Freeze Warning",
       "start": "4:00:00 AM",
       "end": "2:00:00 PM",
-      "description": "* WHAT...For the Wind Advisory, northwest winds 15 to 20 mph with\ngusts up to 35 mph. For the Freeze Warning, sub-freezing\ntemperatures with lows between 28 and 32 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Wind Advisory, until 7 PM CDT this evening. For the\nFreeze Warning, from 11 PM this evening to 9 AM CDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrost and freeze conditions could kill crops, other sensitive\nvegetation and possibly damage unprotected outdoor plumbing.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
-      "event": "Red Flag Warning",
-      "start": "4:46:00 PM",
-      "end": "12:00:00 AM",
-      "description": "...RED FLAG WARNING AREA WIDE...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 055 Lower St. Martin, Fire\nWeather Zone 073 West Cameron, Fire Weather Zone 074 East\nCameron, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 152 Upper Vermilion,\nFire Weather Zone 153 Upper Iberia, Fire Weather Zone 154\nUpper St. Mary, Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 241 Southern Calcasieu, Fire\nWeather Zone 242 Southern Jefferson Davis, Fire Weather Zone\n243 Southern Acadia, Fire Weather Zone 252 Lower Vermilion,\nFire Weather Zone 253 Lower Iberia, Fire Weather Zone 254\nLower St. Mary, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...Until 7 PM CDT this evening.\n\n* WINDS...Northwest 15 to 20 mph with gusts up to 35 mph.\n\n* RELATIVE HUMIDITY...As low as 20 percent.\n\n* TEMPERATURES...Up to 55.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "* WHAT...Sub-freezing temperatures as low as 29 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 11 PM this evening to 9 AM CDT Tuesday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1022,
-    1022,
+    1023,
     1023,
     1024,
     1025,
+    1026,
     1027
   ],
   "fishingReport": {
