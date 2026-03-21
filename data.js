@@ -7,32 +7,17 @@ const data = {
     "wind_speed": 9.78,
     "wind_deg": 196,
     "gust": 27.67,
-    "sunrise": "07:18 AM",
-    "sunset": "07:25 PM",
+    "sunrise": "07:16 AM",
+    "sunset": "07:26 PM",
     "dayOrNight": "night",
     "humidity": 82,
     "uv_index": 0,
     "pressure": 1019,
-    "moon_phase": 0.06,
+    "moon_phase": 0.1,
     "visibility": 10000,
     "dew_point": 59.4
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 84.24,
-      "low": 59.95,
-      "description": "few clouds",
-      "wind_speed": 9.78,
-      "wind_deg": 196,
-      "gust": 27.76,
-      "humidity": 45,
-      "uv_index": 7.97,
-      "pressure": 1016,
-      "moon_phase": 0.1,
-      "dew_point": 57.49,
-      "visibility": 9797
-    },
     {
       "date": "Sunday",
       "high": 84.4,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.14,
       "dew_point": 55.13,
-      "visibility": 10000
+      "visibility": 9797
     },
     {
       "date": "Monday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.17,
       "dew_point": 55.27,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.25,
       "dew_point": 56.77,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 84.87,
+      "low": 61.25,
+      "description": "few clouds",
+      "wind_speed": 11.12,
+      "wind_deg": 193,
+      "gust": 26.15,
+      "humidity": 38,
+      "uv_index": 7,
+      "pressure": 1017,
+      "moon_phase": 0.28,
+      "dew_point": 53.96,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,8 +99,8 @@ const data = {
     1019,
     1019,
     1019,
-    1019,
     1018,
+    1017,
     1017
   ],
   "fishingReport": {
