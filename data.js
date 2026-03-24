@@ -1,8 +1,8 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 63.68,
-    "feels_like": 63.27,
+    "temp": 62.94,
+    "feels_like": 62.37,
     "description": "broken clouds",
     "wind_speed": 7.16,
     "wind_deg": 91,
@@ -10,12 +10,12 @@ const data = {
     "sunrise": "07:13 AM",
     "sunset": "07:28 PM",
     "dayOrNight": "night",
-    "humidity": 75,
+    "humidity": 73,
     "uv_index": 0,
     "pressure": 1020,
     "moon_phase": 0.21,
     "visibility": 10000,
-    "dew_point": 55.62
+    "dew_point": 54.16
   },
   "fiveDayWeather": [
     {
