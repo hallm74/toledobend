@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 66.63,
-    "feels_like": 67.08,
+    "temp": 65.79,
+    "feels_like": 66.34,
     "description": "clear sky",
-    "wind_speed": 9.53,
-    "wind_deg": 186,
-    "gust": 27.22,
-    "sunrise": "07:10 AM",
+    "wind_speed": 9.06,
+    "wind_deg": 192,
+    "gust": 28.3,
+    "sunrise": "07:09 AM",
     "sunset": "07:29 PM",
     "dayOrNight": "night",
-    "humidity": 87,
+    "humidity": 91,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.28,
+    "moon_phase": 0.32,
     "visibility": 10000,
-    "dew_point": 62.64
+    "dew_point": 63.09
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 84.85,
-      "low": 61.29,
-      "description": "few clouds",
-      "wind_speed": 16.71,
-      "wind_deg": 28,
-      "gust": 33.26,
-      "humidity": 44,
-      "uv_index": 9.01,
-      "pressure": 1020,
-      "moon_phase": 0.32,
-      "dew_point": 57.27,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 70.12,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.39,
       "dew_point": 55.22,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.46,
       "dew_point": 62.01,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 85.96,
+      "low": 66.27,
+      "description": "overcast clouds",
+      "wind_speed": 13.22,
+      "wind_deg": 177,
+      "gust": 26.75,
+      "humidity": 44,
+      "uv_index": 9,
+      "pressure": 1016,
+      "moon_phase": 0.5,
+      "dew_point": 59.52,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -104,7 +104,7 @@ const data = {
     1017
   ],
   "fishingReport": {
-    "date": "Feb 25, 2026",
-    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
