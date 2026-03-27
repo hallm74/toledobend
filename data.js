@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 74.93,
-    "feels_like": 75.51,
+    "temp": 77.77,
+    "feels_like": 78.08,
     "description": "few clouds",
-    "wind_speed": 3.96,
+    "wind_speed": 3.27,
     "wind_deg": 239,
-    "gust": 7.27,
+    "gust": 6.51,
     "sunrise": "07:09 AM",
     "sunset": "07:29 PM",
     "dayOrNight": "day",
-    "humidity": 72,
-    "uv_index": 5.79,
-    "pressure": 1022,
+    "humidity": 60,
+    "uv_index": 7.94,
+    "pressure": 1021,
     "moon_phase": 0.32,
     "visibility": 10000,
-    "dew_point": 65.3
+    "dew_point": 62.78
   },
   "fiveDayWeather": [
     {
@@ -94,13 +94,21 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Fire Weather Watch",
+      "start": "4:00:00 PM",
+      "end": "12:00:00 AM",
+      "description": "...RED FLAG WARNING FOR SOUTHWEST LOUISIANA...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\nThe National Weather Service in Lake Charles has issued a Fire\nWeather Watch for all of southeast Texas, which is in effect from\nSunday morning through Sunday evening.\n\n* AFFECTED AREA...Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From Sunday morning through Sunday evening.\n\n* WINDS...South 5 to 10 mph.\n\n* RELATIVE HUMIDITY...As low as 41 percent.\n\n* TEMPERATURES...Up to 82.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1022,
-    1022,
-    1022,
+    1021,
+    1021,
     1021,
     1020,
+    1019,
     1019
   ],
   "fishingReport": {
