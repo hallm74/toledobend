@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 68.7,
-    "feels_like": 66.78,
-    "description": "broken clouds",
-    "wind_speed": 7.29,
-    "wind_deg": 43,
-    "gust": 9.84,
+    "temp": 69.98,
+    "feels_like": 68.18,
+    "description": "scattered clouds",
+    "wind_speed": 7.38,
+    "wind_deg": 39,
+    "gust": 8.99,
     "sunrise": "07:08 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "day",
     "humidity": 32,
-    "uv_index": 6.84,
-    "pressure": 1028,
+    "uv_index": 4.49,
+    "pressure": 1027,
     "moon_phase": 0.35,
     "visibility": 10000,
-    "dew_point": 37.69
+    "dew_point": 38.8
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Fire Weather Watch",
-      "start": "4:00:00 PM",
-      "end": "12:00:00 AM",
-      "description": "...RED FLAG WARNING FOR SOUTHWEST LOUISIANA...\n\n.Windy and dry conditions behind a cold front will produce red\nflag conditons across much of the area Saturday and possibly\nSunday.\n\n* AFFECTED AREA...Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From Sunday morning through Sunday evening.\n\n* WINDS...South 5 to 10 mph.\n\n* RELATIVE HUMIDITY...As low as 35 percent.\n\n* TEMPERATURES...Up to 83.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1028,
-    1028,
+    1027,
     1027,
     1027,
     1026,
-    1026
+    1026,
+    1027
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
