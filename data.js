@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 63.93,
-    "feels_like": 63.09,
+    "temp": 63.16,
+    "feels_like": 62.13,
     "description": "broken clouds",
-    "wind_speed": 15.23,
-    "wind_deg": 39,
-    "gust": 29.24,
+    "wind_speed": 13.8,
+    "wind_deg": 42,
+    "gust": 27.04,
     "sunrise": "07:08 AM",
     "sunset": "07:30 PM",
     "dayOrNight": "night",
-    "humidity": 65,
+    "humidity": 63,
     "uv_index": 0,
-    "pressure": 1026,
+    "pressure": 1027,
     "moon_phase": 0.35,
     "visibility": 10000,
-    "dew_point": 51.94
+    "dew_point": 50.38
   },
   "fiveDayWeather": [
     {
@@ -99,16 +99,16 @@ const data = {
       "event": "Fire Weather Watch",
       "start": "4:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "...RED FLAG WARNING FOR SOUTHWEST LOUISIANA...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\nThe National Weather Service in Lake Charles has issued a Fire\nWeather Watch for all of southeast Texas, which is in effect from\nSunday morning through Sunday evening.\n\n* AFFECTED AREA...Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From Sunday morning through Sunday evening.\n\n* WINDS...South 5 to 10 mph.\n\n* RELATIVE HUMIDITY...As low as 41 percent.\n\n* TEMPERATURES...Up to 82.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...RED FLAG WARNING FOR SOUTHWEST LOUISIANA...\n\n.Windy and dry conditions behind a cold front may produce red\nflag conditons across much of the area Monday.\n\n* AFFECTED AREA...Fire Weather Zone 180 Tyler, Fire Weather Zone\n201 Hardin, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper, Fire Weather Zone 262 Southern Newton, Fire\nWeather Zone 515 Upper Jefferson, Fire Weather Zone 516\nNorthern Orange, Fire Weather Zone 615 Lower Jefferson and\nFire Weather Zone 616 Southern Orange.\n\n* TIMING...From Sunday morning through Sunday evening.\n\n* WINDS...South 5 to 10 mph.\n\n* RELATIVE HUMIDITY...As low as 35 percent.\n\n* TEMPERATURES...Up to 82.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1026,
-    1026,
+    1027,
     1027,
     1027,
     1028,
+    1029,
     1029
   ],
   "fishingReport": {
