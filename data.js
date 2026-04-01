@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 70.07,
-    "feels_like": 70.86,
+    "temp": 69.46,
+    "feels_like": 70.38,
     "description": "broken clouds",
-    "wind_speed": 9.73,
-    "wind_deg": 172,
-    "gust": 25.26,
-    "sunrise": "07:04 AM",
-    "sunset": "07:32 PM",
+    "wind_speed": 8.05,
+    "wind_deg": 180,
+    "gust": 24.07,
+    "sunrise": "07:02 AM",
+    "sunset": "07:33 PM",
     "dayOrNight": "night",
-    "humidity": 87,
+    "humidity": 91,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.46,
+    "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 66.02
+    "dew_point": 66.72
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 85.62,
-      "low": 68.88,
-      "description": "scattered clouds",
-      "wind_speed": 10.98,
-      "wind_deg": 175,
-      "gust": 27.36,
-      "humidity": 44,
-      "uv_index": 8.4,
-      "pressure": 1016,
-      "moon_phase": 0.5,
-      "dew_point": 60.01,
-      "visibility": 9755
-    },
     {
       "date": "Thursday",
       "high": 79.75,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.52,
       "dew_point": 65.5,
-      "visibility": 9911
+      "visibility": 9755
     },
     {
       "date": "Friday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.55,
       "dew_point": 63.61,
-      "visibility": "Unavailable"
+      "visibility": 9911
     },
     {
       "date": "Saturday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0.61,
       "dew_point": 43.83,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 73.63,
+      "low": 53.26,
+      "description": "light rain",
+      "wind_speed": 7.58,
+      "wind_deg": 64,
+      "gust": 17.16,
+      "humidity": 36,
+      "uv_index": 5,
+      "pressure": 1021,
+      "moon_phase": 0.64,
+      "dew_point": 41.94,
       "visibility": "Unavailable"
     }
   ],
