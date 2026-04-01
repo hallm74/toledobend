@@ -1,27 +1,27 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 72.09,
-    "feels_like": 72.75,
-    "description": "scattered clouds",
-    "wind_speed": 9.37,
-    "wind_deg": 180,
-    "gust": 24.47,
+    "temp": 70.07,
+    "feels_like": 70.86,
+    "description": "broken clouds",
+    "wind_speed": 9.73,
+    "wind_deg": 172,
+    "gust": 25.26,
     "sunrise": "07:04 AM",
     "sunset": "07:32 PM",
     "dayOrNight": "night",
-    "humidity": 80,
+    "humidity": 87,
     "uv_index": 0,
     "pressure": 1017,
     "moon_phase": 0.46,
     "visibility": 10000,
-    "dew_point": 65.57
+    "dew_point": 66.02
   },
   "fiveDayWeather": [
     {
       "date": "Wednesday",
       "high": 85.62,
-      "low": 68.7,
+      "low": 68.88,
       "description": "scattered clouds",
       "wind_speed": 10.98,
       "wind_deg": 175,
@@ -55,7 +55,7 @@ const data = {
       "description": "overcast clouds",
       "wind_speed": 11.72,
       "wind_deg": 173,
-      "gust": 26.19,
+      "gust": 26.64,
       "humidity": 56,
       "uv_index": 6.61,
       "pressure": 1017,
@@ -70,7 +70,7 @@ const data = {
       "description": "moderate rain",
       "wind_speed": 9.62,
       "wind_deg": 183,
-      "gust": 26.73,
+      "gust": 26.78,
       "humidity": 55,
       "uv_index": 4.65,
       "pressure": 1016,
@@ -104,7 +104,7 @@ const data = {
     1017
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
