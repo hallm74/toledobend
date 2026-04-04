@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 72.61,
-    "feels_like": 73.76,
+    "temp": 72.57,
+    "feels_like": 73.71,
     "description": "overcast clouds",
     "wind_speed": 7.47,
     "wind_deg": 164,
     "gust": 26.06,
-    "sunrise": "07:00 AM",
-    "sunset": "07:34 PM",
+    "sunrise": "06:59 AM",
+    "sunset": "07:35 PM",
     "dayOrNight": "night",
     "humidity": 89,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.55,
+    "moon_phase": 0.58,
     "visibility": 10000,
-    "dew_point": 69.19
+    "dew_point": 69.15
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 79.97,
-      "low": 65.59,
-      "description": "moderate rain",
-      "wind_speed": 8.61,
-      "wind_deg": 226,
-      "gust": 27.36,
-      "humidity": 83,
-      "uv_index": 5.94,
-      "pressure": 1017,
-      "moon_phase": 0.58,
-      "dew_point": 67.69,
-      "visibility": 9742
-    },
     {
       "date": "Sunday",
       "high": 70.66,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0.61,
       "dew_point": 45.86,
-      "visibility": 9706
+      "visibility": 9742
     },
     {
       "date": "Monday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.64,
       "dew_point": 38.66,
-      "visibility": "Unavailable"
+      "visibility": 9706
     },
     {
       "date": "Tuesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.7,
       "dew_point": 50.97,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 73.98,
+      "low": 59.7,
+      "description": "moderate rain",
+      "wind_speed": 8.86,
+      "wind_deg": 119,
+      "gust": 24.61,
+      "humidity": 68,
+      "uv_index": 8,
+      "pressure": 1019,
+      "moon_phase": 0.73,
+      "dew_point": 61.18,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,7 +99,7 @@ const data = {
     1017,
     1017,
     1017,
-    1017,
+    1016,
     1016,
     1016
   ],
