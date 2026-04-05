@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 65.19,
-    "feels_like": 65.88,
-    "description": "overcast clouds",
-    "wind_speed": 10.94,
-    "wind_deg": 10,
-    "gust": 20.69,
-    "sunrise": "06:59 AM",
+    "temp": 64.81,
+    "feels_like": 65.46,
+    "description": "moderate rain",
+    "wind_speed": 10.09,
+    "wind_deg": 6,
+    "gust": 19.39,
+    "sunrise": "06:58 AM",
     "sunset": "07:35 PM",
     "dayOrNight": "night",
     "humidity": 95,
     "uv_index": 0,
-    "pressure": 1020,
-    "moon_phase": 0.58,
+    "pressure": 1021,
+    "moon_phase": 0.61,
     "visibility": 10000,
-    "dew_point": 63.72
+    "dew_point": 63.36
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 69.91,
-      "low": 57.36,
-      "description": "overcast clouds",
-      "wind_speed": 12.68,
-      "wind_deg": 28,
-      "gust": 24.27,
-      "humidity": 36,
-      "uv_index": 8.15,
-      "pressure": 1024,
-      "moon_phase": 0.61,
-      "dew_point": 39.69,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 72.99,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.67,
       "dew_point": 38.12,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.73,
       "dew_point": 59,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 82.58,
+      "low": 60.28,
+      "description": "broken clouds",
+      "wind_speed": 10.92,
+      "wind_deg": 112,
+      "gust": 25.19,
+      "humidity": 56,
+      "uv_index": 5,
+      "pressure": 1020,
+      "moon_phase": 0.75,
+      "dew_point": 61.77,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
-    1020,
-    1020,
     1021,
-    1021
+    1021,
+    1021,
+    1021,
+    1021,
+    1022
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
