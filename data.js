@@ -1,36 +1,36 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.62,
-    "feels_like": 69.8,
+    "temp": 65.52,
+    "feels_like": 63.55,
     "description": "clear sky",
-    "wind_speed": 9.15,
-    "wind_deg": 55,
-    "gust": 12.95,
+    "wind_speed": 6.82,
+    "wind_deg": 50,
+    "gust": 13.09,
     "sunrise": "06:56 AM",
     "sunset": "07:36 PM",
     "dayOrNight": "day",
-    "humidity": 28,
-    "uv_index": 0.77,
-    "pressure": 1020,
+    "humidity": 38,
+    "uv_index": 0,
+    "pressure": 1021,
     "moon_phase": 0.64,
     "visibility": 10000,
-    "dew_point": 36.82
+    "dew_point": 39.27
   },
   "fiveDayWeather": [
     {
       "date": "Tuesday",
-      "high": 73.78,
-      "low": 47.8,
+      "high": 74.34,
+      "low": 46.85,
       "description": "overcast clouds",
-      "wind_speed": 8.63,
-      "wind_deg": 93,
-      "gust": 21.03,
-      "humidity": 30,
+      "wind_speed": 9.04,
+      "wind_deg": 92,
+      "gust": 20.09,
+      "humidity": 28,
       "uv_index": 8.18,
       "pressure": 1021,
       "moon_phase": 0.67,
-      "dew_point": 37.35,
+      "dew_point": 36.79,
       "visibility": 10000
     },
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
-    1020,
+    1021,
+    1021,
+    1021,
     1021,
     1022,
-    1023
+    1022
   ],
   "fishingReport": {
-    "date": "Feb 25, 2026",
-    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
