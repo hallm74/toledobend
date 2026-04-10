@@ -1,36 +1,36 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 77.9,
-    "feels_like": 77.74,
-    "description": "broken clouds",
-    "wind_speed": 8.1,
-    "wind_deg": 108,
-    "gust": 18.19,
+    "temp": 74.3,
+    "feels_like": 74.21,
+    "description": "overcast clouds",
+    "wind_speed": 6.91,
+    "wind_deg": 133,
+    "gust": 19.98,
     "sunrise": "06:53 AM",
     "sunset": "07:38 PM",
     "dayOrNight": "day",
-    "humidity": 50,
-    "uv_index": 0.66,
+    "humidity": 59,
+    "uv_index": 0,
     "pressure": 1020,
     "moon_phase": 0.73,
     "visibility": 10000,
-    "dew_point": 57.78
+    "dew_point": 59.05
   },
   "fiveDayWeather": [
     {
       "date": "Friday",
       "high": 79.7,
-      "low": 55.33,
+      "low": 57.16,
       "description": "light rain",
-      "wind_speed": 8.63,
-      "wind_deg": 153,
-      "gust": 23.76,
-      "humidity": 51,
+      "wind_speed": 9.06,
+      "wind_deg": 152,
+      "gust": 24.16,
+      "humidity": 52,
       "uv_index": 8.24,
       "pressure": 1023,
       "moon_phase": 0.75,
-      "dew_point": 59.23,
+      "dew_point": 59.67,
       "visibility": 10000
     },
     {
@@ -99,12 +99,12 @@ const data = {
     1020,
     1020,
     1020,
-    1021,
+    1020,
     1021,
     1021
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
