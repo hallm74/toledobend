@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.26,
-    "feels_like": 72.03,
+    "temp": 74.97,
+    "feels_like": 75.54,
     "description": "few clouds",
-    "wind_speed": 7.2,
-    "wind_deg": 130,
-    "gust": 12.37,
+    "wind_speed": 7.38,
+    "wind_deg": 129,
+    "gust": 11.65,
     "sunrise": "06:50 AM",
     "sunset": "07:39 PM",
     "dayOrNight": "day",
-    "humidity": 84,
-    "uv_index": 3.56,
+    "humidity": 72,
+    "uv_index": 5.96,
     "pressure": 1025,
     "moon_phase": 0.8,
     "visibility": 10000,
-    "dew_point": 66.18
+    "dew_point": 65.34
   },
   "fiveDayWeather": [
     {
@@ -98,13 +98,13 @@ const data = {
   "barometricPressureHistory": [
     1025,
     1025,
-    1025,
     1024,
     1023,
-    1021
+    1022,
+    1020
   ],
   "fishingReport": {
-    "date": "Feb 25, 2026",
-    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
+    "date": "Unavailable",
+    "report": "Error fetching fishing report"
   }
 };
