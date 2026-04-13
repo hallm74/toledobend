@@ -4,9 +4,9 @@ const data = {
     "temp": 68.67,
     "feels_like": 69.69,
     "description": "overcast clouds",
-    "wind_speed": 6.29,
-    "wind_deg": 174,
-    "gust": 21.05,
+    "wind_speed": 7.63,
+    "wind_deg": 170,
+    "gust": 23.2,
     "sunrise": "06:48 AM",
     "sunset": "07:40 PM",
     "dayOrNight": "night",
@@ -100,7 +100,7 @@ const data = {
     1020,
     1020,
     1020,
-    1020,
+    1021,
     1021
   ],
   "fishingReport": {
