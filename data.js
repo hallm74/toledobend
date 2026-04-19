@@ -1,28 +1,28 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 61.23,
-    "feels_like": 61.47,
-    "description": "light rain",
-    "wind_speed": 13.24,
-    "wind_deg": 355,
-    "gust": 23.53,
+    "temp": 58.57,
+    "feels_like": 58.44,
+    "description": "moderate rain",
+    "wind_speed": 14.52,
+    "wind_deg": 14,
+    "gust": 26.17,
     "sunrise": "06:42 AM",
     "sunset": "07:44 PM",
     "dayOrNight": "night",
-    "humidity": 94,
+    "humidity": 92,
     "uv_index": 0,
-    "pressure": 1020,
+    "pressure": 1021,
     "moon_phase": 0.05,
-    "visibility": 2212,
-    "dew_point": 59.49
+    "visibility": 10000,
+    "dew_point": 56.25
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
       "high": 74.77,
       "low": 51.08,
-      "description": "broken clouds",
+      "description": "light rain",
       "wind_speed": 13.2,
       "wind_deg": 22,
       "gust": 31.63,
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1025,
       "moon_phase": 0.09,
       "dew_point": 31.06,
-      "visibility": 9676
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1020,
-    1020,
-    1020,
+    1021,
     1021,
     1022,
-    1023
+    1023,
+    1023,
+    1024
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
