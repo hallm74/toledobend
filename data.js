@@ -1,36 +1,36 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 70.23,
-    "feels_like": 68.56,
+    "temp": 64.33,
+    "feels_like": 62.53,
     "description": "broken clouds",
-    "wind_speed": 6.8,
-    "wind_deg": 85,
-    "gust": 11.32,
+    "wind_speed": 6.24,
+    "wind_deg": 84,
+    "gust": 15.14,
     "sunrise": "06:41 AM",
     "sunset": "07:44 PM",
     "dayOrNight": "day",
-    "humidity": 34,
-    "uv_index": 1.01,
-    "pressure": 1024,
+    "humidity": 44,
+    "uv_index": 0,
+    "pressure": 1023,
     "moon_phase": 0.09,
     "visibility": 10000,
-    "dew_point": 40.59
+    "dew_point": 41.97
   },
   "fiveDayWeather": [
     {
       "date": "Monday",
       "high": 73.76,
-      "low": 50.92,
+      "low": 49.21,
       "description": "overcast clouds",
-      "wind_speed": 9.1,
-      "wind_deg": 113,
-      "gust": 20.76,
-      "humidity": 31,
+      "wind_speed": 9.19,
+      "wind_deg": 103,
+      "gust": 17.36,
+      "humidity": 28,
       "uv_index": 7.73,
       "pressure": 1026,
       "moon_phase": 0.12,
-      "dew_point": 38.03,
+      "dew_point": 37.11,
       "visibility": 10000
     },
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
+    1023,
+    1023,
+    1023,
     1024,
     1024,
-    1024,
-    1024,
-    1025,
     1025
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
