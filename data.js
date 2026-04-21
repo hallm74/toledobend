@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 59.49,
-    "feels_like": 58.75,
+    "temp": 57.07,
+    "feels_like": 55.9,
     "description": "overcast clouds",
-    "wind_speed": 3.76,
+    "wind_speed": 5.14,
     "wind_deg": 141,
-    "gust": 5.37,
-    "sunrise": "06:40 AM",
-    "sunset": "07:45 PM",
+    "gust": 9.08,
+    "sunrise": "06:39 AM",
+    "sunset": "07:46 PM",
     "dayOrNight": "night",
-    "humidity": 77,
+    "humidity": 73,
     "uv_index": 0,
     "pressure": 1024,
-    "moon_phase": 0.12,
+    "moon_phase": 0.16,
     "visibility": 10000,
-    "dew_point": 52.29
+    "dew_point": 48.52
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 59.47,
-      "low": 52.9,
-      "description": "moderate rain",
-      "wind_speed": 9.64,
-      "wind_deg": 122,
-      "gust": 20.67,
-      "humidity": 90,
-      "uv_index": 3.18,
-      "pressure": 1026,
-      "moon_phase": 0.16,
-      "dew_point": 53.02,
-      "visibility": 9941
-    },
     {
       "date": "Wednesday",
       "high": 76.26,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.2,
       "dew_point": 61.05,
-      "visibility": 10000
+      "visibility": 9941
     },
     {
       "date": "Thursday",
@@ -55,18 +40,18 @@ const data = {
       "description": "light rain",
       "wind_speed": 10.18,
       "wind_deg": 172,
-      "gust": 25.1,
+      "gust": 25.97,
       "humidity": 64,
       "uv_index": 7.67,
       "pressure": 1013,
       "moon_phase": 0.25,
       "dew_point": 65.32,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
       "high": 80.26,
-      "low": 68.04,
+      "low": 67.8,
       "description": "light rain",
       "wind_speed": 11.48,
       "wind_deg": 183,
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.31,
       "dew_point": 68.38,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 86.94,
+      "low": 69.49,
+      "description": "moderate rain",
+      "wind_speed": 8.86,
+      "wind_deg": 103,
+      "gust": 23.98,
+      "humidity": 65,
+      "uv_index": 6,
+      "pressure": 1009,
+      "moon_phase": 0.34,
+      "dew_point": 69.6,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,9 +99,9 @@ const data = {
     1024,
     1024,
     1024,
-    1024,
-    1024,
-    1023
+    1023,
+    1023,
+    1024
   ],
   "fishingReport": {
     "date": "Feb 25, 2026",
