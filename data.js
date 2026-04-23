@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 66.81,
-    "feels_like": 67.71,
+    "temp": 66.92,
+    "feels_like": 67.78,
     "description": "scattered clouds",
-    "wind_speed": 5.41,
-    "wind_deg": 143,
-    "gust": 15.55,
+    "wind_speed": 5.53,
+    "wind_deg": 145,
+    "gust": 16.08,
     "sunrise": "06:37 AM",
     "sunset": "07:47 PM",
-    "dayOrNight": "night",
-    "humidity": 96,
+    "dayOrNight": "day",
+    "humidity": 95,
     "uv_index": 0,
     "pressure": 1014,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 65.64
+    "dew_point": 65.44
   },
   "fiveDayWeather": [
     {
@@ -25,7 +25,7 @@ const data = {
       "description": "light rain",
       "wind_speed": 10.25,
       "wind_deg": 184,
-      "gust": 25.88,
+      "gust": 26.04,
       "humidity": 63,
       "uv_index": 8.25,
       "pressure": 1009,
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1008,
       "moon_phase": 0.31,
       "dew_point": 66.33,
-      "visibility": 9642
+      "visibility": 9369
     },
     {
       "date": "Sunday",
@@ -100,11 +100,11 @@ const data = {
     1014,
     1014,
     1015,
-    1015,
-    1014
+    1014,
+    1013
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
