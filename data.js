@@ -1,37 +1,37 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.03,
-    "feels_like": 79.03,
+    "temp": 80.56,
+    "feels_like": 84.33,
     "description": "overcast clouds",
-    "wind_speed": 9.57,
+    "wind_speed": 10.45,
     "wind_deg": 191,
-    "gust": 15.03,
+    "gust": 15.37,
     "sunrise": "06:36 AM",
     "sunset": "07:48 PM",
     "dayOrNight": "day",
-    "humidity": 75,
-    "uv_index": 5.25,
-    "pressure": 1010,
+    "humidity": 73,
+    "uv_index": 5.63,
+    "pressure": 1009,
     "moon_phase": 0.27,
     "visibility": 10000,
-    "dew_point": 70.43
+    "dew_point": 71.11
   },
   "fiveDayWeather": [
     {
       "date": "Saturday",
       "high": 90.25,
-      "low": 69.89,
+      "low": 72,
       "description": "overcast clouds",
       "wind_speed": 9.64,
       "wind_deg": 182,
-      "gust": 24.65,
+      "gust": 23.8,
       "humidity": 66,
       "uv_index": 8.76,
       "pressure": 1009,
       "moon_phase": 0.31,
       "dew_point": 68.86,
-      "visibility": 10000
+      "visibility": 9822
     },
     {
       "date": "Sunday",
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1010,
-    1010,
+    1009,
+    1009,
     1009,
     1008,
-    1008,
-    1007
+    1007,
+    1006
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
