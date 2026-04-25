@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 70.02,
-    "feels_like": 71.13,
-    "description": "scattered clouds",
-    "wind_speed": 4.27,
-    "wind_deg": 210,
-    "gust": 14.29,
+    "temp": 69.53,
+    "feels_like": 70.56,
+    "description": "moderate rain",
+    "wind_speed": 3.62,
+    "wind_deg": 203,
+    "gust": 12.95,
     "sunrise": "06:35 AM",
     "sunset": "07:48 PM",
     "dayOrNight": "night",
-    "humidity": 94,
+    "humidity": 93,
     "uv_index": 0,
-    "pressure": 1008,
+    "pressure": 1009,
     "moon_phase": 0.31,
     "visibility": 10000,
-    "dew_point": 68.22
+    "dew_point": 67.42
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1008,
       "moon_phase": 0.34,
       "dew_point": 65.82,
-      "visibility": 10000
+      "visibility": 9696
     },
     {
       "date": "Monday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1010,
       "moon_phase": 0.37,
       "dew_point": 66.42,
-      "visibility": 9009
+      "visibility": 9313
     },
     {
       "date": "Tuesday",
@@ -94,17 +94,25 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "9:15:00 AM",
+      "end": "9:45:00 AM",
+      "description": "At 414 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from Kurthwood to 6 miles southwest of New Llano.\nMovement was southeast at 40 mph.\n\nHAZARD...Penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to vegetation and outdoor objects is possible.\n\nLocations impacted include...\nDe Ridder, Leesville, Rosepine, Anacoco, Toledo Bend Dam, Fort Polk,\nSlagle, New Llano, Hornbeck, Lacamp, Fullerton, Hutton, Clifton, Burr\nFerry, Otis, Kurthwood, Tulla, Leander, Sieper, and Gardner.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1008,
-    1008,
-    1008,
-    1008,
-    1008,
+    1009,
+    1009,
+    1009,
+    1009,
+    1009,
     1009
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "date": "Feb 25, 2026",
+    "report": "FAIR. 46 degrees; 4.06 feet below pool. Fishing has slowed significantly due to high winds and cold temperatures, with water temperatures dropping back into the mid-50s. A few fish are moving shallow, but presentations must be worked very slowly to get bites. The most consistent action is coming from mid-depth ranges of 8-14 feet using football jigs, Texas-rigged plastics, and crankbaits. Access to main-lake areas has been limited by wind, but conditions are expected to improve and fishing should return to more normal patterns by the weekend. Report by Stephen Johnston, Johnston Fishing."
   }
 };
