@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 66.69,
-    "feels_like": 67.42,
+    "temp": 66.16,
+    "feels_like": 66.9,
     "description": "overcast clouds",
-    "wind_speed": 9.89,
-    "wind_deg": 43,
-    "gust": 17.22,
+    "wind_speed": 10.07,
+    "wind_deg": 65,
+    "gust": 23.26,
     "sunrise": "06:30 AM",
     "sunset": "07:52 PM",
     "dayOrNight": "day",
-    "humidity": 93,
-    "uv_index": 0.1,
-    "pressure": 1011,
+    "humidity": 94,
+    "uv_index": 0,
+    "pressure": 1012,
     "moon_phase": 0.47,
     "visibility": 10000,
-    "dew_point": 64.6
+    "dew_point": 64.38
   },
   "fiveDayWeather": [
     {
@@ -28,10 +28,10 @@ const data = {
       "gust": 37.8,
       "humidity": 98,
       "uv_index": 0.96,
-      "pressure": 1011,
+      "pressure": 1013,
       "moon_phase": 0.5,
-      "dew_point": 57.43,
-      "visibility": 8451
+      "dew_point": 56.1,
+      "visibility": 7306
     },
     {
       "date": "Saturday",
@@ -99,14 +99,14 @@ const data = {
       "event": "Flood Watch",
       "start": "9:00:00 AM",
       "end": "9:00:00 AM",
-      "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nBeauregard, Rapides and Vernon and southeast Texas, including the\nfollowing areas, Hardin, Northern Jasper, Northern Newton,\nSouthern Jasper, Southern Newton and Tyler.\n\n* WHEN...From late tonight through early Saturday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- A boundary is expected to set up which may result in an area\nof\nheavy rainfall and repeating storms within the watch area.\nRainfall\ntotals 2 to 4 inches with locally higher amounts may be\npossible.\n- http://www.weather.gov/safety/flood",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nBeauregard, Rapides and Vernon and southeast Texas, including the\nfollowing areas, Hardin, Northern Jasper, Northern Newton,\nSouthern Jasper, Southern Newton and Tyler.\n\n* WHEN...From 4 AM CDT Friday through late Friday night.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- A boundary is expected to set up which may result in an area\nof\nheavy rainfall and repeating storms within the watch area.\nRainfall\ntotals 2 to 4 inches with locally higher amounts may be\npossible.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1011,
-    1011,
-    1011,
+    1012,
+    1012,
+    1012,
     1012,
     1013,
     1013
