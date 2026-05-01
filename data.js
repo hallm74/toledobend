@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 58.48,
-    "feels_like": 58.53,
-    "description": "light rain",
+    "temp": 58.71,
+    "feels_like": 58.75,
+    "description": "moderate rain",
     "wind_speed": 9.8,
     "wind_deg": 40,
     "gust": 20.11,
     "sunrise": "06:29 AM",
     "sunset": "07:53 PM",
     "dayOrNight": "day",
-    "humidity": 96,
+    "humidity": 95,
     "uv_index": 0.39,
     "pressure": 1014,
     "moon_phase": 0.5,
     "visibility": 7114,
-    "dew_point": 57.34
+    "dew_point": 57.29
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.53,
       "dew_point": 42.96,
-      "visibility": 7138
+      "visibility": 7392
     },
     {
       "date": "Sunday",
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Flood Watch",
-      "start": "9:00:00 AM",
+      "start": "1:47:00 PM",
       "end": "9:00:00 AM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nBeauregard, Rapides and Vernon and southeast Texas, including the\nfollowing areas, Hardin, Northern Jasper, Northern Newton,\nSouthern Jasper, Southern Newton and Tyler.\n\n* WHEN...From 4 AM CDT Friday through late Friday night.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- A boundary is expected to set up which may result in an area\nof\nheavy rainfall and repeating storms within the watch area.\nRainfall\ntotals 2 to 4 inches with locally higher amounts may be\npossible.\n- http://www.weather.gov/safety/flood",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Rapides, St. Landry and\nVernon and southeast Texas, including the following areas, Hardin,\nNorthern Jasper, Northern Newton, Southern Jasper, Southern Newton\nand Tyler.\n\n* WHEN...Through late tonight.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Widespread showers and a few thunderstorms with high rain\nrates for a prolonged period may cause flooding.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -108,8 +108,8 @@ const data = {
     1014,
     1014,
     1014,
-    1014,
-    1013
+    1013,
+    1012
   ],
   "fishingReport": {
     "date": "Unavailable",
