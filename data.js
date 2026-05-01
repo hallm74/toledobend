@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 57.65,
-    "feels_like": 57.58,
+    "temp": 57.18,
+    "feels_like": 57.07,
     "description": "light rain",
-    "wind_speed": 12.12,
-    "wind_deg": 34,
-    "gust": 25.64,
+    "wind_speed": 11.21,
+    "wind_deg": 30,
+    "gust": 22.32,
     "sunrise": "06:29 AM",
     "sunset": "07:53 PM",
     "dayOrNight": "day",
     "humidity": 95,
-    "uv_index": 0.96,
-    "pressure": 1014,
+    "uv_index": 1.27,
+    "pressure": 1013,
     "moon_phase": 0.5,
-    "visibility": 1574,
-    "dew_point": 56.23
+    "visibility": 4870,
+    "dew_point": 55.76
   },
   "fiveDayWeather": [
     {
@@ -27,11 +27,11 @@ const data = {
       "wind_deg": 24,
       "gust": 28.32,
       "humidity": 36,
-      "uv_index": 9.21,
+      "uv_index": 9.01,
       "pressure": 1019,
       "moon_phase": 0.53,
       "dew_point": 42.01,
-      "visibility": 8507
+      "visibility": 8859
     },
     {
       "date": "Sunday",
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 191,
       "gust": 20.4,
       "humidity": 39,
-      "uv_index": 8.9,
+      "uv_index": 8.27,
       "pressure": 1021,
       "moon_phase": 0.56,
       "dew_point": 48.25,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 185,
       "gust": 25.84,
       "humidity": 41,
-      "uv_index": 7.64,
+      "uv_index": 8.73,
       "pressure": 1014,
       "moon_phase": 0.59,
       "dew_point": 52.36,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 187,
       "gust": 28.39,
       "humidity": 75,
-      "uv_index": 0.1,
+      "uv_index": 6.81,
       "pressure": 1011,
       "moon_phase": 0.62,
       "dew_point": 66.11,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 199,
       "gust": 27.31,
       "humidity": 69,
-      "uv_index": 1,
+      "uv_index": 0.09,
       "pressure": 1008,
       "moon_phase": 0.65,
       "dew_point": 71.15,
@@ -97,16 +97,16 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Flood Watch",
-      "start": "1:47:00 PM",
+      "start": "7:17:00 PM",
       "end": "9:00:00 AM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Rapides, St. Landry and\nVernon and southeast Texas, including the following areas, Hardin,\nNorthern Jasper, Northern Newton, Southern Jasper, Southern Newton\nand Tyler.\n\n* WHEN...Through late tonight.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Widespread showers and a few thunderstorms with high rain\nrates for a prolonged period may cause flooding.\n- http://www.weather.gov/safety/flood",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Rapides, St. Landry and\nVernon and southeast Texas, including the following areas, Hardin,\nNorthern Jasper, Northern Newton, Southern Jasper, Southern Newton\nand Tyler.\n\n* WHEN...Through late tonight.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Areas have received between 1 and 3 inches of rainfall\nyesterday with another 1 to 3 inches received today.\nareas where thunderstorms move over repeatedly may experience\nrapid onset flooding.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1014,
-    1014,
-    1014,
+    1013,
+    1013,
+    1013,
     1013,
     1013,
     1013
