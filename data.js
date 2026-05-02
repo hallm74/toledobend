@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 54.48,
-    "feels_like": 54.05,
-    "description": "moderate rain",
-    "wind_speed": 11.68,
-    "wind_deg": 33,
-    "gust": 22.44,
-    "sunrise": "06:29 AM",
+    "temp": 53.92,
+    "feels_like": 53.44,
+    "description": "overcast clouds",
+    "wind_speed": 11.52,
+    "wind_deg": 55,
+    "gust": 28.12,
+    "sunrise": "06:28 AM",
     "sunset": "07:53 PM",
     "dayOrNight": "night",
     "humidity": 94,
     "uv_index": 0,
     "pressure": 1016,
-    "moon_phase": 0.5,
-    "visibility": 4165,
-    "dew_point": 52.79
+    "moon_phase": 0.53,
+    "visibility": 10000,
+    "dew_point": 52.23
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 72.57,
-      "low": 52.5,
-      "description": "light rain",
-      "wind_speed": 11.52,
-      "wind_deg": 55,
-      "gust": 28.12,
-      "humidity": 35,
-      "uv_index": 9.01,
-      "pressure": 1020,
-      "moon_phase": 0.53,
-      "dew_point": 41.36,
-      "visibility": 9757
-    },
     {
       "date": "Sunday",
       "high": 75.49,
@@ -55,13 +40,13 @@ const data = {
       "description": "overcast clouds",
       "wind_speed": 10.4,
       "wind_deg": 181,
-      "gust": 25.64,
+      "gust": 26.17,
       "humidity": 41,
       "uv_index": 8.73,
       "pressure": 1015,
       "moon_phase": 0.59,
       "dew_point": 52.11,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,24 +77,31 @@ const data = {
       "moon_phase": 0.65,
       "dew_point": 72.77,
       "visibility": "Unavailable"
-    }
-  ],
-  "weatherAlerts": [
+    },
     {
-      "event": "Flood Watch",
-      "start": "7:17:00 PM",
-      "end": "9:00:00 AM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Rapides, St. Landry and\nVernon and southeast Texas, including the following areas, Hardin,\nNorthern Jasper, Northern Newton, Southern Jasper, Southern Newton\nand Tyler.\n\n* WHEN...Through late tonight.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Areas have received between 1 and 3 inches of rainfall\nyesterday with another 1 to 3 inches received today.\nareas where thunderstorms move over repeatedly may experience\nrapid onset flooding.\n- http://www.weather.gov/safety/flood",
-      "sender": "NWS Lake Charles LA"
+      "date": "Thursday",
+      "high": 73.85,
+      "low": 53.94,
+      "description": "scattered clouds",
+      "wind_speed": 12.73,
+      "wind_deg": 336,
+      "gust": 23.49,
+      "humidity": 40,
+      "uv_index": 1,
+      "pressure": 1018,
+      "moon_phase": 0.68,
+      "dew_point": 44.2,
+      "visibility": "Unavailable"
     }
   ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1016,
     1016,
     1016,
-    1016,
     1015,
-    1015
+    1016,
+    1017
   ],
   "fishingReport": {
     "date": "Unavailable",
