@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 77.11,
-    "feels_like": 78.46,
+    "temp": 77.38,
+    "feels_like": 78.85,
     "description": "overcast clouds",
-    "wind_speed": 4.85,
-    "wind_deg": 219,
-    "gust": 8.84,
+    "wind_speed": 5.95,
+    "wind_deg": 232,
+    "gust": 9.91,
     "sunrise": "06:25 AM",
     "sunset": "07:56 PM",
     "dayOrNight": "day",
-    "humidity": 84,
-    "uv_index": 8.46,
-    "pressure": 1010,
+    "humidity": 86,
+    "uv_index": 3.92,
+    "pressure": 1009,
     "moon_phase": 0.65,
     "visibility": 10000,
-    "dew_point": 71.91
+    "dew_point": 72.86
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 21,
       "gust": 18.72,
       "humidity": 60,
-      "uv_index": 7.7,
+      "uv_index": 9.78,
       "pressure": 1016,
       "moon_phase": 0.68,
       "dew_point": 58.55,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 172,
       "gust": 22.55,
       "humidity": 89,
-      "uv_index": 8.46,
+      "uv_index": 6.74,
       "pressure": 1012,
       "moon_phase": 0.71,
       "dew_point": 69.6,
@@ -52,12 +52,12 @@ const data = {
       "date": "Saturday",
       "high": 80.94,
       "low": 67.95,
-      "description": "heavy intensity rain",
-      "wind_speed": 6.11,
-      "wind_deg": 124,
+      "description": "very heavy rain",
+      "wind_speed": 6.42,
+      "wind_deg": 202,
       "gust": 19.06,
       "humidity": 64,
-      "uv_index": 3.1,
+      "uv_index": 9.84,
       "pressure": 1008,
       "moon_phase": 0.75,
       "dew_point": 67.48,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 355,
       "gust": 15.03,
       "humidity": 56,
-      "uv_index": 0.13,
+      "uv_index": 9.66,
       "pressure": 1012,
       "moon_phase": 0.78,
       "dew_point": 66.06,
@@ -87,24 +87,32 @@ const data = {
       "wind_deg": 44,
       "gust": 24.4,
       "humidity": 53,
-      "uv_index": 1,
+      "uv_index": 0.04,
       "pressure": 1020,
       "moon_phase": 0.81,
       "dew_point": 56.34,
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Tornado Watch",
+      "start": "7:19:00 PM",
+      "end": "4:00:00 AM",
+      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 186 IN\nEFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 2 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BUNKIE, BURKEVILLE, CALL, COTTONPORT, DE RIDDER,\nEFFIE, EUNICE, FARRSVILLE, FIELDS, FORT POLK, GIST,\nHOLLY SPRINGS, JAMESTOWN, JASPER, KINDER, KIRBYVILLE, LAWTELL,\nLEESVILLE, MAGNOLIA SPRINGS, MAMOU, MANSURA, MARKSVILLE,\nMT. UNION, NEWTON, OAKDALE, OPELOUSAS, ORETTA, PICKERING,\nPINEVILLE, REDDELL, SIMMESPORT, SLAGLE, ST. LANDRY, VILLE PLATTE,\nAND WIERGATE.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1010,
-    1010,
-    1010,
-    1010,
     1009,
+    1009,
+    1009,
+    1009,
+    1010,
     1010
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
