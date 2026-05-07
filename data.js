@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 67.33,
-    "feels_like": 68.18,
+    "temp": 65.21,
+    "feels_like": 65.8,
     "description": "overcast clouds",
-    "wind_speed": 8.25,
-    "wind_deg": 19,
-    "gust": 17.65,
-    "sunrise": "06:25 AM",
-    "sunset": "07:56 PM",
+    "wind_speed": 8.93,
+    "wind_deg": 2,
+    "gust": 16.22,
+    "sunrise": "06:24 AM",
+    "sunset": "07:57 PM",
     "dayOrNight": "night",
-    "humidity": 94,
+    "humidity": 93,
     "uv_index": 0,
-    "pressure": 1012,
-    "moon_phase": 0.65,
-    "visibility": 10000,
-    "dew_point": 65.55
+    "pressure": 1014,
+    "moon_phase": 0.68,
+    "visibility": "Unavailable",
+    "dew_point": 63.14
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 76.84,
-      "low": 60.62,
-      "description": "overcast clouds",
-      "wind_speed": 9.51,
-      "wind_deg": 4,
-      "gust": 18.84,
-      "humidity": 61,
-      "uv_index": 9.78,
-      "pressure": 1016,
-      "moon_phase": 0.68,
-      "dew_point": 58.28,
-      "visibility": 9360
-    },
     {
       "date": "Friday",
       "high": 72.55,
@@ -46,12 +31,12 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.71,
       "dew_point": 66.58,
-      "visibility": 9205
+      "visibility": 9450
     },
     {
       "date": "Saturday",
       "high": 81.16,
-      "low": 67.51,
+      "low": 66.88,
       "description": "moderate rain",
       "wind_speed": 12.06,
       "wind_deg": 170,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1009,
       "moon_phase": 0.75,
       "dew_point": 67.26,
-      "visibility": "Unavailable"
+      "visibility": 8971
     },
     {
       "date": "Sunday",
@@ -92,22 +77,29 @@ const data = {
       "moon_phase": 0.81,
       "dew_point": 57.15,
       "visibility": "Unavailable"
-    }
-  ],
-  "weatherAlerts": [
+    },
     {
-      "event": "Tornado Watch",
-      "start": "7:19:00 PM",
-      "end": "4:00:00 AM",
-      "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 186 IN\nEFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN LOUISIANA THIS WATCH INCLUDES 7 PARISHES\n\nIN CENTRAL LOUISIANA\n\nAVOYELLES             EVANGELINE            RAPIDES\nST. LANDRY\n\nIN SOUTHWEST LOUISIANA\n\nALLEN                 BEAUREGARD\n\nIN WEST CENTRAL LOUISIANA\n\nVERNON\n\nIN TEXAS THIS WATCH INCLUDES 2 COUNTIES\n\nIN SOUTHEAST TEXAS\n\nJASPER                NEWTON\n\nTHIS INCLUDES THE CITIES OF ALEXANDRIA, BEAVER, BLEAKWOOD, BUNA,\nBUNDICK LAKE, BUNKIE, BURKEVILLE, CALL, COTTONPORT, DE RIDDER,\nEFFIE, EUNICE, FARRSVILLE, FIELDS, FORT POLK, GIST,\nHOLLY SPRINGS, JAMESTOWN, JASPER, KINDER, KIRBYVILLE, LAWTELL,\nLEESVILLE, MAGNOLIA SPRINGS, MAMOU, MANSURA, MARKSVILLE,\nMT. UNION, NEWTON, OAKDALE, OPELOUSAS, ORETTA, PICKERING,\nPINEVILLE, REDDELL, SIMMESPORT, SLAGLE, ST. LANDRY, VILLE PLATTE,\nAND WIERGATE.",
-      "sender": "NWS Lake Charles LA"
+      "date": "Tuesday",
+      "high": 77.5,
+      "low": 54.01,
+      "description": "clear sky",
+      "wind_speed": 6.98,
+      "wind_deg": 68,
+      "gust": 22.97,
+      "humidity": 33,
+      "uv_index": 1,
+      "pressure": 1022,
+      "moon_phase": 0.84,
+      "dew_point": 44.85,
+      "visibility": "Unavailable"
     }
   ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1012,
-    1012,
-    1013,
-    1013,
+    1014,
+    1014,
+    1014,
+    1014,
     1014,
     1014
   ],
