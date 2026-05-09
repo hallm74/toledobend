@@ -1,27 +1,27 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 70.05,
-    "feels_like": 71.17,
+    "temp": 69.98,
+    "feels_like": 71.1,
     "description": "overcast clouds",
-    "wind_speed": 6.4,
-    "wind_deg": 156,
-    "gust": 15.99,
+    "wind_speed": 6.08,
+    "wind_deg": 162,
+    "gust": 16.8,
     "sunrise": "06:23 AM",
     "sunset": "07:57 PM",
     "dayOrNight": "night",
     "humidity": 94,
     "uv_index": 0,
-    "pressure": 1010,
+    "pressure": 1011,
     "moon_phase": 0.71,
-    "visibility": 10000,
-    "dew_point": 68.25
+    "visibility": 2363,
+    "dew_point": 68.18
   },
   "fiveDayWeather": [
     {
       "date": "Saturday",
       "high": 79.56,
-      "low": 68.54,
+      "low": 68.74,
       "description": "moderate rain",
       "wind_speed": 5.93,
       "wind_deg": 176,
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0.78,
       "dew_point": 67.6,
-      "visibility": 10000
+      "visibility": 9730
     },
     {
       "date": "Monday",
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Special Weather Statement",
-      "start": "12:57:00 AM",
-      "end": "1:45:00 AM",
-      "description": "At 756 PM CDT, Doppler radar was tracking a strong thunderstorm over\nRoganville, or 8 miles south of Jasper, moving northeast at 40 mph.\n\nHAZARD...Wind gusts up to 40 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nJasper, Newton, Kirbyville, Toledo Bend Dam, Burkeville, Farrsville,\nMagnolia Springs, Burr Ferry, Mayflower, Mt. Union, Jamestown,\nRoganville, Harrisburg, Stringtown, Wiergate, Evans, and Pickering.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1010,
-    1010,
-    1010,
-    1010,
     1011,
-    1011
+    1011,
+    1011,
+    1011,
+    1010,
+    1009
   ],
   "fishingReport": {
     "date": "Unavailable",
