@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 70.86,
-    "feels_like": 72.01,
+    "temp": 70.05,
+    "feels_like": 71.17,
     "description": "overcast clouds",
-    "wind_speed": 6.2,
-    "wind_deg": 148,
-    "gust": 13.13,
+    "wind_speed": 6.4,
+    "wind_deg": 156,
+    "gust": 15.99,
     "sunrise": "06:23 AM",
     "sunset": "07:57 PM",
-    "dayOrNight": "day",
-    "humidity": 93,
+    "dayOrNight": "night",
+    "humidity": 94,
     "uv_index": 0,
     "pressure": 1010,
     "moon_phase": 0.71,
     "visibility": 10000,
-    "dew_point": 68.74
+    "dew_point": 68.25
   },
   "fiveDayWeather": [
     {
@@ -94,7 +94,15 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "12:57:00 AM",
+      "end": "1:45:00 AM",
+      "description": "At 756 PM CDT, Doppler radar was tracking a strong thunderstorm over\nRoganville, or 8 miles south of Jasper, moving northeast at 40 mph.\n\nHAZARD...Wind gusts up to 40 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nJasper, Newton, Kirbyville, Toledo Bend Dam, Burkeville, Farrsville,\nMagnolia Springs, Burr Ferry, Mayflower, Mt. Union, Jamestown,\nRoganville, Harrisburg, Stringtown, Wiergate, Evans, and Pickering.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1010,
     1010,
@@ -105,6 +113,6 @@ const data = {
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
