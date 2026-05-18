@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.2,
-    "feels_like": 79.2,
+    "temp": 78.31,
+    "feels_like": 79.79,
     "description": "overcast clouds",
-    "wind_speed": 6.55,
-    "wind_deg": 174,
-    "gust": 20.02,
+    "wind_speed": 5.61,
+    "wind_deg": 178,
+    "gust": 16.28,
     "sunrise": "06:17 AM",
     "sunset": "08:04 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 84,
     "uv_index": 0,
-    "pressure": 1013,
-    "moon_phase": 0.03,
+    "pressure": 1015,
+    "moon_phase": 0.07,
     "visibility": 10000,
-    "dew_point": 73.58
+    "dew_point": 73.08
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 89.19,
-      "low": 73.2,
-      "description": "light rain",
-      "wind_speed": 14.18,
-      "wind_deg": 147,
-      "gust": 31.94,
-      "humidity": 48,
-      "uv_index": 6.19,
-      "pressure": 1015,
-      "moon_phase": 0.07,
-      "dew_point": 66.24,
-      "visibility": 9937
-    },
     {
       "date": "Tuesday",
       "high": 80.96,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.11,
       "dew_point": 71.62,
-      "visibility": 10000
+      "visibility": 9937
     },
     {
       "date": "Wednesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.15,
       "dew_point": 73.31,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -92,15 +77,30 @@ const data = {
       "moon_phase": 0.22,
       "dew_point": 72.82,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 83.97,
+      "low": 71.65,
+      "description": "moderate rain",
+      "wind_speed": 8.99,
+      "wind_deg": 177,
+      "gust": 23.49,
+      "humidity": 83,
+      "uv_index": 1,
+      "pressure": 1015,
+      "moon_phase": 0.25,
+      "dew_point": 74.64,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
+    1015,
+    1015,
+    1015,
+    1014,
     1013,
-    1013,
-    1014,
-    1014,
-    1014,
     1013
   ],
   "fishingReport": {
