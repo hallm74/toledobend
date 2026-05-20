@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 75.85,
-    "feels_like": 77.13,
+    "temp": 74.03,
+    "feels_like": 75.31,
     "description": "moderate rain",
-    "wind_speed": 7.99,
-    "wind_deg": 207,
-    "gust": 22.08,
+    "wind_speed": 7.7,
+    "wind_deg": 211,
+    "gust": 21.03,
     "sunrise": "06:16 AM",
     "sunset": "08:05 PM",
-    "dayOrNight": "day",
-    "humidity": 85,
+    "dayOrNight": "night",
+    "humidity": 89,
     "uv_index": 0,
-    "pressure": 1016,
+    "pressure": 1017,
     "moon_phase": 0.11,
     "visibility": 10000,
-    "dew_point": 71.01
+    "dew_point": 70.57
   },
   "fiveDayWeather": [
     {
@@ -94,22 +94,14 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Special Weather Statement",
-      "start": "12:29:00 AM",
-      "end": "1:15:00 AM",
-      "description": "At 728 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms along a line extending from near Anacoco to near Cut\nAnd Shoot. Movement was southeast at 30 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDe Ridder, Jasper, Leesville, Woodville, Newton, Kirbyville,\nRosepine, Merryville, Boyce, Anacoco, Colmesneil, Chester, Rockland,\nTown Bluff, Thicket, Toledo Bend Dam, Ebenezer, Hineston, Lena, and\nFred.\n\nThis includes Interstate 49 between mile markers 98 and 109.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
+    1017,
+    1017,
     1017,
     1018,
-    1018
+    1018,
+    1017
   ],
   "fishingReport": {
     "date": "Unavailable",
