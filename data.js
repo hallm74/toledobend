@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 74.43,
-    "feels_like": 75.85,
-    "description": "moderate rain",
-    "wind_speed": 4.29,
-    "wind_deg": 160,
-    "gust": 8.95,
+    "temp": 74.89,
+    "feels_like": 76.32,
+    "description": "heavy intensity rain",
+    "wind_speed": 5.75,
+    "wind_deg": 176,
+    "gust": 12.37,
     "sunrise": "06:14 AM",
     "sunset": "08:08 PM",
     "dayOrNight": "day",
-    "humidity": 91,
-    "uv_index": 1.92,
+    "humidity": 90,
+    "uv_index": 3.75,
     "pressure": 1015,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 71.62
+    "dew_point": 71.76
   },
   "fiveDayWeather": [
     {
@@ -101,6 +101,20 @@ const data = {
       "end": "12:00:00 AM",
       "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Monday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- A series of weak disturbances will lift over a very warm and\nmoist airmass settled over the region from tonight through\nthe Holiday Weekend. Rainfall with these waves is expected to\nbe heavy at times and with little storm motion and or\nbackbuilding, flash flooding concerns will be present from\nnow through the start of the work week. Over the next several\ndays, anticipate 4 to 6 inches of\nrainfall widespread with isolated amounts up to 10 to 15\ninches.\n\n- Http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Special Weather Statement",
+      "start": "2:00:00 PM",
+      "end": "2:45:00 PM",
+      "description": "At 900 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Newton to near Oretta to Carlyss. Movement\nwas northeast at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLake Charles, Sulphur, De Ridder, Westlake, Iowa, Newton, Rosepine,\nMerryville, Fenton, Reeves, Dry Creek, Singer, Moss Bluff, De Quincy,\nRagley, Fields, Bon Weir, Burkeville, Bivens, and Topsy.\n\nThis includes the following highways...\nInterstate 10 in Louisiana between mile markers 11 and 51.\nInterstate 210 between mile markers 1 and 12.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Severe Thunderstorm Warning",
+      "start": "2:18:00 PM",
+      "end": "3:15:00 PM",
+      "description": "At 917 AM CDT, a severe thunderstorm was located near Mayflower, or\nnear Burkeville, moving east at 60 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nDe Ridder, Jasper, Leesville, Newton, Rosepine, Anacoco, Fort Polk,\nSugartown, Slagle, Toledo Bend Dam, Pitkin, Burkeville, New Llano,\nHornbeck, Browndell, Hutton, Mayflower, Kurthwood, Harrisburg, and\nJunction.",
+      "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
@@ -109,10 +123,10 @@ const data = {
     1015,
     1015,
     1014,
-    1014
+    1013
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
