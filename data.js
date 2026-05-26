@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.35,
-    "feels_like": 74.46,
-    "description": "moderate rain",
-    "wind_speed": 4.41,
-    "wind_deg": 156,
-    "gust": 9.51,
+    "temp": 71.44,
+    "feels_like": 72.46,
+    "description": "broken clouds",
+    "wind_speed": 2.77,
+    "wind_deg": 138,
+    "gust": 3.02,
     "sunrise": "06:13 AM",
     "sunset": "08:09 PM",
     "dayOrNight": "night",
-    "humidity": 87,
+    "humidity": 89,
     "uv_index": 0,
     "pressure": 1013,
-    "moon_phase": 0.32,
+    "moon_phase": 0.36,
     "visibility": 10000,
-    "dew_point": 69.24
+    "dew_point": 68.02
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 85.98,
-      "low": 65.19,
-      "description": "heavy intensity rain",
-      "wind_speed": 8.46,
-      "wind_deg": 154,
-      "gust": 20.24,
-      "humidity": 55,
-      "uv_index": 9.35,
-      "pressure": 1012,
-      "moon_phase": 0.36,
-      "dew_point": 66.58,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 78.28,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.39,
       "dew_point": 70.52,
-      "visibility": 9738
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.42,
       "dew_point": 66.49,
-      "visibility": "Unavailable"
+      "visibility": 9738
     },
     {
       "date": "Friday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.48,
       "dew_point": 70.25,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 82.31,
+      "low": 67.12,
+      "description": "light rain",
+      "wind_speed": 7.45,
+      "wind_deg": 48,
+      "gust": 21.32,
+      "humidity": 70,
+      "uv_index": 1,
+      "pressure": 1014,
+      "moon_phase": 0.5,
+      "dew_point": 67.35,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,7 +99,7 @@ const data = {
     1013,
     1013,
     1013,
-    1013,
+    1012,
     1012,
     1012
   ],
