@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 75.02,
-    "feels_like": 76.46,
-    "description": "scattered clouds",
-    "wind_speed": 5.82,
-    "wind_deg": 136,
-    "gust": 17.31,
-    "sunrise": "06:13 AM",
-    "sunset": "08:09 PM",
+    "temp": 73.81,
+    "feels_like": 75.31,
+    "description": "broken clouds",
+    "wind_speed": 4.97,
+    "wind_deg": 132,
+    "gust": 16.71,
+    "sunrise": "06:12 AM",
+    "sunset": "08:10 PM",
     "dayOrNight": "night",
-    "humidity": 90,
+    "humidity": 94,
     "uv_index": 0,
     "pressure": 1012,
-    "moon_phase": 0.36,
+    "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 71.89
+    "dew_point": 71.98
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 79.57,
-      "low": 71.31,
-      "description": "moderate rain",
-      "wind_speed": 8.23,
-      "wind_deg": 193,
-      "gust": 22.32,
-      "humidity": 80,
-      "uv_index": 3.58,
-      "pressure": 1013,
-      "moon_phase": 0.39,
-      "dew_point": 71.92,
-      "visibility": 9423
-    },
     {
       "date": "Thursday",
       "high": 87.94,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.42,
       "dew_point": 67.15,
-      "visibility": 10000
+      "visibility": 9423
     },
     {
       "date": "Friday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.45,
       "dew_point": 66.09,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.5,
       "dew_point": 68.49,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 89.2,
+      "low": 71.33,
+      "description": "light rain",
+      "wind_speed": 6.6,
+      "wind_deg": 67,
+      "gust": 15.97,
+      "humidity": 52,
+      "uv_index": 1,
+      "pressure": 1013,
+      "moon_phase": 0.54,
+      "dew_point": 69.06,
       "visibility": "Unavailable"
     }
   ],
