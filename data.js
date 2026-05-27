@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.38,
-    "feels_like": 72.73,
-    "description": "light rain",
-    "wind_speed": 4.79,
-    "wind_deg": 121,
-    "gust": 17.85,
+    "temp": 70.41,
+    "feels_like": 71.67,
+    "description": "heavy intensity rain",
+    "wind_speed": 6.04,
+    "wind_deg": 141,
+    "gust": 21.56,
     "sunrise": "06:12 AM",
     "sunset": "08:10 PM",
-    "dayOrNight": "night",
+    "dayOrNight": "day",
     "humidity": 96,
     "uv_index": 0,
-    "pressure": 1011,
+    "pressure": 1010,
     "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 70.18
+    "dew_point": 69.22
   },
   "fiveDayWeather": [
     {
@@ -51,7 +51,7 @@ const data = {
     {
       "date": "Saturday",
       "high": 92.23,
-      "low": 71.65,
+      "low": 70.84,
       "description": "scattered clouds",
       "wind_speed": 8.3,
       "wind_deg": 195,
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "10:56:00 AM",
+      "end": "11:45:00 AM",
+      "description": "At 556 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 6 miles southeast of Pineland to near Edgerly\nto 25 miles south of Holly Beach. Movement was east at 40 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLake Charles, Sulphur, De Ridder, Cameron, Westlake, Iowa, Newton,\nRosepine, Merryville, Grand Lake, Singer, Moss Bluff, De Quincy,\nRagley, Toledo Bend Dam, Lake Charles Regional Airport, Fields, Bon\nWeir, Burkeville, and Lunita.\n\nThis includes the following highways...\nInterstate 10 in Louisiana between mile markers 12 and 42.\nInterstate 210 between mile markers 1 and 12.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1011,
-    1011,
-    1011,
+    1010,
+    1010,
+    1010,
     1011,
     1012,
-    1012
+    1013
   ],
   "fishingReport": {
     "date": "Unavailable",
