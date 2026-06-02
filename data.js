@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 83.17,
-    "feels_like": 90.81,
-    "description": "overcast clouds",
-    "wind_speed": 6.04,
-    "wind_deg": 121,
-    "gust": 10.04,
+    "temp": 80.35,
+    "feels_like": 85.6,
+    "description": "moderate rain",
+    "wind_speed": 4.61,
+    "wind_deg": 139,
+    "gust": 9.93,
     "sunrise": "06:11 AM",
     "sunset": "08:13 PM",
-    "dayOrNight": "day",
-    "humidity": 77,
+    "dayOrNight": "night",
+    "humidity": 84,
     "uv_index": 0,
-    "pressure": 1013,
+    "pressure": 1014,
     "moon_phase": 0.54,
     "visibility": 10000,
-    "dew_point": 75.22
+    "dew_point": 75.07
   },
   "fiveDayWeather": [
     {
@@ -94,25 +94,17 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Special Weather Statement",
-      "start": "12:43:00 AM",
-      "end": "1:30:00 AM",
-      "description": "At 743 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms near New Llano, or 7 miles southwest of Leesville,\nmoving west at 10 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLeesville, Anacoco, Toledo Bend Dam, New Llano, Hornbeck, Burr Ferry,\nEvans, and Pickering.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1013,
-    1013,
-    1013,
-    1013,
     1014,
-    1014
+    1014,
+    1014,
+    1014,
+    1014,
+    1015
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
