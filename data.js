@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 80.15,
-    "feels_like": 84.99,
+    "temp": 77.83,
+    "feels_like": 79.5,
     "description": "clear sky",
-    "wind_speed": 6.89,
-    "wind_deg": 171,
-    "gust": 19.57,
+    "wind_speed": 6.93,
+    "wind_deg": 174,
+    "gust": 22.32,
     "sunrise": "06:10 AM",
     "sunset": "08:17 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 89,
     "uv_index": 0,
     "pressure": 1016,
-    "moon_phase": 0.79,
+    "moon_phase": 0.83,
     "visibility": 10000,
-    "dew_point": 74.52
+    "dew_point": 74.32
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 92.7,
-      "low": 74.8,
-      "description": "few clouds",
-      "wind_speed": 11.05,
-      "wind_deg": 197,
-      "gust": 23.06,
-      "humidity": 49,
-      "uv_index": 11.96,
-      "pressure": 1014,
-      "moon_phase": 0.83,
-      "dew_point": 69.04,
-      "visibility": 10000
-    },
     {
       "date": "Thursday",
       "high": 95.34,
@@ -55,13 +40,13 @@ const data = {
       "description": "clear sky",
       "wind_speed": 7.18,
       "wind_deg": 138,
-      "gust": 16.35,
+      "gust": 18.05,
       "humidity": 50,
       "uv_index": 10.69,
       "pressure": 1015,
       "moon_phase": 0.9,
       "dew_point": 68.72,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0,
       "dew_point": 74.25,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 91.99,
+      "low": 74.28,
+      "description": "light rain",
+      "wind_speed": 13.51,
+      "wind_deg": 197,
+      "gust": 25.88,
+      "humidity": 52,
+      "uv_index": 1,
+      "pressure": 1010,
+      "moon_phase": 0.02,
+      "dew_point": 70.81,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -100,8 +100,8 @@ const data = {
     1016,
     1016,
     1016,
-    1016,
-    1016
+    1015,
+    1015
   ],
   "fishingReport": {
     "date": "Unavailable",
