@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 80.94,
-    "feels_like": 86.88,
-    "description": "scattered clouds",
-    "wind_speed": 6.44,
-    "wind_deg": 187,
-    "gust": 20.24,
+    "temp": 78.39,
+    "feels_like": 80.11,
+    "description": "few clouds",
+    "wind_speed": 6.91,
+    "wind_deg": 179,
+    "gust": 22.32,
     "sunrise": "06:10 AM",
-    "sunset": "08:17 PM",
+    "sunset": "08:18 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 89,
     "uv_index": 0,
-    "pressure": 1012,
-    "moon_phase": 0.83,
+    "pressure": 1013,
+    "moon_phase": 0.87,
     "visibility": 10000,
-    "dew_point": 75.29
+    "dew_point": 74.88
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 94.44,
-      "low": 74.57,
-      "description": "few clouds",
-      "wind_speed": 9.46,
-      "wind_deg": 188,
-      "gust": 24.38,
-      "humidity": 48,
-      "uv_index": 11.24,
-      "pressure": 1013,
-      "moon_phase": 0.87,
-      "dew_point": 69.06,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 93.83,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.94,
       "dew_point": 66.63,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,15 +77,30 @@ const data = {
       "moon_phase": 0.02,
       "dew_point": 76.98,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 77.23,
+      "low": 72.84,
+      "description": "heavy intensity rain",
+      "wind_speed": 8.84,
+      "wind_deg": 155,
+      "gust": 23.69,
+      "humidity": 95,
+      "uv_index": 1,
+      "pressure": 1009,
+      "moon_phase": 0.06,
+      "dew_point": 74.39,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1012,
-    1012,
-    1012,
     1013,
     1013,
+    1013,
+    1013,
+    1012,
     1012
   ],
   "fishingReport": {
