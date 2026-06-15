@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 77.29,
-    "feels_like": 78.91,
-    "description": "overcast clouds",
-    "wind_speed": 1.41,
-    "wind_deg": 272,
-    "gust": 7.87,
+    "temp": 77.56,
+    "feels_like": 79.14,
+    "description": "moderate rain",
+    "wind_speed": 3.98,
+    "wind_deg": 250,
+    "gust": 7.27,
     "sunrise": "06:10 AM",
     "sunset": "08:19 PM",
     "dayOrNight": "day",
-    "humidity": 89,
-    "uv_index": 0.7,
+    "humidity": 88,
+    "uv_index": 0.42,
     "pressure": 1015,
     "moon_phase": 0.02,
-    "visibility": 10000,
-    "dew_point": 73.8
+    "visibility": 7372,
+    "dew_point": 73.72
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1011,
       "moon_phase": 0.06,
       "dew_point": 73.15,
-      "visibility": 7439
+      "visibility": 7473
     },
     {
       "date": "Wednesday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1009,
       "moon_phase": 0.1,
       "dew_point": 70.39,
-      "visibility": 9956
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -97,9 +97,9 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Flood Watch",
-      "start": "7:32:00 AM",
+      "start": "3:34:00 PM",
       "end": "12:00:00 PM",
-      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, Evangeline, Lafayette, Northern\nAcadia, Northern Calcasieu, Northern Jefferson Davis, Rapides,\nSouthern Acadia, Southern Calcasieu, Southern Jefferson Davis, St.\nLandry, Upper St. Martin and Vernon and southeast Texas, including\nthe following areas, Hardin, Lower Jefferson, Northern Jasper,\nNorthern Newton, Northern Orange, Southern Jasper, Southern\nNewton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Wednesday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- A stallling cold front will interact with a very moist\nairmass\nthrough at least early Wednesday. Multiple rounds of rain are\nexpected to produce totals of 3 to 6 inches within the watch\narea\nthrough Wednesday. There will be isolated higher totals of 6\nto 10\ninches beneath stronger or training cell clusters. Rainfall\nrates in\nstorm storms may be excessive and quickly produce flooding in\nurban\nareas. Additional rainfall is expected beyond Wednesday and a\nwatch\nextension could come in the next days.\n\n- Http://www.weather.gov/safety/flood",
+      "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Louisiana, including the following parishes,\nAllen, Avoyelles, Beauregard, East Cameron, Evangeline, Lafayette,\nLower Iberia, Lower St. Martin, Lower St. Mary, Lower Vermilion,\nNorthern Acadia, Northern Calcasieu, Northern Jefferson Davis,\nRapides, Southern Acadia, Southern Calcasieu, Southern Jefferson\nDavis, St. Landry, Upper Iberia, Upper St. Martin, Upper St. Mary,\nUpper Vermilion, Vernon and West Cameron and southeast Texas,\nincluding the following areas, Hardin, Lower Jefferson, Northern\nJasper, Northern Newton, Northern Orange, Southern Jasper,\nSouthern Newton, Southern Orange, Tyler and Upper Jefferson.\n\n* WHEN...Through Wednesday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- There is an increased danger to lives and property due to\nflash flooding. Flash flooding is likely and considerable\nflash flooding is possible.\n- http://www.weather.gov/safety/flood",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -109,7 +109,7 @@ const data = {
     1015,
     1015,
     1014,
-    1014
+    1013
   ],
   "fishingReport": {
     "date": "Unavailable",
