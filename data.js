@@ -1,12 +1,12 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 76.91,
-    "feels_like": 78.73,
+    "temp": 77.22,
+    "feels_like": 79.05,
     "description": "overcast clouds",
-    "wind_speed": 2.53,
-    "wind_deg": 127,
-    "gust": 7.61,
+    "wind_speed": 5.93,
+    "wind_deg": 220,
+    "gust": 20.83,
     "sunrise": "06:10 AM",
     "sunset": "08:20 PM",
     "dayOrNight": "night",
@@ -15,7 +15,7 @@ const data = {
     "pressure": 1004,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 75.06
+    "dew_point": 75.36
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.21,
       "dew_point": 73.72,
-      "visibility": 9414
+      "visibility": 9382
     },
     {
       "date": "Sunday",
@@ -103,13 +103,6 @@ const data = {
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Wind Advisory",
-      "start": "3:15:00 AM",
-      "end": "1:00:00 AM",
-      "description": "* WHAT...For the Wind Advisory, south winds 5 to 10 mph. For the\nHeat Advisory, heat index values up to 108 expected.\n\n* WHERE...Hardin, Northern Jasper, Northern Newton, Northern Orange,\nSouthern Jasper, Southern Newton, Southern Orange, Tyler, and\nUpper Jefferson Counties.\n\n* WHEN...For the Wind Advisory, until 8 PM CDT Thursday. For the\nHeat Advisory, from 10 AM to 9 PM CDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result. Hot\ntemperatures and high humidity may cause heat illnesses.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Heat Advisory",
       "start": "3:00:00 PM",
       "end": "2:00:00 AM",
@@ -121,8 +114,8 @@ const data = {
     1004,
     1004,
     1004,
-    1004,
     1005,
+    1006,
     1006
   ],
   "fishingReport": {
