@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 83.37,
-    "feels_like": 93.67,
-    "description": "overcast clouds",
-    "wind_speed": 5.99,
-    "wind_deg": 221,
-    "gust": 11.81,
+    "temp": 88.38,
+    "feels_like": 100.98,
+    "description": "light rain",
+    "wind_speed": 4.74,
+    "wind_deg": 210,
+    "gust": 8.25,
     "sunrise": "06:10 AM",
     "sunset": "08:20 PM",
     "dayOrNight": "day",
-    "humidity": 84,
-    "uv_index": 4.97,
+    "humidity": 76,
+    "uv_index": 9.34,
     "pressure": 1007,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 78.03
+    "dew_point": 79.84
   },
   "fiveDayWeather": [
     {
@@ -97,9 +97,16 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Heat Advisory",
-      "start": "3:00:00 PM",
-      "end": "2:00:00 AM",
-      "description": "* WHAT...Heat index values up to 108 expected.\n\n* WHERE...Hardin, Northern Jasper, Northern Newton, Southern Jasper,\nSouthern Newton, and Tyler Counties.\n\n* WHEN...Until 9 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "start": "4:29:00 PM",
+      "end": "1:00:00 AM",
+      "description": "* WHAT...For the first Heat Advisory, heat index values up to 107.\nFor the second Heat Advisory, heat index values up to 110 expected.\n\n* WHERE...Hardin, Northern Jasper, Northern Newton, Southern Jasper,\nSouthern Newton, and Tyler Counties.\n\n* WHEN...For the first Heat Advisory, until 8 PM CDT this evening.\nFor the second Heat Advisory, from noon to 7 PM CDT Friday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Heat Advisory",
+      "start": "5:00:00 PM",
+      "end": "12:00:00 AM",
+      "description": "* WHAT...For the first Heat Advisory, heat index values up to 107.\nFor the second Heat Advisory, heat index values up to 110 expected.\n\n* WHERE...Hardin, Northern Jasper, Northern Newton, Southern Jasper,\nSouthern Newton, and Tyler Counties.\n\n* WHEN...For the first Heat Advisory, until 8 PM CDT this evening.\nFor the second Heat Advisory, from noon to 7 PM CDT Friday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -107,8 +114,8 @@ const data = {
     1007,
     1007,
     1007,
-    1008,
-    1008,
+    1007,
+    1007,
     1007
   ],
   "fishingReport": {
