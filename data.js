@@ -3,19 +3,19 @@ const data = {
   "currentWeather": {
     "temp": 91.08,
     "feels_like": 103.68,
-    "description": "overcast clouds",
-    "wind_speed": 0.13,
-    "wind_deg": 309,
-    "gust": 4.88,
+    "description": "light rain",
+    "wind_speed": 2.71,
+    "wind_deg": 9,
+    "gust": 2.21,
     "sunrise": "06:10 AM",
     "sunset": "08:20 PM",
     "dayOrNight": "day",
-    "humidity": 70,
-    "uv_index": 8.23,
+    "humidity": 75,
+    "uv_index": 5.61,
     "pressure": 1007,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 79.92
+    "dew_point": 82.04
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.17,
       "dew_point": 73.94,
-      "visibility": 9519
+      "visibility": 9707
     },
     {
       "date": "Saturday",
@@ -50,11 +50,11 @@ const data = {
     },
     {
       "date": "Sunday",
-      "high": 92.57,
+      "high": 92.98,
       "low": 75.65,
       "description": "broken clouds",
-      "wind_speed": 11.65,
-      "wind_deg": 195,
+      "wind_speed": 12.06,
+      "wind_deg": 190,
       "gust": 24.9,
       "humidity": 52,
       "uv_index": 11.68,
