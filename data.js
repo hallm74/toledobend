@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 78.75,
-    "feels_like": 78.75,
+    "temp": 83.37,
+    "feels_like": 93.67,
     "description": "overcast clouds",
-    "wind_speed": 5.01,
-    "wind_deg": 236,
-    "gust": 16.91,
+    "wind_speed": 5.99,
+    "wind_deg": 221,
+    "gust": 11.81,
     "sunrise": "06:10 AM",
     "sunset": "08:20 PM",
     "dayOrNight": "day",
-    "humidity": 90,
-    "uv_index": 0.98,
+    "humidity": 84,
+    "uv_index": 4.97,
     "pressure": 1007,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 75.56
+    "dew_point": 78.03
   },
   "fiveDayWeather": [
     {
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.21,
       "dew_point": 74.03,
-      "visibility": 9787
+      "visibility": 9526
     },
     {
       "date": "Sunday",
@@ -99,7 +99,7 @@ const data = {
       "event": "Heat Advisory",
       "start": "3:00:00 PM",
       "end": "2:00:00 AM",
-      "description": "* WHAT...Heat index values up to 107 expected.\n\n* WHERE...Hardin, Northern Jasper, Northern Newton, Southern Jasper,\nSouthern Newton, and Tyler Counties.\n\n* WHEN...From 10 AM this morning to 9 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "description": "* WHAT...Heat index values up to 108 expected.\n\n* WHERE...Hardin, Northern Jasper, Northern Newton, Southern Jasper,\nSouthern Newton, and Tyler Counties.\n\n* WHEN...Until 9 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -109,7 +109,7 @@ const data = {
     1007,
     1008,
     1008,
-    1008
+    1007
   ],
   "fishingReport": {
     "date": "Unavailable",
