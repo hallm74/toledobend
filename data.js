@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 80.08,
-    "feels_like": 85.55,
-    "description": "few clouds",
-    "wind_speed": 7.74,
-    "wind_deg": 177,
-    "gust": 25.3,
+    "temp": 78.55,
+    "feels_like": 80.42,
+    "description": "clear sky",
+    "wind_speed": 7.14,
+    "wind_deg": 185,
+    "gust": 25.86,
     "sunrise": "06:11 AM",
     "sunset": "08:21 PM",
     "dayOrNight": "night",
-    "humidity": 88,
+    "humidity": 92,
     "uv_index": 0,
-    "pressure": 1011,
-    "moon_phase": 0.25,
+    "pressure": 1012,
+    "moon_phase": 0.28,
     "visibility": 10000,
-    "dew_point": 76.21
+    "dew_point": 76.03
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 91.29,
-      "low": 77.14,
-      "description": "broken clouds",
-      "wind_speed": 9.82,
-      "wind_deg": 194,
-      "gust": 27.81,
-      "humidity": 56,
-      "uv_index": 10.74,
-      "pressure": 1016,
-      "moon_phase": 0.28,
-      "dew_point": 71.56,
-      "visibility": 10000
-    },
     {
       "date": "Tuesday",
       "high": 95.31,
@@ -55,13 +40,13 @@ const data = {
       "description": "light rain",
       "wind_speed": 8.01,
       "wind_deg": 192,
-      "gust": 20.54,
+      "gust": 20.69,
       "humidity": 45,
       "uv_index": 11.23,
       "pressure": 1018,
       "moon_phase": 0.34,
       "dew_point": 67.19,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -92,19 +77,34 @@ const data = {
       "moon_phase": 0.4,
       "dew_point": 67.71,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 93.88,
+      "low": 73.2,
+      "description": "broken clouds",
+      "wind_speed": 12.12,
+      "wind_deg": 183,
+      "gust": 26.31,
+      "humidity": 59,
+      "uv_index": 1,
+      "pressure": 1015,
+      "moon_phase": 0.43,
+      "dew_point": 72.72,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1011,
-    1011,
-    1011,
     1012,
     1012,
-    1012
+    1012,
+    1012,
+    1012,
+    1013
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
