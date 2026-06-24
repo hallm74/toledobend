@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 80.98,
-    "feels_like": 86.77,
-    "description": "broken clouds",
-    "wind_speed": 7.23,
-    "wind_deg": 195,
-    "gust": 23.33,
+    "temp": 79.11,
+    "feels_like": 79.11,
+    "description": "scattered clouds",
+    "wind_speed": 6.33,
+    "wind_deg": 211,
+    "gust": 19.22,
     "sunrise": "06:11 AM",
     "sunset": "08:21 PM",
     "dayOrNight": "night",
-    "humidity": 82,
+    "humidity": 88,
     "uv_index": 0,
-    "pressure": 1018,
-    "moon_phase": 0.31,
+    "pressure": 1019,
+    "moon_phase": 0.34,
     "visibility": 10000,
-    "dew_point": 74.97
+    "dew_point": 75.24
   },
   "fiveDayWeather": [
-    {
-      "date": "Wednesday",
-      "high": 92.05,
-      "low": 75.11,
-      "description": "overcast clouds",
-      "wind_speed": 6.78,
-      "wind_deg": 210,
-      "gust": 21.59,
-      "humidity": 52,
-      "uv_index": 10.59,
-      "pressure": 1018,
-      "moon_phase": 0.34,
-      "dew_point": 69.17,
-      "visibility": 10000
-    },
     {
       "date": "Thursday",
       "high": 93.07,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.4,
       "dew_point": 68.25,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Saturday",
@@ -92,16 +77,31 @@ const data = {
       "moon_phase": 0.46,
       "dew_point": 68.07,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Monday",
+      "high": 95.4,
+      "low": 72.84,
+      "description": "clear sky",
+      "wind_speed": 5.77,
+      "wind_deg": 165,
+      "gust": 17.54,
+      "humidity": 43,
+      "uv_index": 1,
+      "pressure": 1019,
+      "moon_phase": 0.5,
+      "dew_point": 67.51,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
     1019,
     1019,
-    1019
+    1019,
+    1019,
+    1018,
+    1018
   ],
   "fishingReport": {
     "date": "Unavailable",
