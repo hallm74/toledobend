@@ -99,12 +99,12 @@ const data = {
     1015,
     1015,
     1015,
-    1015,
     1014,
+    1015,
     1015
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
