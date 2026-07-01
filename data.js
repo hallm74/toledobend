@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 93.25,
-    "feels_like": 103.12,
-    "description": "overcast clouds",
-    "wind_speed": 2.64,
-    "wind_deg": 90,
-    "gust": 6.02,
+    "temp": 94.3,
+    "feels_like": 102.92,
+    "description": "broken clouds",
+    "wind_speed": 4.05,
+    "wind_deg": 103,
+    "gust": 5.03,
     "sunrise": "06:14 AM",
     "sunset": "08:22 PM",
     "dayOrNight": "day",
-    "humidity": 53,
-    "uv_index": 9.03,
-    "pressure": 1016,
+    "humidity": 49,
+    "uv_index": 7.31,
+    "pressure": 1015,
     "moon_phase": 0.55,
     "visibility": 10000,
-    "dew_point": 73.56
+    "dew_point": 72.19
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 190,
       "gust": 15.66,
       "humidity": 50,
-      "uv_index": 10.88,
+      "uv_index": 10.66,
       "pressure": 1016,
       "moon_phase": 0.58,
       "dew_point": 69.04,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 103,
       "gust": 16.98,
       "humidity": 45,
-      "uv_index": 10.98,
+      "uv_index": 10.84,
       "pressure": 1017,
       "moon_phase": 0.61,
       "dew_point": 67.59,
@@ -50,14 +50,14 @@ const data = {
     },
     {
       "date": "Saturday",
-      "high": 91.83,
+      "high": 92.03,
       "low": 74.03,
       "description": "light rain",
       "wind_speed": 6.49,
       "wind_deg": 158,
       "gust": 18.32,
       "humidity": 49,
-      "uv_index": 10.92,
+      "uv_index": 11.05,
       "pressure": 1016,
       "moon_phase": 0.65,
       "dew_point": 70.09,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 193,
       "gust": 13.2,
       "humidity": 51,
-      "uv_index": 0.17,
+      "uv_index": 10.62,
       "pressure": 1015,
       "moon_phase": 0.68,
       "dew_point": 70.11,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 190,
       "gust": 21.23,
       "humidity": 48,
-      "uv_index": 1,
+      "uv_index": 0.19,
       "pressure": 1016,
       "moon_phase": 0.71,
       "dew_point": 69.48,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
-    1016,
     1015,
+    1015,
+    1015,
+    1015,
+    1014,
     1014
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
