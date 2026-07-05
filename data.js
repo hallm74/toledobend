@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 81.46,
-    "feels_like": 88.18,
+    "temp": 79.5,
+    "feels_like": 79.5,
     "description": "few clouds",
-    "wind_speed": 5.7,
-    "wind_deg": 163,
-    "gust": 14.5,
+    "wind_speed": 6.64,
+    "wind_deg": 198,
+    "gust": 20.11,
     "sunrise": "06:15 AM",
-    "sunset": "08:22 PM",
+    "sunset": "08:21 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 86,
     "uv_index": 0,
     "pressure": 1014,
-    "moon_phase": 0.65,
+    "moon_phase": 0.68,
     "visibility": 10000,
-    "dew_point": 75.79
+    "dew_point": 74.95
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 95.47,
-      "low": 76.86,
-      "description": "light rain",
-      "wind_speed": 9.4,
-      "wind_deg": 132,
-      "gust": 23.13,
-      "humidity": 51,
-      "uv_index": 10.32,
-      "pressure": 1015,
-      "moon_phase": 0.68,
-      "dew_point": 71.1,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 91.38,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.71,
       "dew_point": 76.28,
-      "visibility": 9773
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.75,
       "dew_point": 71.31,
-      "visibility": "Unavailable"
+      "visibility": 9773
     },
     {
       "date": "Wednesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.82,
       "dew_point": 68.94,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 96.19,
+      "low": 75.81,
+      "description": "clear sky",
+      "wind_speed": 9.62,
+      "wind_deg": 190,
+      "gust": 25.64,
+      "humidity": 43,
+      "uv_index": 1,
+      "pressure": 1015,
+      "moon_phase": 0.86,
+      "dew_point": 67.23,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,8 +99,8 @@ const data = {
     1014,
     1014,
     1014,
-    1014,
-    1014,
+    1015,
+    1015,
     1015
   ],
   "fishingReport": {
