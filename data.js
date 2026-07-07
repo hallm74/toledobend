@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 90.82,
-    "feels_like": 99.9,
-    "description": "scattered clouds",
-    "wind_speed": 1.66,
-    "wind_deg": 90,
-    "gust": 3.65,
+    "temp": 88.79,
+    "feels_like": 101.39,
+    "description": "broken clouds",
+    "wind_speed": 5.17,
+    "wind_deg": 251,
+    "gust": 5.91,
     "sunrise": "06:16 AM",
     "sunset": "08:21 PM",
     "dayOrNight": "day",
-    "humidity": 57,
-    "uv_index": 7.59,
-    "pressure": 1016,
+    "humidity": 69,
+    "uv_index": 5.3,
+    "pressure": 1015,
     "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 73.49
+    "dew_point": 77.31
   },
   "fiveDayWeather": [
     {
@@ -94,14 +94,22 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Special Weather Statement",
+      "start": "8:10:00 PM",
+      "end": "9:00:00 PM",
+      "description": "At 310 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Rockland to near Newton. Movement was\nnorthwest at 20 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to vegetation and outdoor\nobjects is possible.\n\nLocations impacted include...\nJasper, Newton, Colmesneil, Toledo Bend Dam, Ebenezer, Rockland, Town\nBluff, Burkeville, Browndell, Farrsville, Mayflower, Jamestown,\nRoganville, Harrisburg, Stringtown, Sam Rayburn Dam, and Wiergate.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1016,
-    1016,
-    1016,
-    1016,
     1015,
-    1016
+    1015,
+    1015,
+    1015,
+    1016,
+    1017
   ],
   "fishingReport": {
     "date": "Unavailable",
