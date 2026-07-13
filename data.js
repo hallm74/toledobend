@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 76.89,
-    "feels_like": 78.42,
+    "temp": 76.14,
+    "feels_like": 77.63,
     "description": "scattered clouds",
-    "wind_speed": 5.91,
-    "wind_deg": 192,
-    "gust": 18.61,
+    "wind_speed": 2.84,
+    "wind_deg": 181,
+    "gust": 4.23,
     "sunrise": "06:19 AM",
     "sunset": "08:20 PM",
     "dayOrNight": "night",
-    "humidity": 88,
+    "humidity": 89,
     "uv_index": 0,
     "pressure": 1019,
-    "moon_phase": 0.93,
+    "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 73.06
+    "dew_point": 72.66
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 76.78,
-      "low": 69.44,
-      "description": "moderate rain",
-      "wind_speed": 5.79,
-      "wind_deg": 196,
-      "gust": 14.2,
-      "humidity": 89,
-      "uv_index": 5.22,
-      "pressure": 1020,
-      "moon_phase": 0.97,
-      "dew_point": 73.78,
-      "visibility": 9183
-    },
     {
       "date": "Tuesday",
       "high": 80.82,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0,
       "dew_point": 71.13,
-      "visibility": 9005
+      "visibility": 9183
     },
     {
       "date": "Wednesday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.05,
       "dew_point": 67.32,
-      "visibility": "Unavailable"
+      "visibility": 9005
     },
     {
       "date": "Thursday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.12,
       "dew_point": 66.45,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 92.55,
+      "low": 75.42,
+      "description": "overcast clouds",
+      "wind_speed": 5.73,
+      "wind_deg": 201,
+      "gust": 11.99,
+      "humidity": 48,
+      "uv_index": 1,
+      "pressure": 1020,
+      "moon_phase": 0.16,
+      "dew_point": 67.98,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,7 +99,7 @@ const data = {
     1019,
     1019,
     1019,
-    1019,
+    1018,
     1018,
     1018
   ],
