@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 74.95,
-    "feels_like": 76.37,
-    "description": "overcast clouds",
-    "wind_speed": 3.53,
-    "wind_deg": 210,
-    "gust": 10.02,
-    "sunrise": "06:19 AM",
-    "sunset": "08:20 PM",
+    "temp": 74.21,
+    "feels_like": 75.65,
+    "description": "moderate rain",
+    "wind_speed": 0.49,
+    "wind_deg": 39,
+    "gust": 2.01,
+    "sunrise": "06:20 AM",
+    "sunset": "08:19 PM",
     "dayOrNight": "night",
-    "humidity": 90,
+    "humidity": 92,
     "uv_index": 0,
-    "pressure": 1018,
-    "moon_phase": 0.97,
+    "pressure": 1019,
+    "moon_phase": "Unavailable",
     "visibility": 10000,
-    "dew_point": 71.82
+    "dew_point": 71.73
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 78.35,
-      "low": 72.07,
-      "description": "moderate rain",
-      "wind_speed": 11.41,
-      "wind_deg": 223,
-      "gust": 18.03,
-      "humidity": 84,
-      "uv_index": 8.8,
-      "pressure": 1020,
-      "moon_phase": 0,
-      "dew_point": 72.28,
-      "visibility": 9670
-    },
     {
       "date": "Wednesday",
       "high": 81.09,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.05,
       "dew_point": 65.98,
-      "visibility": 10000
+      "visibility": 9670
     },
     {
       "date": "Thursday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.09,
       "dew_point": 74.64,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,19 +77,34 @@ const data = {
       "moon_phase": 0.16,
       "dew_point": 69.31,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 91.53,
+      "low": 72.72,
+      "description": "light rain",
+      "wind_speed": 8.08,
+      "wind_deg": 231,
+      "gust": 20.15,
+      "humidity": 43,
+      "uv_index": 1,
+      "pressure": 1019,
+      "moon_phase": 0.19,
+      "dew_point": 65.23,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
-    1018,
     1019,
+    1019,
+    1019,
+    1018,
     1018,
     1018
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
