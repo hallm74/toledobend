@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 84.97,
-    "feels_like": 91.18,
+    "temp": 88.43,
+    "feels_like": 96.08,
     "description": "clear sky",
-    "wind_speed": 6.06,
-    "wind_deg": 309,
-    "gust": 10.78,
+    "wind_speed": 5.57,
+    "wind_deg": 318,
+    "gust": 9.22,
     "sunrise": "06:24 AM",
     "sunset": "08:16 PM",
     "dayOrNight": "day",
-    "humidity": 66,
-    "uv_index": 5.03,
+    "humidity": 60,
+    "uv_index": 7.9,
     "pressure": 1013,
     "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 72.34
+    "dew_point": 72.77
   },
   "fiveDayWeather": [
     {
@@ -100,6 +100,13 @@ const data = {
       "start": "5:00:00 PM",
       "end": "12:00:00 AM",
       "description": "* WHAT...Heat index values up to 111 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From noon today to 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Tropical Cyclone Local Statement",
+      "start": "3:13:00 PM",
+      "end": "11:15:00 PM",
+      "description": "HLSLCH\n\nThis product covers Southwest Louisiana and Southeast Texas\n\n**TROPICAL STORM BERTHA DEVELOPS SOUTH OF FLORIDA PANHANDLE. TROPICAL STORM WATCHES NOW IN EFFECT FOR PORTIONS OF SOUTHWEST LOUISIANA.**\n\n\nNEW INFORMATION\n---------------\n\n* CHANGES TO WATCHES AND WARNINGS:\n- A Tropical Storm Watch has been issued for Lower Iberia, Lower\nSt. Mary, and Lower Vermilion\n\n* CURRENT WATCHES AND WARNINGS:\n- A Tropical Storm Watch is in effect for Lower Iberia, Lower St.\nMary, and Lower Vermilion\n\n* STORM INFORMATION:\n- About 420 miles east of Cameron LA or about 290 miles east of\nMorgan City LA\n- 29.3N 86.3W\n- Storm Intensity 60 mph\n- Movement North-northwest or 345 degrees at 3 mph\n\nSITUATION OVERVIEW\n------------------\n\nTropical Storm Bertha is currently located in the northeastern Gulf\nand is slowly moving northwest. Some additional strengthening is\npossible as the storm tracks along the coast of central and southwest\nLouisiana. Bertha is forecasted to bring tropical storm force gusts\nand locally heavy rainfall for areas south of I-10. Storm surge up to\n3 feet will be possible across from Morgan city to the\nVermilion/Cameron parish line.\n\nA Tropical Storm Watch is now in effect for Morgan city to the\nVermilion/Cameron Parish line. A tropical storm watch is in effect for\nVermilion bay and the eastern coastal waters.\n\nPOTENTIAL IMPACTS\n-----------------\n\n* SURGE:\nPrepare for locally hazardous surge having possible limited impacts\nacross Vermilion Bay. Potential impacts in this area\ninclude:\n- Localized inundation with storm surge flooding mainly along\nimmediate shorelines and in low-lying spots, or in areas\nfarther inland near where higher surge waters move ashore.\n- Sections of near-shore roads and parking lots become overspread\nwith surge water. Driving conditions dangerous in places where\nsurge water covers the road.\n- Moderate beach erosion. Heavy surf also breaching dunes, mainly\nin usually vulnerable locations. Strong rip currents.\n- Minor to locally moderate damage to marinas, docks, boardwalks,\nand piers. A few small craft broken away from moorings.\n\nElsewhere across Southwest Louisiana and Southeast Texas, little to\nno impact is anticipated.\n\n* WIND:\nPrepare for hazardous wind having possible limited impacts across portions of southwest Louisiana.\nPotential impacts in this area include:\n- Damage to porches, awnings, carports, sheds, and unanchored\nmobile homes. Unsecured lightweight objects blown about.\n- Many large tree limbs broken off. A few trees snapped or\nuprooted, but with greater numbers in places where trees are\nshallow rooted. Some fences and roadway signs blown over.\n- A few roads impassable from debris, particularly within urban\nor heavily wooded places. Hazardous driving conditions on\nbridges and other elevated roadways.\n- Scattered power and communications outages.\n\nElsewhere across Southwest Louisiana and Southeast Texas, little to\nno impact is anticipated.\n\n* FLOODING RAIN:\nPrepare for locally hazardous rainfall flooding having possible\nlimited impacts across portions of southwest Louisiana. Potential\nimpacts include:\n- Localized rainfall flooding may prompt a few evacuations.\n- Rivers and tributaries may quickly rise with swifter currents.\nSmall streams, creeks, canals, and ditches may become swollen\nand overflow in spots.\n- Flood waters can enter a few structures, especially in usually\nvulnerable spots. A few places where rapid ponding of water\noccurs at underpasses, low-lying spots, and poor drainage\nareas. Several storm drains and retention ponds become\nnear-full and begin to overflow. Some brief road and bridge\nclosures.\n\nElsewhere across Southwest Louisiana and Southeast Texas, little to\nno impact is anticipated.\n\n* TORNADOES:\nLittle to no impacts are anticipated at this time\nacross Southwest Louisiana and Southeast Texas.\n\nPRECAUTIONARY/PREPAREDNESS ACTIONS\n----------------------------------\n\n* EVACUATIONS:\nFollow the advice of local officials.\n\n\n* OTHER PREPAREDNESS INFORMATION:\nNow is the time to check your emergency plan and emergency supplies\nkit and take necessary actions to protect your family and secure your\nhome or business.\n\nWhen making safety and preparedness decisions, do not focus on the\nexact forecast track since hazards such as flooding rain, damaging\nwind gusts, storm surge, and tornadoes extend well away from the\ncenter of the storm.\n\nClosely monitor weather.gov, NOAA Weather Radio and local news\noutlets for official storm information. Listen for possible changes\nto the forecast.\n\n\n\n* ADDITIONAL SOURCES OF INFORMATION:\n- For information on appropriate preparations see ready.gov\n- For information on creating an emergency plan see getagameplan.org\n- For additional disaster preparedness information see redcross.org\n\nNEXT UPDATE\n-----------\n\nThe next local statement will be issued by the National Weather\nService in Lake Charles LA around 4 PM CDT, or sooner if conditions\nwarrant.",
       "sender": "NWS Lake Charles LA"
     }
   ],
