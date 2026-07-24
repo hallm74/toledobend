@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 80.8,
-    "feels_like": 86.9,
-    "description": "few clouds",
-    "wind_speed": 9.66,
-    "wind_deg": 153,
-    "gust": 22.66,
-    "sunrise": "06:25 AM",
+    "temp": 79.36,
+    "feels_like": 79.36,
+    "description": "clear sky",
+    "wind_speed": 6.51,
+    "wind_deg": 160,
+    "gust": 21.68,
+    "sunrise": "06:26 AM",
     "sunset": "08:15 PM",
     "dayOrNight": "night",
-    "humidity": 85,
+    "humidity": 87,
     "uv_index": 0,
-    "pressure": 1015,
-    "moon_phase": 0.32,
+    "pressure": 1016,
+    "moon_phase": 0.35,
     "visibility": 10000,
-    "dew_point": 75.87
+    "dew_point": 75.15
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 92.82,
-      "low": 73.96,
-      "description": "scattered clouds",
-      "wind_speed": 10.09,
-      "wind_deg": 173,
-      "gust": 23.26,
-      "humidity": 51,
-      "uv_index": 11.32,
-      "pressure": 1017,
-      "moon_phase": 0.35,
-      "dew_point": 72.63,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 97.3,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.41,
       "dew_point": 67.91,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.47,
       "dew_point": 66.09,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 98.13,
+      "low": 75.33,
+      "description": "broken clouds",
+      "wind_speed": 9.57,
+      "wind_deg": 208,
+      "gust": 23.85,
+      "humidity": 39,
+      "uv_index": 1,
+      "pressure": 1013,
+      "moon_phase": 0.5,
+      "dew_point": 66.9,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -104,9 +104,9 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
+    1016,
+    1016,
+    1016,
     1016,
     1016,
     1016
