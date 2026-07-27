@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 82.58,
-    "feels_like": 89.94,
-    "description": "scattered clouds",
-    "wind_speed": 8.72,
-    "wind_deg": 202,
-    "gust": 21.27,
-    "sunrise": "06:27 AM",
-    "sunset": "08:14 PM",
+    "temp": 80.26,
+    "feels_like": 85.24,
+    "description": "few clouds",
+    "wind_speed": 7.45,
+    "wind_deg": 205,
+    "gust": 20.29,
+    "sunrise": "06:28 AM",
+    "sunset": "08:13 PM",
     "dayOrNight": "night",
-    "humidity": 79,
+    "humidity": 83,
     "uv_index": 0,
-    "pressure": 1014,
-    "moon_phase": 0.41,
+    "pressure": 1015,
+    "moon_phase": 0.44,
     "visibility": 10000,
-    "dew_point": 75.4
+    "dew_point": 74.62
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 95.52,
-      "low": 74.88,
-      "description": "scattered clouds",
-      "wind_speed": 8.7,
-      "wind_deg": 211,
-      "gust": 23.33,
-      "humidity": 45,
-      "uv_index": 10.87,
-      "pressure": 1013,
-      "moon_phase": 0.44,
-      "dew_point": 69.66,
-      "visibility": 10000
-    },
     {
       "date": "Tuesday",
       "high": 97.77,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.5,
       "dew_point": 67.28,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -92,13 +77,28 @@ const data = {
       "moon_phase": 0.57,
       "dew_point": 64.8,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 97.43,
+      "low": 79.29,
+      "description": "moderate rain",
+      "wind_speed": 11.34,
+      "wind_deg": 203,
+      "gust": 30.29,
+      "humidity": 55,
+      "uv_index": 1,
+      "pressure": 1009,
+      "moon_phase": 0.6,
+      "dew_point": 71.29,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1014,
-    1014,
-    1014,
+    1015,
+    1015,
+    1015,
     1014,
     1014,
     1014
