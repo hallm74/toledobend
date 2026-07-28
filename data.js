@@ -1,51 +1,51 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 94.75,
-    "feels_like": 106.03,
-    "description": "broken clouds",
-    "wind_speed": 3.85,
-    "wind_deg": 122,
-    "gust": 5.53,
+    "temp": 90.28,
+    "feels_like": 100.36,
+    "description": "scattered clouds",
+    "wind_speed": 2.39,
+    "wind_deg": 161,
+    "gust": 3.96,
     "sunrise": "06:28 AM",
     "sunset": "08:13 PM",
     "dayOrNight": "day",
-    "humidity": 52,
-    "uv_index": 1.26,
+    "humidity": 60,
+    "uv_index": 0,
     "pressure": 1011,
     "moon_phase": 0.44,
     "visibility": 10000,
-    "dew_point": 74.37
+    "dew_point": 74.52
   },
   "fiveDayWeather": [
     {
       "date": "Tuesday",
-      "high": 97.92,
-      "low": 75.27,
+      "high": 97.18,
+      "low": 75.15,
       "description": "clear sky",
-      "wind_speed": 7.58,
-      "wind_deg": 193,
-      "gust": 20.24,
+      "wind_speed": 7.65,
+      "wind_deg": 196,
+      "gust": 20.78,
       "humidity": 40,
       "uv_index": 11.09,
       "pressure": 1012,
       "moon_phase": 0.47,
-      "dew_point": 68.18,
+      "dew_point": 67.51,
       "visibility": 10000
     },
     {
       "date": "Wednesday",
       "high": 97.75,
-      "low": 76.01,
-      "description": "few clouds",
-      "wind_speed": 7.87,
-      "wind_deg": 203,
-      "gust": 21.41,
-      "humidity": 40,
+      "low": 75.09,
+      "description": "clear sky",
+      "wind_speed": 7.81,
+      "wind_deg": 209,
+      "gust": 21.9,
+      "humidity": 38,
       "uv_index": 10.85,
-      "pressure": 1013,
+      "pressure": 1012,
       "moon_phase": 0.5,
-      "dew_point": 67.68,
+      "dew_point": 66.81,
       "visibility": 10000
     },
     {
@@ -99,7 +99,7 @@ const data = {
       "event": "Heat Advisory",
       "start": "3:00:00 PM",
       "end": "2:00:00 AM",
-      "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of southwest and west central Louisiana and\nsoutheast Texas.\n\n* WHEN...From 10 AM to 9 PM CDT Tuesday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "description": "* WHAT...Heat index values 108 to 112 expected.\n\n* WHERE...Portions of southwest and west central Louisiana and\nsoutheast Texas.\n\n* WHEN...From 10 AM to 9 PM CDT Tuesday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -109,7 +109,7 @@ const data = {
     1011,
     1011,
     1011,
-    1011
+    1012
   ],
   "fishingReport": {
     "date": "Unavailable",
