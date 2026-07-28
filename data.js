@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 82.71,
-    "feels_like": 89.4,
-    "description": "scattered clouds",
-    "wind_speed": 6.2,
-    "wind_deg": 194,
-    "gust": 18.63,
+    "temp": 80.42,
+    "feels_like": 85.3,
+    "description": "few clouds",
+    "wind_speed": 6.26,
+    "wind_deg": 212,
+    "gust": 17.67,
     "sunrise": "06:28 AM",
-    "sunset": "08:13 PM",
+    "sunset": "08:12 PM",
     "dayOrNight": "night",
-    "humidity": 76,
+    "humidity": 81,
     "uv_index": 0,
     "pressure": 1012,
-    "moon_phase": 0.44,
+    "moon_phase": 0.47,
     "visibility": 10000,
-    "dew_point": 74.37
+    "dew_point": 74.05
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 97.18,
-      "low": 75.15,
-      "description": "clear sky",
-      "wind_speed": 7.65,
-      "wind_deg": 196,
-      "gust": 20.78,
-      "humidity": 40,
-      "uv_index": 11.09,
-      "pressure": 1012,
-      "moon_phase": 0.47,
-      "dew_point": 67.51,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 97.83,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.53,
       "dew_point": 68.99,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -92,14 +77,29 @@ const data = {
       "moon_phase": 0.6,
       "dew_point": 68.45,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 93.09,
+      "low": 73.58,
+      "description": "light rain",
+      "wind_speed": 7.94,
+      "wind_deg": 43,
+      "gust": 21.07,
+      "humidity": 45,
+      "uv_index": 1,
+      "pressure": 1010,
+      "moon_phase": 0.63,
+      "dew_point": 66.6,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
     {
       "event": "Heat Advisory",
       "start": "3:00:00 PM",
-      "end": "2:00:00 AM",
-      "description": "* WHAT...Heat index values 108 to 112 expected.\n\n* WHERE...Portions of southwest and west central Louisiana and\nsoutheast Texas.\n\n* WHEN...From 10 AM to 9 PM CDT Tuesday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "end": "1:00:00 AM",
+      "description": "* WHAT...Heat index values to 108 to 111 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 10 AM to 8 PM CDT Tuesday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
