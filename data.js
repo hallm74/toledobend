@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 89.89,
-    "feels_like": 99.41,
+    "temp": 86.65,
+    "feels_like": 94.86,
     "description": "few clouds",
-    "wind_speed": 4.68,
-    "wind_deg": 184,
-    "gust": 12.57,
+    "wind_speed": 7.85,
+    "wind_deg": 199,
+    "gust": 21.9,
     "sunrise": "06:28 AM",
     "sunset": "08:12 PM",
-    "dayOrNight": "day",
-    "humidity": 60,
+    "dayOrNight": "night",
+    "humidity": 66,
     "uv_index": 0,
-    "pressure": 1009,
+    "pressure": 1010,
     "moon_phase": 0.47,
     "visibility": 10000,
-    "dew_point": 74.14
+    "dew_point": 73.92
   },
   "fiveDayWeather": [
     {
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Heat Advisory",
-      "start": "3:30:00 PM",
-      "end": "1:00:00 AM",
-      "description": "* WHAT...Heat index values of 108 to 111 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 8 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1009,
-    1009,
-    1009,
-    1009,
     1010,
+    1010,
+    1010,
+    1010,
+    1011,
     1011
   ],
   "fishingReport": {
