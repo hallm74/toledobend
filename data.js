@@ -3,16 +3,16 @@ const data = {
   "currentWeather": {
     "temp": 75.58,
     "feels_like": 76.96,
-    "description": "clear sky",
-    "wind_speed": 3.71,
-    "wind_deg": 210,
-    "gust": 5.35,
+    "description": "moderate rain",
+    "wind_speed": 3.44,
+    "wind_deg": 206,
+    "gust": 4.25,
     "sunrise": "06:33 AM",
     "sunset": "08:06 PM",
-    "dayOrNight": "night",
+    "dayOrNight": "day",
     "humidity": 88,
-    "uv_index": 0,
-    "pressure": 1015,
+    "uv_index": 0.11,
+    "pressure": 1016,
     "moon_phase": 0.75,
     "visibility": 10000,
     "dew_point": 71.78
@@ -96,11 +96,11 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
     1016,
     1016,
+    1016,
+    1016,
+    1017,
     1017
   ],
   "fishingReport": {
