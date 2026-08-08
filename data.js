@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.9,
-    "feels_like": 79.9,
+    "temp": 79.09,
+    "feels_like": 79.09,
     "description": "few clouds",
-    "wind_speed": 6.55,
-    "wind_deg": 192,
-    "gust": 20.65,
+    "wind_speed": 5.95,
+    "wind_deg": 196,
+    "gust": 20.78,
     "sunrise": "06:35 AM",
-    "sunset": "08:05 PM",
+    "sunset": "08:04 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 84,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.81,
+    "moon_phase": 0.85,
     "visibility": 10000,
-    "dew_point": 74.26
+    "dew_point": 73.83
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 93.74,
-      "low": 74.73,
-      "description": "light rain",
-      "wind_speed": 10.94,
-      "wind_deg": 153,
-      "gust": 20.78,
-      "humidity": 49,
-      "uv_index": 10.11,
-      "pressure": 1018,
-      "moon_phase": 0.85,
-      "dew_point": 69.57,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 90.72,
@@ -55,13 +40,13 @@ const data = {
       "description": "light rain",
       "wind_speed": 8.61,
       "wind_deg": 170,
-      "gust": 22.03,
+      "gust": 22.95,
       "humidity": 59,
       "uv_index": 10.79,
       "pressure": 1018,
       "moon_phase": 0.92,
       "dew_point": 72.37,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0,
       "dew_point": 69.6,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 99.07,
+      "low": 76.12,
+      "description": "few clouds",
+      "wind_speed": 10.51,
+      "wind_deg": 181,
+      "gust": 24.79,
+      "humidity": 43,
+      "uv_index": 11,
+      "pressure": 1015,
+      "moon_phase": 0.04,
+      "dew_point": 69.75,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,12 +99,12 @@ const data = {
     1018,
     1018,
     1018,
-    1018,
+    1017,
     1017,
     1017
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
