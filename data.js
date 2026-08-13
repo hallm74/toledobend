@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 82,
-    "feels_like": 89.83,
+    "temp": 81.41,
+    "feels_like": 88.74,
     "description": "clear sky",
-    "wind_speed": 8.57,
-    "wind_deg": 191,
-    "gust": 23.85,
-    "sunrise": "06:38 AM",
-    "sunset": "08:00 PM",
+    "wind_speed": 8.03,
+    "wind_deg": 196,
+    "gust": 23.82,
+    "sunrise": "06:39 AM",
+    "sunset": "07:59 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 86,
     "uv_index": 0,
     "pressure": 1014,
-    "moon_phase": "Unavailable",
+    "moon_phase": 0.04,
     "visibility": 10000,
-    "dew_point": 76.69
+    "dew_point": 76.82
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 98.08,
-      "low": 77.43,
-      "description": "clear sky",
-      "wind_speed": 11.61,
-      "wind_deg": 192,
-      "gust": 25.9,
-      "humidity": 37,
-      "uv_index": 10.34,
-      "pressure": 1016,
-      "moon_phase": 0.04,
-      "dew_point": 66.24,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 99.59,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.11,
       "dew_point": 62.46,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.17,
       "dew_point": 65.44,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 100.53,
+      "low": 76.35,
+      "description": "light rain",
+      "wind_speed": 10.29,
+      "wind_deg": 184,
+      "gust": 22.7,
+      "humidity": 38,
+      "uv_index": 11,
+      "pressure": 1014,
+      "moon_phase": 0.21,
+      "dew_point": 68.2,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -101,10 +101,10 @@ const data = {
     1014,
     1014,
     1014,
-    1014
+    1015
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
