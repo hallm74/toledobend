@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 82.9,
-    "feels_like": 90.75,
+    "temp": 81.73,
+    "feels_like": 89.11,
     "description": "overcast clouds",
-    "wind_speed": 7.43,
-    "wind_deg": 187,
-    "gust": 21.45,
-    "sunrise": "06:39 AM",
-    "sunset": "07:58 PM",
+    "wind_speed": 5.95,
+    "wind_deg": 191,
+    "gust": 20.24,
+    "sunrise": "06:40 AM",
+    "sunset": "07:57 PM",
     "dayOrNight": "night",
-    "humidity": 79,
+    "humidity": 84,
     "uv_index": 0,
     "pressure": 1019,
-    "moon_phase": 0.07,
+    "moon_phase": 0.11,
     "visibility": 10000,
-    "dew_point": 75.72
+    "dew_point": 76.42
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 99.84,
-      "low": 77.11,
-      "description": "clear sky",
-      "wind_speed": 10.09,
-      "wind_deg": 190,
-      "gust": 24.25,
-      "humidity": 40,
-      "uv_index": 10.47,
-      "pressure": 1020,
-      "moon_phase": 0.11,
-      "dew_point": 68.7,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 99.48,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1018,
       "moon_phase": 0.17,
       "dew_point": 65.7,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.25,
       "dew_point": 61.47,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 98.6,
+      "low": 73.47,
+      "description": "few clouds",
+      "wind_speed": 10.27,
+      "wind_deg": 184,
+      "gust": 26.02,
+      "humidity": 35,
+      "uv_index": 10,
+      "pressure": 1015,
+      "moon_phase": 0.27,
+      "dew_point": 63.09,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,12 +99,12 @@ const data = {
     1019,
     1019,
     1019,
-    1019,
+    1020,
     1020,
     1020
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
