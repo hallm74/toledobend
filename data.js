@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 89.73,
-    "feels_like": 99.59,
+    "temp": 92.55,
+    "feels_like": 102.76,
     "description": "clear sky",
-    "wind_speed": 2.13,
-    "wind_deg": 225,
-    "gust": 3.6,
+    "wind_speed": 2.01,
+    "wind_deg": 181,
+    "gust": 3.4,
     "sunrise": "06:40 AM",
     "sunset": "07:56 PM",
     "dayOrNight": "day",
-    "humidity": 61,
-    "uv_index": 6.87,
+    "humidity": 55,
+    "uv_index": 9.15,
     "pressure": 1021,
     "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 74.48
+    "dew_point": 74.03
   },
   "fiveDayWeather": [
     {
@@ -97,19 +97,26 @@ const data = {
   "weatherAlerts": [
     {
       "event": "Heat Advisory",
+      "start": "4:31:00 PM",
+      "end": "1:00:00 AM",
+      "description": "* WHAT...For the first Heat Advisory, heat index values up to 109.\nFor the second Heat Advisory, heat index values up to 110 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Heat Advisory, until 8 PM CDT this evening.\nFor the second Heat Advisory, from 11 AM to 8 PM CDT Monday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Heat Advisory",
       "start": "4:00:00 PM",
       "end": "1:00:00 AM",
-      "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 11 AM to 8 PM CDT Sunday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "description": "* WHAT...For the first Heat Advisory, heat index values up to 109.\nFor the second Heat Advisory, heat index values up to 110 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the first Heat Advisory, until 8 PM CDT this evening.\nFor the second Heat Advisory, from 11 AM to 8 PM CDT Monday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
     1021,
     1021,
-    1021,
     1020,
     1019,
-    1017
+    1018,
+    1016
   ],
   "fishingReport": {
     "date": "Unavailable",
