@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 83.59,
-    "feels_like": 92.52,
+    "temp": 82.45,
+    "feels_like": 90.48,
     "description": "few clouds",
-    "wind_speed": 8.32,
-    "wind_deg": 204,
-    "gust": 21.72,
+    "wind_speed": 7.83,
+    "wind_deg": 208,
+    "gust": 22.15,
     "sunrise": "06:40 AM",
-    "sunset": "07:57 PM",
+    "sunset": "07:56 PM",
     "dayOrNight": "night",
-    "humidity": 79,
+    "humidity": 82,
     "uv_index": 0,
     "pressure": 1020,
-    "moon_phase": 0.11,
+    "moon_phase": 0.14,
     "visibility": 10000,
-    "dew_point": 76.39
+    "dew_point": 76.41
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 100.35,
-      "low": 75.34,
-      "description": "clear sky",
-      "wind_speed": 9.37,
-      "wind_deg": 203,
-      "gust": 22.82,
-      "humidity": 40,
-      "uv_index": 10.28,
-      "pressure": 1019,
-      "moon_phase": 0.14,
-      "dew_point": 68.45,
-      "visibility": 10000
-    },
     {
       "date": "Monday",
       "high": 99.3,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.21,
       "dew_point": 67.84,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Wednesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.27,
       "dew_point": 62.67,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 98.98,
+      "low": 75,
+      "description": "clear sky",
+      "wind_speed": 10.31,
+      "wind_deg": 207,
+      "gust": 25.28,
+      "humidity": 40,
+      "uv_index": 10,
+      "pressure": 1015,
+      "moon_phase": 0.3,
+      "dew_point": 67.95,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -109,10 +109,10 @@ const data = {
     1020,
     1019,
     1019,
-    1019
+    1020
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
