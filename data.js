@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 82.47,
-    "feels_like": 88.59,
+    "temp": 81.43,
+    "feels_like": 86.77,
     "description": "few clouds",
-    "wind_speed": 7.31,
-    "wind_deg": 192,
-    "gust": 19.44,
-    "sunrise": "06:40 AM",
-    "sunset": "07:56 PM",
+    "wind_speed": 6.93,
+    "wind_deg": 197,
+    "gust": 20.49,
+    "sunrise": "06:41 AM",
+    "sunset": "07:55 PM",
     "dayOrNight": "night",
-    "humidity": 75,
+    "humidity": 77,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.14,
+    "moon_phase": 0.17,
     "visibility": 10000,
-    "dew_point": 73.74
+    "dew_point": 73.53
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 100.53,
-      "low": 73.69,
-      "description": "clear sky",
-      "wind_speed": 9.13,
-      "wind_deg": 195,
-      "gust": 22.28,
-      "humidity": 37,
-      "uv_index": 9.87,
-      "pressure": 1018,
-      "moon_phase": 0.17,
-      "dew_point": 66.52,
-      "visibility": 10000
-    },
     {
       "date": "Tuesday",
       "high": 100.15,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.25,
       "dew_point": 65.55,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.3,
       "dew_point": 66.61,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 100.63,
+      "low": 76.78,
+      "description": "light rain",
+      "wind_speed": 15.19,
+      "wind_deg": 176,
+      "gust": 31.05,
+      "humidity": 36,
+      "uv_index": 11,
+      "pressure": 1014,
+      "moon_phase": 0.33,
+      "dew_point": 67.28,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -113,6 +113,6 @@ const data = {
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
