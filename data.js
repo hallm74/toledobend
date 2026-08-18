@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 83.25,
-    "feels_like": 88.61,
+    "temp": 82.09,
+    "feels_like": 87.06,
     "description": "clear sky",
-    "wind_speed": 7.61,
-    "wind_deg": 191,
-    "gust": 20.51,
-    "sunrise": "06:41 AM",
-    "sunset": "07:55 PM",
+    "wind_speed": 5.91,
+    "wind_deg": 199,
+    "gust": 18.84,
+    "sunrise": "06:42 AM",
+    "sunset": "07:54 PM",
     "dayOrNight": "night",
-    "humidity": 69,
+    "humidity": 72,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.17,
+    "moon_phase": 0.21,
     "visibility": 10000,
-    "dew_point": 72.01
+    "dew_point": 72.18
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 98.73,
-      "low": 75.18,
-      "description": "broken clouds",
-      "wind_speed": 10.71,
-      "wind_deg": 196,
-      "gust": 22.01,
-      "humidity": 40,
-      "uv_index": 9.7,
-      "pressure": 1016,
-      "moon_phase": 0.21,
-      "dew_point": 68.23,
-      "visibility": 10000
-    },
     {
       "date": "Wednesday",
       "high": 99.61,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.27,
       "dew_point": 66.69,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -70,7 +55,7 @@ const data = {
       "description": "light rain",
       "wind_speed": 10.63,
       "wind_deg": 275,
-      "gust": 19.8,
+      "gust": 21.3,
       "humidity": 46,
       "uv_index": 10.07,
       "pressure": 1016,
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.33,
       "dew_point": 68.45,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 101.84,
+      "low": 77.81,
+      "description": "broken clouds",
+      "wind_speed": 8.12,
+      "wind_deg": 257,
+      "gust": 18.79,
+      "humidity": 37,
+      "uv_index": 11,
+      "pressure": 1015,
+      "moon_phase": 0.36,
+      "dew_point": 67.12,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,9 +99,9 @@ const data = {
     1017,
     1017,
     1017,
-    1017,
     1016,
-    1016
+    1016,
+    1017
   ],
   "fishingReport": {
     "date": "Unavailable",
