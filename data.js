@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 93.34,
-    "feels_like": 103.33,
+    "temp": 95.85,
+    "feels_like": 104.38,
     "description": "clear sky",
-    "wind_speed": 3.44,
-    "wind_deg": 248,
-    "gust": 5.03,
+    "wind_speed": 2.04,
+    "wind_deg": 247,
+    "gust": 3.8,
     "sunrise": "06:43 AM",
     "sunset": "07:52 PM",
     "dayOrNight": "day",
-    "humidity": 53,
-    "uv_index": 8.56,
+    "humidity": 46,
+    "uv_index": 9.41,
     "pressure": 1017,
     "moon_phase": 0.27,
     "visibility": 10000,
-    "dew_point": 73.65
+    "dew_point": 71.73
   },
   "fiveDayWeather": [
     {
@@ -96,10 +96,17 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Heat Advisory",
-      "start": "5:00:00 PM",
+      "event": "Extreme Heat Warning",
+      "start": "3:00:00 PM",
       "end": "1:00:00 AM",
-      "description": "* WHAT...Heat index values up to 111 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From noon today to 8 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "description": "* WHAT...For the Heat Advisory, heat index values up to 111. For the\nExtreme Heat Warning, dangerously hot conditions with heat index\nvalues up to 115 expected, as well as temperatures up to 103 to\n105.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nand Vernon Parishes. In Texas, Northern Jasper, Northern Newton,\nand Tyler Counties.\n\n* WHEN...For the Heat Advisory, until 8 PM CDT this evening. For the\nExtreme Heat Warning, from 10 AM to 8 PM CDT Friday.\n\n* IMPACTS...Heat related illnesses increase significantly during\nextreme heat and high humidity events. Hot temperatures and high\nhumidity may cause heat illnesses.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Heat Advisory",
+      "start": "5:54:00 PM",
+      "end": "1:00:00 AM",
+      "description": "* WHAT...For the Heat Advisory, heat index values up to 111. For the\nExtreme Heat Warning, dangerously hot conditions with heat index\nvalues up to 115 expected, as well as temperatures up to 103 to\n105.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nand Vernon Parishes. In Texas, Northern Jasper, Northern Newton,\nand Tyler Counties.\n\n* WHEN...For the Heat Advisory, until 8 PM CDT this evening. For the\nExtreme Heat Warning, from 10 AM to 8 PM CDT Friday.\n\n* IMPACTS...Heat related illnesses increase significantly during\nextreme heat and high humidity events. Hot temperatures and high\nhumidity may cause heat illnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -108,8 +115,8 @@ const data = {
     1017,
     1016,
     1015,
-    1015,
-    1013
+    1014,
+    1012
   ],
   "fishingReport": {
     "date": "Unavailable",
