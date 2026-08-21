@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 91.36,
-    "feels_like": 101.79,
+    "temp": 94.44,
+    "feels_like": 104.59,
     "description": "clear sky",
-    "wind_speed": 4.56,
+    "wind_speed": 3.31,
     "wind_deg": 271,
-    "gust": 6.29,
+    "gust": 3.53,
     "sunrise": "06:44 AM",
     "sunset": "07:51 PM",
     "dayOrNight": "day",
-    "humidity": 58,
-    "uv_index": 6.62,
+    "humidity": 51,
+    "uv_index": 8.75,
     "pressure": 1018,
     "moon_phase": 0.3,
     "visibility": 10000,
-    "dew_point": 74.5
+    "dew_point": 73.51
   },
   "fiveDayWeather": [
     {
@@ -96,20 +96,27 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Extreme Heat Warning",
-      "start": "3:00:00 PM",
+      "event": "Heat Advisory",
+      "start": "4:00:00 PM",
       "end": "1:00:00 AM",
-      "description": "* WHAT...Dangerously hot conditions with heat index values up to 113\nexpected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nand Vernon Parishes. In Texas, Northern Jasper, Northern Newton,\nand Tyler Counties.\n\n* WHEN...From 10 AM to 8 PM CDT Friday.\n\n* IMPACTS...Heat related illnesses increase significantly during\nextreme heat and high humidity events.",
+      "description": "* WHAT...For the Extreme Heat Warning, dangerously hot conditions\nwith heat index values from 113 to 114, as well as high\ntemperatures from 103 to 105. For the Heat Advisory, heat index\nvalues up to 112 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Extreme Heat Warning, until 8 PM CDT this evening.\nFor the Heat Advisory, from 11 AM to 8 PM CDT Saturday.\n\n* IMPACTS...Heat related illnesses increase significantly during\nextreme heat and high humidity events. Hot temperatures and high\nhumidity may cause heat illnesses.",
+      "sender": "NWS Lake Charles LA"
+    },
+    {
+      "event": "Extreme Heat Warning",
+      "start": "4:54:00 PM",
+      "end": "1:00:00 AM",
+      "description": "* WHAT...For the Extreme Heat Warning, dangerously hot conditions\nwith heat index values from 113 to 114, as well as high\ntemperatures from 103 to 105. For the Heat Advisory, heat index\nvalues up to 112 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...For the Extreme Heat Warning, until 8 PM CDT this evening.\nFor the Heat Advisory, from 11 AM to 8 PM CDT Saturday.\n\n* IMPACTS...Heat related illnesses increase significantly during\nextreme heat and high humidity events. Hot temperatures and high\nhumidity may cause heat illnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
     1018,
     1018,
-    1018,
     1017,
     1016,
-    1014
+    1015,
+    1012
   ],
   "fishingReport": {
     "date": "Unavailable",
