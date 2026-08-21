@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 84.07,
-    "feels_like": 92.7,
+    "temp": 82.76,
+    "feels_like": 90.68,
     "description": "clear sky",
-    "wind_speed": 7.2,
-    "wind_deg": 190,
-    "gust": 19.13,
-    "sunrise": "06:43 AM",
-    "sunset": "07:52 PM",
+    "wind_speed": 7.27,
+    "wind_deg": 201,
+    "gust": 21.14,
+    "sunrise": "06:44 AM",
+    "sunset": "07:51 PM",
     "dayOrNight": "night",
-    "humidity": 76,
+    "humidity": 80,
     "uv_index": 0,
-    "pressure": 1015,
-    "moon_phase": 0.27,
+    "pressure": 1016,
+    "moon_phase": 0.3,
     "visibility": 10000,
-    "dew_point": 75.69
+    "dew_point": 75.96
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 103.96,
-      "low": 76.91,
-      "description": "moderate rain",
-      "wind_speed": 11.77,
-      "wind_deg": 120,
-      "gust": 24.61,
-      "humidity": 34,
-      "uv_index": 9.88,
-      "pressure": 1015,
-      "moon_phase": 0.3,
-      "dew_point": 66.85,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 102.11,
@@ -55,13 +40,13 @@ const data = {
       "description": "clear sky",
       "wind_speed": 10.31,
       "wind_deg": 188,
-      "gust": 23.58,
+      "gust": 25.86,
       "humidity": 35,
       "uv_index": 10.14,
       "pressure": 1015,
       "moon_phase": 0.36,
       "dew_point": 66.76,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.42,
       "dew_point": 63.88,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 98.49,
+      "low": 74.19,
+      "description": "scattered clouds",
+      "wind_speed": 11.81,
+      "wind_deg": 189,
+      "gust": 24.87,
+      "humidity": 39,
+      "uv_index": 10,
+      "pressure": 1014,
+      "moon_phase": 0.45,
+      "dew_point": 67.21,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -99,20 +99,20 @@ const data = {
       "event": "Extreme Heat Warning",
       "start": "3:00:00 PM",
       "end": "1:00:00 AM",
-      "description": "* WHAT...For the Heat Advisory, heat index values up to 111. For the\nExtreme Heat Warning, dangerously hot conditions with heat index\nvalues up to 115 expected, as well as temperatures up to 103 to\n105.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nand Vernon Parishes. In Texas, Northern Jasper, Northern Newton,\nand Tyler Counties.\n\n* WHEN...For the Heat Advisory, until 8 PM CDT this evening. For the\nExtreme Heat Warning, from 10 AM to 8 PM CDT Friday.\n\n* IMPACTS...Heat related illnesses increase significantly during\nextreme heat and high humidity events. Hot temperatures and high\nhumidity may cause heat illnesses.",
+      "description": "* WHAT...Dangerously hot conditions with heat index values up to 113\nexpected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nand Vernon Parishes. In Texas, Northern Jasper, Northern Newton,\nand Tyler Counties.\n\n* WHEN...From 10 AM to 8 PM CDT Friday.\n\n* IMPACTS...Heat related illnesses increase significantly during\nextreme heat and high humidity events.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1015,
-    1015,
-    1015,
+    1016,
+    1016,
+    1016,
     1015,
     1015,
     1015
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
