@@ -1,51 +1,51 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 95.27,
-    "feels_like": 98.42,
-    "description": "few clouds",
-    "wind_speed": 1.81,
-    "wind_deg": 234,
-    "gust": 4.45,
+    "temp": 90.45,
+    "feels_like": 92.07,
+    "description": "overcast clouds",
+    "wind_speed": 6.93,
+    "wind_deg": 110,
+    "gust": 20.18,
     "sunrise": "06:49 AM",
     "sunset": "07:40 PM",
     "dayOrNight": "day",
-    "humidity": 38,
-    "uv_index": 0.57,
-    "pressure": 1013,
+    "humidity": 42,
+    "uv_index": 0,
+    "pressure": 1014,
     "moon_phase": 0.59,
     "visibility": 10000,
-    "dew_point": 65.66
+    "dew_point": 64.24
   },
   "fiveDayWeather": [
     {
       "date": "Monday",
-      "high": 95.23,
-      "low": 74.19,
-      "description": "scattered clouds",
-      "wind_speed": 8.48,
+      "high": 93.45,
+      "low": 73.56,
+      "description": "light rain",
+      "wind_speed": 7.63,
       "wind_deg": 138,
-      "gust": 18.12,
-      "humidity": 43,
+      "gust": 20.38,
+      "humidity": 42,
       "uv_index": 9.59,
       "pressure": 1016,
       "moon_phase": 0.62,
-      "dew_point": 67.1,
+      "dew_point": 66.81,
       "visibility": 10000
     },
     {
       "date": "Tuesday",
-      "high": 90.14,
-      "low": 74.14,
+      "high": 88.81,
+      "low": 73.56,
       "description": "light rain",
-      "wind_speed": 11.59,
-      "wind_deg": 165,
-      "gust": 24.65,
-      "humidity": 50,
+      "wind_speed": 11.25,
+      "wind_deg": 199,
+      "gust": 24.25,
+      "humidity": 56,
       "uv_index": 8.25,
       "pressure": 1016,
       "moon_phase": 0.66,
-      "dew_point": 69.13,
+      "dew_point": 71.37,
       "visibility": 10000
     },
     {
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1013,
-    1013,
-    1013,
+    1014,
+    1014,
+    1014,
     1014,
     1015,
     1015
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
