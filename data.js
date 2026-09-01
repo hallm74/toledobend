@@ -4,15 +4,15 @@ const data = {
     "temp": 87.58,
     "feels_like": 100.18,
     "description": "overcast clouds",
-    "wind_speed": 11.32,
-    "wind_deg": 119,
-    "gust": 22.62,
+    "wind_speed": 11.74,
+    "wind_deg": 113,
+    "gust": 22.84,
     "sunrise": "06:50 AM",
     "sunset": "07:38 PM",
     "dayOrNight": "day",
     "humidity": 76,
-    "uv_index": 5.04,
-    "pressure": 1015,
+    "uv_index": 2.31,
+    "pressure": 1014,
     "moon_phase": 0.66,
     "visibility": 10000,
     "dew_point": 79.07
@@ -111,11 +111,11 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1015,
-    1015,
+    1014,
     1014,
     1014,
     1013,
+    1014,
     1014
   ],
   "fishingReport": {
