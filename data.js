@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 80.6,
-    "feels_like": 86.22,
-    "description": "light rain",
+    "temp": 80.13,
+    "feels_like": 85.69,
+    "description": "overcast clouds",
     "wind_speed": 9.06,
     "wind_deg": 134,
     "gust": 25.41,
     "sunrise": "06:50 AM",
     "sunset": "07:38 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 88,
     "uv_index": 0,
     "pressure": 1014,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 75.31
+    "dew_point": 76.24
   },
   "fiveDayWeather": [
     {
@@ -96,17 +96,17 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Tropical Cyclone Local Statement",
-      "start": "9:49:00 PM",
+      "event": "Wind Advisory",
+      "start": "2:29:00 AM",
       "end": "6:00:00 AM",
-      "description": "HLSLCH\n\nThis product covers Southwest Louisiana and Southeast Texas\n\n**Tropical Storm Edouard Made Landfall Near Johnsons\nBayou **\n\nNEW INFORMATION\n---------------\n\n* CHANGES TO WATCHES AND WARNINGS:\n- The Tropical Storm Warning has been cancelled for Lower\nVermilion\n\n* CURRENT WATCHES AND WARNINGS:\n- A Tropical Storm Warning is in effect for East Cameron, Hardin,\nLower Jefferson, Northern Calcasieu, Northern Orange, Southern\nCalcasieu, Southern Jasper, Southern Newton, Southern Orange,\nUpper Jefferson, and West Cameron\n\n* STORM INFORMATION:\n- About 20 miles north-northwest of Sabine Pass TX\n- 29.9N 94.0W\n- Storm Intensity 50 mph\n- Movement Northwest or 305 degrees at 7 mph\n\nSITUATION OVERVIEW\n------------------\n\nTropical Storm Edouard officially made landfall near Johnsons\nBayou, LA, at 220 PM. The system will continue to weaken as it\nmoves inland. We received several reports of 50-60+ MPH wind gusts\nacross our coastal areas, with the highest being a gust to 71 MPH\nat Texas Point shortly before landfall. The Hurricane Watch was\ndropped earlier and replaced with a Tropical Storm Warning, while\nthe Storm Surge Warning was replaced with a Coastal Flood Warning\nfor lower Jefferson and western Cameron Parishes, along with a\nCoastal Flood Advisory for southern Orange County, southern\nCalcasieu, and eastern Cameron Parishes. Given that the coastal\nthreat has not entirely materialized and the system is now moving\ninland, it is possible that the remaining coastal flood products\ncould be dropped over the next several hours.\n\n\nPOTENTIAL IMPACTS\n-----------------\n\n* FLOODING RAIN:\nPotential impacts from the flooding rain are still unfolding across\nSETX/SWLA.\n\nIf realized, these impacts include:\n- Major rainfall flooding may prompt many evacuations and rescues.\n- Rivers and tributaries may rapidly overflow their banks in\nmultiple places. Small streams, creeks, canals, and ditches may\nbecome dangerous rivers. Flood control systems and barriers may\nbecome stressed.\n- Flood waters can enter many structures within multiple\ncommunities, some structures becoming uninhabitable or washed\naway. Many places where flood waters may cover escape routes.\nStreets and parking lots become rivers of moving water with\nunderpasses submerged. Driving conditions become dangerous.\nMany road and bridge closures with some weakened or washed out.\n\n* WIND:\nPotential impacts from the main wind event are now unfolding across\nSETX/SWLA.\n\nIf realized, these impacts include:\n- Damage to porches, awnings, carports, sheds, and unanchored\nmobile homes. Unsecured lightweight objects blown about.\n- Many large tree limbs broken off. A few trees snapped or\nuprooted, but with greater numbers in places where trees are\nshallow rooted. Some fences and roadway signs blown over.\n- A few roads impassable from debris, particularly within urban\nor heavily wooded places. Hazardous driving conditions on\nbridges and other elevated roadways.\n- Scattered power and communications outages.\n\nElsewhere across Southwest Louisiana and Southeast Texas, little to\nno impact is anticipated.\n\n* SURGE:\nLimited impacts from the main surge event are now unfolding across\nSETX.\n\nIf realized, these impacts include:\n- Localized inundation with storm surge flooding mainly along\nimmediate shorelines and in low-lying spots, or in areas\nfarther inland near where higher surge waters move ashore.\n- Sections of near-shore roads and parking lots become overspread\nwith surge water. Driving conditions dangerous in places where\nsurge water covers the road.\n- Moderate beach erosion. Heavy surf also breaching dunes, mainly\nin usually vulnerable locations. Strong rip currents.\n- Minor to locally moderate damage to marinas, docks, boardwalks,\nand piers. A few small craft broken away from moorings.\n\nElsewhere across Southwest Louisiana and Southeast Texas, little to\nno impact is anticipated.\n\n* TORNADOES:\nPotential impacts from tornadoes are still unfolding across Southwest\nLouisiana and Southeast Texas.\n\nIf realized, these impacts include:\n- The occurrence of isolated tornadoes can hinder the execution\nof emergency plans during tropical events.\n- A few places may experience tornado damage, along with power\nand communications disruptions.\n- Locations could realize roofs peeled off buildings, chimneys\ntoppled, mobile homes pushed off foundations or overturned,\nlarge tree tops and branches snapped off, shallow-rooted trees\nknocked over, moving vehicles blown off roads, and boats pulled\nfrom moorings.\n\nPRECAUTIONARY/PREPAREDNESS ACTIONS\n----------------------------------\n\n* EVACUATIONS:\nFollow the advice of local officials.\n\n\n* OTHER PREPAREDNESS INFORMATION:\n\nNow is the time to stay inside and away from windows. Listen for\nupdates and be ready in case you lose electrical power. Keep a\nbattery-powered radio, charged cell phone and flashlight handy.\n\n\nIf you are prone to flooding or in an area under a storm surge watch\nor warning, be prepared for the possibility of a quick and dramatic\nrise in water levels.\n\nIf a tornado warning is issued for your area, quickly move to the\nsafest place within your shelter. Protect your head and body.\n\n* ADDITIONAL SOURCES OF INFORMATION:\n- For information on appropriate preparations see ready.gov\n- For information on creating an emergency plan see getagameplan.org\n- For additional disaster preparedness information see redcross.org\n\nNEXT UPDATE\n-----------\n\nThe next local statement will be issued by the National Weather\nService in Lake Charles LA around 11PM CDT, or sooner if conditions\nwarrant.",
+      "description": "* WHAT...East winds 15 to 25 mph with gusts up to 35 mph.\n\n* WHERE...Northern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...Until 1 AM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
       "sender": "NWS Lake Charles LA"
     },
     {
-      "event": "Wind Advisory",
-      "start": "9:56:00 PM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...East winds 15 to 25 mph with gusts up to 40 mph.\n\n* WHERE...Northern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...Until 1 AM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+      "event": "Tropical Cyclone Local Statement",
+      "start": "2:53:00 AM",
+      "end": "11:00:00 AM",
+      "description": "HLSLCH\n\nThis product covers Southwest Louisiana and Southeast Texas\n\nEDOUARD WEAKENING...DOWNGRADED TO A TROPICAL DEPRESSION\n\nNEW INFORMATION\n---------------\n\n* CHANGES TO WATCHES AND WARNINGS:\n- All watches and warnings have been canceled\n\n* CURRENT WATCHES AND WARNINGS:\n- None\n\n* STORM INFORMATION:\n- About 70 miles north of High Island TX or about 90 miles\nwest-northwest of Cameron LA\n- 30.5N 94.6W\n- Storm Intensity 35 mph\n- Movement Northwest or 315 degrees at 8 mph\n\nSITUATION OVERVIEW\n------------------\n\nEdouard has been downgraded to a Tropical Depression with the 10PM CDT\nadvisory. Maximum sustained winds are now estimated to be 35 mph, with\noccasional tropical storm force gusts still possible through the next\ncouple of hours. A Wind Advisory will remain in effect through 1AM for\nTyler, Jasper, and Newton CO, as a result. The center of Edouard is\nnear NW Hardin CO at this time, moving NW, with the area of heaviest\nrain situated north of the center. The threat for flooding rain will be\nthe main concern through the overnight period, as the storm continues\nto weaken. A Flood Watch remains in effect for all of SE TX through\n7AM.\n\n\nPOTENTIAL IMPACTS\n-----------------\n\n* FLOODING RAIN:\n\nAdditional impacts from flooding rain are still a concern across\ninterior southeast Texas. Remain well guarded against life-threatening\nflood waters having further impacts of extensive potential.\n\nAdditional impacts from flooding rain are still a concern across\ninterior southeast Texas. Remain well guarded against life-threatening\nflood waters having further impacts of limited to significant\npotential.\n\n\n* WIND:\nLittle to no additional wind impacts expected.\n\n- Community officials are now assessing the extent of actual wind\nimpacts accordingly.\n- Emergency work crews are restoring essential community\ninfrastructure as necessary.\n- If you have an emergency dial 9 1 1.\n\n\nElsewhere across Southwest Louisiana and Southeast Texas, little to\nno impact is anticipated.\n\n* TORNADOES:\nAdditional impacts from tornadoes are still a concern across\nSouthwest Louisiana and Southeast Texas. Remain well braced against\ntornado event having further limited impact potential.\n\nPRECAUTIONARY/PREPAREDNESS ACTIONS\n----------------------------------\n\n* EVACUATIONS:\nFollow the advice of local officials.\n\n\n* OTHER PREPAREDNESS INFORMATION:\n\nCheck on your neighbors. If necessary, help them connect with their\npoints of contact.\n\nAllow extra time for emergency vehicles to reach you as they navigate\nroad hazards.\n\nDo not go sightseeing within impacted communities. Sightseers\ninterfere with the emergency work of first responders.\n\nBe alert for any lingering wind gusts which could take down weakened\ntrees and/or power lines, collapse damaged structures, or cause\nflying debris.\n\n\n* ADDITIONAL SOURCES OF INFORMATION:\n- For information on appropriate preparations see ready.gov\n- For information on creating an emergency plan see getagameplan.org\n- For additional disaster preparedness information see redcross.org\n\nNEXT UPDATE\n-----------\n\nAs it pertains to this event...this will be the last local statement\nissued by the National Weather Service in Lake Charles LA regarding\nthe effects of tropical cyclone hazards upon the area.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -114,8 +114,8 @@ const data = {
     1014,
     1014,
     1014,
-    1014,
     1015,
+    1014,
     1014
   ],
   "fishingReport": {
