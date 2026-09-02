@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.09,
-    "feels_like": 79.09,
-    "description": "overcast clouds",
-    "wind_speed": 7.43,
-    "wind_deg": 131,
-    "gust": 22.75,
+    "temp": 78.49,
+    "feels_like": 80.31,
+    "description": "moderate rain",
+    "wind_speed": 6.76,
+    "wind_deg": 138,
+    "gust": 22.12,
     "sunrise": "06:51 AM",
     "sunset": "07:37 PM",
     "dayOrNight": "night",
-    "humidity": 90,
+    "humidity": 91,
     "uv_index": 0,
     "pressure": 1015,
     "moon_phase": 0.69,
     "visibility": 10000,
-    "dew_point": 75.9
+    "dew_point": 75.65
   },
   "fiveDayWeather": [
     {
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Wind Advisory",
-      "start": "2:29:00 AM",
-      "end": "6:00:00 AM",
-      "description": "* WHAT...East winds 15 to 25 mph with gusts up to 35 mph.\n\n* WHERE...Northern Jasper, Northern Newton, and Tyler Counties.\n\n* WHEN...Until 1 AM CDT Wednesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Tropical Cyclone Local Statement",
       "start": "2:53:00 AM",
       "end": "11:00:00 AM",
@@ -114,12 +107,12 @@ const data = {
     1015,
     1015,
     1015,
+    1015,
     1014,
-    1014,
-    1014
+    1015
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
