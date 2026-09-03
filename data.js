@@ -3,16 +3,16 @@ const data = {
   "currentWeather": {
     "temp": 88.21,
     "feels_like": 97.57,
-    "description": "light rain",
-    "wind_speed": 1.99,
-    "wind_deg": 190,
-    "gust": 5.28,
+    "description": "few clouds",
+    "wind_speed": 2.26,
+    "wind_deg": 212,
+    "gust": 5.93,
     "sunrise": "06:51 AM",
     "sunset": "07:36 PM",
     "dayOrNight": "day",
     "humidity": 64,
-    "uv_index": 9.42,
-    "pressure": 1015,
+    "uv_index": 7.54,
+    "pressure": 1014,
     "moon_phase": 0.73,
     "visibility": 10000,
     "dew_point": 74.5
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1015,
-    1015,
+    1014,
     1014,
     1013,
     1013,
+    1012,
     1012
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
