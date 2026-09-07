@@ -1,12 +1,12 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 78.42,
-    "feels_like": 80.24,
+    "temp": 77.85,
+    "feels_like": 79.61,
     "description": "few clouds",
-    "wind_speed": 3.62,
-    "wind_deg": 239,
-    "gust": 5.21,
+    "wind_speed": 3.85,
+    "wind_deg": 232,
+    "gust": 5.93,
     "sunrise": "06:54 AM",
     "sunset": "07:31 PM",
     "dayOrNight": "night",
@@ -15,22 +15,22 @@ const data = {
     "pressure": 1012,
     "moon_phase": 0.87,
     "visibility": 10000,
-    "dew_point": 75.58
+    "dew_point": 75
   },
   "fiveDayWeather": [
     {
       "date": "Tuesday",
-      "high": 97.32,
-      "low": 76.66,
+      "high": 93.52,
+      "low": 76.06,
       "description": "light rain",
-      "wind_speed": 7.54,
-      "wind_deg": 180,
-      "gust": 15.77,
-      "humidity": 47,
+      "wind_speed": 7.43,
+      "wind_deg": 159,
+      "gust": 16.04,
+      "humidity": 46,
       "uv_index": 9.41,
-      "pressure": 1017,
+      "pressure": 1016,
       "moon_phase": 0.91,
-      "dew_point": 70.88,
+      "dew_point": 69.93,
       "visibility": 10000
     },
     {
@@ -99,7 +99,7 @@ const data = {
       "event": "Heat Advisory",
       "start": "4:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "* WHAT...Heat index values 108 to 110 expected.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 11 AM to 7 PM CDT Monday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+      "description": "* WHAT...Heat index values 108 to 110 likely.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...From 11 AM this morning to 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -109,7 +109,7 @@ const data = {
     1012,
     1012,
     1012,
-    1012
+    1013
   ],
   "fishingReport": {
     "date": "Unavailable",
