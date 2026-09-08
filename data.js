@@ -1,51 +1,51 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 92.05,
-    "feels_like": 104.65,
-    "description": "broken clouds",
-    "wind_speed": 3.18,
-    "wind_deg": 151,
-    "gust": 4.7,
+    "temp": 85.73,
+    "feels_like": 94.84,
+    "description": "few clouds",
+    "wind_speed": 6.89,
+    "wind_deg": 181,
+    "gust": 16.89,
     "sunrise": "06:54 AM",
     "sunset": "07:31 PM",
     "dayOrNight": "day",
-    "humidity": 65,
-    "uv_index": 0.16,
+    "humidity": 71,
+    "uv_index": 0,
     "pressure": 1013,
     "moon_phase": 0.87,
     "visibility": 10000,
-    "dew_point": 78.58
+    "dew_point": 75.24
   },
   "fiveDayWeather": [
     {
       "date": "Tuesday",
-      "high": 94.33,
-      "low": 75.78,
+      "high": 96.84,
+      "low": 76.6,
       "description": "light rain",
-      "wind_speed": 6.78,
-      "wind_deg": 123,
-      "gust": 16.28,
-      "humidity": 49,
+      "wind_speed": 8.37,
+      "wind_deg": 50,
+      "gust": 17.92,
+      "humidity": 45,
       "uv_index": 9.46,
       "pressure": 1017,
       "moon_phase": 0.91,
-      "dew_point": 71.06,
+      "dew_point": 69.94,
       "visibility": 10000
     },
     {
       "date": "Wednesday",
       "high": 95.27,
-      "low": 74.57,
-      "description": "scattered clouds",
+      "low": 74.46,
+      "description": "clear sky",
       "wind_speed": 7.58,
       "wind_deg": 164,
       "gust": 18.72,
-      "humidity": 46,
+      "humidity": 44,
       "uv_index": 9.06,
       "pressure": 1019,
       "moon_phase": 0.95,
-      "dew_point": 67.93,
+      "dew_point": 67.23,
       "visibility": 10000
     },
     {
@@ -94,21 +94,13 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Heat Advisory",
-      "start": "5:10:00 PM",
-      "end": "12:00:00 AM",
-      "description": "* WHAT...Heat index values up to 110.\n\n* WHERE...Portions of central, south central, southwest, and west\ncentral Louisiana and southeast Texas.\n\n* WHEN...Until 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1013,
     1013,
     1013,
     1014,
-    1015,
+    1014,
     1014
   ],
   "fishingReport": {
