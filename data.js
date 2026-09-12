@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 79.9,
-    "feels_like": 79.9,
-    "description": "broken clouds",
-    "wind_speed": 6.8,
-    "wind_deg": 182,
-    "gust": 19.66,
+    "temp": 79.18,
+    "feels_like": 79.18,
+    "description": "scattered clouds",
+    "wind_speed": 7.18,
+    "wind_deg": 188,
+    "gust": 21.45,
     "sunrise": "06:56 AM",
-    "sunset": "07:25 PM",
+    "sunset": "07:24 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 87,
     "uv_index": 0,
     "pressure": 1012,
-    "moon_phase": 0.02,
+    "moon_phase": 0.05,
     "visibility": 10000,
-    "dew_point": 74.62
+    "dew_point": 74.97
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 92.34,
-      "low": 73.49,
-      "description": "light rain",
-      "wind_speed": 7.49,
-      "wind_deg": 204,
-      "gust": 21.94,
-      "humidity": 45,
-      "uv_index": 9.11,
-      "pressure": 1014,
-      "moon_phase": 0.05,
-      "dew_point": 69.96,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 96.21,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.12,
       "dew_point": 69.04,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.18,
       "dew_point": 67.59,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 92.95,
+      "low": 75.22,
+      "description": "scattered clouds",
+      "wind_speed": 5.21,
+      "wind_deg": 178,
+      "gust": 14.45,
+      "humidity": 46,
+      "uv_index": 10,
+      "pressure": 1020,
+      "moon_phase": 0.22,
+      "dew_point": 68.95,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -105,6 +105,6 @@ const data = {
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
