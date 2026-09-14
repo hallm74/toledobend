@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 93.74,
-    "feels_like": 99.88,
-    "description": "few clouds",
-    "wind_speed": 1.52,
-    "wind_deg": 166,
-    "gust": 5.41,
+    "temp": 94.68,
+    "feels_like": 103.12,
+    "description": "scattered clouds",
+    "wind_speed": 2.39,
+    "wind_deg": 243,
+    "gust": 5.12,
     "sunrise": "06:58 AM",
     "sunset": "07:22 PM",
     "dayOrNight": "day",
-    "humidity": 46,
-    "uv_index": 6.34,
-    "pressure": 1016,
+    "humidity": 48,
+    "uv_index": 2.98,
+    "pressure": 1015,
     "moon_phase": 0.12,
     "visibility": 10000,
-    "dew_point": 69.84
+    "dew_point": 71.92
   },
   "fiveDayWeather": [
     {
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 137,
       "gust": 15.88,
       "humidity": 43,
-      "uv_index": 8.09,
+      "uv_index": 8.19,
       "pressure": 1022,
       "moon_phase": 0.18,
       "dew_point": 67.71,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 110,
       "gust": 19.6,
       "humidity": 39,
-      "uv_index": 8.53,
+      "uv_index": 8.84,
       "pressure": 1022,
       "moon_phase": 0.22,
       "dew_point": 64,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 178,
       "gust": 9.04,
       "humidity": 41,
-      "uv_index": 9,
+      "uv_index": 8.88,
       "pressure": 1018,
       "moon_phase": 0.25,
       "dew_point": 65.73,
@@ -96,12 +96,12 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
     1015,
     1015,
     1015,
-    1015
+    1014,
+    1015,
+    1016
   ],
   "fishingReport": {
     "date": "Unavailable",
