@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 77.85,
-    "feels_like": 79,
+    "temp": 76.68,
+    "feels_like": 77.76,
     "description": "clear sky",
-    "wind_speed": 4.81,
-    "wind_deg": 157,
-    "gust": 8.12,
-    "sunrise": "06:59 AM",
-    "sunset": "07:18 PM",
+    "wind_speed": 5.26,
+    "wind_deg": 143,
+    "gust": 8.86,
+    "sunrise": "07:00 AM",
+    "sunset": "07:16 PM",
     "dayOrNight": "night",
-    "humidity": 78,
+    "humidity": 79,
     "uv_index": 0,
     "pressure": 1021,
-    "moon_phase": 0.22,
+    "moon_phase": 0.25,
     "visibility": 10000,
-    "dew_point": 70.43
+    "dew_point": 69.67
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 93.52,
-      "low": 71.55,
-      "description": "clear sky",
-      "wind_speed": 5.26,
-      "wind_deg": 143,
-      "gust": 10,
-      "humidity": 44,
-      "uv_index": 8.71,
-      "pressure": 1020,
-      "moon_phase": 0.25,
-      "dew_point": 65.37,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 93.25,
@@ -61,15 +46,15 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.31,
       "dew_point": 69.82,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
       "high": 91.99,
       "low": 75.29,
       "description": "few clouds",
-      "wind_speed": 5.79,
-      "wind_deg": 206,
+      "wind_speed": 5.82,
+      "wind_deg": 214,
       "gust": 10.8,
       "humidity": 55,
       "uv_index": 8.61,
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.37,
       "dew_point": 68.11,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 88.88,
+      "low": 75.79,
+      "description": "light rain",
+      "wind_speed": 7.9,
+      "wind_deg": 39,
+      "gust": 16.51,
+      "humidity": 46,
+      "uv_index": 9,
+      "pressure": 1017,
+      "moon_phase": 0.4,
+      "dew_point": 66.31,
       "visibility": "Unavailable"
     }
   ],
