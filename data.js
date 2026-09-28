@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 75.63,
-    "feels_like": 76.37,
+    "temp": 74.71,
+    "feels_like": 75.65,
     "description": "overcast clouds",
-    "wind_speed": 6.15,
-    "wind_deg": 196,
-    "gust": 11.18,
-    "sunrise": "07:05 AM",
-    "sunset": "07:05 PM",
+    "wind_speed": 5.73,
+    "wind_deg": 213,
+    "gust": 10.13,
+    "sunrise": "07:06 AM",
+    "sunset": "07:03 PM",
     "dayOrNight": "night",
-    "humidity": 74,
+    "humidity": 80,
     "uv_index": 0,
     "pressure": 1013,
-    "moon_phase": 0.54,
+    "moon_phase": 0.57,
     "visibility": 10000,
-    "dew_point": 66.76
+    "dew_point": 68.13
   },
   "fiveDayWeather": [
-    {
-      "date": "Monday",
-      "high": 91.92,
-      "low": 67.78,
-      "description": "clear sky",
-      "wind_speed": 6.44,
-      "wind_deg": 72,
-      "gust": 11.97,
-      "humidity": 46,
-      "uv_index": 7.76,
-      "pressure": 1014,
-      "moon_phase": 0.57,
-      "dew_point": 65.64,
-      "visibility": 10000
-    },
     {
       "date": "Tuesday",
       "high": 90.18,
@@ -61,15 +46,15 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0.64,
       "dew_point": 69.89,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Thursday",
       "high": 92.46,
       "low": 72.43,
       "description": "scattered clouds",
-      "wind_speed": 8.14,
-      "wind_deg": 149,
+      "wind_speed": 8.55,
+      "wind_deg": 148,
       "gust": 17.22,
       "humidity": 49,
       "uv_index": 7.48,
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.72,
       "dew_point": 72.46,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Saturday",
+      "high": 81.5,
+      "low": 68.79,
+      "description": "light rain",
+      "wind_speed": 5.97,
+      "wind_deg": 349,
+      "gust": 15.23,
+      "humidity": 66,
+      "uv_index": 8,
+      "pressure": 1013,
+      "moon_phase": 0.75,
+      "dew_point": 69.55,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -99,8 +99,8 @@ const data = {
     1013,
     1013,
     1013,
-    1013,
     1014,
+    1013,
     1013
   ],
   "fishingReport": {
