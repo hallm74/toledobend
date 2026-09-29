@@ -1,42 +1,42 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 90.97,
-    "feels_like": 94.59,
-    "description": "broken clouds",
-    "wind_speed": 5.44,
-    "wind_deg": 141,
-    "gust": 14.18,
+    "temp": 91.58,
+    "feels_like": 94.77,
+    "description": "overcast clouds",
+    "wind_speed": 5.14,
+    "wind_deg": 143,
+    "gust": 14.03,
     "sunrise": "07:06 AM",
     "sunset": "07:02 PM",
     "dayOrNight": "day",
-    "humidity": 46,
-    "uv_index": 7.38,
-    "pressure": 1013,
+    "humidity": 44,
+    "uv_index": 5.8,
+    "pressure": 1012,
     "moon_phase": 0.61,
-    "visibility": 9211,
-    "dew_point": 67.32
+    "visibility": 10000,
+    "dew_point": 66.6
   },
   "fiveDayWeather": [
     {
       "date": "Wednesday",
-      "high": 92.68,
-      "low": 69.75,
-      "description": "scattered clouds",
-      "wind_speed": 9.13,
-      "wind_deg": 155,
-      "gust": 20.18,
-      "humidity": 48,
+      "high": 92.39,
+      "low": 69.73,
+      "description": "light rain",
+      "wind_speed": 9.89,
+      "wind_deg": 149,
+      "gust": 21.18,
+      "humidity": 50,
       "uv_index": 7.78,
-      "pressure": 1013,
+      "pressure": 1012,
       "moon_phase": 0.64,
-      "dew_point": 67.32,
-      "visibility": 9967
+      "dew_point": 68.36,
+      "visibility": 10000
     },
     {
       "date": "Thursday",
       "high": 91.38,
-      "low": 72.25,
+      "low": 70.05,
       "description": "few clouds",
       "wind_speed": 8.81,
       "wind_deg": 161,
@@ -46,13 +46,13 @@ const data = {
       "pressure": 1012,
       "moon_phase": 0.68,
       "dew_point": 68.61,
-      "visibility": 10000
+      "visibility": 9861
     },
     {
       "date": "Friday",
-      "high": 87.24,
+      "high": 87.82,
       "low": 73.13,
-      "description": "light rain",
+      "description": "moderate rain",
       "wind_speed": 8.79,
       "wind_deg": 136,
       "gust": 18.28,
@@ -96,12 +96,12 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1013,
-    1013,
+    1012,
     1012,
     1012,
     1011,
-    1011
+    1011,
+    1012
   ],
   "fishingReport": {
     "date": "Unavailable",
