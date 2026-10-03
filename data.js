@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 77.45,
-    "feels_like": 78.8,
-    "description": "scattered clouds",
-    "wind_speed": 6.58,
-    "wind_deg": 44,
-    "gust": 12.66,
-    "sunrise": "07:08 AM",
-    "sunset": "06:58 PM",
+    "temp": 76.89,
+    "feels_like": 78.28,
+    "description": "few clouds",
+    "wind_speed": 5.64,
+    "wind_deg": 48,
+    "gust": 10.58,
+    "sunrise": "07:09 AM",
+    "sunset": "06:57 PM",
     "dayOrNight": "night",
-    "humidity": 83,
+    "humidity": 85,
     "uv_index": 0,
     "pressure": 1015,
-    "moon_phase": 0.72,
+    "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 71.89
+    "dew_point": 72.03
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 91.6,
-      "low": 74.41,
-      "description": "heavy intensity rain",
-      "wind_speed": 10,
-      "wind_deg": 64,
-      "gust": 21.88,
-      "humidity": 66,
-      "uv_index": 6.08,
-      "pressure": 1014,
-      "moon_phase": 0.75,
-      "dew_point": 71.96,
-      "visibility": 9051
-    },
     {
       "date": "Sunday",
       "high": 80.42,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.79,
       "dew_point": 71.55,
-      "visibility": 8450
+      "visibility": 9051
     },
     {
       "date": "Monday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1018,
       "moon_phase": 0.83,
       "dew_point": 63.57,
-      "visibility": "Unavailable"
+      "visibility": 8450
     },
     {
       "date": "Tuesday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.9,
       "dew_point": 62.62,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 86.74,
+      "low": 65.07,
+      "description": "few clouds",
+      "wind_speed": 7.7,
+      "wind_deg": 72,
+      "gust": 16.08,
+      "humidity": 41,
+      "uv_index": 8,
+      "pressure": 1016,
+      "moon_phase": 0.93,
+      "dew_point": 59.41,
       "visibility": "Unavailable"
     }
   ],
