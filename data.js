@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 69.62,
-    "feels_like": 69.71,
+    "temp": 68.54,
+    "feels_like": 68.67,
     "description": "clear sky",
-    "wind_speed": 5.41,
-    "wind_deg": 67,
-    "gust": 9.19,
+    "wind_speed": 5.91,
+    "wind_deg": 58,
+    "gust": 10.07,
     "sunrise": "07:12 AM",
-    "sunset": "06:51 PM",
+    "sunset": "06:50 PM",
     "dayOrNight": "night",
-    "humidity": 73,
+    "humidity": 76,
     "uv_index": 0,
     "pressure": 1015,
-    "moon_phase": 0.93,
+    "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 60.58
+    "dew_point": 60.67
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 92.1,
-      "low": 63.79,
-      "description": "clear sky",
-      "wind_speed": 7.56,
-      "wind_deg": 50,
-      "gust": 18.21,
-      "humidity": 34,
-      "uv_index": 5.65,
-      "pressure": 1014,
-      "moon_phase": 0.97,
-      "dew_point": 55.6,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 86.88,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1018,
       "moon_phase": 0.04,
       "dew_point": 60.3,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.1,
       "dew_point": 72.39,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 91.45,
+      "low": 73.54,
+      "description": "few clouds",
+      "wind_speed": 8.59,
+      "wind_deg": 188,
+      "gust": 24.4,
+      "humidity": 53,
+      "uv_index": 8,
+      "pressure": 1014,
+      "moon_phase": 0.13,
+      "dew_point": 70.02,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -99,7 +99,7 @@ const data = {
       "event": "Red Flag Warning",
       "start": "4:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "...RED FLAG WARNING FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions on the outer periphery of Hurricane\nIsaias combined with dry fuels will produce red flag conditions\nacross portions of central and southwest Louisiana and southeast\nTexas Friday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 030 Beauregard, Fire\nWeather Zone 031 Allen, Fire Weather Zone 032 Evangeline, Fire\nWeather Zone 259 Northern Jasper, Fire Weather Zone 260\nNorthern Newton, Fire Weather Zone 261 Southern Jasper and\nFire Weather Zone 262 Southern Newton.\n\n* TIMING...From 11 AM to 7 PM CDT Friday.\n\n* WINDS...Northeast 10 to 15 mph with gusts to 20 mph.\n\n* RELATIVE HUMIDITY...As low as 25 percent.\n\n* TEMPERATURES...Up to 91.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...RED FLAG WARNING FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions on the outer periphery of Hurricane\nIsaias combined with dry fuels will produce red flag conditions\nacross portions of central and southwest Louisiana and southeast\nTexas Friday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 259 Northern\nJasper, Fire Weather Zone 260 Northern Newton, Fire Weather\nZone 261 Southern Jasper and Fire Weather Zone 262 Southern\nNewton.\n\n* TIMING...From 11 AM to 7 PM CDT Friday.\n\n* WINDS...Northeast 5 to 10 mph.\n\n* RELATIVE HUMIDITY...As low as 31 percent.\n\n* TEMPERATURES...Up to 91.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
