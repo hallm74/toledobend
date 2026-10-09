@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 63.52,
-    "feels_like": 63.34,
+    "temp": 68.52,
+    "feels_like": 68.41,
     "description": "clear sky",
-    "wind_speed": 6.17,
-    "wind_deg": 46,
-    "gust": 11.72,
+    "wind_speed": 5.28,
+    "wind_deg": 39,
+    "gust": 11.81,
     "sunrise": "07:12 AM",
     "sunset": "06:50 PM",
     "dayOrNight": "day",
-    "humidity": 80,
-    "uv_index": 0.11,
+    "humidity": 71,
+    "uv_index": 0.68,
     "pressure": 1015,
     "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 57.24
+    "dew_point": 58.75
   },
   "fiveDayWeather": [
     {
@@ -99,7 +99,7 @@ const data = {
       "event": "Red Flag Warning",
       "start": "4:00:00 PM",
       "end": "12:00:00 AM",
-      "description": "...RED FLAG WARNING FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions on the outer periphery of Hurricane\nIsaias combined with dry fuels will produce red flag conditions\nacross portions of central and southwest Louisiana and southeast\nTexas Friday.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 259 Northern\nJasper, Fire Weather Zone 260 Northern Newton, Fire Weather\nZone 261 Southern Jasper and Fire Weather Zone 262 Southern\nNewton.\n\n* TIMING...From 11 AM to 7 PM CDT Friday.\n\n* WINDS...Northeast 5 to 10 mph.\n\n* RELATIVE HUMIDITY...As low as 31 percent.\n\n* TEMPERATURES...Up to 91.\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...RED FLAG WARNING FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA TODAY...\n\n.Breezy and dry conditions on the outer periphery of Hurricane\nIsaias combined with very dry fuels will produce red flag\nconditions across portions of central and southwest Louisiana and\nsoutheast Texas through this afternoon.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 259 Northern\nJasper, Fire Weather Zone 260 Northern Newton, Fire Weather\nZone 261 Southern Jasper and Fire Weather Zone 262 Southern\nNewton.\n\n* TIMING...Until 7 PM CDT this evening.\n\n* WINDS...Northeast 5 to 15 mph.\n\n* RELATIVE HUMIDITY...As low as 26 percent.\n\n* TEMPERATURES...Up to 92.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -108,8 +108,8 @@ const data = {
     1015,
     1015,
     1015,
-    1015,
-    1014
+    1014,
+    1013
   ],
   "fishingReport": {
     "date": "Unavailable",
