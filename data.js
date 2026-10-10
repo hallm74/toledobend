@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 87.4,
-    "feels_like": 85.62,
-    "description": "scattered clouds",
-    "wind_speed": 2.73,
-    "wind_deg": 78,
-    "gust": 3.87,
+    "temp": 76.59,
+    "feels_like": 76.3,
+    "description": "clear sky",
+    "wind_speed": 2.57,
+    "wind_deg": 54,
+    "gust": 3.96,
     "sunrise": "07:12 AM",
     "sunset": "06:50 PM",
-    "dayOrNight": "day",
-    "humidity": 33,
-    "uv_index": 0.32,
+    "dayOrNight": "night",
+    "humidity": 50,
+    "uv_index": 0,
     "pressure": 1012,
     "moon_phase": 0.97,
     "visibility": 10000,
-    "dew_point": 54.79
+    "dew_point": 56.57
   },
   "fiveDayWeather": [
     {
@@ -94,20 +94,12 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Red Flag Warning",
-      "start": "4:00:00 PM",
-      "end": "12:00:00 AM",
-      "description": "...RED FLAG WARNING FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA TODAY...\n\n.Breezy and dry conditions on the outer periphery of Hurricane\nIsaias combined with very dry fuels will produce red flag\nconditions across portions of central and southwest Louisiana and\nsoutheast Texas through this afternoon.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 259 Northern\nJasper, Fire Weather Zone 260 Northern Newton, Fire Weather\nZone 261 Southern Jasper and Fire Weather Zone 262 Southern\nNewton.\n\n* TIMING...Until 7 PM CDT this evening.\n\n* WINDS...Northeast 5 to 15 mph.\n\n* RELATIVE HUMIDITY...As low as 26 percent.\n\n* TEMPERATURES...Up to 92.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
     1012,
     1012,
     1012,
-    1013,
+    1012,
     1013,
     1014
   ],
