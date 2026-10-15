@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.56,
-    "feels_like": 72.79,
+    "temp": 75.94,
+    "feels_like": 77.41,
     "description": "clear sky",
-    "wind_speed": 1.77,
-    "wind_deg": 126,
-    "gust": 6.62,
+    "wind_speed": 2.13,
+    "wind_deg": 129,
+    "gust": 8.55,
     "sunrise": "07:16 AM",
     "sunset": "06:42 PM",
     "dayOrNight": "day",
-    "humidity": 93,
-    "uv_index": 0.72,
+    "humidity": 89,
+    "uv_index": 2.13,
     "pressure": 1019,
     "moon_phase": 0.16,
     "visibility": 10000,
-    "dew_point": 69.44
+    "dew_point": 72.46
   },
   "fiveDayWeather": [
     {
@@ -99,7 +99,7 @@ const data = {
       "event": "Fire Weather Watch",
       "start": "4:00:00 PM",
       "end": "6:00:00 AM",
-      "description": "...RED FLAG WATCH FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL AND\nSOUTHWEST LOUISIANA FRIDAY...\n\n.With the ongoing drought conditions, we have KBDI values well into\nthe 700s, with 10-hour and 100-hour fuel moisture values hovering\naround 25%. Subsidence behind the front will further dry out the\nalready dry continental air mass, leading to a significant drop in\ndew points following the front. The forecast drops RH values below\n30% across central Louisiana and the interior portions of\nsoutheast Texas. Friday through Sunday look to be concerning for\nfire weather. However, Saturday appears to be the most critical\nday as the dry, subsided airmass becomes fully entrenched over the\nhighly dried out fuels. This setup is similar to the weather\nconditions that sparked the Tiger Island fire in 2023, and fires\nthat do spark could quickly spread out of control..\n\nThe National Weather Service in Lake Charles has issued a Fire\nWeather Watch for high winds and low relative humidity, which is\nin effect from Friday morning through late Friday night.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 180 Tyler, Fire Weather\nZone 201 Hardin, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper and Fire Weather Zone 262 Southern Newton.\n\n* TIMING...From Friday morning through late Friday night.\n\n* WINDS...North 15 to 20 mph with gusts up to 35 mph.\n\n* RELATIVE HUMIDITY...As low as 35 percent.\n\n* TEMPERATURES...Up to 87.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...RED FLAG WATCH FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL AND\nSOUTHWEST LOUISIANA FRIDAY...\n\n.With the ongoing drought conditions, we have KBDI values well\ninto the 700s, with 10-hour and 100-hour fuel moisture values\nhovering around 25%. Subsidence behind the front will further dry\nout the already dry continental air mass, leading to a\nsignificant drop in dew points following the front. The forecast\ndrops RH values below 30% across central Louisiana and the\ninterior portions of southeast Texas. Friday through Sunday look\nto be concerning for fire weather. However, Saturday appears to\nbe the most critical day as the dry, subsided airmass becomes\nfully entrenched over the highly dried out fuels. This setup is\nsimilar to the weather conditions that sparked the Tiger Island\nfire in 2023, and fires that do spark could quickly spread out of\ncontrol..\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 031 Allen, Fire\nWeather Zone 032 Evangeline, Fire Weather Zone 033 St. Landry,\nFire Weather Zone 044 Lafayette, Fire Weather Zone 045 Upper\nSt. Martin, Fire Weather Zone 141 Northern Calcasieu, Fire\nWeather Zone 142 Northern Jefferson Davis, Fire Weather Zone\n143 Northern Acadia, Fire Weather Zone 180 Tyler, Fire Weather\nZone 201 Hardin, Fire Weather Zone 259 Northern Jasper, Fire\nWeather Zone 260 Northern Newton, Fire Weather Zone 261\nSouthern Jasper and Fire Weather Zone 262 Southern Newton.\n\n* TIMING...From Friday morning through late Friday night.\n\n* WINDS...North 10 to 20 mph with gusts up to 35 mph.\n\n* RELATIVE HUMIDITY...As low as 30 percent.\n\n* TEMPERATURES...Up to 85.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
@@ -108,7 +108,7 @@ const data = {
     1019,
     1019,
     1018,
-    1018,
+    1017,
     1016
   ],
   "fishingReport": {
