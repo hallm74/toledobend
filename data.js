@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.8,
-    "feels_like": 74.12,
+    "temp": 74.03,
+    "feels_like": 73.99,
     "description": "broken clouds",
-    "wind_speed": 15.73,
-    "wind_deg": 344,
-    "gust": 34.83,
+    "wind_speed": 15.66,
+    "wind_deg": 347,
+    "gust": 34.25,
     "sunrise": "07:17 AM",
     "sunset": "06:41 PM",
     "dayOrNight": "day",
-    "humidity": 69,
-    "uv_index": 6.55,
-    "pressure": 1023,
+    "humidity": 61,
+    "uv_index": 5.75,
+    "pressure": 1022,
     "moon_phase": 0.19,
     "visibility": 10000,
-    "dew_point": 63
+    "dew_point": 59.74
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 19,
       "gust": 29.55,
       "humidity": 49,
-      "uv_index": 6.24,
+      "uv_index": 6.22,
       "pressure": 1030,
       "moon_phase": 0.22,
       "dew_point": 44.24,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 42,
       "gust": 15.86,
       "humidity": 41,
-      "uv_index": 6.32,
+      "uv_index": 6.31,
       "pressure": 1029,
       "moon_phase": 0.25,
       "dew_point": 41.23,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 86,
       "gust": 11.39,
       "humidity": 38,
-      "uv_index": 6.39,
+      "uv_index": 6.21,
       "pressure": 1025,
       "moon_phase": 0.28,
       "dew_point": 43.21,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 59,
       "gust": 13.56,
       "humidity": 38,
-      "uv_index": 7,
+      "uv_index": 6.35,
       "pressure": 1023,
       "moon_phase": 0.31,
       "dew_point": 47.75,
@@ -96,13 +96,6 @@ const data = {
   ],
   "weatherAlerts": [
     {
-      "event": "Fire Weather Watch",
-      "start": "2:00:00 PM",
-      "end": "2:00:00 AM",
-      "description": "...FIRE WEATHER WATCH FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions due to a frontal passage will combine\nwith very dry fuels and produce red flag conditions across\nportions of central and southwest Louisiana and southeast Texas\nthrough Friday afternoon. A Fire Weather Watch is in place for\nall of southeast Texas and southwest and central Louisiana on\nSaturday.\n\n...FIRE WEATHER WATCH REMAINS IN EFFECT FROM SATURDAY MORNING\nTHROUGH SATURDAY EVENING FOR HIGH WINDS AND LOW RELATIVE HUMIDITY\nFOR PORTIONS OF CENTRAL AND SOUTHWEST LOUISIANA AND SOUTHEAST\nTEXAS...\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 180 Tyler, Fire\nWeather Zone 259 Northern Jasper and Fire Weather Zone 260\nNorthern Newton.\n\n* TIMING...For the Red Flag Warning, from 11 AM Friday to 1 AM\nCDT Saturday. For the Fire Weather Watch, from Saturday\nmorning through Saturday evening.\n\n* WINDS...North 15 to 25 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 30 percent.\n\n* TEMPERATURES...Up to 82 Friday, Up to 72 Saturday.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
-      "sender": "NWS Lake Charles LA"
-    },
-    {
       "event": "Red Flag Warning",
       "start": "5:14:00 PM",
       "end": "6:00:00 AM",
@@ -118,11 +111,11 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1023,
-    1023,
-    1023,
     1022,
     1022,
+    1022,
+    1022,
+    1023,
     1023
   ],
   "fishingReport": {
