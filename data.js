@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.13,
-    "feels_like": 74.08,
+    "temp": 72.25,
+    "feels_like": 73.26,
     "description": "clear sky",
-    "wind_speed": 4.12,
-    "wind_deg": 175,
-    "gust": 7.14,
-    "sunrise": "07:16 AM",
-    "sunset": "06:42 PM",
+    "wind_speed": 4.29,
+    "wind_deg": 190,
+    "gust": 7.54,
+    "sunrise": "07:17 AM",
+    "sunset": "06:41 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 87,
     "uv_index": 0,
     "pressure": 1018,
-    "moon_phase": 0.16,
+    "moon_phase": 0.19,
     "visibility": 10000,
-    "dew_point": 68
+    "dew_point": 68.16
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 75.69,
-      "low": 60.73,
-      "description": "light rain",
-      "wind_speed": 17.67,
-      "wind_deg": 357,
-      "gust": 36.42,
-      "humidity": 64,
-      "uv_index": 6.55,
-      "pressure": 1023,
-      "moon_phase": 0.19,
-      "dew_point": 60.76,
-      "visibility": 9740
-    },
     {
       "date": "Saturday",
       "high": 68.45,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1030,
       "moon_phase": 0.22,
       "dew_point": 42.35,
-      "visibility": 10000
+      "visibility": 9740
     },
     {
       "date": "Sunday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1029,
       "moon_phase": 0.25,
       "dew_point": 41.86,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.31,
       "dew_point": 52.57,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 80.73,
+      "low": 57.69,
+      "description": "clear sky",
+      "wind_speed": 4.43,
+      "wind_deg": 96,
+      "gust": 9.93,
+      "humidity": 34,
+      "uv_index": 7,
+      "pressure": 1022,
+      "moon_phase": 0.34,
+      "dew_point": 47.52,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -99,14 +99,14 @@ const data = {
       "event": "Fire Weather Watch",
       "start": "2:00:00 PM",
       "end": "2:00:00 AM",
-      "description": "...FIRE WEATHER WATCH FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions due to a frontal passage will combine\nwith very dry fuels and produce red flag conditions across\nportions of central and southwest Louisiana and southeast Texas\nthrough Friday afternoon. A Fire Weather Watch is in place for all\nof southeast Texas and southwest and central Louisiana on\nSaturday.\n\n...FIRE WEATHER WATCH IN EFFECT FROM SATURDAY MORNING THROUGH\nSATURDAY EVENING FOR WINDS AND LOW RELATIVE HUMIDITY FOR PORTIONS\nOF CENTRAL AND SOUTHWEST LOUISIANA AND SOUTHEAST TEXAS...\n\nThe National Weather Service in Lake Charles has issued a Red\nFlag Warning for wind, dry fuels, and low relative humidity which\nis in effect from 11 AM Friday to 1 AM CDT Saturday.\n\nA Fire Weather Watch has also been issued. This Fire Weather\nWatch for winds and low relative humidity is in effect from\nSaturday morning through Saturday evening.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 180 Tyler, Fire\nWeather Zone 259 Northern Jasper and Fire Weather Zone 260\nNorthern Newton.\n\n* TIMING...For the Red Flag Warning, from 11 AM Friday to 1 AM\nCDT Saturday. For the Fire Weather Watch, from Saturday\nmorning through Saturday evening.\n\n* WINDS...North 10 to 20 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 29 percent.\n\n* TEMPERATURES...Up to 82.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...FIRE WEATHER WATCH FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions due to a frontal passage will combine\nwith very dry fuels and produce red flag conditions across\nportions of central and southwest Louisiana and southeast Texas\nthrough Friday afternoon. A Fire Weather Watch is in place for\nall of southeast Texas and southwest and central Louisiana on\nSaturday.\n\n...FIRE WEATHER WATCH REMAINS IN EFFECT FROM SATURDAY MORNING\nTHROUGH SATURDAY EVENING FOR HIGH WINDS AND LOW RELATIVE HUMIDITY\nFOR PORTIONS OF CENTRAL AND SOUTHWEST LOUISIANA AND SOUTHEAST\nTEXAS...\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 180 Tyler, Fire\nWeather Zone 259 Northern Jasper and Fire Weather Zone 260\nNorthern Newton.\n\n* TIMING...For the Red Flag Warning, from 11 AM Friday to 1 AM\nCDT Saturday. For the Fire Weather Watch, from Saturday\nmorning through Saturday evening.\n\n* WINDS...North 15 to 25 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 30 percent.\n\n* TEMPERATURES...Up to 82 Friday, Up to 72 Saturday.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     },
     {
       "event": "Red Flag Warning",
       "start": "4:00:00 PM",
       "end": "6:00:00 AM",
-      "description": "...FIRE WEATHER WATCH FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions due to a frontal passage will combine\nwith very dry fuels and produce red flag conditions across\nportions of central and southwest Louisiana and southeast Texas\nthrough Friday afternoon. A Fire Weather Watch is in place for all\nof southeast Texas and southwest and central Louisiana on\nSaturday.\n\n...FIRE WEATHER WATCH IN EFFECT FROM SATURDAY MORNING THROUGH\nSATURDAY EVENING FOR WINDS AND LOW RELATIVE HUMIDITY FOR PORTIONS\nOF CENTRAL AND SOUTHWEST LOUISIANA AND SOUTHEAST TEXAS...\n\nThe National Weather Service in Lake Charles has issued a Red\nFlag Warning for wind, dry fuels, and low relative humidity which\nis in effect from 11 AM Friday to 1 AM CDT Saturday.\n\nA Fire Weather Watch has also been issued. This Fire Weather\nWatch for winds and low relative humidity is in effect from\nSaturday morning through Saturday evening.\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 180 Tyler, Fire\nWeather Zone 259 Northern Jasper and Fire Weather Zone 260\nNorthern Newton.\n\n* TIMING...For the Red Flag Warning, from 11 AM Friday to 1 AM\nCDT Saturday. For the Fire Weather Watch, from Saturday\nmorning through Saturday evening.\n\n* WINDS...North 10 to 20 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 29 percent.\n\n* TEMPERATURES...Up to 82.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
+      "description": "...FIRE WEATHER WATCH FOR PORTIONS OF SOUTHEAST TEXAS AND CENTRAL\nAND SOUTHWEST LOUISIANA FRIDAY...\n\n.Breezy and dry conditions due to a frontal passage will combine\nwith very dry fuels and produce red flag conditions across\nportions of central and southwest Louisiana and southeast Texas\nthrough Friday afternoon. A Fire Weather Watch is in place for\nall of southeast Texas and southwest and central Louisiana on\nSaturday.\n\n...FIRE WEATHER WATCH REMAINS IN EFFECT FROM SATURDAY MORNING\nTHROUGH SATURDAY EVENING FOR HIGH WINDS AND LOW RELATIVE HUMIDITY\nFOR PORTIONS OF CENTRAL AND SOUTHWEST LOUISIANA AND SOUTHEAST\nTEXAS...\n\n* AFFECTED AREA...Fire Weather Zone 027 Vernon, Fire Weather\nZone 028 Rapides, Fire Weather Zone 029 Avoyelles, Fire\nWeather Zone 030 Beauregard, Fire Weather Zone 180 Tyler, Fire\nWeather Zone 259 Northern Jasper and Fire Weather Zone 260\nNorthern Newton.\n\n* TIMING...For the Red Flag Warning, from 11 AM Friday to 1 AM\nCDT Saturday. For the Fire Weather Watch, from Saturday\nmorning through Saturday evening.\n\n* WINDS...North 15 to 25 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...As low as 30 percent.\n\n* TEMPERATURES...Up to 82 Friday, Up to 72 Saturday.\n\n* LIGHTNING...\n\n* IMPACTS...Any fire that develops will catch and spread\nquickly. Outdoor burning is not recommended.",
       "sender": "NWS Lake Charles LA"
     }
   ],
