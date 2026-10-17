@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 59.81,
-    "feels_like": 57.61,
-    "description": "overcast clouds",
-    "wind_speed": 14.47,
-    "wind_deg": 16,
-    "gust": 29.62,
-    "sunrise": "07:17 AM",
-    "sunset": "06:41 PM",
+    "temp": 58.42,
+    "feels_like": 56.23,
+    "description": "broken clouds",
+    "wind_speed": 15.23,
+    "wind_deg": 11,
+    "gust": 31.88,
+    "sunrise": "07:18 AM",
+    "sunset": "06:40 PM",
     "dayOrNight": "night",
-    "humidity": 45,
+    "humidity": 48,
     "uv_index": 0,
-    "pressure": 1027,
-    "moon_phase": 0.19,
+    "pressure": 1028,
+    "moon_phase": 0.22,
     "visibility": 10000,
-    "dew_point": 38.46
+    "dew_point": 38.84
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 68.77,
-      "low": 51.76,
-      "description": "clear sky",
-      "wind_speed": 16.49,
-      "wind_deg": 15,
-      "gust": 34.34,
-      "humidity": 49,
-      "uv_index": 6.22,
-      "pressure": 1030,
-      "moon_phase": 0.22,
-      "dew_point": 43.72,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 70.57,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1026,
       "moon_phase": 0.28,
       "dew_point": 43.41,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Tuesday",
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.34,
       "dew_point": 43.93,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 81.39,
+      "low": 59.04,
+      "description": "few clouds",
+      "wind_speed": 3.09,
+      "wind_deg": 122,
+      "gust": 8.52,
+      "humidity": 29,
+      "uv_index": 7,
+      "pressure": 1022,
+      "moon_phase": 0.38,
+      "dew_point": 44.6,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -111,12 +111,12 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1027,
-    1027,
-    1027,
     1028,
     1028,
-    1028
+    1028,
+    1028,
+    1028,
+    1029
   ],
   "fishingReport": {
     "date": "Unavailable",
