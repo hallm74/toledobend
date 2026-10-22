@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 59.18,
-    "feels_like": 58.23,
+    "temp": 57.69,
+    "feels_like": 56.77,
     "description": "clear sky",
-    "wind_speed": 2.71,
-    "wind_deg": 89,
+    "wind_speed": 2.84,
+    "wind_deg": 79,
     "gust": 4.65,
     "sunrise": "07:21 AM",
-    "sunset": "06:36 PM",
+    "sunset": "06:35 PM",
     "dayOrNight": "night",
-    "humidity": 73,
+    "humidity": 77,
     "uv_index": 0,
     "pressure": 1021,
-    "moon_phase": 0.34,
+    "moon_phase": 0.38,
     "visibility": 10000,
     "dew_point": 50.54
   },
   "fiveDayWeather": [
-    {
-      "date": "Thursday",
-      "high": 84.07,
-      "low": 51.93,
-      "description": "clear sky",
-      "wind_speed": 4.56,
-      "wind_deg": 63,
-      "gust": 10.27,
-      "humidity": 32,
-      "uv_index": 6.24,
-      "pressure": 1022,
-      "moon_phase": 0.38,
-      "dew_point": 45.9,
-      "visibility": 10000
-    },
     {
       "date": "Friday",
       "high": 83.08,
@@ -61,15 +46,15 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.45,
       "dew_point": 52,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Sunday",
       "high": 76.28,
       "low": 56.5,
       "description": "scattered clouds",
-      "wind_speed": 5.95,
-      "wind_deg": 167,
+      "wind_speed": 6.64,
+      "wind_deg": 138,
       "gust": 12.37,
       "humidity": 32,
       "uv_index": 5.51,
@@ -92,6 +77,21 @@ const data = {
       "moon_phase": 0.52,
       "dew_point": 49.33,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Tuesday",
+      "high": 78.31,
+      "low": 57.92,
+      "description": "scattered clouds",
+      "wind_speed": 4.03,
+      "wind_deg": 87,
+      "gust": 8.68,
+      "humidity": 44,
+      "uv_index": 6,
+      "pressure": 1023,
+      "moon_phase": 0.56,
+      "dew_point": 53.65,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -105,6 +105,6 @@ const data = {
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Fishing report not found"
   }
 };
