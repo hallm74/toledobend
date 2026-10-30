@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 77.65,
-    "feels_like": 77.47,
+    "temp": 78.17,
+    "feels_like": 77.99,
     "description": "overcast clouds",
-    "wind_speed": 6.58,
-    "wind_deg": 120,
-    "gust": 15.9,
+    "wind_speed": 8.48,
+    "wind_deg": 117,
+    "gust": 19.44,
     "sunrise": "07:28 AM",
     "sunset": "06:27 PM",
     "dayOrNight": "day",
-    "humidity": 50,
-    "uv_index": 4.34,
-    "pressure": 1019,
+    "humidity": 49,
+    "uv_index": 4.6,
+    "pressure": 1018,
     "moon_phase": 0.67,
     "visibility": 10000,
-    "dew_point": 57.54
+    "dew_point": 57.47
   },
   "fiveDayWeather": [
     {
@@ -27,11 +27,11 @@ const data = {
       "wind_deg": 103,
       "gust": 17.76,
       "humidity": 98,
-      "uv_index": 2.61,
+      "uv_index": 1.28,
       "pressure": 1019,
       "moon_phase": 0.71,
       "dew_point": 66.06,
-      "visibility": 7369
+      "visibility": 7175
     },
     {
       "date": "Sunday",
@@ -42,11 +42,11 @@ const data = {
       "wind_deg": 345,
       "gust": 14.58,
       "humidity": 80,
-      "uv_index": 4.67,
+      "uv_index": 5.05,
       "pressure": 1020,
       "moon_phase": 0.75,
       "dew_point": 66.16,
-      "visibility": 7124
+      "visibility": 7318
     },
     {
       "date": "Monday",
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 131,
       "gust": 16.42,
       "humidity": 83,
-      "uv_index": 4.77,
+      "uv_index": 4.97,
       "pressure": 1017,
       "moon_phase": 0.78,
       "dew_point": 67.73,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 198,
       "gust": 17.29,
       "humidity": 69,
-      "uv_index": 5,
+      "uv_index": 1.34,
       "pressure": 1012,
       "moon_phase": 0.82,
       "dew_point": 67.01,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 308,
       "gust": 26.04,
       "humidity": 55,
-      "uv_index": 5,
+      "uv_index": 2,
       "pressure": 1013,
       "moon_phase": 0.85,
       "dew_point": 52.29,
@@ -96,9 +96,9 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1019,
-    1019,
-    1019,
+    1018,
+    1018,
+    1018,
     1018,
     1018,
     1018
