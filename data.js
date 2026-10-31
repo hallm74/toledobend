@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 76.87,
-    "feels_like": 77.59,
-    "description": "broken clouds",
-    "wind_speed": 5.23,
-    "wind_deg": 160,
-    "gust": 13.38,
+    "temp": 77.65,
+    "feels_like": 78.4,
+    "description": "overcast clouds",
+    "wind_speed": 3.18,
+    "wind_deg": 176,
+    "gust": 9.75,
     "sunrise": "07:28 AM",
     "sunset": "06:26 PM",
     "dayOrNight": "day",
-    "humidity": 71,
-    "uv_index": 1.28,
-    "pressure": 1019,
+    "humidity": 70,
+    "uv_index": 0.98,
+    "pressure": 1018,
     "moon_phase": 0.71,
-    "visibility": 7651,
-    "dew_point": 66.76
+    "visibility": 10000,
+    "dew_point": 67.08
   },
   "fiveDayWeather": [
     {
@@ -27,11 +27,11 @@ const data = {
       "wind_deg": 21,
       "gust": 12.17,
       "humidity": 77,
-      "uv_index": 5.05,
+      "uv_index": 4.93,
       "pressure": 1021,
       "moon_phase": 0.75,
       "dew_point": 66.72,
-      "visibility": 6298
+      "visibility": 6405
     },
     {
       "date": "Monday",
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 156,
       "gust": 20.89,
       "humidity": 66,
-      "uv_index": 4.97,
+      "uv_index": 2.96,
       "pressure": 1017,
       "moon_phase": 0.78,
       "dew_point": 65.75,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 150,
       "gust": 24.76,
       "humidity": 76,
-      "uv_index": 1.34,
+      "uv_index": 4.05,
       "pressure": 1012,
       "moon_phase": 0.82,
       "dew_point": 69.55,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 294,
       "gust": 18.03,
       "humidity": 51,
-      "uv_index": 2,
+      "uv_index": 4.49,
       "pressure": 1013,
       "moon_phase": 0.85,
       "dew_point": 51.39,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 293,
       "gust": 8.3,
       "humidity": 48,
-      "uv_index": 2,
+      "uv_index": 5,
       "pressure": 1013,
       "moon_phase": 0.88,
       "dew_point": 50.77,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1019,
-    1019,
     1018,
     1018,
+    1018,
+    1017,
     1017,
     1017
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Error fetching fishing report"
+    "report": "Fishing report content not found"
   }
 };
