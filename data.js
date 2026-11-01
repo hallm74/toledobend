@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 70.93,
-    "feels_like": 72.19,
-    "description": "few clouds",
-    "wind_speed": 4.12,
-    "wind_deg": 140,
-    "gust": 6.55,
-    "sunrise": "07:28 AM",
+    "temp": 70.5,
+    "feels_like": 71.76,
+    "description": "broken clouds",
+    "wind_speed": 3.62,
+    "wind_deg": 142,
+    "gust": 5.84,
+    "sunrise": "07:29 AM",
     "sunset": "06:26 PM",
     "dayOrNight": "night",
-    "humidity": 95,
+    "humidity": 96,
     "uv_index": 0,
     "pressure": 1019,
-    "moon_phase": 0.71,
+    "moon_phase": 0.75,
     "visibility": 10000,
-    "dew_point": 69.42
+    "dew_point": 69.31
   },
   "fiveDayWeather": [
-    {
-      "date": "Sunday",
-      "high": 83.28,
-      "low": 67.89,
-      "description": "scattered clouds",
-      "wind_speed": 6.2,
-      "wind_deg": 107,
-      "gust": 11.5,
-      "humidity": 73,
-      "uv_index": 4.93,
-      "pressure": 1021,
-      "moon_phase": 0.75,
-      "dew_point": 67.06,
-      "visibility": 8729
-    },
     {
       "date": "Monday",
       "high": 79.92,
@@ -46,12 +31,12 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.78,
       "dew_point": 68.7,
-      "visibility": 9426
+      "visibility": 8729
     },
     {
       "date": "Tuesday",
       "high": 76.21,
-      "low": 65.97,
+      "low": 64.22,
       "description": "heavy intensity rain",
       "wind_speed": 11.99,
       "wind_deg": 154,
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.82,
       "dew_point": 70.93,
-      "visibility": "Unavailable"
+      "visibility": 9426
     },
     {
       "date": "Wednesday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1014,
       "moon_phase": 0.88,
       "dew_point": 54.3,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Friday",
+      "high": 75.38,
+      "low": 60.51,
+      "description": "clear sky",
+      "wind_speed": 6.64,
+      "wind_deg": 334,
+      "gust": 20.36,
+      "humidity": 47,
+      "uv_index": 5,
+      "pressure": 1015,
+      "moon_phase": 0.92,
+      "dew_point": 53.69,
       "visibility": "Unavailable"
     }
   ],
