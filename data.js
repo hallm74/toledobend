@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 68.31,
-    "feels_like": 69.35,
+    "temp": 68.22,
+    "feels_like": 69.3,
     "description": "overcast clouds",
-    "wind_speed": 1.7,
-    "wind_deg": 8,
-    "gust": 3.29,
+    "wind_speed": 2.73,
+    "wind_deg": 9,
+    "gust": 5.46,
     "sunrise": "06:29 AM",
     "sunset": "05:26 PM",
     "dayOrNight": "night",
-    "humidity": 96,
+    "humidity": 97,
     "uv_index": 0,
     "pressure": 1018,
     "moon_phase": 0.75,
-    "visibility": 622,
-    "dew_point": 67.12
+    "visibility": 660,
+    "dew_point": 67.33
   },
   "fiveDayWeather": [
     {
@@ -31,7 +31,7 @@ const data = {
       "pressure": 1017,
       "moon_phase": 0.78,
       "dew_point": 68.65,
-      "visibility": 7316
+      "visibility": 7707
     },
     {
       "date": "Tuesday",
@@ -46,7 +46,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.82,
       "dew_point": 71.8,
-      "visibility": 9609
+      "visibility": 9488
     },
     {
       "date": "Wednesday",
@@ -94,7 +94,15 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Dense Fog Advisory",
+      "start": "11:00:00 AM",
+      "end": "2:00:00 PM",
+      "description": "* WHAT...Visibility less than half a mile in dense fog.\n\n* WHERE...Hardin, Lower Jefferson, Northern Jasper, Northern Newton,\nNorthern Orange, Southern Jasper, Southern Newton, Southern Orange,\nTyler, and Upper Jefferson Counties.\n\n* WHEN...Until 9 AM CST this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
     1018,
     1018,
