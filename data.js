@@ -1,38 +1,23 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 73.44,
-    "feels_like": 74.8,
+    "temp": 73.33,
+    "feels_like": 74.59,
     "description": "overcast clouds",
-    "wind_speed": 11.05,
-    "wind_deg": 154,
-    "gust": 21.61,
-    "sunrise": "06:30 AM",
-    "sunset": "05:25 PM",
+    "wind_speed": 10.67,
+    "wind_deg": 152,
+    "gust": 20.87,
+    "sunrise": "06:31 AM",
+    "sunset": "05:24 PM",
     "dayOrNight": "night",
-    "humidity": 92,
+    "humidity": 90,
     "uv_index": 0,
     "pressure": 1014,
-    "moon_phase": 0.78,
+    "moon_phase": 0.82,
     "visibility": 10000,
-    "dew_point": 70.97
+    "dew_point": 70.21
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 77.92,
-      "low": 63.57,
-      "description": "moderate rain",
-      "wind_speed": 10.74,
-      "wind_deg": 174,
-      "gust": 23.73,
-      "humidity": 87,
-      "uv_index": 4.04,
-      "pressure": 1013,
-      "moon_phase": 0.82,
-      "dew_point": 72.34,
-      "visibility": 7181
-    },
     {
       "date": "Wednesday",
       "high": 72.48,
@@ -46,7 +31,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.85,
       "dew_point": 52.65,
-      "visibility": 10000
+      "visibility": 7181
     },
     {
       "date": "Thursday",
@@ -61,7 +46,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.88,
       "dew_point": 53.96,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -91,6 +76,21 @@ const data = {
       "pressure": 1020,
       "moon_phase": 0.95,
       "dew_point": 53.33,
+      "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 70.25,
+      "low": 54.27,
+      "description": "broken clouds",
+      "wind_speed": 7.43,
+      "wind_deg": 13,
+      "gust": 15.73,
+      "humidity": 51,
+      "uv_index": 4,
+      "pressure": 1022,
+      "moon_phase": 0.98,
+      "dew_point": 48.92,
       "visibility": "Unavailable"
     }
   ],
