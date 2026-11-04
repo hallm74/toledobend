@@ -1,21 +1,21 @@
 const data = {
   "lakeLevel": "167.99ft 12:30pm",
   "currentWeather": {
-    "temp": 71.44,
-    "feels_like": 71.01,
+    "temp": 73.29,
+    "feels_like": 72.77,
     "description": "scattered clouds",
-    "wind_speed": 5.99,
-    "wind_deg": 335,
-    "gust": 16.2,
+    "wind_speed": 5.77,
+    "wind_deg": 342,
+    "gust": 15.57,
     "sunrise": "06:32 AM",
     "sunset": "05:23 PM",
     "dayOrNight": "day",
-    "humidity": 58,
-    "uv_index": 4.96,
-    "pressure": 1015,
+    "humidity": 52,
+    "uv_index": 4.71,
+    "pressure": 1014,
     "moon_phase": 0.85,
     "visibility": 10000,
-    "dew_point": 55.9
+    "dew_point": 54.63
   },
   "fiveDayWeather": [
     {
@@ -27,7 +27,7 @@ const data = {
       "wind_deg": 29,
       "gust": 8.61,
       "humidity": 52,
-      "uv_index": 5.03,
+      "uv_index": 4.94,
       "pressure": 1015,
       "moon_phase": 0.88,
       "dew_point": 54.46,
@@ -42,7 +42,7 @@ const data = {
       "wind_deg": 13,
       "gust": 16.13,
       "humidity": 50,
-      "uv_index": 3.91,
+      "uv_index": 4.86,
       "pressure": 1017,
       "moon_phase": 0.92,
       "dew_point": 56.28,
@@ -57,7 +57,7 @@ const data = {
       "wind_deg": 40,
       "gust": 17.43,
       "humidity": 55,
-      "uv_index": 4.52,
+      "uv_index": 4.1,
       "pressure": 1022,
       "moon_phase": 0.95,
       "dew_point": 50.38,
@@ -72,7 +72,7 @@ const data = {
       "wind_deg": 45,
       "gust": 16.4,
       "humidity": 52,
-      "uv_index": 5,
+      "uv_index": 1.39,
       "pressure": 1023,
       "moon_phase": 0.98,
       "dew_point": 44.89,
@@ -87,7 +87,7 @@ const data = {
       "wind_deg": 28,
       "gust": 12.66,
       "humidity": 51,
-      "uv_index": 5,
+      "uv_index": 2,
       "pressure": 1023,
       "moon_phase": 0,
       "dew_point": 47.77,
@@ -96,15 +96,15 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1015,
-    1015,
     1014,
     1014,
+    1014,
+    1013,
     1013,
     1013
   ],
   "fishingReport": {
     "date": "Unavailable",
-    "report": "Fishing report content not found"
+    "report": "Error fetching fishing report"
   }
 };
