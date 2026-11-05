@@ -472,8 +472,19 @@ if (typeof data !== "undefined") {
     // Populate Lake Level
     const lakeLevelElement = document.getElementById("lake-level");
     if (lakeLevelElement) {
-        lakeLevelElement.textContent = data.lakeLevel || "Unavailable";
+        const renderLake = () => { lakeLevelElement.textContent = LakeData.describe(data.lakeLevel); };
+        renderLake();
+        setInterval(renderLake, 60000);
     }
+
+    const weatherStatus = document.getElementById('weather-status');
+    const renderWeatherStatus = () => {
+        const observed = Date.parse(data.weatherObservedAt);
+        const fresh = data.weatherStatus === 'available' && Number.isFinite(observed) && observed <= Date.now() && Date.now() - observed <= LakeData.STALE_MS;
+        if (weatherStatus) weatherStatus.textContent = fresh ? `Weather observed ${new Date(observed).toLocaleString('en-US', { timeZone: 'America/Chicago', timeZoneName: 'short' })}` : 'Weather update unavailable or stale. Forecasts, alerts, and fishing scores may be out of date; check the official weather source.';
+    };
+    renderWeatherStatus();
+    setInterval(renderWeatherStatus, 60000);
 
     // Populate Weather Data
     const dynamicWeatherIcon = document.getElementById("dynamic-weather-icon");
@@ -493,12 +504,12 @@ if (typeof data !== "undefined") {
     }
 
     // Update current weather data with proper ARIA attributes
-    updateElement("current-temp", `<strong>Current Temperature:</strong> ${weatherData.temp || "Unavailable"} °F`);
-    updateElement("feels-like", `<strong>Feels Like:</strong> ${weatherData.feels_like || "Unavailable"} °F`);
-    updateElement("description", `<strong>Weather Description:</strong> ${escapeHtml(weatherData.description || "Unavailable")}`);
-    updateElement("wind-speed", `<strong>Wind Speed:</strong> ${weatherData.wind_speed || "Unavailable"} mph`);
+    updateElement("current-temp", `<strong>Current Temperature:</strong> ${weatherData.temp ?? "Unavailable"} °F`);
+    updateElement("feels-like", `<strong>Feels Like:</strong> ${weatherData.feels_like ?? "Unavailable"} °F`);
+    updateElement("description", `<strong>Weather Description:</strong> ${escapeHtml(weatherData.description ?? "Unavailable")}`);
+    updateElement("wind-speed", `<strong>Wind Speed:</strong> ${weatherData.wind_speed ?? "Unavailable"} mph`);
 
-    const windDeg = weatherData.wind_deg || "Unavailable";
+    const windDeg = weatherData.wind_deg ?? "Unavailable";
     if (windDeg !== "Unavailable") {
         const direction = getCardinalDirection(windDeg);
         updateElement("wind-deg", 
@@ -508,8 +519,8 @@ if (typeof data !== "undefined") {
         updateElement("wind-deg", `<strong>Wind Direction:</strong> Unavailable`);
     }
 
-    updateElement("wind-gust", `<strong>Wind Gust:</strong> ${weatherData.gust || "Unavailable"} mph`);
-    updateElement("humidity", `<strong>Humidity:</strong> ${weatherData.humidity || "Unavailable"} %`);
+    updateElement("wind-gust", `<strong>Wind Gust:</strong> ${weatherData.gust ?? "Unavailable"} mph`);
+    updateElement("humidity", `<strong>Humidity:</strong> ${weatherData.humidity ?? "Unavailable"} %`);
 
     const uvDesc = getUVIndexDescriptor(weatherData.uv_index);
     updateElement("uvi", 
@@ -517,12 +528,13 @@ if (typeof data !== "undefined") {
         <span class="sr-only">UV Index is ${uvDesc}</span>`
     );
     updateElement("visibility", '<strong>Visibility:</strong> ' + (weatherData.visibility ? convertVisibility(weatherData.visibility, "mi") : "Unavailable"));
-    updateElement("dew-point", `<strong>Dew Point:</strong> ${weatherData.dew_point || "Unavailable"} °F`);
+    updateElement("dew-point", `<strong>Dew Point:</strong> ${weatherData.dew_point ?? "Unavailable"} °F`);
     updatePressureDisplay(weatherData.pressure);
-    updateFishingScore(weatherData);
+    if (data.weatherStatus === 'available' && Number.isFinite(weatherData.temp)) updateFishingScore(weatherData);
+    else updateElement('fishing-score', '<strong>Fishing Score:</strong> Unavailable');
     
     // Update Moon Phase with Icon and Terminology
-    const moonPhase = weatherData.moon_phase || "Unavailable";
+    const moonPhase = weatherData.moon_phase ?? "Unavailable";
     if (moonPhase !== "Unavailable") {
         const moonIcon = getMoonPhaseIcon(moonPhase);
         const moonDesc = getMoonPhaseTerminology(moonPhase);
@@ -535,8 +547,8 @@ if (typeof data !== "undefined") {
         updateElement("moon_phase", `<strong>Moon Phase:</strong> Unavailable`);
     }
 
-    updateElement("sunrise", `<strong>Sunrise:</strong> ${weatherData.sunrise || "Unavailable"}`);
-    updateElement("sunset", `<strong>Sunset:</strong> ${weatherData.sunset || "Unavailable"}`);
+    updateElement("sunrise", `<strong>Sunrise:</strong> ${weatherData.sunrise ?? "Unavailable"}`);
+    updateElement("sunset", `<strong>Sunset:</strong> ${weatherData.sunset ?? "Unavailable"}`);
 
     // Populate Fishing Report
     const fishingReport = data.fishingReport || {};

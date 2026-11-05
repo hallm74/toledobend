@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "data.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test",
+    "check": "node --check fetch-data.js && node --check lake-data.js && node --check script.js"
   },
   "keywords": [],
   "author": "",

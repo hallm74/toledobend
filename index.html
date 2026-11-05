@@ -38,7 +38,8 @@
             <h4 class="mb-0" id="lake-level-heading">Lake Level</h4>
           </div>
           <div class="card-body">
-            <p id="lake-level" class="card-text text-center fs-4" aria-label="Current lake level">Loading...</p>
+            <p><a href="https://waterdata.usgs.gov/monitoring-location/USGS-08025350/">USGS station 08025350</a></p>
+            <p id="lake-level" class="card-text text-center fs-4" role="status" aria-live="polite">Loading...</p>
           </div>
         </div>
 
@@ -62,6 +63,7 @@
             <div class="card-body">
               <p><span id="fishing-report-date">Loading...</span></p>
               <p id="fishing-report-text">Loading...</p>
+              <a href="https://tpwd.texas.gov/fishboat/fish/action/reptform2.php?water=Freshwater&amp;lake=TOLEDO+BEND&amp;archive=latest">TPWD fishing reports and archive</a>
             </div>
           </div>
         </div>
@@ -104,6 +106,7 @@
                 </div>
               </div>
             </div>
+      <p id="weather-status" role="status"></p>
       <ul class="list-group list-group-flush mt-3 text-center" id="weather-data" aria-label="Current weather conditions">
         <li class="list-group-item">
           <i class="bi bi-thermometer-high me-2" aria-hidden="true"></i>
@@ -272,7 +275,8 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="./data.js?t=${Date.now()}"></script>
-  <script src="./script.js?t=${Date.now()}"></script>
+  <script src="./lake-data.js"></script>
+  <script src="./data.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

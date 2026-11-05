@@ -21,11 +21,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 22
 
       # Step 3: Install dependencies
       - name: Install dependencies
         run: npm ci # Uses `ci` for faster, reliable installs in CI/CD
+
+      - name: Check JavaScript and regression tests
+        run: npm run check && npm test
 
       # Step 4: Run fetch script
       - name: Fetch weather and lake data
