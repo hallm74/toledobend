@@ -1,7 +1,15 @@
 [
-  "168.01ft 8:45am",
-  "168.00ft 10:15am",
-  "168.00ft 10:30am",
-  "168.00ft 12:15pm",
-  "167.99ft 12:30pm"
+  {
+    "reading": {
+      "station": "USGS-08025350",
+      "parameter": "62614",
+      "level": 167.75,
+      "unit": "ft",
+      "datum": "NGVD 1929",
+      "observedAt": "2026-11-05T17:45:00+00:00",
+      "provisional": true
+    },
+    "checkedAt": "2026-11-05T17:52:45.401Z",
+    "refreshUnavailable": false
+  }
 ]
