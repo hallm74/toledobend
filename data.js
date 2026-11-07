@@ -6,46 +6,46 @@ const data = {
       "level": 167.76,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-07T12:00:00+00:00",
+      "observedAt": "2026-11-07T12:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-07T12:09:00.484Z",
+    "checkedAt": "2026-11-07T13:05:12.732Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-07T12:09:00.000Z",
+  "weatherObservedAt": "2026-11-07T13:05:13.000Z",
   "currentWeather": {
-    "temp": 57.88,
-    "feels_like": 57.33,
+    "temp": 57.11,
+    "feels_like": 56.34,
     "description": "overcast clouds",
-    "wind_speed": 6.85,
-    "wind_deg": 62,
-    "gust": 14.2,
+    "wind_speed": 6.89,
+    "wind_deg": 59,
+    "gust": 14.38,
     "sunrise": "06:34 AM",
     "sunset": "05:21 PM",
-    "dayOrNight": "night",
-    "humidity": 84,
+    "dayOrNight": "day",
+    "humidity": 81,
     "uv_index": 0,
     "pressure": 1020,
     "moon_phase": 0.95,
     "visibility": 10000,
-    "dew_point": 53.08
+    "dew_point": 51.35
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 69.49,
-      "low": 50.09,
+      "high": 68.76,
+      "low": 52.09,
       "description": "light rain",
       "wind_speed": 6.04,
-      "wind_deg": 357,
-      "gust": 13.67,
-      "humidity": 55,
+      "wind_deg": 6,
+      "gust": 14.29,
+      "humidity": 57,
       "uv_index": 2.09,
       "pressure": 1024,
       "moon_phase": 0.98,
-      "dew_point": 49.06,
-      "visibility": 10000
+      "dew_point": 48.97,
+      "visibility": 9761
     },
     {
       "date": "Monday",
@@ -112,14 +112,15 @@ const data = {
   "barometricPressureHistory": [
     1020,
     1020,
-    1020,
     1021,
-    1022,
+    1021,
+    1021,
     1021
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Fishing report unavailable. Check TPWD for the latest report.",
-    "status": "unavailable"
+    "date": "Reports on hold",
+    "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
+    "status": "on-hold",
+    "checkedAt": "2026-11-07T13:05:14.522Z"
   }
 };
