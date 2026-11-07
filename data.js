@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.74,
+      "level": 167.73,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-07T15:45:00+00:00",
+      "observedAt": "2026-11-07T16:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-07T15:58:54.693Z",
+    "checkedAt": "2026-11-07T17:04:51.819Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-07T16:06:19.000Z",
+  "weatherObservedAt": "2026-11-07T17:04:52.000Z",
   "currentWeather": {
-    "temp": 65.35,
-    "feels_like": 64.69,
+    "temp": 68.77,
+    "feels_like": 68.13,
     "description": "broken clouds",
-    "wind_speed": 6.38,
+    "wind_speed": 5.68,
     "wind_deg": 55,
-    "gust": 16.06,
+    "gust": 14.88,
     "sunrise": "06:34 AM",
     "sunset": "05:21 PM",
     "dayOrNight": "day",
-    "humidity": 66,
-    "uv_index": 1.77,
+    "humidity": 59,
+    "uv_index": 2.46,
     "pressure": 1022,
     "moon_phase": 0.95,
     "visibility": 10000,
-    "dew_point": 53.71
+    "dew_point": 53.89
   },
   "fiveDayWeather": [
     {
@@ -70,11 +70,11 @@ const data = {
       "wind_speed": 5.19,
       "wind_deg": 190,
       "gust": 8.88,
-      "humidity": 36,
+      "humidity": 40,
       "uv_index": 4.3,
-      "pressure": 1023,
+      "pressure": 1024,
       "moon_phase": 0.05,
-      "dew_point": 43.34,
+      "dew_point": 44.62,
       "visibility": "Unavailable"
     },
     {
@@ -112,8 +112,8 @@ const data = {
   "barometricPressureHistory": [
     1022,
     1022,
-    1022,
     1021,
+    1020,
     1020,
     1019
   ],
@@ -121,6 +121,6 @@ const data = {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-07T16:06:20.659Z"
+    "checkedAt": "2026-11-07T17:04:53.527Z"
   }
 };
