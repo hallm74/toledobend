@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.7,
+      "level": 167.72,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-08T15:45:00+00:00",
+      "observedAt": "2026-11-08T16:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-08T16:06:14.681Z",
+    "checkedAt": "2026-11-08T17:04:49.039Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-08T16:06:15.000Z",
+  "weatherObservedAt": "2026-11-08T17:04:49.000Z",
   "currentWeather": {
-    "temp": 60.93,
-    "feels_like": 59.63,
-    "description": "broken clouds",
-    "wind_speed": 4.72,
-    "wind_deg": 44,
-    "gust": 13.33,
+    "temp": 62.96,
+    "feels_like": 61.68,
+    "description": "scattered clouds",
+    "wind_speed": 4.43,
+    "wind_deg": 32,
+    "gust": 12.93,
     "sunrise": "06:35 AM",
     "sunset": "05:20 PM",
     "dayOrNight": "day",
-    "humidity": 62,
-    "uv_index": 1.92,
+    "humidity": 58,
+    "uv_index": 1.88,
     "pressure": 1023,
     "moon_phase": 0.98,
     "visibility": 10000,
-    "dew_point": 47.84
+    "dew_point": 47.97
   },
   "fiveDayWeather": [
     {
@@ -70,11 +70,11 @@ const data = {
       "wind_speed": 6.24,
       "wind_deg": 276,
       "gust": 14.25,
-      "humidity": 51,
+      "humidity": 54,
       "uv_index": 3.83,
-      "pressure": 1018,
+      "pressure": 1019,
       "moon_phase": 0.08,
-      "dew_point": 55.51,
+      "dew_point": 55.31,
       "visibility": "Unavailable"
     },
     {
@@ -112,15 +112,14 @@ const data = {
   "barometricPressureHistory": [
     1023,
     1023,
-    1023,
+    1022,
     1022,
     1021,
     1020
   ],
   "fishingReport": {
-    "date": "Reports on hold",
-    "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
-    "status": "on-hold",
-    "checkedAt": "2026-11-08T16:06:16.656Z"
+    "date": "Unavailable",
+    "report": "Fishing report unavailable. Check TPWD for the latest report.",
+    "status": "unavailable"
   }
 };
