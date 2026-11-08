@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.75,
+      "level": 167.74,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-08T18:45:00+00:00",
+      "observedAt": "2026-11-08T19:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-08T19:04:43.019Z",
+    "checkedAt": "2026-11-08T20:06:08.921Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-08T19:04:43.000Z",
+  "weatherObservedAt": "2026-11-08T20:06:09.000Z",
   "currentWeather": {
-    "temp": 65.7,
-    "feels_like": 64.45,
+    "temp": 66.56,
+    "feels_like": 65.41,
     "description": "overcast clouds",
-    "wind_speed": 5.23,
-    "wind_deg": 5,
-    "gust": 13.96,
+    "wind_speed": 5.57,
+    "wind_deg": 360,
+    "gust": 14.34,
     "sunrise": "06:35 AM",
     "sunset": "05:20 PM",
     "dayOrNight": "day",
     "humidity": 53,
-    "uv_index": 3.39,
-    "pressure": 1022,
+    "uv_index": 1.88,
+    "pressure": 1021,
     "moon_phase": 0.98,
     "visibility": 10000,
-    "dew_point": 48.13
+    "dew_point": 48.92
   },
   "fiveDayWeather": [
     {
@@ -64,7 +64,7 @@ const data = {
     },
     {
       "date": "Wednesday",
-      "high": 75.31,
+      "high": 76.1,
       "low": 57.63,
       "description": "clear sky",
       "wind_speed": 6.24,
@@ -110,17 +110,16 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1022,
-    1022,
+    1021,
     1021,
     1021,
     1020,
-    1021
+    1021,
+    1022
   ],
   "fishingReport": {
-    "date": "Reports on hold",
-    "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
-    "status": "on-hold",
-    "checkedAt": "2026-11-08T19:04:44.793Z"
+    "date": "Unavailable",
+    "report": "Fishing report unavailable. Check TPWD for the latest report.",
+    "status": "unavailable"
   }
 };
