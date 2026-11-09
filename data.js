@@ -3,39 +3,39 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.69,
+      "level": 167.7,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-09T07:00:00+00:00",
+      "observedAt": "2026-11-09T08:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-09T07:08:45.964Z",
+    "checkedAt": "2026-11-09T08:10:23.456Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-09T07:08:46.000Z",
+  "weatherObservedAt": "2026-11-09T08:10:23.000Z",
   "currentWeather": {
-    "temp": 54.1,
-    "feels_like": 53.49,
-    "description": "broken clouds",
-    "wind_speed": 3.69,
-    "wind_deg": 66,
-    "gust": 6.53,
+    "temp": 53.62,
+    "feels_like": 53.01,
+    "description": "overcast clouds",
+    "wind_speed": 3.15,
+    "wind_deg": 65,
+    "gust": 5.5,
     "sunrise": "06:36 AM",
     "sunset": "05:20 PM",
     "dayOrNight": "night",
-    "humidity": 91,
+    "humidity": 92,
     "uv_index": 0,
     "pressure": 1022,
     "moon_phase": 0,
     "visibility": 10000,
-    "dew_point": 51.53
+    "dew_point": 51.35
   },
   "fiveDayWeather": [
     {
       "date": "Tuesday",
-      "high": 73.11,
-      "low": 56.39,
+      "high": 74.5,
+      "low": 54.81,
       "description": "broken clouds",
       "wind_speed": 5.26,
       "wind_deg": 186,
@@ -67,8 +67,8 @@ const data = {
       "high": 70.23,
       "low": 58.73,
       "description": "clear sky",
-      "wind_speed": 8.93,
-      "wind_deg": 351,
+      "wind_speed": 8.99,
+      "wind_deg": 329,
       "gust": 20.22,
       "humidity": 42,
       "uv_index": 4.22,
@@ -114,13 +114,13 @@ const data = {
     1022,
     1022,
     1021,
-    1021,
+    1022,
     1022
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-09T07:08:47.795Z"
+    "checkedAt": "2026-11-09T08:10:25.100Z"
   }
 };
