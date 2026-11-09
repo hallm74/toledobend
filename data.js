@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.69,
+      "level": 167.7,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-09T15:45:00+00:00",
+      "observedAt": "2026-11-09T16:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-09T16:01:40.552Z",
+    "checkedAt": "2026-11-09T17:06:27.752Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-09T16:07:21.000Z",
+  "weatherObservedAt": "2026-11-09T17:06:28.000Z",
   "currentWeather": {
-    "temp": 63.27,
-    "feels_like": 62.2,
-    "description": "broken clouds",
-    "wind_speed": 3.6,
-    "wind_deg": 53,
-    "gust": 10.98,
+    "temp": 65.5,
+    "feels_like": 64.33,
+    "description": "overcast clouds",
+    "wind_speed": 4.43,
+    "wind_deg": 45,
+    "gust": 12.8,
     "sunrise": "06:36 AM",
     "sunset": "05:20 PM",
     "dayOrNight": "day",
-    "humidity": 62,
-    "uv_index": 2.14,
+    "humidity": 55,
+    "uv_index": 2.89,
     "pressure": 1024,
     "moon_phase": 0,
     "visibility": 10000,
-    "dew_point": 50.04
+    "dew_point": 48.92
   },
   "fiveDayWeather": [
     {
@@ -70,11 +70,11 @@ const data = {
       "wind_speed": 9.17,
       "wind_deg": 356,
       "gust": 17.9,
-      "humidity": 41,
+      "humidity": 45,
       "uv_index": 4.22,
-      "pressure": 1017,
+      "pressure": 1018,
       "moon_phase": 0.11,
-      "dew_point": 44.62,
+      "dew_point": 45.27,
       "visibility": "Unavailable"
     },
     {
@@ -112,15 +112,15 @@ const data = {
   "barometricPressureHistory": [
     1024,
     1024,
-    1024,
+    1023,
     1022,
     1022,
-    1020
+    1021
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-09T16:07:23.130Z"
+    "checkedAt": "2026-11-09T17:06:29.716Z"
   }
 };
