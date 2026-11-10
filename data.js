@@ -3,50 +3,35 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.68,
+      "level": 167.66,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-10T04:45:00+00:00",
+      "observedAt": "2026-11-10T06:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-10T05:07:01.614Z",
+    "checkedAt": "2026-11-10T06:11:16.365Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-10T05:07:02.000Z",
+  "weatherObservedAt": "2026-11-10T06:11:17.000Z",
   "currentWeather": {
-    "temp": 58.69,
-    "feels_like": 58.12,
-    "description": "overcast clouds",
-    "wind_speed": 0.27,
-    "wind_deg": 76,
-    "gust": 1.1,
-    "sunrise": "06:36 AM",
-    "sunset": "05:20 PM",
+    "temp": 57.88,
+    "feels_like": 57.42,
+    "description": "scattered clouds",
+    "wind_speed": 1.48,
+    "wind_deg": 126,
+    "gust": 2.95,
+    "sunrise": "06:37 AM",
+    "sunset": "05:19 PM",
     "dayOrNight": "night",
-    "humidity": 82,
+    "humidity": 86,
     "uv_index": 0,
-    "pressure": 1023,
-    "moon_phase": 0,
+    "pressure": 1022,
+    "moon_phase": 0.05,
     "visibility": 10000,
-    "dew_point": 53.22
+    "dew_point": 53.73
   },
   "fiveDayWeather": [
-    {
-      "date": "Tuesday",
-      "high": 74.05,
-      "low": 54.82,
-      "description": "scattered clouds",
-      "wind_speed": 6.04,
-      "wind_deg": 201,
-      "gust": 11.5,
-      "humidity": 51,
-      "uv_index": 4.34,
-      "pressure": 1023,
-      "moon_phase": 0.05,
-      "dew_point": 53.2,
-      "visibility": 9965
-    },
     {
       "date": "Wednesday",
       "high": 76.15,
@@ -60,7 +45,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.08,
       "dew_point": 56.61,
-      "visibility": 10000
+      "visibility": 9965
     },
     {
       "date": "Thursday",
@@ -75,7 +60,7 @@ const data = {
       "pressure": 1019,
       "moon_phase": 0.11,
       "dew_point": 46.56,
-      "visibility": "Unavailable"
+      "visibility": 10000
     },
     {
       "date": "Friday",
@@ -106,21 +91,36 @@ const data = {
       "moon_phase": 0.17,
       "dew_point": 38.35,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Sunday",
+      "high": 64.24,
+      "low": 48.58,
+      "description": "overcast clouds",
+      "wind_speed": 7.96,
+      "wind_deg": 129,
+      "gust": 24.67,
+      "humidity": 49,
+      "uv_index": 5,
+      "pressure": 1020,
+      "moon_phase": 0.2,
+      "dew_point": 40.06,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1023,
-    1023,
-    1023,
     1022,
     1022,
+    1022,
+    1022,
+    1021,
     1021
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-10T05:07:03.191Z"
+    "checkedAt": "2026-11-10T06:11:18.497Z"
   }
 };
