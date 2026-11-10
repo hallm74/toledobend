@@ -3,24 +3,24 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.7,
+      "level": 167.69,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-10T10:45:00+00:00",
+      "observedAt": "2026-11-10T12:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-10T11:05:56.323Z",
+    "checkedAt": "2026-11-10T12:09:18.749Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-10T11:05:56.000Z",
+  "weatherObservedAt": "2026-11-10T12:09:19.000Z",
   "currentWeather": {
-    "temp": 56.79,
-    "feels_like": 56.53,
-    "description": "scattered clouds",
-    "wind_speed": 1.48,
-    "wind_deg": 346,
-    "gust": 3.02,
+    "temp": 56.46,
+    "feels_like": 56.17,
+    "description": "broken clouds",
+    "wind_speed": 1.36,
+    "wind_deg": 22,
+    "gust": 2.71,
     "sunrise": "06:37 AM",
     "sunset": "05:19 PM",
     "dayOrNight": "night",
@@ -29,7 +29,7 @@ const data = {
     "pressure": 1022,
     "moon_phase": 0.05,
     "visibility": 10000,
-    "dew_point": 54.79
+    "dew_point": 54.46
   },
   "fiveDayWeather": [
     {
@@ -113,7 +113,7 @@ const data = {
     1022,
     1022,
     1022,
-    1022,
+    1023,
     1023,
     1023
   ],
@@ -121,6 +121,6 @@ const data = {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-10T11:05:58.154Z"
+    "checkedAt": "2026-11-10T12:09:20.382Z"
   }
 };
