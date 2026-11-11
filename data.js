@@ -3,40 +3,40 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.67,
+      "level": 167.68,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-11T00:00:00+00:00",
+      "observedAt": "2026-11-11T00:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-11T00:08:08.072Z",
+    "checkedAt": "2026-11-11T00:59:49.595Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-11T00:18:14.000Z",
+  "weatherObservedAt": "2026-11-11T01:06:45.000Z",
   "currentWeather": {
-    "temp": 66.85,
-    "feels_like": 66.38,
-    "description": "overcast clouds",
-    "wind_speed": 1.12,
-    "wind_deg": 360,
-    "gust": 1.36,
+    "temp": 64.96,
+    "feels_like": 64.72,
+    "description": "broken clouds",
+    "wind_speed": 1.34,
+    "wind_deg": 132,
+    "gust": 1.83,
     "sunrise": "06:37 AM",
     "sunset": "05:19 PM",
     "dayOrNight": "night",
-    "humidity": 67,
+    "humidity": 76,
     "uv_index": 0,
-    "pressure": 1019,
+    "pressure": 1020,
     "moon_phase": 0.05,
     "visibility": 10000,
-    "dew_point": 55.54
+    "dew_point": 57.22
   },
   "fiveDayWeather": [
     {
       "date": "Wednesday",
-      "high": 75.96,
-      "low": 57.38,
-      "description": "light rain",
+      "high": 76.5,
+      "low": 56.77,
+      "description": "moderate rain",
       "wind_speed": 6.98,
       "wind_deg": 229,
       "gust": 13.13,
@@ -50,7 +50,7 @@ const data = {
     {
       "date": "Thursday",
       "high": 69.06,
-      "low": 57.56,
+      "low": 57.34,
       "description": "clear sky",
       "wind_speed": 10.04,
       "wind_deg": 337,
@@ -110,9 +110,9 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1019,
-    1019,
-    1019,
+    1020,
+    1020,
+    1020,
     1020,
     1020,
     1020
@@ -121,6 +121,6 @@ const data = {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-11T00:18:15.746Z"
+    "checkedAt": "2026-11-11T01:06:47.249Z"
   }
 };
