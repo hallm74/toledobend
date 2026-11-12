@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.68,
+      "level": 167.71,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-12T16:00:00+00:00",
+      "observedAt": "2026-11-12T16:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-12T16:07:28.757Z",
+    "checkedAt": "2026-11-12T17:05:52.940Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-12T16:07:29.000Z",
+  "weatherObservedAt": "2026-11-12T17:05:53.000Z",
   "currentWeather": {
-    "temp": 68.41,
-    "feels_like": 67.26,
+    "temp": 71.98,
+    "feels_like": 70.61,
     "description": "clear sky",
-    "wind_speed": 6.24,
-    "wind_deg": 349,
-    "gust": 15.61,
+    "wind_speed": 8.59,
+    "wind_deg": 350,
+    "gust": 20.47,
     "sunrise": "06:39 AM",
     "sunset": "05:18 PM",
     "dayOrNight": "day",
-    "humidity": 49,
-    "uv_index": 2.43,
-    "pressure": 1018,
+    "humidity": 37,
+    "uv_index": 3.7,
+    "pressure": 1017,
     "moon_phase": 0.11,
     "visibility": 10000,
-    "dew_point": 48.52
+    "dew_point": 44.31
   },
   "fiveDayWeather": [
     {
@@ -70,11 +70,11 @@ const data = {
       "wind_speed": 12.77,
       "wind_deg": 67,
       "gust": 25.9,
-      "humidity": 86,
+      "humidity": 93,
       "uv_index": 1.92,
-      "pressure": 1023,
+      "pressure": 1024,
       "moon_phase": 0.2,
-      "dew_point": 48.27,
+      "dew_point": 47.7,
       "visibility": "Unavailable"
     },
     {
@@ -110,17 +110,17 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1018,
-    1018,
+    1017,
     1017,
     1016,
     1016,
+    1015,
     1014
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-12T16:07:31.143Z"
+    "checkedAt": "2026-11-12T17:05:54.892Z"
   }
 };
