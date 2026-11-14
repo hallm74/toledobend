@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.58,
+      "level": 167.59,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-14T15:45:00+00:00",
+      "observedAt": "2026-11-14T16:30:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-14T16:04:14.922Z",
+    "checkedAt": "2026-11-14T16:49:20.823Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-14T16:06:24.000Z",
+  "weatherObservedAt": "2026-11-14T17:05:01.000Z",
   "currentWeather": {
-    "temp": 54.21,
-    "feels_like": 51.55,
+    "temp": 57.07,
+    "feels_like": 54.41,
     "description": "clear sky",
-    "wind_speed": 7.18,
-    "wind_deg": 81,
-    "gust": 17.96,
+    "wind_speed": 7.27,
+    "wind_deg": 79,
+    "gust": 18.45,
     "sunrise": "06:40 AM",
     "sunset": "05:17 PM",
     "dayOrNight": "day",
-    "humidity": 47,
-    "uv_index": 2.22,
+    "humidity": 41,
+    "uv_index": 3.42,
     "pressure": 1024,
     "moon_phase": 0.17,
     "visibility": 10000,
-    "dew_point": 34.45
+    "dew_point": 33.62
   },
   "fiveDayWeather": [
     {
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.2,
       "dew_point": 43.81,
-      "visibility": 9807
+      "visibility": 9718
     },
     {
       "date": "Monday",
@@ -60,7 +60,7 @@ const data = {
       "pressure": 1029,
       "moon_phase": 0.23,
       "dew_point": 45.79,
-      "visibility": 6631
+      "visibility": 6720
     },
     {
       "date": "Tuesday",
@@ -69,12 +69,12 @@ const data = {
       "description": "clear sky",
       "wind_speed": 7.31,
       "wind_deg": 72,
-      "gust": 14.83,
-      "humidity": 46,
+      "gust": 15.17,
+      "humidity": 50,
       "uv_index": 4.05,
-      "pressure": 1028,
+      "pressure": 1029,
       "moon_phase": 0.25,
-      "dew_point": 42.08,
+      "dew_point": 41.02,
       "visibility": "Unavailable"
     },
     {
@@ -112,15 +112,14 @@ const data = {
   "barometricPressureHistory": [
     1024,
     1024,
-    1024,
     1023,
     1022,
+    1021,
     1020
   ],
   "fishingReport": {
-    "date": "Reports on hold",
-    "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
-    "status": "on-hold",
-    "checkedAt": "2026-11-14T16:06:26.524Z"
+    "date": "Unavailable",
+    "report": "Fishing report unavailable. Check TPWD for the latest report.",
+    "status": "unavailable"
   }
 };
