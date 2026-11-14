@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.59,
+      "level": 167.6,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-14T18:45:00+00:00",
+      "observedAt": "2026-11-14T19:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-14T19:05:09.587Z",
+    "checkedAt": "2026-11-14T20:06:09.017Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-14T19:05:10.000Z",
+  "weatherObservedAt": "2026-11-14T20:06:09.000Z",
   "currentWeather": {
-    "temp": 61,
-    "feels_like": 58.44,
+    "temp": 61.92,
+    "feels_like": 59.41,
     "description": "clear sky",
-    "wind_speed": 7.05,
-    "wind_deg": 82,
-    "gust": 17.76,
+    "wind_speed": 6.85,
+    "wind_deg": 83,
+    "gust": 17.09,
     "sunrise": "06:40 AM",
     "sunset": "05:17 PM",
     "dayOrNight": "day",
-    "humidity": 35,
-    "uv_index": 3.93,
-    "pressure": 1022,
+    "humidity": 34,
+    "uv_index": 2.93,
+    "pressure": 1021,
     "moon_phase": 0.17,
     "visibility": 10000,
-    "dew_point": 33.19
+    "dew_point": 33.28
   },
   "fiveDayWeather": [
     {
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.2,
       "dew_point": 43.81,
-      "visibility": 9718
+      "visibility": 9665
     },
     {
       "date": "Monday",
@@ -60,7 +60,7 @@ const data = {
       "pressure": 1029,
       "moon_phase": 0.23,
       "dew_point": 45.79,
-      "visibility": 6720
+      "visibility": 6773
     },
     {
       "date": "Tuesday",
@@ -110,8 +110,8 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1022,
-    1022,
+    1021,
+    1021,
     1021,
     1021,
     1021,
@@ -121,6 +121,6 @@ const data = {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-14T19:05:11.717Z"
+    "checkedAt": "2026-11-14T20:06:12.025Z"
   }
 };
