@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.65,
+      "level": 167.71,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-15T20:45:00+00:00",
+      "observedAt": "2026-11-15T21:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-15T21:03:49.357Z",
+    "checkedAt": "2026-11-15T22:05:48.261Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-15T21:05:13.000Z",
+  "weatherObservedAt": "2026-11-15T22:05:48.000Z",
   "currentWeather": {
-    "temp": 50.56,
-    "feels_like": 49.64,
-    "description": "moderate rain",
-    "wind_speed": 9.62,
-    "wind_deg": 62,
-    "gust": 19.89,
+    "temp": 49.98,
+    "feels_like": 46.11,
+    "description": "heavy intensity rain",
+    "wind_speed": 9.71,
+    "wind_deg": 53,
+    "gust": 20.11,
     "sunrise": "06:41 AM",
     "sunset": "05:16 PM",
     "dayOrNight": "day",
-    "humidity": 92,
-    "uv_index": 0.12,
-    "pressure": 1023,
+    "humidity": 93,
+    "uv_index": 0.05,
+    "pressure": 1024,
     "moon_phase": 0.2,
-    "visibility": 4914,
-    "dew_point": 48.33
+    "visibility": 3355,
+    "dew_point": 48.04
   },
   "fiveDayWeather": [
     {
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1030,
       "moon_phase": 0.23,
       "dew_point": 39.97,
-      "visibility": 8633
+      "visibility": 8845
     },
     {
       "date": "Tuesday",
@@ -110,17 +110,17 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1023,
-    1023,
-    1023,
+    1024,
+    1024,
     1024,
     1025,
+    1026,
     1026
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-15T21:05:15.679Z"
+    "checkedAt": "2026-11-15T22:05:50.332Z"
   }
 };
