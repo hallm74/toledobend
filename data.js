@@ -3,38 +3,38 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.56,
+      "level": 167.57,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-15T04:00:00+00:00",
+      "observedAt": "2026-11-15T05:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-15T04:07:27.347Z",
+    "checkedAt": "2026-11-15T05:06:33.588Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-15T04:07:27.000Z",
+  "weatherObservedAt": "2026-11-15T05:06:34.000Z",
   "currentWeather": {
-    "temp": 52.27,
-    "feels_like": 49.5,
-    "description": "scattered clouds",
-    "wind_speed": 7.09,
-    "wind_deg": 94,
-    "gust": 14.41,
+    "temp": 51.62,
+    "feels_like": 48.88,
+    "description": "broken clouds",
+    "wind_speed": 7.49,
+    "wind_deg": 92,
+    "gust": 14.76,
     "sunrise": "06:40 AM",
     "sunset": "05:17 PM",
     "dayOrNight": "night",
-    "humidity": 49,
+    "humidity": 51,
     "uv_index": 0,
     "pressure": 1022,
     "moon_phase": 0.17,
     "visibility": 10000,
-    "dew_point": 33.71
+    "dew_point": 34.11
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 51.03,
+      "high": 51.17,
       "low": 41.74,
       "description": "heavy intensity rain",
       "wind_speed": 12.95,
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1024,
       "moon_phase": 0.2,
       "dew_point": 43.61,
-      "visibility": 8077
+      "visibility": 7800
     },
     {
       "date": "Monday",
@@ -60,7 +60,7 @@ const data = {
       "pressure": 1030,
       "moon_phase": 0.23,
       "dew_point": 39.52,
-      "visibility": 9130
+      "visibility": 9407
     },
     {
       "date": "Tuesday",
@@ -115,12 +115,12 @@ const data = {
     1022,
     1023,
     1023,
-    1023
+    1022
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-15T04:07:29.293Z"
+    "checkedAt": "2026-11-15T05:06:35.700Z"
   }
 };
