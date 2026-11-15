@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.55,
+      "level": 167.5,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-15T13:45:00+00:00",
+      "observedAt": "2026-11-15T14:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-15T14:05:31.639Z",
+    "checkedAt": "2026-11-15T15:05:23.256Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-15T14:05:32.000Z",
+  "weatherObservedAt": "2026-11-15T15:05:23.000Z",
   "currentWeather": {
-    "temp": 47.75,
-    "feels_like": 43.23,
-    "description": "moderate rain",
-    "wind_speed": 10.07,
-    "wind_deg": 97,
-    "gust": 20.04,
+    "temp": 48.78,
+    "feels_like": 45.64,
+    "description": "overcast clouds",
+    "wind_speed": 7.16,
+    "wind_deg": 102,
+    "gust": 14.99,
     "sunrise": "06:41 AM",
     "sunset": "05:16 PM",
     "dayOrNight": "day",
-    "humidity": 89,
-    "uv_index": 0.04,
-    "pressure": 1023,
+    "humidity": 88,
+    "uv_index": 0.08,
+    "pressure": 1024,
     "moon_phase": 0.2,
-    "visibility": 5344,
-    "dew_point": 44.67
+    "visibility": 3655,
+    "dew_point": 45.39
   },
   "fiveDayWeather": [
     {
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1029,
       "moon_phase": 0.23,
       "dew_point": 38.23,
-      "visibility": 7130
+      "visibility": 7324
     },
     {
       "date": "Tuesday",
@@ -110,17 +110,17 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1023,
-    1023,
     1024,
     1024,
     1024,
-    1024
+    1024,
+    1024,
+    1023
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-15T14:05:33.563Z"
+    "checkedAt": "2026-11-15T15:05:24.878Z"
   }
 };
