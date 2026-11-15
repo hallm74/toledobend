@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.59,
+      "level": 167.63,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-15T18:45:00+00:00",
+      "observedAt": "2026-11-15T19:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-15T19:04:44.353Z",
+    "checkedAt": "2026-11-15T20:06:25.326Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-15T19:04:44.000Z",
+  "weatherObservedAt": "2026-11-15T20:06:25.000Z",
   "currentWeather": {
-    "temp": 51.85,
-    "feels_like": 50.83,
+    "temp": 51.66,
+    "feels_like": 50.76,
     "description": "moderate rain",
-    "wind_speed": 8.75,
-    "wind_deg": 96,
-    "gust": 19.39,
+    "wind_speed": 8.61,
+    "wind_deg": 86,
+    "gust": 19.19,
     "sunrise": "06:41 AM",
     "sunset": "05:16 PM",
     "dayOrNight": "day",
-    "humidity": 87,
-    "uv_index": 0.33,
-    "pressure": 1024,
+    "humidity": 90,
+    "uv_index": 0.28,
+    "pressure": 1023,
     "moon_phase": 0.2,
     "visibility": 10000,
-    "dew_point": 48.11
+    "dew_point": 48.83
   },
   "fiveDayWeather": [
     {
@@ -110,17 +110,17 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1024,
-    1024,
-    1024,
+    1023,
+    1023,
     1023,
     1024,
+    1025,
     1025
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-15T19:04:46.269Z"
+    "checkedAt": "2026-11-15T20:06:27.068Z"
   }
 };
