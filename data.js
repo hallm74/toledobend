@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.48,
+      "level": 167.51,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-15T15:45:00+00:00",
+      "observedAt": "2026-11-15T16:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-15T16:06:32.712Z",
+    "checkedAt": "2026-11-15T17:04:42.439Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-15T16:06:33.000Z",
+  "weatherObservedAt": "2026-11-15T17:04:43.000Z",
   "currentWeather": {
-    "temp": 50.11,
-    "feels_like": 48.81,
+    "temp": 51.12,
+    "feels_like": 49.82,
     "description": "light rain",
-    "wind_speed": 8.9,
-    "wind_deg": 106,
-    "gust": 18.19,
+    "wind_speed": 9.44,
+    "wind_deg": 103,
+    "gust": 18.75,
     "sunrise": "06:41 AM",
     "sunset": "05:16 PM",
     "dayOrNight": "day",
-    "humidity": 85,
-    "uv_index": 0.22,
-    "pressure": 1024,
+    "humidity": 83,
+    "uv_index": 0.66,
+    "pressure": 1025,
     "moon_phase": 0.2,
-    "visibility": 2714,
-    "dew_point": 45.79
+    "visibility": 5589,
+    "dew_point": 46.15
   },
   "fiveDayWeather": [
     {
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1029,
       "moon_phase": 0.23,
       "dew_point": 38.23,
-      "visibility": 7588
+      "visibility": 7892
     },
     {
       "date": "Tuesday",
@@ -70,11 +70,11 @@ const data = {
       "wind_speed": 6.76,
       "wind_deg": 84,
       "gust": 12.97,
-      "humidity": 56,
+      "humidity": 58,
       "uv_index": 3.47,
-      "pressure": 1026,
+      "pressure": 1027,
       "moon_phase": 0.29,
-      "dew_point": 52.39,
+      "dew_point": 50.97,
       "visibility": "Unavailable"
     },
     {
@@ -110,9 +110,9 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1024,
-    1024,
-    1024,
+    1025,
+    1025,
+    1025,
     1024,
     1023,
     1023
@@ -121,6 +121,6 @@ const data = {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-15T16:06:34.492Z"
+    "checkedAt": "2026-11-15T17:04:44.200Z"
   }
 };
