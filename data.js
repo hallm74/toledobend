@@ -6,46 +6,46 @@ const data = {
       "level": 167.55,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-15T12:00:00+00:00",
+      "observedAt": "2026-11-15T12:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-15T12:09:03.326Z",
+    "checkedAt": "2026-11-15T13:05:15.246Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-15T12:09:03.000Z",
+  "weatherObservedAt": "2026-11-15T13:05:15.000Z",
   "currentWeather": {
-    "temp": 46.96,
-    "feels_like": 42.69,
+    "temp": 45.93,
+    "feels_like": 41.63,
     "description": "overcast clouds",
-    "wind_speed": 8.9,
-    "wind_deg": 103,
-    "gust": 17.76,
+    "wind_speed": 8.43,
+    "wind_deg": 115,
+    "gust": 16.31,
     "sunrise": "06:41 AM",
     "sunset": "05:16 PM",
-    "dayOrNight": "night",
-    "humidity": 88,
+    "dayOrNight": "day",
+    "humidity": 92,
     "uv_index": 0,
-    "pressure": 1023,
+    "pressure": 1024,
     "moon_phase": 0.2,
-    "visibility": 3274,
-    "dew_point": 43.59
+    "visibility": 3070,
+    "dew_point": 43.74
   },
   "fiveDayWeather": [
     {
       "date": "Monday",
-      "high": 63.1,
-      "low": 42.67,
+      "high": 62.38,
+      "low": 45.59,
       "description": "clear sky",
-      "wind_speed": 9.15,
-      "wind_deg": 55,
-      "gust": 19.86,
-      "humidity": 47,
+      "wind_speed": 9.73,
+      "wind_deg": 65,
+      "gust": 20.15,
+      "humidity": 46,
       "uv_index": 3.98,
-      "pressure": 1030,
+      "pressure": 1029,
       "moon_phase": 0.23,
-      "dew_point": 39.11,
-      "visibility": 6635
+      "dew_point": 38.23,
+      "visibility": 6841
     },
     {
       "date": "Tuesday",
@@ -110,10 +110,10 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1023,
-    1023,
-    1023,
     1024,
+    1024,
+    1024,
+    1025,
     1025,
     1025
   ],
@@ -121,6 +121,6 @@ const data = {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-15T12:09:05.866Z"
+    "checkedAt": "2026-11-15T13:05:17.116Z"
   }
 };
