@@ -6,10 +6,10 @@
       "level": 167.57,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-18T00:00:00+00:00",
+      "observedAt": "2026-11-18T00:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-18T00:18:25.253Z",
+    "checkedAt": "2026-11-18T01:07:04.531Z",
     "refreshUnavailable": false
   }
 ]
