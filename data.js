@@ -6,21 +6,21 @@ const data = {
       "level": 167.5,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T08:45:00+00:00",
+      "observedAt": "2026-11-21T09:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T09:06:50.264Z",
+    "checkedAt": "2026-11-21T10:05:51.422Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T09:06:50.000Z",
+  "weatherObservedAt": "2026-11-21T10:05:51.000Z",
   "currentWeather": {
-    "temp": 58.01,
-    "feels_like": 57.97,
+    "temp": 57.43,
+    "feels_like": 57.34,
     "description": "scattered clouds",
-    "wind_speed": 2.35,
-    "wind_deg": 171,
-    "gust": 3.47,
+    "wind_speed": 1.63,
+    "wind_deg": 136,
+    "gust": 2.73,
     "sunrise": "06:46 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "night",
@@ -29,7 +29,7 @@ const data = {
     "pressure": 1016,
     "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 56.59
+    "dew_point": 56.01
   },
   "fiveDayWeather": [
     {
@@ -114,7 +114,7 @@ const data = {
     1016,
     1016,
     1016,
-    1016,
+    1017,
     1017
   ],
   "fishingReport": {
