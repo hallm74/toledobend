@@ -6,30 +6,30 @@ const data = {
       "level": 167.49,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T21:45:00+00:00",
+      "observedAt": "2026-11-21T22:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T22:05:45.734Z",
+    "checkedAt": "2026-11-21T23:05:28.055Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T22:05:46.000Z",
+  "weatherObservedAt": "2026-11-21T23:05:28.000Z",
   "currentWeather": {
-    "temp": 76.51,
-    "feels_like": 76.5,
-    "description": "scattered clouds",
-    "wind_speed": 4.79,
-    "wind_deg": 159,
-    "gust": 9.73,
+    "temp": 74.57,
+    "feels_like": 74.7,
+    "description": "clear sky",
+    "wind_speed": 3.71,
+    "wind_deg": 148,
+    "gust": 5.95,
     "sunrise": "06:46 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 56,
-    "uv_index": 0.56,
-    "pressure": 1013,
+    "humidity": 63,
+    "uv_index": 0,
+    "pressure": 1012,
     "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 59.67
+    "dew_point": 61.16
   },
   "fiveDayWeather": [
     {
@@ -69,7 +69,7 @@ const data = {
       "description": "light rain",
       "wind_speed": 10.33,
       "wind_deg": 351,
-      "gust": 21.52,
+      "gust": 21.9,
       "humidity": 47,
       "uv_index": 3.44,
       "pressure": 1024,
@@ -110,16 +110,17 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1013,
-    1013,
-    1013,
+    1012,
+    1012,
+    1012,
     1013,
     1013,
     1013
   ],
   "fishingReport": {
-    "date": "Unavailable",
-    "report": "Fishing report unavailable. Check TPWD for the latest report.",
-    "status": "unavailable"
+    "date": "Reports on hold",
+    "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
+    "status": "on-hold",
+    "checkedAt": "2026-11-21T23:05:29.709Z"
   }
 };
