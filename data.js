@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.5,
+      "level": 167.51,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T16:45:00+00:00",
+      "observedAt": "2026-11-21T18:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T17:05:02.682Z",
+    "checkedAt": "2026-11-21T18:06:57.364Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T17:05:03.000Z",
+  "weatherObservedAt": "2026-11-21T18:06:57.000Z",
   "currentWeather": {
-    "temp": 72.75,
-    "feels_like": 73.02,
-    "description": "overcast clouds",
-    "wind_speed": 5.53,
-    "wind_deg": 143,
-    "gust": 14.07,
+    "temp": 74.7,
+    "feels_like": 74.91,
+    "description": "broken clouds",
+    "wind_speed": 6.4,
+    "wind_deg": 152,
+    "gust": 15.93,
     "sunrise": "06:46 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 70,
-    "uv_index": 3.38,
-    "pressure": 1016,
+    "humidity": 65,
+    "uv_index": 4.03,
+    "pressure": 1015,
     "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 62.4
+    "dew_point": 62.15
   },
   "fiveDayWeather": [
     {
@@ -110,11 +110,11 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1016,
-    1016,
+    1015,
     1015,
     1014,
     1014,
+    1013,
     1012
   ],
   "fishingReport": {
