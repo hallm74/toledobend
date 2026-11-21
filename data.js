@@ -6,47 +6,32 @@ const data = {
       "level": 167.51,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T04:45:00+00:00",
+      "observedAt": "2026-11-21T06:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T05:06:41.580Z",
+    "checkedAt": "2026-11-21T06:11:05.040Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T05:06:42.000Z",
+  "weatherObservedAt": "2026-11-21T06:11:05.000Z",
   "currentWeather": {
-    "temp": 57.97,
-    "feels_like": 57.74,
+    "temp": 57.02,
+    "feels_like": 56.75,
     "description": "few clouds",
-    "wind_speed": 4.52,
-    "wind_deg": 97,
-    "gust": 7.14,
+    "wind_speed": 4.09,
+    "wind_deg": 104,
+    "gust": 6.58,
     "sunrise": "06:46 AM",
-    "sunset": "05:14 PM",
+    "sunset": "05:13 PM",
     "dayOrNight": "night",
-    "humidity": 91,
+    "humidity": 92,
     "uv_index": 0,
     "pressure": 1017,
-    "moon_phase": 0.36,
+    "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 55.36
+    "dew_point": 54.72
   },
   "fiveDayWeather": [
-    {
-      "date": "Saturday",
-      "high": 76.51,
-      "low": 57.63,
-      "description": "broken clouds",
-      "wind_speed": 6.31,
-      "wind_deg": 161,
-      "gust": 14.65,
-      "humidity": 57,
-      "uv_index": 4.03,
-      "pressure": 1014,
-      "moon_phase": 0.39,
-      "dew_point": 58.86,
-      "visibility": 10000
-    },
     {
       "date": "Sunday",
       "high": 75.67,
@@ -60,7 +45,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.43,
       "dew_point": 61.57,
-      "visibility": 9543
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -75,7 +60,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.47,
       "dew_point": 49.71,
-      "visibility": "Unavailable"
+      "visibility": 9543
     },
     {
       "date": "Tuesday",
@@ -106,6 +91,21 @@ const data = {
       "moon_phase": 0.54,
       "dew_point": 30.52,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Thursday",
+      "high": 58.86,
+      "low": 39.85,
+      "description": "clear sky",
+      "wind_speed": 6.2,
+      "wind_deg": 60,
+      "gust": 14.12,
+      "humidity": 39,
+      "uv_index": 4,
+      "pressure": 1024,
+      "moon_phase": 0.58,
+      "dew_point": 31.19,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [],
@@ -113,7 +113,7 @@ const data = {
     1017,
     1017,
     1017,
-    1017,
+    1016,
     1016,
     1016
   ],
