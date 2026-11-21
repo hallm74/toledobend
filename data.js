@@ -6,36 +6,36 @@ const data = {
       "level": 167.51,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T12:00:00+00:00",
+      "observedAt": "2026-11-21T12:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T12:09:16.605Z",
+    "checkedAt": "2026-11-21T13:05:14.317Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T12:09:17.000Z",
+  "weatherObservedAt": "2026-11-21T13:05:14.000Z",
   "currentWeather": {
-    "temp": 56.52,
-    "feels_like": 56.37,
+    "temp": 56.35,
+    "feels_like": 56.21,
     "description": "overcast clouds",
-    "wind_speed": 2.82,
-    "wind_deg": 111,
-    "gust": 4.29,
+    "wind_speed": 2.93,
+    "wind_deg": 106,
+    "gust": 4.72,
     "sunrise": "06:46 AM",
     "sunset": "05:13 PM",
-    "dayOrNight": "night",
+    "dayOrNight": "day",
     "humidity": 96,
     "uv_index": 0,
     "pressure": 1016,
     "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 55.38
+    "dew_point": 55.24
   },
   "fiveDayWeather": [
     {
       "date": "Sunday",
-      "high": 76.08,
-      "low": 57.6,
+      "high": 76.23,
+      "low": 59.72,
       "description": "light rain",
       "wind_speed": 10.56,
       "wind_deg": 337,
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.43,
       "dew_point": 61.48,
-      "visibility": 9814
+      "visibility": 10000
     },
     {
       "date": "Monday",
@@ -60,7 +60,7 @@ const data = {
       "pressure": 1021,
       "moon_phase": 0.47,
       "dew_point": 47.1,
-      "visibility": 9871
+      "visibility": 9955
     },
     {
       "date": "Tuesday",
@@ -114,8 +114,8 @@ const data = {
     1016,
     1016,
     1017,
-    1017,
-    1016
+    1016,
+    1015
   ],
   "fishingReport": {
     "date": "Unavailable",
