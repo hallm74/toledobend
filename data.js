@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.5,
+      "level": 167.51,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T07:00:00+00:00",
+      "observedAt": "2026-11-21T08:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T07:06:40.953Z",
+    "checkedAt": "2026-11-21T08:07:55.534Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T07:06:41.000Z",
+  "weatherObservedAt": "2026-11-21T08:07:56.000Z",
   "currentWeather": {
-    "temp": 56.88,
-    "feels_like": 56.68,
-    "description": "broken clouds",
-    "wind_speed": 3.36,
-    "wind_deg": 119,
-    "gust": 5.1,
+    "temp": 57.34,
+    "feels_like": 57.24,
+    "description": "overcast clouds",
+    "wind_speed": 3.06,
+    "wind_deg": 129,
+    "gust": 4.88,
     "sunrise": "06:46 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "night",
-    "humidity": 94,
+    "humidity": 95,
     "uv_index": 0,
     "pressure": 1017,
     "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 55.17
+    "dew_point": 55.92
   },
   "fiveDayWeather": [
     {
