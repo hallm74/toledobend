@@ -3,24 +3,24 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.51,
+      "level": 167.52,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T03:00:00+00:00",
+      "observedAt": "2026-11-21T03:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T03:08:06.782Z",
+    "checkedAt": "2026-11-21T04:07:13.948Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T03:08:07.000Z",
+  "weatherObservedAt": "2026-11-21T04:07:14.000Z",
   "currentWeather": {
-    "temp": 59.18,
-    "feels_like": 59.07,
+    "temp": 57.6,
+    "feels_like": 57.33,
     "description": "clear sky",
-    "wind_speed": 5.17,
-    "wind_deg": 99,
-    "gust": 8.25,
+    "wind_speed": 4.43,
+    "wind_deg": 97,
+    "gust": 6.98,
     "sunrise": "06:46 AM",
     "sunset": "05:14 PM",
     "dayOrNight": "night",
@@ -29,13 +29,13 @@ const data = {
     "pressure": 1018,
     "moon_phase": 0.36,
     "visibility": 10000,
-    "dew_point": 56.55
+    "dew_point": 54.99
   },
   "fiveDayWeather": [
     {
       "date": "Saturday",
       "high": 76.51,
-      "low": 57.63,
+      "low": 57.31,
       "description": "broken clouds",
       "wind_speed": 6.31,
       "wind_deg": 161,
@@ -115,7 +115,7 @@ const data = {
     1018,
     1017,
     1017,
-    1017
+    1016
   ],
   "fishingReport": {
     "date": "Unavailable",
