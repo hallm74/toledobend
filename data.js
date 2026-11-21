@@ -6,30 +6,30 @@ const data = {
       "level": 167.5,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-21T16:00:00+00:00",
+      "observedAt": "2026-11-21T16:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-21T16:06:33.004Z",
+    "checkedAt": "2026-11-21T17:05:02.682Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-21T16:06:33.000Z",
+  "weatherObservedAt": "2026-11-21T17:05:03.000Z",
   "currentWeather": {
-    "temp": 69.12,
-    "feels_like": 69.39,
-    "description": "broken clouds",
-    "wind_speed": 4.43,
-    "wind_deg": 125,
-    "gust": 11.99,
+    "temp": 72.75,
+    "feels_like": 73.02,
+    "description": "overcast clouds",
+    "wind_speed": 5.53,
+    "wind_deg": 143,
+    "gust": 14.07,
     "sunrise": "06:46 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "day",
-    "humidity": 78,
-    "uv_index": 2.21,
-    "pressure": 1017,
+    "humidity": 70,
+    "uv_index": 3.38,
+    "pressure": 1016,
     "moon_phase": 0.39,
     "visibility": 10000,
-    "dew_point": 61.97
+    "dew_point": 62.4
   },
   "fiveDayWeather": [
     {
@@ -110,10 +110,10 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1017,
-    1017,
+    1016,
     1016,
     1015,
+    1014,
     1014,
     1012
   ],
