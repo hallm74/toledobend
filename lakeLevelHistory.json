@@ -3,13 +3,13 @@
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.58,
+      "level": 167.54,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-24T10:45:00+00:00",
+      "observedAt": "2026-11-24T12:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-24T11:06:49.247Z",
+    "checkedAt": "2026-11-24T12:10:20.275Z",
     "refreshUnavailable": false
   }
 ]
