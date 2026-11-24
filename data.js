@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.54,
+      "level": 167.57,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-24T07:00:00+00:00",
+      "observedAt": "2026-11-24T08:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-24T07:07:08.717Z",
+    "checkedAt": "2026-11-24T08:09:18.652Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-24T07:07:09.000Z",
+  "weatherObservedAt": "2026-11-24T08:09:19.000Z",
   "currentWeather": {
-    "temp": 50.92,
-    "feels_like": 48.81,
+    "temp": 50.77,
+    "feels_like": 48.56,
     "description": "overcast clouds",
-    "wind_speed": 8.39,
-    "wind_deg": 31,
-    "gust": 17.85,
+    "wind_speed": 8.08,
+    "wind_deg": 29,
+    "gust": 17.25,
     "sunrise": "06:49 AM",
     "sunset": "05:13 PM",
     "dayOrNight": "night",
-    "humidity": 66,
+    "humidity": 64,
     "uv_index": 0,
     "pressure": 1023,
     "moon_phase": 0.5,
     "visibility": 10000,
-    "dew_point": 39.97
+    "dew_point": 39.06
   },
   "fiveDayWeather": [
     {
@@ -67,9 +67,9 @@ const data = {
       "high": 56.91,
       "low": 43.38,
       "description": "overcast clouds",
-      "wind_speed": 7.78,
-      "wind_deg": 283,
-      "gust": 15.55,
+      "wind_speed": 8.05,
+      "wind_deg": 296,
+      "gust": 16.2,
       "humidity": 45,
       "uv_index": 2.61,
       "pressure": 1023,
@@ -115,12 +115,11 @@ const data = {
     1023,
     1023,
     1023,
-    1023
+    1024
   ],
   "fishingReport": {
-    "date": "Reports on hold",
-    "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
-    "status": "on-hold",
-    "checkedAt": "2026-11-24T07:07:10.346Z"
+    "date": "Unavailable",
+    "report": "Fishing report unavailable. Check TPWD for the latest report.",
+    "status": "unavailable"
   }
 };
