@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.68,
+      "level": 167.67,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-25T18:45:00+00:00",
+      "observedAt": "2026-11-25T20:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-25T19:05:20.283Z",
+    "checkedAt": "2026-11-25T20:06:30.749Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-25T19:05:20.000Z",
+  "weatherObservedAt": "2026-11-25T20:06:31.000Z",
   "currentWeather": {
-    "temp": 55.99,
-    "feels_like": 53.28,
+    "temp": 55.85,
+    "feels_like": 53.06,
     "description": "clear sky",
-    "wind_speed": 12.44,
-    "wind_deg": 336,
-    "gust": 28.25,
+    "wind_speed": 12.28,
+    "wind_deg": 338,
+    "gust": 27.63,
     "sunrise": "06:50 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "day",
-    "humidity": 42,
-    "uv_index": 3.26,
-    "pressure": 1022,
+    "humidity": 41,
+    "uv_index": 2.48,
+    "pressure": 1021,
     "moon_phase": 0.54,
     "visibility": 10000,
-    "dew_point": 33.26
+    "dew_point": 32.52
   },
   "fiveDayWeather": [
     {
@@ -64,12 +64,12 @@ const data = {
     },
     {
       "date": "Saturday",
-      "high": 68.34,
+      "high": 68.54,
       "low": 43.2,
       "description": "clear sky",
-      "wind_speed": 12.84,
-      "wind_deg": 196,
-      "gust": 25.72,
+      "wind_speed": 12.86,
+      "wind_deg": 204,
+      "gust": 29.44,
       "humidity": 56,
       "uv_index": 3.31,
       "pressure": 1016,
@@ -110,17 +110,17 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
+    1021,
+    1021,
+    1021,
     1022,
     1022,
-    1022,
-    1022,
-    1022,
-    1022
+    1023
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-25T19:05:23.906Z"
+    "checkedAt": "2026-11-25T20:06:33.797Z"
   }
 };
