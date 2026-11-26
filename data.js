@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.54,
+      "level": 167.53,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-26T16:00:00+00:00",
+      "observedAt": "2026-11-26T16:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-26T16:07:15.943Z",
+    "checkedAt": "2026-11-26T17:05:56.594Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-26T16:07:16.000Z",
+  "weatherObservedAt": "2026-11-26T17:05:57.000Z",
   "currentWeather": {
-    "temp": 44.13,
-    "feels_like": 38.34,
+    "temp": 47.59,
+    "feels_like": 42.69,
     "description": "clear sky",
-    "wind_speed": 11.14,
-    "wind_deg": 325,
-    "gust": 25.66,
+    "wind_speed": 11.03,
+    "wind_deg": 322,
+    "gust": 25.68,
     "sunrise": "06:51 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "day",
-    "humidity": 60,
-    "uv_index": 1.94,
-    "pressure": 1024,
+    "humidity": 48,
+    "uv_index": 2.97,
+    "pressure": 1023,
     "moon_phase": 0.58,
     "visibility": 10000,
-    "dew_point": 31.26
+    "dew_point": 29.26
   },
   "fiveDayWeather": [
     {
@@ -67,9 +67,9 @@ const data = {
       "high": 65.61,
       "low": 52.77,
       "description": "light rain",
-      "wind_speed": 13.18,
-      "wind_deg": 335,
-      "gust": 28.79,
+      "wind_speed": 14.45,
+      "wind_deg": 322,
+      "gust": 31.68,
       "humidity": 43,
       "uv_index": 2.53,
       "pressure": 1017,
@@ -108,19 +108,27 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [],
+  "weatherAlerts": [
+    {
+      "event": "Freeze Warning",
+      "start": "6:00:00 AM",
+      "end": "3:00:00 PM",
+      "description": "* WHAT...Sub-freezing temperatures as low as 30 expected.\n\n* WHERE...In Louisiana, Evangeline, St. Landry, Allen, Beauregard,\nand Vernon Parishes. In Texas, Northern Jasper, Northern Newton,\nand Tyler Counties.\n\n* WHEN...From midnight tonight to 9 AM CST Friday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+      "sender": "NWS Lake Charles LA"
+    }
+  ],
   "barometricPressureHistory": [
-    1024,
-    1024,
-    1024,
+    1023,
+    1023,
     1023,
     1022,
+    1021,
     1021
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-26T16:07:17.709Z"
+    "checkedAt": "2026-11-26T17:05:58.217Z"
   }
 };
