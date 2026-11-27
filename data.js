@@ -6,30 +6,30 @@ const data = {
       "level": 167.39,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-27T18:00:00+00:00",
+      "observedAt": "2026-11-27T18:45:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-27T18:07:55.021Z",
+    "checkedAt": "2026-11-27T19:04:55.241Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-27T18:07:55.000Z",
+  "weatherObservedAt": "2026-11-27T19:04:55.000Z",
   "currentWeather": {
-    "temp": 56.08,
-    "feels_like": 53.31,
-    "description": "few clouds",
-    "wind_speed": 4.68,
-    "wind_deg": 279,
-    "gust": 13.22,
+    "temp": 59.59,
+    "feels_like": 56.89,
+    "description": "broken clouds",
+    "wind_speed": 4.56,
+    "wind_deg": 271,
+    "gust": 12.8,
     "sunrise": "06:52 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "day",
-    "humidity": 41,
-    "uv_index": 3.11,
-    "pressure": 1022,
+    "humidity": 35,
+    "uv_index": 3.03,
+    "pressure": 1020,
     "moon_phase": 0.62,
     "visibility": 10000,
-    "dew_point": 32.74
+    "dew_point": 31.95
   },
   "fiveDayWeather": [
     {
@@ -41,7 +41,7 @@ const data = {
       "wind_deg": 213,
       "gust": 32.1,
       "humidity": 60,
-      "uv_index": 3.47,
+      "uv_index": 3.66,
       "pressure": 1016,
       "moon_phase": 0.66,
       "dew_point": 54.05,
@@ -56,7 +56,7 @@ const data = {
       "wind_deg": 319,
       "gust": 30.44,
       "humidity": 45,
-      "uv_index": 2.88,
+      "uv_index": 3.65,
       "pressure": 1017,
       "moon_phase": 0.7,
       "dew_point": 39.61,
@@ -71,7 +71,7 @@ const data = {
       "wind_deg": 149,
       "gust": 13.62,
       "humidity": 42,
-      "uv_index": 3.51,
+      "uv_index": 3.36,
       "pressure": 1024,
       "moon_phase": 0.73,
       "dew_point": 34.32,
@@ -86,7 +86,7 @@ const data = {
       "wind_deg": 171,
       "gust": 17.6,
       "humidity": 63,
-      "uv_index": 4,
+      "uv_index": 3.68,
       "pressure": 1020,
       "moon_phase": 0.75,
       "dew_point": 52.45,
@@ -110,17 +110,17 @@ const data = {
   ],
   "weatherAlerts": [],
   "barometricPressureHistory": [
-    1022,
-    1022,
-    1021,
     1020,
     1020,
+    1020,
+    1019,
+    1019,
     1019
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-27T18:07:56.724Z"
+    "checkedAt": "2026-11-27T19:04:56.936Z"
   }
 };
