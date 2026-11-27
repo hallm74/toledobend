@@ -3,50 +3,35 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.47,
+      "level": 167.48,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-27T05:00:00+00:00",
+      "observedAt": "2026-11-27T06:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-27T05:06:53.309Z",
+    "checkedAt": "2026-11-27T06:12:06.810Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-27T05:06:53.000Z",
+  "weatherObservedAt": "2026-11-27T06:12:07.000Z",
   "currentWeather": {
-    "temp": 37.45,
-    "feels_like": 31.3,
-    "description": "broken clouds",
-    "wind_speed": 8.34,
-    "wind_deg": 296,
-    "gust": 16.67,
-    "sunrise": "06:51 AM",
+    "temp": 34.72,
+    "feels_like": 28.18,
+    "description": "few clouds",
+    "wind_speed": 7.94,
+    "wind_deg": 293,
+    "gust": 15.86,
+    "sunrise": "06:52 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "night",
-    "humidity": 65,
+    "humidity": 73,
     "uv_index": 0,
-    "pressure": 1022,
-    "moon_phase": 0.58,
+    "pressure": 1021,
+    "moon_phase": 0.62,
     "visibility": 10000,
-    "dew_point": 27.39
+    "dew_point": 27.55
   },
   "fiveDayWeather": [
-    {
-      "date": "Friday",
-      "high": 61.03,
-      "low": 34.61,
-      "description": "scattered clouds",
-      "wind_speed": 8.19,
-      "wind_deg": 289,
-      "gust": 16.42,
-      "humidity": 41,
-      "uv_index": 3.11,
-      "pressure": 1022,
-      "moon_phase": 0.62,
-      "dew_point": 34.11,
-      "visibility": 10000
-    },
     {
       "date": "Saturday",
       "high": 70.77,
@@ -60,7 +45,7 @@ const data = {
       "pressure": 1015,
       "moon_phase": 0.66,
       "dew_point": 52.81,
-      "visibility": 9976
+      "visibility": 10000
     },
     {
       "date": "Sunday",
@@ -75,7 +60,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.7,
       "dew_point": 42.33,
-      "visibility": "Unavailable"
+      "visibility": 9976
     },
     {
       "date": "Monday",
@@ -106,6 +91,21 @@ const data = {
       "moon_phase": 0.75,
       "dew_point": 54.81,
       "visibility": "Unavailable"
+    },
+    {
+      "date": "Wednesday",
+      "high": 74.89,
+      "low": 55.51,
+      "description": "overcast clouds",
+      "wind_speed": 8.55,
+      "wind_deg": 164,
+      "gust": 23.2,
+      "humidity": 67,
+      "uv_index": 4,
+      "pressure": 1019,
+      "moon_phase": 0.8,
+      "dew_point": 62.08,
+      "visibility": "Unavailable"
     }
   ],
   "weatherAlerts": [
@@ -113,22 +113,22 @@ const data = {
       "event": "Freeze Warning",
       "start": "6:00:00 AM",
       "end": "3:00:00 PM",
-      "description": "* WHAT...Sub-freezing temperatures as low as 30 expected.\n\n* WHERE...In Louisiana, Evangeline, St. Landry, Allen, Beauregard,\nand Vernon Parishes. In Texas, Northern Jasper, Northern Newton,\nand Tyler Counties.\n\n* WHEN...From midnight tonight to 9 AM CST Friday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+      "description": "* WHAT...Sub-freezing temperatures as low as 31 expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...Until 9 AM CST Friday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
       "sender": "NWS Lake Charles LA"
     }
   ],
   "barometricPressureHistory": [
-    1022,
-    1022,
-    1022,
-    1022,
-    1022,
+    1021,
+    1021,
+    1021,
+    1021,
+    1021,
     1021
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-27T05:06:55.263Z"
+    "checkedAt": "2026-11-27T06:12:09.158Z"
   }
 };
