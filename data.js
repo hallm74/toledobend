@@ -3,39 +3,39 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.4,
+      "level": 167.41,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-27T12:00:00+00:00",
+      "observedAt": "2026-11-27T13:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-27T12:10:14.687Z",
+    "checkedAt": "2026-11-27T13:06:58.765Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-27T12:10:15.000Z",
+  "weatherObservedAt": "2026-11-27T13:06:59.000Z",
   "currentWeather": {
-    "temp": 34.63,
-    "feels_like": 28.94,
+    "temp": 34.32,
+    "feels_like": 28.81,
     "description": "overcast clouds",
-    "wind_speed": 6.58,
-    "wind_deg": 289,
-    "gust": 12.95,
+    "wind_speed": 6.24,
+    "wind_deg": 283,
+    "gust": 11.9,
     "sunrise": "06:52 AM",
     "sunset": "05:12 PM",
-    "dayOrNight": "night",
-    "humidity": 82,
+    "dayOrNight": "day",
+    "humidity": 84,
     "uv_index": 0,
-    "pressure": 1021,
+    "pressure": 1022,
     "moon_phase": 0.62,
     "visibility": 10000,
-    "dew_point": 29.98
+    "dew_point": 30.24
   },
   "fiveDayWeather": [
     {
       "date": "Saturday",
-      "high": 70.47,
-      "low": 41.36,
+      "high": 72.28,
+      "low": 39.61,
       "description": "scattered clouds",
       "wind_speed": 13.78,
       "wind_deg": 215,
@@ -60,7 +60,7 @@ const data = {
       "pressure": 1016,
       "moon_phase": 0.7,
       "dew_point": 41.7,
-      "visibility": 10000
+      "visibility": 9782
     },
     {
       "date": "Monday",
@@ -118,17 +118,17 @@ const data = {
     }
   ],
   "barometricPressureHistory": [
-    1021,
-    1021,
+    1022,
     1022,
     1022,
     1023,
-    1023
+    1023,
+    1022
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-27T12:10:16.404Z"
+    "checkedAt": "2026-11-27T13:07:01.462Z"
   }
 };
