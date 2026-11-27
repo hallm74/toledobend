@@ -6,30 +6,30 @@ const data = {
       "level": 167.41,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-27T14:00:00+00:00",
+      "observedAt": "2026-11-27T15:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-27T14:07:11.332Z",
+    "checkedAt": "2026-11-27T15:06:37.309Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-27T14:07:11.000Z",
+  "weatherObservedAt": "2026-11-27T15:06:38.000Z",
   "currentWeather": {
-    "temp": 36.43,
-    "feels_like": 31.28,
+    "temp": 41.97,
+    "feels_like": 38.08,
     "description": "broken clouds",
-    "wind_speed": 6.31,
-    "wind_deg": 290,
-    "gust": 13.09,
+    "wind_speed": 6.04,
+    "wind_deg": 289,
+    "gust": 14.5,
     "sunrise": "06:52 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "day",
-    "humidity": 84,
-    "uv_index": 0.22,
-    "pressure": 1022,
+    "humidity": 74,
+    "uv_index": 0.82,
+    "pressure": 1023,
     "moon_phase": 0.62,
     "visibility": 10000,
-    "dew_point": 32.07
+    "dew_point": 34.3
   },
   "fiveDayWeather": [
     {
@@ -108,27 +108,19 @@ const data = {
       "visibility": "Unavailable"
     }
   ],
-  "weatherAlerts": [
-    {
-      "event": "Freeze Warning",
-      "start": "6:00:00 AM",
-      "end": "3:00:00 PM",
-      "description": "* WHAT...Sub-freezing temperatures as low as 31 expected.\n\n* WHERE...In Louisiana, Avoyelles, Evangeline, Rapides, St. Landry,\nAllen, Beauregard, and Vernon Parishes. In Texas, Northern Jasper,\nNorthern Newton, and Tyler Counties.\n\n* WHEN...Until 9 AM CST Friday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
-      "sender": "NWS Lake Charles LA"
-    }
-  ],
+  "weatherAlerts": [],
   "barometricPressureHistory": [
-    1022,
-    1022,
-    1022,
+    1023,
+    1023,
     1023,
     1022,
+    1021,
     1020
   ],
   "fishingReport": {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-27T14:07:13.346Z"
+    "checkedAt": "2026-11-27T15:06:39.171Z"
   }
 };
