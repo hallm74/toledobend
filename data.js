@@ -3,33 +3,33 @@ const data = {
     "reading": {
       "station": "USGS-08025350",
       "parameter": "62614",
-      "level": 167.31,
+      "level": 167.32,
       "unit": "ft",
       "datum": "NGVD 1929",
-      "observedAt": "2026-11-28T06:00:00+00:00",
+      "observedAt": "2026-11-28T07:00:00+00:00",
       "provisional": true
     },
-    "checkedAt": "2026-11-28T06:10:53.282Z",
+    "checkedAt": "2026-11-28T07:06:41.333Z",
     "refreshUnavailable": false
   },
   "weatherStatus": "available",
-  "weatherObservedAt": "2026-11-28T06:10:53.000Z",
+  "weatherObservedAt": "2026-11-28T07:06:41.000Z",
   "currentWeather": {
-    "temp": 40.06,
-    "feels_like": 35.53,
+    "temp": 38.82,
+    "feels_like": 33.93,
     "description": "clear sky",
-    "wind_speed": 6.49,
-    "wind_deg": 210,
-    "gust": 11.54,
+    "wind_speed": 6.67,
+    "wind_deg": 217,
+    "gust": 11.63,
     "sunrise": "06:52 AM",
     "sunset": "05:12 PM",
     "dayOrNight": "night",
-    "humidity": 84,
+    "humidity": 88,
     "uv_index": 0,
     "pressure": 1019,
     "moon_phase": 0.66,
     "visibility": 10000,
-    "dew_point": 35.64
+    "dew_point": 35.58
   },
   "fiveDayWeather": [
     {
@@ -45,7 +45,7 @@ const data = {
       "pressure": 1013,
       "moon_phase": 0.7,
       "dew_point": 44.47,
-      "visibility": 10000
+      "visibility": 9969
     },
     {
       "date": "Monday",
@@ -60,7 +60,7 @@ const data = {
       "pressure": 1023,
       "moon_phase": 0.73,
       "dew_point": 35.62,
-      "visibility": 9689
+      "visibility": 9720
     },
     {
       "date": "Tuesday",
@@ -113,7 +113,7 @@ const data = {
     1019,
     1019,
     1019,
-    1019,
+    1018,
     1018,
     1018
   ],
@@ -121,6 +121,6 @@ const data = {
     "date": "Reports on hold",
     "report": "TPWD weekly fishing reports are currently on hold while the agency updates its data collection methods. Past reports remain available at TPWD.",
     "status": "on-hold",
-    "checkedAt": "2026-11-28T06:10:55.337Z"
+    "checkedAt": "2026-11-28T07:06:43.814Z"
   }
 };
